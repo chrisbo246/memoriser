@@ -49,6 +49,11 @@ exclude:
 
 # ------------------------------------------------------------------------------
 
+sass:
+  load_paths:
+    - _sass
+    - bower_components/bootstrap/scss
+
 collections:
   definition_lists:
     output: true
