@@ -49,11 +49,6 @@ exclude:
 
 # ------------------------------------------------------------------------------
 
-sass:
-  load_paths:
-    - _sass
-    - bower_components/bootstrap/scss
-
 collections:
   definition_lists:
     output: true
@@ -124,12 +119,14 @@ keep_files:
   - bower_components/tether/dist/js/tether.min.js
   - bower_components/bootstrap/dist/js/bootstrap.min.js
   - bower_components/lazysizes/lazysizes.min.js
+  - bower_components/bootstrap/scss/
 
-#sass:
-#  style: compressed
+sass:
+  style: compressed
 #  sass_dir: _sass
-#  load_paths:
-#    - _sass
+  load_paths:
+    - _sass
+    - bower_components/bootstrap/scss
 #    - bower_components/bootstrap-sass/assets/stylesheets
 #    - bower_components/bootstrap/scss
 
