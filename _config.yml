@@ -1,0 +1,162 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: MEMOLINGUO
+email: chrisbo246@gmail.com
+description: >
+  Des listes de vocabulaire Anglais et Russe regroupant des mots composés et
+  expressions courantes difficile à apprendre autrement que par la pratique.
+baseurl: "/memolinguo" # the subpath of your site, e.g. /blog
+url: "https://chrisbo246.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: chrisbo246
+github_username:  chrisbo246
+
+# Build settings
+markdown: kramdown
+theme: minima
+#theme: jekyll-theme-cayman
+
+# https://pages.github.com/versions/
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - wdm
+#  - jekyll-feed
+#  - jekyll-github-metadata
+#  - jekyll-mentions
+#  - jekyll-redirect-from
+#  - jekyll-sitemap
+#  - jemoji
+
+# Do not compile and copy this files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - bower_components
+  - node_modules
+
+# ------------------------------------------------------------------------------
+
+collections:
+  definition_lists:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      #layout: "default"
+      author: "chrisbo246"
+      lang: "fr"
+      date: 2017-01-01 16:16:16 +0100
+  -
+    scope:
+      path: ""
+      type: "definition_lists"
+    values:
+      layout: "definition-list"
+      permalink: /:categories/:title.html
+      comments: true
+  -
+    scope:
+      path: "_posts/fr"
+      type: "posts"
+    values:
+      layout: "definition-lists"
+      permalink: /:categories/:title.html
+      comments: true
+      categories: [FR]
+      #image: "assets/images/posts/fr-en.jpg"
+  -
+    scope:
+      path: "_posts/fr-en"
+      type: "posts"
+    values:
+      layout: "definition-lists"
+      permalink: /:categories/:title.html
+      comments: true
+      categories: ["FR-EN"]
+      #image: "assets/images/posts/fr-en.jpg"
+  -
+    scope:
+      path: "_posts/fr-ru"
+      type: "posts"
+    values:
+      layout: "definition-lists"
+      permalink: /:categories/:title.html
+      comments: true
+      categories: ["FR-RU"]
+      ##image: "assets/images/posts/fr-ru.jpg"
+
+
+
+# Jekyll files
+#source: demo
+
+# Compiled website
+#destination: demo/site
+
+# Copy this files to the destination directory (site)
+include:
+  - .htaccess
+
+# Do not clean this files in the destination directory (site)
+keep_files:
+  - bower_components/jquery/dist/jquery.min.js
+  - bower_components/tether/dist/js/tether.min.js
+  - bower_components/bootstrap/dist/js/bootstrap.min.js
+  - bower_components/lazysizes/lazysizes.min.js
+
+#sass:
+#  style: compressed
+#  sass_dir: _sass
+#  load_paths:
+#    - _sass
+#    - bower_components/bootstrap-sass/assets/stylesheets
+#    - bower_components/bootstrap/scss
+
+# https://github.com/jekyll/minima
+lang: en
+disqus:
+  shortname: memolinguo
+
+# https://github.com/jekyll/github-metadata
+repository: chrisbo246/memolinguo
+github:
+  url: https://chrisbo246.github.io/memolinguo/
+
+# https://github.com/jekyll/jekyll-seo-tag
+logo: assets/images/logos/android-chrome-512x512.png
+webmaster_verifications:
+  google: ""
+  bing: ""
+  alexa: ""
+  yandex: ""
+twitter:
+  username: chrisbo246
+facebook:
+  app_id: 1234
+  publisher: 1234
+  admins: 1234
+#social:
+#  name:
+#  links: []
+
+# Custom variables
+array: []
+headers:
+  api-user-agent: mediawiki-loader/1.0
+  origin: https://chrisbo246.github.io/memolinguo

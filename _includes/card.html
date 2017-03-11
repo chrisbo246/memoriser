@@ -1,0 +1,96 @@
+{% assign post = include.post %}
+
+{% assign src = nil %}
+{% if post.image and page.card.image != false %}
+    {% if post.image contains 'http://' or post.image contains 'https://' %}
+        {% assign src = post.image %}
+    {% else %}
+        {% assign src = post.image | relative_url %}
+    {% endif %}
+{% endif %}
+
+{% assign card-classes = 'card' | split: ' ' %}
+{% if src %}
+    {% if page.card.image_position == 'overlay' %}
+        {% assign card-classes = card-classes | push: 'card-inverse' %}
+    {% endif %}
+    {% if post.tags contains 'featured' %}
+        {% assign card-classes = card-classes | push: 'card-inverse' | push: 'card-primary' %}
+    {% endif %}
+    {% if page.card.text_align %}
+        {% capture class %}text-{{ page.card.text_align }}{% endcapture %}
+        {% assign card-classes = card-classes | push: class %}
+    {% endif %}
+{% endif %}
+
+{% if src %}
+    {% assign card-img-classes = 'img-fluid lazyload' | split: ' ' %}
+    {% if page.card.image_position == 'top' or page.card.image_position == 'bottom' %}
+        {% capture class %}card-img-{{ page.card.image_position }}{% endcapture %}
+        {% assign card-img-classes = card-img-classes | push: class %}
+    {% else %}
+        {% assign card-img-classes = card-img-classes | push: 'card-img' %}
+    {% endif %}
+{% endif %}
+
+{% assign card-block-classes = '' | split: ' ' %}
+{% if src %}
+    {% if page.card.image_position == 'overlay' %}
+        {% assign card-block-classes = card-block-classes | push: 'card-img-overlay' %}
+    {% else %}
+        {% assign card-block-classes = card-block-classes | push: 'card-block' %}
+    {% endif %}
+{% else %}
+    {% assign card-block-classes = card-block-classes | push: 'card-block' %}
+{% endif %}
+
+{% assign title = post.title | split: ':' | last | strip %}
+{% assign subtitle = post.title | split: ':' | first | strip %}
+{% if post.subtitle %}
+    {% assign subtitle = post.subtitle %}
+{% elsif title == subtitle %}
+    {% assign subtitle = nil %}
+{% endif %}
+
+{% if page.card.more_button %}
+    {% assign more-link-classes = 'btn btn-primary' | split: ' ' %}
+    {% assign more-link-text = page.card.more_button %}
+{% elsif page.card.more_link %}
+    {% assign more-link-classes = 'card-link' | split: ' ' %}
+    {% assign more-link-text = page.card.more_link %}
+{% endif %}
+
+<div class="{{ card-classes | join: ' ' }}" >
+
+    {% if src %}
+    <img class="{{ card-img-classes | join: ' ' }}" src="{{ src }}" alt="{{ post.title }}">
+    {% endif %}
+
+    <div class="{{ card-block-classes | join: ' ' }}">
+
+        {% if title %}
+        <h4 class="card-title"><a class="card-link" href="{{ post.url | relative_url }}">{{ title | escape }}</a></h4>
+        {% endif %}
+
+        {% if subtitle %}
+        <h6 class="card-subtitle mb-2 text-muted">{{ subtitle | escape }}</h6>
+        {% endif %}
+
+        {% if post.excerpt %}
+        <p class="card-text">{{ post.excerpt | escape }}</p>
+        {% endif %}
+
+        {% if more-link-text %}
+        <a href="{{ post.url | relative_url }}" class="{{ more-link-classes | join: ' ' }}">{{ more-link-text | escape }}</a>
+        {% endif %}
+
+    </div>
+
+    {% if page.card.date or page.card.categories %}
+    <div class="card-footer">
+        {% if page.card.date %}<small class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
+        {% if page.card.categories %}<small class="text-muted">{{ post.categories | join: ' ' | push: post.category }}</small>{% endif %}
+    </div>
+    {% endif %}
+
+</div>

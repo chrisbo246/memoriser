@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+<div class="home">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3"><span class="badge badge-warning pull-right">BETA</span>{{ page.title }}</h1>
+            <p class="lead">{{ page.excerpt }}</p>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        {% comment%}{% endcomment%}
+        {% assign posts = site.pages | where_exp: 'item', 'item.categories != nil'  | sort: 'title' %}
+        {% if posts.size > 0 %}
+        <section class="row">
+            <div class="col">
+                <div class="card-deck">
+                    {% for post in posts %}
+                    {% include card.html post=post %}
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+
+        {% assign categories = 'FR EN' | split: ' ' %}
+        {% include related-posts.html categories=categories %}
+        {% if posts.size > 0 %}
+        <section class="row">
+            <div class="col">
+                <div class="-card-deck card-columns">
+                    {% for post in posts %}
+                    {% include card.html post=post %}
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
+        {% if content %}
+        <section class="row">
+            <div class="col">
+                {{ content }}
+            </div>
+        </section>
+        {% endif %}
+
+        <!--
+        {% comment %}
+        <section class="row">
+            <div class="col">
+
+                <h1>Définitions</h1>
+                {% include related-posts.html type="definition_lists" %}
+                {% if posts.size > 0 %}
+                {% assign posts = posts | sort: 'title' %}
+                {% for post in posts offset: 0 limit: 5 %}
+                <div>
+                    <h3>
+                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                    </h3>
+                </div>
+                {% endfor %}
+                {% endif %}
+
+
+                {% assign posts = site.posts | sort: 'date', 'last' %}
+                {% if posts.size > 0 %}
+                <h1>Derniers articles</h1>
+                <ul class="post-list list-unstyled">
+                    {% for post in posts offset: 0 limit: 5 %}
+                    <li>
+                        {% if page.card.date %}
+                        <span class="post-meta text-muted">{{ post.date | date: "%b %-d, %Y" }}</span>
+                        {% endif %}
+                        <h3>
+                            <a class="post-link" href="{{ post.url | relative_url }}">
+                                {{ post.title | escape }}
+                            </a>
+                        </h3>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% if posts.size > 0 %}
+                <a href="{{ "posts.html" | relative_url }}">Plus d'articles...</a>
+                {% endif %}
+                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+                {% endif %}
+
+            </div>
+        </section>
+        {% endcomment %}
+        -->
+
+    </div>
+</div>

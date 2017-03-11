@@ -1,0 +1,82 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "variables-bootswatch-materia";
+@import "../bower_components/bootstrap/scss/bootstrap.scss";
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+$menu-toggler-size: 50px;
+$menu-toggler-radius: $border-radius;
+$hamburger-size: 30px;
+$hamburger-margin: 10px;
+$hamburger-layer-thickness: 4px;
+
+@import "hamburger-menu";
+@import "flipcard";
+@import "dl-flexbox";
+@import "scrollbar";
+@import "social-icons";
+@import "adsense";
+
+@include scrollbars(.5em, $brand-primary, $gray-dark);
+
+body {
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    //background: #eee url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/candyhole.png);
+    //background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/square_bg.png);
+}
+
+.post-content {
+    h2 {
+        color: $gray-lightest;
+    }
+}
+
+dl.card-columns,
+dl.d-flex {
+    & > label {
+        margin-bottom: 0;
+        input[type="checkbox"] {
+            display: none;
+        }
+        input[type="checkbox"]:checked {
+            & + .card {
+                opacity: .25;
+            }
+        }
+    }
+}
+
+label.menu-container {
+    .menu-toggler {
+        position: fixed;
+    }
+}
+
+.sticky-sidebar {
+    -webkit-position: sticky;
+    position: sticky;
+    top: 20px;
+    bottom: 20px;
+}
+
+.card-inverse {
+    .card-img {
+       filter: brightness(75%) saturate(50%);
+    }
+    .text-muted {
+        //color: $inverse-color;
+        //color: rgba(#fff, .5) !important;
+    }
+}
+
+.alert {
+    //margin-right: $menu-toggler-size;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "memolinguo",
+  "homepage": "https://github.com/chrisbo246/memolinguo",
+  "authors": [
+    "Chrisbo <chrisbo246@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "directory": "bower_components/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "tether": "^1.4.0",
+    "bootstrap": "v4.0.0-alpha.6",
+    "lazysizes": "^3.0.0"
+  }
+}

@@ -1,0 +1,68 @@
+
+{% if include.type %}
+    {% assign type = include.type %}
+{% elsif page.collection_type %}
+    {% assign type = page.collection_type %}
+{% elsif page.collection %}
+    {% assign type = page.collection %}
+{% else %}
+    {% assign type = 'posts' %}
+{% endif %}
+
+
+{% if include.categories %}
+    {% assign categories = include.categories %}
+{% else %}
+    {% assign categories = '' | split: ' ' %}
+    {% if page.categories.size > 0 %}
+        {% assign categories = page.categories %}
+    {% endif %}
+    {% if page.category.size > 0 %}
+        {% assign categories = categories | push: page.category %}
+    {% endif %}
+{% endif %}
+{% assign categories = categories | uniq %}
+
+
+{% if include.tags %}
+    {% assign tags = include.tags | uniq %}
+{% elsif page.tags.size > 0 %}
+    {% assign tags = page.tags | uniq %}
+{% endif %}
+
+
+{% assign posts = '' | split: ' ' %}
+
+
+{% if site[type] and site[type].size > 0 %}
+    {% if categories.size > 0 %}
+        {% for post in site[type] %}
+
+            {% assign match_categories = true %}
+            {% for category in categories %}
+                {% unless post.categories contains category or post.category == category %}
+                {% assign match_categories = false %}
+                {% break %}
+                {% endunless %}
+            {% endfor %}
+
+
+            {% assign match_tags = true %}
+            {% if tags.size > 0 %}
+                {% assign match_tags = false %}
+                {% for tag in tags %}
+                    {% if post.tags contains tag %}
+                        {% assign match_tags = true %}
+                        {% break %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+
+
+            {% if match_categories != false and match_tags != false %}
+                {% assign posts = posts | push: post %}
+            {% endif %}
+
+        {% endfor %}
+    {% endif %}
+{% endif %}

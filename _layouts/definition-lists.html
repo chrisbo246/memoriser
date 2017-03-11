@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="container-fluid">
+
+    <div id="local-storage-tip" class="alert alert-info alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <strong>Quick tip!</strong> Click on the cards you have already memorized to differentiate them. Your selection will be kept locally until your next visit.
+    </div>
+
+    <div class="row">
+        <div class="col col-md-3 -pull-right">
+            <div class="sticky-sidebar">
+                <div class="-card -card-primary -card-inverse">
+                    <div class="-card-block">
+                        <ul id="index" class="nav nav-pills flex-column">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+                <div class="post-content definition-list" itemprop="articleBody" style="visibility: hidden;">
+                    {{ content }}
+                </div>
+
+                {% if site.disqus.shortname %}
+                {% include disqus_comments.html %}
+                {% endif %}
+
+            </article>
+        </div>
+    </div>
+</div>

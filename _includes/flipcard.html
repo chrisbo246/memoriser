@@ -1,0 +1,35 @@
+{% assign post = include.post %}
+
+<figure class="card card-flip">
+
+    <div class="card card-inverse">
+        {% if post.image and page.options.image != false %}
+        {% if post.image contains 'http://' or post.image contains 'https://' %}
+        {% assign src = post.image %}
+        {% else %}
+        {% assign src = post.image | relative_url %}
+        {% endif %}
+        <img class="card-img lazyload" src="{{ src }}" alt="Card image cap">
+        {% endif %}
+        <div class="card-img-overlay text-center">
+            <h4 class="card-title">{{ post.title | escape }}</h4>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-block text-center -card-primary -text-xs-center -card-img-overlay">
+            <!--<h4 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>-->
+            {% if post.subtitle %}
+            <h6 class="card-subtitle mb-2 text-muted">{{ post.subtitle | escape }}</h6>
+            {% endif %}
+            <p class="card-text">{{ post.excerpt }}</p>
+            {% if page.options.more_link != false %}
+            <a href="{{ post.url | relative_url }}" class="card-link -btn -btn-primary">More</a>
+            {% endif %}
+            <div class="card-footer" hidden>
+                <small class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>
+            </div>
+        </div>
+    </div>
+
+</figure>

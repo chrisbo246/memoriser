@@ -1,0 +1,84 @@
+<footer class="site-footer">
+
+    <div class="container-fluid wrapper">
+<!--
+        <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+        <div class="row footer-col-wrapper">
+
+            <div class="col-md-6 footer-col footer-col-1">
+                <ul class="contact-list">
+                    <li>
+                        {% if site.author %}
+                        {{ site.author | escape }}
+                        {% else %}
+                        {{ site.title | escape }}
+                        {% endif %}
+                    </li>
+                    {% if site.email %}
+                    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div class="col-md-6 footer-col footer-col-2">
+                <ul class="social-media-list">
+                    {% if site.github_username %}
+                    <li>
+                        {% include icon-github.html username=site.github_username %}
+                    </li>
+                    {% endif %}
+
+                    {% if site.twitter_username %}
+                    <li>
+                        {% include icon-twitter.html username=site.twitter_username %}
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-col footer-col-3">
+            <p>{{ site.description | escape }}</p>
+        </div>
+-->
+    </div>
+
+</footer>
+
+<div class="ad_container">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle relative-center"
+    style="display:block"
+    data-ad-client="ca-pub-8495719252049968"
+    data-ad-slot="3723415549"
+    data-ad-format="auto"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+<div class="container-fluid">
+{% if page.lang and page.src-lang %}
+<div class="row">
+    <div class="">
+        <div id="ytWidget"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang={{ page.lang }}&widgetTheme=light&trnslKey=trnsl.1.1.20170126T174835Z.60d9a0f54ac44aef.fc3b4dab14cf7c81caf5fe57769a769ab427a872&autoMode=false" type="text/javascript"></script>
+    </div>
+</div>
+<script>
+var _yandexTranslateParams = {
+    key: 'trnsl.1.1.20170126T174835Z.60d9a0f54ac44aef.fc3b4dab14cf7c81caf5fe57769a769ab427a872',
+    lang: '{{ page.src-lang }}-{{ page.lang }}'
+};
+</script>
+<div class="yandex-translate-mention"></div>
+{% endif %}
+</div>
+
+<script src="{{ "/bower_components/jquery/dist/jquery.min.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/tether/dist/js/tether.min.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/bootstrap/dist/js/bootstrap.min.js" | relative_url }}"></script>
+<script src="{{ "/bower_components/lazysizes/lazysizes.min.js" | relative_url }}"></script>
+<script src="{{ "/assets/yandexTranslate.js" | relative_url }}"></script>
+<script src="{{ "/assets/main.js" | relative_url }}"></script>
+<!--<script src="{{ "/assets/image.js" | relative_url }}"></script>-->

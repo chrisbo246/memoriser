@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="container-fluid">
+
+    {% if page.title %}
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+        {% if page.subtitle %}
+        <h6 class="mb-2 text-muted">{{ post.subtitle | escape }}</h6>
+        {% endif %}
+    </header>
+    {% endif %}
+
+    <div class="row">
+        {{ content }}
+    </div>
+
+    {% include related-posts.html %}
+    {% if posts.size > 0 %}
+    {% assign posts = posts | sort: 'title' %}
+    <div class="-card-deck card-columns">
+        {% for post in posts %}
+        {% include card.html post=post %}
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="alert alert-info" role="alert">
+        <strong>Oups!</strong> Nothing yet, sorry...
+    </div>
+    {% endif %}
+
+</div>

@@ -1,0 +1,119 @@
+$body-color: #000 !default;
+$body-bg: #FFF !default;
+
+$menu-toggler-color: $body-color !default;
+$menu-toggler-bg: $body-bg !default;
+$menu-toggler-size: 80px !default;
+$menu-toggler-radius: 100% !default;
+
+$hamburger-size: 30px !default;
+$hamburger-margin: 15px !default;
+$hamburger-layer-thickness: 4px !default;
+
+$menu-color: $body-color !default;
+$menu-bg: $body-bg !default;
+
+
+
+label.menu-container {
+
+    display: block;
+
+    .menu-toggler {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 100;
+        width: $menu-toggler-size;
+        min-height: $menu-toggler-size;
+        background: $menu-toggler-bg;
+        transition: .5s ease-in-out;
+        //transition: width .5s ease-in-out, height .5s ease-in-out;
+        //box-shadow: 0 0 0 0 $menu-bg, 0 0 0 0 $menu-bg;
+        cursor: pointer;
+        border-radius: 0 0 0 $menu-toggler-radius;
+    }
+
+    .hamburger {
+
+        position: absolute;
+        top: $hamburger-margin + $hamburger-size / 2 - $hamburger-layer-thickness / 2;
+        right: $hamburger-margin;
+        width: $hamburger-size;
+        height: $hamburger-layer-thickness;
+        background: $menu-toggler-color;
+        display: block;
+        transform-origin: center;
+        transition: .5s ease-in-out;
+        //box-shadow: 0 0 $hamburger-layer-thickness ($hamburger-layer-thickness / 2) $menu-bg;
+
+        &:after,
+        &:before {
+            transition: .5s ease-in-out;
+            content: "";
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: $body-color;
+            //box-shadow: 0 0 $hamburger-layer-thickness ($hamburger-layer-thickness / 2) $menu-bg;
+        }
+
+        &:before {
+            top: -$hamburger-size / 2 + $hamburger-layer-thickness / 2;
+        }
+
+        &:after {
+            bottom: -$hamburger-size / 2 + $hamburger-layer-thickness / 2;
+        }
+
+    }
+
+    & > input {
+
+        display: none;
+
+        &:checked + .menu-toggler {
+
+            //box-shadow: 0 0 0 100vw $menu-bg, 0 0 0 100vh $menu-bg;
+            background: $menu-bg;
+            width: 100%;
+            min-height: 100vh;
+            border-radius: 0;
+
+            .hamburger {
+                transform: rotate(45deg);
+                &:after {
+                    transform: rotate(90deg);
+                    bottom: 0;
+                }
+                &:before {
+                    transform: rotate(90deg);
+                    top: 0;
+                }
+            }
+
+            & + .menu {
+                visibility: visible;
+                opacity: 1;
+            }
+
+        }
+    }
+
+    .menu {
+        z-index: 200;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        transition: .25s .5s ease-in;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        .col {
+            max-height: 100vh;
+            overflow: auto;
+        }
+    }
+
+}
