@@ -5,8 +5,21 @@ _site
 .tmp
 *.log
 
-node_modules
-
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+node_modules
+
+bower_components/bootstrap/*
+!bower_components/bootstrap/dist
+!bower_components/bootstrap/scss
+
+bower_components/jquery/*
+!bower_components/jquery/dist
+
+bower_components/lazysizes/*
+!bower_components/lazysizes/*.js
+
+bower_components/tether/*
+!bower_components/tether/dist

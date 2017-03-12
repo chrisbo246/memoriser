@@ -119,7 +119,6 @@ keep_files:
   - bower_components/tether/dist/js/tether.min.js
   - bower_components/bootstrap/dist/js/bootstrap.min.js
   - bower_components/lazysizes/lazysizes.min.js
-  - bower_components/bootstrap/scss/
 
 sass:
   style: compressed
@@ -127,8 +126,6 @@ sass:
   load_paths:
     - _sass
     - bower_components/bootstrap/scss
-#    - bower_components/bootstrap-sass/assets/stylesheets
-#    - bower_components/bootstrap/scss
 
 # https://github.com/jekyll/minima
 lang: en
