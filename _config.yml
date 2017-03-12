@@ -40,13 +40,46 @@ gems:
 #  - jekyll-sitemap
 #  - jemoji
 
-# Do not compile and copy this files
+sass:
+  style: compressed
+#  sass_dir: _sass
+  load_paths:
+    - _sass
+    - bower_components/bootstrap/scss
+
+
+# ------------------------------------------------------------------------------
+# Include / Exclude / Path
+# ------------------------------------------------------------------------------
+
+# Jekyll files
+# source: demo
+
+# Compiled website
+# destination: demo/site
+
+# Do not compile and copy this files to the destination directory (_site) when running jekyll build
 exclude:
   - Gemfile
   - Gemfile.lock
-  - bower_components
+  - README.md
+  - screenshot.jpg
+  - bower.json
   - node_modules
 
+# Copy previously excluded files to the destination directory when running jekyll build
+include:
+  - .htaccess
+  - bower_components
+
+# Do not delete this manually moved files from the destination directory when running jekyll build
+keep_files:
+#  -
+
+
+
+# ------------------------------------------------------------------------------
+# Collections & defaults
 # ------------------------------------------------------------------------------
 
 collections:
@@ -103,29 +136,9 @@ defaults:
 
 
 
-# Jekyll files
-#source: demo
-
-# Compiled website
-#destination: demo/site
-
-# Copy this files to the destination directory (site)
-include:
-  - .htaccess
-
-# Do not clean this files in the destination directory (site)
-keep_files:
-  - bower_components/jquery/dist/jquery.min.js
-  - bower_components/tether/dist/js/tether.min.js
-  - bower_components/bootstrap/dist/js/bootstrap.min.js
-  - bower_components/lazysizes/lazysizes.min.js
-
-sass:
-  style: compressed
-#  sass_dir: _sass
-  load_paths:
-    - _sass
-    - bower_components/bootstrap/scss
+# ------------------------------------------------------------------------------
+# Plugins
+# ------------------------------------------------------------------------------
 
 # https://github.com/jekyll/minima
 lang: en
@@ -154,7 +167,11 @@ facebook:
 #  name:
 #  links: []
 
-# Custom variables
+
+# ------------------------------------------------------------------------------
+# Custom
+# ------------------------------------------------------------------------------
+
 array: []
 headers:
   api-user-agent: mediawiki-loader/1.0

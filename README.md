@@ -1,8 +1,8 @@
 # MEMOLINGUO
 
-[Website](https://chrisbo246.github.io/memolinguo/)
-
 Easy to write / learn vocabulary lists powered by Jekyll and Bootstrap 4.
+
+[Website](https://chrisbo246.github.io/memolinguo/)
 
 ![MEMOLINGUO](screenshot.jpg)
 
