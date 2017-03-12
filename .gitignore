@@ -6,8 +6,6 @@ _site
 *.log
 
 node_modules
-bower_components
-assets/bower_components
 
 Thumbs.db
 ehthumbs.db
