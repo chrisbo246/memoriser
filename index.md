@@ -7,16 +7,19 @@ lang: fr
 title: "Enrichissez votre vocabulaire avec MEMOLINGUO"
 description: "Des listes de vocabulaire Français, Anglais et Russe regroupant des mots composés et expressions courantes difficile à apprendre autrement que par la pratique."
 excerpt: "MEMOLINGUO vous propose des listes de vocabulaire regroupant des mots composés et expressions courantes difficile à apprendre autrement que par la pratique. Passez à la vitesse supérieure!"
-categories:
+collection_type:
+tags: []
+category:
+categories: [FR, FR-EN, FR-RU]
 nav:
-  id: "main-nav"
+  id:
   label: "Accueil"
   position: 1
   icon: "fa fa-home"
 card:
   image: true
   date: false
-  image_position: "overlay"
+  image_position: "top"
   text_align: "center"
   #more_button: "Lire"
 ---

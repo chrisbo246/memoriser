@@ -25,18 +25,22 @@ $screen-xl-min: 1200px !default;
             height: $ad-height;
         }
     }
+    .container > .navbar.fixed-top,
+    .container-fluid > .navbar.fixed-top,
+    .container > .navbar.fixed-bottom,
+    .container-fluid > .navbar.fixed-bottom,
     .container,
     .container-fluid {
         padding-left: $ad-width + $ad-gutter-width + floor(($content-gutter-width / 2));
     }
-    .modal .container,
-    .modal .container-fluid,
-    .container .container,
-    .container-fluid .container-fluid,
-    .container .container-fluid,
-    .container-fluid .container {
-        padding-left: floor(($content-gutter-width / 2)) !important;
-    }
+    //.modal .container,
+    //.modal .container-fluid,
+    //.container .container,
+    //.container-fluid .container-fluid,
+    //.container .container-fluid,
+    //.container-fluid .container {
+    //    padding-left: floor(($content-gutter-width / 2)) !important;
+    //}
 }
 
 @mixin horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {

@@ -4,34 +4,39 @@
 
 @charset "utf-8";
 
+// Bootstrap
 @import "variables-bootswatch-materia";
 @import "bootstrap";
 
+// Font-awesome
 $fa-font-path: "../bower_components/font-awesome/fonts";
 @import "font-awesome";
 
+// Hamburger menu
+//$menu-toggler-size: 50px;
+//$menu-toggler-radius: $border-radius;
+//$hamburger-size: 30px;
+//$hamburger-margin: 10px;
+//$hamburger-layer-thickness: 4px;
+//@import "hamburger-menu";
 
-$menu-toggler-size: 50px;
-$menu-toggler-radius: $border-radius;
-$hamburger-size: 30px;
-$hamburger-margin: 10px;
-$hamburger-layer-thickness: 4px;
-
-@import "hamburger-menu";
-@import "flipcard";
-@import "dl-flexbox";
 @import "scrollbar";
+@include scrollbars(.5em, $brand-primary, $gray-dark);
+
+//@import "flipcard";
+@import "dl-flexbox";
 @import "social-icons";
 @import "adsense";
 
-@include scrollbars(.5em, $brand-primary, $gray-dark);
-
 body {
-    padding-top: 20px;
-    padding-right: 50px;
+    padding-top: 80px;
     padding-bottom: 20px;
-    //background: #eee url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/candyhole.png);
-    //background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/square_bg.png);
+}
+
+.sidebar.sticky-top {
+    top: 80px;
+    bottom: 20px;
+    z-index: initial;
 }
 
 .post-content {
@@ -55,19 +60,6 @@ dl.d-flex {
     }
 }
 
-label.menu-container {
-    .menu-toggler {
-        position: fixed;
-    }
-}
-
-.sticky-sidebar {
-    -webkit-position: sticky;
-    position: sticky;
-    top: 20px;
-    bottom: 20px;
-}
-
 .card-inverse {
     .card-img {
        filter: brightness(75%) saturate(50%);
@@ -78,10 +70,6 @@ label.menu-container {
     }
 }
 
-.alert {
-    //margin-right: $menu-toggler-size;
-}
-
 // Hide images until they are fully loaded
 .lazyload,
 .lazyloading {
@@ -90,9 +78,4 @@ label.menu-container {
 .lazyloaded {
     opacity: 1;
     transition: opacity 300ms;
-}
-
-// Restore padding changed by the adsense mixin
-.menu .container-fluid {
-    padding-left: floor(($content-gutter-width / 2)) !important;
 }

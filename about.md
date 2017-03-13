@@ -8,6 +8,6 @@ categories:
 nav:
   id: "main-nav"
   label: "A propos"
-  position: 1
-  icon: "fa fa-envelope"
+  position: 2
+  icon:
 ---

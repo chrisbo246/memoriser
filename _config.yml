@@ -67,6 +67,8 @@ exclude:
   - screenshot.jpg
   - bower.json
   - node_modules
+  - bower_components/*.md
+  - bower_components/*.html
 
 # Copy previously excluded files to the destination directory when running jekyll build
 include:

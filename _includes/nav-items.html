@@ -1,12 +1,10 @@
 {% if include.id %}
-    {% assign posts = site.pages | where_exp: 'item', 'item.nav.id == include.id' | sort: 'title' %}
+    {% assign posts = site.pages | where_exp: 'item', 'item.nav.id == include.id' | sort: 'nav.position', 'first' %}
 {% elsif include.posts %}
     {% assign posts = include.posts %}
 {% else %}
     {% assign posts = site.pages %}
 {% endif %}
-
-{% comment %}{% assign posts = posts | sort: 'nav.position' %}{% endcomment %}
 
 {% if include.class %}
     {% assign class = include.class | split: ' ' %}
@@ -17,7 +15,9 @@
 {% assign navItemClass = include.navItemClass | split: ' ' | push: 'nav-item' %}
 {% assign navLinkClass = include.navLinkClass | split: ' ' | push: 'nav-link' %}
 
-{% for post in posts %}
+{% assign limit = include.limit | default: nil %}
+
+{% for post in posts limit: limit %}
 
 {% assign active = '' %}
 {% if post.url == page.url %}

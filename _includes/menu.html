@@ -1,36 +1,42 @@
-<div class="container-fluid">
-    <div class="row">
-        {% include related-posts.html %}
-        {% if posts.size > 1 %}
-        <div class="col-md-8">
-            <h3>{{ t.related_posts }}</h3>
-            <ul class="nav nav-pills flex-column">
+{% assign array = '' | split: ' ' %}
+{% include related-posts.html type='pages' categories=categories tags=array %}
+{% assign category_root_page = posts.first %}
 
-                {% assign posts = posts | sort: 'title' %}
-                {% include nav-items.html posts=posts %}
+{% include related-posts.html %}
 
-                {% if page.tags.size > 0 %}
-                {% assign array = '' | split: ' ' %}
-                {% include related-posts.html type='pages' categories=categories tags=array %}
-                <div class="dropdown-divider"></div>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ posts.first.url | relative_url }}">{{ t.link_category_home }}</a>
-                </li>
-                {% endif %}
+<div class="row">
+    <div class="col-sm-8">
+        {% if posts.size > 0 %}
+        <h5>
+            <a class="nav-link" href="{{ category_root_page.url | relative_url }}">
+                {{ category_root_page.title }}
+            </a>
+        </h5>
+        <ul class="nav nav-pills flex-column">
 
-            </ul>
-        </div>
+            {% assign posts = posts | sort: 'title' %}
+            {% include nav-items.html posts=posts limit=8 %}
+
+            {% if page.tags.size > 0 or posts.size > 8 %}
+            <div class="dropdown-divider"></div>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ category_root_page.url | relative_url }}">{{ t.display_all }}</a>
+            </li>
+            {% endif %}
+
+        </ul>
         {% endif %}
-        <div class="col-md-4">
-            <ul class="nav nav-pills flex-column">
-                {% include nav-items.html id="main-nav" %}
-                <div class="dropdown-divider"></div>
-                {% include nav-items.html id="secondary-nav" %}
-                <div class="dropdown-divider"></div>
-            </ul>
-            <ul class="nav -justify-content-center">
-                {% include social-nav-items.html %}
-            </ul>
-        </div>
+    </div>
+    <div class="col-sm-4">
+        <ul class="nav nav-pills flex-column">
+            {% include nav-items.html id="secondary-nav" %}
+        </ul>
+        <hr>
+        <ul class="nav nav-pills flex-column">
+            {% include nav-items.html id="main-nav" %}
+        </ul>
+        <ul class="nav">
+            {% include social-nav-items.html %}
+        </ul>
     </div>
 </div>
