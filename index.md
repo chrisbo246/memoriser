@@ -10,7 +10,7 @@ excerpt: "MEMOLINGUO vous propose des listes de vocabulaire regroupant des mots 
 collection_type:
 tags: []
 category:
-categories: [FR, FR-EN, FR-RU]
+categories: []
 nav:
   id:
   label: "Accueil"

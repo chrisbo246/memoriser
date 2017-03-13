@@ -6,12 +6,13 @@
 
 <div class="row">
     <div class="col-sm-8">
-        {% if posts.size > 0 %}
+
         <h5>
             <a class="nav-link" href="{{ category_root_page.url | relative_url }}">
                 {{ category_root_page.title }}
             </a>
         </h5>
+        {% if posts.size > 0 %}
         <ul class="nav nav-pills flex-column">
 
             {% assign posts = posts | sort: 'title' %}
