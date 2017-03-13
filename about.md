@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: fr
 title: "A propos"
 subtitle: "About"
 permalink: /about/

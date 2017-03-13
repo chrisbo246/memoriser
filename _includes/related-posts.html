@@ -1,4 +1,6 @@
 
+{% comment %}
+<!--
 {% if include.type %}
     {% assign type = include.type %}
 {% elsif page.collection_type %}
@@ -8,6 +10,15 @@
 {% else %}
     {% assign type = 'posts' %}
 {% endif %}
+
+{% if include.tags %}
+    {% assign tags = include.tags | uniq %}
+{% elsif page.tags.size > 0 %}
+    {% assign tags = page.tags | uniq %}
+{% endif %}
+-->
+{% endcomment %}
+
 
 
 {% if include.categories %}
@@ -23,13 +34,9 @@
 {% endif %}
 {% assign categories = categories | uniq %}
 
+{% assign tags = include.tags | default: page.tags | default: nil %}
 
-{% if include.tags %}
-    {% assign tags = include.tags | uniq %}
-{% elsif page.tags.size > 0 %}
-    {% assign tags = page.tags | uniq %}
-{% endif %}
-
+{% assign type = include.type | default: page.collection_type | default: page.collection | default: 'posts' %}
 
 {% assign posts = '' | split: ' ' %}
 

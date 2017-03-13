@@ -1,0 +1,36 @@
+<div class="container-fluid">
+    <div class="row">
+        {% include related-posts.html %}
+        {% if posts.size > 1 %}
+        <div class="col-md-8">
+            <h3>{{ t.related_posts }}</h3>
+            <ul class="nav nav-pills flex-column">
+
+                {% assign posts = posts | sort: 'title' %}
+                {% include nav-items.html posts=posts %}
+
+                {% if page.tags.size > 0 %}
+                {% assign array = '' | split: ' ' %}
+                {% include related-posts.html type='pages' categories=categories tags=array %}
+                <div class="dropdown-divider"></div>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ posts.first.url | relative_url }}">{{ t.link_category_home }}</a>
+                </li>
+                {% endif %}
+
+            </ul>
+        </div>
+        {% endif %}
+        <div class="col-md-4">
+            <ul class="nav nav-pills flex-column">
+                {% include nav-items.html id="main-nav" %}
+                <div class="dropdown-divider"></div>
+                {% include nav-items.html id="secondary-nav" %}
+                <div class="dropdown-divider"></div>
+            </ul>
+            <ul class="nav -justify-content-center">
+                {% include social-nav-items.html %}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -17,6 +17,8 @@
   "dependencies": {
     "tether": "^1.4.0",
     "bootstrap": "v4.0.0-alpha.6",
-    "lazysizes": "^3.0.0"
+    "lazysizes": "^3.0.0",
+    "cookieconsent": "^3.0.4",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }

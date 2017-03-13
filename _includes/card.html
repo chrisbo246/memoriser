@@ -63,7 +63,7 @@
 <div class="{{ card-classes | join: ' ' }}" >
 
     {% if src %}
-    <img class="{{ card-img-classes | join: ' ' }}" src="{{ src }}" alt="{{ post.title }}">
+    <img class="{{ card-img-classes | join: ' ' }}" data-src="{{ src }}" alt="{{ post.title }}">
     {% endif %}
 
     <div class="{{ card-block-classes | join: ' ' }}">

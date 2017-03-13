@@ -2,6 +2,23 @@
 (function($, window, document) {
     'use strict';
 
+    // Cookieconsent
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#237afc"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#237afc"
+        }
+      },
+      "theme": "edgeless"
+    })});
+
+
+
     $(function () {
 
         // Searchbox filter
@@ -103,6 +120,28 @@
             }
         });
 
+
+        // Keep closed alert closed
+        if (window.localStorage) {
+            var $alert, key, value;
+            var $alerts = $('.alert-dismissible').filter('[id]');
+            $alerts.each(function () {
+                $alert = $(this);
+                key = $alert.attr('id');
+                value = JSON.parse(localStorage.getItem(key));
+                if (value === 'closed') {
+                    $alert.attr('hidden', '');
+                } else {
+                    $alert.removeAttr('hidden');
+                }
+            });
+            $alerts.on('closed.bs.alert', function () {
+                $alert = $(this);
+                key = $alert.attr('id');
+                value = JSON.stringify('closed');
+                localStorage.setItem(key, value);
+            });
+        }
 
         // Scroll to top while opening the menu
         //$('.menu-container > input[type="checkbox"]').on('click', function () {

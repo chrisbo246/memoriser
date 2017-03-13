@@ -103,17 +103,15 @@ label.menu-container {
 
     .menu {
         z-index: 200;
-        position: absolute;
+        position: fixed;
+        height: 100vh;
+        overflow-y: auto;
         visibility: hidden;
         opacity: 0;
         transition: .25s .5s ease-in;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        .col {
-            max-height: 100vh;
-            overflow: auto;
-        }
     }
 
 }

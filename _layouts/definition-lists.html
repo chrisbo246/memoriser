@@ -1,27 +1,28 @@
 ---
 layout: default
 ---
+
 <div class="container-fluid">
 
-    <div id="local-storage-tip" class="alert alert-info alert-dismissible fade show" role="alert">
+    <div id="memorized-tip" class="alert alert-info alert-dismissible" role="alert" hidden>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
-        <strong>Quick tip!</strong> Click on the cards you have already memorized to differentiate them. Your selection will be kept locally until your next visit.
+        <!--
+        <strong>Conseil!</strong> Cliquez sur les cartes que vous avez mémorisées pour les différencier. Votre sélection sera conservée localement jusqu'à votre prochaine visite.
+        <-->
+        <strong>{{ t.tip }}</strong> {{ t.memorized_tip }}
     </div>
 
     <div class="row">
         <div class="col col-md-3 -pull-right">
             <div class="sticky-sidebar">
-                <div class="-card -card-primary -card-inverse">
-                    <div class="-card-block">
-                        <ul id="index" class="nav nav-pills flex-column">
-                        </ul>
-                    </div>
-                </div>
+                <ul id="index" class="nav nav-pills flex-column">
+                </ul>
             </div>
         </div>
         <div class="col">
+
             <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
                 <div class="post-content definition-list" itemprop="articleBody" style="visibility: hidden;">
@@ -33,6 +34,9 @@ layout: default
                 {% endif %}
 
             </article>
+
+            <a class="btn btn-outline-secondary pull-right" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button"><span class="fa fa-edit"></span>{{ t.edit }}</a>
+
         </div>
     </div>
 </div>

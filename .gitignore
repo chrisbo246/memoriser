@@ -18,6 +18,8 @@ node_modules
 
 # Skip Bower dependencies sources, examples, etc...
 bower_components/bootstrap/*
+bower_components/cookieconsent/*
+bower_components/font-awesome/*
 bower_components/jquery/*
 bower_components/lazysizes/*
 bower_components/tether/*
@@ -25,6 +27,9 @@ bower_components/tether/*
 # Except used files (parent directories must not be exclude)
 !bower_components/bootstrap/dist
 !bower_components/bootstrap/scss
+!bower_components/cookieconsent/build
+!bower_components/font-awesome/fonts
+!bower_components/font-awesome/scss
 !bower_components/jquery/dist
 !bower_components/lazysizes/*.js
 !bower_components/tether/dist

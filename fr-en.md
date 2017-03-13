@@ -1,5 +1,6 @@
 ---
 layout: cards
+lang: fr
 title: "Listes de vocabulaire Français-Anglais"
 subtitle: "French-English vocabulary"
 description: "Des liste de vocabulaire Anglais courant."
@@ -18,7 +19,7 @@ card:
   image: true
   date: false
   categories: false
-  image_position: "overlay"
-  text_align: "center"
+  image_position: "top"
+  #text_align: "center"
   #more_button: "Lire"
 ---

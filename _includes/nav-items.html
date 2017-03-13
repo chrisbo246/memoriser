@@ -1,17 +1,17 @@
 {% if include.id %}
-{% assign posts = site.pages | where_exp: 'item', 'item.nav.id == include.id' | sort: 'title' %}
+    {% assign posts = site.pages | where_exp: 'item', 'item.nav.id == include.id' | sort: 'title' %}
 {% elsif include.posts %}
-{% assign posts = include.posts %}
+    {% assign posts = include.posts %}
 {% else %}
-{% assign pages = site.pages %}
+    {% assign posts = site.pages %}
 {% endif %}
 
 {% comment %}{% assign posts = posts | sort: 'nav.position' %}{% endcomment %}
 
 {% if include.class %}
-{% assign class = include.class | split: ' ' %}
+    {% assign class = include.class | split: ' ' %}
 {% else %}
-{% assign class = '' | split: ' ' %}
+    {% assign class = '' | split: ' ' %}
 {% endif %}
 
 {% assign navItemClass = include.navItemClass | split: ' ' | push: 'nav-item' %}
@@ -21,7 +21,7 @@
 
 {% assign active = '' %}
 {% if post.url == page.url %}
-{% assign active = 'active' %}
+    {% assign active = 'active' %}
 {% endif %}
 
 <li class="{{ navItemClass | join: ' ' }}">

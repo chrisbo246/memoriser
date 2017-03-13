@@ -46,6 +46,7 @@ sass:
   load_paths:
     - _sass
     - bower_components/bootstrap/scss
+    - bower_components/font-awesome/scss
 
 
 # ------------------------------------------------------------------------------
@@ -166,6 +167,12 @@ facebook:
 #social:
 #  name:
 #  links: []
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+
 
 
 # ------------------------------------------------------------------------------

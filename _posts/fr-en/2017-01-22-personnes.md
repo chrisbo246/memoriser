@@ -45,7 +45,7 @@ Gars
 : Guy
 
 
-## Personne
+## Mauvaises personnes
 
 Clochard (bon à rien)
 : Bum
@@ -99,16 +99,10 @@ Personne potentiellement impliquée
 : Person of interest
 
 
-## Personnages virtuelles
+## Personnages de fiction
 
 Le petit Chaperon Rouge
 : Little red riding hood
 
 Bonhomme de neige
 : Snowman
-
-
-## Métiers
-
-Pélerin
-: Pilgrim

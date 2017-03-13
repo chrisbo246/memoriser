@@ -18,7 +18,7 @@ card:
   image: true
   date: false
   categories: false
-  image_position: "overlay"
-  text_align: "center"
+  image_position: "top"
+  #text_align: "center"
   #more_button: "Lire"
 ---

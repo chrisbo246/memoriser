@@ -6,9 +6,9 @@
 
 @import "variables-bootswatch-materia";
 @import "bootstrap";
-//@import "../bower_components/bootstrap/scss/bootstrap.scss";
 
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+$fa-font-path: "../bower_components/font-awesome/fonts";
+@import "font-awesome";
 
 
 $menu-toggler-size: 50px;
@@ -28,7 +28,7 @@ $hamburger-layer-thickness: 4px;
 
 body {
     padding-top: 20px;
-    padding-right: 35px;
+    padding-right: 50px;
     padding-bottom: 20px;
     //background: #eee url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/candyhole.png);
     //background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/square_bg.png);
@@ -80,4 +80,19 @@ label.menu-container {
 
 .alert {
     //margin-right: $menu-toggler-size;
+}
+
+// Hide images until they are fully loaded
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+// Restore padding changed by the adsense mixin
+.menu .container-fluid {
+    padding-left: floor(($content-gutter-width / 2)) !important;
 }
