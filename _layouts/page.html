@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% assign lang = page.lang | default: site.lang | default: "en" %}
+{% assign t = site.data.locales[lang] %}
+
 <div class="container-fluid">
     <div class="row">
         <div class="col">
