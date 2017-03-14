@@ -66,6 +66,7 @@
 -->
 
 <div class="ad_container">
+    {% if jekyll.environment == 'production' %}
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <ins class="adsbygoogle relative-center"
     style="display:block"
@@ -75,7 +76,13 @@
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
+    {% endif %}
 </div>
+
+
+{% if jekyll.environment == 'production' and site.google_analytics %}
+{% include google-analytics.html %}
+{% endif %}
 
 {% include cookieconsent.html %}
 

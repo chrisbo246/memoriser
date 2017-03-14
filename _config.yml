@@ -33,12 +33,10 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - wdm
-#  - jekyll-feed
-#  - jekyll-github-metadata
-#  - jekyll-mentions
-#  - jekyll-redirect-from
-#  - jekyll-sitemap
-#  - jemoji
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-sitemap
 
 sass:
   style: compressed
@@ -94,7 +92,6 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      #layout: "default"
       author: "chrisbo246"
       date: 2017-01-01 16:16:16 +0100
   -
