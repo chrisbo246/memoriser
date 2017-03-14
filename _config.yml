@@ -96,7 +96,6 @@ defaults:
     values:
       #layout: "default"
       author: "chrisbo246"
-      lang: "fr"
       date: 2017-01-01 16:16:16 +0100
   -
     scope:
@@ -144,7 +143,7 @@ defaults:
 # ------------------------------------------------------------------------------
 
 # https://github.com/jekyll/minima
-lang: en
+lang: fr
 disqus:
   shortname: memolinguo
 
@@ -156,16 +155,16 @@ github:
 # https://github.com/jekyll/jekyll-seo-tag
 logo: assets/images/logos/android-chrome-512x512.png
 webmaster_verifications:
-  google: ""
+  google: "LSqjMgoaH49gx_-zumYmG_-wXfT619s2Eubol5bNTUA"
   bing: ""
   alexa: ""
   yandex: ""
 twitter:
-  username: chrisbo246
+  username:
 facebook:
-  app_id: 1234
-  publisher: 1234
-  admins: 1234
+  app_id:
+  publisher:
+  admins:
 #social:
 #  name:
 #  links: []
