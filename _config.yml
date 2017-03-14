@@ -173,6 +173,7 @@ facebook:
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
+  startings: all
   endings: all
 
 
@@ -185,3 +186,8 @@ array: []
 headers:
   api-user-agent: mediawiki-loader/1.0
   origin: https://chrisbo246.github.io/memolinguo
+
+yandex_translate:
+  key: 'trnsl.1.1.20170126T174835Z.60d9a0f54ac44aef.fc3b4dab14cf7c81caf5fe57769a769ab427a872'
+  auto_mode: true
+  widget_theme: 'light'

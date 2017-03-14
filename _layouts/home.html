@@ -13,8 +13,7 @@ layout: default
     </div>
     <div class="container-fluid">
 
-        {% comment%}{% endcomment%}
-        {% assign posts = site.pages | where_exp: 'item', 'item.categories != nil'  | sort: 'title' %}
+        {% assign posts = site.pages | where_exp: 'item', 'item.categories.size > 0'  | sort: 'title' %}
         {% if posts.size > 0 %}
         <section class="row">
             <div class="col">

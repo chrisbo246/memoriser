@@ -76,25 +76,8 @@
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 </div>
-<div class="container-fluid">
-{% if page.lang and page.src-lang %}
-<div class="row">
-    <div class="">
-        <div id="ytWidget"></div><script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang={{ page.lang }}&widgetTheme=light&trnslKey=trnsl.1.1.20170126T174835Z.60d9a0f54ac44aef.fc3b4dab14cf7c81caf5fe57769a769ab427a872&autoMode=false" type="text/javascript"></script>
-    </div>
-</div>
-<script>
-var _yandexTranslateParams = {
-    key: 'trnsl.1.1.20170126T174835Z.60d9a0f54ac44aef.fc3b4dab14cf7c81caf5fe57769a769ab427a872',
-    lang: '{{ page.src-lang }}-{{ page.lang }}'
-};
-</script>
-<div class="yandex-translate-mention"></div>
-{% endif %}
-</div>
 
 <link rel="stylesheet" href="{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url }}">
-
 <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 
 <script src="{{ '/bower_components/jquery/dist/jquery.min.js' | relative_url }}"></script>
@@ -102,6 +85,4 @@ var _yandexTranslateParams = {
 <script src="{{ '/bower_components/bootstrap/dist/js/bootstrap.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/cookieconsent/build/cookieconsent.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/lazysizes/lazysizes.min.js' | relative_url }}" async=""></script>
-<script src="{{ '/assets/yandexTranslate.js' | relative_url }}"></script>
 <script src="{{ '/assets/main.js' | relative_url }}"></script>
-<!--<script src="{{ '/assets/image.js' | relative_url }}"></script>-->

@@ -1,0 +1,7 @@
+
+{% assign lang = page.lang | default: site.lang | 'en' %}
+
+<div id="ytWidget"></div>
+<script src="https://translate.yandex.net/website-widget/v1/widget.js?widgetId=ytWidget&pageLang={{ lang }}&widgetTheme={{ site.yandex_translate.widget_theme | default: 'light' }}light&trnslKey={{ site.yandex_translate.key }}&autoMode={{ site.yandex_translate.auto_mode | default: 'false' }}" type="text/javascript"></script>
+
+{% if lang and page.lang-src and lang != page.lang-src %}{% endif %}

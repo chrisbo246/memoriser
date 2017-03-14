@@ -7,18 +7,21 @@
 <div class="row">
     <div class="col-sm-8">
 
+        {% if category_root_page.title %}
         <h5>
             <a class="nav-link" href="{{ category_root_page.url | relative_url }}">
                 {{ category_root_page.title }}
             </a>
         </h5>
+        {% endif %}
+
         {% if posts.size > 0 %}
         <ul class="nav nav-pills flex-column">
 
             {% assign posts = posts | sort: 'title' %}
             {% include nav-items.html posts=posts limit=8 %}
 
-            {% if page.tags.size > 0 or posts.size > 8 %}
+            {% if category_root_page.url and posts.size > 8 %}
             <div class="dropdown-divider"></div>
             <li class="nav-item">
                 <a class="nav-link" href="{{ category_root_page.url | relative_url }}">{{ t.display_all }}</a>
