@@ -6,8 +6,6 @@ image:
 tags: [base]
 ---
 
-Les politiques adorent remplacer des expressions Françaises par des termes en latin pour nous faire passer pour des incultes. Voici quelques une des expressions les plus utilisées que vous pouvez reprendre dans vos discutions les plus sérieuses.
-
 De facto
 : De fait, dans les faits.
 

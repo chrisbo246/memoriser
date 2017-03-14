@@ -2,23 +2,6 @@
 (function($, window, document) {
     'use strict';
 
-    // Cookieconsent
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#237afc"
-        },
-        "button": {
-          "background": "#fff",
-          "text": "#237afc"
-        }
-      },
-      "theme": "edgeless"
-    })});
-
-
-
     $(function () {
 
         // Searchbox filter

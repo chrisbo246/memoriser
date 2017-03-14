@@ -1,7 +1,7 @@
 ---
 layout: cards
 title: "Listes de vocabulaire Français"
-subtitle:
+subtitle: "Vocabulaire soutenu"
 description: "Des liste de vocabulaire Français soutenu."
 excerpt: ""
 image: "assets/images/posts/fr.jpg"

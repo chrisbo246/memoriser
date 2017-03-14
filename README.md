@@ -11,12 +11,23 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Quick definition list edition (thanks to the freshly supported markdown syntax).
 - Convert boring definition lists to easy-to-read flexible cards.
 - Fade memorized definitions for learning purpose (with persistence).
-- Responsive ad container.
-- Minified HTML and CSS.
-- Critical CSS.
-- Bower ready.
-- Bootstrap 4 + tether + font-awesome.
 - Disqus comment system.
 - Cookie consent.
+
+## Responsive
+
+- Bootstrap 4 + tether.
+- Responsive ad container.
+
+## SEO
+
 - Lazy load images.
+- Minified HTML and CSS.
+- Critical CSS.
+
+## Under the hood
+
+- Translation ready.
+- Font-awesome ready.
+- Bower ready.
 - Github pages compliant.

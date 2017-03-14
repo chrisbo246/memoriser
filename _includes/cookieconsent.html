@@ -1,0 +1,22 @@
+
+<script>
+window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#237afc"
+            },
+            "button": {
+                "background": "#fff",
+                "text": "#237afc"
+            }
+        },
+        "theme": "edgeless",
+        "content": {
+            "message": "{{ t.cookieconsent_message }}",
+            "dismiss": "{{ t.cookieconsent_dismiss }}",
+            "link": "{{ t.cookieconsent_link }}"
+        }
+    })
+});
+</script>

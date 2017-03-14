@@ -14,7 +14,7 @@
     {% if page.card.image_position == 'overlay' %}
         {% assign card-classes = card-classes | push: 'card-inverse' %}
     {% endif %}
-    {% if post.tags contains 'featured' %}
+    {% if post.tags contains 'featured' or post.weight %}
         {% assign card-classes = card-classes | push: 'card-inverse' | push: 'card-primary' %}
     {% endif %}
     {% if page.card.text_align %}

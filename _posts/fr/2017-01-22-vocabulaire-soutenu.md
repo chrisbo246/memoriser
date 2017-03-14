@@ -4,6 +4,8 @@ description: "Liste de vocabulaire Français regroupant du vocabulaire soutenu r
 excerpt: "Liste de vocabulaire Français regroupant du vocabulaire soutenu relativement courant."
 image:
 tags: [base]
+categories:
+weight: 1
 ---
 
 ## Noms

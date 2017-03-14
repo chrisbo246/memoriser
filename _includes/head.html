@@ -30,7 +30,7 @@
     {% capture criticalcss %}
     {% include critical.scss %}
     {% endcapture %}
-    {{ criticalcss | scssify }}
+    {{ criticalcss | scssify | strip }}
     </style>
 
 </head>

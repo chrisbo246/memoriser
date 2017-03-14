@@ -1,9 +1,15 @@
 {% if include.id %}
-    {% assign posts = site.pages | where_exp: 'item', 'item.nav.id == include.id' | sort: 'nav.position', 'first' %}
+    {% assign posts = site.pages | where_exp: 'item', 'item.nav.id == include.id' %}
 {% elsif include.posts %}
-    {% assign posts = include.posts %}
+    {% assign posts = include.posts | where_exp: 'item', 'item.nav.id == nil' %}
 {% else %}
-    {% assign posts = site.pages %}
+    {% assign posts = site.pages | where_exp: 'item', 'item.nav.id == nil' %}
+{% endif %}
+
+{% if include.sort %}
+    {% assign posts = posts | sort: include.sort %}
+{% else %}
+    {% assign posts = posts | sort: 'title' | sort: 'weight' | reverse %}
 {% endif %}
 
 {% if include.class %}
@@ -12,12 +18,14 @@
     {% assign class = '' | split: ' ' %}
 {% endif %}
 
+
 {% assign navItemClass = include.navItemClass | split: ' ' | push: 'nav-item' %}
 {% assign navLinkClass = include.navLinkClass | split: ' ' | push: 'nav-link' %}
-
 {% assign limit = include.limit | default: nil %}
 
+
 {% for post in posts limit: limit %}
+{% if post.title %}
 
 {% assign active = '' %}
 {% if post.url == page.url %}
@@ -30,4 +38,6 @@
         {% if post.nav.label %}{{ post.nav.label }}{% else %}{{ post.title }}{% endif %}
     </a>
 </li>
+
+{% endif %}
 {% endfor %}

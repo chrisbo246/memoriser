@@ -11,10 +11,10 @@ collection_type:
 tags: []
 category:
 categories: []
+weight: 9999
 nav:
   id:
   label: "Accueil"
-  position: 1
   icon: "fa fa-home"
 card:
   image: true
