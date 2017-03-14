@@ -141,6 +141,7 @@ defaults:
 
 # https://github.com/jekyll/minima
 lang: fr
+google_analytics: "UA-93687641-1"
 disqus:
   shortname: memolinguo
 
