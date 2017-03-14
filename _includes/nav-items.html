@@ -9,7 +9,7 @@
 {% if include.sort %}
     {% assign posts = posts | sort: include.sort %}
 {% else %}
-    {% assign posts = posts | sort: 'title' | sort: 'weight' | reverse %}
+    {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
 {% endif %}
 
 {% if include.class %}

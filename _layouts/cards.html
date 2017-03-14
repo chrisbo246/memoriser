@@ -21,7 +21,7 @@ layout: default
 
     {% include related-posts.html %}
     {% if posts.size > 0 %}
-    {% assign posts = posts | sort: 'title' %}
+    {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
     <div class="card-columns">
         {% for post in posts %}
         {% include card.html post=post %}
