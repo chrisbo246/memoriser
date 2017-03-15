@@ -1,5 +1,4 @@
 
-
 {% if include.categories %}
     {% assign categories = include.categories %}
 {% else %}
@@ -13,8 +12,12 @@
 {% endif %}
 {% assign categories = categories | uniq %}
 
+{% if include.categories %}
+    {% assign tags = include.tags %}
+{% else %}
+    {% assign tags = include.tags | default: page.tags | default: nil %}
+{% endif %}
 
-{% assign tags = include.tags | default: page.tags | default: nil %}
 {% assign type = include.type | default: page.collection_type | default: page.collection | default: 'pages' %}
 {% assign limit = include.limit | default: nil %}
 {% assign posts = '' | split: ' ' %}
@@ -48,7 +51,6 @@
         {% comment %}{% elsif post.tags.size > 0 or post.tags %}
             {% assign match_tags = false %}{% endcomment %}
         {% endif %}
-
 
         {% if match_categories != false and match_tags != false and post.title %}
             {% assign posts = posts | push: post %}
