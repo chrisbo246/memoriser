@@ -12,6 +12,11 @@
     data-ad-format="auto"></ins>
 </div>
 
+{% if jekyll.environment == 'production' %}
+    {% include cookieconsent.html %}
+    {% include adsense.html %}
+{% endif %}
+
 <link rel="stylesheet" href="{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url }}">
 <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
@@ -19,8 +24,3 @@
 <script src="{{ '/bower_components/tether/dist/js/tether.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/bootstrap/dist/js/bootstrap.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/main.js' | relative_url }}"></script>
-
-{% if jekyll.environment == 'production' %}
-    {% include cookieconsent.html %}
-    {% include adsense.html %}
-{% endif %}

@@ -13,26 +13,11 @@ layout: default
     </div>
     <div class="container-fluid">
 
-        {% assign posts = site.pages | where_exp: 'item', 'item.categories.size > 0'  | sort: 'title' %}
+        {% assign posts = site.pages | where_exp: 'item', 'item.categories.size > 0' | sort: 'title' %}
         {% if posts.size > 0 %}
         <section class="row">
             <div class="col">
                 <div class="card-deck">
-                    {% for post in posts %}
-                    {% include card.html post=post %}
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
-        {% endif %}
-
-
-        {% assign categories = 'FR EN' | split: ' ' %}
-        {% include related-posts.html categories=categories %}
-        {% if posts.size > 0 %}
-        <section class="row">
-            <div class="col">
-                <div class="-card-deck card-columns">
                     {% for post in posts %}
                     {% include card.html post=post %}
                     {% endfor %}
@@ -49,8 +34,22 @@ layout: default
         </section>
         {% endif %}
 
-        <!--
         {% comment %}
+        <!--        
+        {% assign categories = 'FR EN' | split: ' ' %}
+        {% include related-posts.html categories=categories %}
+        {% if posts.size > 0 %}
+        <section class="row">
+            <div class="col">
+                <div class="-card-deck card-columns">
+                    {% for post in posts %}
+                    {% include card.html post=post %}
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        {% endif %}
+
         <section class="row">
             <div class="col">
 
@@ -93,8 +92,8 @@ layout: default
 
             </div>
         </section>
-        {% endcomment %}
         -->
+        {% endcomment %}
 
     </div>
 </div>
