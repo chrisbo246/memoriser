@@ -19,7 +19,6 @@
         var $container = $('.definition-list');
         var $dls = $container.find('dl');
         if ($dls) {
-            //$dls.addClass('card-columns');
             $dls.addClass('d-flex flex-row flex-wrap'); // justify-content-center align-content-center
 
             // Wrap dt+dd's
@@ -74,9 +73,6 @@
                     navItems = navItems + '<li class="nav-item">'
                     + '<a class="nav-link" href="#' + $title.attr('id') + '">' + $title.html() + '</a>'
                     + '</li>';
-                    //navItems = navItems + '<li class="list-group-item">'
-                    //+ '<a class="nav-link" href="#' + $title.attr('id') + '">' + $title.html() + '</a>'
-                    //+ '</li>';
                 });
                 $nav.html(navItems);
                 $('body').scrollspy({
@@ -125,13 +121,6 @@
                 localStorage.setItem(key, value);
             });
         }
-
-        // Scroll to top while opening the menu
-        //$('.menu-container > input[type="checkbox"]').on('click', function () {
-        //    $('html, body').stop().delay(600).animate({
-        //        scrollTop: $('body').offset().top
-        //    });
-        //});
 
     });
 

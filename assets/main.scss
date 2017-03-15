@@ -12,18 +12,9 @@
 $fa-font-path: "../bower_components/font-awesome/fonts";
 @import "font-awesome";
 
-// Hamburger menu
-//$menu-toggler-size: 50px;
-//$menu-toggler-radius: $border-radius;
-//$hamburger-size: 30px;
-//$hamburger-margin: 10px;
-//$hamburger-layer-thickness: 4px;
-//@import "hamburger-menu";
-
 @import "scrollbar";
 @include scrollbars(.5em, $brand-primary, $gray-dark);
 
-//@import "flipcard";
 @import "dl-flexbox";
 @import "social-icons";
 @import "adsense";
@@ -72,10 +63,6 @@ dl.d-flex {
 .card-inverse {
     .card-img {
        filter: brightness(75%) saturate(50%);
-    }
-    .text-muted {
-        //color: $inverse-color;
-        //color: rgba(#fff, .5) !important;
     }
 }
 
