@@ -1,4 +1,4 @@
-
+<script async src="{{ '/bower_components/cookieconsent/build/cookieconsent.min.js' | relative_url }}"></script>
 <script>
 window.addEventListener("load", function(){
     window.cookieconsent.initialise({
@@ -11,7 +11,8 @@ window.addEventListener("load", function(){
                 "text": "#237afc"
             }
         },
-        "theme": "edgeless",
+        "theme": "block",
+        "position": "bottom-right",
         "content": {
             "message": "{{ t.cookieconsent_message }}",
             "dismiss": "{{ t.cookieconsent_dismiss }}",
