@@ -1,10 +1,10 @@
 ---
 layout: cards
 title: "Listes de vocabulaire Français"
-subtitle: "Vocabulaire soutenu"
-description: "Des liste de vocabulaire Français soutenu."
-excerpt: ""
-image: "assets/images/posts/fr.jpg"
+subtitle: "Cours de rattrapage"
+description: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
+excerpt: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
+image: "assets/images/posts/fr.png"
 collection_type: "posts"
 tags: []
 category:

@@ -59,7 +59,7 @@ Omerta
 *En référence à la mafia sicilienne*.
 
 Onanisme
-: Masturbation.
+: Masturbation
 
 Paradigme
 : Façon de penser liée à l'éducation.
@@ -70,17 +70,21 @@ Pis aller
 Pogrome
 : Émeute sanglante dirigée contre une minorité ethnique ou religieuse.
 
+Prosélitisme
+: Recruter des adeptes, tenter d'imposer ses idées.
+
 Résurgence
-: Réapparition.
+: Réapparition
 
 Thaumaturge
-: Faiseur de miracle. Qui a des pouvoirs (de guérison) miraculeux.
+: Faiseur de miracle
 
 Tropisme
 : Orientation induite par un élément extérieur.
+*Ex: le tropisme d'une plante qui s'oriente direction du soleil*
 
-Prosélitisme
-: Vive ardeur à recruter des adeptes ou tenter d'imposer ses idées.
+Vacuité
+: Inculte, sans valeur.
 
 
 ## Verbes
@@ -92,34 +96,39 @@ Ostraciser
 : Bannir, tenir à l'écart.
 
 Phagocyter
-: Détruire quelqu'un petit à petit, manger de l'intérieur.
+: Détruire quelqu'un à petit feu
+*Littéralement manger de l'intérieur*
 
 Regimber
 : Résister en refusant d'obéir
-*En référence au cheval qui refuse d'avancer*.
+*En référence au cheval qui refuse d'avancer*
 
 Renâcler
 : Témoigner de sa répugnance
 *En référence au cheval qui expire pour exprimer son mécontentement*
 
 Supputer
-: Supposer.
+: Supposer
 
 
 ## Adjectifs
 
 Anthropique
 : Provoqué par l'activité humaine
-*Ex: un paysage anthorpique*.
+*Ex: un paysage anthorpique*
 
 Antédiluvien
-: Avant le déluge.
+: Avant le déluge
 
 Bigarré
-: Varié.
+: Varié
 
 Chamarré
 : Très coloré, couvert de décorations.
+
+Dichotomique
+: Partagé
+*Littéralement coupé en deux.*
 
 Erratique
 : Irrégulier, incohérent
@@ -128,18 +137,17 @@ Extatique
 : Qui provoque l'extase
 *Ex: une vision extatique*.
 
-Pudibond
-: Excès de retenu.
-
 Onirique
 : Inspiré par un rêve.
 
-Trivial
-: Vulgaire.
-Évident.
+Pudibond
+: Excès de retenu.
 
-Vacuité
-: Inculte, sans valeur.
+Séculaire
+: Très ancien, multi-centenaire.
+
+Trivial
+: Vulgaire, évident.
 
 
 ## Economie
@@ -148,7 +156,7 @@ Conjoncture
 : Situation générale de l'économie d'un pays.
 
 Gabegie
-: Désorganisation qui a pour conséquence des dépenses exagérées.
+: Désorganisation entrainant des dépenses exagérées.
 
 Syndrome de Vasa
 : Manque de communication et l'absence de prise de responsabilité causant l'échec d'un projet.
@@ -156,11 +164,16 @@ Syndrome de Vasa
 Thésauriser
 : Économiser, accumuler.
 
-Keynésianisme
-: Théorie de l'économiste J.M. Keynes selon laquelle l'état doit controler la finance.
 
-Hayez
-: Economiste pronnant la libre action de la finance.
+## Théories
+
+Keynésianisme
+: Théorie selon laquelle l'état doit controler la finance.
+*Selon l'économiste [John Maynard Keynes](https://fr.wikipedia.org/wiki/John_Maynard_Keynes).*
+
+Théorie de Hayek
+: Théorie pronnant la libre action de la finance.
+*Selon l'économiste [Friedrich Hayek](https://fr.wikipedia.org/wiki/Friedrich_Hayek)*
 
 
 ## Emploi, travail
@@ -205,17 +218,14 @@ Obédience
 : Appartenance à un groupement religieuse ou politique.
 Ordre d'un supérieur à un religieux, emploi d'un religieux.
 
-théocratique
+Théocratique
 : Le détenteur du pouvoir est l'incarnation d'un dieu.
-
-séculaire
-: Très ancien, multi-centenaire.
 
 
 ## Art
 
 Triptyque
-: Tableau composé de trois parties montées sur charnières. Ce système permet de refermer l'oeuvre pour la cacher temporairement ou la transporter plus facilement.
+: Tableau composé de trois parties montées sur charnières permettant de refermer l'oeuvre pour la cacher ou la transporter.
 
 
 ## Discours
@@ -266,24 +276,26 @@ Sophisme
 
 ## Médecine, symptômes, maladies
 
-Épistaxis
-: Saignement de nez.
-
 Catharsis
-: Thérapie dont le principe est de provoquer une crise émotionnelle chez le patient pour trouver la cause du problème.
+: Thérapie
+*provoquer un choc émotionnel chez le patient pour comprendre la cause du problème.*
+
+Épistaxis
+: Saignement de nez
 
 Neurasthénie
-: déprime
+: Déprime
 
 
 ## Expressions
 
-Un parangon
+Parangon
 : Un modèle
-Ex: un parangon de vertu
+*Ex: un parangon de vertu*
 
 A titre posthume
-: Après la mort de l'auteur.
+: Après la mort
+*Ex: Un livre publié à titre posthume.*
 
 A huis clos
 : Accès fermé au public.
@@ -295,25 +307,19 @@ Entrer en lice
 ## Littérature, écrits
 
 Apocryphe
-: Texte qui n'est pas authentique, faux
-*ex: un testament apocryphe*.
+: Non authentique, faux.
+*Ex: un testament apocryphe*.
 
 Coquecigrue
 : Absurdité
 *Animal imaginaire, mi coq, mi cigogne, mi grue, en référence à Gargantua de Rabelais.*
 
-épistolaire
-: Récit regroupant les lettres échangées entre deux personnes.
-*ex: roman épistolaire*
+Épistolaire
+: Regroupant les lettres échangées entre deux personnes.
+*Ex: un roman épistolaire*
 
 Épître
 : Lettre, correspondance.
 
 Hiatus
 : Contradiction, manque de continuité. Succession de voyelles entre 2 syllabes ou 2 mots.
-
-
-## Mathématique, algorithmique
-
-Dichotomique
-: Partagé (coupé en deux).

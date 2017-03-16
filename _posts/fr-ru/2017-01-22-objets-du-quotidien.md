@@ -9,92 +9,118 @@ image: assets/images/posts/house.jpg
 
 escalier
 : лестница
-_liestnitsa_
+*liestnitsa*
 
 fenêtre
 : oкнo
-_akno_
+*akno*
 
 mur
 : стена
-_stina_
+*stina*
 
 porte
 : двepь
-_dvier_
+*dvier*
 
 sol
 : пол
-_poll_
+*poll*
 
 toit
 : крыша
-_kricha_
+*kricha*
 
 
 ## Pièces
 
 chambre
 : комната
-_comnata_
+*comnata*
 
 couloir
 : кoридop
-_coridor_
+*coridor*
 
 cuisine
 : кухня
-_kuxnia_
+*kuxnia*
 
 salle de bain
 : ванная
-_vannaia_
+*vannaia*
 
 toilette
 : туалет
-_toilet_
+*toilet*
 
 
 ## Mobilier
 
 chaise
 : стул
-_stoul_
+*stoul*
 
 lit
 : кровать
-_kravat_
+*kravat*
 
 table
 : стол
-_stol_
+*stol*
 
 
 ## Appareils electroménager et électronique
 
 appareil photo
 : фотоаппарт
-_fotoappart_
+*fotoappart*
 
 frigo
 : холодильник
-_khaladielniek_
+*khaladielniek*
 
 téléphone
 : телефон
-_telephone_
+*telephone*
 
 téléviseur
 : телевиэор
-_televizor_
+*televizor*
+
+## Couverts et ustensils
+
+assiette
+: тарелка
+*tarielka*
+
+couteau
+: нож
+*noj*
+
+louche
+: ложка
+*lojka*
+
+tasse
+: чашка
+*tchаchka*
+
+theiere
+: чайник
+*tchаinik*
+
+verre
+: стакан
+*stakan*
 
 
 ## Divers
 
 jardin
 : caд
-_sat_
+*sat*
 
 maison
 : дoм
-_dom_
+*dom*

@@ -11,127 +11,127 @@ weight: 1
 
 Enchanté (e)
 : Взаимно!
-_Vzaimno!_
+*Vzaimno!*
 
 avec vous de faire connaissance
 : Рад(а) с Вами познакомиться!
-_Rad(a) s Vami poznakomit'sja Приятно познакомиться! Prijatno poznakomit'sja!_
+*Rad(a) s Vami poznakomit'sja Приятно познакомиться! Prijatno poznakomit'sja!*
 
 
 ## Bonjour
 
 salut
 : Привет
-_privièt_
+*privièt*
 
 bonjour / bonsoir (poli)
 : Здравствуйте
-_zdrA-stvouy-tyé_
+*zdrA-stvouy-tyé*
 
 Bonjour (bon jour)
 : Добрый день!
-_Dobryj den'!_
+*Dobryj den'!*
 
 Bonjour, Monsieur!
 : Доброе утро, сэр!
-_Dobroe outra, sjer!_
+*Dobroe outra, sjer!*
 
 Bonjour, Madame!
 : Доброе утро, мадам!
-_Dobroe outra, madam!_
+*Dobroe outra, madam!*
 
 Bonjour (le matin)
 : Доброе утро!
-_Dobroyè outro!_
+*Dobroyè outro!*
 
 Bonjour (l'après midi)
 : Добрый день!
-_Dobri dyegne!_
+*Dobri dyegne!*
 
 Bonsoir
 : Добрый вечер!
-_Dobryj vecher!_
+*Dobryj vecher!*
 
 
 ## Au revoir
 
 salut (au revoir)
 : пока
-_paka_
+*paka*
 
 au revoir
 : до свидания
-_da svidAnia_
+*da svidAnia*
 
 A bientôt
 : до скорого!
-_Do skorava!_
+*Do skorava!*
 
 A demain
 : До завтра!
-_Do zavtra!_
+*Do zavtra!*
 
 A plus, à plus tard, à la prochaine
 : До встречи!
-_Do vstrechi!_
+*Do vstrechi!*
 
 Au revoir, adieu
 : До свидания!
-_Da svidania!_
+*Da svidania!*
 
 Bonne nuit!
 : Спокойной ночи!
-_Spokojnoj nochi!_
+*Spokojnoj nochi!*
 
 
 ## Remercier
 
 merci
 : Спасибо
-_spasiba_
+*spasiba*
 
 Merci, de même!
 : Спасибо, взаимно!
-_Spasibo, vzaimno!_
+*Spasibo, vzaimno!*
 
 Très bien merci!
 : Очень хорошо, спасибо!
-_Ochen' horosho, spasibo!_
+*Ochen' horosho, spasibo!*
 
 
 ## S'excuser
 
 pardon
 : помилование
-_pOmilovenié_
+*pOmilovenié*
 
 excusez-moi, désolé
 : Извините
-_izvinitiè_
+*izvinitiè*
 
 S’il vous plait
 : пожалуйста
-_Pajaosta_
+*Pajaosta*
 
 
 ## Demander des nouvelles
 
 Comment ça va?
 : Kaк дeлá
-_kak dela?_
+*kak dela?*
 
 Ça va? Comment ça va? Comment vas-tu?
 : Как ты? / Как дела?
-_Kak ty? / Kak diela?_
+*Kak ty? / Kak diela?*
 
 Je suis content(e) de te voir.
 : Рад(а) встрече! --- Спасибо, взаимно!
-_Rad(a) vstreche!_
+*Rad(a) vstreche!*
 
 Qu'est-ce qui ne va pas?
 : Что не так?
-_chto nie tak?_
+*chto nie tak?*
 
 Qu'est-ce qu’il y a?
 : В чем дело?
-_v chiem diela?_
+*v chiem diela?*

@@ -3,9 +3,7 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-lang: fr
-title: "Enrichissez votre vocabulaire"
-description: "Listes de vocabulaire Français, Anglais et Russe regroupant mots composés et expressions courantes difficile à apprendre autrement que par la pratique."
+subtitle: "Enrichissez votre vocabulaire"
 excerpt: "MEMOLINGUO vous propose des listes de vocabulaire regroupant des mots composés et expressions courantes difficile à apprendre autrement que par la pratique. Passez à la vitesse supérieure!"
 collection_type:
 tags: []

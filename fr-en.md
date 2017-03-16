@@ -3,9 +3,9 @@ layout: cards
 lang: fr
 title: "Listes de vocabulaire Français-Anglais"
 subtitle: "French-English vocabulary"
-description: "Des liste de vocabulaire Anglais courant."
-excerpt: ""
-image: "assets/images/posts/fr-en.jpg"
+description: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."
+excerpt: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."
+image: "assets/images/posts/fr-en.png"
 collection_type: "posts"
 tags: []
 category:

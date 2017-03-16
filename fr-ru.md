@@ -3,9 +3,9 @@ layout: cards
 lang: fr
 title: "Listes de vocabulaire Français-Russe"
 subtitle: "Французско-русский словарный запас"
-description: "Des liste de vocabulaire Russe courant."
-excerpt: ""
-image: "assets/images/posts/fr-ru.jpg"
+description: "Les phrases de base et du vocabulaire classé par thème pour débuter en Russe."
+excerpt: "Les phrases de base et du vocabulaire classé par thème pour débuter en Russe."
+image: "assets/images/posts/fr-ru.png"
 collection_type: "posts"
 tags: []
 category:

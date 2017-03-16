@@ -8,15 +8,15 @@ image: assets/images/posts/belly.jpg
 
 corps
 : те́ло
-_téla_
+*téla*
 
 tête
 : голова́
-_gôlôva_
+*gôlôva*
 
 visage
 : лицо́
-_létso_
+*létso*
 
 membre(s)
 : -
@@ -26,14 +26,14 @@ tronc
 
 dos
 : спина́
-_spéna_
+*spéna*
 
 poitrine (thorax)
 : -
 
 poitrine (seins)
 : грудь
-_groud'e_
+*groud'e*
 
 nichons
 : -
@@ -43,7 +43,7 @@ téton(s), Mamelon(s)
 
 ventre
 : живо́т
-_givote_
+*givote*
 
 nombril
 : -
@@ -86,11 +86,11 @@ joue(s)
 
 oreille
 : у́хо
-_oukho_
+*oukho*
 
 oreilles
 : у́ши
-_ouchy_
+*ouchy*
 
 lobe d’oreille
 : -
@@ -103,15 +103,15 @@ narine(s)
 
 nez
 : нос
-_nôss_
+*nôss*
 
 œil
 : глаз
-_glass_
+*glass*
 
 yeux
 : глаза́
-_glasa_
+*glasa*
 
 paupière
 : -
@@ -124,33 +124,33 @@ iris
 
 bouche
 : рот
-_rôte_
+*rôte*
 
 lèvre(s)
 : -
 
 langue
 : язы́к
-_yesique_
+*yesique*
 
 dent
 : зуб
-_zoupe_
+*zoupe*
 
 dents
 : зу́бы
-_zouby_
+*zouby*
 
 
 ## Poils
 
 cheveu, poil
 : волос
-_vôlas_
+*vôlas*
 
 cheveux, poils
 : во́лосы
-_vôlasy_
+*vôlasy*
 
 sourcil, Arcade sourcilière
 : -
@@ -172,7 +172,7 @@ moustache
 
 cou
 : ше́я
-_cheya_
+*cheya*
 
 nuque
 : -
@@ -191,11 +191,11 @@ bras
 
 épaule
 : плечо́
-_plitcho_
+*plitcho*
 
 épaules
 : пле́чи
-_pletchi_
+*pletchi*
 
 aisselle
 : -
@@ -214,19 +214,19 @@ poignet
 
 main
 : рука́
-_rouca_
+*rouca*
 
 mains
 : ру́ки
-_rouqui_
+*rouqui*
 
 doigt/orteil
 : па́лец
-_palétse_
+*palétse*
 
 doigts/orteils
 : па́льцы
-_paltsy_
+*paltsy*
 
 pouce
 : -
@@ -257,11 +257,11 @@ ongle
 
 jambe
 : нога́
-_naga_
+*naga*
 
 jambes
 : но́ги
-_nogi_
+*nogi*
 
 cuisse
 : -
@@ -290,7 +290,7 @@ les orteils
 talon
 : -
 
-(https://fr.wikiversity.org/wiki/Russe/Vocabulaire/Le_corps_d'un_humain)
+(https://fr.wikiversity.org/wiki/Russe/Vocabulaire/Le*corps*d'un*humain)
 
 
 ## Squelette
@@ -321,7 +321,7 @@ bassin
 
 organe
 : о́рган
-_organne_
+*organne*
 
 cerveau
 : -
