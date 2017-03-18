@@ -8,12 +8,15 @@ weight: 9000
 nav:
   id: "main-nav"
   label: "A propos"
-  icon: "fa fa-info-circle"
+  icon: "fa fa-info"
 ---
+Cette application à été développé à des fins personnelles et est complétée
+jours après jours d'après divers sources. Les articles sont donc succeptibles de
+contenir des erreurs et sont parfois incomplets.
 
-Cette application à été développé par un geek dyslexique à des fins personnelles.
-Les articles sont complétés *en live* jours après jours et sont donc incomplets
-et succeptibles de contenir de nombreuses erreurs.
-Merci de me faire part de vos remarques via ce [formulaire de contact](https://docs.google.com/forms/d/1twlFd6Y3-BNf9l1JTH42yatGEQvXgpmm_wd_2wOLlS0/prefill).
+Aucune donnée personnelle n'est reccueillie. Des données anonymes peuvent
+cependant être utilisées par les services Google associés à cette application
+(bref, comme sur la plupart des sites).
 
-Aucune donnée personnelle n'est reccueillie. Des données anonymes peuvent cependant être utilisées à des fins statistiques ainsi que par le fournisseur de publicités (bref, comme la plupart des sites).
+N'hésitez pas à me contacter si vous souhaitez supporter cette application,
+me faire part d'une remarque ou apporter votre pierre à l'édifice.

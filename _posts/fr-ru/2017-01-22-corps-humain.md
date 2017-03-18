@@ -402,6 +402,17 @@ chauve
 : -
 
 
+## Gros mots
+
+bite
+: хуй
+*rouil*
+
+chatte
+: пизда
+*pisda*
+
+
 ## Imperfections
 
 taches de rousseur

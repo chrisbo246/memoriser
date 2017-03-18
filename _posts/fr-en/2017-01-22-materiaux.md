@@ -5,6 +5,19 @@ excerpt: "Liste de vocabulaire Anglais courant relatif aux métaux, matériaux d
 image: assets/images/posts/metal.jpg
 tags: [objets]
 ---
+
+## Matériaux naturels
+
+terre, argile, terre battue
+: clay
+
+eau douce
+: freshwater
+
+eau salée
+: saltwater
+
+
 ## Métaux
 
 aluminium
@@ -23,13 +36,7 @@ plomb
 : lead
 
 
-## Alliages et traitements
-
-acier laminé à froid
-: cold rolled steel
-
-acier trempé
-: hardened steel
+## Alliages
 
 acier
 : steel
@@ -44,6 +51,14 @@ zinc
 : zinc
 
 
+## Traitements
+
+acier laminé à froid
+: cold rolled steel
+
+acier trempé
+: hardened steel
+
 
 ## Bois
 
@@ -57,7 +72,7 @@ contre-plaqué
 : -
 
 
-## Matériaux de construction et terrassement
+## Matériaux de construction
 
 béton
 : concrete
@@ -71,17 +86,17 @@ ciment
 platre
 : plaster
 
-argile, terre, terre battue
-: clay
+
+# Sol
 
 bitume
 : bitumen
 
-gravel
+gravier
 : pea gravel
 
 
-## Matériaux de construction et terrassement
+## Textiles
 
 tissu
 : fabric

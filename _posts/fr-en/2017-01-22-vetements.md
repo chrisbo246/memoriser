@@ -14,7 +14,7 @@ cagoule
 chapeau
 : hat
 
-feutre <small>(chapeau)</small>
+feutre (chapeau)
 : fedora
 
 doublure de casque
@@ -237,5 +237,5 @@ salopette de travail
 
 ## Divers
 
-Garde-robe
-: Wardrobe
+garde-robe
+: wardrobe

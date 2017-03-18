@@ -14,8 +14,8 @@ calibre
 jauge de profondeur
 : depth gauge
 
-machine à mesurer tridimensionnelle (MMT)
-: coordinate measuring machine (CMM)
+machine à mesurer tridimensionnelle (mmt)
+: coordinate measuring machine (cmm)
 
 micromètre
 : micrometer
@@ -75,16 +75,16 @@ meule
 ## Machines d'usinage
 
 commande numérique
-: CNC
+: cnc
 
 electro-érosion par enfonçage
-: sinker EDM (Die-sink EDM machine)
+: sinker edm (die-sink edm machine)
 
 electro-érosion par fil
-: wire EDM (Wire-cut EDM machine)
+: wire edm (wire-cut edm machine)
 
 fraiseuse à commande numérique
-: CNC milling machine
+: cnc milling machine
 
 fraiseuse
 : mill, milling machine

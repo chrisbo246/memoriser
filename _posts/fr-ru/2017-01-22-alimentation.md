@@ -2,9 +2,7 @@
 title: "Vocabulaire Russe: L'alimentation"
 description: "Liste de vocabulaire Russe relatif à la nourriture et à la table."
 excerpt: "Liste de vocabulaire Russe relatif à la nourriture et à la table."
-image: assets/images/posts/baking.jpg
-tags: []
-categories:
+image: assets/images/posts/hamburger.jpg
 ---
 
 ## Pain et féculents

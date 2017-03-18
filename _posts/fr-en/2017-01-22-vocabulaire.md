@@ -2,86 +2,41 @@
 title: "Vocabulaire Anglais: Divers"
 description: "Liste de vocabulaire Anglais courant difficiles à mémoriser."
 excerpt: "Liste de vocabulaire Anglais courant difficiles à mémoriser."
-image:
+image: assets/images/posts/english-dictionary.jpg
 tags: [base]
 ---
 
-## Argent, business
+## Business
 
-Entrepreneur, fournisseur
-: Contractor
-
-
-## Nature
-
-Eau douce
-: Freshwater
-
-Eau salée
-: Saltwater
-
-Coup de vent
-: Gale
-
-
-## Nourriture
-
-Eau du robinet
-: Tap water
-
-Frites
-: French fries
-
-Purée de pomme de terre
-: Mashed potatoes
-
-Jaune d'oeuf
-: Egg yolk
-
-Laurier
-: bay leaf
+entrepreneur, fournisseur
+: contractor
 
 
 ## Argent
 
-Blanchiment d'argent
-: Money laundering
+blanchiment d'argent
+: money laundering
 
-DAB <small>(distributeur automatique de billets)</small>
-: ATM <small>(automated teller machine)</small>
+DAB (distributeur automatique de billets)
+: ATM (automated teller machine)
 
-Pourboir
-: PA TIP
+pourboir
+: pa tip
 
 
 ## Fêtes
 
-Oeuf de Pâques
-: Easter egg
+oeuf de pâques
+: easter egg
 
-Noël
-: Christmas
+noël
+: christmas
 
-Chandeleur
-: Candlemas
+chandeleur
+: candlemas
 
-Action de grâces
-: Thanksgiving
-
-Barbe à papa
-: Cotton candy
-
-
-## Temmps, durée
-
-Durée de vie
-: Lifespan
-
-Année sabbatique
-: Year off
-
-Année bissextile
-: Leap year
+action de grâces
+: thanksgiving
 
 
 ## Action
@@ -89,119 +44,117 @@ Année bissextile
 Coup d’œil
 : Peek, Glance
 
-Apperçu
-: Sneak peek
+apperçu
+: sneak peek
 
-Bras de fer
-: Arm wrestling
+bras de fer
+: arm wrestling
 
-Jouer à cache-cache
-: Play hide and seek
+jouer à cache-cache
+: play hide and seek
 
 
 ## Situation
 
-Effusion de sang
-: Bloodshed
+effusion de sang
+: bloodshed
 
-Revers (échec)
-: Setback
+revers (échec)
+: setback
 
 Étape importante
-: Milestone
+: milestone
 
-La pierre angulaire
-: The cornerstone
+la pierre angulaire
+: the cornerstone
 
 
 ## Objets
 
-Cocotte-minute
-: Pressure cooker
 
-Porte-bonheur
-: Lucky charm
+porte-bonheur
+: lucky charm
 
 
 ## Lieu
 
-Monde inférieur (enfer)
-: Netherworld
+monde inférieur (enfer)
+: netherworld
 
-Maison de prostitution, maison close
-: Brothel, Whorehouse
+maison de prostitution, maison close
+: brothel, whorehouse
 
-Boutique de bonbons (lieu de vente de drogue)
-: Candy shop
+boutique de bonbons (lieu de vente de drogue)
+: candy shop
 
 
 ## Batiments
 
-Abrit
-: Shelter
+abrit
+: shelter
 
-Cabanon
-: Shed
+cabanon
+: shed
 
 
 ## Agressions
 
-Kidnappé
-: Kidnapped
+kidnappé
+: kidnapped
 
-Volé
-: Stolen
+volé
+: stolen
 
-Pillé
-: Looted
+pillé
+: looted
 
-Volé
-: Robbed
+volé
+: robbed
 
-Agressé
-: Mugged
+agressé
+: mugged
 
-Violé
-: Raped
+violé
+: raped
 
-Poignardé
-: Stabbed
+poignardé
+: stabbed
 
-Tué
-: Killed
+tué
+: killed
 
-Blessé
-: Wounded
+blessé
+: wounded
 
 
 ## Mots composés
 
-Connaissance de soi
-: Self-awareness
+connaissance de soi
+: self-awareness
 
-Séchage à l'air libre
-: Line dry
+séchage à l'air libre
+: line dry
 
-Séchage en machine
-: Tumble dry
+séchage en machine
+: tumble dry
 
-Sèche-linge
-: Tumble dryer
+sèche-linge
+: tumble dryer
 
-Le mal du pays
-: Home sick
+le mal du pays
+: home sick
 
-Anti sèche
-: Cheat sheet
+anti sèche
+: cheat sheet
 
 
 ## Véhicule
 
-Quatre roues motrices
-: Four-wheel drive
+quatre roues motrices
+: four-wheel drive
 
-Quatre roues directrices
-: Four wheel steering
+quatre roues directrices
+: four wheel steering
 
 
 ## Différents types de tiges
@@ -221,50 +174,50 @@ tige
 
 ## Texte
 
-Adjectif
-: Adjective
+adjectif
+: adjective
 
-Idiome
-: Idiom
+idiome
+: idiom
 
-Expression
-: Expression
+expression
+: expression
 
-Phrase
-: Sentence, Phrase
+phrase
+: sentence, phrase
 
-Dicton
-: Saying
+dicton
+: saying
 
-Citation
-: Quote
+citation
+: quote
 
-Verbe
-: Verb
+verbe
+: verb
 
 
 ## Divers
 
-Crise de la quarantaine
-: Midlife crisis
+crise de la quarantaine
+: midlife crisis
 
 ... de rechange
 : Spare ...
 
-Fossé
-: Ditch
+fossé
+: ditch
 
-Gros mots
-: Swearwords
+gros mots
+: swearwords
 
-Bande de voyous
-: Wild bunch
+bande de voyous
+: wild bunch
 
-Couloir de la mort
-: Death row
+couloir de la mort
+: death row
 
-Préoccupation
+préoccupation
 : concern
 
-Humanité
-: Mankind
+humanité
+: mankind

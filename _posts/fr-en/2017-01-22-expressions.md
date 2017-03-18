@@ -8,46 +8,46 @@ image: assets/images/posts/expression.jpg
 
 ## Début de phrase
 
-Tout d'abord ...
-: Formost ...
+tout d'abord
+: formost
 
-Avant toute chose ...
-: First of all ...
+avant toute chose
+: first of all
 
-A première vue ...
-: At first grance ...
+a première vue
+: at first grance
 
-Au premier abord ...
-: At first ...
+au premier abord
+: at first
 
-Indépendamment de ...
-: Regardless of ...
+indépendamment de
+: regardless of
 
-Au fait, ...
-: By the way, ...
+au fait
+: by the way
 
-Toutes blagues mises à part, ...
-: All jokes aside, ...
+toutes blagues mises à part
+: all jokes aside
 
-L'un dans l'autre, ...
-: All in all, ...
+l'un dans l'autre
+: all in all
 
-Encore un autre ...
-: Yet another ...
+encore un autre
+: yet another
 
-En bref ...
-: At a glance ...
+en bref
+: at a glance
 
-En ce qui concerne ...
-: When it comes to ...
+en ce qui concerne
+: when it comes to
 
-Il était une fois ...
-: Once upon a time ...
+il était une fois
+: once upon a time
 
 ## Fin de phrase
 
-..., et ainsi de suite.
-: ..., and so on, and so forth.
+Et ainsi de suite.
+: And so on, and so forth.
 
 ## Questions
 
@@ -59,6 +59,7 @@ Voulez-vous un coup de main?
 
 Es-tu en train de te moquer de moi?
 : Are you making fun of me?
+
 
 ## Réponses
 
@@ -113,253 +114,220 @@ Le plaisir était pour moi!
 Ne vous embêtez pas!
 : Don't bother!
 
-C'est une question de goût
-: It's a matter of taste
+C'est une question de goût.
+: It's a matter of taste.
 
-C'est donnant-donnant
-: It's give and take
+C'est donnant-donnant.
+: It's give and take.
 
-A chacun sa façon de penser
-: To each his thinking
+A chacun sa façon de penser.
+: To each his thinking.
 
-Advienne que pourra
-: Come what may
+Advienne que pourra.
+: Come what may.
 
 ## Situation
 
-Sombre ennui
-: Grim looner
+sombre ennui
+: grim looner
 
-A portée de main
-: At hand
+a portée de main
+: at hand
 
-Etre prêt à
-: Be willing to
+etre prêt à
+: be willing to
 
-Se sentir comme à la maison
-: Feel home
+se sentir comme à la maison
+: feel home
 
-De mal en pire
-: From bad to worse
+de mal en pire
+: from bad to worse
 
-De pire en pire
-: Worse and worse
+de pire en pire
+: worse and worse
 
-Une éffusion de sang
-: A bloodshed
+une éffusion de sang
+: a bloodshed
 
-Dans l'ensemble
-: On the whole
+dans l'ensemble
+: on the whole
 
-Un état d'esprit
-: A mind set
+un état d'esprit
+: a mind set
 
-Un acte de foi
-: A leap of faith
+un acte de foi
+: a leap of faith
 
-Une vie à la dure (de voyou)
-: A thug life
+une vie à la dure (de voyou)
+: a thug life
 
 Il m'a posé un lapin
-: He stood me <small>(to stand someone up)</small>
+: He stood me (to stand someone up)
 
 ## Ressenti
 
-Garder la tête froide
-: Keep a cool head
+garder la tête froide
+: keep a cool head
 
 Je suis au pied du mur
 : I cornered
 
-Se sentir obligé de
-: Feel compelled to
+se sentir obligé de
+: feel compelled to
 
-J'ai tourné la page
-: I am getting over you
+j'ai tourné la page
+: i am getting over you
 
 ## Comportement
 
-Ne jamais se taire
-: Go on and on
+ne jamais se taire
+: go on and on
 
-Bien s'entendre avec
-: Get on well with
+bien s'entendre avec
+: get on well with
 
-Travailler à ma façon
-: Work my way around
+travailler à ma façon
+: work my way around
 
 ## Mouvement, déplacement
 
-S'envoler, Monter en flèche
-: Soar
+s'envoler, monter en flèche
+: soar
 
-Aller-retour
-: Round trip
+aller-retour
+: round trip
 
-Va-et-vient
-: Back and forth
+va-et-vient
+: back and forth
 
-En cours de route
-: Down the road
+en cours de route
+: down the road
 
 ## Remarque, étonnement
 
 Ça vaut son pesant d'or
-: It's worth its weight in gold
+: it's worth its weight in gold
 
 Ça vaut le coup
-: Worth it
+: worth it
 
 Çà ne vaut pas le coup
-: It's not worth the effort
+: it's not worth the effort
 
 C'est à couper le souffle!
 : It's breathtaking!
 
-C'est la cerise sur le gâteau
-: This is the icing on the cake
+c'est la cerise sur le gâteau
+: this is the icing on the cake
 
-Ils font la paire
-: They do the match
+ils font la paire
+: they do the match
 
 ## Dégoût, mépris
 
-Ne supporte pas
-: Can't stand
+ne supporte pas
+: can't stand
 
 ## Jeu
 
-Mettre ma vie en jeu
-: Put my life on the line
+mettre ma vie en jeu
+: put my life on the line
 
-Gagner haut la main
-: Win hands down
+gagner haut la main
+: win hands down
 
-En plein dans le mille
-: Right in the middle
+en plein dans le mille
+: right in the middle
 
 Les doigts dans le nez
 : Hands down / Like taking candy from a baby / A piece of cake / As easy as pie
 
-## Météo
-
-Le vent se lève
-: The wind picks up
-
-Pluie battante
-: Pouring rain
-
-Faire sombre à l'extérieur
-: Get dark
 
 ## Formules courants
 
-Avant de partir
-: Before you head out
+avant de partir
+: before you head out
 
-Je n'arrive pas à ...
-: I can't get to ...
+je n'arrive pas à
+: i can't get to
 
-Il est intéressant de ...
-: It's worth ...
+il est intéressant de
+: it's worth
 
-..., à savoir ...
-: ..., in the know ...
+à savoir
+: in the know
 
 Faisons ...
 : Let's ...
 
-Il ne faut pas ...
-: Let's not ...
+il ne faut pas
+: let's not
 
-Grâce à ...
-: Thanks to ...
+grâce à
+: thanks to
 
-Ce qu'on pourrait appeler ...
-: What one might call ...
+ce qu'on pourrait appeler
+: what one might call
 
-Pas de place pour ...
-: No room for ...
+pas de place pour
+: no room for
 
-Pour l'intérêt de ...
-: For the sake of ...
+pour l'intérêt de
+: for the sake of
 
-... représentent le ...
-: ... makes up the ...
+représentent le
+: makes up the
 
-... comme ...
-: ... as if ...
+comme
+: as if
 
-... à la fois ...
-: ... at a time ...
+à la fois
+: at a time
 
-## Formules courants
+un homme ou une femme
+: nether a man nor woman
 
-Un homme ou une femme
-: Nether a man nor woman
-
-Ce n'est pas mon truc
-: It's not my thing
-
-devenir majeur, atteindre la majorité
-: come of age
-
-je suis majeur
-: I am of age
-
-passage à l'âge adulte
-: comming-of-age
+ce n'est pas mon truc
+: it's not my thing
 
 il a fait de grands efforts
 : he has gone to great lengths
 
-Note pour moi-même
-: Note to self
+note pour moi-même
+: note to self
 
 Apprendre à nous / vous connaître
 : Get to know us / you
 
-Pensez-y à deux fois avant de ...
-: do things twice before ...
+pensez-y à deux fois avant de
+: do things twice before
 
-Voir jusqu'où cela te mène
-: See how far you get
+voir jusqu'où cela te mène
+: see how far you get
 
 Fumer un joint / du cannabis
 : Smoking pot / weed
 
+fumer du cannabis
+: smoking weed
+
+comme par magie
+: as if by magic
+
 ## Expressions idiomatiques
 
-Joindre les deux bouts
-: To make ends meet
+joindre les deux bouts
+: to make ends meet
 
-Une belle histoire
-: A feel good story
+une belle histoire
+: a feel good story
 
-Semble étrange
-: Sound odd
+semble étrange
+: sound odd
 
-Cela vaut le coup
-: It's worth
+cela vaut le coup
+: it's worth
 
-Déjà prêt à la naissance, né pour ça
-: Born ready
-
-## Formulation des nombres
-
-5 sur 10
-: 5 out of 10
-
--5°C
-: minus 5 degrees celsius
-
-Dizaine
-: Tens
-
-Vingtaine
-: Twentine
-
-Quarantaine
-: Quarantine
-
-Voir aussi: <a href="http://villemin.gerard.free.fr/Langue/AnglExp1.htm" target="_blank">villemin.gerard.free.fr</a>, <a href="http://www.expressio.fr/expressions_idiomatiques_en_anglais.php" target="_blank">Pour en savoir plus...</a>
+né pour ça
+: born ready
+*déjà prêt à la naissance*

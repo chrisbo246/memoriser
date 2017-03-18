@@ -3,34 +3,32 @@ title: "Vocabulaire Russe: Formules de politesse"
 description: "Liste de vocabulaire Russe courant relatif aux formules de politesse."
 excerpt: "Liste de vocabulaire Russe courant relatif aux formules de politesse."
 image: assets/images/posts/handshake.jpg
-tags:
-category:
 weight: 1
 ---
 ## Présentation
 
-Enchanté (e)
+Enchanté(e)!
 : Взаимно!
-*Vzaimno!*
+*Vzaïmna!*
 
-avec vous de faire connaissance
+Avec vous de faire connaissance!
 : Рад(а) с Вами познакомиться!
 *Rad(a) s Vami poznakomit'sja Приятно познакомиться! Prijatno poznakomit'sja!*
 
 
 ## Bonjour
 
-salut
-: Привет
-*privièt*
+salut!
+: Привет!
+*Privièt!*
 
-bonjour / bonsoir (poli)
-: Здравствуйте
-*zdrA-stvouy-tyé*
+Bonjour / Bonsoir! (poli)
+: Здравствуйте!
+*ZdrAstvouytyé!*
 
-Bonjour (bon jour)
+Bonjour! (bon jour)
 : Добрый день!
-*Dobryj den'!*
+*Dobryj dièn!*
 
 Bonjour, Monsieur!
 : Доброе утро, сэр!
@@ -40,28 +38,28 @@ Bonjour, Madame!
 : Доброе утро, мадам!
 *Dobroe outra, madam!*
 
-Bonjour (le matin)
+Bonjour! (le matin)
 : Доброе утро!
 *Dobroyè outro!*
 
-Bonjour (l'après midi)
+Bonjour! (l'après midi)
 : Добрый день!
 *Dobri dyegne!*
 
-Bonsoir
+Bonsoir!
 : Добрый вечер!
 *Dobryj vecher!*
 
 
 ## Au revoir
 
-salut (au revoir)
-: пока
-*paka*
+Salut! (au revoir)
+: пока!
+*Paka!*
 
-au revoir
-: до свидания
-*da svidAnia*
+Au revoir!
+: до свидания!
+*Da svidania!*
 
 A bientôt
 : до скорого!
@@ -75,9 +73,9 @@ A plus, à plus tard, à la prochaine
 : До встречи!
 *Do vstrechi!*
 
-Au revoir, adieu
-: До свидания!
-*Da svidania!*
+Au revoir, Adieu.
+: До свидания.
+*Da svidania.*
 
 Bonne nuit!
 : Спокойной ночи!
@@ -86,9 +84,9 @@ Bonne nuit!
 
 ## Remercier
 
-merci
-: Спасибо
-*spasiba*
+Merci!
+: Спасибо!
+*Spasiba!*
 
 Merci, de même!
 : Спасибо, взаимно!
@@ -101,37 +99,33 @@ Très bien merci!
 
 ## S'excuser
 
-pardon
-: помилование
-*pOmilovenié*
+Pardon.
+: помилование.
+*Pomilovenié.*
 
-excusez-moi, désolé
-: Извините
-*izvinitiè*
+Excusez-moi, désolé.
+: Извините.
+*Izvinitiè.*
 
-S’il vous plait
-: пожалуйста
-*Pajaosta*
+S’il vous plait.
+: пожалуйста.
+*Pajaosta.*
 
 
 ## Demander des nouvelles
 
-Comment ça va?
-: Kaк дeлá
-*kak dela?*
-
-Ça va? Comment ça va? Comment vas-tu?
-: Как ты? / Как дела?
-*Kak ty? / Kak diela?*
+Ça va? Comment ça va? Comment allez-vous?
+: Как ты? Как дела?
+*Kak ty? Kak diela?*
 
 Je suis content(e) de te voir.
-: Рад(а) встрече! --- Спасибо, взаимно!
-*Rad(a) vstreche!*
+: Рад(а) встрече! Спасибо, взаимно.
+*Rad(a) vstreche.*
 
 Qu'est-ce qui ne va pas?
 : Что не так?
-*chto nie tak?*
+*Chto nie tak?*
 
 Qu'est-ce qu’il y a?
 : В чем дело?
-*v chiem diela?*
+*V chiem diela?*

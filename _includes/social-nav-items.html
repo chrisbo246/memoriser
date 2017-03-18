@@ -1,18 +1,26 @@
 {% if site.twitter.username %}
 <li class="nav-item">
-    <a class="nav-link" href="https://twitter.com/{{ site.twitter.username }}" title="Twitter" ><span class="fa fa-twitter"></span></a>
+    <a class="nav-link" href="https://twitter.com/{{ site.twitter.username }}" title="Twitter" >
+        <span class="fa fa-twitter fa-3x"></span>
+    </a>
 </li>
 {% endif %}
 {% if site.facebook.publisher %}
 <li class="nav-item">
-    <a class="nav-link" href="https://www.facebook.com/profile.php?id={{ site.facebook.publisher }}" title="Facebook" ><span class="fa fa-facebook"></span></a>
+    <a class="nav-link" href="https://www.facebook.com/profile.php?id={{ site.facebook.publisher }}" title="Facebook" >
+        <span class="fa fa-facebook fa-3x"></span>
+    </a>
 </li>
 {% endif %}
 {% if site.repository %}
 <li class="nav-item">
-    <a class="nav-link" href="https://github.com/{{ site.repository }}" title="Github" ><span class="fa fa-github"></span></a>
+    <a class="nav-link" href="https://github.com/{{ site.repository }}" title="Github" >
+        <span class="fa fa-github fa-3x"></span>
+    </a>
 </li>
 {% endif %}
 <li class="nav-item">
-    <a class="nav-link" href="{{ "/feed.xml" | relative_url }}" title="RSS" ><span class="fa fa-rss"></span></a>
+    <a class="nav-link" href="{{ "/feed.xml" | relative_url }}" title="RSS" >
+        <span class="fa fa-rss fa-3x"></span>
+    </a>
 </li>

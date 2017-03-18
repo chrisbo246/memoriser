@@ -2,7 +2,7 @@
 title: "Vocabulaire Français: Expressions latines"
 description: "Liste de vocabulaire Français regroupant des expressions latines relativement courantes."
 excerpt: "Liste de vocabulaire Français regroupant des expressions latines relativement courantes."
-image:
+image: assets/images/posts/english-dictionary.jpg
 tags: [base]
 ---
 

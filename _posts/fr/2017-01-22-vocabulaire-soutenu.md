@@ -2,23 +2,22 @@
 title: "Vocabulaire Français: Vocabulaire soutenu"
 description: "Liste de vocabulaire Français regroupant du vocabulaire soutenu relativement courant."
 excerpt: "Liste de vocabulaire Français regroupant du vocabulaire soutenu relativement courant."
-image:
+image: assets/images/posts/english-dictionary.jpg
 tags: [base]
-categories:
 weight: 1
 ---
 
 ## Noms
 
-Acmé <small>(du grec sommet)</small>
+Acmé (du grec sommet)
 : Apogée, évolution ultime.
 
 Agapes
 : Festin entre amis.
 
-Arcane
-: Secret
-*Ex: les arcanes du pouvoir*.
+arcane
+: secret
+*ex*: les arcanes du pouvoir*.
 
 Atavisme
 : Hérédité.
@@ -54,12 +53,12 @@ Noria
 : [![](http://m.thumbs.canstockphoto.com/canstock10877775.jpg)](http://m.thumbs.canstockphoto.com/canstock10877775.jpg) Système composé de godets et poulies destiné à extraire l'eau d'un puits.
 Allers et retours ininterrompus de véhicules de transport.
 
-Omerta
-: Loi du silence
-*En référence à la mafia sicilienne*.
+omerta
+: loi du silence
+*en référence à la mafia sicilienne*.
 
-Onanisme
-: Masturbation
+onanisme
+: masturbation
 
 Paradigme
 : Façon de penser liée à l'éducation.
@@ -73,11 +72,11 @@ Pogrome
 Prosélitisme
 : Recruter des adeptes, tenter d'imposer ses idées.
 
-Résurgence
-: Réapparition
+résurgence
+: réapparition
 
-Thaumaturge
-: Faiseur de miracle
+thaumaturge
+: faiseur de miracle
 
 Tropisme
 : Orientation induite par un élément extérieur.
@@ -95,47 +94,47 @@ Paupériser
 Ostraciser
 : Bannir, tenir à l'écart.
 
-Phagocyter
-: Détruire quelqu'un à petit feu
-*Littéralement manger de l'intérieur*
+phagocyter
+: détruire quelqu'un à petit feu
+*littéralement manger de l'intérieur*
 
-Regimber
-: Résister en refusant d'obéir
-*En référence au cheval qui refuse d'avancer*
+regimber
+: résister en refusant d'obéir
+*en référence au cheval qui refuse d'avancer*
 
-Renâcler
-: Témoigner de sa répugnance
-*En référence au cheval qui expire pour exprimer son mécontentement*
+renâcler
+: témoigner de sa répugnance
+*en référence au cheval qui expire pour exprimer son mécontentement*
 
-Supputer
-: Supposer
+supputer
+: supposer
 
 
 ## Adjectifs
 
-Anthropique
-: Provoqué par l'activité humaine
-*Ex: un paysage anthorpique*
+anthropique
+: provoqué par l'activité humaine
+*ex*: un paysage anthorpique*
 
-Antédiluvien
-: Avant le déluge
+antédiluvien
+: avant le déluge
 
-Bigarré
-: Varié
+bigarré
+: varié
 
 Chamarré
 : Très coloré, couvert de décorations.
 
-Dichotomique
-: Partagé
-*Littéralement coupé en deux.*
+dichotomique
+: partagé
+*littéralement coupé en deux*.*
 
-Erratique
-: Irrégulier, incohérent
+erratique
+: irrégulier, incohérent
 
-Extatique
-: Qui provoque l'extase
-*Ex: une vision extatique*.
+extatique
+: qui provoque l'extase
+*ex*: une vision extatique*.
 
 Onirique
 : Inspiré par un rêve.
@@ -266,9 +265,9 @@ Prolixe
 Laïus
 : Long et sans intérêt.
 
-Sibyllin(e)
+sibyllin(e)
 : Énigmatique
-*En référence aux prophétesses Grecques, les sibylles.*
+*en référence aux prophétesses grecques*, les sibylles.*
 
 Sophisme
 : Argumentation biaisée mais difficile à réfuter ou visant à induire l'interlocuteur en erreur.
@@ -276,26 +275,26 @@ Sophisme
 
 ## Médecine, symptômes, maladies
 
-Catharsis
-: Thérapie
-*provoquer un choc émotionnel chez le patient pour comprendre la cause du problème.*
+catharsis
+: thérapie
+*provoquer un choc émotionnel chez le patient pour comprendre la cause du problème*.*
 
 Épistaxis
-: Saignement de nez
+: saignement de nez
 
-Neurasthénie
-: Déprime
+neurasthénie
+: déprime
 
 
 ## Expressions
 
-Parangon
-: Un modèle
-*Ex: un parangon de vertu*
+parangon
+: un modèle
+*ex*: un parangon de vertu*
 
-A titre posthume
-: Après la mort
-*Ex: Un livre publié à titre posthume.*
+a titre posthume
+: après la mort
+*ex*: Un livre publié à titre posthume.*
 
 A huis clos
 : Accès fermé au public.
@@ -310,9 +309,9 @@ Apocryphe
 : Non authentique, faux.
 *Ex: un testament apocryphe*.
 
-Coquecigrue
-: Absurdité
-*Animal imaginaire, mi coq, mi cigogne, mi grue, en référence à Gargantua de Rabelais.*
+coquecigrue
+: absurdité
+*animal imaginaire*, mi coq, mi cigogne, mi grue, en référence à Gargantua de Rabelais.*
 
 Épistolaire
 : Regroupant les lettres échangées entre deux personnes.

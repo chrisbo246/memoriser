@@ -2,247 +2,75 @@
 title: "Vocabulaire Anglais: Adjectifs"
 description: "Liste de vocabulaire Anglais courant regroupant quelques adjectifs difficiles."
 excerpt: "Liste de vocabulaire Anglais courant regroupant quelques adjectifs difficiles."
-image:
+image: assets/images/posts/english-dictionary.jpg
 tags: [base]
 ---
+
 ## Relatif à une situation
 
-Flou
-: Fuzzy
+à figer le sang
+: bloodcurdling
 
-Sinistre
-: Grim
+effrayant
+: scary, spooky
 
-Effrayant
-: Scary, spooky
+flagrant
+: glaring
 
-Parfait, parfaitement (sans défaut, sans faille)
-: Flawless, flawlessly
+flou
+: fuzzy
 
-... à figer le sang
-: Bloodcurdling ...
+parfait, parfaitement
+: flawless, flawlessly
 
-Sur leur trente-et-un (prêt à sortir)
-: On their way
-
-Comme par magie
-: As if by magic
-
-Flagrant
-: Glaring
+sinistre
+: grim
 
 
 ## Relatif à un lieu
 
-Sombre, lugubre
-: Gloomy
+sombre, lugubre
+: gloomy
 
-
-## Etat
-
-Sain et sauf
-: Safe and sound
-
-épuisé
-: exhausted, out of print, sold out
 
 
 ## Sensation au touché
 
-Qui démange
-: Itchy
+qui démange
+: itchy
 
-Rêche
-: Scratchy
+rêche
+: scratchy
 
-Lisse
-: Smooth
-
-
-## Caractère d'une personne
-
-Avide
-: Greedy
-
-Cochon
-: Smutty
-
-Coquin
-: Kinky
-
-Currieux
-: Nosy
-
-Plein de cran
-: Spunky
-
-Sociable
-: Chummy
-
-Sournois
-: Sneaky
-
-Toqué
-: Goofy
-
-Vilain (méchant)
-: Naughty
-
-Audacieux
-: Bold
-
-Dur à cuire
-: Badass
-
-Facile à vivre
-: Easygoing
-
-Grande gueule
-: Loudmouth
-
-Téméraire
-: Reckless
-
-Mignon
-: Dinky
-
-Méchant
-: Mean
-
-
-## Comportement d'une personne
-
-Lâche
-: Coward
-
-Avisé
-: Savvy
-
-Délicat
-: Dainty
-
-Gai, Guilleret
-: Perky
-
-Impertinent
-: Sassy
-
-Méfiant
-: Leery
-
-Maladroit
-: Clumsy, Hawkward
-
-Bizard
-: Weird
-
-Grossier
-: Uncouth
-
-Incontrôlable
-: Out of hand
-
-Impoli
-: Rude
-
-Féroce
-: Fierce
-
-Vif
-: Keen
-
-Pourri jusqu'à la moelle
-: Rotten to the core
-
-A la limite du génie
-: Borderline genius
-
-
-## Sentiments d'une personne
-
-Désireux
-: Eager
-
-Dubitatif
-: Dubious
-
-Malade de jalousie
-: Sick with envy
-
-
-## Apparence d'une personne
-
-Joufflu
-: Chubby
-
-Flasque
-: Saggy
-
-Ridé
-: Wrinkly
-
-Endimanché
-: Duded up
-
-Crasseux
-: Grimy
-
-Maigre
-: Lean
-
-Svelte
-: Slender
+lisse
+: smooth
 
 
 ## Pour décrire un objet
 
-Solide
+solide
 : sturdy
 
-Volumineux
-: Bulky
-
-Gaté, Gâché
-: Spoiled
-
-Fabriqués à la main
-: Hand-crafted
-
-
-## Nouriture
-
-Doux
-: Sweet
-
-Amère
-: Bitter
-
-Acide
-: Sour
-
-Délicieux
-: Yummy
-
-Faisandé
-: Gamy
+volumineux
+: bulky
 
 
 ## A propos de l'environnement
 
-Luxuriant
-: Lush
+luxuriant
+: lush
 
 
 ## Position
 
-De front, frontale
-: Head-on
+de front, frontale
+: head-on
 
 
 ## Divers
 
-Coincé
-: Stuck up
+coincé
+: stuck up
 
-Recousu
-: Stitched up
+recousu
+: stitched up

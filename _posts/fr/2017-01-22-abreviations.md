@@ -2,7 +2,7 @@
 title: "Vocabulaire Français: Abréviations courantes"
 description: "Liste de vocabulaire Français regroupant des abréviations Français, Anglais et latines relativement courantes."
 excerpt: "Liste de vocabulaire Français regroupant des abréviations Français, Anglais et latines relativement courantes."
-image:
+image: assets/images/posts/english-dictionary.jpg
 tags: [base]
 ---
 
@@ -15,8 +15,8 @@ C.Q.F.D.
 : Ce Qu’il Fallait Démontrer
 *En math.*
 
-HS
-: Hors Service
+hs
+: hors service
 
 N.D.L.R.
 : Note De La Rédaction
@@ -25,19 +25,19 @@ N.D.L.R.
 R.A.S.
 : Rien A Signaler
 
-RDV
-: Rendez-vous
+rdv
+: rendez-vous
 
 
 ## Abréviations provenant du Latin
 
-AM
-: Ante Meridiem
-*Avant midi sur la montre.*
+am
+: ante meridiem
+*avant midi sur la montre*.*
 
-PM
-: Post Meridiem
-*Après midi sur la montre.*
+pm
+: post meridiem
+*après midi sur la montre*.*
 
 e.g.
 : Exempli Gratia
@@ -62,21 +62,21 @@ a.k.a.
 : Also Known As
 *Egalement connu sous le nom de ..., alias ...*
 
-ASAP
-: As Soon As Possible
-*Aussi vite que possible.*
+asap
+: as soon as possible
+*aussi vite que possible*.*
 
-KO
-: Knock Out
-*Frappé à perdre conscience.*
+ko
+: knock out
+*frappé à perdre conscience*.*
 
-OK
-: Zero Killed
-*Aucun mort, tout va bien.*
+ok
+: zero killed
+*aucun mort*, tout va bien.*
 
-SOS
-: Save Our Souls
-*Sauvez nos âmes.*
+sos
+: save our souls
+*sauvez nos âmes*.*
 
 R.I.P.
 : Rest In Peace

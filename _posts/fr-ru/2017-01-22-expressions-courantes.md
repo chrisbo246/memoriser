@@ -2,9 +2,7 @@
 title: "Vocabulaire Russe: Expressions courantes"
 description: "Liste de vocabulaire Russe regroupant des phrases et expressions courantes en phonétique."
 excerpt: "Liste de vocabulaire Russe regroupant des phrases et expressions courantes en phonétique."
-image:
-tags: []
-categories:
+image: assets/images/posts/russian-dictionary.jpg
 ---
 ## Les pays
 
@@ -18,79 +16,79 @@ Russie
 
 Russe (de Russie)
 : русский
-*rOUsski*
+*Rousski*
 
 Françe
 : Франция
-*FrAntsii*
+*Frantsii*
 
 Français(e)
-: французский
-*frantsuzskiy*
+: Французский
+*Frantsuzskiy*
 
 
 ## Les phrases de secours
 
-Je ne comprends pas
-: Не понимаю
-*Nie ponimay*
+Je ne comprends pas.
+: Не понимаю.
+*Nie ponimay.*
 
-Je ne parle pas Russe
-: Я не говорю по-русски
-*YA ne gvoryu po-russki*
+Je ne parle pas Russe.
+: Я не говорю по-русски.
+*Ya ne gvoryu po-russki.*
 
-excusez moi, est ce que vous comprenez l'anglais?
+Excusez moi, est ce que vous comprenez l'anglais?
 : Извините, Вы понимаете по-английски?
-*isvinitie, vy panimiétié pa anglisky*
+*Isvinitie, vy panimiétié pa anglisky?*
 
-Et je parle un peu Russe
-: И я немного говорю по-русски
-*i ya nimnOga gavaryOU pa-rOUsski*
+Et je parle un peu Russe.
+: И я немного говорю по-русски.
+*I ya nimnoga gavaryou pa-rousski.*
 
-Je comprends
-: Я понимаю
-*YA ponimay*
+Je comprends.
+: Я понимаю.
+*YA ponimay.*
 
 
 ## Se présenter
 
-Je m'appelle David. ( Ils m'appellent David )Et vous?
-: Меня зoвýт Давид
-*minia zavout David*
+Je m'appelle ...
+: Меня зoвýт ...
+*minia zavout ... (Ils m'appellent ...)*
 
-Je m’appelle Mélanie.
-: Меня зoвýт Мелани
+Je m’appelle ...
+: Меня зoвýт ...
 *...*
 
 ... ans (age)
-: ... *lyét* / *got* (si terminé par 1) / *gOda* (si terminé par 2 3 4, sauf 12 13 14)
+: ... lyét / got (si terminé par 1) / gOda (si terminé par 2 3 4, sauf 12 13 14)
 
-J'ai vingt sept ans
-: Мне двадцать семь лет
-*mnyé dvAtsat' syém' lyét*
+J'ai vingt sept ans.
+: Мне двадцать семь лет.
+*mnyé dvAtsat syém lyét.*
 
-Je suis français(e)
-: Я французский
-*YA frantsuzskiy*
+Je suis français(e).
+: Я французский.
+*Ya frantsuzskiy.*
 
-J'habite en France
-: Живу в Франции
-*ya jouyvOU Oa FrAntsii*
+J'habite en France.
+: Живу в Франции.
+*Ya jouyvou oa frAntsii.*
 
 J'habite Moscou.
-: Живу в Москвé
-*jivou v moskve *
+: Живу в Москвé.
+*jivou v moskve.*
 
 Et moi, j'habite à Kiev.
-: А я живу в Киеве
+: А я живу в Киеве.
 *...*
 
 Je [suis] journaliste.
-: Я журналистка
+: Я журналистка.
 *...*
 
 Je [suis] acteur.
-: Я актëр
+: Я актëр.
 *...*
 
 
@@ -98,61 +96,61 @@ Je [suis] acteur.
 
 Qu’est ce que c’est?
 : Что это?
-*chto eta?*
+*Chto eta?*
 
 Puis-je?
-: Mожно
-*mojno*
+: Mожно?
+*Mojno?*
 
 Qui est le dernier? (de la queue)
 : Kто Последний?
 *Kto pasledniy?*
 
-Où sont les toilettes
+Où sont les toilettes?
 : Где туалет?
-*gdié toualette?*
+*Gdié toualette?*
 
 Est-ce qu’il faut enlever ses chaussures?
 : cнимать обувь надо?
-*snimat obouv nado?*
+*Snimat obouv nado?*
 
 
 ## Réponses courantes
 
-Bien.
-: Xopoшó
-*...*
+Bien!
+: Хорошо!
+*Khorosho!*
 
-Super
+Super!
 : Отлично!
-*Otlichno!*
+*Atlitchna!*
 
 С'est vrai!
 : Прáвда!
 *Pravda!*
 
-Avec plaisir.
-: C удoвóльcтвиeм
-*Soudavolstviem *
+Avec plaisir!
+: C удoвóльcтвиeм!
+*Soudavolstviem!*
 
 Vous (êtes) très aimable!
-: вы очень любéзны
-*vi otchien lioubiezni *
+: вы очень любéзны!
+*Vi otchien lioubiezni!*
 
 Ça va merci.
 : Спасибо, хорошо.
 *Spasibo, horosho.*
 
-Comme c’est intéressant?
-: Kak интерéсно
-*...*
+Comme c’est intéressant!
+: Как интересно!
+*Kak intieresna!*
 
 
 ## Demander des renseignements
 
 Où habitez vous?
 : Где вы живëте?
-*gdie vi jiviotie *
+*Gdie vi jiviotie?*
 
 Où habites tu?
 : Где ты живешь?
@@ -164,10 +162,10 @@ Où travaillez vous?
 
 Salut, quel âge as-tu?
 : Привет, сколько тебe лeт?
-*privet, Skol'ka tibie liet?*
+*Privet, Skol'ka tibie liet?*
 
 Quel âge avez-vous?
-: сколько вaм лeт?
+: Сколько вaм лeт?
 *Skol'ka vam liet?*
 
 Salut, qui es tu?
@@ -203,53 +201,42 @@ Quelle est ta couleur préférée?
 *Kakoy bacha lioubim'y tsvet?*
 
 
-## Gros mots
-
-bite
-: хуй
-*rouil*
-
-chatte
-: пизда
-pisda
-
-
 ## Au restaurant
 
-C'est bon
-: Это хорошо
-*Eto khorosho*
+C'est bon!
+: Это хорошо!
+*Eto khorosho!*
 
-J'aime
+J'aime.
 : -
-*mnyé nrAvitsa*
+*Mnyé nrAvitsa.*
 
-Je n'aime pas
+Je n'aime pas.
 : -
-*mnyé ne nrAvitsa*
+*Mnyé ne nrAvitsa.*
 
-Auriez vous de l'eau
+Auriez vous de l'eau?
 : -
-Vy by miet' vodu
+Vy by miet' vodu?
 
-L’addition s’il vous plaît !
-: счет пожалуйста
-*chiot pajalsta*
+L’addition s’il vous plaît!
+: Счет пожалуйста!
+*Chiot pajalsta!*
 
 
 ## Divers
 
 Faisons connaissance!
-: Дaвáйтe пoзнaкóмимcя
+: Дaвáйтe пoзнaкóмимcя!
 *Davaitié poznakomimsia!*
 
 Quel joli prénom!
-: Какóе красивое имя
-*kakoie krassivae imia*
+: Какóе красивое имя!
+*Kakoie krassivae imia!*
 
 Voici mon ami John.
 : Это мой друг, Джон.
-*eta moi droug, Dzhon*
+*Eta moi droug, Dzhon.*
 
 Est-ce que tu passe (vous passez) des bonnes vacances?
 : Вы хорошо провели отпуск?
@@ -262,5 +249,3 @@ Excusez-moi, Quelle heure est-il?
 Êtes-vous satisfait?
 : Довольны ли Вы?
 *Dovol'ny li vy?*
-
-(https://fr.wikiversity.org/wiki/Russe/Vocabulaire/mots)

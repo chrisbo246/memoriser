@@ -8,7 +8,7 @@ weight: 9000
 nav:
   id: "main-nav"
   label: "Aide"
-  icon: "fa fa-question-circle"
+  icon: "fa fa-question"
 ---
 
 ## Comment différencier les définitions déjà apprises ?

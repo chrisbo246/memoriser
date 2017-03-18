@@ -2,11 +2,14 @@
 title: "Vocabulaire Anglais: Exclamations et onomatopées"
 description: "Liste de vocabulaire Anglais courant regroupant quelques adjectifs difficiles."
 excerpt: "Liste de vocabulaire Anglais courant regroupant quelques adjectifs difficiles."
-image:
+image: assets/images/posts/english-dictionary.jpg
 tags: [expressions]
 ---
 
-## Onomatopées
+## Onomatopée
+
+Salut!
+: Hey!
 
 Atchoum!
 : Achoo!
@@ -24,7 +27,7 @@ Zut!
 : Heck!
 
 
-## Demande
+## Exclamation
 
 Attends!
 : Hold on!
@@ -47,6 +50,9 @@ j'ai foiré!
 
 ## Etonnement
 
+Allez! Tu déconne?
+: Come on!
+
 Mince!
 : Gosh!
 
@@ -64,9 +70,6 @@ Sérieusement mec!
 
 Extraordinaire!
 : Sound odd!
-
-
-## Interogation
 
 Quel est le piège?
 : What’s the catch?
@@ -86,19 +89,16 @@ Coucou!
 Et c'est parti!
 : Here we go!
 
-C'est parti! <small>(allons-y)</small>
+C'est parti! (allons-y)
 : Let's go!
 
 
 ## Motivation
 
-Allez! Vas-Y!
-: Come on!
-
 Continue!
 : Go on!
 
-En avant! <small>(aller de l'avant)</small>
+En avant! (aller de l'avant)
 : Go ahead!
 
 
@@ -128,7 +128,7 @@ Quel dommage!
 
 ## Fête
 
-Des bonbons ou un sort! <small>(durant Halloween)</small>
+Des bonbons ou un sort! (durant Halloween)
 : Trick or treat!
 
 Santé!

@@ -230,57 +230,6 @@ moustache
 : moustache
 
 
-## Cheveux
-
-noir
-: black
-
-brun foncé
-: dark brown
-
-brun / brune
-: brown / brunette
-
-châtain
-: chestnut
-
-châtain clair
-: strawberry blond
-
-blond(e)
-: blond(e)
-
-roux
-: red / redhead
-
-poivre et selle
-: gray and white
-
-brun roux
-: auburn
-
-blond platine (décoloré)
-: platinum blond
-
-cuivré
-: copper
-
-cheveux raides
-: straight hair
-
-cheveux lisses
-: smooth hair
-
-cheveux ondulés
-: wavy hair
-
-cheveux crépus
-: frizzy hair
-
-chauve
-: bald
-
-
 ## Squelette
 
 os

@@ -4,6 +4,8 @@
 
     $(function () {
 
+        $('[title]').tooltip();
+
         // Searchbox filter
         $('.searchbox-input').change( function () {
             $('.card').show();
@@ -75,11 +77,14 @@
                     + '</li>';
                 });
                 $nav.html(navItems);
+                var offset = $('.navbar.fixed-top').first().outerHeight(true);
                 $('body').scrollspy({
-                    target: $nav
+                    target: $nav,
+                    offset: offset
                 });
             } else {
-                $nav.parent('.card');
+                //$nav.parent('.card');
+                $nav.parents('.col').first().hide();
             }
         }
 

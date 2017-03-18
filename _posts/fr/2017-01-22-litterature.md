@@ -2,9 +2,7 @@
 title: "Vocabulaire Français: Littérature"
 description: "Liste de vocabulaire Français regroupant les principaux termes utilisés en littérature."
 excerpt: "Liste de vocabulaire Français regroupant les principaux termes utilisés en littérature."
-image:
-tags: []
-categories:
+image: assets/images/posts/english-dictionary.jpg
 ---
 
 Métaphore
