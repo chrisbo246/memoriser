@@ -3,81 +3,81 @@ title: "Vocabulaire Français: Abréviations courantes"
 description: "Liste de vocabulaire Français regroupant des abréviations Français, Anglais et latines relativement courantes."
 excerpt: "Liste de vocabulaire Français regroupant des abréviations Français, Anglais et latines relativement courantes."
 image: assets/images/posts/english-dictionary.jpg
-tags: [base]
+tags: [theme2]
 ---
 
 ## Abréviations Françaises
 
 c.-à-d.
-: C'est-A-Dire
+: c'est-a-dire
 
 C.Q.F.D.
-: Ce Qu’il Fallait Démontrer
+: ce qu’il fallait démontrer
 *En math.*
 
-hs
+HS
 : hors service
 
 N.D.L.R.
-: Note De La Rédaction
+: note de la rédaction
 *Ajoutée par l'auteur pour préciser un texte provenant d'une source externe.*
 
 R.A.S.
-: Rien A Signaler
+: rien a signaler
 
-rdv
+RDV
 : rendez-vous
 
 
 ## Abréviations provenant du Latin
 
-am
+AM
 : ante meridiem
-*avant midi sur la montre*.*
+*Avant midi sur la montre.*
 
-pm
+PM
 : post meridiem
-*après midi sur la montre*.*
+*Après midi sur la montre.*
 
 e.g.
-: Exempli Gratia
+: exempli gratia
 *Par exemple.*
 
 i.e.
-: Id Est
+: id est
 *C'est-à-dire.*
 
 P.S.
-: Post-Scriptum
+: post-scriptum
 *Notes de fin.*
 
 R.I.P.
-: Requiescat In Pace
-*Repose en paix*
+: requiescat in pace
+*Repose en paix.*
 
 
 ## Abréviations d'origine Anglaise
 
 a.k.a.
-: Also Known As
+: also known as
 *Egalement connu sous le nom de ..., alias ...*
 
-asap
+ASAP
 : as soon as possible
-*aussi vite que possible*.*
+*Aussi vite que possible*.*
 
-ko
+KO
 : knock out
-*frappé à perdre conscience*.*
+*Frappé à perdre conscience*.*
 
-ok
-: zero killed
-*aucun mort*, tout va bien.*
+OK
+: 0 killed
+*Aucun mort*, tout va bien.*
 
-sos
+SOS
 : save our souls
-*sauvez nos âmes*.*
+*Sauvez nos âmes.*
 
 R.I.P.
-: Rest In Peace
-*Repose en paix*
+: rest in peace
+*Repose en paix.*

@@ -2,6 +2,7 @@
 (function($, window, document) {
     'use strict';
 
+
     $(function () {
 
         $('[title]').tooltip();
@@ -63,7 +64,7 @@
         }
 
 
-        // Generate and index from titles
+        // Generate index from titles
         var $nav = $('#index');
         if ($nav) {
             var navItems = '';
@@ -76,7 +77,7 @@
                     + '<a class="nav-link" href="#' + $title.attr('id') + '">' + $title.html() + '</a>'
                     + '</li>';
                 });
-                $nav.html(navItems);
+                $nav.append(navItems);
                 var offset = $('.navbar.fixed-top').first().outerHeight(true);
                 $('body').scrollspy({
                     target: $nav,
@@ -84,6 +85,7 @@
                 });
             } else {
                 //$nav.parent('.card');
+                console.log('Hide index');
                 $nav.parents('.col').first().hide();
             }
         }

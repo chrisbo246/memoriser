@@ -8,6 +8,7 @@
 <div class="row">
     <div class="col-sm-8">
 
+        {% comment %}
         {% if category_root_page.title and category_root_page.url != posts.first.url %}
         <h5>
             <a class="nav-link" href="{{ category_root_page.url | relative_url }}">
@@ -15,14 +16,15 @@
             </a>
         </h5>
         {% endif %}
+        {% endcomment %}
 
         {% if posts.size > 0 %}
         <ul class="nav nav-pills flex-column">
 
             {% assign posts = posts %}
-            {% include nav-items.html posts=posts limit=10 %}
+            {% include nav-items.html posts=posts limit=8 %}
 
-            {% if page.tags.size > 0 or posts.size > 10 %}
+            {% if page.tags.size > 0 or posts.size > 8 %}
             {% if category_root_page.url %}
             <div class="dropdown-divider"></div>
             <li class="nav-item">

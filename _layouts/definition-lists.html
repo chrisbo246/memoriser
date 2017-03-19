@@ -17,6 +17,14 @@ layout: default
         <div class="col col-md-3">
             <div class="sidebar sticky-top">
                 <ul id="index" class="nav nav-pills flex-column">
+                    {% include related-posts.html type='pages' categories=page.categories %}
+                    {% assign category_root_page = posts.first %}
+                    {% if category_root_page.title and category_root_page.url != page.url %}
+                    <a class="nav-link" href="{{ category_root_page.url | relative_url }}">
+                        <strong>{{ category_root_page.title }}</strong>
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    {% endif %}
                 </ul>
             </div>
         </div>

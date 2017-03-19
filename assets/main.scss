@@ -9,7 +9,8 @@
 @import "bootstrap";
 
 // Font-awesome
-$fa-font-path: "../bower_components/font-awesome/fonts";
+$fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
+//$fa-font-path: "./bower_components/font-awesome/fonts";
 //$fa-font-path: "../fonts";
 @import "font-awesome";
 
@@ -99,6 +100,7 @@ dl.d-flex {
 .lazyload,
 .lazyloading {
     opacity: 0;
+    //height: .5625vw;
 }
 
 .lazyloaded {

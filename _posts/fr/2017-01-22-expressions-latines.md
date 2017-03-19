@@ -3,50 +3,50 @@ title: "Vocabulaire Français: Expressions latines"
 description: "Liste de vocabulaire Français regroupant des expressions latines relativement courantes."
 excerpt: "Liste de vocabulaire Français regroupant des expressions latines relativement courantes."
 image: assets/images/posts/english-dictionary.jpg
-tags: [base]
+tags: [expressions]
 ---
 
-De facto
+de facto
 : De fait, dans les faits.
 
-Dixit
+dixit
 : Il a dit.
 
-Erratum
+erratum
 : Erreur.
 
-Ex nihilo
+ex nihilo
 : A partir de rien.
 
-In extremis
+in extremis
 : De justesse.
 
-In extenso
+in extenso
 : En intégralité, en entier.
 
-In fine
+in fine
 : À la fin, en dernier, finalement, en conclusion.
 
-In situ
+in situ
 : Sur le lieu même.
 
-In vivo
+in vivo
 : Dans le vif.
 
-Ipso facto
+ipso facto
 : De fait.
 
-Persona non grata
+persona non grata
 : Personne n’étant pas la bienvenue.
 
-Post mortem
+post mortem
 : Après la mort.
 
-Primo occupanti
+primo occupanti
 : Droit du premier occupant.
 
-Qui pro quo
+qui pro quo
 : Prendre un qui pour un quoi.
 
-Stricto sensu
+stricto sensu
 : Au sens strict.

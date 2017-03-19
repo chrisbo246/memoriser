@@ -12,8 +12,9 @@
     data-ad-format="auto"></ins>
 </div>
 
+{% include structured-data.html %}
+
 <link rel="stylesheet" href="{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
 {% if jekyll.environment == 'production' %}
     {% include cookieconsent.html %}
