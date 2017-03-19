@@ -94,7 +94,9 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       author: "chrisbo246"
+      publisher: "chrisbo246"
       date: 2017-01-01 16:16:16 +0100
+      date_modified: 2017-01-01 16:16:16 +0100
   -
     scope:
       path: ""

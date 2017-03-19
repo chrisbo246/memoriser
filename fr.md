@@ -4,10 +4,7 @@ title: "Listes de vocabulaire Français"
 subtitle: "Cours de rattrapage"
 description: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
 excerpt: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
-image:
-  url: "assets/images/posts/fr.png"
-  width: 640
-  height: 360
+image: "assets/images/posts/fr.png"
 collection_type: "posts"
 tags: []
 category:
