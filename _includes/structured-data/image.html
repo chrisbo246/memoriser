@@ -1,6 +1,6 @@
 {
     "@type": "ImageObject",
-    "url": "{{ include.url | default: page.image.path | default: page.image | absolute_url }}"
+    "url": "{{ include.url | default: page.image.path | default: page.image | absolute_url }}",
     "height": "{{ include.height | default: page.image.height }}",
     "width": "{{ include.width | default: page.image.width }}"
 }
