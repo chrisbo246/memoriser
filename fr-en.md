@@ -5,7 +5,10 @@ title: "Listes de vocabulaire Français-Anglais"
 subtitle: "French-English vocabulary"
 description: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."
 excerpt: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."
-image: "assets/images/posts/fr-en.png"
+image:
+  url: "assets/images/posts/fr-en.png"
+  width: 640
+  height: 360
 collection_type: "posts"
 tags: []
 category:

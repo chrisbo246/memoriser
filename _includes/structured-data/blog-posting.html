@@ -8,7 +8,8 @@
     "keywords": "{{ post.tags | join: ',' }}",
     "wordCount": "{{ post.content | number_of_words }}",
     "url": "{{ post.path | absolute_url }}",
-    "dateModified": "{{ post.date | date: '%Y-%m-%d' }}",
+    "datePublished": "{{ post.date | date_to_xmlschema }}",
+    "dateModified": "{{ post.date | date_to_xmlschema }}",
 
     {% if post.author %}
     "author": {% include structured-data/person.html person=post.author %},
@@ -16,6 +17,8 @@
 
     {% if post.publisher %}
     "publisher": {% include structured-data/person.html person=post.publisher %},
+    {% elsif post.author %}
+    "publisher": {% include structured-data/person.html person=post.author %},
     {% endif %}
 
     {% if post.image %}

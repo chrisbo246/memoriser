@@ -30,15 +30,13 @@ layout: default
         </div>
         <div class="col">
 
-            <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-                <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-                <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
+            <article class="post">
 
                 <header class="post-header">
-                    <h1 class="post-title display-4 mb-4" itemprop="name">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
+                    <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
                 </header>
 
-                <div class="post-content definition-list" itemprop="articleBody" style="visibility: hidden;">
+                <div class="post-content definition-list" style="visibility: hidden;">
                     {{ content }}
                 </div>
 
