@@ -35,7 +35,7 @@ gems:
   - wdm
   - jekyll-github-metadata
   - jekyll-seo-tag
-  - jekyll-mentions
+  #- jekyll-mentions # Issue with structured data
   - jekyll-sitemap
 
 

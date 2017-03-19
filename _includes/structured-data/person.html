@@ -1,0 +1,27 @@
+{% assign person = site.data.authors[include.person] %}
+
+{% assign links = '' | split: ' ' %}
+
+{% if person.twitter %}
+    {% assign url = 'https://twitter.com/' | append: person.twitter | prepend: '"' | append: '"' %}
+    {% assign links = links | push: url %}
+{% endif %}
+
+{% if person.github %}
+    {% assign url = 'https://github.com/' | append: person.github | prepend: '"' | append: '"' %}
+    {% assign links = links | push: url %}
+{% endif %}
+
+{% if person.google_plus %}
+    {% assign url = 'https://plus.google.com/u/0/+' | append: person.google_plus | prepend: '"' | append: '"' %}
+    {% assign links = links | push: url %}
+{% endif %}
+
+{
+    "@type": "Person",
+    "name": "{{ person.name }}",
+    "sameAs":[
+        {{ links | join: ', ' }}
+    ],
+    "logo": {% include structured-data/image.html url=person.picture %}
+}

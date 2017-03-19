@@ -1,0 +1,19 @@
+{% assign collection = include.collection | default: 'posts' %}
+{% assign items = '' | split: ' ' %}
+
+{% for post in site[collection] %}
+    {% capture list_item %}
+        {% include structured-data/blog-posting.html post=post collection=collection %}
+    {% endcapture %}
+    {% assign items = items | push: list_item %}
+{% endfor %}
+
+{
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+        {% if items.size > 0 %}
+        {{ items | join: ',' }}
+        {% endif%}
+    ]
+}

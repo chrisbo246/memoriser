@@ -1,0 +1,31 @@
+{% assign post = include.post | default: page %}
+
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ post.excerpt }}",
+    "genre": "{{ post.category }}",
+    "keywords": "{{ post.tags | join: ',' }}",
+    "wordCount": "{{ post.content | number_of_words }}",
+    "url": "{{ post.path | absolute_url }}",
+    "dateModified": "{{ post.date | date: '%Y-%m-%d' }}",
+
+    {% if post.author %}
+    "author": {% include structured-data/person.html person=post.author %},
+    {% endif %}
+
+    {% if post.publisher %}
+    "publisher": {% include structured-data/person.html person=post.publisher %},
+    {% endif %}
+
+    {% if post.image %}
+    "image": {% include structured-data/image.html url=post.image %},
+    {% endif %}
+
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ post.path | absolute_url }}"
+    },
+
+    "articleBody": "{{ post.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
+}

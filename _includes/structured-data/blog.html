@@ -1,0 +1,11 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Blog",
+    "keywords": "{{ page.tags | join: ',' }}",
+    "url": "{{ '/' | absolute_url }}",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ page.path | absolute_url }}"
+    },
+    "author": {% include structured-data/person.html person=page.author %}
+}
