@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: Expressions courantes"
 description: "Liste de vocabulaire Anglais courant regroupant des expressions courantes."
 excerpt: "Liste de vocabulaire Anglais courant regroupant des expressions courantes."
-image: assets/images/posts/expression.jpg
+image:
+  path: assets/images/posts/expression.jpg
+  width: 640
+  height: 360
 ---
 
 

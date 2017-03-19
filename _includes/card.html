@@ -1,12 +1,10 @@
 {% assign post = include.post %}
 
-{% assign src = nil %}
-{% if post.image and page.card.image != false %}
-    {% if post.image contains 'http://' or post.image contains 'https://' %}
-        {% assign src = post.image %}
-    {% else %}
-        {% assign src = post.image | relative_url %}
-    {% endif %}
+{% if page.card.image != false %}
+{% assign src = post.image.path | default: post.image | default: nil %}
+{% unless src contains 'http://' or post.image contains 'https://' %}
+    {% assign src = src | absolute_url %}
+{% endunless %}
 {% endif %}
 
 {% assign card-classes = 'card' | split: ' ' %}

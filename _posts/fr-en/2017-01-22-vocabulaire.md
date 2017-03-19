@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: Divers"
 description: "Liste de vocabulaire Anglais courant difficiles à mémoriser."
 excerpt: "Liste de vocabulaire Anglais courant difficiles à mémoriser."
-image: assets/images/posts/english-dictionary.jpg
+image:
+  path: assets/images/posts/english-dictionary.jpg
+  width: 640
+  height: 360
 tags: [base]
 ---
 

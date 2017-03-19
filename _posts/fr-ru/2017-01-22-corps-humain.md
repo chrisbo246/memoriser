@@ -2,7 +2,10 @@
 title: "Vocabulaire Russe: Le corps humain"
 description: "Liste de vocabulaire Russe courant relatif au corps humain."
 excerpt: "Liste de vocabulaire Russe courant relatif au corps humain."
-image: assets/images/posts/belly.jpg
+image:
+  path: assets/images/posts/belly.jpg
+  width: 640
+  height: 360
 ---
 ## Les parties du corps
 

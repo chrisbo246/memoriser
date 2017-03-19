@@ -2,7 +2,10 @@
 title: "Vocabulaire Français: Expressions"
 description: "Liste d'expressions Françaises courantes et moins courantes."
 excerpt: "Liste d'expressions Françaises courantes et moins courantes."
-image: assets/images/posts/english-dictionary.jpg
+image:
+  path: assets/images/posts/english-dictionary.jpg
+  width: 640
+  height: 360
 tags: [expressions]
 ---
 

@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: L'alimentation"
 description: "Liste de vocabulaire Anglais courant relatif à la nourriture."
 excerpt: "Liste de vocabulaire Anglais courant relatif à la nourriture."
-image: assets/images/posts/hamburger.jpg
+image:
+  path: assets/images/posts/hamburger.jpg
+  width: 640
+  height: 360
 ---
 
 ## Boissons

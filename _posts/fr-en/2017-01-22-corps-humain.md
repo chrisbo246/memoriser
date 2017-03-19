@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: Le corps humain"
 description: "Liste de vocabulaire Anglais courant relatif au corps humain."
 excerpt: "Liste de vocabulaire Anglais courant relatif au corps humain."
-image: assets/images/posts/belly.jpg
+image:
+  path: assets/images/posts/belly.jpg
+  width: 640
+  height: 360
 tags: [individus]
 ---
 ## Membres

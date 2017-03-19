@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: Types de personnes"
 description: "Liste de vocabulaire Anglais courant relatif à la famille et aux différents types de personnes."
 excerpt: "Liste de vocabulaire Anglais courant relatif à la famille et aux différents types de personnes."
-image: assets/images/posts/family.jpg
+image:
+  path: assets/images/posts/family.jpg
+  width: 640
+  height: 360
 tags: [individus]
 ---
 

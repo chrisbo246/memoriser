@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: Adjectifs"
 description: "Liste de vocabulaire Anglais courant regroupant quelques adjectifs difficiles."
 excerpt: "Liste de vocabulaire Anglais courant regroupant quelques adjectifs difficiles."
-image: assets/images/posts/english-dictionary.jpg
+image:
+  path: assets/images/posts/english-dictionary.jpg
+  width: 640
+  height: 360
 tags: [base]
 ---
 

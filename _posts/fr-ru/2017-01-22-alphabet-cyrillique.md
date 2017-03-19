@@ -3,7 +3,10 @@ layout: post
 title: "L'alphabet Cyrillique"
 description: "Apprendre rapidement et facilement l'alphabet Russe par la phonétique."
 excerpt: "Apprendre rapidement et facilement l'alphabet  Russe par la phonétique."
-image: assets/images/posts/letters.jpg
+image:
+  path: assets/images/posts/letters.jpg
+  width: 640
+  height: 360
 weight: 100
 ---
 La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voyelles, 21 consonnes, 1 signe mou et 1 signe fort.

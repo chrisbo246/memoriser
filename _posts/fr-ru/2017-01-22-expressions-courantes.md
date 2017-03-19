@@ -2,7 +2,10 @@
 title: "Vocabulaire Russe: Expressions courantes"
 description: "Liste de vocabulaire Russe regroupant des phrases et expressions courantes en phonétique."
 excerpt: "Liste de vocabulaire Russe regroupant des phrases et expressions courantes en phonétique."
-image: assets/images/posts/russian-dictionary.jpg
+image:
+  path: assets/images/posts/russian-dictionary.jpg
+  width: 640
+  height: 360
 ---
 ## Les pays
 

@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: Formules de politesse"
 description: "Liste de vocabulaire Anglais courant relatif aux formules de politesse."
 excerpt: "Liste de vocabulaire Anglais courant relatif aux formules de politesse."
-image: assets/images/posts/handshake.jpg
+image:
+  path: assets/images/posts/handshake.jpg
+  width: 640
+  height: 360
 tags: [expressions]
 weight: 1
 ---

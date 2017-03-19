@@ -2,7 +2,10 @@
 title: "Vocabulaire Russe: Exclamations et onomatopées"
 description: "Liste de vocabulaire Russe recensant les exclamations les plus courantes."
 excerpt: "Liste de vocabulaire Russe recensant les exclamations les plus courantes."
-image: assets/images/posts/russian-dictionary.jpg
+image:
+  path: assets/images/posts/russian-dictionary.jpg
+  width: 640
+  height: 360
 ---
 
 ## Exclamations

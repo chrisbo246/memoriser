@@ -2,7 +2,10 @@
 title: "Vocabulaire Français: Vocabulaire soutenu"
 description: "Liste de vocabulaire Français regroupant du vocabulaire soutenu relativement courant."
 excerpt: "Liste de vocabulaire Français regroupant du vocabulaire soutenu relativement courant."
-image: assets/images/posts/english-dictionary.jpg
+image:
+  path: assets/images/posts/english-dictionary.jpg
+  width: 640
+  height: 360
 tags: [base]
 weight: 1
 ---

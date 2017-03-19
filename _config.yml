@@ -97,6 +97,12 @@ defaults:
       publisher: "chrisbo246"
       date: 2017-01-01 16:16:16 +0100
       date_modified: 2017-01-01 16:16:16 +0100
+      image:
+        path: "assets/images/posts/english-dictionary.jpg"
+        twitter: "assets/images/posts/english-dictionary.jpg"
+        facebook: "assets/images/posts/english-dictionary.jpg"
+        width: 640
+        height: 360
   -
     scope:
       path: ""

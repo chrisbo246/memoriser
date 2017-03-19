@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: Matériaux"
 description: "Liste de vocabulaire Anglais courant relatif aux métaux, matériaux de construction, etc..."
 excerpt: "Liste de vocabulaire Anglais courant relatif aux métaux, matériaux de construction, etc..."
-image: assets/images/posts/metal.jpg
+image:
+  path: assets/images/posts/metal.jpg
+  width: 640
+  height: 360
 tags: [objets]
 ---
 

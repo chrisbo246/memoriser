@@ -2,7 +2,10 @@
 title: "Vocabulaire Anglais: L'industrie"
 description: "Liste de vocabulaire Anglais courant relatif à l'industrie."
 excerpt: "Liste de vocabulaire Anglais courant relatif à l'industrie."
-image: assets/images/posts/milling.jpg
+image:
+  path: assets/images/posts/milling.jpg
+  width: 640
+  height: 360
 tags: [travail]
 ---
 

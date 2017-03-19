@@ -2,7 +2,10 @@
 title: "Vocabulaire Français: Abréviations courantes"
 description: "Liste de vocabulaire Français regroupant des abréviations Français, Anglais et latines relativement courantes."
 excerpt: "Liste de vocabulaire Français regroupant des abréviations Français, Anglais et latines relativement courantes."
-image: assets/images/posts/english-dictionary.jpg
+image:
+  path: assets/images/posts/english-dictionary.jpg
+  width: 640
+  height: 360
 tags: [theme2]
 ---
 
