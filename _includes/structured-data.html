@@ -1,67 +1,67 @@
 {% assign wordcount = page.content | number_of_words %}
 
 {% if page.author %}
-    {% assign author = data.authors[page.author] %}
-{% else %}
-    {% assign author = data.authors[site.author] %}
+    {% assign author = site.data.authors[page.author] %}
 {% endif %}
 
 {% if page.publisher %}
-    {% assign publisher = data.authors[page.publisher] %}
-{% else %}
-    {% assign publisher = author %}
+    {% assign publisher = site.data.authors[page.publisher] %}
 {% endif %}
 
 <script type="application/ld+json">
 {
-   "@context":"http://schema.org",
-   "@type":"BlogPosting",
-   "headline":"{{ page.excerpt }}",
-   "genre":"{{ page.category }}",
-   "keywords":"{{ page.keywords }}",
-   "wordCount":"{{ wordcount }}",
-   "url":"{{ page.permalink | absolute_url }}",
-   "datePublished":"{{ page.date | | date: '%Y-%m-%d' }}",
-   {% if author %}
-   "author":{
-      "@type":"Person",
-      "name":"{{ author.name }}",
-      "sameAs":[
-        "https://twitter.com/{{ author.twitter }}",
-        "https://github.com/{{ author.github }}",
-        "https://plus.google.com/u/0/+{{ author.google_plus }}"
-      ]
-   },
-   {% endif %}
-   {% if publisher %}
-   "publisher":{
-      "@type":"Person",
-      "name":"{{ publisher.name }}",
-      "sameAs":[
-        "https://twitter.com/{{ publisher.twitter }}",
-        "https://github.com/{{ publisher.github }}",
-        "https://plus.google.com/u/0/+{{ publisher.google_plus }}"
-      ],
-      "logo": {
-  		"@type": "ImageObject",
-  		"contentUrl": "{{ publisher.image | absolute_url }}",
-  		  "url": "{{ publisher.url }}"
-    }
-   },
-   {% endif %}
-   {% if page.image %}
-   "image":{
-      "@type":"ImageObject",
-      "contentUrl":"{{ page.image | absolute_url }}",
-      "url":"{{ site.url }}"
-      //"height":"450",
-      //"width":"1000"
-   },
-   {% endif %}
-   "mainEntityOfPage":{
-      "@type":"WebPage",
-      "@id":"{{ page.link | absolute_url }}"
-   },
-   "articleBody":"{{ page.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ page.excerpt }}",
+    "genre": "{{ page.category }}",
+    "keywords": "{{ page.keywords }}",
+    "wordCount": "{{ wordcount }}",
+    "url": "{{ page.permalink | absolute_url }}",
+    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+    "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
+    {% if author %}
+    "author":{
+        "@type": "Person",
+        "name": "{{ author.name }}",
+        "sameAs":[
+            "https://twitter.com/{{ author.twitter }}",
+            "https://github.com/{{ author.github }}",
+            "https://plus.google.com/u/0/+{{ author.google_plus }}"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "contentUrl": "{{ author.picture | default: author.image | absolute_url }}",
+            "url": "{{ publisher.url }}"
+        }
+    },
+    {% endif %}
+    {% if publisher %}
+    "publisher":{
+        "@type": "Person",
+        "name": "{{ publisher.name }}",
+        "sameAs":[
+            "https://twitter.com/{{ publisher.twitter }}",
+            "https://github.com/{{ publisher.github }}",
+            "https://plus.google.com/u/0/+{{ publisher.google_plus }}"
+        ],
+        "logo": {
+            "@type": "ImageObject",
+            "contentUrl": "{{ publisher.picture | default: publisher.image | absolute_url }}",
+            "url": "{{ publisher.url }}"
+        }
+    },
+    {% endif %}
+    {% if page.image %}
+    "image":{
+        "@type": "ImageObject",
+        "contentUrl": "{{ page.image | relative_url }}",
+        "url": "{{ site.url }}"
+    },
+    {% endif %}
+    "mainEntityOfPage":{
+        "@type": "WebPage",
+        "@id": "{{ page.path | absolute_url }}"
+    },
+    "articleBody": "{{ page.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
 }
 </script>

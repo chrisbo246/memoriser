@@ -32,30 +32,14 @@ efficience
 billevesée
 : Baliverne.
 
-imbroglio
-: Situation confuse, complexe.
-
-jacquerie
-: Révolte paysanne.
-
-katiba
-: Bataillon, compagnie.
-
 noria
 : [![](http://m.thumbs.canstockphoto.com/canstock10877775.jpg)](http://m.thumbs.canstockphoto.com/canstock10877775.jpg) Système composé de godets et poulies destiné à extraire l'eau d'un puits. Allers et retours ininterrompus de véhicules de transport.
-
-omerta
-: Loi du silence
-*En référence à la mafia sicilienne.*
 
 onanisme
 : Masturbation.
 
 pis aller
 : Choisi faute de mieux.
-
-pogrome
-: Émeute sanglante dirigée contre une minorité ethnique ou religieuse.
 
 prosélitisme
 : Recruter des adeptes, tenter d'imposer ses idées.
@@ -73,15 +57,9 @@ vacuité
 
 ## Adjectifs
 
-anachronique
-: Qui a l'air d'une autre époque.
-
 anthropique
 : Provoqué par l'activité humaine.
 *Ex: un paysage anthorpique.*
-
-antédiluvien
-: Avant le déluge.
 
 bigarré
 : Varié.
@@ -93,9 +71,6 @@ dichotomique
 : Partagé
 *Littéralement coupé en deux.*
 
-erratique
-: Irrégulier, incohérent.
-
 extatique
 : Qui provoque l'extase.
 *Ex: une vision extatique.*
@@ -103,11 +78,30 @@ extatique
 onirique
 : Inspiré par un rêve.
 
+trivial
+: Vulgaire, évident.
+
+
+## Période
+
+anachronique
+: Qui a l'air d'une autre époque.
+
+antédiluvien
+: Avant le déluge.
+
 séculaire
 : Très ancien, multi-centenaire.
 
-trivial
-: Vulgaire, évident.
+
+## Situation
+
+imbroglio
+: Situation confuse, complexe.
+
+omerta
+: Loi du silence
+*En référence à la mafia sicilienne.*
 
 
 ## Emploi, travail
@@ -131,3 +125,15 @@ catharsis
 
 épistaxis
 : Saignement de nez.
+
+
+## Révolte
+
+jacquerie
+: Révolte paysanne.
+
+katiba
+: Bataillon, compagnie.
+
+pogrome
+: Émeute sanglante dirigée contre une minorité ethnique ou religieuse.
