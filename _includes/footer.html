@@ -14,13 +14,14 @@
 
 {% include structured-data.html %}
 
-<link rel="stylesheet" href="{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url }}">
-
 {% if jekyll.environment == 'production' %}
-    {% include cookieconsent.html %}
     {% include adsense.html %}
+    {% include cookieconsent.html %}
 {% endif %}
 
+<link rel="stylesheet" href="{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url }}">
+
+<script async src="{{ '/bower_components/cookieconsent/build/cookieconsent.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/jquery/dist/jquery.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/tether/dist/js/tether.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/bootstrap/dist/js/bootstrap.min.js' | relative_url }}"></script>

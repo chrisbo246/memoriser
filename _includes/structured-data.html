@@ -1,5 +1,3 @@
-{% assign wordcount = page.content | number_of_words %}
-
 {% if page.author %}
     {% assign author = site.data.authors[page.author] %}
 {% endif %}
@@ -15,9 +13,9 @@
     "headline": "{{ page.excerpt }}",
     "genre": "{{ page.category }}",
     "keywords": "{{ page.keywords }}",
-    "wordCount": "{{ wordcount }}",
+    "wordCount": "{{ page.content | number_of_words }}",
     "url": "{{ page.permalink | absolute_url }}",
-    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+    //"datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
     "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
     {% if author %}
     "author":{
@@ -30,8 +28,8 @@
         ],
         "logo": {
             "@type": "ImageObject",
-            "contentUrl": "{{ author.picture | default: author.image | absolute_url }}",
-            "url": "{{ publisher.url }}"
+            //"contentUrl": "{{ author.picture | default: author.image | absolute_url }}",
+            "url": "{{ author.picture | default: author.image | absolute_url }}"
         }
     },
     {% endif %}
@@ -46,16 +44,16 @@
         ],
         "logo": {
             "@type": "ImageObject",
-            "contentUrl": "{{ publisher.picture | default: publisher.image | absolute_url }}",
-            "url": "{{ publisher.url }}"
+            //"contentUrl": "{{ publisher.picture | default: publisher.image | absolute_url }}",
+            "url": "{{ publisher.picture | default: publisher.image | absolute_url }}"
         }
     },
     {% endif %}
     {% if page.image %}
     "image":{
         "@type": "ImageObject",
-        "contentUrl": "{{ page.image | relative_url }}",
-        "url": "{{ site.url }}"
+        //"contentUrl": "{{ page.image | relative_url }}",
+        "url": "{{ page.image | relative_url }}"
     },
     {% endif %}
     "mainEntityOfPage":{
