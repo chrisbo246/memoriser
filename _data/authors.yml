@@ -1,12 +1,27 @@
+memolinguo:
+  type: "Organization"
+  name: "MEMOLINGUO"
+  picture: assets/images/logos/android-chrome-512x512.png
+  logo:
+    type: "ImageObject"
+    path: assets/images/logos/android-chrome-512x512.png
+    width: 897
+    height: 897
+  url: https://chrisbo246.github.io/memolinguo/
+  github: memolinguo
+  twitter:
+  facebook:
+  google_plus:
+
 chrisbo246:
+  type: "Person"
   name: "Chrisbo246"
   picture: /assets/images/authors/chrisbo246.png
   image:
+    type: "ImageObject"
     path: /assets/images/authors/chrisbo246.png
     width: 897
     height: 897
-  logo:
-    url: /assets/images/authors/chrisbo246.png
   url:
   github: chrisbo246
   twitter: chrisbo246
