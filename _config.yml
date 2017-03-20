@@ -103,6 +103,10 @@ defaults:
       date: 2017-01-01 16:16:16 +0100
       modified: 2017-01-01 16:16:16 +0100
       modified-date: 2017-01-01 16:16:16 +0100
+      image:
+        type: "ImageObject"
+        width: 640
+        height: 360
   -
     scope:
       path: ""
@@ -110,12 +114,9 @@ defaults:
     values:
       comments: true
       image:
-        type: "ImageObject"
         path: "assets/images/posts/english-dictionary.jpg"
         twitter: "assets/images/posts/english-dictionary.jpg"
         facebook: "assets/images/posts/english-dictionary.jpg"
-        width: 640
-        height: 360
   -
     scope:
       path: ""
@@ -175,7 +176,9 @@ github:
 # https://github.com/jekyll/jekyll-seo-tag
 date: 2017-01-01 00:00:00 +0100
 author: chrisbo246
+name: "MEMOLINGUO"
 logo: assets/images/logos/android-chrome-512x512.png
+id: https://chrisbo246.github.io/memolinguo
 webmaster_verifications:
   google: "LSqjMgoaH49gx_-zumYmG_-wXfT619s2Eubol5bNTUA"
   bing: ""
