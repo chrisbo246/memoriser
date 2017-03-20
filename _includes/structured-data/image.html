@@ -6,8 +6,14 @@
     "url": "{{ include.url | default: page.image.path | default: page.image | absolute_url }}"
 
     {% if width and height %}
-    , "width": "{{ width }} px"
-    , "height": "{{ height }} px"
+    , "width": {
+        "@type": "Distance",
+        "name": "{{ width }} px"
+    }
+    , "height": {
+        "@type": "Distance",
+        "name": "{{ height }} px"
+    }
     {% endif %}
 
 }
