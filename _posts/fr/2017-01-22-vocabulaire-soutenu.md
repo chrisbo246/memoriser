@@ -26,6 +26,9 @@ arcane
 atavisme
 : Hérédité.
 
+célérité
+: Rapidité.
+
 conjecture
 : Hypothèse.
 

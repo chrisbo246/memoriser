@@ -23,6 +23,10 @@ url: "https://chrisbo246.github.io" # the base hostname & protocol for your site
 twitter_username: chrisbo246
 github_username:  chrisbo246
 
+publisher:
+  type: "Person"
+  logo: "/assets/images/authors/chrisbo246.png"
+
 # Build settings
 markdown: kramdown
 theme: minima
@@ -97,6 +101,12 @@ defaults:
       publisher: "chrisbo246"
       date: 2017-01-01 16:16:16 +0100
       date_modified: 2017-01-01 16:16:16 +0100
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
       image:
         path: "assets/images/posts/english-dictionary.jpg"
         twitter: "assets/images/posts/english-dictionary.jpg"

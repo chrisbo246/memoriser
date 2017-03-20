@@ -3,13 +3,16 @@
 {
     "@context": "http://schema.org",
     "@type": "BlogPosting",
-    "headline": "{{ post.excerpt }}",
+    "headline": "{{ post.headline | default: post.excerpt | default: post.description }}",
     "genre": "{{ post.category }}",
-    "keywords": "{{ post.tags | join: ',' }}",
+    "keywords": "{{ post.keywords | default: post.tags | join: ',' }}",
     "wordCount": "{{ post.content | number_of_words }}",
     "url": "{{ post.path | absolute_url }}",
+
+    {% if post.date %}
     "datePublished": "{{ post.date | date_to_xmlschema }}",
     "dateModified": "{{ post.date | date_to_xmlschema }}",
+    {% endif %}
 
     {% if include.position %}
     "position": {{ include.position }},
@@ -31,7 +34,7 @@
 
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ post.path | absolute_url }}"
+        "@id": "{{ post.url | absolute_url }}"
     },
 
     "articleBody": "{{ post.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"

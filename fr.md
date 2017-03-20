@@ -1,9 +1,10 @@
 ---
 layout: cards
 title: "Listes de vocabulaire Français"
-subtitle: "Cours de rattrapage"
+headline: "Cours de rattrapage"
 description: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
 excerpt: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
+keywords: ["vocabulaire français", "vocabulaire francais", "liste de vocabulaire", "listes de vocabulaire", "liste de mots", "listes de mots", "apprendre le français", "s'améliorer en français"]
 image:
   path: "assets/images/posts/fr.png"
   width: 640
