@@ -1,7 +1,10 @@
 chrisbo246:
   name: "Chrisbo246"
   picture: /assets/images/authors/chrisbo246.png
-  image: /assets/images/authors/chrisbo246.png
+  image:
+    path: /assets/images/authors/chrisbo246.png
+    width: 897
+    height: 897
   logo:
     url: /assets/images/authors/chrisbo246.png
   url:

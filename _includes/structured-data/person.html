@@ -23,5 +23,5 @@
     "sameAs":[
         {{ links | join: ', ' }}
     ],
-    "logo": {% include structured-data/image.html url=person.logo %}
+    "image": {% include structured-data/image.html url=person.image.path width=person.image.width height=person.image.height %}
 }
