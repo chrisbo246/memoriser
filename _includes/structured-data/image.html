@@ -1,6 +1,13 @@
+{% assign width = include.width | default: page.image.width %}
+{% assign height = include.height | default: page.image.height %}
+
 {
     "@type": "ImageObject",
-    "url": "{{ include.url | default: page.image.path | default: page.image | absolute_url }}",
-    "height": "{{ include.height | default: page.image.height }}",
-    "width": "{{ include.width | default: page.image.width }}"
+    "url": "{{ include.url | default: page.image.path | default: page.image | absolute_url }}"
+
+    {% if width and height %}
+    , "width": "{{ width }} px"
+    , "height": "{{ height }} px"
+    {% endif %}
+
 }

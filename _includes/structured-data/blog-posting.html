@@ -11,6 +11,10 @@
     "datePublished": "{{ post.date | date_to_xmlschema }}",
     "dateModified": "{{ post.date | date_to_xmlschema }}",
 
+    {% if include.position %}
+    "position": {{ include.position }},
+    {% endif %}
+
     {% if post.author %}
     "author": {% include structured-data/person.html person=post.author %},
     {% endif %}

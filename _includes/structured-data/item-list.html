@@ -3,7 +3,7 @@
 
 {% for post in site[collection] %}
     {% capture list_item %}
-        {% include structured-data/blog-posting.html post=post collection=collection %}
+        {% include structured-data/blog-posting.html post=post collection=collection position=forloop.index %}
     {% endcapture %}
     {% assign items = items | push: list_item %}
 {% endfor %}
