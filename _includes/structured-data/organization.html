@@ -1,0 +1,27 @@
+{% assign organization = site.data.authors[include.organization] %}
+
+{% assign links = '' | split: ' ' %}
+
+{% if organization.twitter %}
+    {% assign url = 'https://twitter.com/' | append: organization.twitter | prepend: '"' | append: '"' %}
+    {% assign links = links | push: url %}
+{% endif %}
+
+{% if organization.github %}
+    {% assign url = 'https://github.com/' | append: organization.github | prepend: '"' | append: '"' %}
+    {% assign links = links | push: url %}
+{% endif %}
+
+{% if organization.google_plus %}
+    {% assign url = 'https://plus.google.com/u/0/+' | append: organization.google_plus | prepend: '"' | append: '"' %}
+    {% assign links = links | push: url %}
+{% endif %}
+
+{
+    "@type": "Organization",
+    "name": "{{ organization.name }}",
+    "sameAs":[
+        {{ links | join: ', ' }}
+    ],
+    "logo": {% include structured-data/image.html path=organization.logo.path width=organization.logo.width height=organization.logo.height %}
+}

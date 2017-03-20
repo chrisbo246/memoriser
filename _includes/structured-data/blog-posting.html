@@ -18,6 +18,8 @@
     "position": {{ include.position }},
     {% endif %}
 
+    {% unless include.position%}
+
     {% if post.author %}
     "author": {% include structured-data/person.html person=post.author %},
     {% endif %}
@@ -27,6 +29,8 @@
     {% elsif post.author %}
     "publisher": {% include structured-data/person.html person=post.author %},
     {% endif %}
+
+    {% endunless %}
 
     {% if post.image.path %}
     "image": {% include structured-data/image.html path=post.image.path width=post.image.width height=post.image.height %},
