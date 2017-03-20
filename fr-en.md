@@ -7,6 +7,8 @@ description: "Des mots composés et expressions courantes qui s'apprennent gén�
 excerpt: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."
 image:
   path: "assets/images/posts/fr-en.png"
+  width: 640
+  height: 360
 collection_type: "posts"
 tags: []
 category:

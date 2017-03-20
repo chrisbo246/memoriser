@@ -6,6 +6,8 @@ description: "Du vocabulaire soutenu que vous avez probablement déjà entendu e
 excerpt: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
 image:
   path: "assets/images/posts/fr.png"
+  width: 640
+  height: 360
 collection_type: "posts"
 tags: []
 category:
