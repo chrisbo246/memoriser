@@ -4,8 +4,10 @@ description: "Liste de vocabulaire Russe courant relatif au corps humain."
 excerpt: "Liste de vocabulaire Russe courant relatif au corps humain."
 image:
   path: assets/images/posts/belly.jpg
+  type: "ImageObject"
   width: 640
   height: 360
+date: 2017-01-01 20:20:20 +0100
 ---
 ## Les parties du corps
 

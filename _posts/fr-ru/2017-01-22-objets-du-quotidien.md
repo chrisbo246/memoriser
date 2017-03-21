@@ -4,8 +4,10 @@ description: "Liste de vocabulaire Russe courant relatif aux objets du quotidien
 excerpt: "Liste de vocabulaire Russe courant relatif aux objets du quotidien."
 image:
   path: assets/images/posts/house.jpg
+  type: "ImageObject"
   width: 640
   height: 360
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Parties et composants de la maison

@@ -4,8 +4,10 @@ description: "Liste de vocabulaire Russe recensant les exclamations les plus cou
 excerpt: "Liste de vocabulaire Russe recensant les exclamations les plus courantes."
 image:
   path: assets/images/posts/russian-dictionary.jpg
+  type: "ImageObject"
   width: 640
   height: 360
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Exclamations

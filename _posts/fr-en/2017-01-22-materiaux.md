@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Anglais courant relatif aux métaux, matéria
 excerpt: "Liste de vocabulaire Anglais courant relatif aux métaux, matériaux de construction, etc..."
 image:
   path: assets/images/posts/metal.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [objets]
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Matériaux naturels

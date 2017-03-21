@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Français regroupant des expressions latines 
 excerpt: "Liste de vocabulaire Français regroupant des expressions latines relativement courantes."
 image:
   path: assets/images/posts/english-dictionary.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [expressions]
+date: 2017-01-01 20:20:20 +0100
 ---
 
 de facto

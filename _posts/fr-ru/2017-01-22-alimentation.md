@@ -4,8 +4,10 @@ description: "Liste de vocabulaire Russe relatif à la nourriture et à la table
 excerpt: "Liste de vocabulaire Russe relatif à la nourriture et à la table."
 image:
   path: assets/images/posts/hamburger.jpg
+  type: "ImageObject"
   width: 640
   height: 360
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Pain et féculents

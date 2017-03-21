@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Français regroupant les principaux courants 
 excerpt: "Liste de vocabulaire Français regroupant les principaux courants de pensée."
 image:
   path: assets/images/posts/english-dictionary.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [theme2]
+date: 2017-01-01 20:20:20 +0100
 ---
 ## Courants de pensée politiques
 

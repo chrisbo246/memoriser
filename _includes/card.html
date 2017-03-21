@@ -43,7 +43,7 @@
 {% endif %}
 
 {% assign title = post.title | split: ':' | last | strip %}
-{% assign subtitle = post.subtitle | default: post.headline %}
+{% assign subtitle = post.subtitle %}
 {% if title == subtitle %}
     {% assign subtitle = nil %}
 {% endif %}

@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Anglais courant aux vêtements."
 excerpt: "Liste de vocabulaire Anglais courant relatif aux vêtements."
 image:
   path: assets/images/posts/clothes.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [objets]
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Couvre-chefs<br>Headwear

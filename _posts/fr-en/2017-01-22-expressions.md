@@ -4,8 +4,10 @@ description: "Liste de vocabulaire Anglais courant regroupant des expressions co
 excerpt: "Liste de vocabulaire Anglais courant regroupant des expressions courantes."
 image:
   path: assets/images/posts/expression.jpg
+  type: "ImageObject"
   width: 640
   height: 360
+date: 2017-01-01 20:20:20 +0100
 ---
 
 

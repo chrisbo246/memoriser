@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Anglais courant relatif au corps humain."
 excerpt: "Liste de vocabulaire Anglais courant relatif au corps humain."
 image:
   path: assets/images/posts/belly.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [individus]
+date: 2017-01-01 20:20:20 +0100
 ---
 ## Membres
 

@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Russe courant relatif aux formules de polites
 excerpt: "Liste de vocabulaire Russe courant relatif aux formules de politesse."
 image:
   path: assets/images/posts/handshake.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 weight: 1
+date: 2017-01-01 20:20:20 +0100
 ---
 ## Présentation
 

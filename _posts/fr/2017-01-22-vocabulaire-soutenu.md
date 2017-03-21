@@ -4,10 +4,12 @@ description: "Liste de vocabulaire Français regroupant du vocabulaire soutenu r
 excerpt: "Liste de vocabulaire Français regroupant du vocabulaire soutenu relativement courant."
 image:
   path: assets/images/posts/english-dictionary.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [base]
 weight: 1
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Noms

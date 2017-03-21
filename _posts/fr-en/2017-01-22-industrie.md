@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Anglais courant relatif à l'industrie."
 excerpt: "Liste de vocabulaire Anglais courant relatif à l'industrie."
 image:
   path: assets/images/posts/milling.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [travail]
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Instruments de mesure

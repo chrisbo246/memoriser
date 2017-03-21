@@ -4,8 +4,10 @@ description: "Liste de vocabulaire Russe regroupant des phrases et expressions c
 excerpt: "Liste de vocabulaire Russe regroupant des phrases et expressions courantes en phonétique."
 image:
   path: assets/images/posts/russian-dictionary.jpg
+  type: "ImageObject"
   width: 640
   height: 360
+date: 2017-01-01 20:20:20 +0100
 ---
 ## Les pays
 

@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Anglais courant relatif aux objets du quotidi
 excerpt: "Liste de vocabulaire Anglais courant relatif aux objets du quotidien."
 image:
   path: assets/images/posts/house.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [objets]
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Ustensils de cuisine

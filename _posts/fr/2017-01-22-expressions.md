@@ -4,9 +4,11 @@ description: "Liste d'expressions Françaises courantes et moins courantes."
 excerpt: "Liste d'expressions Françaises courantes et moins courantes."
 image:
   path: assets/images/posts/english-dictionary.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [expressions]
+date: 2017-01-01 20:20:20 +0100
 ---
 
 un travail de Sisyphe

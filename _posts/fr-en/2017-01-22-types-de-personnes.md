@@ -4,9 +4,11 @@ description: "Liste de vocabulaire Anglais courant relatif à la famille et aux 
 excerpt: "Liste de vocabulaire Anglais courant relatif à la famille et aux différents types de personnes."
 image:
   path: assets/images/posts/family.jpg
+  type: "ImageObject"
   width: 640
   height: 360
 tags: [individus]
+date: 2017-01-01 20:20:20 +0100
 ---
 
 ## Selon l’âge
