@@ -101,9 +101,7 @@ defaults:
     values:
       author: chrisbo246
       publisher: chrisbo246
-      date: 2017-01-01 16:16:16 +0100
-      modified_time: 2017-01-01 18:18:18 +0100
-      modified_date: 2017-01-01 17:17:17 +0100
+      date: 2017-01-01 00:00:00 +0100
   -
     scope:
       path: ""
@@ -180,7 +178,7 @@ date: 2017-01-01 00:00:00 +0100
 publisher: chrisbo246
 author: chrisbo246
 #name: "MEMOLINGUO"
-#logo: assets/images/logos/android-chrome-512x512.png
+logo: assets/images/logos/android-chrome-512x512.png
 #image: assets/images/logos/android-chrome-512x512.png
 #id: https://chrisbo246.github.io/memolinguo
 webmaster_verifications:
