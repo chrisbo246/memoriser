@@ -3,13 +3,15 @@ title: "Vocabulaire Français: Vocabulaire soutenu"
 description: "Liste de vocabulaire Français regroupant du vocabulaire soutenu relativement courant."
 excerpt: "Liste de vocabulaire Français regroupant du vocabulaire soutenu relativement courant."
 image:
-  path: assets/images/posts/english-dictionary.jpg
-  type: "ImageObject"
-  width: 640
-  height: 360
+  default:
+    path: assets/images/posts/english-dictionary.jpg
+    width: 640
+    height: 360
+  facebook: assets/images/posts/english-dictionary.jpg
+  twitter: assets/images/posts/english-dictionary.jpg
 tags: [base]
 weight: 1
-date: 2017-01-01 20:20:20 +0100
+modified: 2017-01-01 20:20:20 +0100
 ---
 
 ## Noms

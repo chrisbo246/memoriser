@@ -109,14 +109,16 @@ defaults:
       path: ""
       type: "posts"
     values:
+      author: "chrisbo246"
+      publisher: "chrisbo246"
       comments: true
-      image:
-        path: "assets/images/posts/english-dictionary.jpg"
-        twitter: "assets/images/posts/english-dictionary.jpg"
-        facebook: "assets/images/posts/english-dictionary.jpg"
-        type: "ImageObject"
-        width: 640
-        height: 360
+      #image:
+        #path: "assets/images/posts/english-dictionary.jpg"
+        #twitter: "assets/images/posts/english-dictionary.jpg"
+        #facebook: "assets/images/posts/english-dictionary.jpg"
+        #type: "ImageObject"
+        #width: 640
+        #height: 360
   -
     scope:
       path: ""
