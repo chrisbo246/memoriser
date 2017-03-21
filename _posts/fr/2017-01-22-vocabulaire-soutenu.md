@@ -11,7 +11,7 @@ image:
   twitter: assets/images/posts/english-dictionary.jpg
 tags: [base]
 weight: 1
-modified: 2017-01-01 20:20:20 +0100
+dateModified: 2017-01-01 20:20:20 +0100
 ---
 
 ## Noms
