@@ -101,12 +101,8 @@ defaults:
       author: "chrisbo246"
       publisher: "chrisbo246"
       date: 2017-01-01 16:16:16 +0100
-      modified: 2017-01-01 16:16:16 +0100
-      modified-date: 2017-01-01 16:16:16 +0100
-      image:
-        type: "ImageObject"
-        width: 640
-        height: 360
+      modified: 2017-01-01 18:18:18 +0100
+      modified-date: 2017-01-01 17:17:17 +0100
   -
     scope:
       path: ""
@@ -117,6 +113,9 @@ defaults:
         path: "assets/images/posts/english-dictionary.jpg"
         twitter: "assets/images/posts/english-dictionary.jpg"
         facebook: "assets/images/posts/english-dictionary.jpg"
+        type: "ImageObject"
+        width: 640
+        height: 360
   -
     scope:
       path: ""
@@ -179,6 +178,7 @@ publisher: chrisbo246
 author: chrisbo246
 name: "MEMOLINGUO"
 logo: assets/images/logos/android-chrome-512x512.png
+image: assets/images/logos/android-chrome-512x512.png
 id: https://chrisbo246.github.io/memolinguo
 webmaster_verifications:
   google: "LSqjMgoaH49gx_-zumYmG_-wXfT619s2Eubol5bNTUA"
