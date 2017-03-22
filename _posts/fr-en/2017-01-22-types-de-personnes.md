@@ -7,14 +7,15 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [individus]
-date: 2017-01-01 20:20:20 +0100
+tags: [
+"vocabulaire anglais", "french vocabulary",
+"individus", "individus en anglais", "personnes en anglais", "famille en anglais",
+"person in french", "family in french"
+]
+date: 2017-03-22 18:58:00 +0100
 ---
 
 ## Selon l’âge
-
-homme (individu)
-: fellow
 
 fille (jeune femme)
 : gal
@@ -61,7 +62,7 @@ sans domicile
 vagabond (clochard)
 : tramp
 
-voyageur permanent
+vagabond (voyageur permanent)
 : wanderer
 
 clochard

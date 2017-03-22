@@ -7,8 +7,14 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [expressions]
-date: 2017-01-01 20:20:20 +0100
+tags: [
+"expressions",
+"exclamations courantes en anglais", "exclamations courantes anglais",
+"onomatopées en anglais", "onomatopées anglaises",
+"common french exclamations", "french common exclamations",
+"onomatopoeias in french", "french onomatopoeias"
+]
+date: 2017-03-22 18:23:00 +0100
 ---
 
 ## Onomatopée

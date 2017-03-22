@@ -7,13 +7,16 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [objets]
-date: 2017-01-01 20:20:20 +0100
+tags: [
+"matériaux en anglais", "matières en anglais", "métaux en anglais",
+"materials in french", "materials in french", "metals in french",
+]
+date: 2017-03-22 18:08:00 +0100
 ---
 
 ## Matériaux naturels
 
-terre, argile, terre battue
+terre, argile
 : clay
 
 eau douce

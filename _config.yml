@@ -23,11 +23,6 @@ url: "https://chrisbo246.github.io" # the base hostname & protocol for your site
 twitter_username: chrisbo246
 github_username:  chrisbo246
 
-#publisher:
-#  type: "Organization"
-#  name: "Chrisbo246"
-#  logo: "/assets/images/authors/chrisbo246.png"
-
 # Build settings
 markdown: kramdown
 theme: minima
@@ -104,7 +99,7 @@ defaults:
       date: 2017-01-01 00:00:00 +0100
   -
     scope:
-      path: ""
+      path: "_posts"
       type: "posts"
     values:
       author: chrisbo246
@@ -180,10 +175,12 @@ webmaster_verifications:
   bing: ""
   alexa: ""
   yandex: ""
-author: chrisbo246
+author:
+  default: chrisbo2461
+  twitter: chrisbo2462
 logo: assets/images/logos/android-chrome-512x512.png
 twitter:
-  username:
+  username: memolinguo
 facebook:
   app_id:
   publisher:
@@ -191,12 +188,12 @@ facebook:
 social:
   name: "MEMOLINGUO"
   links:
-    - https://twitter.com/memolinguo
-    - https://www.facebook.com/memo.linguo
-    - https://www.linkedin.com/in/memolinguo
-    - https://plus.google.com/+memolinguo
     - https://github.com/memolinguo
-    - https://keybase.io/memolinguo
+    #- https://twitter.com/memolinguo
+    #- https://www.facebook.com/memo.linguo
+    #- https://www.linkedin.com/in/memolinguo
+    #- https://plus.google.com/+memolinguo
+    #- https://keybase.io/memolinguo
 
 # jekyll-compress-html
 compress_html:
