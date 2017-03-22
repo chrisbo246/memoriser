@@ -7,8 +7,8 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [expressions]
-date: 2017-01-01 20:20:20 +0100
+tags: ["expression", "expressions", "francais", "français", "expressions françaises"]
+date: 2017-03-22 17:13:00 +0100
 ---
 Depuis votre tendre enfance, vous avez probablement appris via le bouche à oreille un tas d'expressions courantes que vous êtes persuadé de maîtriser. hélas, vous passez probablement pour un idiot à chaque fois que vous les utilisés. Voici un petit recensement des expressions fréquemment mal utilisées ou mal orthographiées.
 

@@ -48,7 +48,7 @@ body {
 
 
 
-// Page title
+// Navbar
 
 .navbar .navbar-text {
     margin: 0;
@@ -56,6 +56,14 @@ body {
     font-size: 2vw;
 }
 
+.navbar-brand img {
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.navbar.fixed-top .navbar-collapse[expanded="true"] {
+
+}
 
 // Posts
 

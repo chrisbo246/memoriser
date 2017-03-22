@@ -87,6 +87,7 @@ extatique
 
 onirique
 : Inspiré par un rêve.
+*Ex: un récit onirique*
 
 trivial
 : Vulgaire, évident.
@@ -130,7 +131,7 @@ mercato
 ## Médecine, symptômes, maladies
 
 catharsis
-: Thérapie
+: Thérapie.
 *Provoquer un choc émotionnel chez le patient pour comprendre la cause du problème.*
 
 épistaxis
@@ -138,6 +139,9 @@ catharsis
 
 
 ## Révolte
+
+génocide
+: Tous actes visant à détruire un groupe.
 
 jacquerie
 : Révolte paysanne.

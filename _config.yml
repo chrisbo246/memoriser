@@ -180,23 +180,23 @@ webmaster_verifications:
   bing: ""
   alexa: ""
   yandex: ""
-author:
-  logo: assets/images/logos/android-chrome-512x512.png
-  twitter:
-    username:
-  facebook:
-    app_id:
-    publisher:
-    admins:
-  social:
-    name: "MEMOLINGUO"
-    links:
-      - https://twitter.com/memolinguo
-      - https://www.facebook.com/memo.linguo
-      - https://www.linkedin.com/in/memolinguo
-      - https://plus.google.com/+memolinguo
-      - https://github.com/memolinguo
-      - https://keybase.io/memolinguo
+author: chrisbo246
+logo: assets/images/logos/android-chrome-512x512.png
+twitter:
+  username:
+facebook:
+  app_id:
+  publisher:
+  admins:
+social:
+  name: "MEMOLINGUO"
+  links:
+    - https://twitter.com/memolinguo
+    - https://www.facebook.com/memo.linguo
+    - https://www.linkedin.com/in/memolinguo
+    - https://plus.google.com/+memolinguo
+    - https://github.com/memolinguo
+    - https://keybase.io/memolinguo
 
 # jekyll-compress-html
 compress_html:

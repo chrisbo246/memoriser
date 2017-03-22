@@ -4,20 +4,11 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="{{ "/" | relative_url}}">
-            <img src="{{ "/assets/images/favicons/favicon-32x32.png" | relative_url }}" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="{{ "/assets/images/favicons/favicon-32x32.png" | relative_url }}" width="32" height="32" class="d-inline-block align-top" alt="{{ site.title }} logo">
             {{ site.title | escape }} <span class="badge badge-warning">BETA</span>
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             {% include menu.html %}
-            <!--
-            <ul class="navbar-nav mr-auto">
-                {% include nav-items.html id="main-nav" %}
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" name="search" class="searchbox-input" required="">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        -->
         </div>
     </nav>
 </div>

@@ -4,7 +4,11 @@ title: "Listes de vocabulaire Français"
 subtitle: "Cours de rattrapage"
 description: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
 excerpt: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
-keywords: ["vocabulaire français", "vocabulaire francais", "liste de vocabulaire", "listes de vocabulaire", "liste de mots", "listes de mots", "apprendre le français", "s'améliorer en français"]
+keywords: [
+"apprendre le français", "s'améliorer en français",
+"vocabulaire français", "vocabulaire francais", "liste de vocabulaire", "listes de vocabulaire",
+"liste de mots", "listes de mots", "vocabulaire soutenu", "vocabulaire difficile", "vocabulaire rare"
+]
 image:
   path: "assets/images/posts/fr.png"
   type: "ImageObject"

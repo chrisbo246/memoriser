@@ -7,8 +7,8 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [theme2]
-date: 2017-01-01 20:20:20 +0100
+tags: ["abréviation", "abréviations", "abréviations Françaises", "abréviations latines", "abréviations anglaises"]
+date: 2017-03-22 17:11:00 +0100
 ---
 
 ## Abréviations Françaises

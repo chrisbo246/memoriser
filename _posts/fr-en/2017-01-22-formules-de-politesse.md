@@ -7,15 +7,20 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [expressions]
+tags: [
+"phrases", "politesse", "Formules de politesse en Anglais", "politesse anglais",
+"bonjour en anglais", "au revoir en anglais", "merci anglais",
+"politeness in French", "hello in french", "good bye in french", "introduce in french"
+]
 weight: 1
-date: 2017-01-01 20:20:20 +0100
+date: 2017-03-22 17:56:00 +0100
 ---
 
-## Formules de présentation
+## Présentation
 
-Bonjour. (lorsque l’on rencontre quelqu’un pour la première fois)
+Bonjour.
 : How do you do?
+*Lors de la première rencontre.*
 
 Enchanté.
 : Nice to meet you.
@@ -27,7 +32,7 @@ Enchanté.
 : Pleased to meet you.
 
 
-## Bonjour
+## Saluer
 
 Bonjour! (jusqu’a 12h)
 : Good morning!
@@ -47,23 +52,26 @@ Salut!
 Salut! (un peu plus familier)
 : Hi! Hey!
 
+
+## Accueillir
+
+Bienvenu à la maison.
+: Welcome home.
+
+Faites comme chez vous.
+: Make yourselves at home.
+
 Cela fait longtemps qu’on ne s’est pas vu.
 : Long time no see.
 
 
 ## Au revoir
 
-Bonne nuit!
-: Good night!
-
 Fait de beau rêves.
 : Sweet dreams.
 
 Au revoir!
 : Good bye!
-
-Au revoir (Passez une bonne journée).
-: Good day.
 
 Au revoir.
 : Ta-ta!
@@ -83,8 +91,23 @@ A plus!
 A demain.
 : See you tomorrow.
 
+Fais attention a toi / prends soin de toi.
+: Take care.
+
+Adieu.
+: Farewell.
+
+## Souhaiter bonne...
+
+
 Bonne journée.
+: Good day.
+
+Passez une bonne journée.
 : Have nice day.
+
+Bonne nuit.
+: Good night.
 
 Bon week-end.
 : Have a nice week day.
@@ -95,11 +118,12 @@ Bon voyage.
 Je te souhaite pleines de bonnes choses.
 : All the best.
 
-Fais attention a toi / prends soin de toi.
-: Take care.
 
-Adieu.
-: Farewell.
+## S'absenter
+
+Veuillez m'excuser.
+: Can I be excused?
+
 
 
 ## Prendre des nouvelles
@@ -123,7 +147,7 @@ Comment ça va? (familier)
 : How are you doing?
 
 
-## Remerciement
+## Remercier
 
 Merci.
 : Thank you.
@@ -174,24 +198,6 @@ je vous suis extremêment reconnaissant de votre aide.
 : Thank you kindly.
 
 
-## Accueillir
-
-Bienvenu à la maison.
-: Welcome home.
-
-Faites comme chez vous.
-: Make yourselves at home.
-
-
-## S'absenter
-
-Veuillez m'excuser.
-: Can I be excused?
-
-Désolé pour le dérangement.
-: Sorry for the trouble.
-
-
 ## Réponses de politesse
 
 De rien.
@@ -207,13 +213,19 @@ Très bien merci.
 : Very well thank you.
 
 
-## Appaisement
+## S'excuser
+
+C'est de ma faute.
+: My bad.
+
+Désolé pour le dérangement.
+: Sorry for the trouble.
+
+
+## Appaiser
 
 Je ne veux pas vous déranger.
 : I do not want to bother you.
 
 Ne le prenez pas mal.
 : Do not take it badly.
-
-C'est de ma faute.
-: My bad.
