@@ -14,7 +14,7 @@ tags: [
 "common french exclamations", "french common exclamations",
 "onomatopoeias in french", "french onomatopoeias"
 ]
-date: 2017-03-22 18:23:00 +0100
+date: 2017-03-28 20:51:00 +0100
 ---
 
 ## Onomatopée
@@ -45,6 +45,12 @@ Attends!
 
 Fait attention!
 : Watch out!
+
+C'est à toi!
+It's yours!
+
+Arrête! Allons!
+Come on!
 
 
 ## Constatation

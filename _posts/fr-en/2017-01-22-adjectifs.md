@@ -8,7 +8,7 @@ image:
   width: 640
   height: 360
 tags: [base]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-03-28 20:51:00 +0100
 ---
 
 ## Relatif à une situation
@@ -59,6 +59,8 @@ solide
 volumineux
 : bulky
 
+voyant
+: showy
 
 ## A propos de l'environnement
 

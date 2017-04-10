@@ -231,6 +231,18 @@ L’addition s’il vous plaît!
 
 ## Divers
 
+beau, joli
+: красивый
+*krasivy*
+
+prénom
+: имя
+*imya*
+
+nom (de famille)
+: фамилия
+*familya*
+
 Faisons connaissance!
 : Дaвáйтe пoзнaкóмимcя!
 *Davaitié poznakomimsia!*

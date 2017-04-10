@@ -10,6 +10,38 @@ image:
 date: 2017-01-01 20:20:20 +0100
 ---
 
+maison
+: дом
+*dom*
+
+garage
+: гараж
+*garaj*
+
+
+## Pièces
+
+chambre
+: комната
+*comnata*
+
+couloir
+: кoридop
+*coridor*
+
+cuisine
+: кухня
+*kuxnia*
+
+salle de bain
+: ванная
+*vannaia*
+
+toilette
+: туалет
+*toilet*
+
+
 ## Parties et composants de la maison
 
 escalier
@@ -35,29 +67,6 @@ sol
 toit
 : крыша
 *kricha*
-
-
-## Pièces
-
-chambre
-: комната
-*comnata*
-
-couloir
-: кoридop
-*coridor*
-
-cuisine
-: кухня
-*kuxnia*
-
-salle de bain
-: ванная
-*vannaia*
-
-toilette
-: туалет
-*toilet*
 
 
 ## Mobilier

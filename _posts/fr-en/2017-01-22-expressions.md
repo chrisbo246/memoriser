@@ -7,7 +7,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-date: 2017-01-01 20:20:20 +0100
+date: 2017-03-28 20:51:00 +0100
 ---
 
 
@@ -49,10 +49,12 @@ en ce qui concerne
 il était une fois
 : once upon a time
 
+
 ## Fin de phrase
 
 Et ainsi de suite.
 : And so on, and so forth.
+
 
 ## Questions
 
@@ -131,6 +133,13 @@ A chacun sa façon de penser.
 Advienne que pourra.
 : Come what may.
 
+Si vous voulez.
+: If you will.
+
+Pour ce que ça vaut
+: For what it's worth
+
+
 ## Situation
 
 sombre ennui
@@ -169,6 +178,7 @@ une vie à la dure (de voyou)
 Il m'a posé un lapin
 : He stood me (to stand someone up)
 
+
 ## Ressenti
 
 garder la tête froide
@@ -183,6 +193,7 @@ se sentir obligé de
 j'ai tourné la page
 : i am getting over you
 
+
 ## Comportement
 
 ne jamais se taire
@@ -193,6 +204,7 @@ bien s'entendre avec
 
 travailler à ma façon
 : work my way around
+
 
 ## Mouvement, déplacement
 
@@ -207,6 +219,7 @@ va-et-vient
 
 en cours de route
 : down the road
+
 
 ## Remarque, étonnement
 
@@ -228,10 +241,12 @@ c'est la cerise sur le gâteau
 ils font la paire
 : they do the match
 
+
 ## Dégoût, mépris
 
 ne supporte pas
 : can't stand
+
 
 ## Jeu
 
@@ -247,8 +262,14 @@ en plein dans le mille
 Les doigts dans le nez
 : Hands down / Like taking candy from a baby / A piece of cake / As easy as pie
 
+le jeu en vaut la peine
+: the reward is worth the pain
+
 
 ## Formules courants
+
+pour faire simpler
+: to put it simpler
 
 avant de partir
 : before you head out
@@ -318,6 +339,19 @@ fumer du cannabis
 
 comme par magie
 : as if by magic
+
+à mon goût
+: for my liking
+
+cas particulier
+: particular case
+
+cas échéant
+: optionally
+
+cas de figure
+: case
+
 
 ## Expressions idiomatiques
 

@@ -9,11 +9,16 @@ image:
   width: 640
   height: 360
 weight: 100
-date: 2017-01-01 20:20:20 +0100
+date: 2017-04-01 01:31:00 +0100
 ---
-La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voyelles, 21 consonnes, 1 signe mou et 1 signe fort.
 
-[audio ogg="https://upload.wikimedia.org/wikipedia/commons/2/24/Russian_alphabet.ogg" loop="on"]
+La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voyelles, 21 consonnes et 2 lettres muettes (signe mou et signe fort).
+
+<p>
+    <audio controls>
+        <source type="audio/ogg" src="https://upload.wikimedia.org/wikipedia/commons/2/24/Russian_alphabet.ogg">
+    </audio>
+</p>
 
 <table><colgroup> <col style="width:4%;background-color:#eee;" span="1" /> <col style="width:4%;" span="1" /> <col style="width:15%;" span="2" /> <col /> <col style="width:5%;" span="4" /> </colgroup>
 <thead style="background-color:#eee;">
@@ -40,7 +45,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">А</td>
 <td>a</td>
 <td><span style="color:#00ff00;">a</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound201.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound201.mp3"></audio></td>
 <td></td>
 <td style="background:#eee;">D</td>
 <td style="background:#fed;">F</td>
@@ -51,7 +56,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Б</td>
 <td>bè</td>
 <td>b, p_, -p</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound207.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound207.mp3"></audio></td>
 <td style="background:#fdd;">S</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -62,7 +67,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">В</td>
 <td>vè</td>
 <td><span style="color:#ff0000;">v</span>, f_, -f</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound211.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound211.mp3"></audio></td>
 <td style="background:#fdd;">S</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -73,7 +78,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Г</td>
 <td>guè</td>
 <td>g, k_, -k</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound223.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound223.mp3"></audio></td>
 <td style="background:#fdd;">S</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -84,7 +89,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Д</td>
 <td>dè</td>
 <td>d, t_, -t</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound219.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound219.mp3"></audio></td>
 <td style="background:#fdd;">S</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -95,7 +100,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">Е</td>
 <td>yè</td>
 <td><span style="color:#ff0000;">ye</span>, yè-, yè´, -yè</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound106.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound106.mp3"></audio></td>
 <td></td>
 <td style="background:#fdd;">M</td>
 <td style="background:#dfd;">N</td>
@@ -106,7 +111,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">Ё</td>
 <td>yo</td>
 <td><span style="color:#ff0000;">yo</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound107.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound107.mp3"></audio></td>
 <td></td>
 <td style="background:#fdd;">M</td>
 <td style="background:#ddf;">M</td>
@@ -117,7 +122,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Ж</td>
 <td>jè</td>
 <td>j, ch_, -ch</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound227.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound227.mp3"></audio></td>
 <td style="background:#fdd;">S</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -128,7 +133,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">З</td>
 <td>zè</td>
 <td>z, s_, -s</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound215.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound215.mp3"></audio></td>
 <td style="background:#fdd;">S</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -139,7 +144,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">И</td>
 <td>i</td>
 <td>i</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound205.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound205.mp3"></audio></td>
 <td></td>
 <td style="background:#fdd;">M</td>
 <td></td>
@@ -150,7 +155,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Й</td>
 <td>icratkè</td>
 <td>y</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound237.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound237.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -161,7 +166,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">К</td>
 <td>ka</td>
 <td><span style="color:#00ff00;">k</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound225.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound225.mp3"></audio></td>
 <td style="background:#eee;">_</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -172,7 +177,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Л</td>
 <td>èl</td>
 <td>l</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound233.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound233.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -183,7 +188,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">М</td>
 <td>ème</td>
 <td><span style="color:#00ff00;">m</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound229.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound229.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -194,7 +199,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Н</td>
 <td>ène</td>
 <td><span style="color:#ff0000;">n</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound231.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound231.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -205,7 +210,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">О</td>
 <td>o</td>
 <td><span style="color:#999999;"><span style="color:#ff0000;">a</span></span>, o-, o´, -o</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound203.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound203.mp3"></audio></td>
 <td></td>
 <td style="background:#eee;">D</td>
 <td style="background:#dfd;">N</td>
@@ -216,7 +221,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">П</td>
 <td>pè</td>
 <td>p</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound209.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound209.mp3"></audio></td>
 <td style="background:#eee;">_</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -227,7 +232,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Р</td>
 <td>èrr</td>
 <td><span style="color:#ff0000;">r~</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound235.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound235.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -238,7 +243,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">С</td>
 <td>èss</td>
 <td><span style="color:#ff0000;">s</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound217.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound217.mp3"></audio></td>
 <td style="background:#eee;">_</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -249,7 +254,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Т</td>
 <td>tè</td>
 <td><span style="color:#00ff00;">t</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound221.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound221.mp3"></audio></td>
 <td style="background:#eee;">_</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -260,7 +265,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">У</td>
 <td>ou</td>
 <td><span style="color:#ff0000;">ou</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound204.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound204.mp3"></audio></td>
 <td></td>
 <td style="background:#eee;">D</td>
 <td></td>
@@ -271,7 +276,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Ф</td>
 <td>èf</td>
 <td>f</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound213.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound213.mp3"></audio></td>
 <td style="background:#eee;">_</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -282,7 +287,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Х</td>
 <td>kha</td>
 <td><span style="color:#ff0000;">h~</span></td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound241.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound241.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -293,7 +298,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Ц</td>
 <td>tcè</td>
 <td>ts</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound240.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound240.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -304,7 +309,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Ч</td>
 <td>tchè</td>
 <td>tch</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound239.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound239.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -315,7 +320,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Ш</td>
 <td>cha</td>
 <td>ch</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound228.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound228.mp3"></audio></td>
 <td style="background:#eee;">_</td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -326,7 +331,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#fdd;">Щ</td>
 <td>chha</td>
 <td>chh</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound238.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound238.mp3"></audio></td>
 <td></td>
 <td></td>
 <td style="background:#ddf;">M</td>
@@ -348,7 +353,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">Ы</td>
 <td>ui</td>
 <td>i, -è</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound206.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound206.mp3"></audio></td>
 <td></td>
 <td style="background:#eee;">D</td>
 <td></td>
@@ -370,7 +375,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">Э</td>
 <td>è</td>
 <td>è</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound202.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound202.mp3"></audio></td>
 <td></td>
 <td style="background:#eee;">D</td>
 <td></td>
@@ -381,7 +386,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">Ю</td>
 <td>you</td>
 <td>you</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound132.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound132.mp3"></audio></td>
 <td></td>
 <td style="background:#fdd;">M</td>
 <td></td>
@@ -392,7 +397,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <td style="background:#dfd;">Я</td>
 <td>ya</td>
 <td>i, ya-, ya´, -ya</td>
-<td>[audio mp3="http://www.study-languages-online.com/sounds/sound133.mp3"]</td>
+<td><audio controls><source type="audio/mpeg" src="http://www.study-languages-online.com/sounds/sound133.mp3"></audio></td>
 <td></td>
 <td style="background:#fdd;">M</td>
 <td style="background:#fed;">F</td>
@@ -429,23 +434,24 @@ En fait, il n'est pas nécéssaire de mémoriser cette régle car les voyelles m
 
 Entrainez vous avec la plus appaisante des profs de Russe du web. ;-)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SLfpp704KI8" frameborder="0" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/SLfpp704KI8" frameborder="0" allowfullscreen></iframe></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zayTKG-ZAbs" frameborder="0" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/zayTKG-ZAbs" frameborder="0" allowfullscreen></iframe></p>
 
 Quelques conseils pour la prononciations.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IPk4SgwT9C8" frameborder="0" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/IPk4SgwT9C8" frameborder="0" allowfullscreen></iframe></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1yDZ6PIvd9g" frameborder="0" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/1yDZ6PIvd9g" frameborder="0" allowfullscreen></iframe></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CvQUzbAH4jg" frameborder="0" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/CvQUzbAH4jg" frameborder="0" allowfullscreen></iframe></p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ErCScuVLHoI" frameborder="0" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/ErCScuVLHoI" frameborder="0" allowfullscreen></iframe></p>
 
 Et la grammaire.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OSH03qIBBWE" frameborder="0" allowfullscreen></iframe>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/OSH03qIBBWE" frameborder="0" allowfullscreen></iframe></p>
+
 
 ## Le pluriel
 

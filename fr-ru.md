@@ -27,7 +27,7 @@ nav:
   position: 3
   icon:
 card:
-  image: true
+  image: false
   date: false
   categories: false
   image_position: "top"

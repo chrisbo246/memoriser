@@ -8,7 +8,7 @@ image:
   width: 640
   height: 360
 tags: [individus]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-03-28 20:51:00 +0100
 ---
 ## Membres
 
@@ -276,6 +276,9 @@ rein(s)
 intestin
 : intestine
 
+moelle
+: marrow
+
 veine(s)
 : vein(s)
 
@@ -287,6 +290,9 @@ muscle(s)
 
 peau
 : skin
+
+utérus
+: womb
 
 
 ## Imperfections

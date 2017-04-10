@@ -26,12 +26,13 @@ Cool!
 
 ## Gros mots
 
-Zut!, Putain! (pute)
+Putain!
 : Блядь!
 *Blate!*
 
-Mince! (merde)
+Mince!
 : Bline!
+*Bline!*
 
 Va te faire foutre!
 : Иди на хуй!

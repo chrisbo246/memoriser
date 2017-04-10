@@ -14,11 +14,20 @@ weight: 1
 dateModified: 2017-01-01 20:20:20 +0100
 ---
 
-## Noms
+## Qualités
 
-acmé
-: Apogée, évolution ultime.
-*Sommet en Grec.*
+efficience
+: Efficacité.
+
+
+
+## Reproche
+
+vacuité
+: Sans valeur.
+
+
+## Noms
 
 agapes
 : Festin entre amis.
@@ -27,32 +36,21 @@ arcane
 : Secret.
 *Ex: les arcanes du pouvoir.*
 
-atavisme
-: Hérédité.
-
-célérité
-: Rapidité.
-
 conjecture
 : Hypothèse.
-
-efficience
-: Efficacité.
 
 billevesée
 : Baliverne.
 
-noria
-: [![](http://m.thumbs.canstockphoto.com/canstock10877775.jpg)](http://m.thumbs.canstockphoto.com/canstock10877775.jpg) Système composé de godets et poulies destiné à extraire l'eau d'un puits. Allers et retours ininterrompus de véhicules de transport.
-
-onanisme
-: Masturbation.
-
 pis aller
 : Choisi faute de mieux.
 
-prosélitisme
-: Recruter des adeptes, tenter d'imposer ses idées.
+
+
+## Mouvements, orientations
+
+célérité
+: Rapidité.
 
 résurgence
 : Réapparition.
@@ -61,51 +59,19 @@ tropisme
 : Orientation induite par un élément extérieur.
 *Ex: le tropisme d'une plante en direction du soleil.*
 
-vacuité
-: Sans valeur.
 
+## Prépositions
 
-## Adjectifs
-
-anthropique
-: Provoqué par l'activité humaine.
-*Ex: un paysage anthorpique.*
-
-bigarré
-: Varié.
-
-chamarré
-: Très coloré, couvert de décorations.
-
-dichotomique
-: Partagé
-*Littéralement coupé en deux.*
-
-extatique
-: Qui provoque l'extase.
-*Ex: une vision extatique.*
-
-onirique
-: Inspiré par un rêve.
-*Ex: un récit onirique*
-
-trivial
-: Vulgaire, évident.
-
-
-## Période
-
-anachronique
-: Qui a l'air d'une autre époque.
-
-antédiluvien
-: Avant le déluge.
-
-séculaire
-: Très ancien, multi-centenaire.
+nonobstant
+: Malgré.
+*Ex: nonobstant les obstacles*
 
 
 ## Situation
+
+acmé
+: Apogée, évolution ultime.
+*Sommet en Grec.*
 
 imbroglio
 : Situation confuse, complexe.
@@ -115,13 +81,14 @@ omerta
 *En référence à la mafia sicilienne.*
 
 
+
 ## Emploi, travail
 
 népotisme
 : Piston, favoritisme à l'égard des proches.
 
-
-## Sport
+prosélitisme
+: Recruter des adeptes, tenter d'imposer ses idées.
 
 mercato
 : Période durant laquelle les transferts de joueurs de foot sont autorisés.
@@ -134,8 +101,14 @@ catharsis
 : Thérapie.
 *Provoquer un choc émotionnel chez le patient pour comprendre la cause du problème.*
 
+hémiplégie
+: Paralysie d'un seul côté du corps.
+
 épistaxis
 : Saignement de nez.
+
+onanisme
+: Masturbation.
 
 
 ## Révolte

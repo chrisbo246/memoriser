@@ -127,9 +127,7 @@ defaults:
     values:
       layout: "definition-lists"
       permalink: /:categories/:title.html
-      comments: true
       categories: [FR]
-      #image: "assets/images/posts/fr-en.jpg"
   -
     scope:
       path: "_posts/fr-en"
@@ -137,9 +135,7 @@ defaults:
     values:
       layout: "definition-lists"
       permalink: /:categories/:title.html
-      comments: true
       categories: ["FR-EN"]
-      #image: "assets/images/posts/fr-en.jpg"
   -
     scope:
       path: "_posts/fr-ru"
@@ -147,9 +143,7 @@ defaults:
     values:
       layout: "definition-lists"
       permalink: /:categories/:title.html
-      comments: true
       categories: ["FR-RU"]
-      ##image: "assets/images/posts/fr-ru.jpg"
 
 
 
@@ -175,9 +169,9 @@ webmaster_verifications:
   bing: ""
   alexa: ""
   yandex: ""
-author:
-  default: chrisbo2461
-  twitter: chrisbo2462
+author: chrisbo246
+#  default: chrisbo2461
+#  twitter: chrisbo2462
 logo: assets/images/logos/android-chrome-512x512.png
 twitter:
   username: memolinguo

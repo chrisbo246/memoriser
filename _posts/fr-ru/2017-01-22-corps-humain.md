@@ -34,48 +34,47 @@ dos
 *spéna*
 
 poitrine (thorax)
-: -
+: грудная клетка
+*grudnaya kletka*
 
 poitrine (seins)
 : грудь
-*groud'e*
-
-nichons
-: -
+*groud'*
 
 téton(s), Mamelon(s)
-: -
+: шпилька
+*shpilka*
 
 ventre
 : живо́т
 *givote*
 
 nombril
-: -
+: пуп
+*poup*
 
-hanche(s)
-: -
+hanches
+: бедра
+*bedra*
 
 fesses
-: -
+: ягодицы
+*ilgaditsa*
 
 cul
-: -
-
-fesse
-: -
-
-arrière train
-: -
+: задница
+*zadnitsa*
 
 pénis
-: -
+: пенис
+*pégnis*
 
-queue, Bitte
+queue, bitte
 : -
 
 vagin
-: -
+: влагалище
+*vlagalischè*
 
 
 ## Visage
@@ -87,7 +86,8 @@ tempe(s)
 : -
 
 joue(s)
-: -
+: щека
+*schéka*
 
 oreille
 : у́хо
@@ -101,10 +101,12 @@ lobe d’oreille
 : -
 
 menton
-: -
+: подбородок
+*padbarodok*
 
 narine(s)
-: -
+: ноздря, ноздри
+*nozdrya, nozdri*
 
 nez
 : нос
@@ -119,7 +121,8 @@ yeux
 *glasa*
 
 paupière
-: -
+: веки
+*viéki*
 
 pupille
 : -
@@ -132,7 +135,8 @@ bouche
 *rôte*
 
 lèvre(s)
-: -
+: губа, губы
+*gouba, gouby*
 
 langue
 : язы́к
@@ -157,7 +161,11 @@ cheveux, poils
 : во́лосы
 *vôlasy*
 
-sourcil, Arcade sourcilière
+sourcil(s)
+: бровь, брови
+brof, brovi
+
+Arcade sourcilière
 : -
 
 cils
@@ -167,10 +175,12 @@ barbiche, Bouc
 : -
 
 barbe
-: -
+: борода
+*borada*
 
 moustache
-: -
+: усы
+*ousy*
 
 
 ## Cou
@@ -192,7 +202,8 @@ pomme d’Adam
 ## Bras
 
 bras
-: -
+: рука
+*rouka*
 
 épaule
 : плечо́
@@ -260,16 +271,13 @@ ongle
 
 ## Jambe
 
-jambe
-: нога́
-*naga*
+jambe(s)
+: нога́, но́ги
+*naga, nogi*
 
-jambes
-: но́ги
-*nogi*
-
-cuisse
-: -
+cuisse(s)
+: бедро, бедра
+*bildro, beldra*
 
 genou
 : -
@@ -332,7 +340,8 @@ cerveau
 : -
 
 coeur
-: -
+: сердце
+*sierdtsè*
 
 foie
 : -

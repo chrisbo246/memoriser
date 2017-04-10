@@ -33,7 +33,7 @@ in fine
 : À la fin, en dernier, finalement, en conclusion.
 
 in situ
-: Sur le lieu même.
+: Sur place.
 
 in vivo
 : Dans le vif.
@@ -51,7 +51,7 @@ primo occupanti
 : Droit du premier occupant.
 
 qui pro quo
-: Prendre un qui pour un quoi.
+: confusion.
 
 stricto sensu
 : Au sens strict.

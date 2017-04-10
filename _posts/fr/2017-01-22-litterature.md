@@ -32,7 +32,13 @@ coquecigrue
 *Animal imaginaire, mi coq, mi cigogne, mi grue, en référence à Gargantua de Rabelais.*
 
 
-## Formules de styles
+## Mettre en valeur
+
+anacoluthe
+: Mettre en valeur un énoncé par une rupture de construction syntaxique.
+
+
+## Comparaison imagée
 
 métaphore
 : Comparaison imagée (sans terme de comparaison).
@@ -43,6 +49,27 @@ allégorie
 personnification
 : Représentation d'une chose sous les traits d'une personne.
 
+
+## Exageration
+
+hyperbole
+: Exagèration d'une idée pour la mettre en relief.
+
+gradation
+: Dramatiser en ordonnant les termes selon une progression croissante.
+
+pléonasme
+: Employer deux termes de même sens.
+
+anaphore
+: Répéter le même mot au début de chaque phrases.
+
+tautologie
+: Répéter la même idée en termes différents.
+
+
+## Eviter les répétitions
+
 métonymie
 : Remplacer un mot par un autre.
 
@@ -50,55 +77,64 @@ synecdoque
 : Remplacer un mot par un autre mot lié par une inclusion.
 
 périphrase
-: Remplacer un mot par une expression qui évite une répétition.
+: Remplacer un mot par une expression.
 
-antithèse
-: Oppose deux termes.
+
+## Adoucissement
+
+euphémisme
+: Atténue l'expression d'une idée ou d'un sentiment.
+
+
+## Suggestion
+
+litote
+: On suggère quelque chose sans le dire clairement.
+
+ellipse
+: Sous-entendre certains mots pour simplifier une phrase.
+
+
+## Erreurs
+
+pléonasme
+: Employer deux termes de même sens.
+
+oxymore, oxymoron
+: Réunion de deux termes contradictoires.
+
+
+## Ironie
 
 antiphrase
 : Exprime ironiquement une idée par son contraire.
 
+
+## Tromperie
+
+digression
+: S'éloigner du sujet.
+
+
+## Opposition
+
+antithèse
+: Oppose deux termes.
+
 paradoxe
 : Enoncer une idée contraire à l'opinion commune.
 
-oxymore (ou oxymoron)
-: Réunion de deux termes contradictoires.
 
-hyperbole
-: Exagèration d'une idée pour la mettre en relief.
+## Successions de lettres
 
-anaphore
-: Répéter le même mot au début de chaque phrases.
+hiatus
+: Succession de voyelles entre 2 syllabes ou 2 mots.
 
-gradation
-: Dramatiser en ordonnant les termes selon une progression croissante.
 
-anacoluthe
-: Mettre en valeur un énoncé par une rupture de construction syntaxique.
-
-pléonasme
-: Employer deux termes de même sens (par erreur ou exagération).
-
-tautologie
-: Répéter la même idée en termes différents.
+## Sonorité
 
 allitération
 : Répétition d’un même son (consonne) dans une phrase.
 
 assonance
 : Répétition d’un même son (voyelle) dans une phrase.
-
-litote
-: On suggère quelque chose sans le dire clairement.
-
-euphémisme
-: Atténue l'expression d'une idée ou d'un sentiment.
-
-ellipse
-: Sous-entendre certains mots pour simplifier une phrase.
-
-digression
-: S'éloigner du sujet.
-
-hiatus
-: Succession de voyelles entre 2 syllabes ou 2 mots.

@@ -12,8 +12,20 @@ tags: [
 "individus", "individus en anglais", "personnes en anglais", "famille en anglais",
 "person in french", "family in french"
 ]
-date: 2017-03-22 18:58:00 +0100
+date: 2017-03-28 20:51:00 +0100
 ---
+
+## Famille
+
+parrain / marraine
+: godparent
+
+parrain
+: godfather
+
+marraine
+: godmother
+
 
 ## Selon l’âge
 
@@ -28,6 +40,9 @@ gamin
 
 ainé
 : elder
+
+cadet
+: cadet
 
 personnes agées
 : elderly people

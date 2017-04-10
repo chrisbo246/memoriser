@@ -8,52 +8,53 @@ image:
   width: 640
   height: 360
 weight: 1
-date: 2017-01-01 20:20:20 +0100
+date: 2017-04-01 00:39:00 +0100
 ---
+
 ## Présentation
 
 Enchanté(e)!
 : Взаимно!
 *Vzaïmna!*
 
-Avec vous de faire connaissance!
+Ravi(e) de vous rencontrer!
 : Рад(а) с Вами познакомиться!
-*Rad(a) s Vami poznakomit'sja Приятно познакомиться! Prijatno poznakomit'sja!*
+*Rad(a) s Vami poznakomit'sja*
+
+Ravi de vous rencontrer!
+: Приятно познакомиться!
+*Prijatno poznakomit'sja!*
 
 
 ## Bonjour
 
-salut!
+Bonjour / Bonsoir! (poli)
+: Здравствуйте!
+*Zdrastvouytyé!*
+
+Salut!
 : Привет!
 *Privièt!*
 
-Bonjour / Bonsoir! (poli)
-: Здравствуйте!
-*ZdrAstvouytyé!*
-
-Bonjour! (bon jour)
-: Добрый день!
-*Dobryj dièn!*
-
-Bonjour, Monsieur!
-: Доброе утро, сэр!
-*Dobroe outra, sjer!*
-
-Bonjour, Madame!
-: Доброе утро, мадам!
-*Dobroe outra, madam!*
-
 Bonjour! (le matin)
 : Доброе утро!
-*Dobroyè outro!*
+*Dobré outra!*
 
 Bonjour! (l'après midi)
 : Добрый день!
-*Dobri dyegne!*
+*Dobry dién!*
 
 Bonsoir!
 : Добрый вечер!
-*Dobryj vecher!*
+*Dobry viétchèr!*
+
+Bonjour, Monsieur!
+: Доброе утро, сэр!
+*Dobré outra, sèr!*
+
+Bonjour, Madame!
+: Доброе утро, мадам!
+*Dobré outra, madam!*
 
 
 ## Au revoir
@@ -78,13 +79,13 @@ A plus, à plus tard, à la prochaine
 : До встречи!
 *Do vstrechi!*
 
-Au revoir, Adieu.
+A dieu.
 : До свидания.
 *Da svidania.*
 
 Bonne nuit!
 : Спокойной ночи!
-*Spokojnoj nochi!*
+*Spakoyné notchi!*
 
 
 ## Remercier
@@ -95,11 +96,11 @@ Merci!
 
 Merci, de même!
 : Спасибо, взаимно!
-*Spasibo, vzaimno!*
+*Spasibo, vzaïmna!*
 
 Très bien merci!
 : Очень хорошо, спасибо!
-*Ochen' horosho, spasibo!*
+*Otchen horosho, spasiba!*
 
 
 ## S'excuser
@@ -121,16 +122,16 @@ S’il vous plait.
 
 Ça va? Comment ça va? Comment allez-vous?
 : Как ты? Как дела?
-*Kak ty? Kak diela?*
+*Kak ty? Kak diéla?*
 
 Je suis content(e) de te voir.
 : Рад(а) встрече! Спасибо, взаимно.
-*Rad(a) vstreche.*
+*Rad(a) vstritché.*
 
 Qu'est-ce qui ne va pas?
 : Что не так?
-*Chto nie tak?*
+*Chto nié tak?*
 
 Qu'est-ce qu’il y a?
 : В чем дело?
-*V chiem diela?*
+*V tchiem diéla?*
