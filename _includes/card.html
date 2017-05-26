@@ -1,10 +1,12 @@
 {% assign post = include.post %}
 
 {% if page.card.image != false %}
-{% assign src = post.image.default.path |  | default: post.image.default | default: post.image.path | default: post.image %}
-{% unless src contains 'http://' or post.image contains 'https://' %}
+{% assign src = post.image.default.path | default: post.image.default | default: post.image.path | default: post.image %}
+{% comment %}
+{% unless src contains 'http://' or src contains 'https://' %}
     {% assign src = src | absolute_url %}
 {% endunless %}
+{% endcomment %}
 {% endif %}
 
 {% assign card-classes = 'card' | split: ' ' %}
