@@ -13,22 +13,26 @@ nav:
 
 ## A propos
 
-Cette application à été développé dans le but de proposer des listes de
-vocabulaires faciles à mémoriser. Elle vise les ados aillant des difficultés
-d'apprentissage tout comme les adultes souhaitant compléter leur vocabulaire.
-Les fiches sont complétées jours après jours avec du vocabulaire actuel entendu
-à la télé ou collecté sur Internet. Les définitions sont volontairement
-simplifiée au maximum pour faciliter la mémorisation.
+Cette application a été développée dans le but de proposer des listes de
+vocabulaires faciles à mémoriser. Elle vise les ados ayant des difficultés
+d'apprentissage tout comme les adultes souhaitant combler rapidement leurs lacunes.
+Les fiches sont complétées jours après jours avec du vocabulaire entendu
+à la télé ou collecté sur Internet.
+Vous y trouverez principalement des mots composés, expressions et du vocabulaire
+soutenu relativement courant mais difficile à apprendre autrement que par la
+pratique. Les définitions sont volontairement simplifiées au maximum pour
+faciliter la mémorisation. Priorité est donnée à la clarté et à la rapidité
+de navigation.
 
 
 ## Données personnelles
 
-Aucune donnée personnelle n'est reccueillie par l'application. Des données
-anonymes peuvent cependant être utilisées par les services Google associés
-(pubs).
 Votre sélection est uniquement conservée localement via les cookies de votre
 navigateur. Pensez à créer une règle pour conserver vos données lorsque vous
 supprimez vos cookies.
+Aucune donnée personnelle n'est recueillie. Seules des données
+anonymes peuvent être utilisées par les services associés (pubs et stats).
+
 
 
 ## Contact

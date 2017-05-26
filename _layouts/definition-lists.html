@@ -21,7 +21,7 @@ layout: default
                     {% assign category_root_page = posts.first %}
                     {% if category_root_page.title and category_root_page.url != page.url %}
                     <a class="nav-link" href="{{ category_root_page.url | relative_url }}">
-                        <strong>{{ category_root_page.title }}</strong>
+                        <span class="fa fa-arrow-left fa-fw"></span> <span class="text-muted">{{ category_root_page.title }}</span>
                     </a>
                     <div class="dropdown-divider"></div>
                     {% endif %}

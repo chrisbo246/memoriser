@@ -5,7 +5,10 @@
 layout: home
 title: "Enrichissez votre vocabulaire"
 description: "Listes de vocabulaire regroupant mots composés et expressions courantes difficile à apprendre autrement que par la pratique."
-excerpt: "MEMOLINGUO vous propose des listes de vocabulaire regroupant des mots composés et expressions courantes difficile à apprendre autrement que par la pratique. Passez à la vitesse supérieure!"
+excerpt: "MEMOLINGUO vous propose des listes de vocabulaire contenant des mots
+composés, expressions et du vocabulaire soutenu relativement courant mais
+difficile à apprendre autrement que par la pratique. De quoi combler rapidement
+vos petites lacunes!"
 keywords: ["cours de langue", "liste de vocabulaire", "listes de vocabulaire",
 "vocabulaire français", "vocabulaire francais", "cours de français",
 "french vocabulary", "french courses",

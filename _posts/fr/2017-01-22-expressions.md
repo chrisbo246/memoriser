@@ -32,7 +32,7 @@ c'est la Bérézina
 *Ex: Un livre publié à titre posthume.*
 
 à huis clos
-: Accès fermé au public.
+: Interdit au public.
 
 entrer en lice
-: S'engager dans une compétition.
+: S'engager en compétition.

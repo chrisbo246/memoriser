@@ -28,7 +28,7 @@ Cool!
 
 Putain!
 : Блядь!
-*Blate!*
+*Bliate!*
 
 Mince!
 : Bline!
