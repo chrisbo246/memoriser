@@ -25,20 +25,20 @@ blanchiment d'argent
 DAB (distributeur automatique de billets)
 : ATM (automated teller machine)
 
-pourboir
+pourboire
 : pa tip
 
 
 ## Fêtes
 
 oeuf de pâques
-: easter egg
+: Easter egg
 
-noël
-: christmas
+Noël
+: Christmas
 
-chandeleur
-: candlemas
+Chandeleur
+: Candlemas
 
 action de grâces
 : thanksgiving
@@ -49,7 +49,7 @@ action de grâces
 Coup d’œil
 : Peek, Glance
 
-apperçu
+aperçu
 : sneak peek
 
 bras de fer
@@ -93,7 +93,7 @@ boutique de bonbons (lieu de vente de drogue)
 : candy shop
 
 
-## Batiments
+## Bâtiments
 
 abrit
 : shelter

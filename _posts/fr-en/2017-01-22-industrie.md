@@ -80,16 +80,16 @@ meule
 ## Machines d'usinage
 
 commande numérique
-: cnc
+: CNC
 
-electro-érosion par enfonçage
-: sinker edm (die-sink edm machine)
+electro-erosion par enfonçage
+: sinker EDM (die-sink EDM machine)
 
-electro-érosion par fil
-: wire edm (wire-cut edm machine)
+electro-erosion par fil
+: wire EDM (wire-cut EDM machine)
 
 fraiseuse à commande numérique
-: cnc milling machine
+: CNC milling machine
 
 fraiseuse
 : mill, milling machine
@@ -113,7 +113,7 @@ carter
 : box
 
 mandrin
-: mandrel, mandril
+: mandrel, mandrel
 
 manivelle
 : crank

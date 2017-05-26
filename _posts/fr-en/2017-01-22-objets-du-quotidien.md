@@ -11,7 +11,7 @@ tags: [objets]
 date: 2017-01-01 20:20:20 +0100
 ---
 
-## Ustensils de cuisine
+## Ustensiles de cuisine
 
 cocotte-minute
 : pressure cooker
@@ -19,7 +19,7 @@ cocotte-minute
 
 ## Electroménager
 
-electroménager
+électroménager
 : home appliance
 
 sèche linge

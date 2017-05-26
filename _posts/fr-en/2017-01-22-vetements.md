@@ -1,5 +1,5 @@
 ---
-title: "Vocabulaire Anglais: Vetements"
+title: "Vocabulaire Anglais: Vêtements"
 description: "Liste de vocabulaire Anglais courant aux vêtements."
 excerpt: "Liste de vocabulaire Anglais courant relatif aux vêtements."
 image:
@@ -11,7 +11,7 @@ tags: [objets]
 date: 2017-01-01 20:20:20 +0100
 ---
 
-## Couvre-chefs<br>Headwear
+## Couvre-chefs
 
 cagoule
 : balaclava
@@ -50,7 +50,7 @@ hood
 : capuche
 
 
-## Haut<br>Top
+## Haut
 
 chemise
 : shirt
@@ -80,7 +80,7 @@ polo
 : polo
 
 
-## Vestes<br>Jacket
+## Vestes
 
 gilet
 : waistcoat
@@ -116,7 +116,7 @@ duffle coat (veste longue en feutre)
 : duffle coat
 
 
-## Pantalons<br>Pants
+## Pantalons
 
 pantalon
 : trousers
@@ -141,7 +141,7 @@ robe se soirée, robe longue
 : gown
 
 
-## Collants<br>Legwear
+## Collants
 
 collants de compression (collants de sport lycra)
 : compression-tights
@@ -162,7 +162,7 @@ guêtres
 : gaiters
 
 
-## Sous-vêtements<br>Underwear
+## Sous-vêtements
 
 caleçon
 : underpants
@@ -177,7 +177,7 @@ soutien-gorge
 : bra
 
 
-## Gants<br>Handwear
+## Gants
 
 gants
 : gloves
@@ -189,7 +189,7 @@ moufles
 : mitt, mittens
 
 
-## Chaussures<br>Footwear
+## Chaussures
 
 bottes
 : boots
@@ -210,7 +210,7 @@ chaussons, pantoufles
 : slippers
 
 
-## Ensembles<br>Suit
+## Ensembles
 
 costume cravate
 : suit and tie
@@ -225,7 +225,7 @@ peignoir
 : bathrobe
 
 
-## Vêtements de travail<br>Work clothes
+## Vêtements de travail
 
 blouse
 : blouse

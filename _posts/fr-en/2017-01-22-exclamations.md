@@ -125,7 +125,7 @@ Bravo!, Bien joué!
 : Bravo!, Well done!
 
 Félicitation mon gars / mon frère / ma fille!
-: Attaboy! Attabro! Attagirl! Attababy!
+: Atta boy! Atta bro! Atta girl! Atta baby!
 
 Tu m'impressionne!
 : You blow me away!

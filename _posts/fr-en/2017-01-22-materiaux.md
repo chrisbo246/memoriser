@@ -34,7 +34,7 @@ aluminium
 cuivre
 : copper
 
-etaim
+étain
 : tin, pewter
 
 fer
@@ -91,7 +91,7 @@ béton armé
 ciment
 : cement
 
-platre
+plâtre
 : plaster
 
 

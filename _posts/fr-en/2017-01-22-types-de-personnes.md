@@ -44,7 +44,7 @@ ainé
 cadet
 : cadet
 
-personnes agées
+personnes âgées
 : elderly people
 
 
@@ -95,8 +95,8 @@ détenu
 condamné à mort
 : death row inmate
 
-vendeur de bomboms (revendeur de drogue)
-: candyman
+vendeur de bombons (revendeur de drogue)
+: candy man
 
 métisse
 : mixed

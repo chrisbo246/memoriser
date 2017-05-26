@@ -67,7 +67,7 @@ monétariste
 *Années 60 à aujourd’hui.*
 
 interventionniste
-: L'état doit controler la finance.
+: L'état doit contrôler la finance.
 
 Keynésianiste (interventionniste)
 *[John Maynard Keynes](https://fr.wikipedia.org/wiki/John_Maynard_Keynes), début XX.*
@@ -88,7 +88,7 @@ sioniste
 sunnite
 : Courant de l'islam considérant les quatre premiers <a href="http://www.larousse.fr/dictionnaires/francais/calife/12347">califes</a> comme les successeurs du Prophète et se présente comme le continuateur de leur action.
 
-takfîriste
+takfirist
 : Islamiste extrémiste punissant les mécréants de mort. Kafir = mécréant, Takfir = Fatwa de déchéance du statut de musulman.
 
 

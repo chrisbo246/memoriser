@@ -1,13 +1,13 @@
 ---
-title: "Vocabulaire Français: Expressions érronées"
-description: "Liste d'expressions souvant mal utilisées ou mal orthographiées."
-excerpt: "Liste d'expressions souvant mal utilisées ou mal orthographiées."
+title: "Vocabulaire Français: Expressions erronées"
+description: "Liste d'expressions souvent mal utilisées ou mal orthographiées."
+excerpt: "Liste d'expressions souvent mal utilisées ou mal orthographiées."
 image:
   path: assets/images/posts/expression.jpg
   type: "ImageObject"
   width: 640
   height: 360
-tags: ["expression", "expressions", "francais", "français", "expressions françaises"]
+tags: ["expression", "expressions", "français", "expressions françaises"]
 date: 2017-03-22 17:13:00 +0100
 ---
 Depuis votre tendre enfance, vous avez probablement appris via le bouche à oreille un tas d'expressions courantes que vous êtes persuadé de maîtriser. hélas, vous passez probablement pour un idiot à chaque fois que vous les utilisés. Voici un petit recensement des expressions fréquemment mal utilisées ou mal orthographiées.

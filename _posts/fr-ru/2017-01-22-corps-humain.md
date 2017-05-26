@@ -12,7 +12,7 @@ date: 2017-01-01 20:20:20 +0100
 ## Les parties du corps
 
 corps
-: те́ло
+: тело
 *téla*
 
 tête
@@ -147,7 +147,7 @@ dent
 *zoupe*
 
 dents
-: зу́бы
+: зубы
 *zouby*
 
 
@@ -158,7 +158,7 @@ cheveu, poil
 *vôlas*
 
 cheveux, poils
-: во́лосы
+: волосы
 *vôlasy*
 
 sourcil(s)
@@ -186,7 +186,7 @@ moustache
 ## Cou
 
 cou
-: ше́я
+: шея
 *cheya*
 
 nuque
@@ -210,7 +210,7 @@ bras
 *plitcho*
 
 épaules
-: пле́чи
+: плечи
 *pletchi*
 
 aisselle
@@ -233,15 +233,15 @@ main
 *rouca*
 
 mains
-: ру́ки
+: руки
 *rouqui*
 
 doigt/orteil
-: па́лец
+: палец
 *palétse*
 
 doigts/orteils
-: па́льцы
+: пальцы
 *paltsy*
 
 pouce
@@ -272,7 +272,7 @@ ongle
 ## Jambe
 
 jambe(s)
-: нога́, но́ги
+: нога́, ноги
 *naga, nogi*
 
 cuisse(s)
@@ -333,7 +333,7 @@ bassin
 ## Organes
 
 organe
-: о́рган
+: орган
 *organne*
 
 cerveau
@@ -486,5 +486,5 @@ crotte de nez
 morve
 : -
 
-crotte d'oeil
+crotte d'œil
 : -

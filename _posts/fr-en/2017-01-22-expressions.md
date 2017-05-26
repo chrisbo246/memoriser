@@ -20,7 +20,7 @@ avant toute chose
 : first of all
 
 a première vue
-: at first grance
+: at first glance
 
 au premier abord
 : at first
@@ -80,7 +80,7 @@ Ce n'est pas moi
 : It's worth a try!
 
 Çà ne fait rien!
-: Nevermind!
+: Never mind!
 
 Comme bon vous semble!
 : As you see fit!
@@ -151,7 +151,7 @@ sombre ennui
 a portée de main
 : at hand
 
-etre prêt à
+être prêt à
 : be willing to
 
 se sentir comme à la maison
@@ -163,7 +163,7 @@ de mal en pire
 de pire en pire
 : worse and worse
 
-une éffusion de sang
+une effusion de sang
 : a bloodshed
 
 dans l'ensemble

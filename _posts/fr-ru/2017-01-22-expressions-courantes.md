@@ -13,7 +13,7 @@ date: 2017-01-01 20:20:20 +0100
 
 URSS
 : СССР
-*èsèsèsèr*
+*èssèssèssèr*
 
 Russie
 : Россия
@@ -58,11 +58,11 @@ Je comprends.
 ## Se présenter
 
 Je m'appelle ...
-: Меня зoвýт ...
+: Меня зовут ...
 *minia zavout ... (Ils m'appellent ...)*
 
 Je m’appelle ...
-: Меня зoвýт ...
+: Меня зовут ...
 *...*
 
 ... ans (age)
@@ -81,7 +81,7 @@ J'habite en France.
 *Ya jouyvou oa frAntsii.*
 
 J'habite Moscou.
-: Живу в Москвé.
+: Живу в Москве.
 *jivou v moskve.*
 
 Et moi, j'habite à Kiev.
@@ -93,7 +93,7 @@ Je [suis] journaliste.
 *...*
 
 Je [suis] acteur.
-: Я актëр.
+: Я актёр.
 *...*
 
 
@@ -104,7 +104,7 @@ Qu’est ce que c’est?
 *Chto eta?*
 
 Puis-je?
-: Mожно?
+: Можно?
 *Mojno?*
 
 Qui est le dernier? (de la queue)
@@ -116,7 +116,7 @@ Où sont les toilettes?
 *Gdié toualette?*
 
 Est-ce qu’il faut enlever ses chaussures?
-: cнимать обувь надо?
+: снимать обувь надо?
 *Snimat obouv nado?*
 
 
@@ -130,16 +130,16 @@ Super!
 : Отлично!
 *Atlitchna!*
 
-С'est vrai!
-: Прáвда!
+C'est vrai!
+: Правда!
 *Pravda!*
 
 Avec plaisir!
-: C удoвóльcтвиeм!
+: C удовольствием!
 *Soudavolstviem!*
 
 Vous (êtes) très aimable!
-: вы очень любéзны!
+: вы очень любезны!
 *Vi otchien lioubiezni!*
 
 Ça va merci.
@@ -154,7 +154,7 @@ Comme c’est intéressant!
 ## Demander des renseignements
 
 Où habitez vous?
-: Где вы живëте?
+: Где вы живёте?
 *Gdie vi jiviotie?*
 
 Où habites tu?
@@ -166,7 +166,7 @@ Où travaillez vous?
 *...*
 
 Salut, quel âge as-tu?
-: Привет, сколько тебe лeт?
+: Привет, сколько тебе лет?
 *Privet, Skol'ka tibie liet?*
 
 Quel âge avez-vous?
@@ -244,11 +244,11 @@ nom (de famille)
 *familya*
 
 Faisons connaissance!
-: Дaвáйтe пoзнaкóмимcя!
+: Давайте познакомимся!
 *Davaitié poznakomimsia!*
 
 Quel joli prénom!
-: Какóе красивое имя!
+: Какое красивое имя!
 *Kakoie krassivae imia!*
 
 Voici mon ami John.

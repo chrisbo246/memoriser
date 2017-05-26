@@ -96,7 +96,7 @@ omerta
 népotisme
 : Piston, favoritisme à l'égard des proches.
 
-prosélitisme
+prosélytisme
 : Recruter des adeptes, tenter d'imposer ses idées.
 
 mercato

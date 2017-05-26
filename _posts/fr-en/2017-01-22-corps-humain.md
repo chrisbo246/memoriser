@@ -48,7 +48,7 @@ narine(s)
 nez
 : nose
 
-oeil / yeux
+œil / yeux
 : eye(s)
 
 paupière
@@ -82,7 +82,7 @@ gorge
 : throat
 
 pomme d’Adam
-: adam’s apple
+: Adam's apple
 
 
 ## Tronc
@@ -97,7 +97,7 @@ poitrine (seins)
 : breast
 
 nichons
-: boops
+: boobs
 
 téton(s), mamelon(s)
 : nipple(s)
@@ -144,7 +144,7 @@ vagin
 bras
 : arm
 
-epaule
+épaule
 : shoulder
 
 aisselle
@@ -264,7 +264,7 @@ bassin
 cerveau
 : brain
 
-coeur
+cœur
 : heart
 
 foie
@@ -313,7 +313,7 @@ un bleu
 : a bruise
 
 un suçon
-: a hikey
+: a hickey
 
 bouton
 : -
@@ -351,5 +351,5 @@ crotte de nez
 morve
 : glanders, snot
 
-crotte d'oeil
+crotte d'œil
 : eye drops

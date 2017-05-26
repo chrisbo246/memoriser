@@ -51,7 +51,7 @@ ail
 
 ## Ingrédients
 
-jaune d'oeuf
+jaune d'œuf
 : egg yolk
 
 blanc d'œuf
@@ -91,7 +91,7 @@ poivre
 : pepper
 
 piment
-: chilli pepper
+: chili pepper
 
 laurier
 : bay leaf
@@ -129,7 +129,7 @@ barbe à papa
 sucette
 : lollipop
 
-caramelle mou
+caramel mou
 : taffy
 
 
@@ -156,7 +156,7 @@ cuit
 moulu
 : ground
 
-gaté, gâché
+gâté, gâché
 : spoiled
 
 périmé

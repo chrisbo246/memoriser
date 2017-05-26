@@ -10,10 +10,10 @@ composés, expressions et du vocabulaire soutenu relativement courant mais
 difficile à apprendre autrement que par la pratique. De quoi combler rapidement
 vos petites lacunes!"
 keywords: ["cours de langue", "liste de vocabulaire", "listes de vocabulaire",
-"vocabulaire français", "vocabulaire francais", "cours de français",
+"vocabulaire français", "vocabulaire Français", "cours de français",
 "french vocabulary", "french courses",
-"vocabulaire anglais", "cours d'anglais", "vocabulaire francais-anglais",
-"vocabulaire russe", "cours de russe", "vocabulaire francais-russe"
+"vocabulaire anglais", "cours d'anglais", "vocabulaire Français-Anglais",
+"vocabulaire russe", "cours de russe", "vocabulaire Français-Russe"
 ]
 image: "assets/images/logos/android-chrome-512x512.png"
 weight: 9999

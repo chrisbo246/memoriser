@@ -34,7 +34,7 @@ Enchanté.
 
 ## Saluer
 
-Bonjour! (jusqu’a 12h)
+Bonjour! (jusqu’à 12h)
 : Good morning!
 
 Bonjour! (de 12h a 18h)
@@ -186,13 +186,13 @@ Je ne peu te remercier assez.
 je ne te remercierai jamais assez.
 : I will never thank you enough.
 
-Je ne serais jamais capable de te remercier suffisement.
+Je ne serais jamais capable de te remercier suffisamment.
 : I won’t ever be able to thank you enough.
 
 Je ne sais pas comment te remercier.
 : I don’t know how to thank you.
 
-je vous suis extremêment reconnaissant de votre aide.
+je vous suis extrêmement reconnaissant de votre aide.
 : I am extremely grateful for your help.
 
 -
@@ -223,7 +223,7 @@ Désolé pour le dérangement.
 : Sorry for the trouble.
 
 
-## Appaiser
+## Apaiser
 
 Je ne veux pas vous déranger.
 : I do not want to bother you.

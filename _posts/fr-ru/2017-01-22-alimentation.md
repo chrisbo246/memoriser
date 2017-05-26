@@ -76,7 +76,7 @@ bière
 *piva*
 
 vodka
-: Водкa
+: Водка
 *vodka*
 
 vin
@@ -99,7 +99,7 @@ orange
 *apielsin*
 
 poire
-: грyша
+: груша
 *groucha*
 
 pomme
@@ -118,5 +118,5 @@ courgettes
 *kabatchki*
 
 tomate
-: пoмидор
+: помидор
 *pomidor*

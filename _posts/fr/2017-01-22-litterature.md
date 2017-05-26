@@ -25,7 +25,7 @@ apocryphe
 : Lettre, correspondance.
 
 
-## Références litéraires
+## Références littéraires
 
 coquecigrue
 : Absurdité.
@@ -50,10 +50,10 @@ personnification
 : Représentation d'une chose sous les traits d'une personne.
 
 
-## Exageration
+## Exagération
 
 hyperbole
-: Exagèration d'une idée pour la mettre en relief.
+: Exagération d'une idée pour la mettre en relief.
 
 gradation
 : Dramatiser en ordonnant les termes selon une progression croissante.

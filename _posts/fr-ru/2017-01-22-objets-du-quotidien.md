@@ -26,7 +26,7 @@ chambre
 *comnata*
 
 couloir
-: кoридop
+: коридор
 *coridor*
 
 cuisine
@@ -49,7 +49,7 @@ escalier
 *liestnitsa*
 
 fenêtre
-: oкнo
+: окно
 *akno*
 
 mur
@@ -57,7 +57,7 @@ mur
 *stina*
 
 porte
-: двepь
+: дверь
 *dvier*
 
 sol
@@ -87,19 +87,19 @@ table
 ## Appareils electroménager et électronique
 
 appareil photo
-: фотоаппарт
+: фотоаппарат
 *fotoappart*
 
 frigo
 : холодильник
-*khaladielniek*
+*haladielniek*
 
 téléphone
 : телефон
 *telephone*
 
 téléviseur
-: телевиэор
+: телевизор
 *televizor*
 
 ## Couverts et ustensils
@@ -120,7 +120,7 @@ tasse
 : чашка
 *tchаchka*
 
-theiere
+théière
 : чайник
 *tchаinik*
 
@@ -132,9 +132,9 @@ verre
 ## Divers
 
 jardin
-: caд
+: сад
 *sat*
 
 maison
-: дoм
+: дом
 *dom*
