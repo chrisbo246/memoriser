@@ -17,8 +17,21 @@ socialisme
 *Suppression de la propriété privée, des moyens de production et d'échange.*
 
 communisme
-: Mise en commun les biens matériels.
+: Mise en commun des moyens de production, suppression des classes sociales.
 *Répartition suivant les besoins, suppression des classes sociales et de l'état.*
+
+trotskisme
+: Révolution mondiale et permanente.
+
+fascisme
+: Autorité arbitraire, dictatoriale et violente.
+
+conservatiste
+: Ne rien changer.
+
+bonapartisme
+: État à exécutif fort et centralisé, consultation régulière du peuple.
+
 
 ## Courants de pensée économiques
 

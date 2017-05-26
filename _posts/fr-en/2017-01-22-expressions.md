@@ -70,6 +70,9 @@ Es-tu en train de te moquer de moi?
 
 ## Réponses
 
+Ce n'est pas moi
+: It ain't me
+
 Ça me/te regarde!
 : That's my/your!
 
@@ -223,6 +226,9 @@ en cours de route
 
 ## Remarque, étonnement
 
+Cela prend un temps fou
+: This is taking forever
+
 Ça vaut son pesant d'or
 : it's worth its weight in gold
 
@@ -230,7 +236,7 @@ en cours de route
 : worth it
 
 Çà ne vaut pas le coup
-: it's not worth the effort
+: It's not worth the effort
 
 C'est à couper le souffle!
 : It's breathtaking!

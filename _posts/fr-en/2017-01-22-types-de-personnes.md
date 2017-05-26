@@ -107,6 +107,9 @@ métisse
 L’homme idéal
 : Mr right
 
+somnambule
+: sleepwalker
+
 Quelqu’un (d’important, l’élite)
 : A few
 
@@ -127,3 +130,6 @@ le petit chaperon rouge
 
 bonhomme de neige
 : snowman
+
+épouvantail
+: scarecrow

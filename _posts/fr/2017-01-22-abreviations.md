@@ -69,15 +69,15 @@ a.k.a.
 
 ASAP
 : as soon as possible
-*Aussi vite que possible*.*
+*Aussi vite que possible.*
 
 KO
 : knock out
-*Frappé à perdre conscience*.*
+*Frappé à perdre conscience.*
 
 OK
 : 0 killed
-*Aucun mort*, tout va bien.*
+*Aucun mort, tout va bien.*
 
 SOS
 : save our souls

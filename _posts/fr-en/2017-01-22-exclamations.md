@@ -198,3 +198,6 @@ Calme toi!
 
 Relax!
 : Take it easy!
+
+On se détend!
+: Chill out!

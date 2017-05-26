@@ -19,9 +19,17 @@ dateModified: 2017-01-01 20:20:20 +0100
 efficience
 : Efficacité.
 
+probité
+: Qui respecte scrupuleusement les règles.
 
 
 ## Reproche
+
+dogmatisme
+: Rejette catégoriquement le doute et la critique.
+
+hubris
+: Démesure, orgueil devant appeler la vengeance des dieux.
 
 vacuité
 : Sans valeur.
@@ -32,10 +40,6 @@ vacuité
 agapes
 : Festin entre amis.
 
-arcane
-: Secret.
-*Ex: les arcanes du pouvoir.*
-
 conjecture
 : Hypothèse.
 
@@ -45,12 +49,17 @@ billevesée
 pis aller
 : Choisi faute de mieux.
 
+jubilé
+: Cinquantième année de règne. Anniversaire important du mariage (noces d'argent, noces d'or).
 
 
 ## Mouvements, orientations
 
 célérité
 : Rapidité.
+
+diaspora
+: Dispersion d'un peuple à travers le monde.
 
 résurgence
 : Réapparition.
