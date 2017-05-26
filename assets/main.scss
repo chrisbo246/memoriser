@@ -118,6 +118,14 @@ dl.d-flex {
 
 
 // Cookieconsent
+
 .cc-window.cc-theme-block {
     box-shadow: 0 0 60px 30px $body-bg;
+}
+
+
+// Card image
+
+.img-fluid {
+   min-width: 100%;
 }
