@@ -36,8 +36,8 @@ Mince!
 
 Va te faire foutre!
 : Иди на хуй!
-*Idi na rouil!*
+*Idi na houil!*
 
 Tu vas crever!
-: пизда*
-Ty bé pisda!*
+: пизда
+*Ty bié pisda!*

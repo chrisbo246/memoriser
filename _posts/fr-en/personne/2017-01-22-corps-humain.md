@@ -1,5 +1,5 @@
 ---
-title: "Vocabulaire Anglais: Le corps humain"
+title: "Vocabulaire Anglais: Corps humain"
 description: "Liste de vocabulaire Anglais courant relatif au corps humain."
 excerpt: "Liste de vocabulaire Anglais courant relatif au corps humain."
 image:
@@ -7,9 +7,12 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [individus]
+tags: [
+personne
+]
 date: 2017-03-28 20:51:00 +0100
 ---
+
 ## Membres
 
 membre(s)
@@ -332,24 +335,3 @@ vergeture(s)
 
 bourrelet(s)
 : bead(s)
-
-
-## Sécrétions corporelles
-
-crotte
-: poop
-
-pipi
-: pee
-
-caca
-: pooh
-
-crotte de nez
-: bogey
-
-morve
-: glanders, snot
-
-crotte d'œil
-: eye drops

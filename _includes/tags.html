@@ -1,0 +1,20 @@
+{% if include.tags %}
+    {% assign tags = include.tags %}
+{% else %}
+    {% assign tags = page.tags %}
+{% endif %}
+
+{% if tags %}
+{% assign tags = tags | uniq %}
+<ul class="list-inline">
+  <li class="list-inline-item text-muted">
+    {{ t.tags }}:
+  </li>
+  {% for tag in tags %}
+  <li class="list-inline-item">
+    <span class="badge badge-default">{{ t.tags[tag] | default: tag }}</span>
+    {% comment %}<a href="{{ tag | slugify | prepend: '/tags.html#' | relative_url }}" class="-badge -badge-default">{{ t.tags[tag] | default: tag }}</a>{% endcomment %}
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}

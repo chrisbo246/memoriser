@@ -1,5 +1,5 @@
 ---
-title: "Vocabulaire Anglais: Les objets du quotidien"
+title: "Vocabulaire Anglais: Objets du quotidien"
 description: "Liste de vocabulaire Anglais courant relatif aux objets du quotidien."
 excerpt: "Liste de vocabulaire Anglais courant relatif aux objets du quotidien."
 image:
@@ -7,7 +7,10 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [objets]
+tags: [
+objet, ménage,
+électroménager
+]
 date: 2017-01-01 20:20:20 +0100
 ---
 
@@ -22,5 +25,14 @@ cocotte-minute
 électroménager
 : home appliance
 
-sèche linge
-: tumble drier
+sèche-linge
+: tumble dryer
+
+
+## Faire la lessive
+
+séchage à l'air libre
+: line dry
+
+séchage en machine
+: tumble dry

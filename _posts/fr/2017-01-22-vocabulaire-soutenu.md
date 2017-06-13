@@ -20,7 +20,7 @@ efficience
 : Efficacité.
 
 probité
-: Qui respecte scrupuleusement les règles.
+: Respectant scrupuleusement les règles.
 
 
 ## Reproche

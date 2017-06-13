@@ -8,6 +8,7 @@ image:
   width: 640
   height: 360
 tags: [
+base,
 "phrases", "politesse", "Formules de politesse en Anglais", "politesse anglais",
 "bonjour en anglais", "au revoir en anglais", "merci anglais",
 "politeness in French", "hello in french", "good bye in french", "introduce in french"
@@ -212,6 +213,9 @@ Bien merci.
 
 Très bien merci.
 : Very well thank you.
+
+chacun ses goûts
+:	each his own
 
 
 ## S'excuser

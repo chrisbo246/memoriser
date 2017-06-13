@@ -44,6 +44,10 @@ layout: default
                     <a class="btn btn-outline-secondary btn-sm" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button"><span class="fa fa-pencil-square-o"></span>{{ t.edit_on_github }}</a>
                 </div>
 
+                <footer class="post-footer">
+                  {% include tags.html %}
+                </div>
+
                 {% if site.disqus.shortname %}
                 {% include disqus_comments.html %}
                 {% endif %}

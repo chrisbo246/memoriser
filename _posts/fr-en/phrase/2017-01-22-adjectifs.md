@@ -7,7 +7,9 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [base]
+tags: [
+base
+]
 date: 2017-03-28 20:51:00 +0100
 ---
 
@@ -38,7 +40,6 @@ sombre, lugubre
 : gloomy
 
 
-
 ## Sensation au touché
 
 qui démange
@@ -49,6 +50,21 @@ rêche
 
 lisse
 : smooth
+
+
+## Goûts
+
+doux
+: sweet
+
+amère
+: bitter
+
+acide
+: sour
+
+délicieux
+: yummy
 
 
 ## Pour décrire un objet
@@ -62,8 +78,6 @@ volumineux
 voyant
 : showy
 
-## A propos de l'environnement
-
 luxuriant
 : lush
 
@@ -72,6 +86,27 @@ luxuriant
 
 de front, frontale
 : head-on
+
+
+## Aliments
+
+cuit
+: cooked
+
+moulu
+: ground
+
+gâté, gâché
+: spoiled
+
+périmé
+: out-of-date
+
+faisandé
+: gamy
+
+pourri
+: rotten
 
 
 ## Divers

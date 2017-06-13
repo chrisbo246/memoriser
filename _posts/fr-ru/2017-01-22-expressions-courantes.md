@@ -21,30 +21,30 @@ Russie
 
 Russe (de Russie)
 : русский
-*Rousski*
+*Roussky*
 
 Françe
 : Франция
-*Frantsii*
+*Frantsya*
 
 Français(e)
 : Французский
-*Frantsuzskiy*
+*Frantsuzsky*
 
 
 ## Les phrases de secours
 
 Je ne comprends pas.
 : Не понимаю.
-*Nie ponimay.*
+*Nié ponimaye.*
 
 Je ne parle pas Russe.
 : Я не говорю по-русски.
-*Ya ne gvoryu po-russki.*
+*Ya nié gvoryu pa-rousski.*
 
 Excusez moi, est ce que vous comprenez l'anglais?
 : Извините, Вы понимаете по-английски?
-*Isvinitie, vy panimiétié pa anglisky?*
+*Isvinitié, vy panimiétié pa anglisky?*
 
 Et je parle un peu Russe.
 : И я немного говорю по-русски.
@@ -52,25 +52,21 @@ Et je parle un peu Russe.
 
 Je comprends.
 : Я понимаю.
-*YA ponimay.*
+*Ya ponimay.*
 
 
 ## Se présenter
 
-Je m'appelle ...
+Je m'appelle ... (Ils m'appellent ...)
 : Меня зовут ...
-*minia zavout ... (Ils m'appellent ...)*
-
-Je m’appelle ...
-: Меня зовут ...
-*...*
+*Minia zavout ...*
 
 ... ans (age)
 : ... lyét / got (si terminé par 1) / gOda (si terminé par 2 3 4, sauf 12 13 14)
 
 J'ai vingt sept ans.
 : Мне двадцать семь лет.
-*mnyé dvAtsat syém lyét.*
+*Mnyé dvatsat syém lyét.*
 
 Je suis français(e).
 : Я французский.
@@ -78,7 +74,7 @@ Je suis français(e).
 
 J'habite en France.
 : Живу в Франции.
-*Ya jouyvou oa frAntsii.*
+*Ya jouyvou oa frantsii.*
 
 J'habite Moscou.
 : Живу в Москве.
@@ -109,7 +105,7 @@ Puis-je?
 
 Qui est le dernier? (de la queue)
 : Kто Последний?
-*Kto pasledniy?*
+*Kto pasliédniy?*
 
 Où sont les toilettes?
 : Где туалет?
@@ -124,7 +120,7 @@ Est-ce qu’il faut enlever ses chaussures?
 
 Bien!
 : Хорошо!
-*Khorosho!*
+*Horosho!*
 
 Super!
 : Отлично!
@@ -155,15 +151,15 @@ Comme c’est intéressant!
 
 Où habitez vous?
 : Где вы живёте?
-*Gdie vi jiviotie?*
+*Gdié vi jiviotié?*
 
 Où habites tu?
 : Где ты живешь?
-*Gdie ty jiviech'?*
+*Gdié ty jiviech'?*
 
 Où travaillez vous?
 : Где работаете?
-*...*
+*Gdié rabotayetié?*
 
 Salut, quel âge as-tu?
 : Привет, сколько тебе лет?
@@ -175,15 +171,15 @@ Quel âge avez-vous?
 
 Salut, qui es tu?
 : Привет, ты (Вы) кто?
-*Privet, ty (Vy) kto?*
+*Priviet, ty (Vy) kto?*
 
-Salut! Comment vous appelez-vous? Quel est votre nom?
+Bonjour! Comment vous appelez-vous?
 : Здравствуйте! Как Вас зовут?
-*Zdravstvujte! Kak Vas zavout?*
+*Zdravstvouytié! Kak Vas zavout?*
 
-Salut! Comment t'appelles-tu? Quel est ton nom?
+Salut! Comment t'appelles-tu?
 : Привет! Как тебя зовут?
-*Privet! Kak tebia zavout?*
+*Priviet! Kak tebya zavout?*
 
 Votre prénom, s'il vous plaît?
 : Ваша(твоя) имя, пожалуйста?
@@ -199,11 +195,11 @@ Vous êtes monsieur Bond?
 
 Et vous?
 : А вы?
-*-*
+*A vy?*
 
 Quelle est ta couleur préférée?
 : Какой ваш любимый цвет?
-*Kakoy bacha lioubim'y tsvet?*
+*Kakoy bacha lioubimiy tsviet?*
 
 
 ## Au restaurant

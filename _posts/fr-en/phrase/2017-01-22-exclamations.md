@@ -8,7 +8,7 @@ image:
   width: 640
   height: 360
 tags: [
-"expressions",
+base, expressions,
 "exclamations courantes en anglais", "exclamations courantes anglais",
 "onomatopées en anglais", "onomatopées anglaises",
 "common french exclamations", "french common exclamations",

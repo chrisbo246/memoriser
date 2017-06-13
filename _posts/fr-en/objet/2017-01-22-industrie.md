@@ -1,5 +1,5 @@
 ---
-title: "Vocabulaire Anglais: L'industrie"
+title: "Vocabulaire Anglais: Industrie"
 description: "Liste de vocabulaire Anglais courant relatif à l'industrie."
 excerpt: "Liste de vocabulaire Anglais courant relatif à l'industrie."
 image:
@@ -7,7 +7,9 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [travail]
+tags: [
+objet, travail, machine
+]
 date: 2017-01-01 20:20:20 +0100
 ---
 
@@ -19,8 +21,8 @@ calibre
 jauge de profondeur
 : depth gauge
 
-machine à mesurer tridimensionnelle (mmt)
-: coordinate measuring machine (cmm)
+machine à mesurer tridimensionnelle (MMT)
+: coordinate measuring machine (CMM)
 
 micromètre
 : micrometer
@@ -156,18 +158,3 @@ outil de découpe
 
 poinçon
 : punch
-
-
-## Adjectifs
-
-anodisé
-: anodized
-
-moleté
-: knurled
-
-
-## Divers
-
-usine
-: factory, plant

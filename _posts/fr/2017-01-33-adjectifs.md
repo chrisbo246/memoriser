@@ -31,7 +31,7 @@ extatique
 
 onirique
 : Inspiré par un rêve.
-*Ex: un récit onirique*
+*Ex: un récit onirique.*
 
 trivial
 : Vulgaire, évident.

@@ -8,8 +8,8 @@ image:
   width: 640
   height: 360
 tags: [
-"vocabulaire anglais", "french vocabulary",
-"individus", "individus en anglais", "personnes en anglais", "famille en anglais",
+personne,
+"individus en anglais", "personnes en anglais", "famille en anglais",
 "person in french", "family in french"
 ]
 date: 2017-03-28 20:51:00 +0100
@@ -66,7 +66,7 @@ gars
 : guy
 
 
-## Mauvaises personnes
+## Vagabonds
 
 clochard (bon à rien)
 : bum
@@ -77,7 +77,7 @@ sans domicile
 vagabond (clochard)
 : tramp
 
-vagabond (voyageur permanent)
+vagabond (errant)
 : wanderer
 
 clochard
@@ -86,29 +86,11 @@ clochard
 mendiant
 : beggar
 
-voyou
-: thug
 
-détenu
-: inmate
-
-condamné à mort
-: death row inmate
-
-vendeur de bombons (revendeur de drogue)
-: candy man
-
-métisse
-: mixed
-
-
-## Personne (expression)
+## Expressions
 
 L’homme idéal
 : Mr right
-
-somnambule
-: sleepwalker
 
 Quelqu’un (d’important, l’élite)
 : A few
@@ -118,9 +100,6 @@ faiseur de miracles
 
 ange déchu
 : fallen angel
-
-personne potentiellement impliquée
-: person of interest
 
 
 ## Personnages de fiction

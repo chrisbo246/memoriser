@@ -9,21 +9,27 @@ image:
   height: 360
 tags: [
 "matériaux en anglais", "matières en anglais", "métaux en anglais",
-"materials in french", "materials in french", "metals in french",
+"materials in french", "materials in french", "metals in french"
 ]
 date: 2017-03-22 18:08:00 +0100
 ---
 
 ## Matériaux naturels
 
-terre, argile
-: clay
-
 eau douce
 : freshwater
 
 eau salée
 : saltwater
+
+tourbe
+: peat
+
+sève
+: sap
+
+résine
+: resin
 
 
 ## Métaux
@@ -61,11 +67,26 @@ zinc
 
 ## Traitements
 
-acier laminé à froid
-: cold rolled steel
+laminé à froid
+: cold rolled
 
-acier trempé
-: hardened steel
+formé à froid
+: cold-formed
+
+laminé à chaud
+: hot-rolled
+
+embouti
+: pressed
+
+trempé
+: hardened
+
+anodisé
+: anodized
+
+moleté
+: knurled
 
 
 ## Bois
@@ -94,14 +115,27 @@ ciment
 plâtre
 : plaster
 
+tuile
+: tile
+
+
 
 # Sol
+
+terre, argile
+: clay
 
 bitume
 : bitumen
 
 gravier
 : pea gravel
+
+feuilles mortes
+: leaf litter
+
+carrelage
+: floor tile
 
 
 ## Textiles

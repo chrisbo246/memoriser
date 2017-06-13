@@ -13,3 +13,6 @@ date: 2017-01-01 20:20:20 +0100
 
 spin doctor
 : conseiller en communication
+
+think tanks
+: groupes de réflexion

@@ -7,7 +7,9 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [objets]
+tags: [
+objet, vêtement, habillement
+]
 date: 2017-01-01 20:20:20 +0100
 ---
 

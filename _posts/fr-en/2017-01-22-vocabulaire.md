@@ -7,47 +7,13 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-tags: [base]
+tags: [
+
+]
 date: 2017-01-01 20:20:20 +0100
 ---
 
-## Business
-
-entrepreneur, fournisseur
-: contractor
-
-
-## Argent
-
-blanchiment d'argent
-: money laundering
-
-DAB (distributeur automatique de billets)
-: ATM (automated teller machine)
-
-pourboire
-: pa tip
-
-
-## Fêtes
-
-oeuf de pâques
-: Easter egg
-
-Noël
-: Christmas
-
-Chandeleur
-: Candlemas
-
-action de grâces
-: thanksgiving
-
-
 ## Action
-
-Coup d’œil
-: Peek, Glance
 
 aperçu
 : sneak peek
@@ -61,9 +27,6 @@ jouer à cache-cache
 
 ## Situation
 
-effusion de sang
-: bloodshed
-
 revers (échec)
 : setback
 
@@ -74,140 +37,28 @@ la pierre angulaire
 : the cornerstone
 
 
-## Objets
-
-
-porte-bonheur
-: lucky charm
-
-
 ## Lieu
 
 monde inférieur (enfer)
 : netherworld
 
-maison de prostitution, maison close
-: brothel, whorehouse
-
-boutique de bonbons (lieu de vente de drogue)
-: candy shop
-
 
 ## Bâtiments
 
-abrit
+abris
 : shelter
 
 cabanon
 : shed
 
+poulailler
+: chicken coop
 
-## Agressions
-
-kidnappé
-: kidnapped
-
-volé
-: stolen
-
-pillé
-: looted
-
-volé
-: robbed
-
-agressé
-: mugged
-
-violé
-: raped
-
-poignardé
-: stabbed
-
-tué
-: killed
-
-blessé
-: wounded
-
-
-## Mots composés
-
-connaissance de soi
-: self-awareness
-
-séchage à l'air libre
-: line dry
-
-séchage en machine
-: tumble dry
-
-sèche-linge
-: tumble dryer
-
-le mal du pays
-: home sick
-
-anti sèche
-: cheat sheet
-
-
-## Véhicule
-
-quatre roues motrices
-: four-wheel drive
-
-quatre roues directrices
-: four wheel steering
-
-
-## Différents types de tiges
-
-barre, canne
-: rode
-
-perche, poteau
-: pole
-
-piquet
-: peg
-
-tige
-: stem
-
-
-## Texte
-
-adjectif
-: adjective
-
-idiome
-: idiom
-
-expression
-: expression
-
-phrase
-: sentence, phrase
-
-dicton
-: saying
-
-citation
-: quote
-
-verbe
-: verb
+usine
+: factory, plant
 
 
 ## Divers
-
-crise de la quarantaine
-: midlife crisis
-
-... de rechange
-: Spare ...
 
 fossé
 : ditch
@@ -215,14 +66,14 @@ fossé
 gros mots
 : swearwords
 
-bande de voyous
-: wild bunch
-
-couloir de la mort
-: death row
-
 préoccupation
 : concern
 
-humanité
-: mankind
+connaissance de soi
+: self-awareness
+
+anti sèche
+: cheat sheet
+
+à la queue leuleu
+: single file

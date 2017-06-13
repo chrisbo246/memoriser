@@ -14,7 +14,7 @@ date: 2017-01-01 20:20:20 +0100
 
 pain
 : хлеб
-*khlieb*
+*hlieb*
 
 sandwich
 : сэндвич
@@ -32,11 +32,11 @@ viande
 
 fromage
 : сыр
-*syr*
+*sir*
 
 lait
 : молоко
-*moloko*
+*molako*
 
 yaourt
 : йогурт
@@ -58,15 +58,15 @@ bonbon
 
 eau
 : вода
-*voda*
+*vada*
 
 bouteille d’eau
 : бутылка воды
-*boutilka voda*
+*boutilka vodè*
 
 café
 : Кофе
-*kofé*
+*kofiè*
 
 
 ## Alcools
@@ -88,15 +88,15 @@ vin
 
 fruits
 : Фрукты
-*froukti*
+*frouktè*
 
 banane
 : банан
-*banan*
+*banane*
 
 orange
 : апельсин
-*apielsin*
+*apelsine*
 
 poire
 : груша
@@ -104,7 +104,7 @@ poire
 
 pomme
 : яблоко
-*iabloko*
+*yabloka*
 
 
 ## Légumes

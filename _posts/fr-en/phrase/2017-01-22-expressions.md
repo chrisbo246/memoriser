@@ -1,12 +1,15 @@
 ---
 title: "Vocabulaire Anglais: Expressions courantes"
-description: "Liste de vocabulaire Anglais courant regroupant des expressions courantes."
-excerpt: "Liste de vocabulaire Anglais courant regroupant des expressions courantes."
+description: "Liste d'expressions Anglaises courantes."
+excerpt: "Liste d'expressions Anglaises courantes."
 image:
   path: assets/images/posts/expression.jpg
   type: "ImageObject"
   width: 640
   height: 360
+tags: [
+base
+]
 date: 2017-03-28 20:51:00 +0100
 ---
 
@@ -143,6 +146,12 @@ Pour ce que ça vaut
 : For what it's worth
 
 
+## Conseil
+
+ne vous faites pas trop d'illusions
+: don't get your hopes too high
+
+
 ## Situation
 
 sombre ennui
@@ -163,9 +172,6 @@ de mal en pire
 de pire en pire
 : worse and worse
 
-une effusion de sang
-: a bloodshed
-
 dans l'ensemble
 : on the whole
 
@@ -175,32 +181,11 @@ un état d'esprit
 un acte de foi
 : a leap of faith
 
-une vie à la dure (de voyou)
-: a thug life
-
 Il m'a posé un lapin
 : He stood me (to stand someone up)
 
 
-## Ressenti
-
-garder la tête froide
-: keep a cool head
-
-Je suis au pied du mur
-: I cornered
-
-se sentir obligé de
-: feel compelled to
-
-j'ai tourné la page
-: i am getting over you
-
-
 ## Comportement
-
-ne jamais se taire
-: go on and on
 
 bien s'entendre avec
 : get on well with
@@ -247,6 +232,9 @@ c'est la cerise sur le gâteau
 ils font la paire
 : they do the match
 
+semble étrange
+: sound odd
+
 
 ## Dégoût, mépris
 
@@ -254,10 +242,13 @@ ne supporte pas
 : can't stand
 
 
-## Jeu
+## Pari
 
 mettre ma vie en jeu
 : put my life on the line
+
+
+## Compétition
 
 gagner haut la main
 : win hands down
@@ -286,17 +277,11 @@ je n'arrive pas à
 il est intéressant de
 : it's worth
 
-à savoir
-: in the know
-
 Faisons ...
 : Let's ...
 
 il ne faut pas
 : let's not
-
-grâce à
-: thanks to
 
 ce qu'on pourrait appeler
 : what one might call
@@ -309,12 +294,6 @@ pour l'intérêt de
 
 représentent le
 : makes up the
-
-comme
-: as if
-
-à la fois
-: at a time
 
 un homme ou une femme
 : nether a man nor woman
@@ -352,7 +331,7 @@ comme par magie
 cas particulier
 : particular case
 
-cas échéant
+le cas échéant
 : optionally
 
 cas de figure
@@ -361,14 +340,8 @@ cas de figure
 
 ## Expressions idiomatiques
 
-joindre les deux bouts
-: to make ends meet
-
 une belle histoire
 : a feel good story
-
-semble étrange
-: sound odd
 
 cela vaut le coup
 : it's worth
@@ -376,3 +349,12 @@ cela vaut le coup
 né pour ça
 : born ready
 *déjà prêt à la naissance*
+
+
+## Divers
+
+Vous avez le droit de ...
+: You are entitled to ...
+
+... de rechange
+: Spare ...

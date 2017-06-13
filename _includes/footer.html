@@ -13,9 +13,10 @@
 </div>
 
 {% if jekyll.environment == 'production' %}
-    {% include adsense.html %}
-    {% include cookieconsent.html %}
+  {% include adsense.html %}
 {% endif %}
+{% include cookieconsent.html %}
+
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script async src="{{ '/bower_components/cookieconsent/build/cookieconsent.min.js' | relative_url }}"></script>

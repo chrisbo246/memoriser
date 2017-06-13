@@ -12,10 +12,10 @@ date: 2017-03-22 17:13:00 +0100
 ---
 
 de facto
-: De fait, dans les faits.
+: De fait.
 
-dixit
-: Il a dit.
+dixit *[nom]*
+: D'après les dires de ...
 
 erratum
 : Erreur.
@@ -51,7 +51,7 @@ primo occupanti
 : Droit du premier occupant.
 
 qui pro quo
-: confusion.
+: Confusion.
 
 stricto sensu
 : Au sens strict.
