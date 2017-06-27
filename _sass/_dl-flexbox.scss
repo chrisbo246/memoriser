@@ -45,6 +45,10 @@ dl.d-flex {
         //margin: $card-columns-gap;
         //padding: $card-spacer-y $card-spacer-x;
     }
+    //[data-definition-lang] & .card {
+    //    min-width: 8.4rem;
+    //    min-height: 8.4rem;
+    //}
     .card:hover {
         //background: rgba($card-bg,.9);
         box-shadow: 1px 2px 6px rgba($black,.3);

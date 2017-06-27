@@ -127,7 +127,6 @@ Veuillez m'excuser.
 : Can I be excused?
 
 
-
 ## Prendre des nouvelles
 
 Comment çà va?
@@ -214,8 +213,8 @@ Bien merci.
 Très bien merci.
 : Very well thank you.
 
-chacun ses goûts
-:	each his own
+Chacun ses goûts.
+:	Each his own.
 
 
 ## S'excuser

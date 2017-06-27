@@ -59,106 +59,16 @@ Et ainsi de suite.
 : And so on, and so forth.
 
 
-## Questions
-
-Que se passe-t-il?
-: What is going on?
-
-Voulez-vous un coup de main?
-: Want to help out?
-
-Es-tu en train de te moquer de moi?
-: Are you making fun of me?
-
-
-## Réponses
-
-Ce n'est pas moi
-: It ain't me
-
-Ça me/te regarde!
-: That's my/your!
-
-Çà ne coûte rien d'essayer!
-: It's worth a try!
-
-Çà ne fait rien!
-: Never mind!
-
-Comme bon vous semble!
-: As you see fit!
-
-C'est à vous de décider!
-: It's up to you!
-
-C'est le but!
-: That's the point!
-
-C'est suffisant!
-: Fair enough!
-
-Ce n'est pas grand-chose!
-: It's not a big deal!
-
-Ce n'est pas important!
-: It does not matter!
-
-Peu importe!
-: It does not matter!
-
-A charge de revanche!
-: Dependent contrast!
-
-De rien!
-: You are welcome!
-
-Je te donne ma parole!
-: I give you my word!
-
-En effet, effectivement!
-: Indeed!
-
-A votre guise!
-: At you leisure!
-
-Le plaisir était pour moi!
-: The pleasure was all mine!
-
-Ne vous embêtez pas!
-: Don't bother!
-
-C'est une question de goût.
-: It's a matter of taste.
-
-C'est donnant-donnant.
-: It's give and take.
-
-A chacun sa façon de penser.
-: To each his thinking.
-
-Advienne que pourra.
-: Come what may.
-
-Si vous voulez.
-: If you will.
-
-Pour ce que ça vaut
-: For what it's worth
-
-
 ## Conseil
 
-ne vous faites pas trop d'illusions
-: don't get your hopes too high
+Ne vous faites pas trop d'illusions.
+: Don't get your hopes too high.
 
 
 ## Situation
 
 sombre ennui
 : grim looner
-
-a portée de main
-: at hand
 
 être prêt à
 : be willing to
@@ -187,26 +97,8 @@ Il m'a posé un lapin
 
 ## Comportement
 
-bien s'entendre avec
-: get on well with
-
 travailler à ma façon
 : work my way around
-
-
-## Mouvement, déplacement
-
-s'envoler, monter en flèche
-: soar
-
-aller-retour
-: round trip
-
-va-et-vient
-: back and forth
-
-en cours de route
-: down the road
 
 
 ## Remarque, étonnement

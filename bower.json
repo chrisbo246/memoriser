@@ -21,6 +21,6 @@
     "lazysizes": "^3.0.0",
     "cookieconsent": "^3.0.4",
     "font-awesome": "fontawesome#^4.7.0",
-    "prefixfree": "prefix-free#^1.0.10"
+    "prefixfree": "prefix-free#^1.0.10"    
   }
 }

@@ -8,6 +8,9 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
+tags: [
+  alphabet, cyrillique
+]
 weight: 100
 date: 2017-04-01 01:31:00 +0100
 ---

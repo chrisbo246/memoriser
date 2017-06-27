@@ -18,11 +18,11 @@ date: 2017-01-01 20:20:20 +0100
 aperçu
 : sneak peek
 
+
+## jeu
+
 bras de fer
 : arm wrestling
-
-jouer à cache-cache
-: play hide and seek
 
 
 ## Situation
@@ -43,19 +43,13 @@ monde inférieur (enfer)
 : netherworld
 
 
-## Bâtiments
+## Faire la lessive
 
-abris
-: shelter
+séchage à l'air libre
+: line dry
 
-cabanon
-: shed
-
-poulailler
-: chicken coop
-
-usine
-: factory, plant
+séchage en machine
+: tumble dry
 
 
 ## Divers
@@ -69,11 +63,8 @@ gros mots
 préoccupation
 : concern
 
-connaissance de soi
-: self-awareness
-
 anti sèche
 : cheat sheet
 
-à la queue leuleu
-: single file
+immobilier
+: real estate

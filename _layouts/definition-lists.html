@@ -36,7 +36,7 @@ layout: default
                     <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
                 </header>
 
-                <div class="post-content definition-list" style="visibility: hidden;">
+                <div class="post-content definition-list" style="visibility: hidden;" {% if page.definition-lang %}data-definition-lang="{{ page.definition-lang }}"{% endif %}>
                     {{ content }}
                 </div>
 

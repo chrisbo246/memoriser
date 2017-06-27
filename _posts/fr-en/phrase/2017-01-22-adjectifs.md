@@ -39,6 +39,9 @@ sinistre
 sombre, lugubre
 : gloomy
 
+luxuriant
+: lush
+
 
 ## Sensation au touché
 
@@ -78,23 +81,23 @@ volumineux
 voyant
 : showy
 
-luxuriant
-: lush
+
+## Etat d'une personne
+
+fatigué
+: tired
+
+épuisé
+: exhausted
+
+HS
+: out of print, sold out
+
+sain et sauf
+: safe and sound
 
 
-## Position
-
-de front, frontale
-: head-on
-
-
-## Aliments
-
-cuit
-: cooked
-
-moulu
-: ground
+## Etat d'un aliment
 
 gâté, gâché
 : spoiled
@@ -108,11 +111,20 @@ faisandé
 pourri
 : rotten
 
+cuit
+: cooked
 
-## Divers
+moulu
+: ground
 
-coincé
-: stuck up
+
+## Etat d'un objet
+
+tomber en morceaux
+: falling apart
 
 recousu
 : stitched up
+
+fabriqués à la main
+: hand-crafted

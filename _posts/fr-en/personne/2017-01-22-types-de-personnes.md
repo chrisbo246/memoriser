@@ -86,6 +86,9 @@ clochard
 mendiant
 : beggar
 
+pèlerin
+: pilgrim
+
 
 ## Expressions
 

@@ -136,6 +136,7 @@ defaults:
       layout: "definition-lists"
       permalink: /:categories/:title.html
       categories: ["FR-EN"]
+      definition-lang: "en-us"
   -
     scope:
       path: "_posts/fr-ru"
@@ -144,6 +145,7 @@ defaults:
       layout: "definition-lists"
       permalink: /:categories/:title.html
       categories: ["FR-RU"]
+      definition-lang: "ru-ru"
 
 
 

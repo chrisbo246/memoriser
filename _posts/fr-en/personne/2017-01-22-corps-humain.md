@@ -15,14 +15,14 @@ date: 2017-03-28 20:51:00 +0100
 
 ## Membres
 
-membre(s)
-: limb(s)
-
 tête
 : head
 
 tronc
 : trunk
+
+membre(s)
+: limb(s)
 
 
 ## Tête
@@ -36,8 +36,8 @@ front
 tempe(s)
 : temple(s)
 
-joue(s)
-: cheek(s)
+œil / yeux
+: eye(s)
 
 oreille(s)
 : ear(s)
@@ -51,29 +51,11 @@ narine(s)
 nez
 : nose
 
-œil / yeux
-: eye(s)
-
-paupière
-: eyelid
-
-pupille
-: pupil
-
-iris
-: iris
-
 bouche
 : mouth
 
-lèvre(s)
-: lip(s)
-
-langue
-: tongue
-
-dent / dents
-: tooth / teeth
+joue(s)
+: cheek(s)
 
 menton
 : chin
@@ -81,11 +63,44 @@ menton
 cou, nuque
 : neck
 
-gorge
-: throat
-
 pomme d’Adam
 : Adam's apple
+
+
+## Yeux
+
+sourcil, arcade sourcilière
+: eyebrow
+
+paupière
+: eyelid
+
+cils
+: eyelash
+
+pupille
+: pupil
+
+iris
+: iris
+
+
+## bouche
+
+lèvre(s)
+: lip(s)
+
+dent / dents
+: tooth / teeth
+
+langue
+: tongue
+
+palais
+: palate
+
+gorge
+: throat
 
 
 ## Tronc
@@ -116,30 +131,6 @@ la taille
 
 hanche(s)
 : hip(s)
-
-
-## Parties honteuses
-
-arrière train
-: behind
-
-fesse(s)
-: buttock(s)
-
-fesse
-: butt
-
-cul
-: ass
-
-pénis
-: penis
-
-queue, bitte
-: dick
-
-vagin
-: vagina
 
 
 ## Bras
@@ -180,6 +171,9 @@ annulaire
 auriculaire
 : little finger, pinkie
 
+phalange
+: knuckle
+
 paume (de la main)
 : palm (of the hand)
 
@@ -217,22 +211,40 @@ talon
 : heel
 
 
+## Parties honteuses
+
+arrière train
+: behind
+
+fesse(s)
+: buttock(s)
+
+fesse
+: butt
+
+cul
+: ass
+
+pénis
+: penis
+
+queue, bitte
+: dick
+
+vagin
+: vagina
+
+
 ## Poils
 
 cheveux
 : hair
 
-sourcil, arcade sourcilière
-: eyebrow
-
-cils
-: eyelash
+barbe
+: beard
 
 barbiche, bouc
 : goatee
-
-barbe
-: beard
 
 moustache
 : moustache
@@ -252,11 +264,8 @@ omoplate
 côte(s)
 : rib(s)
 
-phalange
-: knuckle
-
 colonne vertébrale
-: spine
+: backbone, spine
 
 bassin
 : pelvis

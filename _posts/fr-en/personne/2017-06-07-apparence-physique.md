@@ -22,11 +22,27 @@ métisse
 ridé
 : wrinkly
 
+bossu
+: hunchbacked
+
 mignon
 : dinky
 
+laid
+: ugly
 
-## Corpulences
+crasseux
+: grimy
+
+sur leur trente-et-un
+: on their way
+*Apreté pour sortir.*
+
+endimanché
+: duded up
+
+
+## Corpulence
 
 maigre
 : lean
@@ -103,18 +119,8 @@ cheveux bouclés
 cheveux crépus
 : frizzy hair
 
+hirsute
+: shaggy
+
 chauve
 : bald
-
-
-## Apparence d'une personne
-
-sur leur trente-et-un
-: on their way
-*Apreté pour sortir.*
-
-endimanché
-: duded up
-
-crasseux
-: grimy
