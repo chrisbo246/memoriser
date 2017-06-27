@@ -8,11 +8,12 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 
 ## Features
 
-- Quick definition list edition (thanks to the freshly supported markdown syntax).
+- Quick & easy definition list edition with the markdown syntax.
 - Convert boring definition lists to easy-to-read flexible cards.
 - Fade memorized definitions for learning purpose (with persistence).
-- Disqus comment system.
-- Cookie consent.
+- Listen to translations thanks to the TTS API.
+- Share new definitions with the Disqus comment system.
+- Cookie consent ready.
 
 ## Responsive
 
