@@ -18,7 +18,7 @@ layout: default
             <div class="sidebar sticky-top">
 
                 <ul class="nav nav-pills flex-column">
-                  {% comment %}{% endcomment %}
+                  {% comment %}
                   {% include related-posts.html type='pages' categories=page.categories %}
                   {% assign category_root_page = posts.first %}
                   {% if category_root_page.title and category_root_page.url != page.url %}
@@ -27,6 +27,8 @@ layout: default
                   </a>
                   <div class="dropdown-divider"></div>
                   {% endif %}
+                  {% endcomment %}
+
                   {% include related-posts.html %}
                   {% if posts.size > 0 %}
                     {% include nav-items.html posts=posts %}
