@@ -43,6 +43,9 @@ Zut!
 Attends!
 : Hold on!
 
+Attends une minute!
+: Hold on a minute!
+
 Fait attention!
 : Watch out!
 
@@ -51,6 +54,12 @@ It's yours!
 
 Arrête! Allons!
 Come on!
+
+A refaire!
+:	Once!
+
+Je plaisante!
+: Just kidding!
 
 
 ## Constatation

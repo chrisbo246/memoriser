@@ -23,9 +23,9 @@ maison de campagne
 : дача
 *datcha*
 
-garage
-: гараж
-*garaj*
+bureau
+: офис
+*ofis*
 
 
 ## Pièces de la maison
@@ -50,14 +50,26 @@ toilette
 : туалет
 *toilet*
 
+garage
+: гараж
+*garaj*
+
 
 ## Composants de la maison
+
+toit
+: крыша
+*kricha*
+
+étage
+: этаж
+*etaj*
 
 escalier
 : лестница
 *liestnitsa*
 
-couloir:
+couloir
 : коридор
 *coridor*
 
@@ -65,21 +77,44 @@ fenêtre
 : окно
 *akno*
 
-mur
-: стена
-*stina*
-
 porte
 : дверь
 *dvier*
+
+plafond
+: потолок
+*potolok*
+
+mur
+: стена
+*stina*
 
 sol
 : пол
 *poll*
 
-toit
-: крыша
-*kricha*
+
+## Pieces de la maison
+
+cuisine
+: кухня
+*koukhnya*
+
+chambre
+: комната
+*komnata*
+
+chambre
+: спальня
+*spalʲnya*
+
+salle de bain
+: ванная комната
+*vannaya komnata*
+
+toilette
+: туалет
+*toualyet*
 
 
 ## Extérieur
@@ -91,6 +126,10 @@ jardin
 cour
 : двор
 *dvor*
+
+piscine
+: бассейн
+*bassyeyn*
 
 
 ## Constructions urbaines

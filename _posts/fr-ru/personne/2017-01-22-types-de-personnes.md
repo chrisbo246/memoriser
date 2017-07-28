@@ -15,19 +15,27 @@ date: 2017-04-02 00:38:00 +0100
 
 ## Genres
 
+personne
+: люд
+*lioud*
+
+personnes
+: люди
+*lioudiè*
+
 homme
-: Мужчина
-*mujtchina*
+: мужчина
+*mouchina*
 
 femme
-: Фьемме
-*f'yenmé*
+: фьемме
+*fienmie*
 
-bébé
+enfant
 : дитя
 *ditya*
 
-enfant
+bébé
 : ребенок
 *ribenok*
 
@@ -37,6 +45,10 @@ adolescent
 
 
 ## Famille
+
+frère
+: брат
+*brat'*
 
 fils
 : сын
@@ -78,6 +90,22 @@ tante
 : тетка
 *tiotka*
 
+tante
+: тетя
+*tyetya*
+
+cousin
+: двоюродный брат
+*dvoyorodniy brat*
+
+neveu
+: племянник
+*plyemyannik*
+
+nièce
+: племянница
+*plyemyannitza*
+
 
 ## Famille (familier)
 
@@ -100,6 +128,10 @@ mémé
 gamin
 : мальчишка
 *maltchishka*
+
+tata
+: тетушка
+*tietouchka*
 
 
 ## Titres

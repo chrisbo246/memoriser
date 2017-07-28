@@ -34,9 +34,18 @@ sinistre
 : grim
 
 
+## Vision
+
+sombre
+: dim
+
+tern
+: dull
+
+
 ## Relatif à un lieu
 
-sombre, lugubre
+lugubre
 : gloomy
 
 luxuriant
@@ -80,6 +89,9 @@ volumineux
 
 voyant
 : showy
+
+fabriqués à la main
+: hand-crafted
 
 
 ## Etat d'une personne
@@ -125,6 +137,3 @@ tomber en morceaux
 
 recousu
 : stitched up
-
-fabriqués à la main
-: hand-crafted

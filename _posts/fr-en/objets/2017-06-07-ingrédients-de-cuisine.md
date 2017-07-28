@@ -25,6 +25,9 @@ blanc d'œuf
 zeste (de citron)
 : (lemon) zest
 
+pelure
+: peel
+
 farine de blé
 : wheat flou
 

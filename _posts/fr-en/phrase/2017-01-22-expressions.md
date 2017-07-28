@@ -115,8 +115,11 @@ Cela prend un temps fou
 Çà ne vaut pas le coup
 : It's not worth the effort
 
-C'est à couper le souffle!
-: It's breathtaking!
+à couper le souffle
+: breathtaking
+
+à couper le sang
+: white-knuckled
 
 c'est la cerise sur le gâteau
 : this is the icing on the cake
@@ -242,6 +245,9 @@ né pour ça
 : born ready
 *déjà prêt à la naissance*
 
+hors des sentiers battus
+: off the slab
+
 
 ## Divers
 
@@ -250,3 +256,48 @@ Vous avez le droit de ...
 
 ... de rechange
 : Spare ...
+
+Vous influencer d'une manière ou d'une autre
+: Sway you one way or the other
+
+Chacun sait ce qui est le mieux pour lui-même
+: everybody knows better for himself
+
+je n'aimerais pas être à sa place
+: I would not like to be in his shoes
+
+Je ne m'attendais pas à cela
+: I didn't expect that
+
+Le manque de ...
+: The running out of ...
+
+Dire la vérité
+: Spell the truth
+
+En quelques chiffres
+: in a few figures
+
+À compter de
+: to date back to
+
+à ce jour
+: to date
+
+sortir avec ...
+: to date ...
+
+tenir sa promesse
+:	keep his promise
+
+faire du bien
+:	do good
+
+Tout ce qu'il faut
+: Whatever it takes
+
+bien nommé
+: aptly named
+
+Ça me fait mal!
+: It bums me out!

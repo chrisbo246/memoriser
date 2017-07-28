@@ -132,6 +132,9 @@ la taille
 hanche(s)
 : hip(s)
 
+aine
+: groin
+
 
 ## Bras
 

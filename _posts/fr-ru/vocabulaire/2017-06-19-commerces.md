@@ -15,7 +15,7 @@ date: 2017-01-01 20:20:20 +0100
 
 ## Commerces de proximité
 
-magasin
+magasin, supermarché
 : магазин
 *magazine*
 
@@ -93,15 +93,15 @@ pharmacie
 
 école
 : школа
-*shkola*
+*chkola*
 
 lycée
 : высшая школа
-*visshaya shkola*
+*visshaya chkola*
 
 université
 : университет
-*ouniversitiet*
+*ouniversitiet'*
 
 
 ## Loisirs
@@ -113,6 +113,10 @@ bibliothèque
 cinéma
 : кино
 *kino*
+
+théâtre
+: театр
+*tieatr'*
 
 restaurant
 : ресторан

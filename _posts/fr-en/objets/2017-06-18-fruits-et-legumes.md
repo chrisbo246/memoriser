@@ -18,3 +18,24 @@ date: 2017-06-18 20:20:20 +0100
 
 petits pois
 : peas
+
+chou
+: cabbage
+
+
+## Parties d'une plante
+
+tige
+: stalk
+
+sève
+: sap
+
+feuille
+: leave
+
+écorce
+: bark
+
+racine
+: root

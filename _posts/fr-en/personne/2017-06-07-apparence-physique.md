@@ -34,6 +34,15 @@ laid
 crasseux
 : grimy
 
+miteux
+: scruffy
+
+négligé
+: sloppy
+
+négligé
+: unkempt
+
 sur leur trente-et-un
 : on their way
 *Apreté pour sortir.*

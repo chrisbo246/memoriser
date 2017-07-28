@@ -48,11 +48,20 @@ poste à souder
 poste à souder semi-automatique
 : wire-feed welder
 
+soudeuse à point
+: spot welder
+
 sableuse
 : sandblaster
 
 touret
 : bench grinder
+
+plieuse de tôle
+: sheet metal brake
+
+scie à ruban
+: bandsaw
 
 
 ## Usinage

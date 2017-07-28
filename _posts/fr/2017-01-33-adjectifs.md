@@ -37,7 +37,6 @@ trivial
 : Vulgaire, évident.
 
 
-
 ## Période
 
 anachronique

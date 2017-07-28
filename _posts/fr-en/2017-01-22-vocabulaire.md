@@ -30,17 +30,14 @@ bras de fer
 revers (échec)
 : setback
 
+retombée
+: spin-off
+
 Étape importante
 : milestone
 
 la pierre angulaire
 : the cornerstone
-
-
-## Lieu
-
-monde inférieur (enfer)
-: netherworld
 
 
 ## Faire la lessive
@@ -54,17 +51,35 @@ séchage en machine
 
 ## Divers
 
-fossé
-: ditch
+pari
+: bet
 
-gros mots
-: swearwords
+gage
+: pledge
+
+farce
+: prank
+
+piège
+: trap
+
+arnaque
+: scam
+
+motif
+: ground
 
 préoccupation
 : concern
 
-anti sèche
-: cheat sheet
+gros mots
+: swearwords
+
+séquence vidéo
+: footage
+
+préoccupation
+: concern
 
 immobilier
 : real estate

@@ -58,8 +58,14 @@ cuve (réservoir ouvert)
 réservoir
 : tank
 
+tonnelet
+: keg
+
 tonneau
 : barrel
+
+citerne
+: tank
 
 
 ## Ustensiles de cuisine
@@ -98,6 +104,11 @@ sèche-linge
 : tumble dryer
 
 
+## Mobilier
+
+stool	tabouret
+
+
 ## Bacs
 
 évier, lavabo
@@ -111,3 +122,23 @@ baignoire
 
 douche
 : shower
+
+
+## Jouets
+
+peluche
+:	stuffed animal
+
+## Meubles
+
+comptoir
+: countertop
+
+
+## Divers
+
+cure-dent
+:	toothpick
+
+traversin
+: bolster

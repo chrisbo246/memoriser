@@ -51,6 +51,14 @@ Allons-y! (en voiture)
 : Поехали!
 *Paièhli!*
 
+Je plaisante!
+: Просто шучу!
+*Prosta choutchou!*
+
+
+## Etonnement
+
+
 
 ## Gros mots
 

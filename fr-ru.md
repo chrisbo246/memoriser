@@ -28,6 +28,7 @@ nav:
   icon:
 card:
   image: false
+  tags: false
   date: false
   categories: false
   image_position: "top"

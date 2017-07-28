@@ -7,7 +7,7 @@
 {% if tags %}
 {% assign tags = tags | uniq %}
 <ul class="list-inline">
-  <li class="list-inline-item text-muted">
+  <li class="list-inline-item text-muted" hidden>
     {{ t.tags }}:
   </li>
   {% for tag in tags %}

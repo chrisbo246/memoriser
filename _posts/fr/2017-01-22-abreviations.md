@@ -25,7 +25,7 @@ HS
 
 N.D.L.R.
 : note de la rédaction
-*Ajoutée par l'auteur pour préciser un texte provenant d'une source externe.*
+*Pour indiquer que le texte se base sur une source externe.*
 
 R.A.S.
 : rien a signaler

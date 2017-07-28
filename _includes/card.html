@@ -79,8 +79,9 @@
 
     </div>
 
-    {% if page.card.date or page.card.categories %}
+    {% if page.card.date or page.card.categories or page.card.tags %}
     <div class="card-footer">
+        {% if page.card.tags %}{% include tags.html tags=post.tags %}{% endif %}
         {% if page.card.date %}<small class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
         {% if page.card.categories %}<small class="text-muted">{{ post.categories | join: ' ' | push: post.category }}</small>{% endif %}
     </div>

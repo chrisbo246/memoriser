@@ -55,11 +55,17 @@ ficelle
 frein filet
 : thread lock
 
-gougeons
+goujon
 : dowel
 
 goupille
 : pin
+
+cheville
+:	ankle
+
+cheville en bois
+:	wooden ankle
 
 rivet
 : rivet
@@ -95,7 +101,10 @@ coin
 : wedge
 
 crémaillère
-: pack and pinion
+: pack (and pinion)
+
+chanfrein
+:	chamfer
 
 engrenage
 : gear

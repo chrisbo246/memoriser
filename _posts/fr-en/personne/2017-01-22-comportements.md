@@ -83,6 +83,9 @@ enfant gâté
 avisé
 : savvy
 
+économe
+: thrifty
+
 bizarre
 : weird
 
@@ -172,3 +175,9 @@ j'ai tourné la page
 
 bien s'entendre avec
 : get on well with
+
+
+## Etat d'esprit
+
+enthousiaste
+: keen

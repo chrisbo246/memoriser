@@ -95,8 +95,9 @@ pèlerin
 L’homme idéal
 : Mr right
 
-Quelqu’un (d’important, l’élite)
+Quelqu’un (d’important)
 : A few
+*L’élite*
 
 faiseur de miracles
 : miracle worker
@@ -104,11 +105,18 @@ faiseur de miracles
 ange déchu
 : fallen angel
 
+intello, tête d'ampoule
+: egghead
+
 
 ## Personnages de fiction
 
 le petit chaperon rouge
 : little red riding hood
+
+Fée Clochette
+: Tinkerbell
+*Fille immature.*
 
 bonhomme de neige
 : snowman

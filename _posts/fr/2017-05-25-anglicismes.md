@@ -16,3 +16,6 @@ spin doctor
 
 think tanks
 : groupes de réflexion
+
+gentrification
+: embourgeoisement

@@ -27,6 +27,13 @@ de front, frontale
 à la queue leuleu
 : single file
 
+en aval
+: downstream
+
+en amont
+: upstream
+
+
 ## Mouvement
 
 aller-retour
@@ -36,10 +43,35 @@ va-et-vient
 : back and forth
 
 
-## Situation
+## Distance
 
 a portée de main
 : at hand
 
-en cours de route
+à mi-chemin
+: midway
+
+plus loin, en cours de route
 : down the road
+
+
+## Trajet
+
+trajet quotidien
+: commute
+*Aller-retour maison-travail.*
+
+trajet
+: haul
+
+périple
+: journey
+
+parcours
+: course
+
+excursion
+: trip
+
+voyage (à l'étranger)
+: travel

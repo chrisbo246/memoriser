@@ -15,32 +15,36 @@ date: 2017-01-01 20:20:20 +0100
 
 ## Véhicules
 
-helicopter
-: вертолет
-*viertaliot*
-
-moto
-: мотоцикл
-*motatsikol*
-
 velo
 : велосипед
 *viélocipiède*
+
+moto
+: мотоцикл
+*motatsikel'*
 
 voiture
 : машина
 *mashina*
 
+helicopter
+: вертолет
+*viertaliot*
+
 
 ## Transports en commun et payant
+
+taxi
+: такси
+*taksi*
 
 autobus
 : автобус
 *avtobus*
 
-avion
-: самолет
-*somaliot*
+tramway
+: трамвай
+*tramvail*
 
 metro
 : метро
@@ -50,10 +54,6 @@ train
 : поезд
 *poyezd*
 
-tramway
-: трамвай
-*tramvail*
-
-taxi
-: такси
-*taksi*
+avion
+: самолет
+*somaliot*

@@ -18,20 +18,17 @@ date: 2017-06-07 20:20:20 +0100
 une effusion de sang
 : a bloodshed
 
+un bain de sang
+: a bloodbath
+
 une vie à la dure (de voyou)
 : a thug life
 
 
 ## Agressions
 
-mauvais coups
-: mischief
-
-blanchiment d'argent
-: money laundering
-
-kidnappé
-: kidnapped
+arnaqué
+: scammed
 
 volé
 : stolen
@@ -45,8 +42,14 @@ volé
 agressé
 : mugged
 
+kidnappé
+: kidnapped
+
 violé
 : raped
+
+blessé
+: wounded
 
 poignardé
 : stabbed
@@ -54,8 +57,14 @@ poignardé
 tué
 : killed
 
-blessé
-: wounded
+
+## Fraudes
+
+mauvais coups
+: mischief
+
+blanchiment d'argent
+: money laundering
 
 
 ## Voyous
@@ -83,3 +92,9 @@ condamné à mort
 
 couloir de la mort
 : death row
+
+
+## Verbes
+
+voler
+: steal

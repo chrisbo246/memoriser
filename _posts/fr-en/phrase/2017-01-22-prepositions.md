@@ -48,6 +48,15 @@ par laquelle
 par lequel
 : whereby
 
+quelque peu
+: somewhat
+
+à partir de
+: from
+
+à cause de
+: because of
+
 
 ## Prépositions de temps, période et durée
 
@@ -75,8 +84,11 @@ de temps à autre
 encore et encore
 : over and over, on and on, time and again
 
-a une époque
+à une époque
 : at a time
 
-a la belle époque
+à la belle époque
 : in the heyday
+
+à ce jour
+: nowadays

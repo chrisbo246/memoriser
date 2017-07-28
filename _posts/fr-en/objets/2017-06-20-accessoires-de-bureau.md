@@ -30,6 +30,9 @@ règle graduée
 rapporteur d'angle
 : scale protractor
 
+gabarit
+: doweling jig
+
 
 ## Accessoires de bureau
 

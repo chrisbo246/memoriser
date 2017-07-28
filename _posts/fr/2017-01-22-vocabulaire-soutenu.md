@@ -22,6 +22,9 @@ efficience
 probité
 : Respectant scrupuleusement les règles.
 
+mansuétude
+: Indulgence.
+
 
 ## Reproche
 
@@ -29,7 +32,7 @@ dogmatisme
 : Rejette catégoriquement le doute et la critique.
 
 hubris
-: Démesure, orgueil devant appeler la vengeance des dieux.
+: Orgueil démesuré.
 
 vacuité
 : Sans valeur.
@@ -133,3 +136,6 @@ katiba
 
 pogrome
 : Émeute sanglante dirigée contre une minorité ethnique ou religieuse.
+
+eugénisme
+: Sélection raciale.

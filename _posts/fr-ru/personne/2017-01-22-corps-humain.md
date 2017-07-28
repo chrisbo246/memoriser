@@ -8,7 +8,7 @@ image:
   width: 640
   height: 360
 tags: [
-  personne, corps, membre, organe, os 
+  personne, corps, membre, organe, os
 ]
 date: 2017-01-01 20:20:20 +0100
 ---
@@ -19,34 +19,27 @@ corps
 *téla*
 
 tête
-: голова́
+: голова
 *gôlôva*
 
 visage
 : лицо́
 *létso*
 
-membre(s)
-: -
+membre
+: конечность
+*kaniétchnèst*
 
 tronc
 : -
 
 dos
-: спина́
+: спина
 *spéna*
 
 poitrine (thorax)
 : грудная клетка
 *grudnaya kletka*
-
-poitrine (seins)
-: грудь
-*groud'*
-
-téton(s), Mamelon(s)
-: шпилька
-*shpilka*
 
 ventre
 : живо́т
@@ -60,25 +53,6 @@ hanches
 : бедра
 *bedra*
 
-fesses
-: ягодицы
-*ilgaditsa*
-
-cul
-: задница
-*zadnitsa*
-
-pénis
-: пенис
-*pégnis*
-
-queue, bitte
-: -
-
-vagin
-: влагалище
-*vlagalischè*
-
 
 ## Visage
 
@@ -88,16 +62,20 @@ front
 tempe(s)
 : -
 
-joue(s)
+joue
 : щека
-*schéka*
+*chieka*
+
+joues
+: щеки
+*chieki*
 
 oreille
-: у́хо
+: ухо
 *oukho*
 
 oreilles
-: у́ши
+: уши
 *ouchy*
 
 lobe d’oreille
@@ -137,13 +115,17 @@ bouche
 : рот
 *rôte*
 
-lèvre(s)
-: губа, губы
-*gouba, gouby*
+lèvre
+: губа
+*gouba*
+
+lèvres
+: губы
+*gouby*
 
 langue
 : язы́к
-*yesique*
+*yezik*
 
 dent
 : зуб
@@ -196,7 +178,8 @@ nuque
 : -
 
 gorge
-: -
+: горло
+*gorlo*
 
 pomme d’Adam
 : -
@@ -220,7 +203,8 @@ aisselle
 : -
 
 coude
-: -
+: локоть
+*lokot*
 
 avant-bras
 : -
@@ -239,7 +223,7 @@ mains
 : руки
 *rouqui*
 
-doigt/orteil
+doigt / orteil
 : палец
 *palétse*
 
@@ -248,7 +232,8 @@ doigts/orteils
 *paltsy*
 
 pouce
-: -
+: палец
+*palyetz*
 
 index
 : -
@@ -274,22 +259,35 @@ ongle
 
 ## Jambe
 
-jambe(s)
-: нога́, ноги
-*naga, nogi*
+jambe
+: нога
+*naga*
 
-cuisse(s)
-: бедро, бедра
-*bildro, beldra*
+jambes
+: ноги
+*nogi*
+
+cuisse
+: бедро
+*bildro*
+
+cuisses
+: бедра
+*beldra*
 
 genou
-: -
+: колено
+*kolyeno*
 
 mollet
 : -
 
 
 ## Pied
+
+pied
+: стопа
+*stopa*
 
 cheville
 : -
@@ -302,6 +300,10 @@ gros orteil
 
 les orteils
 : -
+
+orteil
+: палец ноги
+*palyetz nogi*
 
 talon
 : -
@@ -340,9 +342,10 @@ organe
 *organne*
 
 cerveau
-: -
+: мозг
+*mozg*
 
-coeur
+cœur
 : сердце
 *sierdtsè*
 
@@ -355,17 +358,23 @@ rein(s)
 intestin
 : -
 
+estomac
+: желудок
+*jeloudok*
+
 veine(s)
 : -
 
 artère(s)
 : -
 
-muscle(s)
-: -
+muscle
+: мускул
+*mouskoul*
 
 peau
-: -
+: кожа
+*koja*
 
 
 ## Styles de cheveux
@@ -416,14 +425,43 @@ cheveux crépus
 : -
 
 chauve
-: -
+: плешивый
+*pliéchivy*
 
 
-## Gros mots
+## Parties honteuses
 
-bite
+poitrine (seins)
+: грудь
+*groud'*
+
+nichons
+: болван
+*bolvan'*
+
+téton(s), Mamelon(s)
+: шпилька
+*shpilka*
+
+fesses
+: ягодицы
+*ilgaditsa*
+
+cul
+: задница
+*zadnitsa*
+
+pénis
+: пенис
+*pégnis*
+
+bitte
 : хуй
 *rouil*
+
+vagin
+: влагалище
+*vlagalischè*
 
 chatte
 : пизда
