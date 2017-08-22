@@ -46,7 +46,7 @@
         .add($dd)
         .wrapAll('<label></label>')
         .wrapAll('<div class="card"></div>')
-        .wrapAll('<div class="card-block"></div>');
+        .wrapAll('<div class="card-body"></div>');
         $(this).parents('label')
         .prepend('<input type="checkbox" id="' + id + '" />');
         //.prepend('<a class="tts fa fa-ok" data-tts-text="' + id + '" ></a>');
@@ -179,6 +179,21 @@
       });
     }
 
+
+    // Card filter
+    var $togglers = $('.filter-toggler');
+    var $targets = $('.filter-target');
+    $togglers.click(function () {
+      var target = $(this).attr('data-filter-target');
+      $togglers.removeClass('active').attr('aria-pressed', false);
+      if (target) {
+        $targets.hide();
+        $targets.filter(target).show();
+        $(this).addClass('active').attr('aria-pressed', true);
+      } else {
+        $targets.show();
+      }
+    });
 
   });
 

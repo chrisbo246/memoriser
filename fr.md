@@ -16,7 +16,6 @@ image:
   height: 360
 collection_type: "posts"
 tags: []
-category:
 categories: [FR]
 nav:
   id: "secondary-nav"
@@ -25,9 +24,10 @@ nav:
   icon:
 card:
   image: false
-  tags: false
+  tags: true
   date: false
-  categories: false
+  new: 30
+  categories: true
   image_position: "top"
   #text_align: "center"
   #more_button: "Lire"

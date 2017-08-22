@@ -1,14 +1,14 @@
 <div class="container-fluid">
-    <nav class="navbar navbar-light bg-faded fixed-top -navbar-toggleable-md">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ t.toggle_navigation }}">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="{{ "/" | relative_url}}">
-            <img src="{{ "/assets/images/favicons/favicon-32x32.png" | relative_url }}" width="32" height="32" class="d-inline-block align-top" alt="{{ site.title }} logo">
-            {{ site.title | escape }} <span class="badge badge-warning">BETA</span>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            {% include menu.html %}
-        </div>
-    </nav>
+  <nav class="navbar -navbar-light -bg-light navbar-dark bg-dark -bg-faded fixed-top -navbar-expand-lg -navbar-toggleable-md">
+    <a class="navbar-brand" href="{{ "/" | relative_url}}">
+      <img src="{{ "/assets/images/favicons/favicon-32x32.png" | relative_url }}" width="32" height="32" class="d-inline-block align-top" alt="{{ site.title }} logo">
+      {{ site.title | escape }} <span class="badge badge-warning">BETA</span>
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ t.toggle_navigation }}">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      {% include menu.html %}
+    </div>
+  </nav>
 </div>

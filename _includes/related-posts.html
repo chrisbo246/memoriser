@@ -2,21 +2,16 @@
 {% if include.categories %}
     {% assign categories = include.categories %}
 {% else %}
-    {% assign categories = '' | split: ' ' %}
-    {% if page.categories.size > 0 %}
-        {% assign categories = page.categories %}
-    {% endif %}
-    {% if page.category.size > 0 %}
-        {% assign categories = categories | push: page.category %}
-    {% endif %}
+    {% assign categories = '' | split: ' ' | push: page.categories %}
 {% endif %}
-{% assign categories = categories | uniq %}
+{% assign categories = categories | compact | uniq %}
 
-{% if include.categories %}
+{% if include.tags %}
     {% assign tags = include.tags %}
 {% else %}
-    {% assign tags = include.tags | default: page.tags | default: nil %}
+    {% assign tags = '' | split: ' ' | push: page.tags %}
 {% endif %}
+{% assign tags = tags | compact | uniq %}
 
 {% assign type = include.type | default: page.collection_type | default: page.collection | default: 'pages' %}
 {% assign limit = include.limit | default: nil %}

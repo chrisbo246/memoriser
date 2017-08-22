@@ -12,8 +12,8 @@
   </li>
   {% for tag in tags %}
   <li class="list-inline-item">
-    <span class="badge badge-default">{{ t.tags[tag] | default: tag }}</span>
-    {% comment %}<a href="{{ tag | slugify | prepend: '/tags.html#' | relative_url }}" class="-badge -badge-default">{{ t.tags[tag] | default: tag }}</a>{% endcomment %}
+    <span class="{{ include.item-class }}">{{ t.tags[tag] | default: tag }}</span>
+    {% comment %}<a href="{{ tag | slugify | prepend: '/tags.html#' | relative_url }}" class="{{ include.item-class }}">{{ t.tags[tag] | default: tag }}</a>{% endcomment %}
   </li>
   {% endfor %}
 </ul>

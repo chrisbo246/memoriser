@@ -59,8 +59,17 @@ layout: default
                     <a class="btn btn-outline-secondary btn-sm" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button"><span class="fa fa-pencil-square-o"></span>{{ t.edit_on_github }}</a>
                 </div>
 
-                <footer class="post-footer">
-                  {% include tags.html %}
+                <footer class="post-footer clearfix">
+                      {% if post.categories %}<small class="pull-left">{% include tags.html tags=post.categories item-class="badge badge-primary" %}</small>{% endif %}
+                      {% if post.category %}<small class="pull-left">{% include tags.html tags=post.category item-class="badge badge-primary" %}</small>{% endif %}
+                      {% if post.tags %}<small class="pull-left">{% include tags.html tags=post.tags item-class="badge badge-secondary" %}</small>{% endif %}
+
+                      {% assign today = site.time | date: '%s' %}
+                      {% assign date = post.date | date: '%s' %}
+                      {% assign secondsSince = today | minus: date %}
+                      {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+                      {% assign daysSince = hoursSince | divided_by: 24 %}
+                      {% if daysSince <= page.card.new %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
                 </div>
 
                 {% if site.disqus.shortname %}

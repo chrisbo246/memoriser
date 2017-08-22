@@ -7,6 +7,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
+category: vocabulaire
 tags: [
   place
 ]
@@ -72,6 +73,10 @@ parc
 : парк
 *park*
 
+centre-ville
+: центре (города)
+*tsentr' (goroda)*
+
 centre historique
 : центр Исторического
-*tsentr istoricheskova*
+*tsentr' istoricheskova*

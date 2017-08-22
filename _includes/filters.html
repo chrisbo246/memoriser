@@ -1,0 +1,15 @@
+<div class="card bg-light mb-3">
+  <div class="card-body">
+    {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
+
+    <div class="btn-group" role="group" aria-label="Filtres">
+      {% for filter in categories %}
+      {% unless page.categories contains filter %}
+      <button type="button" class="btn btn-outline-secondary filter-toggler" data-filter-target=".category-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}</button>
+      {% endunless %}
+      {% endfor %}
+      {% comment %}<button type="button" class="btn btn-outline-secondary filter-toggler" data-filter-target=".category-divers">Divers</button>{% endcomment %}
+    </div>
+    <button type="button" class="btn btn-outline-primary pull-right filter-toggler" data-filter-target="">Afficher tout</button>
+  </div>
+</div>

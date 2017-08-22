@@ -2,12 +2,17 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-
 @charset "utf-8";
 
 // Bootstrap
-@import "variables-bootswatch-materia";
+//@import "variables-bootswatch-materia";
 @import "bootstrap";
+
+// Create Bootstrap 3 variable from Bootstrap 4
+$brand-primary: $component-active-bg !default;
+$gray-lightest: $gray-300 !default;
+$gray-lighter: $gray-600 !default;
+$gray-dark: $gray-900 !default;
 
 // Font-awesome
 $fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
@@ -66,6 +71,17 @@ body {
 .navbar.fixed-top .navbar-collapse[expanded="true"] {
 
 }
+
+.navbar-dark .navbar-brand img {
+  filter: invert(100%);
+}
+
+/*.social-icons {
+    .fa:before {
+        color: $text-muted;
+    }
+}*/
+
 
 // Posts
 

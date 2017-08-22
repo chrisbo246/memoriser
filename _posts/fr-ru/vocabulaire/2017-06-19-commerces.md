@@ -7,6 +7,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
+category: vocabulaire
 tags: [
   place, construction, bâtiment
 ]
@@ -49,6 +50,10 @@ garage automobile
 salon de coiffure
 : парикмахерская
 *parikmahierskaya*
+
+hôtel
+: гостиница
+*gastinitsa*
 
 
 ## Services publics
@@ -125,6 +130,17 @@ restaurant
 
 ## Terminaux de transports en commun
 
+gare ferroviaire
+: вокзал
+*bakzal*
+
 aéroport
 : аэропорт
 *aèraport*
+
+
+## Argot
+
+asile psychiatrique
+: дурдом
+*durdóm*

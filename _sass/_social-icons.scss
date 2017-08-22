@@ -3,10 +3,6 @@ $gray-lightest: #eee !default;
 
 .social-icons {
 
-    .fa:before {
-        color: $gray-lightest;
-    }
-
     a:hover {
         .fa-twitter:before {
             color: #55acee;

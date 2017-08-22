@@ -39,8 +39,10 @@ dl.d-flex {
     .card {
         box-shadow: 1px 2px 6px rgba($black,.1);
         transition: all .3s;
-        min-width: 6.7rem;
-        min-height: 6.7rem;
+        min-width: 7.7rem;
+        min-height: 7.7rem;
+        //min-width: 6.7rem;
+        //min-height: 6.7rem;
         margin: 2px;
         //margin: $card-columns-gap;
         //padding: $card-spacer-y $card-spacer-x;

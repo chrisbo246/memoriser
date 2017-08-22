@@ -28,15 +28,15 @@
     {% endif %}
 {% endif %}
 
-{% assign card-block-classes = '' | split: ' ' %}
+{% assign card-body-classes = '' | split: ' ' %}
 {% if src %}
     {% if page.card.image_position == 'overlay' %}
-        {% assign card-block-classes = card-block-classes | push: 'card-img-overlay' %}
+        {% assign card-body-classes = card-body-classes | push: 'card-img-overlay' %}
     {% else %}
-        {% assign card-block-classes = card-block-classes | push: 'card-block' %}
+        {% assign card-body-classes = card-body-classes | push: 'card-body' %}
     {% endif %}
 {% else %}
-    {% assign card-block-classes = card-block-classes | push: 'card-block' %}
+    {% assign card-body-classes = card-body-classes | push: 'card-body' %}
 {% endif %}
 
 {% assign title = post.title | split: ':' | last | strip %}
@@ -53,13 +53,34 @@
     {% assign more-link-text = page.card.more_link %}
 {% endif %}
 
+
+
+{% assign categories = '' | split: ' ' | push: post.categories | uniq | compact | sort_natural %}
+
+{% assign card-classes = card-classes | push: 'filter-target' %}
+{% if categories %}
+{% for category in categories %}
+{% assign class = 'category-' | append: category %}
+{% assign card-classes = card-classes | push: class %}
+{% endfor %}
+{% else %}
+{% assign card-classes = card-classes | push: 'category-divers' %}
+{% endif %}
+
+{% assign today = site.time | date: '%s' %}
+{% assign date = post.date | date: '%s' %}
+{% assign secondsSince = today | minus: date %}
+{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+{% assign daysSince = hoursSince | divided_by: 24 %}
+
+
 <div class="{{ card-classes | join: ' ' }}" >
 
     {% if src %}
     <img class="{{ card-img-classes | join: ' ' }}" data-src="{{ src }}" alt="{{ post.title }}" width="{{ post.image.default.width | default: post.image.width }}" height="{{ post.image.default.height | default: post.image.height }}">
     {% endif %}
 
-    <div class="{{ card-block-classes | join: ' ' }}">
+    <div class="{{ card-body-classes | join: ' ' }}">
 
         {% if title %}
         <h4 class="card-title"><a class="card-link" href="{{ post.url | relative_url }}">{{ title | escape }}</a></h4>
@@ -80,10 +101,12 @@
     </div>
 
     {% if page.card.date or page.card.categories or page.card.tags %}
-    <div class="card-footer">
-        {% if page.card.tags %}{% include tags.html tags=post.tags %}{% endif %}
-        {% if page.card.date %}<small class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
-        {% if page.card.categories %}<small class="text-muted">{{ post.categories | join: ' ' | push: post.category }}</small>{% endif %}
+    <div class="card-footer clearfix">
+        {% comment %}{% if page.card.categories %}<small class="text-muted pull-left">{{ post.categories | join: ' ' | push: post.category }}</small>{% endif %}{% endcomment %}
+        {% if page.card.categories %}<small class="pull-left ml-2">{% include tags.html tags=categories item-class="badge badge-primary" %}</small>{% endif %}
+        {% if page.card.tags %}<small class="pull-left ml-2">{% include tags.html tags=post.tags item-class="badge badge-secondary" %}</small>{% endif %}
+        {% if page.card.date %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
+        {% if page.card.new and daysSince <= page.card.new %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
     </div>
     {% endif %}
 

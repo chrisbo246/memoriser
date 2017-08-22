@@ -29,7 +29,7 @@ theme: minima
 #theme: jekyll-theme-cayman
 
 # https://pages.github.com/versions/
-gems:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - wdm
@@ -68,6 +68,7 @@ exclude:
   - node_modules
   - bower_components/*.md
   - bower_components/*.html
+  - bower_components/**/docs
 
 # Copy previously excluded files to the destination directory when running jekyll build
 include:
@@ -92,6 +93,7 @@ defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
+      #paths: []
       type: ""
     values:
       author: chrisbo246

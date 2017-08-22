@@ -21,12 +21,16 @@ layout: default
 
     {% include related-posts.html %}
     {% if posts.size > 0 %}
+
+    {% include filters.html posts = posts %}
+
     {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
     <div class="card-columns">
         {% for post in posts %}
-        {% include card.html post=post %}
+        {% include card.html post=post tags=post.category item-class="badge badge-info" %}
         {% endfor %}
     </div>
+
     {% else %}
     <div class="alert alert-info" role="alert">
         <strong>{{ t.oups }}</strong> {{ t.no_result_info}}

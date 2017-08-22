@@ -17,10 +17,11 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "tether": "^1.4.0",
-    "bootstrap": "v4.0.0-alpha.6",
-    "lazysizes": "^3.0.0",
+    "bootstrap": "4.0.0-beta",
+    "lazysizes": "4.0.0-rc3",
     "cookieconsent": "^3.0.4",
     "font-awesome": "fontawesome#^4.7.0",
-    "prefixfree": "prefix-free#^1.0.10"    
+    "prefixfree": "prefix-free#^1.0.10",
+    "popper.js": "^1.12.3"
   }
 }
