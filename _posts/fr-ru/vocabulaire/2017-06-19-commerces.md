@@ -1,13 +1,13 @@
 ---
-title: "Vocabulaire Russe: Commerces"
-description: "Liste de vocabulaire Russe courant relatif aux commerces."
-excerpt: "Liste de vocabulaire Russe courant relatif aux commerces."
+title: "Vocabulaire russe: Commerces"
+description: "Liste de vocabulaire russe courant relatif aux commerces."
+excerpt: "Liste de vocabulaire russe courant relatif aux commerces."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/shops.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: vocabulaire
+categories: ["vocabulaire"]
 tags: [
   place, construction, bâtiment
 ]
@@ -115,6 +115,13 @@ bibliothèque
 : библиотека
 *biblètiéka*
 
+
+## Sortie
+
+park
+: парк
+*park*
+
 cinéma
 : кино
 *kino*
@@ -123,9 +130,25 @@ théâtre
 : театр
 *tieatr'*
 
+café
+: кафе
+*café*
+
+bar
+: бар
+*bar*
+
 restaurant
 : ресторан
-*restarane*
+*ristoran'*
+
+musée
+: музей
+*mousy*
+
+à une soirée
+: на вечеринку
+*na vietchirinkou*
 
 
 ## Terminaux de transports en commun

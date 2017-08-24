@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Caractères Cyrilliques"
-description: "Apprendre rapidement et facilement l'alphabet Russe par la phonétique."
-excerpt: "Apprendre rapidement et facilement l'alphabet  Russe par la phonétique."
+description: "Apprendre rapidement et facilement l'alphabet russe par la phonétique."
+excerpt: "Apprendre rapidement et facilement l'alphabet  russe par la phonétique."
 image:
   path: assets/images/posts/letters.jpg
   type: "ImageObject"
@@ -16,7 +16,7 @@ date: 2017-04-01 01:31:00 +0100
 published: false
 ---
 
-La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voyelles, 21 consonnes et 2 lettres muettes (signe mou et signe fort).
+La langue russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voyelles, 21 consonnes et 2 lettres muettes (signe mou et signe fort).
 
 <p>
     <audio controls>
@@ -416,7 +416,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
 <ol>
  	<li>Transcription (équivalence lorsque vous utilisez une police de caractère Latin).</li>
  	<li>Caractère majuscule en police Cyrillique (les minuscules sont quasiment identiques). Les voyelles sont en vert, les consonnes en rouge.</li>
- 	<li>Prononciation (en Français) lorsque vous récitez l'alphabet.</li>
+ 	<li>Prononciation (en français) lorsque vous récitez l'alphabet.</li>
  	<li>Son produit dans un mot.
 <ul>
  	<li><strong>x</strong> en général.</li>
@@ -425,7 +425,7 @@ La langue Russe utilise l'alphabet Cyrillique qui contient 33 lettres, 10 voye
  	<li><strong>x_</strong> lorsque la lettre est suivie de Ь ou d'une des consonnes sourdes ШCKTПФ.</li>
  	<li><strong>x´</strong> lorsque la syllabe contenant cette lettre possède un <a href="http://russie.fr/les-accents-russes-autrement">accent tonique</a> invisible (que vous apprendrez à positionner par la pratique).</li>
  	<li><strong>~</strong> indique que vous devez "rouler" la prononciation.</li>
- 	<li>Les caractères pouvant prêter à confusion avec le Français sont indiqués en <span style="color:#ff0000;">rouge</span>, et en <span style="color:#999999;">gris</span> lorsque la prononciation est identique au Français.</li>
+ 	<li>Les caractères pouvant prêter à confusion avec le français sont indiqués en <span style="color:#ff0000;">rouge</span>, et en <span style="color:#999999;">gris</span> lorsque la prononciation est identique au français.</li>
 </ul>
 Regarder les vidéos sur la prononciation pour plus de détails.</li>
  	<li>Audio.</li>
@@ -439,7 +439,7 @@ En fait, il n'est pas nécéssaire de mémoriser cette régle car les voyelles m
 <strong>X</strong> remplacer, <strong>+X</strong> ajouter aprés, +<strong>X.</strong> supprimer l'éventuelle voyelle et ajouter aprés.</li>
 </ol>
 
-Entrainez vous avec la plus appaisante des profs de Russe du web. ;-)
+Entrainez vous avec la plus appaisante des profs de russe du web. ;-)
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/SLfpp704KI8" frameborder="0" allowfullscreen></iframe></p>
 

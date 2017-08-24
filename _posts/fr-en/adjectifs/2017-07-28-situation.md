@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Situation"
-description: "Liste de vocabulaire Anglais courant."
-excerpt: "Liste de vocabulaire Anglais courant."
+title: "Vocabulaire anglais: Situation"
+description: "Liste de vocabulaire anglais courant."
+excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/english-dictionary.jpg
   type: "ImageObject"
   width: 640
   height: 360
+categories: ["adjectifs"]
 tags: [
-adjectif
+"situation"
 ]
 date: 2017-07-28 20:20:20 +0100
 ---

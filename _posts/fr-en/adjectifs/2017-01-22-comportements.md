@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Comportements"
-description: "Liste de vocabulaire Anglais courant relatif au comportement d'une personne."
-excerpt: "Liste de vocabulaire Anglais courant relatif au comportement d'une personne."
+title: "Vocabulaire anglais: Comportements"
+description: "Liste de vocabulaire anglais courant relatif au comportement d'une personne."
+excerpt: "Liste de vocabulaire anglais courant relatif au comportement d'une personne."
 image:
-  path: assets/images/posts/man.jpg
+  path: assets/images/posts/english-dictionary.jpg
   type: "ImageObject"
   width: 640
   height: 360
+categories: ["adjectifs"]
 tags: [
-adjectif, personne
+"personne", "comportement"
 ]
 date: 2017-03-28 20:51:00 +0100
 ---

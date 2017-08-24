@@ -110,7 +110,8 @@ dl.d-flex {
   .card-img,
   .card-img-top,
   .card-img-bottom {
-    //filter: grayscale(100%);
+    filter: grayscale(100%);
+    //filter: brightness(100%) saturate(0%);
   }
 }
 
@@ -124,9 +125,10 @@ dl.d-flex {
       margin-bottom: 0;
     }
   }
-  &.card-inverse {
+  &.card-inverse,
+  &.text-white {
     .card-img {
-      filter: brightness(75%) saturate(50%);
+      //filter: brightness(75%) saturate(50%);
     }
   }
 }
@@ -143,17 +145,29 @@ dl.d-flex {
 
 // Hide images until they are fully loaded
 
+/*
 .lazyload,
 .lazyloading {
   opacity: 0;
   //height: .5625vw;
 }
-
 .lazyloaded {
   opacity: 1;
   transition: opacity 300ms;
 }
-
+*/
+.lazyload {
+	opacity: 0;
+  width: 640px;
+  height: 360px;
+}
+.lazyloading {
+	opacity: .3;
+	transition: opacity 300ms;
+}
+.lazyloaded {
+  opacity: .3;
+}
 
 // Cookieconsent
 

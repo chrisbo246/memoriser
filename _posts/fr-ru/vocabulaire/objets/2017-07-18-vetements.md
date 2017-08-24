@@ -1,15 +1,15 @@
 ---
-title: "Vocabulaire Russe: Vêtements"
-description: "Liste de vocabulaire Russe relatif aux vêtements."
-excerpt: "Liste de vocabulaire Russe relatif aux vêtements."
+title: "Vocabulaire russe: Vêtements"
+description: "Liste de vocabulaire russe relatif aux vêtements."
+excerpt: "Liste de vocabulaire russe relatif aux vêtements."
 image:
-  path: assets/images/posts/directions.jpg
+  path: assets/images/posts/clothes.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: vocabulaire
+categories: ["vocabulaire"]
 tags: [
-  objet, vetement
+  objet, vêtement
 ]
 date: 2017-07-18 20:20:20 +0100
 ---

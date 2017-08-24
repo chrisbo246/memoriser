@@ -1,13 +1,13 @@
 ---
-title: "Vocabulaire Russe: Le corps humain"
-description: "Liste de vocabulaire Russe courant relatif au corps humain."
-excerpt: "Liste de vocabulaire Russe courant relatif au corps humain."
+title: "Vocabulaire russe: Corps humain"
+description: "Liste de vocabulaire russe courant relatif au corps humain."
+excerpt: "Liste de vocabulaire russe courant relatif au corps humain."
 image:
-  path: assets/images/posts/belly.jpg
+  path: assets/images/posts/body.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: vocabulaire
+categories: ["vocabulaire"]
 tags: [
   personne, corps, membre, organe, os
 ]
@@ -25,7 +25,7 @@ tête
 
 visage
 : лицо́
-*létso*
+*litso*
 
 membre
 : конечность
@@ -198,14 +198,14 @@ bras
 
 épaules
 : плечи
-*pletchi*
+*plietchi*
 
 aisselle
 : -
 
 coude
 : локоть
-*lokot*
+*lokats*
 
 avant-bras
 : -
@@ -218,15 +218,15 @@ poignet
 
 main
 : рука́
-*rouca*
+*rouka*
 
 mains
 : руки
-*rouqui*
+*rouki*
 
 doigt / orteil
 : палец
-*palétse*
+*paliets*
 
 doigts/orteils
 : пальцы
@@ -234,7 +234,7 @@ doigts/orteils
 
 pouce
 : палец
-*palyetz*
+*paliets*
 
 index
 : -
@@ -266,7 +266,7 @@ jambe
 
 jambes
 : ноги
-*nogi*
+*nogui*
 
 cuisse
 : бедро
@@ -278,7 +278,7 @@ cuisses
 
 genou
 : колено
-*kolyeno*
+*kalièna*
 
 mollet
 : -
@@ -288,7 +288,7 @@ mollet
 
 pied
 : стопа
-*stopa*
+*stapa*
 
 cheville
 : -

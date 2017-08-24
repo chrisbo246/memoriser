@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Sensation"
-description: "Liste de vocabulaire Anglais courant."
-excerpt: "Liste de vocabulaire Anglais courant."
+title: "Vocabulaire anglais: Sensation"
+description: "Liste de vocabulaire anglais courant."
+excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/hands.jpg
   type: "ImageObject"
   width: 640
   height: 360
+categories: ["adjectifs"]
 tags: [
-adjectif, manger
+"sensation", "goût", "touché"
 ]
 date: 2017-07-28 20:20:20 +0100
 ---

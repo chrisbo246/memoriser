@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Déplacements"
-description: "Liste de vocabulaire Anglais courant relatif aux déplacements."
-excerpt: "Liste de vocabulaire Anglais courant relatif aux déplacements."
+title: "Vocabulaire anglais: Déplacements"
+description: "Verbes et actions relatif aux déplacements en anglais."
+excerpt: "Verbes et actions relatif aux déplacements en anglais."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/walking.jpg
   type: "ImageObject"
   width: 640
   height: 360
+categories: ["actions"]
 tags: [
-action
+"déplacement"
 ]
 date: 2017-03-28 20:51:00 +0100
 ---

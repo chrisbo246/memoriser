@@ -1,16 +1,17 @@
 ---
-title: "Vocabulaire Russe: Les types d'hommes"
-description: "Liste de vocabulaire Russe relatif aux différents types d'homme et à la famille."
-excerpt: "Liste de vocabulaire Russe relatif aux différents types d'homme et à la famille."
+title: "Vocabulaire russe: Les types d'hommes"
+description: "Liste de vocabulaire russe relatif aux différents types d'homme et à la famille."
+excerpt: "Liste de vocabulaire russe relatif aux différents types d'homme et à la famille."
 image:
   path: assets/images/posts/family.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: vocabulaire
+categories: ["vocabulaire"]
 tags: [
   personne, famille
 ]
+weight: 50
 date: 2017-04-02 00:38:00 +0100
 ---
 
@@ -18,11 +19,11 @@ date: 2017-04-02 00:38:00 +0100
 
 personne
 : люд
-*lioud*
+*liout'*
 
 personnes
 : люди
-*lioudiè*
+*lioudi*
 
 homme
 : мужчина
@@ -30,7 +31,7 @@ homme
 
 femme
 : фьемме
-*fienmie*
+*fiemmié*
 
 enfant
 : дитя
@@ -38,11 +39,11 @@ enfant
 
 bébé
 : ребенок
-*ribenok*
+*ribienok*
 
 adolescent
 : юноша
-*younosha*
+*younocha*
 
 
 ## Famille
@@ -69,7 +70,7 @@ femme, épouse
 
 père
 : отец
-*otièts*
+*atièts*
 
 mère
 : мать
@@ -141,6 +142,11 @@ monsieur
 : сэр
 *sèr*
 
+
+jeune homme
+: молодой человек
+*moladoi tchielaviek*
+
 madame
 : Миссис
 *missis*
@@ -149,16 +155,13 @@ mademoiselle
 : мисс
 *miss*
 
-jeune homme
-: молодой человек
-*moladoi tchielaviek*
-
 jeune fille
 : девушка
 *diévouchka*
 
 
-## Argot
+## Appellations
+
 
 mon frère
 : братан
@@ -168,14 +171,21 @@ gamine (ma petite)
 : детка
 *dietka*
 
-alcolo
-: алкаш
-*аlkach*
+
+## Argot
+
+racaille
+: гопник
+*gopnik*
 
 coureur de jupons
 : бабник
 *babnik*
 
-gay
+alcolo
+: алкаш
+*аlkach*
+
+pédé
 : голубой
 *golouboy*

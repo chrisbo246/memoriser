@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Mouvements"
-description: "Liste de vocabulaire Anglais courant relatif aux mouvements."
-excerpt: "Liste de vocabulaire Anglais courant relatif aux mouvements."
+title: "Vocabulaire anglais: Mouvements"
+description: "Liste de vocabulaire anglais courant relatif aux mouvements."
+excerpt: "Liste de vocabulaire anglais courant relatif aux mouvements."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/dancer.jpg
   type: "ImageObject"
   width: 640
   height: 360
+  categories: ["actions"]
 tags: [
-action
+"mouvement"
 ]
 date: 2017-03-28 20:51:00 +0100
 ---

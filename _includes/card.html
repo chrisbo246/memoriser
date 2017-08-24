@@ -7,7 +7,8 @@
 {% assign card-classes = 'card' | split: ' ' %}
 {% if src %}
     {% if page.card.image_position == 'overlay' %}
-        {% assign card-classes = card-classes | push: 'card-inverse' %}
+        {% comment %}{% assign card-classes = card-classes | push: 'card-inverse' %}{% endcomment %}
+        {% comment %}{% assign card-classes = card-classes | push: 'text-white' %}{% endcomment %}
     {% endif %}
     {% if post.tags contains 'featured' or post.weight %}
         {% assign card-classes = card-classes | push: 'card-inverse' | push: 'card-primary' %}
@@ -53,18 +54,22 @@
     {% assign more-link-text = page.card.more_link %}
 {% endif %}
 
-
+{% if post.weight %}
+  {% assign card-classes = card-classes | push: 'bg-warning' %}
+  {% assign card-classes = card-classes | push: 'text-white' %}
+{% endif %}
 
 {% assign categories = '' | split: ' ' | push: post.categories | uniq | compact | sort_natural %}
+{% assign tags = '' | split: ' ' | push: post.tags | uniq | compact | sort_natural %}
 
 {% assign card-classes = card-classes | push: 'filter-target' %}
-{% if categories %}
+{% if categories and categories.size > page.categories.size %}
 {% for category in categories %}
 {% assign class = 'category-' | append: category %}
 {% assign card-classes = card-classes | push: class %}
 {% endfor %}
 {% else %}
-{% assign card-classes = card-classes | push: 'category-divers' %}
+{% assign card-classes = card-classes | push: 'category-other' %}
 {% endif %}
 
 {% assign today = site.time | date: '%s' %}
@@ -73,8 +78,20 @@
 {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
 {% assign daysSince = hoursSince | divided_by: 24 %}
 
+{% if page.card.new and daysSince <= page.card.new %}
+  {% assign card-classes = card-classes | push: 'new' %}
+  {% comment %}
+  {% assign card-classes = card-classes | push: 'bg-warning' %}
+  {% assign card-classes = card-classes | push: 'text-white' %}
+  {% endcomment %}
+{% endif %}
 
-<div class="{{ card-classes | join: ' ' }}" >
+{% if post.weight > 0 %}
+{% assign card-classes = card-classes | push: 'featured' %}
+{% endif %}
+
+
+<div class="{{ card-classes | join: ' ' }} text-center" >
 
     {% if src %}
     <img class="{{ card-img-classes | join: ' ' }}" data-src="{{ src }}" alt="{{ post.title }}" width="{{ post.image.default.width | default: post.image.width }}" height="{{ post.image.default.height | default: post.image.height }}">
@@ -102,9 +119,8 @@
 
     {% if page.card.date or page.card.categories or page.card.tags %}
     <div class="card-footer clearfix">
-        {% comment %}{% if page.card.categories %}<small class="text-muted pull-left">{{ post.categories | join: ' ' | push: post.category }}</small>{% endif %}{% endcomment %}
-        {% if page.card.categories %}<small class="pull-left ml-2">{% include tags.html tags=categories item-class="badge badge-primary" %}</small>{% endif %}
-        {% if page.card.tags %}<small class="pull-left ml-2">{% include tags.html tags=post.tags item-class="badge badge-secondary" %}</small>{% endif %}
+        {% if page.card.categories and categories %}<small class="pull-left ml-2">{% include tags.html tags=categories item-class="badge badge-primary" %}</small>{% endif %}
+        {% if page.card.tags and tags %}<small class="pull-left ml-2">{% include tags.html tags=tags item-class="badge badge-secondary" %}</small>{% endif %}
         {% if page.card.date %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
         {% if page.card.new and daysSince <= page.card.new %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
     </div>

@@ -86,6 +86,10 @@ keep_files:
 # ------------------------------------------------------------------------------
 
 collections:
+  #categories:
+  #  output: true
+  #tags:
+  #  output: true
   definition_lists:
     output: true
 
@@ -116,6 +120,20 @@ defaults:
         #height: 360
   -
     scope:
+      path: "_categories"
+      type: categories
+    values:
+      layout: "category"
+      permalink: /categories/:title.html
+  -
+    scope:
+      path: "_tags"
+      type: tags
+    values:
+      layout: "tag"
+      permalink: /tags/:title.html
+  -
+    scope:
       path: ""
       type: "definition_lists"
     values:
@@ -129,7 +147,8 @@ defaults:
     values:
       layout: "definition-lists"
       permalink: /:categories/:title.html
-      categories: [FR]
+      categories: ["francais"]
+      definition-lang: "fr-fr"
   -
     scope:
       path: "_posts/fr-en"
@@ -137,7 +156,7 @@ defaults:
     values:
       layout: "definition-lists"
       permalink: /:categories/:title.html
-      categories: ["FR-EN"]
+      categories: ["anglais"]
       definition-lang: "en-us"
   -
     scope:
@@ -146,7 +165,7 @@ defaults:
     values:
       layout: "definition-lists"
       permalink: /:categories/:title.html
-      categories: ["FR-RU"]
+      categories: ["russe"]
       definition-lang: "ru-ru"
 
 

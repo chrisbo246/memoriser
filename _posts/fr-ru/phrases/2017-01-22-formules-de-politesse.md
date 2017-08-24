@@ -1,13 +1,13 @@
 ---
-title: "Vocabulaire Russe: Formules de politesse"
-description: "Liste de vocabulaire Russe courant relatif aux formules de politesse."
-excerpt: "Liste de vocabulaire Russe courant relatif aux formules de politesse."
+title: "Phrases en russe: Formules de politesse"
+description: "Liste de vocabulaire russe courant relatif aux formules de politesse."
+excerpt: "Liste de vocabulaire russe courant relatif aux formules de politesse."
 image:
   path: assets/images/posts/handshake.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: phrases
+categories: ["phrases"]
 tags: [
   expression, politesse
 ]

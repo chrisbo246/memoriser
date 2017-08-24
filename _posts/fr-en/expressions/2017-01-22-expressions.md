@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Expressions courantes"
-description: "Liste d'expressions Anglaises courantes."
-excerpt: "Liste d'expressions Anglaises courantes."
+title: "Vocabulaire anglais: Expressions courantes"
+description: "Liste d'expressions anglaises courantes."
+excerpt: "Liste d'expressions anglaises courantes."
 image:
   path: assets/images/posts/expression.jpg
   type: "ImageObject"
   width: 640
   height: 360
+categories: ["expressions"]
 tags: [
-expression
+
 ]
 date: 2017-03-28 20:51:00 +0100
 ---

@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Exclamations"
-description: "Liste de vocabulaire Anglais regroupant quelques exclamations et onomatopées courantes."
-excerpt: "Liste de vocabulaire Anglais regroupant quelques exclamations et onomatopées courantes."
+title: "Vocabulaire anglais: Exclamations"
+description: "Liste de vocabulaire anglais regroupant quelques exclamations et onomatopées courantes."
+excerpt: "Liste de vocabulaire anglais regroupant quelques exclamations et onomatopées courantes."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/english-dictionary.jpg
   type: "ImageObject"
   width: 640
   height: 360
+categories: ["expressions"]
 tags: [
-expression, exclamation
+"exclamation", "onomatopée"
 ]
 date: 2017-03-28 20:51:00 +0100
 ---

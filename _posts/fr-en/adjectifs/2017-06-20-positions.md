@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Positions"
-description: "Liste de vocabulaire Anglais courant relatif à la position d'un objet ou d'une personne."
-excerpt: "Liste de vocabulaire Anglais courant relatif à la position d'un objet ou d'une personne."
+title: "Vocabulaire anglais: Positions"
+description: "Liste de vocabulaire anglais courant relatif à la position d'un objet ou d'une personne."
+excerpt: "Liste de vocabulaire anglais courant relatif à la position d'un objet ou d'une personne."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/english-dictionary.jpg
   type: "ImageObject"
   width: 640
   height: 360
+categories: ["adjectifs"]
 tags: [
-adjectif, lieu
+"position", "distance"
 ]
 date: 2017-03-28 20:51:00 +0100
 ---

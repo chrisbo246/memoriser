@@ -1,13 +1,13 @@
 ---
-title: "Vocabulaire Russe: Exclamations et onomatopées"
-description: "Liste de vocabulaire Russe recensant les exclamations les plus courantes."
-excerpt: "Liste de vocabulaire Russe recensant les exclamations les plus courantes."
+title: "Phrases en russe: Exclamations et onomatopées"
+description: "Liste de vocabulaire russe recensant les exclamations les plus courantes."
+excerpt: "Liste de vocabulaire russe recensant les exclamations les plus courantes."
 image:
   path: assets/images/posts/russian-dictionary.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: phrases
+categories: ["phrases"]
 tags: [
   expression, exclamation
 ]
@@ -51,9 +51,9 @@ Connerie!
 : ПиЗдет!
 *Pisdièt!*
 
-bordel (désordre)
-: бардак
-*bardák*
+Quel bordel! (désordre)
+: Бардак!
+*Bardák!*
 
 
 ## Surprise
@@ -105,7 +105,7 @@ A l'aide!
 
 ## Insultes
 
-con
+con (idiot)
 : дурак
 *dourak*
 

@@ -1,13 +1,13 @@
 ---
-title: "Vocabulaire Russe: Objets du quotidien"
-description: "Liste de vocabulaire Russe courant relatif aux objets du quotidien."
-excerpt: "Liste de vocabulaire Russe courant relatif aux objets du quotidien."
+title: "Vocabulaire russe: Objets du quotidien"
+description: "Liste de vocabulaire russe courant relatif aux objets du quotidien."
+excerpt: "Liste de vocabulaire russe courant relatif aux objets du quotidien."
 image:
   path: assets/images/posts/house.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: vocabulaire
+categories: ["vocabulaire"]
 tags: [
   objet, maison
 ]
@@ -73,46 +73,6 @@ smartphone
 appareil photo
 : фотоаппарат
 *fotoapparat*
-
-
-## Couverts et ustensiles
-
-
-cuillère
-: ложка
-*lojka*
-
-couteau
-: нож
-*noj*
-
-louche
-: ложка
-*lojka*
-
-tasse
-: кружка
-*kroojka*
-
-assiette
-: тарелка
-*tarielka*
-
-tasse
-: чашка
-*tchаchka*
-
-théière
-: чайник
-*tchаignik*
-
-verre
-: стакан
-*stakan*
-
-verre
-: стекло
-*styeklo*
 
 
 ## Accessoires de toilette

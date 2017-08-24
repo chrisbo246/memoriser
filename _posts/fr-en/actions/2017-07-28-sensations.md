@@ -1,14 +1,15 @@
 ---
-title: "Vocabulaire Anglais: Sensations"
-description: "Liste de vocabulaire Anglais courant relatif aux sensations."
-excerpt: "Liste de vocabulaire Anglais courant relatif aux sensations."
+title: "Vocabulaire anglais: Sensations"
+description: "Liste de vocabulaire anglais courant relatif aux sensations."
+excerpt: "Liste de vocabulaire anglais courant relatif aux sensations."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/english-dictionary.jpg
   type: "ImageObject"
   width: 640
   height: 360
+categories: ["actions"]
 tags: [
-action, personne
+"personne", "sensation"
 ]
 date: 2017-07-28 20:51:00 +0100
 ---

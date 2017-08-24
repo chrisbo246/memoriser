@@ -1,14 +1,14 @@
 ---
-title: "Vocabulaire Russe: Vocabulaire facile"
-description: "Liste de vocabulaire Russe similaire au Français."
-excerpt: "Liste de vocabulaire Russe similaire au Français."
+title: "Vocabulaire russe: Vocabulaire facile"
+description: "Liste de vocabulaire russe similaire au français."
+excerpt: "Liste de vocabulaire russe similaire au français."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/russian-dictionary.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: vocabulaire
-tags: ["vocabulaire", "Russe", "liste de vocabulaire", "vocabulaire russe"]
+categories: ["vocabulaire"]
+tags: []
 date: 2017-07-17 17:18:00 +010
 ---
 
@@ -1094,11 +1094,11 @@ gabarit
 
 gaz
 : газ
-*gas*
+*gass*
 
 gaze
 : газ (ткань)
-*gaze*
+*gass*
 
 gazette
 : газета
@@ -3716,7 +3716,7 @@ personne
 
 personnage
 : персонаж
-*personnage*
+*personnach*
 
 pessimiste
 : пессимист
@@ -3756,7 +3756,7 @@ pilote
 
 pilotage
 : пилотаж
-*pilotage*
+*pilotach*
 
 pincette
 : пинцет
@@ -3840,7 +3840,7 @@ plombières
 
 plumage
 : плюмаж
-*plumage*
+*plumach*
 
 peluche
 : плюш

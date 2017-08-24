@@ -1,13 +1,13 @@
 ---
-title: "Phrases Russe: Se présenter"
-description: "Liste de phrases permettant de se présenter en Russe."
-excerpt: "Liste de phrases permettant de se présenter en Russe."
+title: "Phrases en russe: Se présenter"
+description: "Liste de phrases permettant de se présenter en russe."
+excerpt: "Liste de phrases permettant de se présenter en russe."
 image:
   path: assets/images/posts/handshake.jpg
   type: "ImageObject"
   width: 640
   height: 360
-category: phrases
+categories: ["phrases"]
 tags: [
   présentation
 ]
@@ -39,11 +39,11 @@ Ravi de vous rencontrer!
 
 ## Se présenter
 
-Je suis Français
+Je suis français
 : Я Француз
 *Ya Frantsuz*
 
-Je suis Française
+Je suis française
 : Я француженка
 *Ya frantsoujienka*
 

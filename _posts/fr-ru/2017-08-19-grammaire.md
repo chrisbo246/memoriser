@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Grammaire Russe"
+title: "Grammaire russe"
 description: "Apprendre à reconnaître les genres et le pluriel."
 excerpt: "Apprendre à reconnaître les genres et le pluriel."
 image:
-path: assets/images/posts/letters.jpg
-type: "ImageObject"
-width: 640
-height: 360
+  path: assets/images/posts/russian-dictionary.jpg
+  type: "ImageObject"
+  width: 640
+  height: 360
 tags: [
 cyrillique, grammaire
 ]
@@ -52,7 +52,7 @@ date: 2017-04-01 01:31:00 +0100
 </tr>
 <tr>
 <td style="background: #ddff00;">Я</td>
-<td style="background: #ff88ff;">F</td>
+<td style="background: #eeccff;">M/F</td>
 <td style="background-color: #ffffcc;">И</td>
 </tr>
 <tr>
@@ -198,6 +198,16 @@ date: 2017-04-01 01:31:00 +0100
 </table>
 
 
+## Comment deviner le genre d'un nom
+
+Vous devez faire attention car les noms n'ont pas forcément le même genre en russe qu'en français (ex: un fleur, une chien, etc...). Pour deviner le genre d'un nom, regardez la fin du mot.
+
+- *Neutre* si le nom se termine par *О*, *Е*, *NЕ*, *ЬЕ*, *ОЕ* ou *МЯ*, bref le son "o" ou "iè" ou "mia".
+- *Féminin* si le nom se termine par *А*, *Я* ou *ИЯ*, bref le son "a" (sauf "mia").
+- *Masculin* si le nom se termine par une consonne. Sauf pour homme, jeune-homme, père, grand-père et oncle.
+- *Masculin ou féminin* si le nom se termine par *Ь*. Dans ce cas, seul le dictionnaire peut vous aider.
+
+
 ## Le pluriel
 
 Pour utiliser le pluriel, vous devez tout d'abord déterminer le genre du nom (masculin, féminin ou neutre).
@@ -226,7 +236,7 @@ Pour utiliser le pluriel, vous devez tout d'abord déterminer le genre du nom 
 </dl>
 
 
-## La grammaire Russe sur youtube
+## La grammaire russe sur youtube
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/OSH03qIBBWE" frameborder="0" allowfullscreen></iframe></p>
 
