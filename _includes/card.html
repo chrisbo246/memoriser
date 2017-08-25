@@ -118,7 +118,7 @@
     </div>
 
     {% if page.card.date or page.card.categories or page.card.tags %}
-    <div class="card-footer clearfix">
+    <div class="card-footer clearfix hidden-sm visible-xs">
         {% if page.card.categories and categories %}<small class="pull-left ml-2">{% include tags.html tags=categories item-class="badge badge-primary" %}</small>{% endif %}
         {% if page.card.tags and tags %}<small class="pull-left ml-2">{% include tags.html tags=tags item-class="badge badge-secondary" %}</small>{% endif %}
         {% if page.card.date %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}

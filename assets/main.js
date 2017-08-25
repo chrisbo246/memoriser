@@ -16,24 +16,13 @@
 
   $(function () {
 
-    $('[title]').tooltip();
-
-    // Searchbox filter
-    $('.searchbox-input').change( function () {
-      $('.card').show();
-      var filter = $(this).val();
-      $('.container')
-      .find(".card-title:not(:contains(" + filter + "))")
-      .parent()
-      .css('display','none');
-    });
-
     // Convert dl to flexbox cards
     var $dt, $dd, id;
     var $container = $('.definition-list');
     var $dls = $container.find('dl');
     if ($dls) {
-      $dls.addClass('d-flex flex-row flex-wrap'); // justify-content-center align-content-center
+      $dls.addClass('d-flex flex-row flex-wrap');
+
 
       // Wrap dt+dd's
       $dls.find('dt').each(function() {
@@ -49,45 +38,25 @@
         .wrapAll('<div class="card-body"></div>');
         $(this).parents('label')
         .prepend('<input type="checkbox" id="' + id + '" />');
-        //.prepend('<a class="tts fa fa-ok" data-tts-text="' + id + '" ></a>');
-
       });
+
 
       // Text To Speech API (voicerss.org)
       var dtLang = $('html').attr('lang');
       dtLang = dtLang.replace(/^([a-z]{2})$/gi, '$1-$1');
       var ddLang = $container.data('definition-lang');
       if (dtLang && ddLang) {
-        //$dls.find('.card-block').append('<button type="button" class="btn btn-outline-secondary btn-sm pull-right btn-tts"><i class="fa fa-play text-muted"></i></button>');
-        //$dls.find('.card').append('<button type="button" class="btn -btn-outline-secondary btn-sm btn-tts"><i class="fa fa-play"></i></button>');
-        //$dls.find('.card').append('<a href="#" class="card-link btn-tts"><i class="fa fa-play text-muted"></i></a>');
-        //$dls.find('dd').addClass('btn-tts');
         $dls.find('dd').prepend('<button type="button" class="btn btn-link btn-sm pull-right btn-tts"><i class="fa fa-volume-up"></i></button>');
-        //$dls.find('.card-block').prepend('<button type="button" class="btn btn-outline-secondary btn-sm pull-right btn-tts"><i class="fa fa-play"></i></button>');
-        /*
-        $dls.on('mouseenter', 'dt', function() {
-          var html = $(this).html();
-          var $el = $('<div>').html(html);
-          $el.find('em').remove();
-          ttsOptions.hl = dtLang;
-          ttsOptions.src = $el.text().replace(/s*\([^()]*\)/, '');
-          //console.log(ttsOptions);
-          $.speech(ttsOptions);
-        });
-        */
-        //$dls.on('mouseenter', 'dd', function() {
-        //  var html = $(this).html();
         $dls.on('click', '.btn-tts', function(e) {
-          //e.stopPropagation();
           var html = $(this).closest('.card').find('dd').html();
           var $el = $('<div>').html(html);
           $el.find('em').remove();
           ttsOptions.hl = ddLang;
           ttsOptions.src = $el.text().replace(/s*\([^()]*\)/, '');
-          //console.log(ttsOptions);
           $.speech(ttsOptions);
         });
       }
+
 
       // Store / restore checked definitions
       if (window.localStorage) {
@@ -108,6 +77,7 @@
           localStorage.setItem(key, value);
         });
       }
+
 
       // Unhide post content once everything is in place
       $container.css('visibility', 'visible');
@@ -134,14 +104,28 @@
           offset: offset
         });
       } else {
-        //$nav.parent('.card');
-        console.log('Hide index');
         $nav.parents('.col').first().hide();
       }
     }
 
 
+    // Convert title attributs into tooltips
+    $('[title]').tooltip();
+
+
+    // Searchbox filter
+    $('.searchbox-input').change( function () {
+      $('.card').show();
+      var filter = $(this).val();
+      $('.container')
+      .find(".card-title:not(:contains(" + filter + "))")
+      .parent()
+      .css('display','none');
+    });
+
+
     // Smooth scroll with anchors
+    var scrollTopDuration = 1000;
     $('a[href*="#"]').filter('[href*="#"]:not([href="#"]):not([data-toggle])').click(function (e) {
       e.preventDefault();
       if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
@@ -150,14 +134,30 @@
         if (target.length) {
           $('html, body').stop().animate({
             scrollTop: target.offset().top
-          }, 1000, 'swing');
+          }, scrollTopDuration, 'swing');
           return false;
         }
       }
     });
 
 
-    // Keep closed alert closed
+    // Show/hide the scroll-to-top button according to scrollbar position
+    var scrollTopOffset = 1000;
+    var scrollTopButtonFadeDuration = 300;
+    var $link = $('a[href="#top"]');
+    if ($link) {
+        $link.fadeOut();         
+        $(window).on('scroll', function() {
+          if ($(this).scrollTop() > scrollTopOffset) {
+            $link.stop().fadeTo(scrollTopButtonFadeDuration, 1);
+          } else {
+            $link.stop().fadeOut(scrollTopButtonFadeDuration);
+          }
+        });
+    }
+
+
+    // Keep alerts closed
     if (window.localStorage) {
       var $alert, key, value;
       var $alerts = $('.alert-dismissible').filter('[id]');
@@ -180,6 +180,24 @@
     }
 
 
+    // Restore toggled elements
+    if (window.localStorage) {
+      var $collapses = $('.collapse').filter('[id]');
+      $collapses.on('hidden.bs.collapse', function () {
+        localStorage.removeItem(this.id + '_collapse', JSON.stringify(false));
+      });
+      $collapses.on('shown.bs.collapse', function () {
+        localStorage.setItem(this.id + '_collapse', JSON.stringify(true));
+      });
+      $collapses.each(function () {
+        var value = JSON.parse(localStorage.getItem(this.id + '_collapse'));
+        if (value === true) {
+          $(this).collapse('show');
+        }
+      });
+    }
+
+
     // Card filter
     var filter = function () {
       var $togglers = $('.filter-toggler:checked');
@@ -196,7 +214,6 @@
     filter();
 
     $('.filter-toggler').change(function () {
-      console.log('click');
       filter();
     });
 

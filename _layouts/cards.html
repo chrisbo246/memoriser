@@ -7,7 +7,7 @@ layout: default
 <div class="container-fluid">
 
     {% if page.title %}
-    <header class="post-header">
+    <header class="post-header" hidden>
         <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
         {% if page.subtitle %}
         <h6 class="mb-2 text-muted">{{ post.subtitle | escape }}</h6>
@@ -19,10 +19,14 @@ layout: default
         {{ content }}
     </div>
 
+
     {% include related-posts.html %}
+
     {% if posts.size > 0 %}
 
+    <div class="collapse" id="post_list_options">
     {% include filters.html posts = posts %}
+    </div>
 
     {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
     <div class="card-columns">

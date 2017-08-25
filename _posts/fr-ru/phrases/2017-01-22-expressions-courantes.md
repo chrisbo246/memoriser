@@ -25,7 +25,6 @@ Quel joli prénom!
 : Какое красивое имя!
 *Kakoie krassivae imia!*
 
-
 C'est dangereux (ici).
-Это опасно (здесь).
+: Это опасно (здесь).
 *Eta rapasna (zdies)*

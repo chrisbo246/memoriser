@@ -1,0 +1,54 @@
+
+<div class="collapse navbar-collapse" id="navbarCollapseLeft">
+  <form class="form-inline">
+
+    {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
+    {% if categories %}
+    <div class="btn-group pull-left" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
+      {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
+      {% for filter in categories %}
+      {% unless page.categories contains filter %}
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="category-filters" class="filter-toggler" data-filter=".category-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
+      </label>
+      {% endunless %}
+      {% endfor %}
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="category-filters" class="filter-toggler" data-filter=".category-other">{{ t.other }}
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="category-filters" class="filter-toggler" data-filter="">{{ t.all }}
+      </label>
+    </div>
+    {% endif %}
+
+    {% comment %}
+    {% assign tags = include.posts | map: "tags" | uniq | compact | sort_natural %}
+    {% if tags %}
+    <br>
+    <div class="btn-group btn-group-sm" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
+      {% for filter in tags %}
+      {% unless page.tags contains filter %}
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="category-filters" class="filter-toggler" data-filter=".tags-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
+      </label>
+      {% endunless %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% endcomment %}
+
+    <div class="btn-group pull-right" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
+      <label class="btn btn-outline-secondary active">
+        <input type="radio" name="custom-filters" class="filter-toggler" data-filter=".featured" checked>{{ t.featured }}
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="custom-filters" class="filter-toggler" data-filter=".new">{{ t.new }}
+      </label>
+      <label class="btn btn-outline-secondary">
+        <input type="radio" name="custom-filters" class="filter-toggler" data-filter="">{{ t.all }}
+      </label>
+    </div>
+
+  </form>
+</div>

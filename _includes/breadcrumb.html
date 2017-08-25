@@ -1,0 +1,16 @@
+
+<nav class="{{ include.class | default: 'breadcrumb' }}">
+
+  <a class="breadcrumb-item" href="{{ "/" | relative_url}}">{{ t.home }}</a>
+
+  {% if page.categories %}
+  {% include related-posts.html type='pages' categories=page.categories %}
+  {% assign category_root_page = posts.first %}
+  {% if category_root_page.title and category_root_page.url != posts.first.url %}
+  <a class="breadcrumb-item" href="{{ category_root_page.url | relative_url }}">{{ category_root_page.title }}</a>
+  {% endif %}
+  {% endif %}
+
+  <span class="breadcrumb-item active">{{ page.title | escape }}</span>
+
+</nav>
