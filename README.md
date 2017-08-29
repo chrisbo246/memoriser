@@ -12,8 +12,10 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Convert boring definition lists to easy-to-read flexible cards.
 - Fade memorized definitions for learning purpose (with persistence).
 - Listen to translations (free Text To Speech API).
-- Filter posts by category.
+- Filter posts by category, featured and new.
 - Index generation from anchors.
+- Smooth scroll.
+- Collapsible sidebar for full width content.
 - Share new definitions with the Disqus comment system.
 - Cookie consent ready.
 

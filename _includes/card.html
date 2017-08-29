@@ -100,7 +100,9 @@
 <div class="{{ card-classes | join: ' ' }} text-center" >
 
     {% if src %}
+    <div class="ratio-container unknown-ratio-container">
     <img class="{{ card-img-classes | join: ' ' }}" data-src="{{ src }}" alt="{{ post.title }}" width="{{ post.image.default.width | default: post.image.width }}" height="{{ post.image.default.height | default: post.image.height }}">
+    </div>
     {% endif %}
 
     <div class="{{ card-body-classes | join: ' ' }}">

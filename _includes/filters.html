@@ -9,28 +9,28 @@
       {% for filter in categories %}
       {% unless page.categories contains filter %}
       <label class="btn btn-outline-secondary">
-        <input type="radio" name="category-filters" value="{{ filter | default: 'divers' }}" -id="filter-category-{{ filter | default: 'divers' }}" class="filter-toggler" data-filter=".category-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
+        <input type="radio" name="category-filters" value="{{ filter | default: 'divers' }}" class="filter-toggler" data-filter=".category-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
       </label>
       {% endunless %}
       {% endfor %}
       <label class="btn btn-outline-secondary">
-        <input type="radio" name="category-filters" value="other" -id="filter-category-other" class="filter-toggler" data-filter=".category-other">{{ t.other }}
+        <input type="radio" name="category-filters" value="other" class="filter-toggler" data-filter=".category-other">{{ t.other }}
       </label>
-      <label class="btn btn-outline-secondary">
-        <input type="radio" name="category-filters" value="all" -id="filter-category-all" class="filter-toggler" data-filter="">{{ t.all }}
+      <label class="btn btn-outline-secondary" active>
+        <input type="radio" name="category-filters" value="all" class="filter-toggler" data-filter="" checked>{{ t.all }}
       </label>
     </div>
     {% endif %}
 
     <div class="btn-group pull-right" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
       <label class="btn btn-outline-secondary active">
-        <input type="radio" name="custom-filters" value="featured" -id="filter-featured" class="filter-toggler" data-filter=".featured" checked>{{ t.featured }}
+        <input type="radio" name="custom-filters" value="featured" class="filter-toggler" data-filter=".featured" checked>{{ t.featured }}
       </label>
       <label class="btn btn-outline-secondary">
-        <input type="radio" name="custom-filters" value="new" -id="filter-new" class="filter-toggler" data-filter=".new">{{ t.new }}
+        <input type="radio" name="custom-filters" value="new" class="filter-toggler" data-filter=".new">{{ t.new }}
       </label>
       <label class="btn btn-outline-secondary">
-        <input type="radio" name="custom-filters" value="all" -id="filter-all" class="filter-toggler" data-filter="">{{ t.all }}
+        <input type="radio" name="custom-filters" value="all" class="filter-toggler" data-filter="">{{ t.all }}
       </label>
     </div>
 

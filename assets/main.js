@@ -267,21 +267,24 @@
         }, scrollTopDuration, 'swing', function () {
           // Blink target (or section cards if exists)
 
-          var $highlighted = $('[data-section="' + $target.attr('id') + '"]');
-          console.log('[data-section="' + $target.attr('id') + '"]', $highlighted.length);
-          if ($highlighted.length === 0) {
-            $highlighted = $target;
+          var $sectionItems = $('[data-section="' + $target.attr('id') + '"]');
+          if ($sectionItems.length > 0) {
+            var $highlighted = $sectionItems;
+          } else if ($target.is('a')) {
+            var $highlighted = $target;
           }
 
-          var duration = 300;
-          var repeat = 2;
-          var interval = setInterval(function () {
-            $highlighted.fadeToggle(duration);
-          }, duration);
-          setTimeout(function () {
-            clearInterval(interval);
-            $highlighted.fadeIn(duration);
-          }, duration * repeat - duration);
+          if ($highlighted) {
+            var duration = 300;
+            var repeat = 2;
+            var interval = setInterval(function () {
+              $highlighted.fadeToggle(duration);
+            }, duration);
+            setTimeout(function () {
+              clearInterval(interval);
+              $highlighted.fadeIn(duration);
+            }, duration * repeat - duration);
+          }
 
         });
 

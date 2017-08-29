@@ -19,7 +19,7 @@ layout: default
         {% if posts.size > 0 %}
         <section class="row">
             <div class="col">
-                <div class="card-columns">
+                <div class="card-deck">
                     {% for post in posts %}
                     {% include card.html post=post %}
                     {% endfor %}

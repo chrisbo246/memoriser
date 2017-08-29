@@ -36,6 +36,9 @@ $fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
 // Square icon button
 @import "button-square";
 
+// Lazysizes plugins fixes
+@import "lazysizes";
+
 
 body {
   position: relative;
@@ -103,15 +106,6 @@ body {
 }
 
 
-.card-columns {
-  .card-img,
-  .card-img-top,
-  .card-img-bottom {
-    filter: grayscale(100%);
-    //filter: brightness(100%) saturate(0%);
-  }
-}
-
 
 .card {
   .img-fluid {
@@ -140,39 +134,12 @@ body {
 }
 
 
-// Hide images until they are fully loaded
-
-/*
-.lazyload,
-.lazyloading {
-  opacity: 0;
-  //height: .5625vw;
-}
-.lazyloaded {
-  opacity: 1;
-  transition: opacity 300ms;
-}
-*/
-.lazyload {
-  opacity: 0;
-}
-.lazyloading {
-  opacity: 1;
-  transition: opacity 300ms;
-}
-.lazyloaded {
-  opacity: 1;
-}
-
-.card-img {
-  width: 640px;
-  height: 360px;
-}
+// Faded cards
 
 .card-img.card-img-faded {
-  &.lazyloading {
-    opacity: .3;
-  }
+  filter: grayscale(100%);
+  //filter: brightness(100%) saturate(0%);
+  &.lazyloading,
   &.lazyloaded {
     opacity: .3;
   }
@@ -196,4 +163,13 @@ body {
 
 .cc-window.cc-theme-block {
   box-shadow: 0 0 60px 30px $body-bg;
+}
+
+
+// Capitalize tags & categories
+
+.breadcrumb-item,
+.card-footer .badge,
+#post_list_options .btn-group label {
+  text-transform: capitalize;
 }
