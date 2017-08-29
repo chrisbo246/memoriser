@@ -21,7 +21,7 @@
    * Convert title attributs into tooltips
    */
 
-  $('[title]').tooltip();
+  //$('[title]').tooltip();
 
 
 
@@ -76,30 +76,8 @@
         id = encodeURIComponent(id);
         //id = encodeURIComponent(id).replace(/[\%]/g,'').replace(/[\W]+/g,'-');
 
-        /**
-         * Random card color
-         */
-
         //var cardStyle = cardStyles[Math.floor(Math.random() * cardStyles.length)];
         var cardStyle = cardStyles[1];
-
-        /*
-        $dt.add($dd)
-        .wrapAll('<label><div class="card m-1"><div class="card-body"></div></div></label>')
-        $dt.parents('label')
-        .prepend('<input type="checkbox" id="' + id + '" />');
-        $dt.replaceWith('<h4 class="card-title">' + $dt.html() + '</h4>');
-        $dd.replaceWith('<p class="card-text">' + $dd.html() + '</p>');
-        */
-        /*
-        $dt.add($dd).replaceWith(
-        '<label><input type="checkbox" id="' + id + '" />'
-        + '<div class="card m-1"><div class="card-body">'
-        + '<h4 class="card-title">' + $dt.html() + '</h4>'
-        + '<p class="card-text">' + $dd.html() + '</p>'
-        +'</div></div>'
-        + '</label>');
-        */
 
         html = html
         + '<label class="m-0" '
@@ -109,7 +87,6 @@
         + '<div class="card ' + cardStyle + ' m-2">'
         + '<div class="card-body">'
         + '<h4 class="card-title h5">' + $dt.html() + '</h4>'
-        //+ '<h4 class="card-title h5"' + (i === 0 ? 'id="' + section + '"' : '') + ' >' + $dt.html() + '</h4>'
         + '<p class="card-text">'
         + ((dtLang && ddLang) ? '<a class="btn btn-link btn-sm pull-right btn-tts" href="#" role="button"><i class="fa fa-volume-up"></i></a>' : '')
         + $dd.html() + '</p>'
@@ -134,11 +111,6 @@
       var $title = $(this);
       var id = $title.attr('id') || encodeURIComponent($title.text());
       /*
-      $title
-      .addClass('card-title')
-      .wrapAll('<div class="card bg-light m-1"><div class="card-body"></div></div>');
-      */
-      /*
       $title.replaceWith(
         '<div class="card m-2 d-none card-section">'
         + '<div class="card-body d-flex bg-faded text-muted text-center">'
@@ -160,12 +132,7 @@
      * Initialize the Text To Speech button (voicerss.org)
      */
 
-    //var dtLang = $('html').attr('lang');
-    //dtLang = dtLang.replace(/^([a-z]{2})$/gi, '$1-$1');
-    //var ddLang = $container.data('definition-lang');
-    //var $buttons = $('.btn-tts');
     if (dtLang && ddLang) {
-      //$dls.find('dd').prepend('<button type="button" class="btn btn-link btn-sm pull-right btn-tts"><i class="fa fa-volume-up"></i></button>');
       $container.on('click', '.btn-tts', function(e) {
         //var html = $(this).closest('.card').find('dd').html();
         var html = $(this).closest('.card').find('.card-text').html();
@@ -176,9 +143,7 @@
         $.speech(ttsOptions);
       });
     }
-    //} else {
-    //  $container.find('.btn-tts').hide();
-    //}
+
 
 
     /**
@@ -200,7 +165,7 @@
   if ($nav) {
     var navItems = '';
     var $title;
-    var $titles = $('.post-content').find('h2, h4.card-title, h5.card-title, h6.card-title, [data-section]').filter('[id]');
+    var $titles = $('.post-content').find('h2, h4.card-title, label[data-section]').filter('[id]');
     if ($titles) {
       $titles.each(function () {
         $title = $(this);
@@ -215,7 +180,6 @@
         offset: paddingTop
       });
     } else {
-      //$nav.parents('.col').first().hide();
       $nav.parents('.collapse').first().collapse({
         toggle: false
       });
@@ -244,7 +208,7 @@
    */
 
   var scrollTopDuration = 1000;
-  $('a[href*="#"]').filter('[href*="#"]:not([href="#"]):not([data-toggle])').click(function (e) {
+  $('a').filter('[href*="#"]:not([href="#"]):not([data-toggle])').click(function (e) {
     //e.preventDefault();
     if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
       var $target = $(this.hash) || $('[name=' + this.hash.slice(1) +']');
@@ -265,12 +229,12 @@
         $('html, body').stop().animate({
           scrollTop: top - paddingTop
         }, scrollTopDuration, 'swing', function () {
-          // Blink target (or section cards if exists)
 
-          var $sectionItems = $('[data-section="' + $target.attr('id') + '"]');
+          // Blink target (or section)
+          var $sectionItems = $('label').filter('[data-section="' + $target.attr('id') + '"]');
           if ($sectionItems.length > 0) {
             var $highlighted = $sectionItems;
-          } else if ($target.is('a')) {
+          } else if ($target.is('h1, h2, h3, h4, a, p')) {
             var $highlighted = $target;
           }
 
@@ -302,7 +266,7 @@
 
   var scrollTopOffset;
   var scrollTopButtonFadeDuration = 300;
-  var $link = $('a[href="#top"]');
+  var $link = $('a').filter('[href="#top"]');
   if ($link) {
     $link.fadeOut();         
     $(window).on('scroll', function() {
@@ -354,10 +318,10 @@
 
   var $collapses = $('.collapse').filter('[id]');
   $collapses.on('shown.bs.collapse', function () {
-    $('.btn[data-target="#' + this.id + '"]').addClass('active');
+    $('.btn').filter('[data-target="#' + this.id + '"]').addClass('active');
   });
   $collapses.on('hidden.bs.collapse', function () {
-    $('.btn[data-target="#' + this.id + '"]').removeClass('active');
+    $('.btn').filter('[data-target="#' + this.id + '"]').removeClass('active');
   });
 
 
