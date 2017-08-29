@@ -1,75 +1,61 @@
+.definition-list  {
 
-dl.d-flex {
-    /*
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 0;
-    margin-right: 0;
-    & > * {
-        min-width: 7rem;
-        //min-height: 7rem;
-        margin: 2px;
-        //margin: $card-columns-gap;
-        padding: $card-spacer-y $card-spacer-x;
-    }
-    */
-}
+  .card {
+    min-width: 7.7rem;
+    min-height: 7.7rem;
+    //min-width: 6.7rem;
+    //min-height: 6.7rem;
+    //margin: 2px;
+  }
 
-dl.d-flex {
-    /*
-    & > * {
-        background: rgba($card-bg,.4);
-        border-width: $card-border-width;
-        border-radius: $card-border-radius;
-        border-style: solid;
-        border-color: $card-border-color;
-        box-shadow: 1px 2px 6px rgba($black,.1);
-        //box-shadow: $btn-box-shadow;
-        border-radius: $card-border-radius;
-        transition: all .3s;
+  .card-body {
+    max-width: 25rem;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .card.card-section {
+    width: 12rem;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  input[type="checkbox"] ~ .card {
+
+    //box-shadow: 1px 2px 6px rgba($black,.1);
+    transition: all .3s;
+    //transition: box-shadow .3s, opacity 2s ease-out;
+
+    &:hover {
+      //background: rgba($card-bg,.9);
+      box-shadow: 1px 2px 6px rgba($black,.3);
+      //border-color: $brand-primary;
+      //box-shadow: $btn-focus-box-shadow;
     }
-    & > *:hover {
-        background: rgba($card-bg,.9);
-        box-shadow: 1px 2px 6px rgba($black,.3);
-        border-color: $brand-primary;
-        //box-shadow: $btn-focus-box-shadow;
-    }
-    */
-    .card {
-        box-shadow: 1px 2px 6px rgba($black,.1);
-        transition: all .3s;
-        min-width: 7.7rem;
-        min-height: 7.7rem;
-        //min-width: 6.7rem;
-        //min-height: 6.7rem;
-        margin: 2px;
-        //margin: $card-columns-gap;
-        //padding: $card-spacer-y $card-spacer-x;
-    }
-    //[data-definition-lang] & .card {
-    //    min-width: 8.4rem;
-    //    min-height: 8.4rem;
-    //}
-    .card:hover {
-        //background: rgba($card-bg,.9);
-        box-shadow: 1px 2px 6px rgba($black,.3);
-        //border-color: $brand-primary;
-        //box-shadow: $btn-focus-box-shadow;
-    }
-    dt {
-        //font-size: 1.1rem;
-        font-weight: bold;
-    }
-    dd {
-        margin-left: 0;
-        em {
-            display: block;
-            //font-size: 95%;
-        }
-    }
+
+  }
+
+  input[type="checkbox"]:checked ~ .card {
+    opacity: .25;
+    //transition: all .3s;
+  }
+
+  .card-title,
+  dt {
+    //font-weight: bold;
+  }
+
+  .card-text,
+  dd {
+    //margin-left: 0;
     em {
-        //color: $text-muted;
-        color: $gray-lighter;
+      display: block;
     }
+  }
+
+  em {
+    color: $text-muted;
+    //color: $gray-lighter;
+  }
+
 }

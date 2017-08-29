@@ -2,13 +2,12 @@
   <nav class="navbar navbar-light bg-light fixed-top -navbar-expand-md justify-content-between">
 
     {% if page.layout == 'home' %}
-    <h1>
       <a class="navbar-brand" href="{{ "/" | relative_url}}">
         <!--<img src="{{ "/assets/images/favicons/favicon-32x32.png" | relative_url }}" width="32" height="32" class="d-inline-block align-top" alt="{{ site.title }} logo" />
         {{ site.title | escape }} <span class="badge badge-warning">BETA</span>-->
         {{ site.title | slice: 0, 4 | escape }}<span class="text-warning">{{ site.title | slice: 4, 100 | escape }}</span>
       </a>
-    </h1>
+      <span class="navbar-text p-0">{{ page.title }}</span>
     {% else %}
       {% include breadcrumb.html class='navbar-text p-0' %}
     {% endif %}
@@ -16,28 +15,23 @@
     <div class="form-inline">
       {% if page.layout == 'definition-lists' %}
       <button type="button" class="btn btn-outline-secondary btn-square-md mr-2" data-toggle="collapse" data-target="#post_options" aria-controls="post_options" aria-expanded="false" aria-label="{{ t.toggle_options }}">
-        <span class="fa fa-cog fa-1x"></span>
+        <span class="fa fa-bars -fa-cog fa-1x"></span>
       </button>
       {% endif %}
       {% if page.layout == 'cards' %}
       <button type="button" class="btn btn-outline-secondary btn-square-md mr-2" data-toggle="collapse" data-target="#post_list_options" aria-controls="post_list_options" aria-expanded="false" aria-label="{{ t.toggle_options }}">
-        <span class="fa fa-cog fa-1x"></span>
+        <span class="fa fa-filter -fa-cog fa-1x"></span>
       </button>
       {% endif %}
       <button class="-navbar-toggler -hidden-md-up btn btn-outline-secondary btn-square-md" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ t.toggle_navigation }}">
-        <span class="-navbar-toggler-icon fa -fa-bars fa-info fa-1x"></span>
+        <span class="-navbar-toggler-icon fa fa-info fa-1x"></span>
       </button>
     </div>
 
     <div class="collapse navbar-collapse -navbar-toggleable-md" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto d-flex flex-sm-row justify-content-between">
-        {% if page.layout == 'definition-lists' %}
-
-        {% else %}
-
-        {% endif %}
-        {% include nav-items-infos.html %}
-      </ul>
+        <ul class="navbar-nav ml-auto d-flex flex-sm-row justify-content-between">
+          {% include nav-items-infos.html %}
+        </ul>
     </div>
 
   </nav>

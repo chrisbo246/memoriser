@@ -5,12 +5,14 @@ layout: default
 {% assign t = site.data.locales[lang] %}
 
 <div class="home">
+  <!--
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">{{ page.title | default: site.title }}</h1>
             <p class="lead">{{ page.excerpt | default: site.description }}</p>
         </div>
     </div>
+  -->
     <div class="container-fluid">
 
         {% assign posts = site.pages | where_exp: 'item', 'item.categories' | sort: 'title' %}

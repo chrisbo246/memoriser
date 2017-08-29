@@ -1,6 +1,6 @@
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
- * @version 1.12.3
+ * @version 1.12.4
  * @license
  * Copyright (c) 2016 Federico Zivolo and contributors
  *
@@ -238,18 +238,18 @@ var isIE10$1 = function () {
   return isIE10;
 };
 
-function getSize(axis, body, html, computedStyle) {
-  return Math.max(body[`offset${axis}`], body[`scroll${axis}`], html[`client${axis}`], html[`offset${axis}`], html[`scroll${axis}`], isIE10$1() ? html[`offset${axis}`] + computedStyle[`margin${axis === 'Height' ? 'Top' : 'Left'}`] + computedStyle[`margin${axis === 'Height' ? 'Bottom' : 'Right'}`] : 0);
+function getSize(axis, body, html, computedStyle, includeScroll) {
+  return Math.max(body[`offset${axis}`], includeScroll ? body[`scroll${axis}`] : 0, html[`client${axis}`], html[`offset${axis}`], includeScroll ? html[`scroll${axis}`] : 0, isIE10$1() ? html[`offset${axis}`] + computedStyle[`margin${axis === 'Height' ? 'Top' : 'Left'}`] + computedStyle[`margin${axis === 'Height' ? 'Bottom' : 'Right'}`] : 0);
 }
 
-function getWindowSizes() {
+function getWindowSizes(includeScroll = true) {
   const body = window.document.body;
   const html = window.document.documentElement;
   const computedStyle = isIE10$1() && window.getComputedStyle(html);
 
   return {
-    height: getSize('Height', body, html, computedStyle),
-    width: getSize('Width', body, html, computedStyle)
+    height: getSize('Height', body, html, computedStyle, includeScroll),
+    width: getSize('Width', body, html, computedStyle, includeScroll)
   };
 }
 
@@ -456,7 +456,7 @@ function getBoundaries(popper, reference, padding, boundariesElement) {
 
     // In case of HTML, we need a different computation
     if (boundariesNode.nodeName === 'HTML' && !isFixed(offsetParent)) {
-      const { height, width } = getWindowSizes();
+      const { height, width } = getWindowSizes(false);
       boundaries.top += offsets.top - offsets.marginTop;
       boundaries.bottom = height + offsets.top;
       boundaries.left += offsets.left - offsets.marginLeft;

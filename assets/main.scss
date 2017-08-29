@@ -102,20 +102,6 @@ body {
   }
 }
 
-dl.card-columns,
-dl.d-flex {
-  & > label {
-    margin-bottom: 0;
-    input[type="checkbox"] {
-      display: none;
-    }
-    input[type="checkbox"]:checked {
-      & + .card {
-        opacity: .25;
-      }
-    }
-  }
-}
 
 .card-columns {
   .card-img,
@@ -168,17 +154,43 @@ dl.d-flex {
 }
 */
 .lazyload {
-	opacity: 0;
+  opacity: 0;
+}
+.lazyloading {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.lazyloaded {
+  opacity: 1;
+}
+
+.card-img {
   width: 640px;
   height: 360px;
 }
-.lazyloading {
-	opacity: .3;
-	transition: opacity 300ms;
+
+.card-img.card-img-faded {
+  &.lazyloading {
+    opacity: .3;
+  }
+  &.lazyloaded {
+    opacity: .3;
+  }
 }
-.lazyloaded {
-  opacity: .3;
+
+
+// Hide section titles (without display: none)
+
+/*
+.card-section {
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
 }
+*/
+
 
 // Cookieconsent
 

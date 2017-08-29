@@ -3,7 +3,7 @@ title: "Questions en russe: Demander son chemin en russe"
 description: "Questions permettant de demander son chemin en russe."
 excerpt: "Questions permettant de demander son chemin en russe."
 image:
-  path: assets/images/posts/ask-directions.jpg
+  path: assets/images/posts/ask-direction.jpg
   type: "ImageObject"
   width: 640
   height: 360

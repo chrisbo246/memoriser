@@ -1,24 +1,56 @@
 {% assign post = include.post %}
 
+{% assign categories = '' | split: ' ' | push: post.categories | uniq | compact | sort_natural %}
+{% assign tags = '' | split: ' ' | push: post.tags | uniq | compact | sort_natural %}
+
+{% assign today = site.time | date: '%s' %}
+{% assign date = post.date | date: '%s' %}
+{% assign secondsSince = today | minus: date %}
+{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+{% assign daysSince = hoursSince | divided_by: 24 %}
+
+
+
+{% assign card-classes = 'card' | split: ' ' %}
+{% assign card-classes = card-classes | push: 'filter-target' %}
+
+{% if post.tags contains 'featured' or post.weight %}
+    {% assign card-classes = 'card-primary text-white' | split: ' ' | concat: card-classes %}
+{% endif %}
+
+{% if page.card.text_align %}
+    {% capture class %}text-{{ page.card.text_align }}{% endcapture %}
+    {% assign card-classes = card-classes | push: class %}
+{% endif %}
+
+{% if include.class %}
+{% assign card-classes = include.class | split: ' ' | concat: card-classes %}
+{% endif %}
+
+{% if categories and categories.size > page.categories.size %}
+{% for category in categories %}
+{% assign class = 'category-' | append: category %}
+{% assign card-classes = card-classes | push: class %}
+{% endfor %}
+{% else %}
+{% assign card-classes = card-classes | push: 'category-other' %}
+{% endif %}
+
+{% if page.card.new and daysSince <= page.card.new %}
+  {% assign card-classes = card-classes | push: 'new' %}
+{% endif %}
+
+{% if post.weight > 0 %}
+{% assign card-classes = 'featured bg-warning text-white' | split: ' ' | concat: card-classes %}
+{% endif %}
+
+{% assign card-classes = card-classes | uniq | compact %}
+
+
+
 {% if page.card.image != false %}
 {% assign src = post.image.default.path | default: post.image.default | default: post.image.path | default: post.image %}
 {% endif %}
-
-{% assign card-classes = 'card' | split: ' ' %}
-{% if src %}
-    {% if page.card.image_position == 'overlay' %}
-        {% comment %}{% assign card-classes = card-classes | push: 'card-inverse' %}{% endcomment %}
-        {% comment %}{% assign card-classes = card-classes | push: 'text-white' %}{% endcomment %}
-    {% endif %}
-    {% if post.tags contains 'featured' or post.weight %}
-        {% assign card-classes = card-classes | push: 'card-inverse' | push: 'card-primary' %}
-    {% endif %}
-    {% if page.card.text_align %}
-        {% capture class %}text-{{ page.card.text_align }}{% endcapture %}
-        {% assign card-classes = card-classes | push: class %}
-    {% endif %}
-{% endif %}
-
 {% if src %}
     {% assign card-img-classes = 'img-fluid lazyload' | split: ' ' %}
     {% if page.card.image_position == 'top' or page.card.image_position == 'bottom' %}
@@ -27,7 +59,13 @@
     {% else %}
         {% assign card-img-classes = card-img-classes | push: 'card-img' %}
     {% endif %}
+    {% if include.img-class %}
+    {% assign card-img-classes = include.img-class | split: ' ' | concat: card-img-classes %}
+    {% endif %}
+    {% assign card-img-classes = card-img-classes | uniq | compact %}
 {% endif %}
+
+
 
 {% assign card-body-classes = '' | split: ' ' %}
 {% if src %}
@@ -39,6 +77,9 @@
 {% else %}
     {% assign card-body-classes = card-body-classes | push: 'card-body' %}
 {% endif %}
+{% assign card-body-classes = card-body-classes | uniq | compact %}
+
+
 
 {% assign title = post.title | split: ':' | last | strip %}
 {% assign subtitle = post.subtitle %}
@@ -54,41 +95,6 @@
     {% assign more-link-text = page.card.more_link %}
 {% endif %}
 
-{% if post.weight %}
-  {% assign card-classes = card-classes | push: 'bg-warning' %}
-  {% assign card-classes = card-classes | push: 'text-white' %}
-{% endif %}
-
-{% assign categories = '' | split: ' ' | push: post.categories | uniq | compact | sort_natural %}
-{% assign tags = '' | split: ' ' | push: post.tags | uniq | compact | sort_natural %}
-
-{% assign card-classes = card-classes | push: 'filter-target' %}
-{% if categories and categories.size > page.categories.size %}
-{% for category in categories %}
-{% assign class = 'category-' | append: category %}
-{% assign card-classes = card-classes | push: class %}
-{% endfor %}
-{% else %}
-{% assign card-classes = card-classes | push: 'category-other' %}
-{% endif %}
-
-{% assign today = site.time | date: '%s' %}
-{% assign date = post.date | date: '%s' %}
-{% assign secondsSince = today | minus: date %}
-{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
-{% assign daysSince = hoursSince | divided_by: 24 %}
-
-{% if page.card.new and daysSince <= page.card.new %}
-  {% assign card-classes = card-classes | push: 'new' %}
-  {% comment %}
-  {% assign card-classes = card-classes | push: 'bg-warning' %}
-  {% assign card-classes = card-classes | push: 'text-white' %}
-  {% endcomment %}
-{% endif %}
-
-{% if post.weight > 0 %}
-{% assign card-classes = card-classes | push: 'featured' %}
-{% endif %}
 
 
 <div class="{{ card-classes | join: ' ' }} text-center" >
