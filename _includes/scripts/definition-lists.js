@@ -90,7 +90,7 @@
         + '</div>'
         //+ '<div class="card-footer -bg-light -border-0 p-0">'
         //+ '<div class="btn-group btn-group-sm d-flex" data-toggle="buttons" role="group" aria-label="">'
-        + '<div class="card-footer bg-white border-0 p-1 btn-group d-flex" data-toggle="buttons" role="group" aria-label="">'
+        + '<div class="card-footer bg-transparent border-0 p-1 btn-group d-flex" data-toggle="buttons" role="group" aria-label="">'
         + (($.speech && dtLang && ddLang) ? '<button class="btn btn-light text-muted w-100 btn-tts"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
         + '<label for="' + id + '" class="btn btn-light text-muted w-100"><input type="checkbox" class="memorized" -name="memorized" -value="1" id="' + id + '" autocomplete="off"><i class="fa fa-smile-o fa-lg" aria-hidden="false"></i></label>'
         + '</div>'
