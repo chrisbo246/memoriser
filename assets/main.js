@@ -1,6 +1,9 @@
 ---
 ---
 
+{% assign lang = page.lang | default: site.lang | default: "en" %}
+{% assign t = site.data.locales[lang] %}
+
 $('#disqus_thread').addClass('collapse');
 
 
