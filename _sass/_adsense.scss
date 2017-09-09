@@ -1,24 +1,25 @@
 
-// Bootstrap 4
+// Bootstrap 3-4
 $body-bg: #fff !default;
-$grid-gutter-width-base: 30px !default;
 $zindex-fixed: 1030 !default;
+$grid-gutter-width-base: 30px !default;
 
-// Variables
+// Bootstrap 3 > Bootstrap 4
+$grid-gutter-width: $grid-gutter-width-base !default;
+
+// Bootstrap 4 > Variables
+$ad-gutter-width: $grid-gutter-width !default;
 $ad-bg: $body-bg !default;
-$ad-gutter-width: $grid-gutter-width-base !default;
-$content-gutter-width: $grid-gutter-width-base !default;
 $ad-zindex: $zindex-fixed !default;
 
-$screen-xs-min: 0 !default;
-$screen-sm-min: 576px !default;
-$screen-md-min: 768px !default;
-$screen-lg-min: 992px !default;
-$screen-xl-min: 1200px !default;
+// Variables
+$ad-viewport-ratio: 1 / 10 !default;
+
+
+
 
 @mixin ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {
   position: fixed;
-  //display: block;
   display: flex;
   justify-content: center;
   align-items:center;
@@ -29,11 +30,6 @@ $screen-xl-min: 1200px !default;
   padding-right: floor(($ad-gutter-width / 2));
   padding-top: ceil(($ad-gutter-width / 2));
   padding-bottom: floor(($ad-gutter-width / 2));
-  /*.adsbygoogle,
-  &.adsbygoogle {
-    width: $ad-width;
-    height: $ad-height;
-  }*/
 }
 
 @mixin vertical-ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {
@@ -61,7 +57,7 @@ $screen-xl-min: 1200px !default;
   .container-fluid .navbar,
   .container,
   .container-fluid {
-    padding-left: $size + floor(($grid-gutter-width-base / 2));
+    padding-left: $size + floor(($grid-gutter-width / 2));
   }
 }
 
@@ -70,15 +66,16 @@ $screen-xl-min: 1200px !default;
   .container-fluid .navbar,
   .container,
   .container-fluid {
-    padding-right: $size + ceil(($grid-gutter-width-base / 2));
+    padding-right: $size + ceil(($grid-gutter-width / 2));
   }
 }
 
-@mixin push-content-up($size: 0) {
-  body > div:last-of-type {
+@mixin push-content-up($size: 0) {  
+  body > *:not([data-toggle]):last-of-type {
     padding-bottom: $size !important;
-    overflow: auto;
+    //overflow: auto;
   }
+  body > a[href="#top"],
   .fixed-bottom {
     bottom: $size !important;
   }
@@ -95,102 +92,91 @@ $screen-xl-min: 1200px !default;
 
 /* Landscape screen / Vertical ad to the left ------------------------------- */
 
-// Horizontal screen 568px > 767px (120x240)
-@media (orientation: landscape) and (min-width: 568px) and (min-height: 240px + $ad-gutter-width) {
+$ad-width: 120px;
+$ad-height: 240px;
+@media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
   .ad_container {
-    @include vertical-ad-container(120px, 240px, $ad-gutter-width);
+    @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-right(120px + $ad-gutter-width);
+  @include push-content-right($ad-width + $ad-gutter-width);
 }
 
-// Horizontal screen 768px > 991px (120x600)
-@media (orientation: landscape) and (min-width: $screen-sm-min) and (min-height: 600px + $ad-gutter-width) {
+$ad-width: 120px;
+$ad-height: 600px;
+@media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
   .ad_container {
-    @include vertical-ad-container(120px, 600px, $ad-gutter-width);
+    @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-right(120px + $ad-gutter-width);
+  @include push-content-right($ad-width + $ad-gutter-width);
 }
 
-// Horizontal screen 992px > 1199px (120x600)
-@media (orientation: landscape) and (min-width: $screen-md-min) and (min-height: 600px + $ad-gutter-width) {
+$ad-width: 160px;
+$ad-height: 600px;
+@media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
   .ad_container {
-    @include vertical-ad-container(120px, 600px, $ad-gutter-width);
+    @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-right(120px + $ad-gutter-width);
+  @include push-content-right($ad-width + $ad-gutter-width);
 }
 
-// Horizontal screen 1200px > 1979px (160x600)
-@media (orientation: landscape) and (min-width: $screen-lg-min) and (min-height: 600px + $ad-gutter-width) {
-  .ad_container {
-    @include vertical-ad-container(160px, 600px, $ad-gutter-width);
-  }
-  @include push-content-right(160px + $ad-gutter-width);
-}
 
-/*
-// Horizontal screen 1920px > + (300x600)
-@media (orientation: landscape) and (min-width: 1920px) and (min-height: 600px + $ad-gutter-width) {
-.ad_container {
-@include vertical-ad-container(300px, 600px, $ad-gutter-width);
-}
-@include push-content-right(300px + $ad-gutter-width);
-}
-
-// Horizontal screen 1920px (300x1050)
-@media (orientation: landscape) and (min-width: 1920px) and (min-height: 1050px + $ad-gutter-width) {
-.ad_container {
-@include vertical-ad-container(300px, 1050px, $ad-gutter-width);
-}
-@include push-content-right(300px + $ad-gutter-width);
-}
-*/
 
 /* Portrait screen / Horizontal ad to the bottom ---------------------------- */
 
-// Vertical screen 234px > 319px (234x60)
-@media (orientation: portrait) and (min-width: 234px + $ad-gutter-width) and (min-height: 312px) {
+$ad-width: 234px;
+$ad-height: 60px;
+@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
   .ad_container {
-    @include horizontal-ad-container(234px, 60px, $ad-gutter-width);
+    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-up(60px + $ad-gutter-width);
+  @include push-content-up($ad-height + $ad-gutter-width);
 }
 
-// Vertical screen 320px > 467px (320x50, 320x100)
-@media (orientation: portrait) and (min-width: 320px + $ad-gutter-width) and (min-height: 568px) {
+$ad-width: 320px;
+$ad-height: 100px;
+@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
   .ad_container {
-    @include horizontal-ad-container(320px, 50px, $ad-gutter-width);
+    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-up(50px + $ad-gutter-width);
+  @include push-content-up($ad-height + $ad-gutter-width);
 }
 
-// Vertical screen 468px > 727px (468x60)
-@media (orientation: portrait) and (min-width: 468px + $ad-gutter-width) and (min-height: 624px) {
+$ad-width: 468px;
+$ad-height: 60px;
+@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
   .ad_container {
-    @include horizontal-ad-container(468px, 60px, $ad-gutter-width);
+    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-up(60px + $ad-gutter-width);
+  @include push-content-up($ad-height + $ad-gutter-width);
 }
 
-// Vertical screen 728px > 969px (728x90)
-@media (orientation: portrait) and (min-width: 728px + $ad-gutter-width) and (min-height: 970px) {
+$ad-width: 728px;
+$ad-height: 90px;
+@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
   .ad_container {
-    @include horizontal-ad-container(728px, 90px, $ad-gutter-width);
+    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-up(90px + $ad-gutter-width);
+  @include push-content-up($ad-height + $ad-gutter-width);
 }
 
-// Vertical screen 970px > 1199px (970x90)
-@media (orientation: portrait) and (min-width: 970px + $ad-gutter-width) {
+$ad-width: 970px;
+$ad-height: 90px;
+@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
   .ad_container {
-    @include horizontal-ad-container(970px, 90px, $ad-gutter-width);
+    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-up(90px + $ad-gutter-width);
+  @include push-content-up($ad-height + $ad-gutter-width);
 }
 
-// Vertical screen > 1200px (970x250)
-@media (orientation: portrait) and (min-width: $screen-lg-min) {
+$ad-width: 970px;
+$ad-height: 250px;
+@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
   .ad_container {
-    @include horizontal-ad-container(970px, 250px, $ad-gutter-width);
+    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
   }
-  @include push-content-up(250px + $ad-gutter-width);
+  @include push-content-up($ad-height + $ad-gutter-width);
+}
+
+.ad_container[data-adsbygoogle-status="done"] {
+
 }

@@ -10,12 +10,12 @@
 -->
 {% endcomment %}
 
-<ins class="ad_container adsbygoogle justify-content-center"
+{% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
+<ins class="ad_container adsbygoogle"
 data-ad-client="{{ site.adsense.client }}"
 data-ad-slot="{{ site.adsense.slot }}"
 data-ad-format="{{ site.adsense.format | default: 'auto' }}"></ins>
 
-{% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
   (function () {
