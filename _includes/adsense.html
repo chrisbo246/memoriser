@@ -1,21 +1,10 @@
-{% comment %}
-<!--
-<div class="ad_container">
-  <ins class="adsbygoogle relative-center"
-  style="display:block"
-  data-ad-client="{{ site.adsense.client }}"
-  data-ad-slot="{{ site.adsense.slot }}"
-  data-ad-format="{{ site.adsense.format | default: 'auto' }}"></ins>
-</div>
--->
-{% endcomment %}
 
-{% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
-<ins class="ad_container adsbygoogle"
+<ins class="adsbygoogle"
 data-ad-client="{{ site.adsense.client }}"
 data-ad-slot="{{ site.adsense.slot }}"
 data-ad-format="{{ site.adsense.format | default: 'auto' }}"></ins>
 
+{% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
   (function () {

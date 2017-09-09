@@ -10,11 +10,11 @@ $grid-gutter-width: $grid-gutter-width-base !default;
 // Bootstrap 4 > Variables
 $ad-gutter-width: $grid-gutter-width !default;
 $ad-bg: $body-bg !default;
-$ad-zindex: $zindex-fixed !default;
+$ad-zindex: $zindex-fixed + 1 !default;
 
 // Variables
 $ad-viewport-ratio: 1 / 10 !default;
-
+$ad-class: adsbygoogle;
 
 
 @mixin ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {
@@ -70,10 +70,10 @@ $ad-viewport-ratio: 1 / 10 !default;
 }
 
 @mixin push-content-up($size: 0) {
-  @at-root body > *:not([data-toggle]):not(&):last-of-type {
+  & + * {
     padding-bottom: $size !important;
   }
-  @at-root body > a[href="#top"],
+  @at-root a[href="#top"],
   .fixed-bottom {
     bottom: $size !important;
   }
@@ -84,7 +84,7 @@ $ad-viewport-ratio: 1 / 10 !default;
 
 /* Hide ad when there is no available space */
 
-.ad_container {
+.#{$ad-class} {
   display: none;
 }
 
@@ -95,7 +95,7 @@ $ad-viewport-ratio: 1 / 10 !default;
 $ad-width: 120px;
 $ad-height: 240px;
 @media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
-  .ad_container {
+  .#{$ad-class} {
     @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-right($ad-width + $ad-gutter-width);
   }
@@ -104,7 +104,7 @@ $ad-height: 240px;
 $ad-width: 120px;
 $ad-height: 600px;
 @media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
-  .ad_container {
+  .#{$ad-class} {
     @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-right($ad-width + $ad-gutter-width);
   }
@@ -113,7 +113,7 @@ $ad-height: 600px;
 $ad-width: 160px;
 $ad-height: 600px;
 @media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
-  .ad_container {
+  .#{$ad-class} {
     @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-right($ad-width + $ad-gutter-width);
   }
@@ -126,7 +126,7 @@ $ad-height: 600px;
 $ad-width: 234px;
 $ad-height: 60px;
 @media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .ad_container {
+  .#{$ad-class} {
     @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-up($ad-height + $ad-gutter-width);
   }
@@ -135,7 +135,7 @@ $ad-height: 60px;
 $ad-width: 320px;
 $ad-height: 100px;
 @media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .ad_container {
+  .#{$ad-class} {
     @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-up($ad-height + $ad-gutter-width);
   }
@@ -144,7 +144,7 @@ $ad-height: 100px;
 $ad-width: 468px;
 $ad-height: 60px;
 @media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .ad_container {
+  .#{$ad-class} {
     @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-up($ad-height + $ad-gutter-width);
   }
@@ -153,7 +153,7 @@ $ad-height: 60px;
 $ad-width: 728px;
 $ad-height: 90px;
 @media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .ad_container {
+  .#{$ad-class} {
     @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-up($ad-height + $ad-gutter-width);
   }
@@ -162,7 +162,7 @@ $ad-height: 90px;
 $ad-width: 970px;
 $ad-height: 90px;
 @media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .ad_container {
+  .#{$ad-class} {
     @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-up($ad-height + $ad-gutter-width);
   }
@@ -171,12 +171,12 @@ $ad-height: 90px;
 $ad-width: 970px;
 $ad-height: 250px;
 @media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .ad_container {
+  .#{$ad-class} {
     @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
     @include push-content-up($ad-height + $ad-gutter-width);
   }
 }
 
-.ad_container[data-adsbygoogle-status="done"] {
+.#{$ad-class}[data-adsbygoogle-status="done"] {
 
 }
