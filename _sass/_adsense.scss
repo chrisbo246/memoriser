@@ -18,7 +18,10 @@ $screen-xl-min: 1200px !default;
 
 @mixin ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {
   position: fixed;
-  display: block;
+  //display: block;
+  display: flex;
+  justify-content: center;
+  align-items:center;
   z-index: $ad-zindex;
   overflow: hidden;
   background: $ad-bg;
@@ -37,9 +40,10 @@ $screen-xl-min: 1200px !default;
   @include ad-container($ad-width, $ad-height, $ad-gutter-width);
   left: 0;
   top: 0;
-  height: 100%;
   height: 100vh;
+  min-height: 100vh;
   width: $ad-width + $ad-gutter-width;
+  max-width: $ad-width + $ad-gutter-width;
 }
 
 @mixin horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {
@@ -47,7 +51,9 @@ $screen-xl-min: 1200px !default;
   left: 0;
   bottom: 0;
   width: 100%;
+  min-width: 100%;
   height: $ad-height + $ad-gutter-width;
+  max-height: $ad-height + $ad-gutter-width;
 }
 
 @mixin push-content-right($size: 0) {
