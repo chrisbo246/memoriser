@@ -1,25 +1,17 @@
 
-<div class="ad_container">
-    <ins class="adsbygoogle relative-center"
-    style="display:block"
-    data-ad-client="ca-pub-8495719252049968"
-    data-ad-slot="3723415549"
-    data-ad-format="auto"></ins>
-</div>
+<!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<!--<script async src="{{ '/bower_components/cookieconsent/build/cookieconsent.min.js' | relative_url }}"></script>-->
 
-{% if jekyll.environment == 'production' %}
-  {% include adsense.html %}
-{% endif %}
-{% include cookieconsent.html %}
-
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script async src="{{ '/bower_components/cookieconsent/build/cookieconsent.min.js' | relative_url }}"></script>
+{% if page.layout == 'home' or page.layout == 'cards' %}
 <script async src="{{ '/bower_components/lazysizes/lazysizes.min.js' | relative_url }}"></script>
+{% endif %}
 
 <script src="{{ '/bower_components/jquery/dist/jquery.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/popper.js/dist/umd/popper.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/bootstrap/dist/js/bootstrap.min.js' | relative_url }}"></script>
+
+{% if page.layout == 'definition-lists' and jekyll.environment == 'development' %}
 <script src="{{ '/bower_components/voicerss_tts_jquery/jquery.voicerss-tts.min.js' | relative_url }}"></script>
+{% endif %}
 
 <script src="{{ '/assets/main.js' | relative_url }}"></script>

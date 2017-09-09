@@ -18,124 +18,124 @@ date: 2017-01-01 20:20:20 +0100
 
 fraises
 : клубника
-*kloubnika*
+*__kloubnika__*
 
 banane
 : банан
-*banan'*
+*__banan'__*
 
 citron
 : лимон
-*limon'*
+*__limon'__*
 
 orange
 : апельсин
-*apelsin'*
+*__apelsin'__*
 
 oranges
 : апельсины
-*apyelsini*
+*__apyelsini__*
 
 poire
 : груша
-*groucha*
+*__groucha__*
 
 poires
 : груши
-*groushi*
+*__groushi__*
 
 pomme
 : яблоко
-*yabloka*
+*__yabloka__*
 
 pêches
 : персики
-*piersiky*
+*__piersiky__*
 
 raisin
 : виноград
-*vinograt'*
+*__vinograt'__*
 
 ananas
 : ананас
-*ananas*
+*__ananas__*
 
 
 ## Légumes
 
 pommes de terre
 : картофель
-*kartofil'*
+*__kartofil'__*
 
 tomate
 : помидор
-*pomidor*
+*__pomidor__*
 
 tomates
 : помидоры
-*pomidori*
+*__pomidori__*
 
 courgettes
 : кабачки
-*kabatchki*
+*__kabatchki__*
 
 concombre
 : огурец
-*ogouryetz*
+*__ogouryetz__*
 
 poivrons
 : перцы
-*pyertzi*
+*__pyertzi__*
 
 citrouille
 : тыква
-*tikva*
+*__tikva__*
 
 haricots
 : бобы
-*babi*
+*__babi__*
 
 carrotte
 : морковь
-*markof*
+*__markof__*
 
 maïs
 : кукуруза
-*koukourouza*
+*__koukourouza__*
 
 laitue
 : салат-латук
-*salat-latouk*
+*__salat-latouk__*
 
 
 ## Condiments
 
 ail
 : чеснок
-*tchisnok*
+*__tchisnok__*
 
 oignons
 : лук
-*louk*
+*__louk__*
 
 olives
 : оливки
-*alivky*
+*__alivky__*
 
 
 ## Champignons
 
 champignon
 : гриб
-*grip*
+*__grip__*
 
 
 ## Fruits secs
 
 arachide
 : арахис
-*arahis*
+*__arahis__*
 
 amandes
 : миндаль
-*mindal*
+*__mindal__*

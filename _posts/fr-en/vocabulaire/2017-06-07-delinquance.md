@@ -22,8 +22,9 @@ une effusion de sang
 un bain de sang
 : a bloodbath
 
-une vie à la dure (de voyou)
+une vie à la dure
 : a thug life
+*Une vie de voyou.*
 
 
 ## Agressions
@@ -85,8 +86,9 @@ voleur
 cambrioleur
 : burglar
 
-vendeur de bonbons (vendeur de drogue)
+vendeur de bonbons
 : candy man
+*Dealeur de drogue.*
 
 bande de voyous
 : wild bunch

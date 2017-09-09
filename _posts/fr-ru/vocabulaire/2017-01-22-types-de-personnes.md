@@ -19,145 +19,145 @@ date: 2017-04-02 00:38:00 +0100
 
 personne
 : люд
-*liout'*
+*__liout'__*
 
 personnes
 : люди
-*lioudi*
+*__lioudi__*
 
 homme
 : мужчина
-*mouchina*
+*__mouchina__*
 
 femme
 : фьемме
-*fiemmié*
+*__fiemmié__*
 
 enfant
 : дитя
-*ditya*
+*__ditya__*
 
 bébé
 : ребенок
-*ribienok*
+*__ribienok__*
 
 adolescent
 : юноша
-*younocha*
+*__younocha__*
 
 
 ## Famille
 
 frère
 : брат
-*brat'*
+*__brat'__*
 
 fils
 : сын
-*sin'*
+*__sin'__*
 
 fille
 : дочь
-*dotch*
+*__dotch__*
 
 mari, époux
 : муж
-*moush*
+*__moush__*
 
 femme, épouse
 : жена
-*jéna*
+*__jéna__*
 
 père
 : отец
-*atièts*
+*__atièts__*
 
 mère
 : мать
-*mats*
+*__mats__*
 
 grand-père
 : Дедушка
-*diédouchka*
+*__diédouchka__*
 
 grand-mère
 : Бабушка
-*babouchka*
+*__babouchka__*
 
 oncle
 : Дядя
-*diadia*
+*__diadia__*
 
 tante
 : тетка
-*tiotka*
+*__tiotka__*
 
 tante
 : тетя
-*tyetya*
+*__tyetya__*
 
 cousin
 : двоюродный брат
-*dvoyorodniy brat*
+*__dvoyorodniy brat__*
 
 neveu
 : племянник
-*plyemyannik*
+*__plyemyannik__*
 
 nièce
 : племянница
-*plyemyannitza*
+*__plyemyannitza__*
 
 
-## Famille (familier)
+## Famille [fam.]
 
 papa
 : Папа
-*papa*
+*__papa__*
 
 maman
 : мама
-*mama*
+*__mama__*
 
 pépé
 : дедушка
-*diédoushka*
+*__diédoushka__*
 
 mémé
 : бабуля
-*baboulyè*
+*__baboulyè__*
 
 gamin
 : мальчишка
-*maltchishka*
+*__maltchishka__*
 
 tata
 : тетушка
-*tietouchka*
+*__tietouchka__*
 
 
 ## Titres
 
 monsieur
 : сэр
-*sèr*
+*__sèr__*
 
 
 jeune homme
 : молодой человек
-*moladoi tchielaviek*
+*__moladoi tchielaviek__*
 
 madame
 : Миссис
-*missis*
+*__missis__*
 
 mademoiselle
 : мисс
-*miss*
+*__miss__*
 
 jeune fille
 : девушка
-*diévouchka*
+*__diévouchka__*
 
 
 ## Appellations
@@ -165,27 +165,27 @@ jeune fille
 
 mon frère
 : братан
-*bratan*
+*__bratan__*
 
-gamine (ma petite)
+gamine, ma petite
 : детка
-*dietka*
+*__dietka__*
 
 
 ## Argot
 
 racaille
 : гопник
-*gopnik*
+*__gopnik__*
 
 coureur de jupons
 : бабник
-*babnik*
+*__babnik__*
 
 alcolo
 : алкаш
-*аlkach*
+*__аlkach__*
 
 pédé
 : голубой
-*golouboy*
+*__golouboy__*

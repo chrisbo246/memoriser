@@ -31,8 +31,9 @@ farce
 
 ## Situation
 
-revers (échec)
+revers
 : setback
+*Échec.*
 
 retombée
 : spin-off

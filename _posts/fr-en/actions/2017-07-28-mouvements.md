@@ -46,6 +46,6 @@ tendre l'oreille
 se boucher les oreilles
 : clog your ears
 
-Fourrer (pousser, enfoncer)
-: Shove
-*Ex: ... ton doigt dans ton nez.*
+fourrer, enfoncer
+: shove
+*Ex: Fourrer ton doigt dans ton nez.*

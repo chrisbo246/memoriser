@@ -1,0 +1,45 @@
+{% if page.comments != false and jekyll.environment == "production" and site.disqus.shortname %}
+
+<div id="disqus_thread" class="collapse"></div>
+
+{% comment %}
+<script>
+
+var disqus_config = function () {
+  this.page.url = '{{ page.url | absolute_url }}';
+  this.page.identifier = '{{ page.url | absolute_url }}';
+};
+
+var timer = function (condition, interval, timeout, callback) {
+  if (window.jQuery && window.jQuery.fn.collapse) {
+    callback();
+  } else if (timeout > 0) {
+    window.setTimeout(timer(condition, interval, timeout - interval, callback), interval);
+  } else {
+    console.log('Timeout');
+  }
+};
+
+var jqueryCode = function () {
+
+  $('#disqus_thread').filter('.collapse').one('show.bs.collapse', function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+    s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    console.log('Disqus script appended');
+  });
+  console.log('Watch #disqus_thread');
+
+  $('a[href=#disqus_thread], [data_target="disqus_thread"]').show().removeAttr('hidden');
+
+};
+
+timer((window.jQuery && window.jQuery.fn.collapse), 1000, 20000, jqueryCode);
+
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endcomment %}
+
+{% endif %}

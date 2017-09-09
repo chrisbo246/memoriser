@@ -53,7 +53,7 @@ né pour ça
 Et c'est parti!
 : Here we go!
 
-C'est parti! (allons-y)
+C'est parti!
 : Let's go!
 
 
@@ -62,9 +62,9 @@ C'est parti! (allons-y)
 Continue!
 : Go on!
 
-En avant! (aller de l'avant)
+En avant!
 : Go ahead!
-
+*Aller de l'avant.*
 
 ## Félicitation
 

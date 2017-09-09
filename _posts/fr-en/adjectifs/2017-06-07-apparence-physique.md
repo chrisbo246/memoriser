@@ -104,8 +104,9 @@ poivre et selle
 brun roux
 : auburn
 
-blond platine (décoloré)
-: platinum blond
+blonde platine
+: platinum blonde
+*Blonde décolorée.*
 
 cuivré
 : copper

@@ -20,7 +20,7 @@
 
     {% comment %}
     {% capture criticalcss %}
-        {% include critical.scss %}
+        {% include styles/critical.scss %}
     {% endcapture %}
     {% assign criticalcss = criticalcss | scssify | strip %}
 
@@ -35,9 +35,5 @@
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
     {% seo %}
-
-    {% if jekyll.environment == 'production' and site.google_analytics %}
-        {% include google-analytics.html %}
-    {% endif %}
 
 </head>

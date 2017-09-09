@@ -28,10 +28,10 @@ marraine
 
 ## Selon l’âge
 
-fille (jeune femme)
+jeune femme
 : gal
 
-enfant (jeune homme)
+jeune homme
 : youngster
 
 gamin
@@ -49,7 +49,7 @@ personnes âgées
 
 ## Selon la proximité
 
-homme (individu)
+homme, individu
 : fellow
 
 camarade, compagnon
@@ -67,17 +67,20 @@ gars
 
 ## Vagabonds
 
-clochard (bon à rien)
+clochard
 : bum
+*Bon à rien.*
 
 sans domicile
 : hobo
 
-vagabond (clochard)
+vagabond
 : tramp
+*Clochard.*
 
-vagabond (errant)
+vagabond
 : wanderer
+*Personne errant sans but.*
 
 clochard
 : vagrant
@@ -96,7 +99,7 @@ L’homme idéal
 
 Quelqu’un (d’important)
 : A few
-*L’élite*
+*Faisant parti de l’élite.*
 
 faiseur de miracles
 : miracle worker

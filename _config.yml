@@ -234,3 +234,8 @@ yandex_translate:
   key: 'trnsl.1.1.20170126T174835Z.60d9a0f54ac44aef.fc3b4dab14cf7c81caf5fe57769a769ab427a872'
   auto_mode: true
   widget_theme: 'light'
+
+adsense:
+  client: 'ca-pub-8495719252049968'
+  slot: '3723415549'
+  format: 'auto'

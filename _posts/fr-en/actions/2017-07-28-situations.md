@@ -25,7 +25,7 @@ se préparer
 être prêt à
 : be willing to
 
-compter sur (quelqu'un)
+compter sur
 : rely on
 
 

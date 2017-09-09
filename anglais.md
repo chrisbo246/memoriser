@@ -33,6 +33,6 @@ card:
   new: 30
   image_position: "overlay"
   #image_position: "top"
-  #text_align: "center"
-  #more_button: "Lire"
+  text_align: "center"
+  #read_more_type: "button"
 ---

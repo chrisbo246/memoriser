@@ -17,42 +17,42 @@ date: 2017-01-01 20:20:20 +0100
 
 corps
 : тело
-*téla*
+*__téla__*
 
 tête
 : голова
-*gôlôva*
+*__gôlôva__*
 
 visage
 : лицо́
-*litso*
+*__litso__*
 
 membre
 : конечность
-*kaniétchnèst*
+*__kaniétchnèst__*
 
 tronc
 : -
 
 dos
 : спина
-*spéna*
+*__spéna__*
 
-poitrine (thorax)
+poitrine
 : грудная клетка
-*grudnaya kletka*
+*__grudnaya kletka__ Le thorax.*
 
 ventre
 : живо́т
-*givote*
+*__givote__*
 
 nombril
 : пуп
-*poup*
+*__poup__*
 
 hanches
 : бедра
-*bedra*
+*__bedra__*
 
 
 ## Visage
@@ -65,46 +65,46 @@ tempe(s)
 
 joue
 : щека
-*chieka*
+*__chieka__*
 
 joues
 : щеки
-*chieki*
+*__chieki__*
 
 oreille
 : ухо
-*oukho*
+*__oukho__*
 
 oreilles
 : уши
-*ouchy*
+*__ouchy__*
 
 lobe d’oreille
 : -
 
 menton
 : подбородок
-*padbarodok*
+*__padbarodok__*
 
 narine(s)
 : ноздря, ноздри
-*nozdrya, nozdri*
+*__nozdrya, nozdri__*
 
 nez
 : нос
-*nôss*
+*__nôss__*
 
 œil
 : глаз
-*glass*
+*__glass__*
 
 yeux
 : глаза́
-*glasa*
+*__glasa__*
 
 paupière
 : веки
-*viéki*
+*__viéki__*
 
 pupille
 : -
@@ -114,38 +114,38 @@ iris
 
 bouche
 : рот
-*rôte*
+*__rôte__*
 
 lèvre
 : губа
-*gouba*
+*__gouba__*
 
 lèvres
 : губы
-*gouby*
+*__gouby__*
 
 langue
 : язы́к
-*yezik*
+*__yezik__*
 
 dent
 : зуб
-*zoupe*
+*__zoupe__*
 
 dents
 : зубы
-*zouby*
+*__zouby__*
 
 
 ## Poils
 
 cheveu, poil
 : волос
-*vôlas*
+*__vôlas__*
 
 cheveux, poils
 : волосы
-*vôlasy*
+*__vôlasy__*
 
 sourcil(s)
 : бровь, брови
@@ -162,25 +162,25 @@ barbiche, Bouc
 
 barbe
 : борода
-*borada*
+*__borada__*
 
 moustache
 : усы
-*ousy*
+*__ousy__*
 
 
 ## Cou
 
 cou
 : шея
-*cheya*
+*__cheya__*
 
 nuque
 : -
 
 gorge
 : горло
-*gorlo*
+*__gorlo__*
 
 pomme d’Adam
 : -
@@ -190,22 +190,22 @@ pomme d’Adam
 
 bras
 : рука
-*rouka*
+*__rouka__*
 
 épaule
 : плечо́
-*plitcho*
+*__plitcho__*
 
 épaules
 : плечи
-*plietchi*
+*__plietchi__*
 
 aisselle
 : -
 
 coude
 : локоть
-*lokats*
+*__lokats__*
 
 avant-bras
 : -
@@ -218,23 +218,23 @@ poignet
 
 main
 : рука́
-*rouka*
+*__rouka__*
 
 mains
 : руки
-*rouki*
+*__rouki__*
 
-doigt / orteil
+doigt, orteil
 : палец
-*paliets*
+*__paliets__*
 
 doigts/orteils
 : пальцы
-*paltsy*
+*__paltsy__*
 
 pouce
 : палец
-*paliets*
+*__paliets__*
 
 index
 : -
@@ -262,23 +262,23 @@ ongle
 
 jambe
 : нога
-*naga*
+*__naga__*
 
 jambes
 : ноги
-*nogui*
+*__nogui__*
 
 cuisse
 : бедро
-*bildro*
+*__bildro__*
 
 cuisses
 : бедра
-*beldra*
+*__beldra__*
 
 genou
 : колено
-*kalièna*
+*__kalièna__*
 
 mollet
 : -
@@ -288,7 +288,7 @@ mollet
 
 pied
 : стопа
-*stapa*
+*__stapa__*
 
 cheville
 : -
@@ -304,7 +304,7 @@ les orteils
 
 orteil
 : палец ноги
-*palyetz nogi*
+*__palyetz nogi__*
 
 talon
 : -
@@ -340,15 +340,15 @@ bassin
 
 organe
 : орган
-*organne*
+*__organne__*
 
 cerveau
 : мозг
-*mozg*
+*__mozg__*
 
 cœur
 : сердце
-*sierdtsè*
+*__sierdtsè__*
 
 foie
 : -
@@ -361,7 +361,7 @@ intestin
 
 estomac
 : желудок
-*jeloudok*
+*__jeloudok__*
 
 veine(s)
 : -
@@ -371,11 +371,11 @@ artère(s)
 
 muscle
 : мускул
-*mouskoul*
+*__mouskoul__*
 
 peau
 : кожа
-*koja*
+*__koja__*
 
 
 ## Styles de cheveux
@@ -427,50 +427,50 @@ cheveux crépus
 
 chauve
 : плешивый
-*pliéchivy*
+*__pliéchivy__*
 
 
 ## Parties honteuses
 
 poitrine (seins)
 : грудь
-*groud'*
+*__groud'__*
 
 nichons
 : болван
-*bolvan'*
+*__bolvan'__*
 
 téton(s), Mamelon(s)
 : шпилька
-*shpilka*
+*__shpilka__*
 
 fesses
 : ягодицы
-*ilgaditsa*
+*__ilgaditsa__*
 
 fessier
 : задница
-*zadnitsa*
+*__zadnitsa__*
 
 cul
 : жопа
-*zhópa*
+*__zhópa__*
 
 pénis
 : пенис
-*pégnis*
+*__pégnis__*
 
 bitte
 : хуй
-*rouil*
+*__rouil__*
 
 vagin
 : влагалище
-*vlagalischè*
+*__vlagalischè__*
 
 chatte
 : пизда
-*pisda*
+*__pisda__*
 
 
 ## Imperfections
@@ -516,7 +516,7 @@ bourrelet(s)
 
 merde
 : говно
-*gavno*
+*__gavno__*
 
 crotte
 : -

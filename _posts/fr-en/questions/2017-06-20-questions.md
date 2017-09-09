@@ -31,14 +31,14 @@ Comment çà va?
 Comment çà se passe?
 : How is it going?
 
-Comment çà va (depuis la dernière fois qu’on s’est vu)?
+Comment çà va (depuis la dernière fois)?
 : How have you been?
 
 Quoi de neuf?
 : What’s new?
 
-Quoi de neuf? (familier)
+Quoi de neuf? [fam.]
 : What’s up?
 
-Comment ça va? (familier)
+Comment ça va? [fam.]
 : How are you doing?

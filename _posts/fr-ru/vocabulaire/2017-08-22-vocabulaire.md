@@ -18,34 +18,34 @@ date: 2017-08-22 20:20:20 +0100
 
 Argent
 : деньги
-*Dengui*
+*__Dengui__*
 
 fric
 : бабки
-*babki*
+*__babki__*
 
 le blé
 : капуста
-*kapousta*
+*__kapousta__*
 
 
 ## Présentation
 
 prénom
 : имя
-*imya*
+*__imya__*
 
-nom (de famille)
+nom de famille
 : фамилия
-*familya*
+*__familya__*
 
 
 ## Objets
 
 livre
 : книга
-*kniga*
+*__kniga__*
 
 dictionnaire
 : словарь
-*slovar*
+*__slovar__*

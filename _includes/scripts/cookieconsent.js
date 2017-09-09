@@ -1,4 +1,5 @@
-<script>
+{% if jekyll.environment == "production" %}
+
 window.addEventListener("load", function(){
     window.cookieconsent.initialise({
         "palette": {
@@ -19,4 +20,11 @@ window.addEventListener("load", function(){
         }
     })
 });
-</script>
+
+var d = document, s = d.createElement('script');
+s.src = '{{ "/bower_components/cookieconsent/build/cookieconsent.min.js" | relative_url }}';
+s.async = true;
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+
+{% endif %}

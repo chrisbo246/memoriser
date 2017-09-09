@@ -1,3 +1,22 @@
+
+{% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
+<div class="ad_container">
+  <ins class="adsbygoogle relative-center"
+  style="display:block"
+  data-ad-client="{{ site.adsense.client }}"
+  data-ad-slot="{{ site.adsense.slot }}"
+  data-ad-format="{{ site.adsense.format | default: 'auto' }}"></ins>
+</div>
 <script>
-(adsbygoogle = window.adsbygoogle || []).push({});
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  (function () {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+    s.type = 'text/javascript';
+    s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    s.onload = function () {};
+    (d.head || d.body).appendChild(s);
+  })();
 </script>
+{% endif %}

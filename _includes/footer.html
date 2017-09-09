@@ -1,9 +1,19 @@
 
-<div class="container-fluid">
-  <nav class="navbar navbar-light bg-fadded fixed-bottom justify-content-between">
-    <a href="#top" class="btn btn-outline-secondary ml-auto" role="button">{{ t.scroll_to_top }}</a>
-  </nav>
-</div>
+<a href="#top" class="btn btn-outline-secondary m-3 btn-square-md" role="button" title="{{ t.scroll_to_top }}" data-toggle="tooltip" >
+  <i class="fa fa-level-up" aria-hidden="true"></i>
+</a>
+
+{% include adsense.html %}
+
+
+
+
+
+
+
+
+<!--
+{% comment %}
 
 <div class="container-fluid">
   <nav class="navbar navbar-light bg-fadded justify-content-between">
@@ -15,8 +25,7 @@
   </nav>
 </div>
 
-<!--
-{% comment %}
+
 <footer class="site-footer">
     <div class="container-fluid text-center">
         <p class="text-muted pt-4"><a class="text-muted" href="https://github.com/chrisbo246" target="_blank">Made with <span class="fa fa-heart"></span> by a dyslexic nerd.</a></p>

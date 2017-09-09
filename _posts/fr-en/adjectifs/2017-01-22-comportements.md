@@ -47,8 +47,9 @@ facile à vivre
 méchant
 : mean
 
-vilain (méchant)
+vilain
 : naughty
+*Méchant.*
 
 avide
 : greedy

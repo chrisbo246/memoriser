@@ -62,8 +62,8 @@ sortir
 S'en aller / échapper
 : Get away
 
-descendre (du bus)
-: get off (the bus)
+descendre du ...
+: get off the ...
 
 fuir
 : run away

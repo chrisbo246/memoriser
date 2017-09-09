@@ -1,17 +1,22 @@
+
 .definition-list  {
 
+  perspective: 1000px;
+
   .card {
-    min-width: 7.7rem;
-    min-height: 7.7rem;
-    //min-width: 6.7rem;
-    //min-height: 6.7rem;
-    //margin: 2px;
+    min-width: 11rem;
+    min-height: 11rem;
   }
 
   .card-body {
-    max-width: 25rem;
+    max-width: 30rem;
     word-wrap: break-word;
     word-break: break-word;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
   }
 
   .card.card-section {
@@ -20,42 +25,64 @@
     word-break: break-word;
   }
 
-  input[type="checkbox"] ~ .card {
+  .card-text {
 
-    //box-shadow: 1px 2px 6px rgba($black,.1);
-    transition: all .3s;
-    //transition: box-shadow .3s, opacity 2s ease-out;
+    font-weight: bolder;
+    font-size: 1.5rem;
 
-    &:hover {
-      //background: rgba($card-bg,.9);
-      box-shadow: 1px 2px 6px rgba($black,.3);
-      //border-color: $brand-primary;
-      //box-shadow: $btn-focus-box-shadow;
-    }
-
-  }
-
-  input[type="checkbox"]:checked ~ .card {
-    opacity: .25;
-    //transition: all .3s;
-  }
-
-  .card-title,
-  dt {
-    //font-weight: bold;
-  }
-
-  .card-text,
-  dd {
-    //margin-left: 0;
     em {
       display: block;
+      color: $text-muted;
+      font-weight: lighter;
+      font-size: .85rem;
+      strong {
+        color: $text-muted;
+      }
+    }
+
+    & > em > strong {
+      display: block;
+      &:before {
+        //content: "\201C";
+      }
+      &:after {
+        //content: "\201D";
+      }
+    }
+
+  }
+
+  .card-flip {
+    input[name="memorized"][value="1"]:checked & > .card:first-of-type {
+      background-color: $gray-300;
     }
   }
 
-  em {
-    color: $text-muted;
-    //color: $gray-lighter;
+  // Question sign as background
+  .card-flip {
+    .card:first-of-type:after {
+      content: "\f128";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      position: absolute;
+      z-index: 1;
+      font-size: 8rem;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: .05;
+    }
+    .card.bg-success:first-of-type {
+      &:after {
+        content: "\f118";
+      }
+    }
   }
 
 }

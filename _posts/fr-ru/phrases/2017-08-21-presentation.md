@@ -18,54 +18,54 @@ date: 2018-08-21 00:39:00 +0100
 
 Enchanté(e)!
 : Взаимно!
-*Vzaïmna!*
+*__Vzaïmna!__*
 
 Ravi de vous rencontrer! (Très agréable!)
 : Очень приятно!
-*Otchien' priatna!*
+*__Otchien' priatna!__*
 
 Ravi de vous rencontrer!
 : Рад с вами познакомиться!
-*Rat s vami paznakomitsa*
+*__Rat s vami paznakomitsa__*
 
 Ravie de vous rencontrer!
 : Рада с вами познакомиться!
-*Rada s vami paznakomitsa*
+*__Rada s vami paznakomitsa__*
 
 Ravi de vous rencontrer!
 : Приятно познакомиться!
-*Priatna paznakomitsa!*
+*__Priatna paznakomitsa!__*
 
 
 ## Se présenter
 
 Je suis français
 : Я Француз
-*Ya Frantsuz*
+*__Ya Frantsuz__*
 
 Je suis française
 : Я француженка
-*Ya frantsoujienka*
+*__Ya frantsoujienka__*
 
 J'habite en France.
 : Живу в Франции.
-*Jouyvou oa frantsii.*
+*__Jouyvou oa frantsii.__*
 
 Je m'appelle ...
 : Меня зовут ...
-*Minia zavout ...*
+*__Minia zavout ...__*
 
 J'habite à ...
 : Я живу в ...
-*Ya jivy v ...*
+*__Ya jivy v ...__*
 
 Je (suis) ...
 : Я ...
-*Ya ...*
+*__Ya ...__*
 
 J'ai ... ans.
 : Мне ... лет.
-*Mnyé ... lyét.*
+*__Mnyé ... lyét.__*
 
 ... ans (age)
 : ... lyét / got (si terminé par 1) / gOda (si terminé par 2 3 4, sauf 12 13 14)
@@ -75,8 +75,8 @@ J'ai ... ans.
 
 Faisons connaissance.
 : Давайте познакомимся.
-*Davaitié poznakomimsia.*
+*__Davaitié poznakomimsia.__*
 
 Voici mon ami John.
 : Это мой друг, Джон.
-*Eta moi droug, Dzhon.*
+*__Eta moi droug, Dzhon.__*

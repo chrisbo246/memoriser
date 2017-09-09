@@ -19,12 +19,16 @@ date: 2017-01-01 20:20:20 +0100
 
 beau, joli
 : красивый
-*krasivy*
+*__krasivy__*
 
 Quel joli prénom!
 : Какое красивое имя!
-*Kakoie krassivae imia!*
+*__Kakoie krassivae imia!__*
 
-C'est dangereux (ici).
-: Это опасно (здесь).
-*Eta rapasna (zdies)*
+C'est dangereux.
+: Это опасно.
+*__Eta rapasna__*
+
+C'est dangereux ici.
+: Это опасно здесь.
+*__Eta rapasna zdies__*

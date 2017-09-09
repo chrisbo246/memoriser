@@ -18,105 +18,105 @@ date: 2017-01-01 20:20:20 +0100
 
 Bien! OK!
 : Хорошо!
-*Horosho!*
+*__Horosho!__*
 
 Cool!
 : Круто!
-*Krouta!*
+*__Krouta!__*
 
 Exellent! Parfait!
 : Отлично!
-*Atlitchna!*
+*__Atlitchna!__*
 
 C'est le pied!
 : Какой кайф!
-*Kakoy kayf!*
+*__Kakoy kayf!__*
 
 
 ## Exclamations négatives
 
 Putain!
 : Блядь!
-*Bliat'!*
+*__Bliat'!__*
 
 Mince!
 : Блин!
-*Blin'!*
+*__Blin'!__*
 
 Merde!
 : Дерьмо!
-*Diermo!*
+*__Diermo!__*
 
 Connerie!
 : ПиЗдет!
-*Pisdièt!*
+*__Pisdièt!__*
 
-Quel bordel! (désordre)
+Quel bordel!
 : Бардак!
-*Bardák!*
+*__Bardák!__ Quel désordre!*
 
 
 ## Surprise
 
 Ô mon dieu!
 : Боже мой!
-*Bojé moy!*
+*__Bojé moy!__*
 
-Boouh! (faire peur)
+Boouh!
 : ка-ка!
-*Ka-ka*
+*__Ka-ka__ Pour faire peur.*
 
 
 ## Entrain
 
 Allons-y!
 : Пошли!
-*Pachli!*
+*__Pachli!__*
 
-Allons-y! (en voiture)
+Allons-y!
 : Поехали!
-*Paièhli!*
+*__Paièhli!__ En voiture.*
 
 
 ## Confirmation
 
 Ça roule!
 : Катит!
-*Katit'!*
+*__Katit'!__*
 
 
 ## Apaisement
 
 Je plaisante!
 : Просто шучу!
-*Prosta choutchou!*
+*__Prosta choutchou!__*
 
 
 ## Attirer l'attention
 
 Attention!
 : осторожно!
-*Astarojna!*
+*__Astarojna!__*
 
 A l'aide!
 : Помогите!
-*Pomaguitiè!*
+*__Pomaguitiè!__*
 
 
 ## Insultes
 
-con (idiot)
+con
 : дурак
-*dourak*
+*__dourak__ Idiot.*
 
 conne
 : дура
-*doura*
+*__doura__*
 
 Va te faire foutre!
 : Иди на хуй!
-*Idi na houil!*
+*__Idi na houil!__*
 
 Tu vas crever!
 : ты ве пизда
-*Ty vié pisda!*
+*__Ty vié pisda!__*

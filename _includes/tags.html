@@ -1,16 +1,11 @@
-{% if include.tags %}
-    {% assign tags = include.tags %}
-{% else %}
-    {% assign tags = page.tags %}
-{% endif %}
 
-{% if tags %}
-{% assign tags = tags | uniq %}
+{% assign array = include.array | uniq | compact %}
+{% if array %}
 <ul class="list-inline">
   <li class="list-inline-item text-muted" hidden>
     {{ t.tags }}:
   </li>
-  {% for tag in tags %}
+  {% for tag in array %}
   <li class="list-inline-item">
     <span class="{{ include.item-class }}">{{ t.tags[tag] | default: tag }}</span>
     {% comment %}<a href="{{ tag | slugify | prepend: '/tags.html#' | relative_url }}" class="{{ include.item-class }}">{{ t.tags[tag] | default: tag }}</a>{% endcomment %}

@@ -35,9 +35,9 @@ chavirer
 flipper
 : freak out
 
-tourmenter (mettre au supplice)
+tourmenter
 : tantalize
-
+*Mettre au supplice.*
 
 ## Expressions
 

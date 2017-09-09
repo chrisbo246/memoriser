@@ -14,14 +14,14 @@ tags: [
 date: 2017-01-01 20:20:20 +0100
 ---
 
-le net (internet)
+le net
 : инет
-*inét*
+*__inét__*
 
 pc
 : комп
-*komp*
+*__komp__*
 
 ICQ
 : аська
-*ás'ka*
+*__ás'ka__*

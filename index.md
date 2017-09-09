@@ -24,7 +24,9 @@ nav:
 card:
   image: true
   date: false
-  #image_position: "overlay"
-  image_position: "top"
+  image_position: "overlay"
+  #image_position: "top"
   text_align: "center"
+  read_more_type: "button"
+  #read_more_container: "footer"
 ---

@@ -17,140 +17,144 @@ date: 2017-04-01 00:39:00 +0100
 
 ## Bonjour
 
-Bonjour! Bonsoir! (formel)
+Bonjour!
 : Здравствуйте!
-*Zdrastvouytyé!*
+*__Zdrastvouytyé!__ Bonjour ou bonsoir formel.*
 
 Salut!
 : Привет!
-*Privièt!*
+*__Privièt!__*
 
-Bonjour! (le matin)
+Bonne matinée!
 : Доброе утро!
-*Dobré outra!*
+*__Dobré outra!__*
 
-Bonjour! (l'après midi)
+Bonne journée!
 : Добрый день!
-*Dobri dién'!*
+*__Dobri dién'!__*
 
-Bonsoir!
+Bonne soirée!
 : Добрый вечер!
-*Dobry viétchèr!*
+*__Dobry viétchèr!__*
 
 Bonjour, Monsieur!
 : Доброе утро, сэр!
-*Dobré outra, sèr!*
+*__Dobré outra, sèr!__*
 
 Bonjour, Madame!
 : Доброе утро, мадам!
-*Dobré outra, madam!*
+*__Dobré outra, madam!__*
 
 
 ## Au revoir
 
 Salut!
 : пока!
-*Paka!*
+*__Paka!__*
 
 Au revoir!
 : до свидания!
-*Da svidania!*
+*__Da svidania!__*
 
 A bientôt!
 : До скоро!
-*Da skora!*
+*__Da skora!__*
 
 A plus tard!
 : до скорого!
-*Do skorova!*
+*__Do skorova!__*
 
 A demain
 : До завтра!
-*Do zavtra!*
+*__Do zavtra!__*
 
 A plus, à plus tard, à la prochaine
 : До встречи!
-*Do vstrechi!*
+*__Do vstrechi!__*
 
 A dieu.
 : До свидания.
-*Da svidania.*
+*__Da svidania.__*
 
 Bonne nuit!
 : Спокойной ночи!
-*Spakoyné notchi!*
+*__Spakoyné notchi!__*
 
 
 ## Formule de politesse
 
 S’il vous plait.
 : Пожалуйста.
-*Pajalsta.*
+*__Pajalsta.__*
 
 
 ## Remercier
 
 Merci!
 : Спасибо!
-*Spasiba!*
+*__Spaciba!__*
 
 Merci, de même!
 : Спасибо, взаимно!
-*Spasibo, vzaïmna!*
+*__Spacibo, vzaïmna!__*
 
 Très bien merci!
 : Очень хорошо, спасибо!
-*Otchen horosho, spasiba!*
+*__Otchen horosho, spaciba!__*
 
 
 ## S'excuser
 
 Excusez-moi.
 : Извините.
-*Izvinitié.*
+*__Izvinitié.__*
 
 Pardon.
 : Помилование.
-*Pomilovenié.*
+*__Pomilovenié.__*
 
 Désolé.
 : Простите.
-*Prastitié.*
+*__Prastitié.__*
 
 Excusez-moi, je débute en russe.
 : Извините, я начинаю на русском.
-*Izvinitié, ya natchina na rouskom.*
+*__Izvinitié, ya natchina na rouskom.__*
 
 Excusez-moi, je suis en retard.
 : Извините, я опоздал.
-*Izvinitié, ya pasdal.*
+*__Izvinitié, ya pasdal.__*
 
 
 ## Réponse de politesse
 
 Je vous en prie.
 : Не за Что.
-*Nie za chto.*
+*__Nie za chto.__*
 
 De rien.
 : Пожалуйста.
-*Pajalsta.*
+*__Pajalsta.__*
 
 Avec plaisir!
 : C удовольствием!
-*Soudavolstviem!*
+*__Soudavolstviem!__*
 
-Vous (êtes) très aimable!
+Vous êtes très aimable!
 : вы очень любезны!
-*Vi otchien lioubiezni!*
+*__Vi otchien lioubiezni!__*
 
 Comme c’est intéressant!
 : Как интересно!
-*Kak intieresna!*
+*__Kak intieresna!__*
 
 
 ## Divers
 
-Je suis content(e) de te voir.
-: Рад(а) встрече! Спасибо, взаимно.
-*Rad(a) vstritché.*
+Je suis content de te voir.
+: Рад встрече! Спасибо, взаимно.
+*__Rat' vstritché.__*
+
+Je suis contente de te voir. [f.]
+: Рада встрече! Спасибо, взаимно.
+*__Rada vstritché.__*

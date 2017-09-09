@@ -18,146 +18,146 @@ date: 2017-01-01 20:20:20 +0100
 
 meubles
 : мебель
-*myebyel*
+*__myebyel__*
 
 chaise
 : стул
-*stoul*
+*__stoul__*
 
 table
 : стол
-*stol*
+*__stol__*
 
 bureau
 : стол
-*stol*
+*__stol__*
 
 lit
 : кровать
-*kravat'*
+*__kravat'__*
 
 
 ## Electroménager
 
 téléviseur
 : телевизор
-*televizor*
+*__televizor__*
 
 plaque chauffante
 : плита
-*plita*
+*__plita__*
 
 four
 : печь
-*pyech*
+*__pyech__*
 
 frigo, réfrigérateur
 : холодильник
-*haladylnyk*
+*__haladylnyk__*
 
 téléphone
 : телефон
-*telephone*
+*__telephone__*
 
 lampe
 : лампа
-*lampa*
+*__lampa__*
 
 
 ## Electronique
 
 smartphone
 : смартфон
-*smartphone*
+*__smartphone__*
 
 appareil photo
 : фотоаппарат
-*fotoapparat*
+*__fotoapparat__*
 
 
 ## Accessoires de toilette
 
 savon
 : мыло
-*milo*
+*__milo__*
 
 shampooing
 : шампунь
-*shampoon*
+*__shampoon__*
 
 brosse à dents
 : shtyetka зубная щетка
-*zoobnaya*
+*__zoobnaya__*
 
 dentifrice
 : pasta зубная паста
-*zoobnaya*
+*__zoobnaya__*
 
 serviette
 : полотенце
-*polotyentzye*
+*__polotyentzye__*
 
 
 ## Literie
 
 couverture
 : ковер
-*kovyer*
+*__kovyer__*
 
 
 ## Accessoires de bureau
 
 stylo
 : ручка
-*roochka*
+*__roochka__*
 
 crayon
 : карандаш
-*karandash*
+*__karandash__*
 
 encre
 : чернила
-*chyernila*
+*__chyernila__*
 
 papier
 : бумага
-*boomaga*
+*__boomaga__*
 
 cahier
 : блокнот
-*bloknot*
+*__bloknot__*
 
 lettre
 : письмо
-*pismo*
+*__pismo__*
 
 carte
 : карта
-*karta*
+*__karta__*
 
 journal
 : газета
-*gazyeta*
+*__gazyeta__*
 
 ciseaux
 : ножницы
-*nojnitzi*
+*__nojnitzi__*
 
 
 ## Divers
 
 valise
 : чемодан
-*chiémadan'*
+*__chiémadan'__*
 
 les objets
 : объекты
-*obyekti*
+*__obyekti__*
 
 fourche
 : вилка
-*vilka*
+*__vilka__*
 
 image
 : изображение
-*izobrajyeniye*
+*__izobrajyeniye__*

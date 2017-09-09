@@ -18,152 +18,152 @@ date: 2017-01-01 20:20:20 +0100
 
 magasin, supermarché
 : магазин
-*magazine*
+*__magazin'__*
 
 boucherie
 : скотобойня
-*skotaboynya*
+*__skotaboynia__*
 
 épicerie
 : продуктовый
-*produktovy*
+*__pradouktovi__*
 
 pâtisserie
 : пекарня
-*petarnya*
+*__pietarnia__*
 
 bijouterie
 : ювелирные изделия
-*yuvélirnye izdéliè*
+*__youvielirnè izdiélia__*
 
 
 ## Services de proximité
 
 banque
 : банк
-*bannk*
+*__bannk__*
 
 garage automobile
 : автосалоном
-*avtasalonam*
+*__avtasalonam__*
 
 salon de coiffure
 : парикмахерская
-*parikmahierskaya*
+*__parikmahierskaya__*
 
 hôtel
 : гостиница
-*gastinitsa*
+*__gastinitsa__*
 
 
 ## Services publics
 
 police
 : полиция
-*politsèa*
+*__politsèa__*
 
 casèrne de pompiers
 : пожарное депо
-*pajarniè depo*
+*__pajarniè depo__*
 
 caserne militaire
 : казармы
-*kazarmé*
+*__kazarmé__*
 
 tribunal
 : суд
-*sout*
+*__sout__*
 
 
 ## Services de santé
 
 hôpital
 : больница
-*balnitsa*
+*__balnitsa__*
 
 cabinet médical
 : медицинский кабинет
-*méditsinsky kabiniet*
+*__méditsinsky kabiniet__*
 
 cabinet dentaire
 : стоматологическая клиника
-*stomatologuicheskaya klinika*
+*__stomatologuicheskaya klinika__*
 
 pharmacie
 : аптека
-*aptieka*
+*__aptieka__*
 
 
 ## Ecoles
 
 école
 : школа
-*chkola*
+*__chkola__*
 
 lycée
 : высшая школа
-*visshaya chkola*
+*__visshaya chkola__*
 
 université
 : университет
-*ouniversitiet'*
+*__ouniversitiet'__*
 
 
 ## Loisirs
 
 bibliothèque
 : библиотека
-*biblètiéka*
+*__biblètiéka__*
 
 
 ## Sortie
 
 park
 : парк
-*park*
+*__park__*
 
 cinéma
 : кино
-*kino*
+*__kino__*
 
 théâtre
 : театр
-*tieatr'*
+*__tieatr'__*
 
 café
 : кафе
-*café*
+*__café__*
 
 bar
 : бар
-*bar*
+*__bar__*
 
 restaurant
 : ресторан
-*ristoran'*
+*__ristoran'__*
 
 musée
 : музей
-*mousy*
+*__mousy__*
 
 à une soirée
 : на вечеринку
-*na vietchirinkou*
+*__na vietchirinkou__*
 
 
 ## Terminaux de transports en commun
 
 gare ferroviaire
 : вокзал
-*bakzal*
+*__bakzal__*
 
 aéroport
 : аэропорт
-*aèraport*
+*__aèraport__*
 
 
 ## Argot
 
 asile psychiatrique
 : дурдом
-*durdóm*
+*__durdóm__*

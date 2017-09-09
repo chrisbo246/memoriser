@@ -1,54 +1,56 @@
+<div class="btn-toolbar justify-content-between mb-3 py-3" role="toolbar" aria-label="{{ t.filters }}">
 
-<div class="card bg-light mb-3">
-  <div class="card-body">
-
-    {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
-    {% if categories %}
-    <div class="btn-group pull-left" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
-      {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
-      {% for filter in categories %}
-      {% unless page.categories contains filter %}
-      <label class="btn btn-outline-secondary">
-        <input type="radio" name="category-filters" value="{{ filter | default: 'divers' }}" class="filter-toggler" data-filter=".category-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
-      </label>
-      {% endunless %}
-      {% endfor %}
-      <label class="btn btn-outline-secondary">
-        <input type="radio" name="category-filters" value="other" class="filter-toggler" data-filter=".category-other">{{ t.other }}
-      </label>
-      <label class="btn btn-outline-secondary active">
-        <input type="radio" name="category-filters" value="all" class="filter-toggler" data-filter="" checked>{{ t.all }}
-      </label>
-    </div>
-    {% endif %}
-
-    <div class="btn-group pull-right" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
-      <label class="btn btn-outline-secondary active">
-        <input type="radio" name="custom-filters" value="featured" class="filter-toggler" data-filter=".featured" checked>{{ t.featured }}
-      </label>
-      <label class="btn btn-outline-secondary">
-        <input type="radio" name="custom-filters" value="new" class="filter-toggler" data-filter=".new">{{ t.new }}
-      </label>
-      <label class="btn btn-outline-secondary">
-        <input type="radio" name="custom-filters" value="all" class="filter-toggler" data-filter="">{{ t.all }}
-      </label>
-    </div>
-
-    {% comment %}
-    {% assign tags = include.posts | map: "tags" | uniq | compact | sort_natural %}
-    {% if tags %}
-    <br>
-    <div class="btn-group btn-group-sm clearfix" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
-      {% for filter in tags %}
-      {% unless page.tags contains filter %}
-      <label class="btn btn-outline-secondary">
-        <input type="radio" name="category-filters" class="filter-toggler" data-filter=".tags-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
-      </label>
-      {% endunless %}
-      {% endfor %}
-    </div>
-    {% endif %}
-    {% endcomment %}
-
+  <div class="input-group my-1">
+    <!--<div class="input-group-addon"><i class="fa fa-search" aria-hidden="false"></i></div>-->
+    <input type="text" class="form-control searchbox" id="searchbox" placeholder="{{ t.search_placeholder }}">
   </div>
+
+  {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
+  {% if categories %}
+  <div class="btn-group my-1" role="group" aria-label="{{ t.category_filters }}" data-toggle="buttons">
+    {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
+    {% for filter in categories %}
+    {% unless page.categories contains filter %}
+    <label class="btn btn-outline-secondary">
+      <input type="radio" name="category-filters" value="{{ filter | default: 'divers' }}" class="filter-toggler" data-filter=".category-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
+    </label>
+    {% endunless %}
+    {% endfor %}
+    <label class="btn btn-outline-secondary">
+      <input type="radio" name="category-filters" value="other" class="filter-toggler" data-filter=".category-other">{{ t.other }}
+    </label>
+    <label class="btn btn-outline-secondary active">
+      <input type="radio" name="category-filters" value="all" class="filter-toggler" data-filter="" checked>{{ t.all }}
+    </label>
+  </div>
+  {% endif %}
+
+  <div class="btn-group my-1" role="group" aria-label="{{ t.advanced_filters }}" data-toggle="buttons">
+    <label class="btn btn-outline-secondary active">
+      <input type="radio" name="custom-filters" value="featured" class="filter-toggler" data-filter=".featured" checked>{{ t.featured }}
+    </label>
+    <label class="btn btn-outline-secondary">
+      <input type="radio" name="custom-filters" value="new" class="filter-toggler" data-filter=".new">{{ t.new }}
+    </label>
+    <label class="btn btn-outline-secondary">
+      <input type="radio" name="custom-filters" value="all" class="filter-toggler" data-filter="">{{ t.all }}
+    </label>
+  </div>
+
+  {% comment %}
+  {% assign tags = include.posts | map: "tags" | uniq | compact | sort_natural %}
+  {% if tags %}
+  <br>
+  <div class="btn-group btn-group-sm clearfix" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
+    {% for filter in tags %}
+    {% unless page.tags contains filter %}
+    <label class="btn btn-outline-secondary">
+      <input type="radio" name="category-filters" class="filter-toggler" data-filter=".tags-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
+    </label>
+    {% endunless %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endcomment %}
+
 </div>

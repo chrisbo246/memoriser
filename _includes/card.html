@@ -3,6 +3,7 @@
 {% assign categories = '' | split: ' ' | push: post.categories | uniq | compact | sort_natural %}
 {% assign tags = '' | split: ' ' | push: post.tags | uniq | compact | sort_natural %}
 
+
 {% assign today = site.time | date: '%s' %}
 {% assign date = post.date | date: '%s' %}
 {% assign secondsSince = today | minus: date %}
@@ -74,6 +75,9 @@
     {% else %}
         {% assign card-body-classes = card-body-classes | push: 'card-body' %}
     {% endif %}
+    {% if page.card.image_position == 'overlay' and page.card.text_align == 'center' %}
+    {% assign card-body-classes = 'd-flex flex-column justify-content-center align-items-center' | split: ' ' | concat: card-body-classes %}
+    {% endif %}
 {% else %}
     {% assign card-body-classes = card-body-classes | push: 'card-body' %}
 {% endif %}
@@ -87,12 +91,10 @@
     {% assign subtitle = nil %}
 {% endif %}
 
-{% if page.card.more_button %}
-    {% assign more-link-classes = 'btn btn-primary' | split: ' ' %}
-    {% assign more-link-text = page.card.more_button %}
-{% elsif page.card.more_link %}
-    {% assign more-link-classes = 'card-link' | split: ' ' %}
-    {% assign more-link-text = page.card.more_link %}
+{% if page.card.read_more_type == 'button' %}
+    {% assign read-more-classes = 'btn btn-primary d-block mt-2' | split: ' ' %}
+{% elsif page.card.read_more_type == 'link' %}
+    {% assign read-more-classes = 'card-link' | split: ' ' %}
 {% endif %}
 
 
@@ -108,7 +110,13 @@
     <div class="{{ card-body-classes | join: ' ' }}">
 
         {% if title %}
-        <h4 class="card-title"><a class="card-link" href="{{ post.url | relative_url }}">{{ title | escape }}</a></h4>
+        <h4 class="card-title">
+          {% if read-more-classes %}
+          {{ title | escape }}
+          {% else %}
+          <a class="card-link" href="{{ post.url | relative_url }}">{{ title | escape }}</a>
+          {% endif %}
+        </h4>
         {% endif %}
 
         {% if subtitle %}
@@ -119,16 +127,20 @@
         <p class="card-text">{{ post.excerpt | escape }}</p>
         {% endif %}
 
-        {% if more-link-text %}
-        <a href="{{ post.url | relative_url }}" class="{{ more-link-classes | join: ' ' }}">{{ more-link-text | escape }}</a>
+        {% if read-more-classes and page.card.read_more_container != 'footer' %}
+        <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | join: ' ' }}">{{ page.card.read_more | default: t.read_more | escape }}</a>
         {% endif %}
 
     </div>
 
-    {% if page.card.date or page.card.categories or page.card.tags %}
+    {% if page.card.date or page.card.categories or page.card.tags or page.card.read_more_container == 'footer'%}
     <div class="card-footer clearfix hidden-sm visible-xs">
-        {% if page.card.categories and categories %}<small class="pull-left ml-2">{% include tags.html tags=categories item-class="badge badge-primary" %}</small>{% endif %}
-        {% if page.card.tags and tags %}<small class="pull-left ml-2">{% include tags.html tags=tags item-class="badge badge-secondary" %}</small>{% endif %}
+        {% if read-more-classes and page.card.read_more_container == 'footer' %}
+        <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | join: ' ' }}">{{ page.card.read_more | default: t.read_more | escape }}</a>
+        {% endif %}
+
+        {% if page.card.categories and categories %}<span class="pull-left m-1">{% include tags.html array=categories item-class="badge badge-primary" %}</span>{% endif %}
+        {% if page.card.tags and tags %}<span class="pull-left m-1">{% include tags.html array=tags item-class="badge badge-secondary" %}</span>{% endif %}
         {% if page.card.date %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
         {% if page.card.new and daysSince <= page.card.new %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
     </div>

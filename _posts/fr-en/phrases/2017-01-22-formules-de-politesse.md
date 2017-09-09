@@ -33,14 +33,17 @@ Enchanté.
 
 ## Saluer
 
-Bonjour! (jusqu’à 12h)
+Bonjour!
 : Good morning!
+*Jusqu’à 12h.*
 
-Bonjour! (de 12h a 18h)
+Bonjour!
 : Good afternoon!
+*De 12h a 18h.*
 
-Bonsoir! (à partir de 18h)
+Bonsoir!
 : Good evening!
+*À partir de 18h.*
 
 Bonjour!
 : Good day!
@@ -48,8 +51,9 @@ Bonjour!
 Salut!
 : Hello!
 
-Salut! (un peu plus familier)
+Salut!
 : Hi! Hey!
+*Un peu plus familier.*
 
 
 ## Accueillir
@@ -137,8 +141,9 @@ Merci beaucoup.
 Merci beaucoup.
 : Thanks a lot.
 
-Merci. (relativement correct)
+Merci.
 : Thanks.
+*Relativement correct.*
 
 C'est très gentil de ta part.
 : It's very kind of you.

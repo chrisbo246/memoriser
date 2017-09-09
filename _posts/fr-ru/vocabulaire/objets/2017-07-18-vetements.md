@@ -17,59 +17,59 @@ date: 2017-07-18 20:20:20 +0100
 
 vêtements
 : одежда
-*odyejda*
+*__odyejda__*
 
 chapeau
 : шляпа
-*shlyapa*
+*__shlyapa__*
 
 veste
 : куртка
-*kourtka*
+*__kourtka__*
 
 chemise
 : рубашка
-*roubashka*
+*__roubashka__*
 
 T-shirt
 : футбо́лка
-*foudbolka*
+*__foudbolka__*
 
 pantalon
 : брюки
-*briouky*
+*__briouky__*
 
 robe
 : платье
-*platye*
+*__platye__*
 
 jupe
 : ю́бка
-*ioupka*
+*__ioupka__*
 
 sous-vêtements
 : нижнее белье
-*nijnie bilyo*
+*__nijnie bilyo__*
 
 couche
 : пальто
-*palto*
+*__palto__*
 
 chaussettes
 : носки
-*nosky*
+*__nosky__*
 
 chaussures
 : обувь
-*obouv*
+*__obouv__*
 
 
 ## Accessoires
 
 portefeuille
 : бумажник
-*boumajnik*
+*__boumajnik__*
 
 parapluie
 : зонтик
-*zon'tyk*
+*__zon'tyk__*

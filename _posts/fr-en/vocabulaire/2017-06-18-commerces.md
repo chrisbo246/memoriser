@@ -62,5 +62,6 @@ usine
 
 ## Divers
 
-monde inférieur (enfer)
+monde inférieur
 : netherworld
+*L'enfer.*

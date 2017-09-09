@@ -18,86 +18,86 @@ date: 2017-01-01 20:20:20 +0100
 
 Qu’est ce que c’est?
 : Что это?
-*Chto eta?*
+*__Chto eta?__*
 
 Pourriez-vous me dire ...?
 : не подскажите ...?
-*Nie podskajite ...?*
+*__Nie podskajite ...?__*
 
 Qu’est-ce qui est écrit là ?
 : Что тут написано?
-*Shto tout' napisana?*
+*__Shto tout' napisana?__*
 
 Est ce que vous comprenez l'anglais?
 : Вы понимаете по-английски?
-*Vi panimiétié pa anglisky?*
+*__Vi panimiétié pa anglisky?__*
 
 
 ## Politesse
 
 Puis-je? Je peut?
 : Можно?
-*Mojna?*
+*__Mojna?__*
 
 Êtes-vous satisfait?
 : Довольны ли Вы?
-*Davolny li vy?*
+*__Davolny li vy?__*
 
 Qui est le dernier (de la queue)?
 : Kто Последний?
-*Kto pasliedni?*
+*__Kto pasliedni?__*
 
 Faut-t'il retirer ses chaussures?
 : Снимать обувь?
-*Snimat obouv?*
+*__Snimat obouv?__*
 
 Est-ce qu’il faut enlever ses chaussures?
 : Снимать обувь надо?
-*Snimat obouv nado?*
+*__Snimat obouv nado?__*
 
 
 ## Se renseigner sur la situation
 
 Qui est là?
 : Кто здесь?
-*kto zdies*
+*__kto zdies__*
 
 
 ## Se renseigner sur ce qu'il s'est passé
 
 Qu'est ce qu'il s'est passé?
 : что случилось?
-*chto soutchilas*
+*__chto soutchilas__*
 
 Qui a dit ça?
 : Кто это сказал?
-*kto eta skazal?*
+*__kto eta skazal?__*
 
 
 ## Pourquoi
 
 Pourquoi …?
 : почему …?
-*Patchimou …?*
+*__Patchimou …?__*
 
 Pourquoi as-tu/avez-vous fais ça?
 : почему ты/вы это сделал?
-*Patchimou ti/vi éta sdiélal?*
+*__Patchimou ti/vi éta sdiélal?__*
 
 
 ## Lequel
 
 Quel, Lequel ...?
 : который …?
-*katori …?*
+*__katori …?__*
 
 Quelle, Laquelle ...?
 : которая …?
-*katoraya …?*
+*__katoraya …?__*
 
 
 ## Retourner la question
 
 Et vous?
 : А вы?
-*A vy?*
+*__A vy?__*

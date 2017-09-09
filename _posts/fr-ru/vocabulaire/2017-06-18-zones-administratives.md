@@ -18,65 +18,69 @@ date: 2017-01-01 20:20:20 +0100
 
 URSS
 : СССР
-*èssèssèssèr*
+*__èssèssèssèr__*
 
 Russie
 : Россия
-*Rossiya*
+*__Rossia__*
 
 Françe
 : Франция
-*Frantsya*
+*__Frantsia__*
 
 
 ## Divisions administratives
 
 continent
 : континент
-*continiente*
+*__continient'__*
 
 pays
 : страна
-*strana*
+*__strana__*
 
 région
 : область
-*oblast*
+*__oblasts__*
 
 ville
 : город
-*gorat*
+*__gorat'__*
 
 village
 : деревня
-*diérievnia*
+*__diérievnia__*
 
 
 ## Types de voies
 
 rue
 : улица
-*oulitsa*
+*__oulitsa__*
 
 avenue
 : проспект
-*praspiekt*
+*__praspiekt'__*
 
 
 ## Les lieux publiques
 
 place
 : площадь
-*plochid'*
+*__plochid'__*
 
 parc
 : парк
-*park*
+*__park__*
+
+centre
+: центре
+*__tsentr'__*
 
 centre-ville
-: центре (города)
-*tsentr' (goroda)*
+: центре города
+*__tsentr' goroda__*
 
 centre historique
 : центр Исторического
-*tsentr' istoricheskova*
+*__tsentr' istoricheskova__*

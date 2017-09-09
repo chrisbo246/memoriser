@@ -1,0 +1,43 @@
+
+@import "card-flip";
+
+
+
+.card-columns {
+  @include media-breakpoint-only(xs) {
+    column-count: 1;
+  }
+  @include media-breakpoint-only(sm) {
+    column-count: 1;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 1;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 4;
+  }
+}
+
+
+
+.card-img {
+
+  &.card-img-grayscale {
+    filter: grayscale(100%);
+  }
+
+  &.card-img-faded {
+    filter: brightness(115%) saturate(50%);
+    .text-white & {
+      filter: brightness(85%) saturate(50%);
+    }
+    &.lazyloading,
+    &.lazyloaded {
+      opacity: 1;
+    }
+  }
+
+}

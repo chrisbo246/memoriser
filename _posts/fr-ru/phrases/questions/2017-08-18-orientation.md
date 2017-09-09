@@ -19,39 +19,39 @@ date: 2018-08-18 20:20:20 +0100
 
 Où? (direction)
 : Куда?
-*Kouda?*
+*__Kouda?__*
 
 Où est …?
 : Где …?
-*Gdiè …?*
+*__Gdiè …?__*
 
 Où se trouve ...?
 : Где находится ... ?
-*Gdié nahodisia ... ?*
+*__Gdié nahodisia ... ?__*
 
 Où sont les toilettes?
 : Где туалет?
-*Gdié toualette?*
+*__Gdié toualette?__*
 
 Où puis-je me laver les mains?
 : Где можно здесь помыть руки?
-*Gdié mojna zdies' pamit' rouki?*
+*__Gdié mojna zdies' pamit' rouki?__*
 
 Est-ce près?
 : Это близки?
-*Eto blizki?*
+*__Eto blizki?__*
 
 Est-ce loin?
 : Это далеки?
-*Eto dalioki?*
+*__Eto dalioki?__*
 
 
 ## Provenance
 
 D'où ….?
 : откуда ...?
-*Atkouda ...?*
+*__Atkouda ...?__*
 
 D'où êtes-vous venu?
 : откуда вы пришёл?
-*Atkouda vi prichol?*
+*__Atkouda vi prichol?__*
