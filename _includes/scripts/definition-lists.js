@@ -42,7 +42,7 @@
     * Make container flex
     */
 
-    $container.addClass('d-flex flex-row flex-wrap align-items-stretch align-self-stretch justify-content-between -justify-content-start m-0 spinner');
+    $container.addClass('d-flex flex-row flex-wrap align-items-stretch align-self-stretch justify-content-between');
 
 
 
@@ -202,8 +202,7 @@
     * then unhide post content once everything is in place
     */
 
-    $container.removeClass('spinner');
-    $container.css('visibility', 'visible');
+    $container.removeClass('spinner fa fa-spinner');
 
     console.timeEnd('Definition list generation');
   }

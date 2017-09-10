@@ -46,6 +46,7 @@ sass:
     - _sass
     - bower_components/bootstrap/scss
     - bower_components/font-awesome/scss
+    - bower_components/cookieconsent/build
 
 
 # ------------------------------------------------------------------------------

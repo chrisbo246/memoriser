@@ -14,46 +14,66 @@ $ad-zindex: $zindex-fixed + 1 !default;
 
 // Variables
 $ad-viewport-ratio: 1 / 10 !default;
-$ad-class: adsbygoogle;
+$ad-container-class: ad-container !default;
+$ad-background-class: ad-background !default;
 
 
 @mixin ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {
   position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items:center;
+  display: block;
   z-index: $ad-zindex;
-  overflow: hidden;
+  width: $ad-width;
+  height: $ad-height;
+  max-width: $ad-width;
+  max-height: $ad-height;
+}
+
+@mixin ad-background($ad-width, $ad-height, $ad-gutter-width: 0) {
+  position: fixed;
+  display: block;
+  z-index: $ad-zindex;
   background: $ad-bg;
-  padding-left: ceil(($ad-gutter-width / 2)) !important;
-  padding-right: floor(($ad-gutter-width / 2)) !important;
-  padding-top: ceil(($ad-gutter-width / 2)) !important;
-  padding-bottom: floor(($ad-gutter-width / 2)) !important;
 }
 
 @mixin vertical-ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {
   @include ad-container($ad-width, $ad-height, $ad-gutter-width);
-  left: 0;
   top: 0;
-  height: 100vh;
+  bottom: 0;
+  margin-left: ceil(($ad-gutter-width / 2)) !important;
+  margin-right: floor(($ad-gutter-width / 2)) !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+@mixin vertical-ad-background($ad-width, $ad-height, $ad-gutter-width: 0) {
+  @include ad-background($ad-width, $ad-height, $ad-gutter-width);
+  top: 0;
+  bottom: 0;
+  min-width: $ad-width + $ad-gutter-width;
   min-height: 100vh;
-  width: $ad-width + $ad-gutter-width;
-  max-width: $ad-width + $ad-gutter-width;
 }
 
 @mixin horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {
   @include ad-container($ad-width, $ad-height, $ad-gutter-width);
   left: 0;
-  bottom: 0;
-  width: 100%;
-  min-width: 100%;
-  height: $ad-height + $ad-gutter-width;
-  max-height: $ad-height + $ad-gutter-width;
+  right: 0;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: ceil(($ad-gutter-width / 2)) !important;
+  margin-bottom: floor(($ad-gutter-width / 2)) !important;
+}
+
+@mixin horizontal-ad-background($ad-width, $ad-height, $ad-gutter-width: 0) {
+  @include ad-background($ad-width, $ad-height, $ad-gutter-width);
+  left: 0;
+  right: 0;
+  min-width: 100vw;
+  min-height: $ad-height + $ad-gutter-width;
 }
 
 @mixin push-content-right($size: 0) {
-  @at-root .container .navbar,
-  .container-fluid .navbar,
+  .container > .navbar,
+  .container-fluid > .navbar,
   .container,
   .container-fluid {
     padding-left: $size + floor(($grid-gutter-width / 2));
@@ -61,8 +81,8 @@ $ad-class: adsbygoogle;
 }
 
 @mixin push-content-left($size: 0) {
-  @at-root .container .navbar,
-  .container-fluid .navbar,
+  .container > .navbar,
+  .container-fluid > .navbar,
   .container,
   .container-fluid {
     padding-right: $size + ceil(($grid-gutter-width / 2));
@@ -70,113 +90,79 @@ $ad-class: adsbygoogle;
 }
 
 @mixin push-content-up($size: 0) {
-  & + * {
-    padding-bottom: $size !important;
-  }
-  @at-root a[href="#top"],
+  padding-bottom: $size !important;
+  a[href="#top"],
   .fixed-bottom {
     bottom: $size !important;
   }
 }
 
+@mixin ad-left($ad-width, $ad-height, $ad-gutter-width: 0) {
+  @media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
+    .#{$ad-container-class}:not([hidden]) {
+      @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
+      left: 0;
+      & ~ * {
+        @include push-content-right($ad-width + $ad-gutter-width);
+      }
+      @at-root .#{$ad-background-class} {
+        @include vertical-ad-background($ad-width, $ad-height, $ad-gutter-width);
+        left: 0;
+      }
+    }
+
+  }
+}
+
+@mixin ad-right($ad-width, $ad-height, $ad-gutter-width: 0) {
+  @media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
+    .#{$ad-container-class}:not([hidden]) {
+      @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
+      right: 0;
+      & ~ * {
+        @include push-content-left($ad-width + $ad-gutter-width);
+      }
+      @at-root.#{$ad-background-class} {
+        @include vertical-ad-background($ad-width, $ad-height, $ad-gutter-width);
+        right: 0;
+      }
+    }
+  }
+}
+
+@mixin ad-bottom($ad-width, $ad-height, $ad-gutter-width: 0) {
+  @media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
+    .#{$ad-container-class}:not([hidden]) {
+      @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
+      bottom: 0;
+      & ~ * {
+        @include push-content-up($ad-height + $ad-gutter-width);
+      }
+      @at-root.#{$ad-background-class} {
+        @include horizontal-ad-background($ad-width, $ad-height, $ad-gutter-width);
+        bottom: 0;
+      }
+    }
+  }
+}
 
 
 
-/* Hide ad when there is no available space */
-
-.#{$ad-class} {
+// Hide ad when there is no available space
+.#{$ad-background-class},
+.#{$ad-container-class} {
   display: none;
 }
 
+// Landscape screen / Vertical ad to the left
+@include ad-left(120px, 240px, $ad-gutter-width);
+@include ad-left(120px, 600px, $ad-gutter-width);
+@include ad-left(160px, 600px, $ad-gutter-width);
 
-
-/* Landscape screen / Vertical ad to the left */
-
-$ad-width: 120px;
-$ad-height: 240px;
-@media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
-  .#{$ad-class} {
-    @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-right($ad-width + $ad-gutter-width);
-  }
-}
-
-$ad-width: 120px;
-$ad-height: 600px;
-@media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
-  .#{$ad-class} {
-    @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-right($ad-width + $ad-gutter-width);
-  }
-}
-
-$ad-width: 160px;
-$ad-height: 600px;
-@media (orientation: landscape) and (min-width: $ad-width / $ad-viewport-ratio) and (min-height: $ad-height + $ad-gutter-width) {
-  .#{$ad-class} {
-    @include vertical-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-right($ad-width + $ad-gutter-width);
-  }
-}
-
-
-
-/* Portrait screen / Horizontal ad to the bottom */
-
-$ad-width: 234px;
-$ad-height: 60px;
-@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .#{$ad-class} {
-    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-up($ad-height + $ad-gutter-width);
-  }
-}
-
-$ad-width: 320px;
-$ad-height: 100px;
-@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .#{$ad-class} {
-    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-up($ad-height + $ad-gutter-width);
-  }
-}
-
-$ad-width: 468px;
-$ad-height: 60px;
-@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .#{$ad-class} {
-    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-up($ad-height + $ad-gutter-width);
-  }
-}
-
-$ad-width: 728px;
-$ad-height: 90px;
-@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .#{$ad-class} {
-    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-up($ad-height + $ad-gutter-width);
-  }
-}
-
-$ad-width: 970px;
-$ad-height: 90px;
-@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .#{$ad-class} {
-    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-up($ad-height + $ad-gutter-width);
-  }
-}
-
-$ad-width: 970px;
-$ad-height: 250px;
-@media (orientation: portrait) and (min-width: $ad-width + $ad-gutter-width) and (min-height: $ad-height / $ad-viewport-ratio) {
-  .#{$ad-class} {
-    @include horizontal-ad-container($ad-width, $ad-height, $ad-gutter-width);
-    @include push-content-up($ad-height + $ad-gutter-width);
-  }
-}
-
-.#{$ad-class}[data-adsbygoogle-status="done"] {
-
-}
+// Portrait screen / Horizontal ad to the bottom
+@include ad-bottom(234px, 60px, $ad-gutter-width);
+@include ad-bottom(320px, 100px, $ad-gutter-width);
+@include ad-bottom(468px, 60px, $ad-gutter-width);
+@include ad-bottom(728px, 90px, $ad-gutter-width);
+@include ad-bottom(970px, 90px, $ad-gutter-width);
+@include ad-bottom(970px, 250px, $ad-gutter-width);
