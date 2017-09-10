@@ -25,10 +25,10 @@ $ad-class: adsbygoogle;
   z-index: $ad-zindex;
   overflow: hidden;
   background: $ad-bg;
-  padding-left: ceil(($ad-gutter-width / 2));
-  padding-right: floor(($ad-gutter-width / 2));
-  padding-top: ceil(($ad-gutter-width / 2));
-  padding-bottom: floor(($ad-gutter-width / 2));
+  padding-left: ceil(($ad-gutter-width / 2)) !important;
+  padding-right: floor(($ad-gutter-width / 2)) !important;
+  padding-top: ceil(($ad-gutter-width / 2)) !important;
+  padding-bottom: floor(($ad-gutter-width / 2)) !important;
 }
 
 @mixin vertical-ad-container($ad-width, $ad-height, $ad-gutter-width: 0) {

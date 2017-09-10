@@ -4,8 +4,8 @@
   perspective: 1000px;
 
   .card {
-    min-width: 11rem;
-    min-height: 11rem;
+    min-width: 12rem;
+    min-height: 12rem;
   }
 
   .card-body {
@@ -60,6 +60,7 @@
 
   // Question sign as background
   .card-flip {
+
     .card:first-of-type:after {
       content: "\f128";
       font-family: FontAwesome;
@@ -78,11 +79,14 @@
       align-items: center;
       opacity: .05;
     }
+
     .card.bg-success:first-of-type {
       &:after {
-        content: "\f118";
+        //content: "\f118";
+        content: "\f00c";
       }
     }
+
   }
 
 }
