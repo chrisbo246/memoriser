@@ -136,17 +136,18 @@ a.btn-tts {
 .spinner:before {
    opacity: .1;
    visibility: visible;
-   display: block;
+   display: block !important;
    position: fixed !important;
    animation: fa-spin 1s infinite steps(8);
-   font-size: 20vh;
-   width: 20vh;
-   height: 20vh;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   margin: auto;
+   font-size: 20vh !important;
+   width: 20vh !important;
+   height: 20vh !important;
+   top: 0 !important;
+   bottom: 0 !important;
+   left: 0 !important;
+   right: 0 !important;
+   margin: auto !important;
+   padding: 0 !important;
 }
 
 
