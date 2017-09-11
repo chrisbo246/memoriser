@@ -25,6 +25,9 @@
 
 .card-img {
 
+  min-width: 100%;
+  min-height: 100%;
+
   &.card-img-grayscale {
     filter: grayscale(100%);
   }

@@ -41,10 +41,10 @@ body {
 // Collapse navbar
 /*
 #navbarSupportedContent {
-  position: fixed;
-  z-index: $zindex-fixed;
-  margin: -24px 0 0 0;
-  height: 100%;
+position: fixed;
+z-index: $zindex-fixed;
+margin: -24px 0 0 0;
+height: 100%;
 }
 */
 
@@ -80,9 +80,9 @@ body {
 }
 
 /*.social-icons {
-    .fa:before {
-        color: $text-muted;
-    }
+.fa:before {
+color: $text-muted;
+}
 }*/
 
 
@@ -108,10 +108,10 @@ a.btn-tts {
 // Cookieconsent
 /*
 .cc-window.cc-theme-block {
-  box-shadow: 0 0 60px 30px $body-bg;
-  .bg-dark & {
-    box-shadow: 0 0 60px 30px $black;
-  }
+box-shadow: 0 0 60px 30px $body-bg;
+.bg-dark & {
+box-shadow: 0 0 60px 30px $black;
+}
 }
 */
 
@@ -131,23 +131,23 @@ a.btn-tts {
 // Make content unvisible and show a spinner instead
 
 .spinner {
-   visibility: hidden;
+  visibility: hidden;
 }
 .spinner:before {
-   opacity: .1;
-   visibility: visible;
-   display: block !important;
-   position: fixed !important;
-   animation: fa-spin 1s infinite steps(8);
-   font-size: 20vh !important;
-   width: 20vh !important;
-   height: 20vh !important;
-   top: 0 !important;
-   bottom: 0 !important;
-   left: 0 !important;
-   right: 0 !important;
-   margin: auto !important;
-   padding: 0 !important;
+  opacity: .1;
+  visibility: visible;
+  position: fixed !important;
+  animation: fa-spin 1s infinite steps(8);
+  font-size: 20vh !important;
+  display: block !important;
+  width: 20vh !important;
+  height: 20vh !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: auto !important;
+  padding: 0 !important;
 }
 
 
@@ -165,9 +165,7 @@ a[href="#top"] {
 
 // Hide content when the collapsible sidebar is open on narrow screens
 @include media-breakpoint-down(sm) {
-  .col {
-    & ~ .col.collapse.show & {
-      display: none;
-    }
+  .col.collapse.show + .col {
+    display: none;
   }
 }
