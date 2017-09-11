@@ -7,7 +7,7 @@ layout: default
 <div class="container-fluid">
 
     <div class="row clearfix">
-      <div class="collapse col col-md-3 order-2" id="post_options">
+      <div class="collapse col col-sm-4 col-lg-3 col-xl-2 order-2" id="post_options">
           <div class="sidebar sticky-top">
 
               <!--
@@ -47,11 +47,11 @@ layout: default
 
             <article class="post">
 
-                <div id="memorized-tip" class="alert alert-info alert-dismissible lead mb-3 clearfix" role="alert" hidden>
+                <div id="memorized-tip" class="alert alert-info alert-dismissible mb-3 clearfix" role="alert" hidden>
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <strong class="display-4 mr-3 mb-2 pull-left">{{ t.tip }}</strong> {{ t.memorized_tip }}
+                    <i class="fa fa-info-circle fa-3x mr-3 mb-2 pull-left" aria-hidden="false" data-toggle="tooltip" title="{{ t.tip }}"></i>{{ t.memorized_tip }}
                 </div>
 
                 <header class="post-header" hidden>
