@@ -17,14 +17,13 @@ $fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
 @import "font-awesome";
 @import "{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url | prepend: '../..' }}";
 
-@import "scrollbar";
 @import "dl-flexbox";
 @import "card";
-@import "social-icons";
-@import "adsense";
-@import "button-square";
-@import "lazysizes";
 @import "responsive";
+@import "scrollbar";
+@import "adsense";
+@import "social-icons";
+@import "lazysizes";
 
 
 
@@ -43,16 +42,6 @@ body {
 
 
 
-// Collapse navbar
-/*
-#navbarSupportedContent {
-position: fixed;
-z-index: $zindex-fixed;
-margin: -24px 0 0 0;
-height: 100%;
-}
-*/
-
 // Sticky sidebar
 
 .sidebar.sticky-top {
@@ -66,8 +55,6 @@ height: 100%;
 // Navbar
 
 .navbar-text {
-  font-size: 1.2rem;
-  font-size: 2vw;
   line-height: 1rem;
 }
 
@@ -84,11 +71,6 @@ height: 100%;
   filter: invert(100%);
 }
 
-/*.social-icons {
-.fa:before {
-color: $text-muted;
-}
-}*/
 
 
 // Posts
@@ -96,15 +78,6 @@ color: $text-muted;
 .post-content {
   h2 {
     color: $gray-lightest;
-  }
-}
-
-a.btn-tts {
-  transform: scale(0.8);
-  padding: .12rem 0 0 .5rem;
-  border: none;
-  &:focus {
-    box-shadow: none;
   }
 }
 
@@ -141,18 +114,18 @@ box-shadow: 0 0 60px 30px $black;
 .spinner:before {
   opacity: .1;
   visibility: visible;
-  position: fixed !important;
+  position: fixed;
   animation: fa-spin 1s infinite steps(8);
-  font-size: 20vh !important;
-  display: block !important;
-  width: 20vh !important;
-  height: 20vh !important;
-  top: 0 !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  margin: auto !important;
-  padding: 0 !important;
+  font-size: 20vh;
+  display: block;
+  width: 20vh;
+  height: 20vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0;
 }
 
 

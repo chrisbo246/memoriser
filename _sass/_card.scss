@@ -1,7 +1,4 @@
 
-@import "card-flip";
-
-
 .card-img {
 
   min-width: 100%;
@@ -19,6 +16,44 @@
     &.lazyloading,
     &.lazyloaded {
       opacity: 1;
+    }
+  }
+
+}
+
+
+
+.card-flip {
+
+  background: none;
+  border: none;
+  padding: 0;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  transform-style: preserve-3d;
+  tranform: rotateY(0deg);
+
+  .card {
+    backface-visibility: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .card:first-of-type {
+    position: absolute;
+    display: flex;
+  }
+
+  .card:last-of-type {
+    transform: rotateY(180deg);
+  }
+
+  input[type="radio"]:checked ~ &,
+  input[type="checkbox"]:checked ~ & {
+    transform: rotateY(-180deg);
+    .card:last-of-type {
+      z-index: 1;
     }
   }
 
