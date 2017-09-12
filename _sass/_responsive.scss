@@ -1,20 +1,48 @@
+/*
+breakpoints (landscape examples):
+xs: >= 0 (iPhone 5 landscape 568 x 320)
+sm: >= 576px (iPhone 6/6s landscape HD 736 x 414)
+md: >= 768px
+lg: >= 992px (iPad 1/2 landscape 1024 x 768)
+xl: >= 1200px (Laptop HD 1366 x 768, Netbook MDPI 1280 x 800, iPhone 7 landscape 1334 x 750, iPad Pro landscape 1366 x 1024)
+
+breakpoints (portrait examples):
+xs: >= 0 (iPhone 6/6s portrait HD 414 x 736)
+sm: >= 576px
+md: >= 768px (iPad 1/2 portrait 768 x 1024, iPhone 7 portrait 750 x 1334)
+lg: >= 992px (iPad Pro portrait 1024 x 1366)
+xl: >= 1200px
+*/
+
+
 
 html {
-  font-size: 12px;
+  font-size: 11px;
 }
+body {
+  padding-top: 3.25rem;
+  //padding-bottom: 3.25rem;
+}
+.sticky-top {
+  top: 3.25rem;
+}
+.sticky-bottom {
+  //bottop: 3.25rem;
+}
+
 @include media-breakpoint-up(sm) {
   html {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 @include media-breakpoint-up(md) {
   html {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 @include media-breakpoint-up(lg) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @include media-breakpoint-up(xl) {

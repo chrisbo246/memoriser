@@ -1,19 +1,21 @@
 
-{% capture url_parts %} {{ page.url | remove: '/index.html' | replace: '/', ' ' }}{% endcapture %}
-{% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
-{% assign previous='' %}
+{% assign url_parts = page.url | remove: '/index.html' | replace: '/', ' ' %}
+{% assign num_parts = url_parts | number_of_words | minus: 1 %}
+{% assign previous = '' %}
+
 <nav class="{{ include.class | default: 'breadcrumb' }}">
-  {% if num_parts == "0" or num_parts == "-1" %}
-  <a class="breadcrumb-item" href="{{ '/' | relative_url }}">{{ t.home }}</a>
-  {% else %}
+
   <a class="breadcrumb-item" href="{{ '/' | relative_url }}">{{ t.home }}</a>
 
+  {% if num_parts > 0 %}
   {% for unused in page.content limit:num_parts %}
-  {% capture first_word %}{{ url_parts | truncatewords: 1 | remove: '...'}}{% endcapture %}
-  {% capture previous %}{{ previous }}/{{ first_word }}{% endcapture %}
+  {% assign first_word = url_parts | truncatewords: 1 | remove: '...' %}
+  {% assign previous = previous | append: '/' | first_word %}
   <a class="breadcrumb-item" href="{{ previous | append: '.html' | relative_url }}">{{ first_word }}</a>
-  {% capture url_parts %}{{ url_parts | remove_first: first_word }}{% endcapture %}
+  {% assign url_parts = url_parts | remove_first: first_word %}
   {% endfor %}
   {% endif %}
+
   <span class="breadcrumb-item active">{{ page.title | escape }}</span>
+
 </nav>

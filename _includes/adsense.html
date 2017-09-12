@@ -1,11 +1,11 @@
 
-{% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
-
-<div class="ad-background"></div>
-<ins class="ad-container adsbygoogle"
+<div class="fixed-ad-background"></div>
+<ins class="fixed-ad-container adsbygoogle"
 data-ad-client="{{ site.adsense.client }}"
 data-ad-slot="{{ site.adsense.slot }}"
 data-ad-format="{{ site.adsense.format | default: 'auto' }}"></ins>
+
+{% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
 
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});

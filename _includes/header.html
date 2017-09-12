@@ -7,7 +7,7 @@
         {{ site.title | escape }} <span class="badge badge-warning">BETA</span>-->{% endcomment %}
         {{ site.title | slice: 0, 4 | escape }}<span class="text-warning">{{ site.title | slice: 4, 100 | escape }}</span>
       </a>
-      <span class="navbar-text p-0">{{ page.title }}</span>
+      <span class="navbar-text p-0 hidden-xs-dowm">{{ page.title }}</span>
     {% else %}
       {% include breadcrumb.html class='navbar-text p-0' %}
     {% endif %}
