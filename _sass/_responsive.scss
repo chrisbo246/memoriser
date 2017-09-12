@@ -14,22 +14,51 @@ lg: >= 992px (iPad Pro portrait 1024 x 1366)
 xl: >= 1200px
 */
 
+// Bootstrap 3-4
+$grid-gutter-width-base: 30px !default;
+
+// Bootstrap 3 > Bootstrap 4
+$grid-gutter-width: $grid-gutter-width-base !default;
+
+// Variables
+$fixed-top-navbar-height: 3.25rem;
+$fixed-bottom-navbar-height: 0rem;
 
 
-html {
-  font-size: 11px;
+// Fixed navbar fixes
+.navbar.fixed-top {
+  .navbar-collapse.show & {
+    $fixed-top-navbar-height: 6rem;
+  }
 }
+.navbar.fixed-bottom {
+  .navbar-collapse.show & {
+    $fixed-bottom-navbar-height: 0rem;
+  }
+}
+
 body {
-  padding-top: 3.25rem;
-  //padding-bottom: 3.25rem;
+  padding-top: $fixed-top-navbar-height;
+  padding-bottom: $fixed-bottom-navbar-height;
 }
 .sticky-top {
-  top: 3.25rem;
+  top: $fixed-top-navbar-height;
+  //top: $fixed-top-navbar-height + ceil($grid-gutter-width / 2); // Unit issue
 }
 .sticky-bottom {
-  //bottop: 3.25rem;
+  bottom: $fixed-bottom-navbar-height;
+  //bottom: $fixed-bottom-navbar-height + floor($grid-gutter-width / 2); // Unit issue
 }
 
+
+
+// Font size
+
+@include media-breakpoint-up(xs) {
+  html {
+    font-size: 11px;
+  }
+}
 @include media-breakpoint-up(sm) {
   html {
     font-size: 12px;
@@ -47,11 +76,17 @@ body {
 }
 @include media-breakpoint-up(xl) {
   html {
-    font-size: 18px;
+    font-size: 16px;
+  }
+}
+@include media-breakpoint-up(xl) {
+  html {
+    font-size: 16px;
   }
 }
 
 
+// Card columns
 
 .card-columns {
   column-count: 1;
@@ -67,6 +102,7 @@ body {
 
 
 // Hide content when the collapsible sidebar is open on narrow screens
+
 @include media-breakpoint-down(xs) {
   .col.collapse.show + .col {
     display: none;
@@ -75,8 +111,8 @@ body {
 
 
 
-@include media-breakpoint-only(xs) {
+/*@include media-breakpoint-only(xs) {
   .navbar-text {
     font-size: 2.25vw;
   }
-}
+}*/

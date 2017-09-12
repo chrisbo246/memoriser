@@ -2,12 +2,19 @@
 .definition-list  {
 
   .card {
-    min-width: 12rem;
-    min-height: 12rem;
+    min-width: 9rem;
+    min-height: 9rem;
   }
 
+  .card-text {
+    //font-size: 1.25rem;
+  }
   .card-body {
     max-width: 30rem;
+  }
+
+
+  .card-body {
     word-wrap: break-word;
     word-break: break-word;
     -moz-user-select: none;
@@ -17,84 +24,100 @@
     user-select: none;
   }
 
-  .card.card-section {
+
+
+  // Question sign as background
+  .card-flip {
+
+    .card:first-of-type {
+
+      &:after {
+        content: "\f128";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        position: absolute;
+        z-index: 1;
+        font-size: 8rem;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: .05;
+      }
+
+      &.bg-success {
+        &:after {
+          //content: "\f118";
+          content: "\f00c";
+        }
+      }
+
+    }
+
+    .card:last-of-type {
+
+      .card-text {
+
+        em {
+          display: block;
+          font-size: $small-font-size;
+          color: $text-muted;
+          font-weight: lighter;
+          strong {
+            color: $text-muted;
+          }
+        }
+
+        & > em > strong {
+          display: block;
+          &:before {
+            //content: "\201C";
+          }
+          &:after {
+            //content: "\201D";
+          }
+        }
+
+      }
+
+      /*a.btn-tts {
+        transform: scale(0.8);
+        padding: .12rem 0 0 .5rem;
+        border: none;
+        &:focus {
+          box-shadow: none;
+        }
+      }*/
+
+      .btn.active .fa-check {
+        color: theme-color("success");
+      }
+
+      .btn:focus,
+      .btn.focus {
+        box-shadow: none;
+      }
+
+    }
+
+    input[name="memorized"][value="1"]:checked & > .card:first-of-type {
+      background-color: $gray-300;
+    }
+
+  }
+
+
+
+  .card-section {
     width: 12rem;
     word-wrap: break-word;
     word-break: break-word;
   }
 
-  .card-text {
-
-    //font-weight: bolder;
-    //font-size: 1.5rem;
-    font-size: 1.25rem;
-
-    em {
-      display: block;
-      color: $text-muted;
-      font-weight: lighter;
-      font-size: .85rem;
-      strong {
-        color: $text-muted;
-      }
-    }
-
-    & > em > strong {
-      display: block;
-      &:before {
-        //content: "\201C";
-      }
-      &:after {
-        //content: "\201D";
-      }
-    }
-
-  }
-
-  .card-flip {
-    input[name="memorized"][value="1"]:checked & > .card:first-of-type {
-      background-color: $gray-300;
-    }
-  }
-
-  // Question sign as background
-  .card-flip {
-
-    .card:first-of-type:after {
-      content: "\f128";
-      font-family: FontAwesome;
-      font-style: normal;
-      font-weight: normal;
-      text-decoration: inherit;
-      position: absolute;
-      z-index: 1;
-      font-size: 8rem;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: .05;
-    }
-
-    .card.bg-success:first-of-type {
-      &:after {
-        //content: "\f118";
-        content: "\f00c";
-      }
-    }
-
-  }
-
-  a.btn-tts {
-    transform: scale(0.8);
-    padding: .12rem 0 0 .5rem;
-    border: none;
-    &:focus {
-      box-shadow: none;
-    }
-  }
 
 }

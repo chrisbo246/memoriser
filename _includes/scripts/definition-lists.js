@@ -78,20 +78,20 @@
         + '<figure class="card card-flip m-1">'
         + '<div class="card bg-dark text-muted">'
         + '<div class="card-body d-flex justify-content-center align-items-center">'
-        + '<h4 class="card-title h5 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '').replace(/\[([^\[\]]*)\]/g, '') + '</h4>'
+        + '<h4 class="card-title h6 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '').replace(/\[([^\[\]]*)\]/g, '') + '</h4>'
         + '</div>'
         + '</div>'
         + '<div class="card bg-white text-dark">'
         + '<div class="card-body">'
         //+ '<h4 class="card-title h5 mb-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<span class="text-muted">($1)</span>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">($1)</sup>') + '</h4>'
         + '<p class="card-text">'
-        //+ '<a class="btn btn-link btn-sm pull-right btn-tts" style="display: none;" href="#" role="button"><i class="fa fa-volume-up"></i></a>'
+        //+ (($.speech && dtLang && ddLang) ? '<a class="btn btn-link btn-sm pull-right btn-tts" href="#" role="button"><i class="fa fa-volume-up"></i></a>' : '')
         + $dd.html()
         + '</p>'
         + '</div>'
-        + '<div class="card-footer bg-transparent border-0 p-1 btn-group btn-group-lg d-flex" data-toggle="buttons" role="group" aria-label="">'
-        + (($.speech && dtLang && ddLang) ? '<button class="btn btn-light text-muted w-100 btn-tts"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
-        + '<label for="' + id + '" class="btn btn-light text-muted w-100"><input type="checkbox" class="memorized" id="' + id + '" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
+        + '<div class="card-footer bg-transparent border-0 p-1 btn-group btn-group-sm d-flex" data-toggle="buttons" role="group" aria-label="">'
+        + (($.speech && dtLang && ddLang) ? '<button class="btn btn-link text-muted w-100 btn-tts" type="button"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
+        + '<label for="' + id + '" class="btn btn-link text-muted w-100"><input type="checkbox" class="memorized" id="' + id + '" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
         + '</div>'
         + '</div>'
         + '</figure>'

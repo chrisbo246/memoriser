@@ -2,16 +2,17 @@
   <nav class="navbar navbar-light bg-light fixed-top justify-content-between">
 
     {% if page.layout == 'home' %}
-      <a class="navbar-brand" href="{{ "/" | relative_url}}">
-        {% comment %}<!--<img src="{{ "/assets/images/favicons/favicon-32x32.png" | relative_url }}" width="32" height="32" class="d-inline-block align-top" alt="{{ site.title }} logo" />
-        {{ site.title | escape }} <span class="badge badge-warning">BETA</span>-->{% endcomment %}
-        {{ site.title | slice: 0, 4 | escape }}<span class="text-warning">{{ site.title | slice: 4, 100 | escape }}</span>
-      </a>
-      <span class="navbar-text p-0 hidden-xs-dowm">{{ page.title }}</span>
-    {% else %}
-      {% include breadcrumb.html class='navbar-text p-0' %}
+    <a class="navbar-brand" href="{{ "/" | relative_url}}">
+      {{ site.title | slice: 0, 4 | escape }}<span class="text-warning">{{ site.title | slice: 4, 100 | escape }}</span>
+    </a>
     {% endif %}
 
+    {% if page.layout == 'home' %}
+    <span class="navbar-text text-truncate p-0 -hidden-xs-dowm">{{ page.title }}</span>
+    {% else %}
+    {% include breadcrumb.html class='navbar-text text-truncate p-0' %}
+    {% endif %}
+    
     <div class="form-inline">
       {% if page.layout == 'definition-lists' %}
       <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#post_options" aria-controls="post_options" aria-expanded="false" aria-label="{{ t.toggle_options }}">
@@ -29,9 +30,9 @@
     </div>
 
     <div class="collapse navbar-collapse" id="menu">
-        <ul class="navbar-nav ml-auto d-flex flex-sm-row justify-content-between">
-          {% include nav-items-infos.html %}
-        </ul>
+      <ul class="navbar-nav ml-auto d-flex flex-sm-row justify-content-between">
+        {% include nav-items-infos.html %}
+      </ul>
     </div>
 
   </nav>
