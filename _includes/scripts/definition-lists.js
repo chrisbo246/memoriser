@@ -32,7 +32,7 @@
       validIds.push(id);
       return id;
     }
-    
+
   }
 
 
@@ -109,7 +109,7 @@
         + '<div class="card-footer bg-transparent border-0 p-0">'
         //+ '<div class="btn-group" data-toggle="buttons"><label class="btn btn-secondary"><input type="checkbox" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label></div>'
         + '<div class="btn-group -btn-group-lg d-flex" data-toggle="buttons">'
-        + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-link text-muted w-100 btn-tts" type="button"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
+        + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
         //+ (($.speech && dtLang && ddLang) ? '<label class="btn btn-light text-muted w-100 btn-tts"><input type="checkbox" autocomplete="off"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></label>' : '')
         + '<label for="' + id + '" class="btn btn-light text-muted w-100"><input type="checkbox"  id="' + id + '" class="-d-none memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
         + '</div>'

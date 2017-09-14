@@ -123,11 +123,11 @@ a[href="#top"] {
 
 $fixed-ad-gutter-width: 10px;
 
-@include fixed-ad-left(120px, 240px, 0);
-@include fixed-ad-left(120px, 600px, $fixed-ad-gutter-width);
-@include fixed-ad-left(160px, 600px, $fixed-ad-gutter-width);
-@include fixed-ad-left(300px, 600px, $fixed-ad-gutter-width); // (recommended)
-@include fixed-ad-left(300px, 1050px, $fixed-ad-gutter-width);
+@include fixed-ad-left-top(120px, 240px, $fixed-ad-gutter-width);
+@include fixed-ad-left-top(120px, 600px, $fixed-ad-gutter-width);
+@include fixed-ad-left-top(160px, 600px, $fixed-ad-gutter-width);
+@include fixed-ad-left-top(300px, 600px, $fixed-ad-gutter-width); // (recommended)
+@include fixed-ad-left-top(300px, 1050px, $fixed-ad-gutter-width);
 
 @include fixed-ad-bottom(120px, 90px, 0); // Link ads
 @include fixed-ad-bottom(160px, 90px, 0); // Link ads

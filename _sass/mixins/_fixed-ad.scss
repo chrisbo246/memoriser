@@ -1,6 +1,5 @@
 
 // Bootstrap 3-4
-//$body-bg: #fff !default;
 $zindex-fixed: 1030 !default;
 $grid-gutter-width-base: 30px !default;
 
@@ -8,7 +7,6 @@ $grid-gutter-width-base: 30px !default;
 $grid-gutter-width: $grid-gutter-width-base !default;
 
 // Bootstrap 4 > Variables
-//$fixed-ad-bg: $body-bg !default;
 $fixed-ad-zindex: $zindex-fixed + 1 !default;
 
 // Variables
@@ -36,17 +34,17 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
   //background: $fixed-ad-bg;
 }
 
-@mixin vertical-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
+@mixin fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   @include fixed-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
   top: 0;
   bottom: 0;
-  margin-left: ceil($fixed-ad-gutter-width / 2) !important;
-  margin-right: floor($fixed-ad-gutter-width / 2) !important;
-  margin-top: auto !important;
-  margin-bottom: auto !important;
+  margin-left: ceil($fixed-ad-gutter-width / 2);
+  margin-right: floor($fixed-ad-gutter-width / 2);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-@mixin vertical-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
+@mixin fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   @include fixed-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
   top: 0;
   bottom: 0;
@@ -54,17 +52,17 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
   min-height: 100vh;
 }
 
-@mixin horizontal-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
+@mixin fixed-ad-horizontal-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   @include fixed-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
   left: 0;
   right: 0;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  margin-top: ceil($fixed-ad-gutter-width / 2) !important;
-  margin-bottom: floor($fixed-ad-gutter-width / 2) !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: ceil($fixed-ad-gutter-width / 2);
+  margin-bottom: floor($fixed-ad-gutter-width / 2);
 }
 
-@mixin horizontal-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
+@mixin fixed-ad-horizontal-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   @include fixed-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
   left: 0;
   right: 0;
@@ -108,13 +106,30 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
 @mixin fixed-ad-left($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   @media (orientation: landscape) and (min-width: $fixed-ad-width * $fixed-ad-viewport-ratio) and (min-height: $fixed-ad-height + $fixed-ad-gutter-width) {
     #{$fixed-ad-container-selector}:not([hidden]) {
-      @include vertical-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+      @include fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
       left: 0;
       & ~ * {
         @include push-content-right($fixed-ad-width + $fixed-ad-gutter-width);
       }
       @at-root #{$fixed-ad-background-selector} {
-        @include vertical-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+        @include fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+        left: 0;
+      }
+    }
+  }
+}
+
+@mixin fixed-ad-left-top($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
+  @media (orientation: landscape) and (min-width: $fixed-ad-width * $fixed-ad-viewport-ratio) and (min-height: $fixed-ad-height + $fixed-ad-gutter-width) {
+    #{$fixed-ad-container-selector}:not([hidden]) {
+      @include fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+      left: 0;
+      margin-top: ceil($fixed-ad-gutter-width / 2) !important;
+      & ~ * {
+        @include push-content-right($fixed-ad-width + $fixed-ad-gutter-width);
+      }
+      @at-root #{$fixed-ad-background-selector} {
+        @include fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
         left: 0;
       }
     }
@@ -124,13 +139,31 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
 @mixin fixed-ad-right($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   @media (orientation: landscape) and (min-width: $fixed-ad-width * $fixed-ad-viewport-ratio) and (min-height: $fixed-ad-height + $fixed-ad-gutter-width) {
     #{$fixed-ad-container-selector}:not([hidden]) {
-      @include vertical-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+      @include fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
       right: 0;
       & ~ * {
         @include push-content-left($fixed-ad-width + $fixed-ad-gutter-width);
       }
       @at-root#{$fixed-ad-background-selector} {
-        @include vertical-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+        @include fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+        right: 0;
+      }
+    }
+  }
+}
+
+@mixin fixed-ad-right-top($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
+  @media (orientation: landscape) and (min-width: $fixed-ad-width * $fixed-ad-viewport-ratio) and (min-height: $fixed-ad-height + $fixed-ad-gutter-width) {
+    #{$fixed-ad-container-selector}:not([hidden]) {
+      @include fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+      right: 0;
+      margin-left: ceil($fixed-ad-gutter-width / 2) !important;
+      margin-right: auto !important;
+      & ~ * {
+        @include push-content-left($fixed-ad-width + $fixed-ad-gutter-width);
+      }
+      @at-root#{$fixed-ad-background-selector} {
+        @include fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
         right: 0;
       }
     }
@@ -140,13 +173,13 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
 @mixin fixed-ad-bottom($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   @media (orientation: portrait) and (min-width: $fixed-ad-width + $fixed-ad-gutter-width) and (min-height: $fixed-ad-height * $fixed-ad-viewport-ratio) {
     #{$fixed-ad-container-selector}:not([hidden]) {
-      @include horizontal-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+      @include fixed-ad-horizontal-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
       bottom: 0;
       & ~ * {
         @include push-content-up($fixed-ad-height + $fixed-ad-gutter-width);
       }
       @at-root#{$fixed-ad-background-selector} {
-        @include horizontal-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
+        @include fixed-ad-horizontal-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
         bottom: 0;
       }
     }
@@ -167,11 +200,11 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
 
 $fixed-ad-gutter-width: 10px;
 
-@include fixed-ad-left(120px, 240px, 0);
-@include fixed-ad-left(120px, 600px, $fixed-ad-gutter-width);
-@include fixed-ad-left(160px, 600px, $fixed-ad-gutter-width);
-@include fixed-ad-left(300px, 600px, $fixed-ad-gutter-width); // (recommended)
-@include fixed-ad-left(300px, 1050px, $fixed-ad-gutter-width);
+@include fixed-ad-left-top(120px, 240px, 0);
+@include fixed-ad-left-top(120px, 600px, $fixed-ad-gutter-width);
+@include fixed-ad-left-top(160px, 600px, $fixed-ad-gutter-width);
+@include fixed-ad-left-top(300px, 600px, $fixed-ad-gutter-width); // (recommended)
+@include fixed-ad-left-top(300px, 1050px, $fixed-ad-gutter-width);
 
 @include fixed-ad-bottom(120px, 90px, 0); // Link ads
 @include fixed-ad-bottom(160px, 90px, 0); // Link ads

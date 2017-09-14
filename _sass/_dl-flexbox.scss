@@ -2,7 +2,7 @@
 .definition-list  {
 
   .card {
-    min-width: 9rem;
+    min-width: 8rem;
     min-height: 8rem;
   }
 
@@ -96,7 +96,7 @@
 
       input[type="radio"]:checked,
       input[type="checkbox"]:checked,
-      .btn.active {  
+      .btn.active {
         .fa-check {
           color: theme-color("success");
         }
