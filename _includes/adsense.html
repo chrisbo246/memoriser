@@ -1,9 +1,9 @@
 
-<div class="fixed-ad-background bg-white media-breakpoint"></div>
 <ins class="fixed-ad-container adsbygoogle"
 data-ad-client="{{ site.adsense.client }}"
 data-ad-slot="{{ site.adsense.slot }}"
 data-ad-format="{{ site.adsense.format | default: 'auto' }}"></ins>
+<div class="fixed-ad-background bg-white"></div>
 
 {% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
 

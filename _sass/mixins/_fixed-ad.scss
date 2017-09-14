@@ -13,25 +13,24 @@ $fixed-ad-zindex: $zindex-fixed + 1 !default;
 $fixed-ad-viewport-ratio: 7 !default; // ad width * ratio = viewport min width
 $fixed-ad-container-selector: '.fixed-ad-container' !default;
 $fixed-ad-background-selector: '.fixed-ad-background' !default;
+$fixed-ad-beside-selector: '.fixed-ad-beside' !default;
 
 
 
 @mixin fixed-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   position: fixed;
   display: block;
-  z-index: $fixed-ad-zindex;
+  z-index: $fixed-ad-zindex + 1;
   width: $fixed-ad-width;
   height: $fixed-ad-height;
   max-width: $fixed-ad-width;
   max-height: $fixed-ad-height;
-  //background: #eee;
 }
 
 @mixin fixed-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   position: fixed;
   display: block;
   z-index: $fixed-ad-zindex;
-  //background: $fixed-ad-bg;
 }
 
 @mixin fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
@@ -66,7 +65,7 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
   @include fixed-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
   left: 0;
   right: 0;
-  min-width: 100vw;
+  //min-width: 100vw;
   min-height: $fixed-ad-height + $fixed-ad-gutter-width;
 }
 
@@ -108,12 +107,12 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
     #{$fixed-ad-container-selector}:not([hidden]) {
       @include fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
       left: 0;
-      & ~ * {
-        @include push-content-right($fixed-ad-width + $fixed-ad-gutter-width);
-      }
-      @at-root #{$fixed-ad-background-selector} {
+      ~ #{$fixed-ad-background-selector} {
         @include fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
         left: 0;
+      }
+      ~ #{$fixed-ad-beside-selector} {
+        @include push-content-right($fixed-ad-width + $fixed-ad-gutter-width);
       }
     }
   }
@@ -125,12 +124,12 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
       @include fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
       left: 0;
       margin-top: ceil($fixed-ad-gutter-width / 2) !important;
-      & ~ * {
-        @include push-content-right($fixed-ad-width + $fixed-ad-gutter-width);
-      }
-      @at-root #{$fixed-ad-background-selector} {
+      ~ #{$fixed-ad-background-selector} {
         @include fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
         left: 0;
+      }
+      ~ #{$fixed-ad-beside-selector} {
+        @include push-content-right($fixed-ad-width + $fixed-ad-gutter-width);
       }
     }
   }
@@ -141,12 +140,12 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
     #{$fixed-ad-container-selector}:not([hidden]) {
       @include fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
       right: 0;
-      & ~ * {
-        @include push-content-left($fixed-ad-width + $fixed-ad-gutter-width);
-      }
-      @at-root #{$fixed-ad-background-selector} {
+      ~ #{$fixed-ad-background-selector} {
         @include fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
         right: 0;
+      }
+      ~ #{$fixed-ad-beside-selector} {
+        @include push-content-left($fixed-ad-width + $fixed-ad-gutter-width);
       }
     }
   }
@@ -158,12 +157,12 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
       @include fixed-ad-vertical-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
       right: 0;
       margin-top: ceil($fixed-ad-gutter-width / 2) !important;
-      & ~ * {
-        @include push-content-left($fixed-ad-width + $fixed-ad-gutter-width);
-      }
-      @at-root #{$fixed-ad-background-selector} {
+      ~ #{$fixed-ad-background-selector} {
         @include fixed-ad-vertical-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
         right: 0;
+      }
+      ~ #{$fixed-ad-beside-selector} {
+        @include push-content-left($fixed-ad-width + $fixed-ad-gutter-width);
       }
     }
   }
@@ -174,12 +173,12 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
     #{$fixed-ad-container-selector}:not([hidden]) {
       @include fixed-ad-horizontal-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
       bottom: 0;
-      & ~ * {
-        @include push-content-up($fixed-ad-height + $fixed-ad-gutter-width);
-      }
-      @at-root #{$fixed-ad-background-selector} {
+      ~ #{$fixed-ad-background-selector} {
         @include fixed-ad-horizontal-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width);
         bottom: 0;
+      }
+      ~ #{$fixed-ad-beside-selector} {
+        @include push-content-up($fixed-ad-height + $fixed-ad-gutter-width);
       }
     }
   }
