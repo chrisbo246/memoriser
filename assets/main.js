@@ -6,7 +6,7 @@
 
 $('#disqus_thread').addClass('collapse');
 
-
+{% include scripts/base64.js %}
 {% include scripts/definition-lists.js %}
 {% include scripts/filter.js %}
 {% include scripts/common.js %}

@@ -3,7 +3,7 @@
 
   .card {
     min-width: 9rem;
-    min-height: 9rem;
+    min-height: 8rem;
   }
 
   .card-text {
@@ -94,8 +94,12 @@
         }
       }*/
 
-      .btn.active .fa-check {
-        color: theme-color("success");
+      input[type="radio"]:checked,
+      input[type="checkbox"]:checked,
+      .btn.active {  
+        .fa-check {
+          color: theme-color("success");
+        }
       }
 
       .btn:focus,

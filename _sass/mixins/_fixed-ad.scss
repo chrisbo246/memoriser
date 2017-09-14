@@ -1,6 +1,6 @@
 
 // Bootstrap 3-4
-$body-bg: #fff !default;
+//$body-bg: #fff !default;
 $zindex-fixed: 1030 !default;
 $grid-gutter-width-base: 30px !default;
 
@@ -8,7 +8,7 @@ $grid-gutter-width-base: 30px !default;
 $grid-gutter-width: $grid-gutter-width-base !default;
 
 // Bootstrap 4 > Variables
-$fixed-ad-bg: $body-bg !default;
+//$fixed-ad-bg: $body-bg !default;
 $fixed-ad-zindex: $zindex-fixed + 1 !default;
 
 // Variables
@@ -26,14 +26,14 @@ $fixed-ad-background-selector: '.fixed-ad-background' !default;
   height: $fixed-ad-height;
   max-width: $fixed-ad-width;
   max-height: $fixed-ad-height;
-  background: #eee;
+  //background: #eee;
 }
 
 @mixin fixed-ad-background($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {
   position: fixed;
   display: block;
   z-index: $fixed-ad-zindex;
-  background: $fixed-ad-bg;
+  //background: $fixed-ad-bg;
 }
 
 @mixin vertical-ad-container($fixed-ad-width, $fixed-ad-height, $fixed-ad-gutter-width: 0) {

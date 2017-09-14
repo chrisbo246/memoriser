@@ -44,7 +44,7 @@ où
 
 où
 : куда
-*__kouda__ Où aller ...*
+*__kouda__ Où va ...*
 
 d'où
 : откуда

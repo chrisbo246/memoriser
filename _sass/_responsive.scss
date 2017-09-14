@@ -12,6 +12,11 @@ sm: >= 576px
 md: >= 768px (iPad 1/2 portrait 768 x 1024, iPhone 7 portrait 750 x 1334)
 lg: >= 992px (iPad Pro portrait 1024 x 1366)
 xl: >= 1200px
+
+@include media-breakpoint-only(md) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-down(md) { ... }
+@include media-breakpoint-between(md, xl) { ... }
 */
 
 // Bootstrap 3-4
@@ -23,6 +28,7 @@ $grid-gutter-width: $grid-gutter-width-base !default;
 // Variables
 $fixed-top-navbar-height: 3.25rem;
 $fixed-bottom-navbar-height: 0rem;
+
 
 
 // Fixed navbar fixes
@@ -86,15 +92,21 @@ body {
 }
 
 
+
 // Card columns
 
-.card-columns {
-  column-count: 1;
-
-  @include media-breakpoint-up(sm) {
+@include media-breakpoint-up(xs) {
+  .card-columns {
+    column-count: 1;
+  }
+}
+@include media-breakpoint-up(sm) {
+  .card-columns {
     column-count: 2;
   }
-  @include media-breakpoint-up(xl) {
+}
+@include media-breakpoint-up(xl) {
+  .card-columns {
     column-count: 3;
   }
 }
@@ -116,3 +128,39 @@ body {
     font-size: 2.25vw;
   }
 }*/
+
+
+
+// Display current breakpoint (debug)
+
+.media-breakpoint:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+}
+@include media-breakpoint-only(xs) {
+  .media-breakpoint:before {
+    content: "xs";
+  }
+}
+@include media-breakpoint-only(sm) {
+  .media-breakpoint:before {
+    content: "sm";
+  }
+}
+@include media-breakpoint-only(md) {
+  .media-breakpoint:before {
+    content: "md";
+  }
+}
+@include media-breakpoint-only(lg) {
+  .media-breakpoint:before {
+    content: "lg";
+  }
+}
+@include media-breakpoint-only(xl) {
+  .media-breakpoint:before {
+    content: "xl";
+  }
+}

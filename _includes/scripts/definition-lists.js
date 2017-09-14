@@ -17,6 +17,27 @@
 
 
   /**
+  * Encode id string and add a suffix if not unique
+  */
+
+  var validIds = [];
+  var validId = function (string, i) {
+
+    var id = Base64.encode(string.trim() || 'undefined') + ((i > 0) ? '_' + i : '');
+
+    if ($.inArray(id, validIds) !== -1) {
+      //console.log('Unvalid id', id, string);
+      return validId(string, i++ || 1);
+    } else {
+      validIds.push(id);
+      return id;
+    }
+    
+  }
+
+
+
+  /**
   * Convert dl to flexbox cards
   */
 
@@ -60,21 +81,17 @@
       $dl.find('dt').each(function(i) {
         $dt = $(this);
         $dd = $dt.next('dd');
-        //id = id.replace(/[^\w]+/g,'-');
-        //id = $dt.text().trim().toLowerCase();
-        id = $dt.html();
-        //id = window.location.pathname + ':' + id;
-        id = encodeURIComponent(id);
+        id = validId($dt.html());
 
 
         //var cardStyle = cardStyles[Math.floor(Math.random() * cardStyles.length)];
         var cardStyle = cardStyles[1];
 
         html = html
-        + '<label class="m-0" '
+        + '<label for="flipcard_' + id + '" class="m-0" '
         + (sectionId && i === 0 ? 'id="' + sectionId + '" data-label="' + sectionLabel + '"' : '') + ' '
         + (sectionId ? ' data-section="' + sectionId + '"' : '') + '>'
-        + '<input type="radio" name="visible-definition" value="' + id + '" class="d-none" />'
+        + '<input type="radio" id="flipcard_' + id + '" name="visible-definition" value="' + id + '" class="d-none" />'
         + '<figure class="card card-flip m-1">'
         + '<div class="card bg-dark text-muted">'
         + '<div class="card-body d-flex justify-content-center align-items-center">'
@@ -82,16 +99,20 @@
         + '</div>'
         + '</div>'
         + '<div class="card bg-white text-dark">'
-        + '<div class="card-body">'
+        + '<div class="card-body pb-0">'
         //+ '<h4 class="card-title h5 mb-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<span class="text-muted">($1)</span>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">($1)</sup>') + '</h4>'
-        + '<p class="card-text">'
         //+ (($.speech && dtLang && ddLang) ? '<a class="btn btn-link btn-sm pull-right btn-tts" href="#" role="button"><i class="fa fa-volume-up"></i></a>' : '')
+        + '<p class="card-text">'
         + $dd.html()
         + '</p>'
         + '</div>'
-        + '<div class="card-footer bg-transparent border-0 p-1 btn-group btn-group-sm d-flex" data-toggle="buttons" role="group" aria-label="">'
-        + (($.speech && dtLang && ddLang) ? '<button class="btn btn-link text-muted w-100 btn-tts" type="button"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
-        + '<label for="' + id + '" class="btn btn-link text-muted w-100"><input type="checkbox" class="memorized" id="' + id + '" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
+        + '<div class="card-footer bg-transparent border-0 p-0">'
+        //+ '<div class="btn-group" data-toggle="buttons"><label class="btn btn-secondary"><input type="checkbox" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label></div>'
+        + '<div class="btn-group -btn-group-lg d-flex" data-toggle="buttons">'
+        + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-link text-muted w-100 btn-tts" type="button"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
+        //+ (($.speech && dtLang && ddLang) ? '<label class="btn btn-light text-muted w-100 btn-tts"><input type="checkbox" autocomplete="off"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></label>' : '')
+        + '<label for="' + id + '" class="btn btn-light text-muted w-100"><input type="checkbox"  id="' + id + '" class="-d-none memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
+        + '</div>'
         + '</div>'
         + '</div>'
         + '</figure>'

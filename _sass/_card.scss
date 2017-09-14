@@ -27,7 +27,7 @@
 
   background: none;
   border: none;
-  padding: 0;
+  //padding: 0;
   transition: transform 300ms;
   transition-timing-function: linear;
   transform-style: preserve-3d;
@@ -43,17 +43,22 @@
   .card:first-of-type {
     position: absolute;
     display: flex;
+    z-index: initial;
   }
 
   .card:last-of-type {
     transform: rotateY(180deg);
+    z-index: -1;
   }
 
   input[type="radio"]:checked ~ &,
   input[type="checkbox"]:checked ~ & {
     transform: rotateY(-180deg);
+    .card:first-of-type {
+      z-index: -1;
+    }
     .card:last-of-type {
-      z-index: 1;
+      z-index: initial;
     }
   }
 
