@@ -21,7 +21,7 @@ efficience
 : Efficacité.
 
 probité
-: Respectant scrupuleusement les règles.
+: Respect des règles.
 
 mansuétude
 : Indulgence.
@@ -54,7 +54,8 @@ pis aller
 : Choisi faute de mieux.
 
 jubilé
-: Cinquantième année de règne. Anniversaire important du mariage (noces d'argent, noces d'or).
+: - Cinquantième année de règne.
+  - Anniversaire important du mariage (noces d'argent, noces d'or).
 
 
 ## Mouvements, orientations
@@ -104,7 +105,7 @@ prosélytisme
 : Recruter des adeptes, tenter d'imposer ses idées.
 
 mercato
-: Période durant laquelle les transferts de joueurs de foot sont autorisés.
+: Période des transferts de joueurs de foot.
 *En référence au marché en italien.*
 
 
@@ -112,10 +113,10 @@ mercato
 
 catharsis
 : Thérapie.
-*Provoquer un choc émotionnel chez le patient pour comprendre la cause du problème.*
+*Provoquer un choc émotionnel chez le patient pour trouver la cause du problème.*
 
 hémiplégie
-: Paralysie d'un seul côté du corps.
+: Paralysie d'un seul côté.
 
 épistaxis
 : Saignement de nez.
@@ -127,7 +128,7 @@ onanisme
 ## Révolte
 
 génocide
-: Tous actes visant à détruire un groupe.
+: Actes visant à détruire un groupe.
 
 jacquerie
 : Révolte paysanne.

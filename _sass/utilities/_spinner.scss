@@ -1,0 +1,79 @@
+/*
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css";
+*/
+
+.spinner {
+  visibility: hidden;
+  perspective: initial;
+  position: relative;
+}
+
+.spinner:before {
+  visibility: visible;
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* Spinner style */
+  font-size: 40vh;
+  width: 40vh;
+  height: 40vh;
+  opacity: .2;
+  animation: fa-spin 2s infinite linear;
+}
+
+.spinner.fa-spinner:before {
+  animation: fa-spin 1s infinite steps(8);
+}
+
+.spinner.spinner-bg:after {
+  visibility: visible;
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner.spinner-fullscreen:before {
+  position: fixed;
+}
+
+.spinner.spinner-fullscreen:after {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+/* Customizing -------------------------------------------------------------- */
+/*
+.spinner.spinner-bg:before,
+.spinner.spinner-bg:after {
+  color: #ff0073;
+}
+
+.spinner.spinner-bg:after {
+  content: "LOADING";
+  background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
+  font-size: 15vh;
+  text-shadow: 0 0 5vh;
+  font-weight: 900;
+  animation: 150s scroll infinite linear;
+}
+
+@keyframes scroll {
+  100%{
+    background-position: 0px 3000px;
+  }
+}
+*/

@@ -120,6 +120,7 @@
 
       });
 
+      //html = '<div class="d-flex flex-row flex-wrap align-items-stretch align-self-stretch justify-content-between">' + html + '</div>';
       $dl.replaceWith(html);
 
     });
@@ -133,7 +134,7 @@
     //$dls.prev('h2, h3, h4')
     $titles.each(function () {
       var $title = $(this);
-      var id = $title.attr('id') || encodeURIComponent($title.text());
+      //var id = $title.attr('id') || encodeURIComponent($title.text());
       $title.replaceWith('');
       //$title.replaceWith(
       //'<div class="card m-2 d-none card-section">'
@@ -218,70 +219,13 @@
 
 
     /**
-    * then unhide post content once everything is in place
+    * Phen unhide post content once everything is in place
     */
 
-    $container.removeClass('spinner fa fa-spinner');
+    $container.removeClass('spinner spinner-fullscreen spinner-bg fa fa-spinner');
 
     console.timeEnd('Definition list generation');
   }
 
 })(window.jQuery, window, document);
 {% endraw %}
-
-
-{% comment %}
-/**
-* Initialize memorized button
-*/
-/*
-if (window.localStorage) {
-var namespace = encodeURIComponent(window.location.pathname);
-$container.find(':checkbox').each(function () {
-var $checkbox = $(this);
-var key = $checkbox.attr('id') + '_memorized';
-var value = JSON.parse(localStorage.getItem(namespace + ':' + key));
-if (value) {
-$checkbox.attr('data-memorized', value);
-}
-});
-}
-$container.on('click', '.btn-memorize', function () {
-var $button = $(this);
-var $label = $button.parents('label').first();
-var $checkbox = $label.find(':checkbox').filter('[id]').first();
-if ($checkbox) {
-var value = parseFloat($checkbox.attr('data-memorized')) || 0;
-if ($button.is('.btn-memorized')) {
-//var value = JSON.parse(localStorage.getItem(namespace + ':' + key));
-//value = (value || 0) + 1;
-value = 1;
-} else {
-value = 0;
-}
-if (window.localStorage) {
-var namespace = encodeURIComponent(window.location.pathname);
-var key = $checkbox.attr('id') + '_memorized';
-localStorage.setItem(namespace + ':' + key, JSON.stringify(value));
-}
-$checkbox.attr('data-memorized', value);
-$checkbox.prop('checked', false).trigger('change');
-console.log('Definition memorized', key, value);
-}
-});
-*/
-
-
-
-/**
-* Auto-hide open cards when user click a closed card
-*/
-
-//var $checkboxes = $container.find(':checkbox');
-//$container.on('click', ':checkbox', function () {
-//  var $checkbox = $(this);
-//  if ($checkbox.prop('checked')) {
-//    $checkboxes.filter(':checked').not(this).prop('checked', false).trigger('change');
-//  }
-//});
-{% endcomment %}

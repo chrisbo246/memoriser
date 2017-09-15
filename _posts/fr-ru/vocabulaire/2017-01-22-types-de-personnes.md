@@ -172,7 +172,19 @@ gamine, ma petite
 *__dietka__*
 
 
-## Argot
+## Diver
+
+ami
+: друг
+*__drouk__*
+
+amie
+: подруга
+*__padrouga__*
+
+amis
+: друзья
+*__drouzia__*
 
 racaille
 : гопник

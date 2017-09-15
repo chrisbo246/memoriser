@@ -17,12 +17,13 @@ $fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
 @import "font-awesome";
 @import "{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url | prepend: '../..' }}";
 
-@import "dl-flexbox";
 @import "card";
+@import "dl-flexbox";
 @import "responsive";
 @import "mixins/scrollbar";
 @import "mixins/fixed-ad";
 @import "lazysizes";
+@import "utilities/spinner";
 //@import "utilities/social-icon";
 
 
@@ -51,27 +52,25 @@ body {
 
 
 // Make content unvisible and show a spinner instead
-
-.spinner {
-  visibility: hidden;
+/*
+.spinner.spinner-bg:before,
+.spinner.spinner-bg:after {
+  color: theme-color("primary");
 }
-.spinner:before {
-  opacity: .1;
-  visibility: visible;
-  position: fixed;
-  animation: fa-spin 1s infinite steps(8);
-  font-size: 20vh;
-  display: block;
-  width: 20vh;
-  height: 20vh;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding: 0;
+.spinner.spinner-bg:after {
+  content: "LOADING";
+  background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
+  font-size: 15vh;
+  text-shadow: 0 0 5vh;
+  font-weight: 900;
+  animation: 150s scroll infinite linear;
 }
-
+@keyframes scroll {
+  100%{
+    background-position: 0px 3000px;
+  }
+}
+*/
 
 
 // Sticky sidebar

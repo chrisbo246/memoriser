@@ -35,6 +35,7 @@
 
   .card {
     backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -53,7 +54,9 @@
 
   input[type="radio"]:checked ~ &,
   input[type="checkbox"]:checked ~ & {
-    transform: rotateY(-180deg);
+    //transform: rotateY(-180deg);
+    transform: rotateY(-180deg) scale(1.25);
+    z-index: $zindex-popover;
     .card:first-of-type {
       z-index: -1;
     }

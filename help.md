@@ -28,12 +28,32 @@ Les articles sont au format  [markdown](https://guides.github.com/features/maste
 ```markdown
 ## Titre de la section
 
-Mot ou expression
-: Brève definition
+terme
+: Brève définition.
 
-Autre mot
-: Brève definition
-*Prononciation ou détails (optionnel)*
+Phrase ou expression.
+: Brève definition.
+
+terme
+: - Première définition.
+  - Deuxième définition.
+
+terme
+: Brève définition.
+*Détails ou exemple.*
+
+mot féminin [f.]
+: Brève définition.
+
+en français
+: traduction
+*__prononciation__*
+
+en français
+: traduction
+*__prononciation__ Autres détails.*
+
+
 
 ```
 
