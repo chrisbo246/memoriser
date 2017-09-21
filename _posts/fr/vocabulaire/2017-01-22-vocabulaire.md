@@ -20,20 +20,11 @@ dateModified: 2017-01-01 20:20:20 +0100
 efficience
 : Efficacité.
 
-probité
-: Respect des règles.
-
-mansuétude
-: Indulgence.
-
 
 ## Reproche
 
 dogmatisme
 : Rejette catégoriquement le doute et la critique.
-
-hubris
-: Orgueil démesuré.
 
 vacuité
 : Sans valeur.
@@ -123,6 +114,9 @@ hémiplégie
 
 onanisme
 : Masturbation.
+
+miasme
+: Vapeur malsaine, gaz putride.
 
 
 ## Révolte

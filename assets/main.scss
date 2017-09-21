@@ -16,6 +16,7 @@ $fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
 
 @import "font-awesome";
 @import "{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url | prepend: '../..' }}";
+@import "{{ '/bower_components/animate.css/animate.min.css' | relative_url | prepend: '../..' }}";
 
 @import "card";
 @import "dl-flexbox";
@@ -118,6 +119,7 @@ a[href="#top"] {
 @include scrollbars(.5em, $brand-primary, $gray-dark);
 
 
+
 // Fixed Ad definition
 
 $fixed-ad-gutter-width: 10px;
@@ -148,6 +150,24 @@ $fixed-ad-gutter-width: 10px;
 //@include fixed-ad-left(250px, 250px, $fixed-ad-gutter-width); // Rectangular ads
 //@include fixed-ad-left(300px, 250px, $fixed-ad-gutter-width); // Rectangular ads (recommended)
 //@include fixed-ad-left(336px, 280px, $fixed-ad-gutter-width); // Rectangular ads (recommended)
+
+
+
+// Fade-in effect on page load
+
+/*
+.alert {
+  animation: fadein 1s ease-in 1s;
+  -vendor-animation-duration: 3s;
+  -vendor-animation-delay: 2s;
+  -vendor-animation-iteration-count: infinite;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+*/
 
 
 

@@ -110,6 +110,13 @@ ange déchu
 intello, tête d'ampoule
 : egghead
 
+as en mécanique
+: gearhead
+*Principalement en prépa moteur.*
+
+lève tôt
+: riser
+
 
 ## Personnages de fiction
 

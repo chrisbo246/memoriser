@@ -88,10 +88,10 @@
         var cardStyle = cardStyles[1];
 
         html = html
-        + '<label for="flipcard_' + id + '" class="m-0" '
+        + '<label for="flipcard_toggler_' + id + '" class="m-0" '
         + (sectionId && i === 0 ? 'id="' + sectionId + '" data-label="' + sectionLabel + '"' : '') + ' '
         + (sectionId ? ' data-section="' + sectionId + '"' : '') + '>'
-        + '<input type="radio" id="flipcard_' + id + '" name="visible-definition" value="' + id + '" class="d-none" />'
+        + '<input type="radio" id="flipcard_toggler_' + id + '" name="visible_definition" value="' + id + '" class="d-none" />'
         + '<figure class="card card-flip m-1">'
         + '<div class="card bg-dark text-muted">'
         + '<div class="card-body d-flex justify-content-center align-items-center">'
@@ -109,9 +109,10 @@
         + '<div class="card-footer bg-transparent border-0 p-0">'
         //+ '<div class="btn-group" data-toggle="buttons"><label class="btn btn-secondary"><input type="checkbox" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label></div>'
         + '<div class="btn-group -btn-group-lg d-flex" data-toggle="buttons">'
+        + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" autocomplete="off"><i class="fa fa-times fa-lg" aria-hidden="false"></i></label>'
         + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
         //+ (($.speech && dtLang && ddLang) ? '<label class="btn btn-light text-muted w-100 btn-tts"><input type="checkbox" autocomplete="off"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></label>' : '')
-        + '<label for="' + id + '" class="btn btn-light text-muted w-100"><input type="checkbox"  id="' + id + '" class="-d-none memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
+        + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
         + '</div>'
         + '</div>'
         + '</div>'
@@ -130,12 +131,12 @@
     /**
     * Wrap title's in Bootstrap cards
     */
-
+    $titles.remove();
     //$dls.prev('h2, h3, h4')
-    $titles.each(function () {
-      var $title = $(this);
+    //$titles.each(function () {
+      //var $title = $(this);
       //var id = $title.attr('id') || encodeURIComponent($title.text());
-      $title.replaceWith('');
+      ////$title.replaceWith('');
       //$title.replaceWith(
       //'<div class="card m-2 d-none card-section">'
       //+ '<div class="card-body d-flex bg-faded text-muted text-center">'
@@ -147,7 +148,7 @@
       //+ '</div>'
       //+ '</div>'
       //);
-    });
+    //});
 
 
 
@@ -189,7 +190,6 @@
     if ($.speech && dtLang && ddLang) {
       $container.on('click', '.btn-tts', function(e) {
         e.preventDefault();
-        //var html = $(this).closest('.card').find('dd').html();
         var $button = $(this);
         var html = $button.closest('.card').find('.card-text').html();
         var $el = $('<div>').html(html);
@@ -197,7 +197,7 @@
         ttsOptions.hl = ddLang;
         ttsOptions.src = $el.text().replace(/s*\([^()]*\)/, '');
         $.speech(ttsOptions);
-        //$button.show().removeAttr('hidden');
+        //$button.delay(1000).removeClass('.active');
       });
     }
 
@@ -207,14 +207,60 @@
     * Toggle memorized card style
     */
 
-    $container.on('change', '.memorized', function () {
+    $container.on('change', 'input[name^="memorized_definition_"]', function(e) {
       var $input = $(this);
       var $parent = $input.parents('.card-flip').first();
       var $card = $parent.find('.card').first();
-      var checked = $input.prop('checked');
+      var checked = $input.is('[value="1"]:checked');
       $card.toggleClass('bg-dark text-muted', !checked);
       $card.toggleClass('bg-success text-white', checked);
     });
+
+
+
+    /**
+    * Force the flipcard to close when user click a checked radio
+    */
+
+    $container.on('click', '.flipcard-toggler', function(e) {
+      var $input = $(this).parents('.card-flip').prev('input');
+      if ($input) {
+        var checked = $input.prop('checked');
+        $input.prop('checked', !checked).trigger('change');
+      }
+    });
+
+
+    /**
+    * Prevent scaled card overflow
+    */
+
+    /*$container.find(':radio').filter('[name="visible-definition"]').on('click', function () {
+      var $input = $(this);
+      var $card = $input.next('.card-flip');//.find('.card').last();
+      if ($input.prop('checked')) {
+        console.log('Card position', $card.offset().top, $card.offset().left, $card.width(), $card.height());
+        console.log('Parent position', $container.offset().top, $container.offset().left, $container.width(), $container.height());
+        if ($card.offset().top < $container.offset().top) {
+          //$card.css({position:'absolute', top: $container.offset().top});
+          $card.css({margin-top: ($container.offset().top - $card.offset().top)});
+        }
+        if ($card.offset().left < $container.offset().left) {
+          //$card.css({position:'absolute', left: $container.offset().left});
+          $card.css({margin-left: ($container.offset().left - $card.offset().left)});
+        }
+        if ($card.offset().top + $card.height() > $container.offset().top + $container.height()) {
+          //$card.css({position:'absolute', top: $container.offset().top + $container.height() - $card.height()});
+          $card.css({margin-bottom: (($card.offset().top + $card.height()) - ($container.offset().top + $container.height()))});
+        }
+        if ($card.offset().left + $card.width() > $container.offset().left + $container.width()) {
+          //$card.css({position:'absolute', left: $container.offset().left + $container.width() - $card.width()});
+          $card.css({margin-right: (($card.offset().left + $card.width()) - ($container.offset().left + $container.width()))});
+        }
+      } else {
+        $card.css({margin: 0});
+      }
+    });*/
 
 
 

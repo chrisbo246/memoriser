@@ -11,6 +11,7 @@ categories: ["adjectifs"]
 tags: []
 date: 2017-04-01 17:22:00 +0100
 ---
+
 ## Adjectifs
 
 anthropique
@@ -18,13 +19,7 @@ anthropique
 *Ex: un paysage anthorpique.*
 
 endémique
-: Qui sévit en permanence,  espèce propres à un territoire.
-
-bigarré
-: Varié.
-
-chamarré
-: Coloré, couvert de décorations.
+: Qui sévit en permanence, espèce propres à un territoire.
 
 extatique
 : Qui provoque l'extase.
@@ -36,6 +31,27 @@ onirique
 
 trivial
 : Vulgaire, évident.
+
+idoine
+: Idéale.
+*Qui convient parfaitement à la situation.*
+
+holistique
+: Globale.
+*Ex: une vision holistique.*
+
+prométhéen(ne)
+: Idéaliste.
+*Foi dans la condition humaine (ex: une vision prométhéenne).*
+
+
+## Apparence
+
+bigarré
+: Varié.
+
+chamarré
+: Coloré, couvert de décorations.
 
 
 ## Période

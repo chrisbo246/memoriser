@@ -91,6 +91,9 @@ Extraordinaire!
 Quel est le piège?
 : What’s the catch?
 
+Que diable?
+: What the devil?
+
 
 ## Mécontentement
 

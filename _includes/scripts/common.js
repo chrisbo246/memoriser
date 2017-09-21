@@ -67,7 +67,6 @@
   var scrollTopButtonFadeDuration = 300;
   var $links = $('a').filter('[href="#top"]');
   if ($links.length) {
-    //var $links = $links.parents('.navbar').first() || $links;
     $links.fadeOut();         
     $(window).on('scroll', function() {
       var scrollHeight = $(document).height();
@@ -99,40 +98,63 @@
     */
     var $inputs = $(':checkbox, :radio'); //.filter('[id]');
     if ($inputs.length) {
-      var $input, $label, name, id, checked, key, value;
+      var $input, $label, name, id, checked, key, value, type;
       $inputs.each(function () {
         $input = $(this);
-        $label = $input.parent('label');
+        $label = $input.parent('.btn');
         name = $input.attr('name');
         id = $input.attr('id');
-        checked = $input.prop('checked');
-        if (name) {
-          key = name;
-          value = JSON.parse(localStorage.getItem(namespace + ':' + key));
-          if (value === $input.attr('value') && checked !== true) {
-            $input.prop('checked', true).trigger('click');
-            //console.log('restored', key, value);
+        type = $input.attr('type');
+
+        if (type === 'radio') {
+          if (name) {
+            key = name;
+            value = JSON.parse(localStorage.getItem(namespace + ':' + key));
+            if (value !== null && value === $input.attr('value')) {
+              $input.prop('checked', true).trigger('change');
+              $label.addClass('active');
+              console.log('Restored', key, value);
+            }
           }
-        } else if (id) {
-          key = id;
-          value = JSON.parse(localStorage.getItem(namespace + ':' + key));
-          if (value !== null && checked !== value) {
-            $input.prop('checked', value).trigger('click');
-            //console.log('restored', key, value);
+        } else if (type === 'checkbox') {
+          if (id || name) {
+            key = id || name;
+            value = JSON.parse(localStorage.getItem(namespace + ':' + key));
+            if (value !== null) {
+              $input.prop('checked', value).trigger('change');
+              $label.addClass('active');
+              console.log('Restored', key, value);
+            }
           }
         }
-        if ($label.length && checked) {
-          //$label.addClass('active');
-        }
+
       });
+
       $inputs.on('change', function () {
+
         $input = $(this);
-        key = $input.attr('name') || $input.attr('id');
-        if (key) {
-          value = JSON.stringify($input.attr('value') || $input.prop('checked'));
-          localStorage.setItem(namespace + ':' + key, value);
-          //console.log('stored', key, value);
+        name = $input.attr('name');
+        value = $input.attr('value');
+        id = $input.attr('id');
+        type = $input.attr('type');
+        checked = $input.prop('checked');
+
+        if (type === 'radio') {
+          if (name && value) {
+            key = name;
+            value = JSON.stringify((checked) ? value : null);
+            localStorage.setItem(namespace + ':' + key, value);
+            console.log('Stored', key, value);
+          }
+        } else if (type === 'checkbox') {
+          if (id || name) {
+            key = id || name;
+            value = JSON.stringify(checked);
+            localStorage.setItem(namespace + ':' + key, value);
+            console.log('Stored', key, value);
+          }
         }
+
       });
     }
 

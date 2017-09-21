@@ -36,3 +36,6 @@ acide
 
 délicieux
 : yummy
+
+affreux
+: awful

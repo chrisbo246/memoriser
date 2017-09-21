@@ -33,3 +33,6 @@ tourbe
 
 feuilles mortes
 : leaf litter
+
+gravier
+: pea gravel

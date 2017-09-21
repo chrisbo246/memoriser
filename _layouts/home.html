@@ -22,6 +22,17 @@ layout: default
                 <div class="card-columns">
                     {% for post in posts %}
                     {% include card.html post=post img-class="card-img-faded" %}
+
+                    {% comment %}
+                    <label for="flipcard_{{ post.id }}" class="card p-0">
+                    <input type="radio" id="flipcard_{{ post.id }}" name="flipcard" class="d-none" />
+                    <figure class="card-flip">
+                    {% include card.html post=post img-class="card-img-faded" %}
+                    {% include card.html post=post img-class="card-img-faded" %}
+                    </figure>
+                    </label>
+                    {% endcomment %}
+
                     {% endfor %}
                 </div>
             </div>

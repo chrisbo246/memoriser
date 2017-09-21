@@ -104,6 +104,8 @@ semble étrange
 ne supporte pas
 : can't stand
 
+J'ai eu une bosse dans ma gorge
+: I got a lump in my throat
 
 ## Formules courants
 

@@ -14,13 +14,10 @@ tags: [
 date: 2017-03-22 18:08:00 +0100
 ---
 
-## Terre cuite
+## Matériaux de construction
 
 béton
 : concrete
-
-béton armé
-: reinforced concrete
 
 ciment
 : cement
@@ -28,47 +25,51 @@ ciment
 plâtre
 : plaster
 
-tuile
-: tile
-
-
-## Sol
-
 bitume
 : bitumen
 
-gravier
-: pea gravel
-
-carrelage
-: floor tile
+béton armé
+: reinforced concrete
 
 
-## Bois
-
-contre-plaqué
-: plywood
-
-
-## Plastiques
-
--
-: -
-
-
-## Textiles
+## Textiles et matériaux composites
 
 tissu
 : fabric
-
-tricot
-: knitted fabric
-
-
-## Matériaux composites
 
 fibre de verre
 : fiberglass
 
 fibre de carbone
 : carbon fiber
+
+tricot
+: knitted fabric
+*Tissu tricoté.*
+
+
+## Terre cuite
+
+tuile
+: tile
+
+carrelage
+: floor tile
+
+parpaing
+: cinderblock
+
+
+## Panneaux de bois
+
+contre-plaqué
+: plywood
+
+plaque rigide
+: hardboard
+
+plaque d'aggloméré
+: chipboard, beaverboard
+
+parquet
+: wood flooring

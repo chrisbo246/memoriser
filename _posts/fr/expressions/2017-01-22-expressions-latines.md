@@ -54,5 +54,9 @@ primo occupanti
 qui pro quo
 : Confusion.
 
+sine die
+: Sans date fixe.
+*__siné dié__*
+
 stricto sensu
 : Au sens strict.

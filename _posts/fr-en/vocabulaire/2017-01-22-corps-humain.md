@@ -335,7 +335,7 @@ bouton
 : -
 
 bosse
-: bump
+: lump
 
 cicatrice
 : scar

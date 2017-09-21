@@ -69,6 +69,9 @@
 
 
 {% assign card-body-classes = '' | split: ' ' %}
+{% if include.body-class %}
+{% assign card-body-classes = include.body-class | split: ' ' | concat: card-body-classes %}
+{% endif %}
 {% if src %}
     {% if page.card.image_position == 'overlay' %}
         {% assign card-body-classes = card-body-classes | push: 'card-img-overlay' %}

@@ -88,6 +88,9 @@ plaquette carbure
 taraud
 : tap
 
+queue de cochon, extracteur d'écrou
+: EZ out, damaged screw and bolt extractor      
+
 meule
 : grinding wheel
 

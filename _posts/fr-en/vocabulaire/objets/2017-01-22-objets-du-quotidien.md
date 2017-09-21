@@ -44,30 +44,6 @@ saladier
 : bowl
 
 
-## Récipients
-
-cuvette
-: bowl
-
-seau
-: bucket
-
-cuve (réservoir ouvert)
-: tub
-
-réservoir
-: tank
-
-tonnelet
-: keg
-
-tonneau
-: barrel
-
-citerne
-: tank
-
-
 ## Ustensiles de cuisine
 
 casserole
