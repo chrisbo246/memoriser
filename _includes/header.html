@@ -15,22 +15,22 @@
 
     <div class="form-inline">
       {% if page.layout == 'definition-lists' %}
-      <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#post_options" aria-controls="post_options" aria-expanded="false" aria-label="{{ t.toggle_options }}" title="{{ t.toggle_options }}" data-toggle="tooltip">
-        <span class="fa fa-bars fa-lg fa-fw"></span>
+      <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#post_options" aria-controls="post_options" aria-expanded="false" aria-label="{{ t.toggle_options }}">
+        <span class="fa fa-bars fa-lg fa-fw" title="{{ t.toggle_options }}" data-toggle="tooltip"></span>
       </button>
       {% endif %}
       {% if page.layout == 'cards' %}
-      <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#post_list_options" aria-controls="post_list_options" aria-expanded="false" aria-label="{{ t.toggle_filters }}" title="{{ t.toggle_filters }}" data-toggle="tooltip">
-        <span class="fa fa-filter fa-lg fa-fw"></span>
+      <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#post_list_options" aria-controls="post_list_options" aria-expanded="false" aria-label="{{ t.toggle_filters }}">
+        <span class="fa fa-filter fa-lg fa-fw" title="{{ t.toggle_filters }}" data-toggle="tooltip"></span>
       </button>
       {% endif %}
       {% if page.comments != false and site.disqus.shortname %}
-      <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#disqus_thread" aria-controls="{{ t.comments }}" aria-expanded="false" aria-label="{{ t.toggle_comments }}" title="{{ t.toggle_comments }}" data-toggle="tooltip">
-        <span class="fa fa-comments fa-lg fa-fw"></span>
+      <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#disqus_thread" aria-controls="{{ t.comments }}" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
+        <span class="fa fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}" data-toggle="tooltip"></span>
       </button>
       {% endif %}
-      <button class="btn btn-outline-secondary" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="{{ t.toggle_navigation }}" title="{{ t.toggle_navigation }}" data-toggle="tooltip">
-        <span class="fa fa-info fa-lg fa-fw"></span>
+      <button class="btn btn-outline-secondary" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="{{ t.toggle_navigation }}">
+        <span class="fa fa-info fa-lg fa-fw" title="{{ t.toggle_navigation }}" data-toggle="tooltip"></span>
       </button>
     </div>
 

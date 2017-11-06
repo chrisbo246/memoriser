@@ -13,7 +13,7 @@
 
 {% assign array = 'filter-target' | split: ' ' %}
 
-{% if daysSince <= page.card.new %}
+{% if page.card.new and daysSince <= page.card.new %}
   {% assign array = 'new' | split: ' ' | concat: array %}
 {% endif %}
 

@@ -34,9 +34,9 @@ card:
   new: 30
   image_position: "overlay"
   #image_position: "top"
-  text_align: "center"
-  vertical_align: "center"
-  title_link: true
+  #text_align: "center"
+  #vertical_align: "center"
+  #title_link: true
   read_more_type: "button"
-  #read_more_container: "footer"
+  read_more_container: "footer"
 ---

@@ -116,16 +116,29 @@
 
     {% comment %}
     {% if include.face == 'front' %}
-    <button type="button" class="close px-1" aria-label="{{ t.info }}">
-      <span class="-fa -fa-info-circle" aria-hidden="true">+</span>
-    </button>
+    <div class="card-header d-flex justify-content-between align-items-center">
+
+
+      {% if include.face == 'front' %}
+      <button type="button" class="close px-1" aria-label="{{ t.info }}">
+        <span class="fa fa-info-circle" aria-hidden="true"></span>
+      </button>
+      {% endif %}
+      {% if include.face == 'back' %}
+      <button type="button" class="flipcard-toggler btn btn-secondary mb-0" aria-label="{{ t.close }}">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      {% endif %}
+
+      {% if include.face == 'front' %}
+      <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="flipcard-toggler btn btn-primary mb-0" aria-label="{{ t.info }}">
+        <span class="fa fa-info-circle" aria-hidden="true"></span>
+      </label>
+      {% endif %}
+
+    </div>
     {% endif %}
     {% endcomment %}
-    {% if include.face == 'back' %}
-    <button type="button" class="close px-1" aria-label="{{ t.close }}">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    {% endif %}
 
     {% if src and include.face != 'back' %}
     <div class="ratio-container unknown-ratio-container">
@@ -153,25 +166,46 @@
         <p class="card-text">{{ post.excerpt | escape }}</p>
         {% endif %}
 
+        {% if page.card.categories and categories and include.face != 'front' or page.card.tags and tags and include.face != 'front' %}
+        <div>
+          {% if page.card.categories and categories and include.face != 'front' %}<span class="pull-left m-1 hidden-sm visible-xs">{% include tags.html array=categories item-class="badge badge-primary" %}</span>{% endif %}
+          {% if page.card.tags and tags and include.face != 'front' %}<span class="pull-left m-1 hidden-sm visible-xs">{% include tags.html array=tags item-class="badge badge-secondary" %}</span>{% endif %}
+        </div>
+        {% endif %}
+
         {% if read-more-classes and page.card.read_more_container != 'footer' and include.face != 'front' %}
         <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }}">{{ page.card.read_more | default: t.read_more | escape }}</a>
         {% endif %}
 
     </div>
 
-    {% if include.face != 'front' %}
-    {% if page.card.date or page.card.categories or page.card.tags or page.card.read_more_container == 'footer' %}
-    <div class="card-footer clearfix">
-        {% if read-more-classes and page.card.read_more_container == 'footer' %}
-        <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }}">{{ page.card.read_more | default: t.read_more | escape }}</a>
+
+    {% if page.card.date or page.card.categories or page.card.tags or page.card.read_more_container == 'footer' or include.face == 'front' or include.face == 'front' %}
+    <div class="card-footer d-flex justify-content-between align-items-center">
+
+        {% if include.face == 'back' %}
+        <button type="button" class="btn btn-secondary mb-0 flipcard-toggler" aria-label="{{ t.close }}">
+          <span class="fa fa-times fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ t.close }}"></span>
+        </button>
         {% endif %}
 
-        {% if page.card.categories and categories %}<span class="pull-left m-1 hidden-sm visible-xs">{% include tags.html array=categories item-class="badge badge-primary" %}</span>{% endif %}
-        {% if page.card.tags and tags %}<span class="pull-left m-1 hidden-sm visible-xs">{% include tags.html array=tags item-class="badge badge-secondary" %}</span>{% endif %}
-        {% if page.card.date %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
+        {% if include.face == 'front' %}
+        <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="btn btn-secondary mb-0 flipcard-toggler" aria-label="{{ t.info }}">
+          <span class="fa fa-question fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ t.info }}"></span>
+        </label>
+        {% endif %}
+
+        {% if page.card.date and include.face != 'front' %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
         {% if page.card.new and daysSince <= page.card.new and include.face != 'back' %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
+
+        {% if read-more-classes and page.card.read_more_container == 'footer' %}
+        <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }} mb-0" aria-label="{{ page.card.read_more | default: t.read_more }}">
+          <span class="fa fa-chevron-right fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ page.card.read_more | default: t.read_more }}"></span>
+        </a>
+        {% endif %}
+
     </div>
     {% endif %}
-    {% endif %}
+    {% if include.face != 'front' %}{% endif %}
 
 </div>

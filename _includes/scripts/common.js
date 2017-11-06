@@ -89,7 +89,7 @@
   * Force the flipcard to close when user click a checked radio
   */
 
-  $('.card-flip').on('click', '.close', function(e) {
+  $('.card-flip .back').on('click', '.flipcard-toggler', function(e) {
     var $input = $(this).parents('.card-flip').prev('input');
     if ($input) {
       var checked = $input.prop('checked');

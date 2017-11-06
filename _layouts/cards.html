@@ -31,19 +31,21 @@ layout: default
     {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
     <div class="card-columns">
         {% for post in posts %}
+        {% if post.url and post.title and post.content.size > 100 %}
 
         {% comment %}
         {% include card.html post=post img-class='card-img-faded card-img-grayscale' %}
         {% endcomment %}
 
-        <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="w-100 m-0 {% include filter-tags.html post=post %}">
+        <div class="{% include filter-tags.html post=post %}">
           <input type="radio" id="flipcard_toggler_{{ post.url | slugify: 'default' }}" name="flipcard_toggler" value="{{ post.url }}" class="d-none" data-storage="false" />
-          <figure class="card card-flip">
-            {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded" title-class="h2 font-weight-bold" %}
+          <div class="card card-flip">
+            {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
             {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
-          </figure>
-        </label>
+          </div>
+        </div>
 
+        {% endif %}
         {% endfor %}
     </div>
     <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />

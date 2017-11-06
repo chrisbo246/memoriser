@@ -29,7 +29,7 @@ grand
 
 un peu
 : немного
-*__yniemnoga__*
+*__niemnoga__*
 
 beaucoup
 : многие

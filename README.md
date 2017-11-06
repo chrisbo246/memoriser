@@ -10,8 +10,8 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 
 - Quick & easy definition list edition thanks to the markdown syntax.
 - Convert boring definition lists to easy-to-read flexible cards.
-- Fade memorized definitions for learning purpose (with persistence).
-- Listen to translations (free Text To Speech API).
+- Mark memorized definitions (with persistence).
+- Listen to translations (Text To Speech API).
 - Filter posts by category, featured and new.
 - Index generation from anchors.
 - Smooth scroll.

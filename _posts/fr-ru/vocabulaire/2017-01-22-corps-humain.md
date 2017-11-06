@@ -11,7 +11,7 @@ categories: ["vocabulaire"]
 tags: [
   personne, corps, membre, organe, os
 ]
-date: 2017-01-01 00:00:00 +0100
+date: 2017-11-04 00:00:00 +0100
 ---
 ## Les parties du corps
 
