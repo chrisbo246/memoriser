@@ -11,17 +11,32 @@ categories: ["vocabulaire"]
 tags: [
   objet, vêtement
 ]
-date: 2017-07-18 20:20:20 +0100
+date: 2017-07-18 00:00:00 +0100
 ---
 
+## Types de vêtements
 
 vêtements
 : одежда
-*__odyejda__*
+*__adiejda__*
+
+sous-vêtements
+: нижнее белье
+*__nijnie bilyo__*
+
+
+## Couvre-chef
 
 chapeau
 : шляпа
 *__shlyapa__*
+
+béret
+: берет
+*__birièt'__*
+
+
+## Haut
 
 veste
 : куртка
@@ -32,8 +47,19 @@ chemise
 *__roubashka__*
 
 T-shirt
-: футбо́лка
+: футболка
 *__foudbolka__*
+
+blouse
+: блуза
+*__blousa__*
+
+blouson
+: блузон
+*__blouson'__*
+
+
+## Bas
 
 pantalon
 : брюки
@@ -44,16 +70,11 @@ robe
 *__platye__*
 
 jupe
-: ю́бка
+: юбка
 *__ioupka__*
 
-sous-vêtements
-: нижнее белье
-*__nijnie bilyo__*
 
-couche
-: пальто
-*__palto__*
+## Sous-vêtements
 
 chaussettes
 : носки
@@ -63,8 +84,35 @@ chaussures
 : обувь
 *__obouv__*
 
+porte jarretelle
+: Подвязки
+*__padvyazki__*
+
+
+## Chaussures
+
+chaussons
+: тапочки
+*__tapatchki__*
+
+bottes
+: боты
+*__botè__*
+
+bottillon
+: ботильоны
+*__botilionè__*
+
+bottine
+: ботинки
+*__botinki__*
+
 
 ## Accessoires
+
+lunettes
+: очки
+*__atchki__*
 
 portefeuille
 : бумажник
@@ -72,4 +120,14 @@ portefeuille
 
 parapluie
 : зонтик
-*__zon'tyk__*
+*__zontik__*
+
+parapluie
+: зонт
+*__zont'__*
+
+## Divers
+
+couche
+: пальто
+*__palto__*

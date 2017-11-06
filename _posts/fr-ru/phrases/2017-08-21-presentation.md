@@ -14,29 +14,6 @@ tags: [
 date: 2017-08-21 00:39:00 +0100
 ---
 
-## Salutation
-
-Enchanté(e)!
-: Взаимно!
-*__Vzaïmna!__*
-
-Ravi de vous rencontrer! (Très agréable!)
-: Очень приятно!
-*__Otchien' priatna!__*
-
-Ravi de vous rencontrer!
-: Рад с вами познакомиться!
-*__Rat s vami paznakomitsa__*
-
-Ravie de vous rencontrer!
-: Рада с вами познакомиться!
-*__Rada s vami paznakomitsa__*
-
-Ravi de vous rencontrer!
-: Приятно познакомиться!
-*__Priatna paznakomitsa!__*
-
-
 ## Se présenter
 
 Je suis français

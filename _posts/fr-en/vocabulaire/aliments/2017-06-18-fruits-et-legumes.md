@@ -11,7 +11,7 @@ categories: ["vocabulaire"]
 tags: [
 "plante", "fruit", "légume", "alimentation"
 ]
-date: 2017-06-18 20:20:20 +0100
+date: 2017-06-18 00:00:00 +0100
 ---
 
 ## Légumes
@@ -54,28 +54,3 @@ cannelle
 
 noix de muscade
 : nutmeg
-
-
-## Parties d'une plante
-
-tige
-: stalk
-
-sève
-: sap
-
-feuille
-: leave
-
-résine
-: resin
-
-peau
-: peel
-*Pour un fruit.*
-
-écorce
-: bark
-
-racine
-: root

@@ -42,13 +42,13 @@ où
 : где
 *__gdié__ Où se situe ...*
 
-où
+où (va)
 : куда
-*__kouda__ Où va ...*
+*__kouda__*
 
-d'où
+d'où (vient)
 : откуда
-*__atkouda__ D'où vient ...*
+*__atkouda__*
 
 quel
 : какой
@@ -78,6 +78,6 @@ lequel
 : который
 *__katori__*
 
-laquelle?
-: которая?
-*__katoraya?__*
+laquelle
+: которая
+*__katoraya__*

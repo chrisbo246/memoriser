@@ -12,7 +12,7 @@ image:
 categories: ["vocabulaire"]
 tags: []
 weight: 1
-dateModified: 2017-01-01 20:20:20 +0100
+dateModified: 2017-01-01 00:00:00 +0100
 ---
 
 ## Qualités
@@ -135,3 +135,9 @@ pogrome
 
 eugénisme
 : Sélection raciale.
+
+
+## Divers
+
+moratoire
+: Délai légal accordé pour circonstances exceptionnelles.

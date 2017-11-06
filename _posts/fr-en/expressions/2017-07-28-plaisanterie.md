@@ -11,10 +11,8 @@ categories: ["expressions"]
 tags: [
 "plaisanterie", "jeu"
 ]
-date: 2017-06-07 20:20:20 +0100
+date: 2017-06-07 00:00:00 +0100
 ---
-
-## Faire une surprise
 
 Je t'ai eu!
 : Gotcha!
@@ -22,8 +20,5 @@ Je t'ai eu!
 Coucou!
 : Peek-a-boo!
 
-
-## Divers
-
-Es-tu en train de te moquer de moi?
-: Are you making fun of me?
+Blague malade!
+: Sick joke!

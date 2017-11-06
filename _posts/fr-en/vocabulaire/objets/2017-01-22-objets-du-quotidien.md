@@ -11,62 +11,8 @@ categories: ["vocabulaire"]
 tags: [
 "objet", "maison"
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
-
-## Récipients alimentaires
-
-canette
-: can
-
-verre
-: glass
-
-verre à pied
-: goblet
-
-verre (cylindrique)
-: tumbler
-
-tasse
-: cup
-
-tasse haute
-: mug
-
-bol
-: bowl
-
-pot
-: pot
-
-saladier
-: bowl
-
-
-## Ustensiles de cuisine
-
-casserole
-: pan
-
-poêle à frire
-: frying pan
-
-cocotte-minute
-: pressure cooker
-
-louche
-: ladle
-
-spatule
-: spatula
-
-couvercle
-: lid
-
-passoire
-: strainer
-
 
 ## Electroménager
 
@@ -103,6 +49,9 @@ comptoir
 tabouret
 : stool
 
+étagère
+: shelf
+
 
 ## Jouets
 
@@ -115,6 +64,9 @@ peluche
 pince à épiler
 : tweezers
 
+cure-dent
+:	toothpick
+
 
 ## Literie
 
@@ -124,5 +76,8 @@ traversin
 
 ## Divers
 
-cure-dent
-:	toothpick
+affaires (objets)
+: things
+
+bordel
+: mess

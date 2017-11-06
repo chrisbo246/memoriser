@@ -11,15 +11,8 @@ categories: ["phrases"]
 tags: [
   expression
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
-
-
-## Divers
-
-beau, joli
-: красивый
-*__krasivy__*
 
 Quel joli prénom!
 : Какое красивое имя!
@@ -32,3 +25,23 @@ C'est dangereux.
 C'est dangereux ici.
 : Это опасно здесь.
 *__Eta rapasna zdies__*
+
+Nous sommes à Moscou.
+: Мы в Москве.
+*__Mi v'maskviè.__*
+
+Excusez-moi, je débute en russe.
+: Извините, я начинаю на русском.
+*__Izvinitié, ya natchina na rouskom.__*
+
+Excusez-moi, je suis en retard.
+: Извините, я опоздал.
+*__Izvinitié, ya pasdal.__*
+
+Je suis content de te voir.
+: Рад встрече! Спасибо, взаимно.
+*__Rat' vstritché.__*
+
+Je suis contente de te voir. [f.]
+: Рада встрече! Спасибо, взаимно.
+*__Rada vstritché.__*

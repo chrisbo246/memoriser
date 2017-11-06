@@ -7,11 +7,11 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-categories: ["phrases"]
+categories: ["questions"]
 tags: [
   date, heure
 ]
-date: 2017-08-18 20:20:20 +0100
+date: 2017-08-18 00:00:00 +0100
 ---
 
 ## Quand se déroule un évènement

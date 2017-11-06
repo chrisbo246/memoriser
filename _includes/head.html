@@ -22,7 +22,6 @@
 
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
-    {% comment %}
     {% capture criticalcss %}
         {% include styles/critical.scss %}
     {% endcapture %}
@@ -33,7 +32,6 @@
     {{ criticalcss }}
     </style>
     {% endif %}
-    {% endcomment %}
 
     {% seo %}
 

@@ -37,6 +37,12 @@ verser
 renverser
 : turn upside down
 
+bise
+: cheek kiss
+
+sourire
+: grin
+
 
 ## Expressions
 
@@ -49,3 +55,6 @@ se boucher les oreilles
 fourrer, enfoncer
 : shove
 *Ex: Fourrer ton doigt dans ton nez.*
+
+coup de tête
+: head-butt

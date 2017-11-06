@@ -27,21 +27,21 @@
 
       // Filter by text
       $searchboxes.each(function () {
-         var text = $(this).val().toLowerCase();
-         if (text) {
-            $targets.filter(':visible').each(function () {
-               var $target = $(this);
-               var matches = 0;
-               $target.find('h2, h3, h4, p').add($target).each(function () {
-                  if ($(this).text().toLowerCase().indexOf("" + text + "") !== -1) {
-                     matches = matches + 1;
-                  }
-               });
-               if (matches === 0) {
-                  $target.hide();
-               }
-            });
-         }
+        var text = $(this).val().toLowerCase();
+        if (text) {
+          $targets.filter(':visible').each(function () {
+             var $target = $(this);
+             var matches = 0;
+             $target.find('h2, h3, h4, p').add($target).each(function () {
+                if ($(this).text().toLowerCase().indexOf("" + text + "") !== -1) {
+                   matches = matches + 1;
+                }
+             });
+             if (matches === 0) {
+                $target.hide();
+             }
+          });
+        }
       });
 
     }

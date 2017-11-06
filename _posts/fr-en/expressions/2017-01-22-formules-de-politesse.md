@@ -7,7 +7,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-categories: ["phrases"]
+categories: ["expressions"]
 tags: [
 "politesse"
 ]
@@ -100,9 +100,12 @@ Fais attention a toi / prends soin de toi.
 Adieu.
 : Farewell.
 
+Je suis en liberté sous caution
+: I'm on a bail
+*Pour s'échapper d'une soirée ennuyeuse.*
+
 
 ## Souhaiter bonne...
-
 
 Bonne journée.
 : Good day.

@@ -11,7 +11,7 @@ categories: ["vocabulaire"]
 tags: [
 "crime", "agression"
 ]
-date: 2017-06-07 20:20:20 +0100
+date: 2017-06-07 00:00:00 +0100
 ---
 
 ## Situation
@@ -28,6 +28,9 @@ une vie à la dure
 
 
 ## Agressions
+
+lavage de cerveau
+: brainwashing
 
 piégé
 : trapped
@@ -56,11 +59,23 @@ blessé
 poignardé
 : stabbed
 
+étranglé
+: throttled
+
 tué
 : killed
 
+shooting
+: fusillade
+
+settling scores
+: règlement de comptes
+
 
 ## Fraudes
+
+vagabondage
+: loitering
 
 arnaque
 : scam
@@ -70,6 +85,9 @@ vol:
 
 mauvais coups
 : mischief
+
+fraude fiscale
+: skimming
 
 blanchiment d'argent
 : money laundering
@@ -97,6 +115,21 @@ personne potentiellement impliquée
 : person of interest
 
 
+## Victimes
+
+victime
+: victim
+
+proie
+: prey
+
+pigeon
+: patsy
+
+blessé
+: injured person
+
+
 ## Prison
 
 détenu
@@ -108,6 +141,9 @@ condamné à mort
 couloir de la mort
 : death row
 
+en liberté sous caution
+: on a bail
+
 
 ## Actions
 
@@ -117,8 +153,14 @@ voler
 casser la gueule
 : duff up
 
+étrangler
+: throttle
+
 
 ## Divers
 
 piège
 : trap
+
+guet-apens
+: ambush

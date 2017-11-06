@@ -9,9 +9,9 @@ image:
   height: 360
 categories: ["vocabulaire"]
 tags: [
-"objet", "outil", "mécanique"
+"objet", "bricolage", "outil", "mécanique"
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Instruments de mesure
@@ -80,7 +80,10 @@ foret
 : drill
 
 fraise
-: drill
+: mill
+
+fraise carbure
+: carbide mill
 
 plaquette carbure
 : carbide insert

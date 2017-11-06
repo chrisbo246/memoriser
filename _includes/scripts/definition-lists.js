@@ -63,7 +63,15 @@
     * Make container flex
     */
 
-    $container.addClass('d-flex flex-row flex-wrap align-items-stretch align-self-stretch justify-content-between');
+    $container.addClass('d-flex flex-row flex-wrap align-items-stretch align-self-stretch -justify-content-between');
+
+
+
+    /**
+    * Make normal text full width
+    */
+    $dls.add($titles).first().prevAll().wrapAll('<div class="w-100"></div>');//'<div class="card w-100"><div class="card-body"></div></div>');
+    $dls.nextUntil('dl, h2, h3, h4').wrapAll('<div class="w-100"></div>');//'<div class="card w-100"><div class="card-body"></div></div>');
 
 
 
@@ -93,12 +101,13 @@
         + (sectionId ? ' data-section="' + sectionId + '"' : '') + '>'
         + '<input type="radio" id="flipcard_toggler_' + id + '" name="visible_definition" value="' + id + '" class="d-none" />'
         + '<figure class="card card-flip m-1">'
-        + '<div class="card bg-dark text-muted">'
+        + '<div class="card front card-position-absolute bg-dark text-muted">'
         + '<div class="card-body d-flex justify-content-center align-items-center">'
-        + '<h4 class="card-title h6 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '').replace(/\[([^\[\]]*)\]/g, '') + '</h4>'
+        //+ '<h4 class="card-title h6 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '').replace(/\[([^\[\]]*)\]/g, '') + '</h4>'
+        + '<h4 class="card-title h6 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<small class="text-muted">($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>') + '</h4>'
         + '</div>'
         + '</div>'
-        + '<div class="card bg-white text-dark">'
+        + '<div class="card back bg-white text-dark">'
         + '<div class="card-body pb-0">'
         //+ '<h4 class="card-title h5 mb-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<span class="text-muted">($1)</span>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">($1)</sup>') + '</h4>'
         //+ (($.speech && dtLang && ddLang) ? '<a class="btn btn-link btn-sm pull-right btn-tts" href="#" role="button"><i class="fa fa-volume-up"></i></a>' : '')
@@ -122,9 +131,12 @@
       });
 
       //html = '<div class="d-flex flex-row flex-wrap align-items-stretch align-self-stretch justify-content-between">' + html + '</div>';
+
       $dl.replaceWith(html);
 
     });
+
+    $container.append('<input type="radio" id="flipcard_toggler_none" name="visible_definition" value="none" class="d-none" checked />');
 
 
 
@@ -178,6 +190,9 @@
         $nav.parents('.collapse').first().collapse({
           toggle: false
         });
+        $nav.closest('.card').prop('hidden', 'hidden');
+        //$nav.hide();
+        //$nav.prev('h4').hide();
       }
     }
 

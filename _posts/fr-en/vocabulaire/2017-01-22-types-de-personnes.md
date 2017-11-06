@@ -65,6 +65,12 @@ gars
 : guy
 
 
+## Statut
+
+célibataire
+: bachelor
+
+
 ## Vagabonds
 
 clochard
@@ -94,6 +100,9 @@ pèlerin
 
 ## Expressions
 
+un être vivant
+: a living being
+
 L’homme idéal
 : Mr right
 
@@ -117,18 +126,38 @@ as en mécanique
 lève tôt
 : riser
 
+somnambule
+: sleepwalker
 
-## Personnages de fiction
+paresseux
+: a couch potato
+*Qui passe tout son temps devant la télé.*
 
-le petit chaperon rouge
-: little red riding hood
 
-Fée Clochette
-: Tinkerbell
-*Fille immature.*
+## Personnages
 
 bonhomme de neige
 : snowman
 
 épouvantail
 : scarecrow
+
+
+## Personnages de literature
+
+le petit chaperon rouge
+: little red riding hood
+
+
+## Personnage de télé
+
+Fée Clochette
+: Tinkerbell
+*Fille immature.*
+
+Inspecteur Clouzot
+: Inspector Clouzot
+*Inspecteur Français dans la panthère rose.*
+
+Winnie l'ourson
+: Winnie the pooh

@@ -11,22 +11,34 @@ categories: ["vocabulaire"]
 tags: [
   objet, maison
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Mobilier
 
-meubles
-: мебель
-*__myebyel__*
+table
+: стол
+*__stol__*
+
+table basse
+: журнальный столик
+*__journalni stolik__*
 
 chaise
 : стул
 *__stoul__*
 
-table
-: стол
-*__stol__*
+chaises
+: стулья
+*__stoulia__*
+
+canapé
+: диван
+*__divan'__*
+
+fauteuil
+: кресла
+*__krièsla__*
 
 bureau
 : стол
@@ -36,12 +48,44 @@ lit
 : кровать
 *__kravat'__*
 
+meubles
+: мебель
+*__mibiel__*
+
+armoire
+: шкаф
+*__chkaf__*
+
+commode
+: комод
+*__comot'__*
+
+évier, lavabo
+: раковина
+*__rakavina__*
+
+baignoire
+: ванна
+*__vanna__*
+
+bidet
+: биде
+*__bidiè__*
+
 
 ## Electroménager
 
 téléviseur
 : телевизор
-*__televizor__*
+*__tilivizar__*
+
+lave-linge
+: стиральная машина
+*__stiralnaya machina__*
+
+lave-vaisselle
+: посудомоечная машина
+*__passoudamoïtchnaya machina__*
 
 plaque chauffante
 : плита
@@ -51,20 +95,43 @@ four
 : печь
 *__pyech__*
 
-frigo, réfrigérateur
-: холодильник
-*__haladylnyk__*
+friteuse
+: Фритюрница
+*__friturnitsa__*
 
-téléphone
-: телефон
-*__telephone__*
+frigo, frigidaire, réfrigérateur
+: холодильник
+*__haladilnik__*
+
+climatisation
+: климат-контроль
+*climat' control'*
+
+
+## Objets électriques
 
 lampe
 : лампа
 *__lampa__*
 
+lampadaire
+: торшер
+*__tarchèr'__*
+
+lustre
+: люстра
+*__Lioustra__*
+
 
 ## Electronique
+
+appareil
+: аппарат
+*__apparat'__*
+
+téléphone
+: телефон
+*__telephone__*
 
 smartphone
 : смартфон
@@ -73,6 +140,10 @@ smartphone
 appareil photo
 : фотоаппарат
 *__fotoapparat__*
+
+casque (audio)
+: наушники
+*__naouchniki__*
 
 
 ## Accessoires de toilette
@@ -86,30 +157,34 @@ shampooing
 *__shampoon__*
 
 brosse à dents
-: shtyetka зубная щетка
-*__zoobnaya__*
+: зубная щетка
+*__zoobnaya shtyetka__*
 
 dentifrice
-: pasta зубная паста
-*__zoobnaya__*
+: зубная паста
+*__zoobnaya pasta__*
 
 serviette
 : полотенце
-*__polotyentzye__*
+*__polotientzye__*
+
+miroir
+: зеркало
+*__zierkala__*
 
 
 ## Literie
 
 couverture
 : ковер
-*__kovyer__*
+*__kovier'__*
 
 
-## Accessoires de bureau
+## Bureau
 
 stylo
 : ручка
-*__roochka__*
+*__routchka__*
 
 crayon
 : карандаш
@@ -122,6 +197,30 @@ encre
 papier
 : бумага
 *__boomaga__*
+
+bloc-notes
+: блокнот
+*__blocnot'__*
+
+livre
+: Книга
+*__kniga__*
+
+dictionnaire
+: словарь
+*__slovar__*
+
+album
+: альбом
+*__albom'__*
+
+almanach
+: альманах
+*__almanah__*
+
+brochure
+: брошюра
+*__brochioura__*
 
 cahier
 : блокнот
@@ -137,7 +236,7 @@ carte
 
 journal
 : газета
-*__gazyeta__*
+*__gazieta__*
 
 ciseaux
 : ножницы
@@ -146,13 +245,17 @@ ciseaux
 
 ## Divers
 
+tapis
+: Ковёр
+*__kavior__*
+
 valise
 : чемодан
 *__chiémadan'__*
 
 les objets
 : объекты
-*__obyekti__*
+*__obiekti__*
 
 fourche
 : вилка
@@ -161,3 +264,42 @@ fourche
 image
 : изображение
 *__izobrajyeniye__*
+
+tableau
+: картина
+*__kartina__*
+
+photographie
+: фотография
+*__fatagrafia__*
+
+affiche
+: афиша
+*__aficha__*
+
+balançoire
+: качели
+*__kacheli__*
+
+poussette
+: коляска
+*__kalyaska__*
+
+poubelle
+: мусорка
+*__moussarka__*
+
+poignée
+: ручка
+*routchka*
+
+parasol
+: зонт
+*__zont'__*
+
+
+## Facile!
+
+abat-jour
+: абажур
+*__abajour__*

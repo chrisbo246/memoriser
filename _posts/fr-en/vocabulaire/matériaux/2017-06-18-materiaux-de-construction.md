@@ -65,6 +65,9 @@ parpaing
 contre-plaqué
 : plywood
 
+panneau de particules
+: hardboard
+
 plaque rigide
 : hardboard
 
@@ -73,3 +76,12 @@ plaque d'aggloméré
 
 parquet
 : wood flooring
+
+
+## Carton
+
+carton
+: pasteboard
+
+Carton ondulé
+: corrugated cardboard

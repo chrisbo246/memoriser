@@ -11,7 +11,7 @@ categories: ["adjectifs"]
 tags: [
 "sensation", "goût", "touché"
 ]
-date: 2017-07-28 20:20:20 +0100
+date: 2017-07-28 00:00:00 +0100
 ---
 
 ## Touché

@@ -11,7 +11,7 @@ categories: ["vocabulaire"]
 tags: [
 "objet", "vêtement"
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Couvre-chefs
@@ -121,27 +121,26 @@ duffle coat (veste longue en feutre)
 
 ## Pantalons
 
-pantalon
-: trousers
-
 pantalon (général)
 : pants
+
+pantalon
+: trousers
 
 short
 : short
 
 
 ## Robes
-Dresses
+
+robe se soirée, robe longue
+: gown
 
 robe
 : dress
 
 jupe
 : skirt
-
-robe se soirée, robe longue
-: gown
 
 
 ## Collants

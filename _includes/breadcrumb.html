@@ -15,72 +15,9 @@
         {% if pages_url contains url %}
         <a class="breadcrumb-item" href="{{ url | relative_url }}">{{ crumb | capitalize }}</a>
         {% endif %}
-        
+
       {% else %}
         <span class="breadcrumb-item active">{{ page.title | escape }}</span>
       {% endunless %}
   {% endfor %}
 </nav>
-
-
-{% comment %}
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-
-<nav class="{{ include.class | default: 'breadcrumb' }}">
-
-  <a class="breadcrumb-item" href="{{ '/' | relative_url }}">{{ t.home }}</a>
-
-  {% for crumb in crumbs offset: 1 %}
-    {% if forloop.last %}
-      <span class="breadcrumb-item active">{{ page.title | escape }}</span>
-    {% else %}
-      <a class="breadcrumb-item" href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a>
-    {% endif %}
-  {% endfor %}
-
-</nav>
-
-
-
-
-{% assign url_parts = page.url | remove: '/index.html' | replace: '/', ' ' %}
-{% assign num_parts = url_parts | number_of_words | minus: 1 %}
-{% assign previous = '' %}
-
-<nav class="{{ include.class | default: 'breadcrumb' }}">
-
-  <a class="breadcrumb-item" href="{{ '/' | relative_url }}">{{ t.home }}</a>
-
-  {% if num_parts > 0 %}
-  {% for unused in page.content limit:num_parts %}
-  {% assign first_word = url_parts | truncatewords: 1 | remove: '...' %}
-  {% assign previous = previous | append: '/' | first_word %}
-  <a class="breadcrumb-item" href="{{ previous | append: '.html' | relative_url }}">{{ first_word }}</a>
-  {% assign url_parts = url_parts | remove_first: first_word %}
-  {% endfor %}
-  {% endif %}
-
-  <span class="breadcrumb-item active">{{ page.title | escape }}</span>
-
-</nav>
-
-
-<nav class="{{ include.class | default: 'breadcrumb' }}">
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' | shift | pop %}
-{% assign crumbs_version = page.url | split: '/' | first %}
-{% for crumb in crumbs offset: 1 %}
- {% capture crumb_url %}{{crumbs_version}}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}{% endcapture %}
-
- {% assign crumb_url_md = crumb_url | append: 'index.md' %}
- {% assign crumb_url_html = crumb_url | append: 'index.html' %}
- {% assign breadcrumb_exists = site.html_pages | where: "path", crumb_url_md %}
- {% if breadcrumb_exists == '' or breadcrumb_exists == nil or breadcrumb_exists.size == 0 %}
-    {% assign breadcrumb_exists = site.html_pages | where: "path", crumb_url_html %}
- {% endif %}
-
- {% if breadcrumb_exists != '' and breadcrumb_exists != nil and breadcrumb_exists.size > 0 %}
-    <a class="breadcrumb-item" href="{{site.baseurl}}/{{crumb_url}}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
- {% endif %}
-{% endfor %}
-</nav>
-{% endcomment %}

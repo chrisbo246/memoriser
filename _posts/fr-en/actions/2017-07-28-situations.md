@@ -28,6 +28,9 @@ se préparer
 compter sur
 : rely on
 
+remettre à plus tard
+: take a rain check
+
 
 ## Situation
 

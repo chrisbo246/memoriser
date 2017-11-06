@@ -11,14 +11,21 @@ categories: ["vocabulaire"]
 tags: [
   place, construction, bâtiment
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
-## Commerces de proximité
+## Types de Commerces
 
 magasin, supermarché
 : магазин
 *__magazin'__*
+
+boutique
+: бутик
+*__boutik__*
+
+
+## Commerces de proximité
 
 boucherie
 : скотобойня
@@ -35,6 +42,14 @@ pâtisserie
 bijouterie
 : ювелирные изделия
 *__youvielirnè izdiélia__*
+
+bijouterie
+: бижутерия
+*__bijoutiria__*
+
+bistro
+: бистро
+*__bistro__*
 
 
 ## Services de proximité
@@ -160,6 +175,10 @@ gare ferroviaire
 aéroport
 : аэропорт
 *__aèraport__*
+
+aérodrome
+: аэродром
+*__aèrodrom'__*
 
 
 ## Argot

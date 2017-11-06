@@ -86,6 +86,39 @@
 
 
   /**
+  * Force the flipcard to close when user click a checked radio
+  */
+
+  $('.card-flip').on('click', '.close', function(e) {
+    var $input = $(this).parents('.card-flip').prev('input');
+    if ($input) {
+      var checked = $input.prop('checked');
+      $input.prop('checked', !checked).trigger('change');
+    }
+  });
+
+
+
+  /**
+  * Uncheck checked radio
+  */
+
+  /*$('label').filter('[for]').on('mousedown', function(e) {
+    var $label = $(this);
+    var id = $label.attr('for');
+    var $input = $('#' + id).first();
+    if ($input.is(':radio')) {
+      var checked = $input.prop('checked');
+      var name = $input.attr('name');
+      if (checked && name) {
+        $(':radio').filter('[name="' + name + '"][value="none"]').first().prop('checked', true).trigger('change');
+      }
+    }
+  });*/
+
+
+
+  /**
   * Store / restore with local storage
   */
 
@@ -96,7 +129,7 @@
     /**
     * Store / restore checked definitions
     */
-    var $inputs = $(':checkbox, :radio'); //.filter('[id]');
+    var $inputs = $(':checkbox, :radio').not('[data-storage="false"]'); //.filter('[id]');
     if ($inputs.length) {
       var $input, $label, name, id, checked, key, value, type;
       $inputs.each(function () {
@@ -111,7 +144,7 @@
             key = name;
             value = JSON.parse(localStorage.getItem(namespace + ':' + key));
             if (value !== null && value === $input.attr('value')) {
-              $input.prop('checked', true).trigger('change');
+              $input.prop('checked', true).trigger('click');
               $label.addClass('active');
               console.log('Restored', key, value);
             }
@@ -121,7 +154,7 @@
             key = id || name;
             value = JSON.parse(localStorage.getItem(namespace + ':' + key));
             if (value !== null) {
-              $input.prop('checked', value).trigger('change');
+              $input.prop('checked', value).trigger('click');
               $label.addClass('active');
               console.log('Restored', key, value);
             }

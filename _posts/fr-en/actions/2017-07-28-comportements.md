@@ -43,3 +43,6 @@ mourir de rire
 
 faisons comme si
 : let's pretend
+
+adorer, être excité
+: get a kick out of ...

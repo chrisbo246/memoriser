@@ -9,9 +9,9 @@ image:
   height: 360
 categories: ["vocabulaire"]
 tags: [
-  place
+  "place"
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Les pays
@@ -62,6 +62,10 @@ avenue
 : проспект
 *__praspiekt'__*
 
+boulevard
+: бульвар
+*__boulvar__*
+
 
 ## Les lieux publiques
 
@@ -72,6 +76,10 @@ place
 parc
 : парк
 *__park__*
+
+air de jeux
+: Детская площадка
+*__dietskaya plaschiadka__*
 
 centre
 : центре

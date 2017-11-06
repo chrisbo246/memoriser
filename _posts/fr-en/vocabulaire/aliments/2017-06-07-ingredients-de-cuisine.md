@@ -11,22 +11,10 @@ categories: ["vocabulaire"]
 tags: [
 "aliment", "cuisine", "ingrédient", "condiment", "épice"
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Ingrédients
-
-jaune d'œuf
-: egg yolk
-
-blanc d'œuf
-: egg white
-
-zeste (de citron)
-: (lemon) zest
-
-pelure
-: peel
 
 farine de blé
 : wheat flour
@@ -56,7 +44,47 @@ levain
 : sourdough
 
 
+
+## Parties d'ingrédients
+
+jaune d'œuf
+: egg yolk
+
+blanc d'œuf
+: egg white
+
+zeste
+: zest
+
+pelure
+: peel
+
+croûte
+: crust
+
+mie
+: crumb
+
+mie de pain
+: bread crumbs
+
+
+## Condiments
+
+cannelle
+: ground
+
+
 ## Préparations
 
 pâte (mélange à base de farine)
 : dough
+
+pâte à frire
+: batter
+
+
+## adjectifs
+
+... moulue
+: ground ...

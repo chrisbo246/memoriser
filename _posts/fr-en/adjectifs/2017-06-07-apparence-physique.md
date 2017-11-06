@@ -14,7 +14,7 @@ tags: [
 date: 2017-03-28 20:51:00 +0100
 ---
 
-## Apparence
+## Apparence physique
 
 métisse
 : mixed
@@ -30,25 +30,6 @@ mignon
 
 laid
 : ugly
-
-crasseux
-: grimy
-
-miteux
-: scruffy
-
-négligé
-: sloppy
-
-négligé
-: unkempt
-
-sur leur trente-et-un
-: on their way
-*Apreté pour sortir.*
-
-endimanché
-: duded up
 
 
 ## Corpulence
@@ -73,6 +54,31 @@ bien en chair
 
 flasque
 : flabby
+
+
+## Apparence vestimentaire
+
+chic
+: posh
+
+endimanché
+: duded up
+
+sur leur trente-et-un
+: on their way
+*Apreté pour sortir.*
+
+négligé
+: sloppy
+
+négligé
+: unkempt
+
+crasseux
+: grimy
+
+miteux
+: scruffy
 
 
 ## Couleurs de cheveux
@@ -129,8 +135,21 @@ cheveux bouclés
 cheveux crépus
 : frizzy hair
 
+
+## Coiffure
+
 hirsute
 : shaggy
 
 chauve
 : bald
+
+natte
+: pigtail
+*Tresse ou couettes.*
+
+queue de cheval
+: ponytail
+
+mèche de cheveux
+: gathered hank of hair 

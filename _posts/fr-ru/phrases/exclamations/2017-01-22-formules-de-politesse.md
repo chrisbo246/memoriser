@@ -17,9 +17,9 @@ date: 2017-04-01 00:39:00 +0100
 
 ## Bonjour
 
-Bonjour!
-: Здравствуйте!
-*__Zdrastvouytyé!__ Bonjour ou bonsoir formel.*
+Bonjour.
+: Здравствуйте.
+*__Zdrastvouytyé.__ Bonjour ou bonsoir formel. Littéralement soyez en bonne santé.*
 
 Salut!
 : Привет!
@@ -36,14 +36,6 @@ Bonne journée!
 Bonne soirée!
 : Добрый вечер!
 *__Dobry viétchèr!__*
-
-Bonjour, Monsieur!
-: Доброе утро, сэр!
-*__Dobré outra, sèr!__*
-
-Bonjour, Madame!
-: Доброе утро, мадам!
-*__Dobré outra, madam!__*
 
 
 ## Au revoir
@@ -72,20 +64,17 @@ A plus, à plus tard, à la prochaine
 : До встречи!
 *__Do vstrechi!__*
 
-A dieu.
-: До свидания.
-*__Da svidania.__*
+A dieu!
+: До свидания!
+*__Da svidania!__*
+
+adieu
+: адью
+*__adiou__*
 
 Bonne nuit!
 : Спокойной ночи!
 *__Spakoyné notchi!__*
-
-
-## Formule de politesse
-
-S’il vous plait.
-: Пожалуйста.
-*__Pajalsta.__*
 
 
 ## Remercier
@@ -94,6 +83,10 @@ Merci!
 : Спасибо!
 *__Spaciba!__*
 
+Grand merci!
+: Спасибо большое!
+*__Spasiba balchoy!__*
+
 Merci, de même!
 : Спасибо, взаимно!
 *__Spacibo, vzaïmna!__*
@@ -101,6 +94,63 @@ Merci, de même!
 Très bien merci!
 : Очень хорошо, спасибо!
 *__Otchen horosho, spaciba!__*
+
+Vous êtes très aimable!
+: вы очень любезны!
+*__Vi otchien lioubiezni!__*
+
+
+## Enchanté
+
+Enchanté(e)!
+: Взаимно!
+*__Vzaïmna!__*
+
+Très sympa (de vous rencontrer)!
+: Очень приятно!
+*__Otchin' priatna!__*
+
+Ravi de vous rencontrer! (Très agréable!)
+: Очень приятно!
+*__Otchien' priatna!__*
+
+Ravi de vous rencontrer!
+: Рад с вами познакомиться!
+*__Rat s vami paznakomitsa__*
+
+Ravie de vous rencontrer!
+: Рада с вами познакомиться!
+*__Rada s vami paznakomitsa__*
+
+Ravi de vous rencontrer!
+: Приятно познакомиться!
+*__Priatna paznakomitsa!__*
+
+
+## Formule de politesse
+
+S’il vous plait.
+: Пожалуйста.
+*__Pajalsta.__*
+
+Je vous en prie.
+: Не за Что.
+*__Nie za chto.__*
+
+De rien.
+: Пожалуйста.
+*__Pajalsta.__*
+
+
+## Bonne ...
+
+Bonne chance!
+: Удачи!
+*__Oudatchi!__*
+
+Ni duvet ni plume! (Bonne chance!) / Au diable!
+: Ни пуха ни пера! / К чёрту!
+*__Ni pouha ni pira! / K'tchiortou!__*
 
 
 ## S'excuser
@@ -116,45 +166,3 @@ Pardon.
 Désolé.
 : Простите.
 *__Prastitié.__*
-
-Excusez-moi, je débute en russe.
-: Извините, я начинаю на русском.
-*__Izvinitié, ya natchina na rouskom.__*
-
-Excusez-moi, je suis en retard.
-: Извините, я опоздал.
-*__Izvinitié, ya pasdal.__*
-
-
-## Réponse de politesse
-
-Je vous en prie.
-: Не за Что.
-*__Nie za chto.__*
-
-De rien.
-: Пожалуйста.
-*__Pajalsta.__*
-
-Avec plaisir!
-: C удовольствием!
-*__Soudavolstviem!__*
-
-Vous êtes très aimable!
-: вы очень любезны!
-*__Vi otchien lioubiezni!__*
-
-Comme c’est intéressant!
-: Как интересно!
-*__Kak intieresna!__*
-
-
-## Divers
-
-Je suis content de te voir.
-: Рад встрече! Спасибо, взаимно.
-*__Rat' vstritché.__*
-
-Je suis contente de te voir. [f.]
-: Рада встрече! Спасибо, взаимно.
-*__Rada vstritché.__*

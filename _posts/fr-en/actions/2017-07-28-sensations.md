@@ -11,7 +11,7 @@ categories: ["actions"]
 tags: [
 "personne", "sensation"
 ]
-date: 2017-07-28 20:51:00 +0100
+date: 2017-11-03 00:00:00 +0100
 ---
 
 
@@ -39,7 +39,14 @@ tourmenter
 : tantalize
 *Mettre au supplice.*
 
+
 ## Expressions
 
 m'impressionne
 : blow my mind
+
+Ça me fait mal!
+: It bums me out!
+
+à couper le sang
+: white-knuckled

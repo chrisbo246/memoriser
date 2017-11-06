@@ -11,7 +11,7 @@ categories: ["vocabulaire"]
 tags: [
 "commerce", "service de proximité", "service public"
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Général
@@ -58,6 +58,9 @@ boutique de bonbons
 
 usine
 : factory, plant
+
+atelier
+: workshop
 
 
 ## Divers

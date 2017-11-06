@@ -29,21 +29,56 @@ homme
 : мужчина
 *__mouchina__*
 
+hommes
+: мужчины
+*__mouchini__*
+
 femme
-: фьемме
-*__fiemmié__*
+: женщина
+*__jienschina__*
+
+femmes
+: Женщины
+*__jienschini__*
 
 enfant
 : дитя
 *__ditya__*
 
-bébé
-: ребенок
-*__ribienok__*
+enfants
+: Дети
+*__dieti__*
+
+
+## Selon l'âge
+
+enfant, bébé
+: ребёнок
+*__ribionak__*
 
 adolescent
 : юноша
 *__younocha__*
+
+jeune fille
+: девочка
+*__dievotchka__*
+
+jeune femme, demoiselle
+: девушка
+*__diévouchka__*
+
+femme (mariée)
+: женщина
+*__jiènschina__*
+
+femme âgée
+: Бабушка
+*__babouchka__*
+
+femme âgée
+: БаБа
+*__baba__*
 
 
 ## Famille
@@ -51,6 +86,10 @@ adolescent
 frère
 : брат
 *__brat'__*
+
+sœur
+: Сестра
+*__sistra__*
 
 fils
 : сын
@@ -109,7 +148,7 @@ nièce
 *__plyemyannitza__*
 
 
-## Famille [fam.]
+## Proches
 
 papa
 : Папа
@@ -142,7 +181,6 @@ monsieur
 : сэр
 *__sèr__*
 
-
 jeune homme
 : молодой человек
 *__moladoi tchielaviek__*
@@ -155,13 +193,8 @@ mademoiselle
 : мисс
 *__miss__*
 
-jeune fille
-: девушка
-*__diévouchka__*
-
 
 ## Appellations
-
 
 mon frère
 : братан
@@ -201,3 +234,7 @@ alcolo
 pédé
 : голубой
 *__golouboy__*
+
+femme négligée
+: БаБа
+*__baba__*

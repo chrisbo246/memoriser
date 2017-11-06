@@ -319,20 +319,23 @@ taches de rousseur
 grain de beauté
 : mole, beauty spot
 
+la chaire de poule
+: goose bumps
+
 ride(s)
 : wrinkle(s)
 
-cloque, ampoule
-: blister
-
-un bleu
-: a bruise
-
-un suçon
-: a hickey
-
 bouton
 : -
+
+vergeture(s)
+: stretch mark(s)
+
+bourrelet(s)
+: bead(s)
+
+
+## Blessures
 
 bosse
 : lump
@@ -343,8 +346,17 @@ cicatrice
 blessure
 : wound
 
-vergeture(s)
-: stretch mark(s)
+cloque, ampoule
+: blister
 
-bourrelet(s)
-: bead(s)
+un bleu
+: bruise
+
+un suçon
+: hickey
+
+œil au beurre noir
+: black eye
+
+coup du soleil
+: sunburn

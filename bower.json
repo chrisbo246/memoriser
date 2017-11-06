@@ -17,7 +17,7 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "bootstrap": "4.0.0-beta",
-    "lazysizes": "4.0.0-rc3",
+    "lazysizes": "4.0.0-rc4",
     "cookieconsent": "^3.0.4",
     "font-awesome": "fontawesome#^4.7.0",
     "popper.js": "^1.12.5",

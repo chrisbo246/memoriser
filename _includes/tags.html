@@ -2,12 +2,9 @@
 {% assign array = include.array | uniq | compact %}
 {% if array %}
 <ul class="list-inline m-0">
-  <li class="list-inline-item text-muted" hidden>
-    {{ t.tags }}:
-  </li>
   {% for tag in array %}
   <li class="list-inline-item">
-    <span class="{{ include.item-class }}">{{ t.tags[tag] | default: tag }}</span>
+    <span class="{{ include.item-class }}">{{ t.tags[tag] | default: tag | escape }}</span>
     {% comment %}<a href="{{ tag | slugify | prepend: '/tags.html#' | relative_url }}" class="{{ include.item-class }}">{{ t.tags[tag] | default: tag }}</a>{% endcomment %}
   </li>
   {% endfor %}

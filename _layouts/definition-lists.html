@@ -33,13 +33,27 @@ layout: default
               -->
               {% endcomment %}
 
-              <h4 class="text-muted">{{ t.index }}</h4>
-              <ul id="index" class="nav flex-row nav-pills">
-              </ul>
-              <hr>
-              <ul id="related-posts" class="nav flex-column nav-pills">
+              <div class="card mb-3">
+                <div class="card-header">{{ t.index }}</div>
+                <div class="card-body">
+                  <ul id="index" class="nav flex-row nav-pills">
+                  </ul>
+                </div>
+              </div>
+
+              <ul id="related-posts" class="nav flex-column nav-pills mb-3">
               {% include nav-items-related-posts.html %}
               </ul>
+
+              {% include asides.html %}
+
+              <div class="btn-toolbar mt-3" role="toolbar" aria-label="">
+                {% if page.layout == 'post' or page.layout == 'definition-lists' %}
+                <a class="btn btn-outline-secondary mr-2" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
+                  <span class="fa fa-pencil-square-o" aria-hidden="true"></span> {{ t.edit_on_github }}
+                </a>
+                {% endif %}
+              </div>
 
           </div>
       </div>
@@ -48,7 +62,7 @@ layout: default
             <article class="post">
 
                 <div id="memorized-tip" class="alert alert-info alert-dismissible mb-3 clearfix animated bounceInDown" role="alert" hidden>
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="{{ t.close }}">
                         <span aria-hidden="true">&times;</span>
                     </button>
                     <i class="fa fa-info-circle fa-3x mr-3 pull-left" aria-hidden="false" data-toggle="tooltip" title="{{ t.tip }}"></i>{{ t.memorized_tip }}
@@ -58,37 +72,21 @@ layout: default
                     <h1 class="post-title display-4 mb-4">{{ page.title | escape }}</h1>
                 </header>
 
-                <div class="post-content definition-list spinner spinner-fullscreen fa fa-spinner" {% if page.definition-lang %}data-definition-lang="{{ page.definition-lang }}"{% endif %}>
+                <div class="post-content definition-list spinner spinner-fullscreen spinner-bg fa fa-spinner" {% if page.definition-lang %}data-definition-lang="{{ page.definition-lang }}"{% endif %}>
                     {{ content }}
                 </div>
 
-                <footer class="post-footer clearfix">
-                      {% if post.categories %}<small class="pull-left">{% include tags.html tags=post.categories item-class="badge badge-primary" %}</small>{% endif %}
-                      {% if post.category %}<small class="pull-left">{% include tags.html tags=post.category item-class="badge badge-primary" %}</small>{% endif %}
-                      {% if post.tags %}<small class="pull-left">{% include tags.html tags=post.tags item-class="badge badge-secondary" %}</small>{% endif %}
-
-                      {% assign today = site.time | date: '%s' %}
-                      {% assign date = post.date | date: '%s' %}
-                      {% assign secondsSince = today | minus: date %}
-                      {% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
-                      {% assign daysSince = hoursSince | divided_by: 24 %}
-                      {% if daysSince <= page.card.new %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
-                </footer>
-
+                {% comment %}
                 <div class="btn-toolbar mt-3" role="toolbar" aria-label="">
                   {% if page.comments != false and site.disqus.shortname and jekyll.environment == "production" %}
                   <a class="btn btn-outline-secondary mr-2" data-toggle="collapse" href="#disqus_thread" aria-expanded="false" aria-controls="{{ t.comments }}">
                     <i class="fa fa-comments" aria-hidden="true"></i> {{ t.comments }}
                   </a>
                   {% endif %}
-                  {% if page.layout == 'post' or page.layout == 'definition-lists' %}
-                  <a class="btn btn-outline-secondary mr-2" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
-                    <span class="fa fa-pencil-square-o" aria-hidden="true"></span> {{ t.edit_on_github }}
-                  </a>
-                  {% endif %}
                 </div>
+                {% endcomment %}
 
-                {% if site.disqus.shortname %}
+                {% if page.comments != false and site.disqus.shortname %}
                   {% include disqus_comments.html %}
                 {% endif %}
 

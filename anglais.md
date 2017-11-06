@@ -2,7 +2,7 @@
 layout: cards
 lang: fr
 title: "Listes de vocabulaire français-anglais"
-subtitle: "French-english vocabulary"
+#subtitle: "French-english vocabulary"
 description: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."
 excerpt: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."
 keywords: [
@@ -20,6 +20,7 @@ image:
 collection_type: "posts"
 tags: []
 categories: [anglais]
+comments: false
 nav:
   id: "secondary-nav"
   label: "Français-Anglais"
@@ -34,5 +35,8 @@ card:
   image_position: "overlay"
   #image_position: "top"
   text_align: "center"
-  #read_more_type: "button"
+  vertical_align: "center"
+  title_link: true
+  read_more_type: "button"
+  #read_more_container: "footer"
 ---

@@ -93,6 +93,8 @@ collections:
   #  output: true
   definition_lists:
     output: true
+  asides:
+    output: true
 
 defaults:
   -
@@ -168,6 +170,7 @@ defaults:
       permalink: /:categories/:title.html
       categories: ["russe"]
       definition-lang: "ru-ru"
+      asides: ["_asides/2017-10-28-prononciation-russe.md"]
 
 
 

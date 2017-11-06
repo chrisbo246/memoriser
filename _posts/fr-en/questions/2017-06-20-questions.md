@@ -14,10 +14,13 @@ tags: [
 date: 2017-03-28 20:51:00 +0100
 ---
 
-## Questions
+## Demander ce qu'il se passe
 
 Que se passe-t-il?
 : What is going on?
+
+
+## Demander de l'aide
 
 Voulez-vous un coup de main?
 : Want to help out?
@@ -37,8 +40,17 @@ Comment çà va (depuis la dernière fois)?
 Quoi de neuf?
 : What’s new?
 
-Quoi de neuf? [fam.]
+Quoi de neuf?
 : What’s up?
 
-Comment ça va? [fam.]
+Comment ça va?
 : How are you doing?
+
+
+## Plaisanterie
+
+Tu plaisante?
+: Are you kidding?
+
+Es-tu en train de te moquer de moi?
+: Are you making fun of me?

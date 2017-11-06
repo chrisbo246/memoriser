@@ -6,13 +6,9 @@
     min-height: 8rem;
   }
 
-  .card-text {
-    //font-size: 1.25rem;
-  }
   .card-body {
     max-width: 30rem;
   }
-
 
   .card-body {
     word-wrap: break-word;
@@ -26,11 +22,16 @@
 
 
 
-  // Question sign as background
   .card-flip {
 
-    .card:first-of-type {
+    input[type="radio"]:checked ~ &,
+    input[type="checkbox"]:checked ~ & {
+      transform: rotateY(-180deg) scale(1.25);
+    }
 
+    .card.front {
+
+      // Question / Success sign as background
       &:after {
         content: "\f128";
         font-family: FontAwesome;
@@ -58,7 +59,7 @@
 
     }
 
-    .card:last-of-type {
+    .card.back {
 
       .card-text {
 
@@ -97,10 +98,6 @@
       .btn.focus {
         box-shadow: none;
       }
-
-    }
-
-    input[name^="memorized_definition_"][value="1"]:checked & > .card:first-of-type {
 
     }
 

@@ -17,6 +17,7 @@ keywords: ["cours de langue", "liste de vocabulaire", "listes de vocabulaire",
 ]
 image: "assets/images/logos/android-chrome-512x512.png"
 weight: 9999
+comments: false
 nav:
   id:
   label: "Accueil"
@@ -27,6 +28,8 @@ card:
   image_position: "overlay"
   #image_position: "top"
   text_align: "center"
+  vertical_align: "center"
+  title_link: true
   read_more_type: "button"
   #read_more_container: "footer"
 ---

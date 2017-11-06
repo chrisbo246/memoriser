@@ -1,0 +1,33 @@
+
+{% assign post = include.post %}
+
+{% assign categories = '' | split: ' ' | push: post.categories | uniq | compact | sort_natural %}
+{% assign tags = '' | split: ' ' | push: post.tags | uniq | compact | sort_natural %}
+
+{% assign today = site.time | date: '%s' %}
+{% assign date = post.date | date: '%s' %}
+{% assign secondsSince = today | minus: date %}
+{% assign hoursSince = secondsSince | divided_by: 60 | divided_by: 60 %}
+{% assign daysSince = hoursSince | divided_by: 24 %}
+
+
+{% assign array = 'filter-target' | split: ' ' %}
+
+{% if daysSince <= page.card.new %}
+  {% assign array = 'new' | split: ' ' | concat: array %}
+{% endif %}
+
+{% if post.weight > 0 %}
+    {% assign array = 'featured' | split: ' ' | concat: array %}
+{% endif %}
+
+{% if categories and categories.size > page.categories.size %}
+    {% for category in categories %}
+        {% assign class = 'category-' | append: category %}
+        {% assign array = array | push: class %}
+    {% endfor %}
+{% else %}
+    {% assign array = array | push: 'category-other' %}
+{% endif %}
+
+{{ array | join: ' ' }}

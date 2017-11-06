@@ -11,7 +11,7 @@ categories: ["vocabulaire"]
 tags: [
   objet, alimentation, aliment, fruit, légume
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Fruits
@@ -81,7 +81,7 @@ courgettes
 
 concombre
 : огурец
-*__ogouryetz__*
+*__ogouriets__*
 
 poivrons
 : перцы
@@ -95,7 +95,7 @@ haricots
 : бобы
 *__babi__*
 
-carrotte
+carotte
 : морковь
 *__markof__*
 
@@ -132,6 +132,10 @@ champignon
 
 ## Fruits secs
 
+graines de tournesol
+: семечки
+*simitchki*
+
 arachide
 : арахис
 *__arahis__*
@@ -139,3 +143,10 @@ arachide
 amandes
 : миндаль
 *__mindal__*
+
+
+## Facile!
+
+abricot
+: абрикос
+*__abricos__*

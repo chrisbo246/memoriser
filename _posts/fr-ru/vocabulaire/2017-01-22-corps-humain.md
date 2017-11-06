@@ -11,7 +11,7 @@ categories: ["vocabulaire"]
 tags: [
   personne, corps, membre, organe, os
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 ## Les parties du corps
 
@@ -24,7 +24,7 @@ tête
 *__gôlôva__*
 
 visage
-: лицо́
+: лицо
 *__litso__*
 
 membre
@@ -44,7 +44,7 @@ poitrine
 
 ventre
 : живо́т
-*__givote__*
+*__givot'__*
 
 nombril
 : пуп
@@ -58,7 +58,8 @@ hanches
 ## Visage
 
 front
-: -
+: лоб
+*__lob__*
 
 tempe(s)
 : -
@@ -73,18 +74,22 @@ joues
 
 oreille
 : ухо
-*__oukho__*
+*__ouha__*
 
 oreilles
 : уши
-*__ouchy__*
+*__ouchi__*
 
 lobe d’oreille
 : -
 
 menton
 : подбородок
-*__padbarodok__*
+*__padbarodak__*
+
+mentons
+: Подбородки
+*__padbarodki__*
 
 narine(s)
 : ноздря, ноздри
@@ -92,15 +97,15 @@ narine(s)
 
 nez
 : нос
-*__nôss__*
+*__noss__*
 
 œil
 : глаз
 *__glass__*
 
 yeux
-: глаза́
-*__glasa__*
+: глаза
+*__glaza__*
 
 paupière
 : веки
@@ -114,7 +119,7 @@ iris
 
 bouche
 : рот
-*__rôte__*
+*__rôt'__*
 
 lèvre
 : губа
@@ -122,15 +127,15 @@ lèvre
 
 lèvres
 : губы
-*__gouby__*
+*__goubi__*
 
 langue
-: язы́к
-*__yezik__*
+: язык
+*__yazik__*
 
 dent
 : зуб
-*__zoupe__*
+*__zoup'__*
 
 dents
 : зубы
@@ -147,9 +152,13 @@ cheveux, poils
 : волосы
 *__vôlasy__*
 
-sourcil(s)
-: бровь, брови
-brof, brovi
+sourcil
+: бровь
+*__brof__*
+
+sourcils
+: брови
+*__brovi__*
 
 Arcade sourcilière
 : -
@@ -173,7 +182,7 @@ moustache
 
 cou
 : шея
-*__cheya__*
+*__chéya__*
 
 nuque
 : -
@@ -193,12 +202,12 @@ bras
 *__rouka__*
 
 épaule
-: плечо́
+: плечо
 *__plitcho__*
 
 épaules
 : плечи
-*__plietchi__*
+*__pliétchi__*
 
 aisselle
 : -
@@ -230,7 +239,7 @@ doigt, orteil
 
 doigts/orteils
 : пальцы
-*__paltsy__*
+*__paltsi__*
 
 pouce
 : палец
@@ -255,7 +264,12 @@ phalange
 : -
 
 ongle
-: -
+: ноготь
+*__nogat'__*
+
+ongles
+: ногти
+*__nogti__*
 
 
 ## Jambe
@@ -278,7 +292,11 @@ cuisses
 
 genou
 : колено
-*__kalièna__*
+*__kaliena__*
+
+genoux
+: Колени
+*__kalieni__*
 
 mollet
 : -
@@ -287,8 +305,12 @@ mollet
 ## Pied
 
 pied
-: стопа
-*__stapa__*
+: Пятка
+*__piatka__*
+
+pieds
+: Пятки
+*__piatki__*
 
 cheville
 : -
@@ -366,6 +388,10 @@ estomac
 veine(s)
 : -
 
+artère
+: артерия
+*__arteria__*
+
 artère(s)
 : -
 
@@ -379,6 +405,10 @@ peau
 
 
 ## Styles de cheveux
+
+coiffure
+: Причёска
+*__pritchioska__*
 
 noir
 : -
@@ -429,6 +459,14 @@ chauve
 : плешивый
 *__pliéchivy__*
 
+tresse
+: косичка
+*__kassitchka__*
+
+tresses
+: Косички
+*__kassitchki__*
+
 
 ## Parties honteuses
 
@@ -437,12 +475,24 @@ poitrine (seins)
 *__groud'__*
 
 nichons
+: Сиськи
+*__siski__*
+
+nichon
 : болван
 *__bolvan'__*
 
 téton(s), Mamelon(s)
 : шпилька
 *__shpilka__*
+
+cul
+: попа
+*__popa__*
+
+gros cul
+: жопа
+*__jopa__*
 
 fesses
 : ягодицы
@@ -452,10 +502,6 @@ fessier
 : задница
 *__zadnitsa__*
 
-cul
-: жопа
-*__zhópa__*
-
 pénis
 : пенис
 *__pégnis__*
@@ -463,6 +509,10 @@ pénis
 bitte
 : хуй
 *__rouil__*
+
+couilles (oeufs)
+: Яйца
+*__yaytsa__*
 
 vagin
 : влагалище
@@ -481,20 +531,23 @@ taches de rousseur
 grain de beauté
 : -
 
+la chaire de poule
+: -
+
 ride(s)
-: -
-
-cloque
-: -
-
-un bleu
-: -
-
-un suçon
 : -
 
 bouton
 : -
+
+vergeture(s)
+: -
+
+bourrelet(s)
+: -
+
+
+## Blessures
 
 bosse
 : -
@@ -505,11 +558,21 @@ cicatrice
 blessure
 : -
 
-vergeture(s)
+cloque, ampoule
 : -
 
-bourrelet(s)
+bleu
 : -
+
+suçon
+: -
+
+œil au beurre noir
+: -
+
+coup du soleil
+: Солнечный ожог
+*__solnetchni ojog__*
 
 
 ## Sécrétions corporelles

@@ -11,41 +11,32 @@ categories: ["expressions"]
 tags: [
 "sport", "compétition"
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
-
-## Action
-
-faire équipe
-: teamed up
-
-j'ai fait équipe
-: i teamed up
 
 
 ## Expression
 
-gagner haut la main
-: win hands down
-
-en plein dans le mille
-: right in the middle
-
-le jeu en vaut la peine
-: the reward is worth the pain
+En plein dans le mille!
+: Right in the middle!
 
 
 ## Facile
 
-Les doigts dans le nez
-: Hands down / Like taking candy from a baby / A piece of cake / As easy as pie
+Les doigts dans le nez!
+: Hands down!
 
 C'est du gâteau!
 : It's a piece of cake!
 
-né pour ça
-: born ready
-*déjà prêt à la naissance*
+C'est de la tarte!
+: As easy as pie!
+
+Je suis né pour ça
+: I was born ready
+
+C'est comme voler un bonbon à un enfant
+: Like taking candy from a baby
 
 
 ## Entrain
@@ -65,6 +56,7 @@ Continue!
 En avant!
 : Go ahead!
 *Aller de l'avant.*
+
 
 ## Félicitation
 
@@ -97,3 +89,16 @@ Parie tenu!
 
 Pas de triche!
 : No peeking!
+
+
+## Divers
+
+faire équipe
+: teamed up
+
+gagner haut la main
+: win hands down
+
+né pour ça
+: born ready
+*déjà prêt à la naissance*

@@ -11,14 +11,18 @@ categories: ["vocabulaire"]
 tags: [
   objet, mobilité, véhicule
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Véhicules
 
-velo
-: велик, велосипед
-*__viélik, viélocipiède__*
+vélo
+: велик
+*__viélik__*
+
+vélocipède
+: велосипед
+*__vilocipiet'__*
 
 moto
 : мотоцикл
@@ -27,6 +31,10 @@ moto
 voiture
 : машина
 *__mashina__*
+
+automobile
+: автомобиль
+*__avtomobil__*
 
 
 ## Transports en commun et payant
@@ -58,6 +66,10 @@ avion
 : самолет
 *__somaliot__*
 
+aéroplane
+: аэроплан
+*__aeroplane__*
+
 helicopter
 : вертолет
 *__viertaliot__*
@@ -68,3 +80,10 @@ helicopter
 bateau
 : лодка
 *__lodka__*
+
+
+## Divers
+
+wagon
+: вагон
+*__vagon'__*

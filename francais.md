@@ -1,7 +1,7 @@
 ---
 layout: cards
 title: "Listes de vocabulaire français"
-subtitle: "Cours de rattrapage"
+#subtitle: "Cours de rattrapage"
 description: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
 excerpt: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
 keywords: [
@@ -17,6 +17,7 @@ image:
 collection_type: "posts"
 tags: []
 categories: [francais]
+comments: false
 nav:
   id: "secondary-nav"
   label: "Français"
@@ -31,5 +32,8 @@ card:
   image_position: "overlay"
   #image_position: "top"
   text_align: "center"
-  #read_more_type: "button"
+  vertical_align: "center"
+  title_link: true
+  read_more_type: "button"
+  #read_more_container: "footer"
 ---

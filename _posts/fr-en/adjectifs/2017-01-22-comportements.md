@@ -41,11 +41,20 @@ sage
 facile à vivre
 : easygoing
 
+obéissant
+: obedient
+
+délicat
+: dainty
+
+économe
+: thrifty
+
 
 ## Mauvais caractère
 
-méchant
-: mean
+effronté
+: cheeky
 
 vilain
 : naughty
@@ -66,38 +75,11 @@ cochon
 toqué
 : goofy
 
-dur à cuire
-: badass
+minable
+: shabby
 
-grande gueule
-: loudmouth
-
-enfant gâté
-: spoiled (rich) kid
-
-
-## Comportement
-
-avisé
-: savvy
-
-économe
-: thrifty
-
-bizarre
-: weird
-
-délicat
-: dainty
-
-féroce
-: fierce
-
-gai, guilleret
-: perky
-
-grossier
-: uncouth
+méchant
+: mean
 
 impertinent
 : sassy
@@ -105,20 +87,66 @@ impertinent
 impoli
 : rude
 
+grossier
+: uncouth
+
 lâche
 : coward
 
-méfiant
-: leery
-
-maladroit
-: clumsy, awkward
-
-minable
-: shabby
+gâté
+: spoiled
+*Ex: A spoiled rich kid.*
 
 outrecuidant
 : overpriced
+
+grande gueule
+: loudmouth
+
+frimeur
+: show-off
+
+dur à cuire
+: badass
+
+pourri jusqu'à la moelle
+: rotten to the core
+
+incontrôlable
+: out of hand
+
+ne jamais se taire
+: go on and on
+
+désobéissant
+: disobedient
+
+paresseusement
+: idly
+
+
+## Comportement positif
+
+avisé
+: savvy
+
+judicieux
+: wise
+
+a la limite du génie
+: borderline genius
+
+économe
+: thrifty
+
+délicat
+: dainty
+
+gai, guilleret
+: perky
+
+méfiant
+: leery
 
 vif
 : keen
@@ -126,20 +154,20 @@ vif
 gourmand
 : greedy
 
-incontrôlable
-: out of hand
 
-pourri jusqu'à la moelle
-: rotten to the core
+## Comportement négatif
 
-a la limite du génie
-: borderline genius
+maladroit
+: clumsy, awkward
 
-somnambule
-: sleepwalker
+bizarre
+: weird
 
-ne jamais se taire
-: go on and on
+insensé
+: howful
+
+féroce
+: fierce
 
 
 ## Etat d'esprit
@@ -155,9 +183,6 @@ dubitatif
 
 malade de jalousie
 : sick with envy
-
-
-## Expressions
 
 avoir le mal du pays
 : feel homesick
@@ -176,3 +201,9 @@ bien s'entendre avec
 
 humanité
 : mankind
+
+rapide
+: swift
+
+agile
+: nimble

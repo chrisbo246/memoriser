@@ -37,15 +37,6 @@ Zut!
 
 ## Exclamation
 
-Attends!
-: Hold on!
-
-Attends une minute!
-: Hold on a minute!
-
-Fait attention!
-: Watch out!
-
 C'est à toi!
 : It's yours!
 
@@ -56,15 +47,6 @@ A refaire!
 :	Once!
 
 
-## Constatation
-
-Ça craint!
-: That sucks!
-
-j'ai foiré!
-: I messed up!
-
-
 ## Etonnement
 
 Allez! Tu déconne?
@@ -72,6 +54,12 @@ Allez! Tu déconne?
 
 Mince!
 : Gosh!
+
+Malade!
+: Sick!
+
+Blague malade!
+: Sick joke!
 
 N'importe quoi!
 : Whatever!
@@ -99,21 +87,6 @@ Que diable?
 
 Jamais d'la vie! En aucune façon!
 : No way!
-
-Ça me rend fou!
-: It drive me nuts!
-
-
-## Ordre
-
-Lève toi!
-: Get up!
-
-Sors!
-: Get out!
-
-Va-t-en!
-: Get away!
 
 
 ## Apaisement

@@ -14,10 +14,6 @@ date: 2017-07-17 17:18:00 +010
 
 ## А
 
-abat-jour
-: абажур
-*__abajour__*
-
 abonnement
 : абонемент
 *__aboniement'__*
@@ -33,14 +29,6 @@ abordage
 aborigène
 : абориген
 *__aborigen'__*
-
-abricot
-: абрикос
-*__abricos__*
-
-absinthe
-: абсент
-*__absent'__*
 
 absurde
 : абсурд
@@ -70,10 +58,6 @@ autobiographie
 : автобиография
 *__avtobiografia__*
 
-autobus
-: автобус
-*__avtobous__*
-
 autographe
 : автограф
 *__avtograf__*
@@ -82,17 +66,9 @@ automate
 : автомат
 *__avtomat'__*
 
-automobile
-: автомобиль
-*__avtomobil__*
-
 autonome
 : автономный
 *__avtonomnè__*
-
-auteur
-: автор
-*__avtor__*
 
 autorité
 : авторитет
@@ -114,29 +90,14 @@ agression
 : агрессия
 *__agressia__*
 
-agronome
-: агроном
-*__agronom'__*
-
-avocat
-: адвокат
-*__avocat__*
-
 administration
 : администрация
 *__administratssia__*
 
-amiral
-: адмирал
-*__admiral__*
 
 adresse
 : адрес
 *__adress'__*
-
-adieu
-: адью
-*__adiou__*
 
 adultère
 : адюльтер
@@ -170,10 +131,6 @@ accompagnement
 : аккомпанемент
 *__accompaniement'__*
 
-acrobate
-: акробат
-*__acrobat'__*
-
 accessoire
 : аксессуар
 *__aksiessouar__*
@@ -181,14 +138,6 @@ accessoire
 acte
 : акт
 *__act'__*
-
-acteur
-: актёр
-*__actor__*
-
-actrice
-: актриса
-*__aktrissa__*
 
 actif
 : активный
@@ -202,33 +151,14 @@ algèbre
 : алгебра
 *__alguebra__*
 
-aliments
-: алименты
-*__alimentè__*
-
 allemande
 : аллеманда
 *__alliemanda__*
 
-allée
-: аллея
-*__alleia__*
-
-allô
-: алло
-*__allo__*
 
 allure
 : аллюр
 *__aliour__*
-
-album
-: альбом
-*__albom__*
-
-almanach
-: альманах
-*__almanah__*
 
 alternative
 : альтернатива
@@ -241,10 +171,6 @@ alliance
 à la
 : а-ля
 *__alia__*
-
-emploi
-: амплуа
-*__amplya__*
 
 amulette
 : амулет
@@ -290,13 +216,6 @@ entracte
 : антракт
 *__antrakt'__*
 
-entrecôte
-: антрекот
-*__antrekot'__*
-
-entrepreneur
-: антрепренёр
-*__antreprienor__*
 
 entresol
 : антресоль
@@ -310,9 +229,10 @@ en face
 : анфас
 *__anfas'__*
 
+
 appartement
 : апартаменты
-*__apartamentè__*
+*__apartamientè__*
 
 appel
 : апелляция
@@ -322,9 +242,7 @@ appel
 : апельсин
 *__-__*
 
-apéritif
-: аперитив
-*__apieritif__*
+
 
 applaudir
 : аплодировать
@@ -337,10 +255,6 @@ aplomb
 apostille
 : апостиль
 *__apostil__*
-
-appareil
-: аппарат
-*__apparat'__*
 
 applique
 : апплике
@@ -370,17 +284,9 @@ armée
 : армия
 *__armia__*
 
-artère
-: артерия
-*__arteria__*
-
 artillerie
 : артиллерия
 *__artilieria__*
-
-artiste
-: артист
-*__artist'__*
 
 archaïque
 : архаический
@@ -430,10 +336,6 @@ association
 : ассоциация
 *__assotsiatsion'__*
 
-aster
-: астра
-*__astra__ La pplante.*
-
 astronomie
 : астрономия
 *__astronomia__*
@@ -446,17 +348,10 @@ attaque
 : атака
 *__ataka__*
 
-atelier
-: ателье
-*__atelie__*
-
 atlas
 : атлас
 *__atlas__*
 
-athlète
-: атлет
-*__atlet'__*
 
 attaché
 : атташе
@@ -470,32 +365,24 @@ affaire
 : афера
 *__afèra__*
 
-affiche
-: афиша
-*__aficha__*
 
-aérodrome
-: аэродром
-*__aerodrome__*
 
-aéroplane
-: аэроплан
-*__aeroplane__*
+
 
 
 ## Б
 
 bagatelle
 : багатель
-*__bagatelle__*
+*__bagatel__*
 
 baguette
 : багет
-*__baguette__*
+*__baguet'__*
 
 base
 : база
-*__base__*
+*__baza__*
 
 bazar
 : базар
@@ -503,7 +390,7 @@ bazar
 
 baïonnette
 : байонет
-*__baïonnette__*
+*__bayonnet'__*
 
 bal
 : бал
@@ -519,27 +406,19 @@ balance
 
 ballet
 : балет
-*__ballet__*
-
-balcon
-: балкон
-*__balcon__*
+*__baliet'__*
 
 ballade
 : баллада
-*__ballade__*
+*__ballada__*
 
 ballon
 : баллон
-*__ballon__*
+*__ballon'__*
 
 bal masqué, mascarade
 : бал-маскарад
-*__balmascarat'__*
-
-balustrade
-: балюстрада
-*__balustrade__*
+*__bal-mascarat'__*
 
 banal
 : банальный
@@ -557,13 +436,7 @@ banderole
 : бандероль
 *__banderole__*
 
-banquet
-: банкет
-*__banquet__*
 
-baraque
-: барак
-*__baraque__*
 
 bas-relief
 : барельеф
@@ -573,21 +446,15 @@ barge
 : баржа
 *__barge__*
 
-baryton
-: баритон
-*__baryton__*
+
 
 barricade
 : баррикада
 *__barricade__*
 
-barrière
-: барьер
-*__barrière__*
 
-bassin
-: бассейн
-*__bassin__*
+
+
 
 bataille
 : баталия
@@ -617,9 +484,6 @@ baiser
 : безе
 *__baiser__*
 
-bécasse
-: бекас
-*__bécasse__*
 
 belles lettres
 : беллетристика
@@ -645,9 +509,6 @@ bergamote
 : бергамот
 *__bergamote__*
 
-béret
-: берет
-*__béret__*
 
 -
 : беспардонный
@@ -665,17 +526,10 @@ bigoudi
 : бигуди
 *__bigoudi__*
 
-bidet
-: биде
-*__bidet__*
 
-bijouterie
-: бижутерия
-*__bijouterie__*
 
-bison
-: бизон
-*__bison__*
+
+
 
 billet
 : билет
@@ -709,17 +563,11 @@ bis
 : бис
 *__bis__*
 
-biscuit
-: бисквит
-*__biscuit__*
-
 bissectrice
 : биссектриса
 *__bissectrice__*
 
-bistro
-: бистро
-*__bistro__*
+
 
 bitume
 : битум
@@ -733,21 +581,10 @@ bloc
 : блок
 *__bloc__*
 
-bloc-notes
-: блокнот
-*__bloc-notes__*
 
 blondin
 : блондин
 *__blondin__*
-
-blouse
-: блуза
-*__blouse__*
-
-blouson
-: блузон
-*__blouson__*
 
 bohème
 : богема
@@ -777,21 +614,10 @@ bordure
 : бордюр
 *__bordure__*
 
-bottillon
-: ботильоны
-*__botilionè__*
-
-bottine
-: ботинки
-*__bottine__*
-
 bottes fortes
 : ботфорты
 *__botfortè__*
 
-des bottes
-: боты
-*__botè__*
 
 bras
 : бра
@@ -829,10 +655,6 @@ broche
 : брошь
 *__broche__*
 
-brochure
-: брошюра
-*__brochure__*
-
 boudoir
 : будуар
 *__boudoir__*
@@ -849,9 +671,6 @@ boucle
 : букли
 *__boucle__*
 
-boulevard
-: бульвар
-*__boulevard__*
 
 boule de neige
 : бульдонеж
@@ -881,9 +700,6 @@ bourrée
 : бурре
 *__bourrée__*
 
-boutique
-: бутик
-*__boutique__*
 
 bouton
 : бутон
@@ -909,9 +725,7 @@ va banque
 : ва-банк
 *__va banque__*
 
-wagon
-: вагон
-*__wagon__*
+
 
 vase
 : ваза
@@ -921,9 +735,7 @@ vaseline
 : вазелин
 *__vaseline__*
 
-vacance
-: вакансия
-*__vacance__*
+
 
 vaccine
 : вакцина
@@ -945,10 +757,6 @@ vandalisme
 : вандализм
 *__vandalisme__*
 
-vanille
-: ваниль
-*__vanille__*
-
 variante
 : вариант
 *__variante__*
@@ -969,10 +777,6 @@ vecteur
 : вектор
 *__vecteur__*
 
-vélocipède
-: велосипед
-*__velocipiet'__*
-
 velours
 : велюр
 *__velours__*
@@ -989,9 +793,6 @@ vestibule
 : вестибюль
 *__vestibule__*
 
-vétérinaire
-: ветеринар
-*__vétérinaire__*
 
 viaduc
 : виадук
@@ -1009,9 +810,6 @@ vicomte
 : виконт
 *__vicomte__*
 
-vinaigrette
-: винегрет
-*__vinaigrette__*
 
 vintage
 : винтаж
@@ -1025,9 +823,7 @@ virage
 : вираж
 *__virage__*
 
-virtuose
-: виртуоз
-*__virtuose__*
+
 
 vitrage
 : витраж
@@ -5785,15 +5581,15 @@ estampe
 
 étiquette
 : этикетка
-*__étiquette__*
+*__ètiketka__*
 
 échafaud
 : эшафот
-*__échafaud__*
+*__èchafot'__*
 
 échelon
 : эшелон
-*__échelon__*
+*__èchelon'__*
 
 
 ## Ю

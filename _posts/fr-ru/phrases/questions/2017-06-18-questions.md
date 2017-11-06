@@ -7,11 +7,11 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-categories: ["phrases"]
+categories: ["questions"]
 tags: [
 
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Demander un renseignement
@@ -35,19 +35,19 @@ Est ce que vous comprenez l'anglais?
 
 ## Politesse
 
-Puis-je? Je peut?
+Puis-je?
 : Можно?
 *__Mojna?__*
 
 Êtes-vous satisfait?
 : Довольны ли Вы?
-*__Davolny li vy?__*
+*__Davolny li vi?__*
 
 Qui est le dernier (de la queue)?
 : Kто Последний?
 *__Kto pasliedni?__*
 
-Faut-t'il retirer ses chaussures?
+Faut-il retirer ses chaussures?
 : Снимать обувь?
 *__Snimat obouv?__*
 
@@ -62,9 +62,6 @@ Qui est là?
 : Кто здесь?
 *__kto zdies__*
 
-
-## Se renseigner sur ce qu'il s'est passé
-
 Qu'est ce qu'il s'est passé?
 : что случилось?
 *__chto soutchilas__*
@@ -72,6 +69,25 @@ Qu'est ce qu'il s'est passé?
 Qui a dit ça?
 : Кто это сказал?
 *__kto eta skazal?__*
+
+Quel, Lequel ...?
+: который …?
+*__katori …?__*
+
+Quelle, Laquelle ...?
+: которая …?
+*__katoraya …?__*
+
+
+## Météo
+
+Quel temps fait-il aujourd'hui?
+: какая погода сегодня?
+*__Kakaya pagoda sievodnia?__*
+
+Quand le printemps reviendra-t'il?
+: Когда придет  весна?
+*__kogda pridyot vesna?__*
 
 
 ## Pourquoi
@@ -85,19 +101,32 @@ Pourquoi as-tu/avez-vous fais ça?
 *__Patchimou ti/vi éta sdiélal?__*
 
 
-## Lequel
-
-Quel, Lequel ...?
-: который …?
-*__katori …?__*
-
-Quelle, Laquelle ...?
-: которая …?
-*__katoraya …?__*
-
-
 ## Retourner la question
+
+Et toi?
+: А ты?
+*__A ti?__*
 
 Et vous?
 : А вы?
-*__A vy?__*
+*__A vi?__*
+
+Et toi?
+: А твои?
+*__A tvaï?__*
+
+Et comment vont les affaires?
+: А как твои дела?
+*__A kak tvaï diéla?__*
+
+Très bien, merci, et vous ?
+: -
+*__Haracho, spassiba, i vi ?__*
+
+
+## Divers
+
+
+Qu'as-tu … ?
+: что ты … ?
+*__Chto ti ...__*

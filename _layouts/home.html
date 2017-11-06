@@ -21,20 +21,22 @@ layout: default
             <div class="col">
                 <div class="card-columns">
                     {% for post in posts %}
-                    {% include card.html post=post img-class="card-img-faded" %}
 
                     {% comment %}
-                    <label for="flipcard_{{ post.id }}" class="card p-0">
-                    <input type="radio" id="flipcard_{{ post.id }}" name="flipcard" class="d-none" />
-                    <figure class="card-flip">
                     {% include card.html post=post img-class="card-img-faded" %}
-                    {% include card.html post=post img-class="card-img-faded" %}
-                    </figure>
-                    </label>
                     {% endcomment %}
+
+                    <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="w-100 m-0 {% include filter-tags.html post=post %}">
+                      <input type="radio" id="flipcard_toggler_{{ post.url | slugify: 'default' }}" name="flipcard_toggler" value="{{ post.url }}" class="d-none" data-storage="false" />
+                      <figure class="card card-flip">
+                        {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded" title-class="h2 font-weight-bold" %}
+                        {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
+                      </figure>
+                    </label>
 
                     {% endfor %}
                 </div>
+                <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
             </div>
         </section>
         {% endif %}

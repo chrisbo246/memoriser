@@ -11,12 +11,16 @@ categories: ["phrases"]
 tags: [
   expression, exclamation
 ]
-date: 2017-01-01 20:20:20 +0100
+date: 2017-01-01 00:00:00 +0100
 ---
 
 ## Exclamations positives
 
-Bien! OK!
+Sympa!
+: Приятно!
+*__Priatna!__ Agréablement.*
+
+C'est bien!
 : Хорошо!
 *__Horosho!__*
 
@@ -24,36 +28,13 @@ Cool!
 : Круто!
 *__Krouta!__*
 
-Exellent! Parfait!
+Exellent!
 : Отлично!
 *__Atlitchna!__*
 
 C'est le pied!
 : Какой кайф!
 *__Kakoy kayf!__*
-
-
-## Exclamations négatives
-
-Putain!
-: Блядь!
-*__Bliat'!__*
-
-Mince!
-: Блин!
-*__Blin'!__*
-
-Merde!
-: Дерьмо!
-*__Diermo!__*
-
-Connerie!
-: ПиЗдет!
-*__Pisdièt!__*
-
-Quel bordel!
-: Бардак!
-*__Bardák!__ Quel désordre!*
 
 
 ## Surprise
@@ -69,20 +50,20 @@ Boouh!
 
 ## Entrain
 
-Allons-y!
-: Пошли!
-*__Pachli!__*
-
-Allons-y!
-: Поехали!
-*__Paièhli!__ En voiture.*
+Vas-y!
+: Давай!
+*__Davay!__*
 
 
 ## Confirmation
 
-Ça roule!
-: Катит!
-*__Katit'!__*
+Allons-y!
+: Пошли!
+*__Pachli!__*
+
+Allons-y (en voiture)!
+: Поехали!
+*__Paièhli!__*
 
 
 ## Apaisement
@@ -90,6 +71,10 @@ Allons-y!
 Je plaisante!
 : Просто шучу!
 *__Prosta choutchou!__*
+
+Pas de bol!
+: Ни хуя!
+*__Ni houya!__ Litéralement pas de bite.*
 
 
 ## Attirer l'attention
@@ -103,20 +88,8 @@ A l'aide!
 *__Pomaguitiè!__*
 
 
-## Insultes
+## Divers
 
-con
-: дурак
-*__dourak__ Idiot.*
-
-conne
-: дура
-*__doura__*
-
-Va te faire foutre!
-: Иди на хуй!
-*__Idi na houil!__*
-
-Tu vas crever!
-: ты ве пизда
-*__Ty vié pisda!__*
+allô
+: алло
+*__allo__*
