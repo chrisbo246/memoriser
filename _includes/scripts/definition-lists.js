@@ -95,16 +95,17 @@
         var cardStyle = cardStyles[1];
 
         html = html
+        + '<input type="radio" id="flipcard_toggler_' + id + '" name="visible_definition" value="' + id + '" class="d-none" />'
+        + '<div class="card card-flip m-1">'
         + '<label for="flipcard_toggler_' + id + '" class="m-0" '
         + (sectionId && i === 0 ? 'id="' + sectionId + '" data-label="' + sectionLabel + '"' : '') + ' '
         + (sectionId ? ' data-section="' + sectionId + '"' : '') + '>'
-        + '<input type="radio" id="flipcard_toggler_' + id + '" name="visible_definition" value="' + id + '" class="d-none" />'
-        + '<figure class="card card-flip m-1">'
         + '<div class="card front card-position-absolute bg-dark text-muted">'
         + '<div class="card-body d-flex justify-content-center align-items-center">'
         + '<h4 class="card-title h6 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<small class="text-muted">($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>') + '</h4>'
         + '</div>'
         + '</div>'
+        + '</label>'
         + '<div class="card back bg-white text-dark">'
         + '<div class="card-body pb-0">'
         + '<p class="card-text">'
@@ -119,8 +120,7 @@
         + '</div>'
         + '</div>'
         + '</div>'
-        + '</figure>'
-        + '</label>';
+        + '</div>';
 
       });
 
@@ -220,20 +220,6 @@
       var checked = $input.is('[value="1"]:checked');
       $card.toggleClass('bg-dark text-muted', !checked);
       $card.toggleClass('bg-success text-white', checked);
-    });
-
-
-
-    /**
-    * Force the flipcard to close when user click a checked radio
-    */
-
-    $container.on('click', '.flipcard-toggler', function(e) {
-      var $input = $(this).parents('.card-flip').prev('input');
-      if ($input) {
-        var checked = $input.prop('checked');
-        $input.prop('checked', !checked).trigger('change');
-      }
     });
 
 

@@ -12,6 +12,31 @@
 
 
   /**
+  * Force the flipcard to close when user click a checked radio
+  */
+
+  $('.flipcard-toggler').on('click', function() {
+    $(this).tooltip('hide');
+    var $input = $(this).parents('.card-flip').prev('input');
+    if ($input) {
+      var checked = $input.prop('checked');
+      $input.prop('checked', !checked).trigger('change');
+    }
+  });
+
+
+
+  /**
+  * Hide tooltip while card flip
+  */
+
+  $('.card-flip').prev('input').on('change', function () {
+    $(this).next('.card-flip').find('[title]').tooltip('hide');
+  });
+
+
+
+  /**
   * Add/remove .active class to collapse togglers
   */
 
