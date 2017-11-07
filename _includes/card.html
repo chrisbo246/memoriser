@@ -137,14 +137,14 @@
   <div class="card-footer d-flex justify-content-between align-items-center">
 
     {% if include.face == 'back' %}
-    <button type="button" class="btn btn-secondary mb-0 flipcard-toggler" aria-label="{{ t.close }}">
-      <span class="fa fa-times fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ t.close }}"></span>
+    <button type="button" class="btn btn-secondary mb-0 flipcard-toggler" title="{{ t.close }}" aria-label="{{ t.close }}">
+      <span class="fa fa-times fa-fw" aria-hidden="true"></span>
     </button>
     {% endif %}
 
     {% if include.face == 'front' %}
-    <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="btn btn-secondary mb-0 flipcard-toggler" aria-label="{{ t.info }}">
-      <span class="fa fa-question fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ t.info }}"></span>
+    <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="btn btn-secondary mb-0 flipcard-toggler" title="{{ t.details }}" aria-label="{{ t.details }}">
+      <span class="fa fa-question fa-fw" aria-hidden="true"></span>
     </label>
     {% endif %}
 
@@ -152,8 +152,8 @@
     {% if page.card.new and daysSince <= page.card.new and include.face != 'back' %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
 
     {% if read-more-classes and page.card.read_more_container == 'footer' %}
-    <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }} mb-0" aria-label="{{ page.card.read_more | default: t.read_more }}">
-      <span class="fa fa-chevron-right fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ page.card.read_more | default: t.read_more }}"></span>
+    <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }} mb-0" title="{{ page.card.read_more | default: t.read_more }}" aria-label="{{ page.card.read_more | default: t.read_more }}">
+      <span class="fa fa-chevron-right fa-fw" aria-hidden="true"></span>
     </a>
     {% endif %}
 

@@ -32,7 +32,7 @@
   if (window.localStorage) {
 
     var namespace = encodeURIComponent(window.location.pathname);
-      
+
 
     /**
     * Keep alerts closed
