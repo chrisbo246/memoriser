@@ -26,7 +26,6 @@
     var id = Base64.encode(string.trim() || 'undefined') + ((i > 0) ? '_' + i : '');
 
     if ($.inArray(id, validIds) !== -1) {
-      //console.log('Unvalid id', id, string);
       return validId(string, i++ || 1);
     } else {
       validIds.push(id);
@@ -103,24 +102,19 @@
         + '<figure class="card card-flip m-1">'
         + '<div class="card front card-position-absolute bg-dark text-muted">'
         + '<div class="card-body d-flex justify-content-center align-items-center">'
-        //+ '<h4 class="card-title h6 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '').replace(/\[([^\[\]]*)\]/g, '') + '</h4>'
         + '<h4 class="card-title h6 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<small class="text-muted">($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>') + '</h4>'
         + '</div>'
         + '</div>'
         + '<div class="card back bg-white text-dark">'
         + '<div class="card-body pb-0">'
-        //+ '<h4 class="card-title h5 mb-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<span class="text-muted">($1)</span>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">($1)</sup>') + '</h4>'
-        //+ (($.speech && dtLang && ddLang) ? '<a class="btn btn-link btn-sm pull-right btn-tts" href="#" role="button"><i class="fa fa-volume-up"></i></a>' : '')
         + '<p class="card-text">'
         + $dd.html()
         + '</p>'
         + '</div>'
         + '<div class="card-footer bg-transparent border-0 p-0">'
-        //+ '<div class="btn-group" data-toggle="buttons"><label class="btn btn-secondary"><input type="checkbox" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label></div>'
         + '<div class="btn-group -btn-group-lg d-flex" data-toggle="buttons">'
         + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" autocomplete="off"><i class="fa fa-times fa-lg" aria-hidden="false"></i></label>'
         + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
-        //+ (($.speech && dtLang && ddLang) ? '<label class="btn btn-light text-muted w-100 btn-tts"><input type="checkbox" autocomplete="off"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></label>' : '')
         + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
         + '</div>'
         + '</div>'
@@ -146,20 +140,20 @@
     $titles.remove();
     //$dls.prev('h2, h3, h4')
     //$titles.each(function () {
-      //var $title = $(this);
-      //var id = $title.attr('id') || encodeURIComponent($title.text());
-      ////$title.replaceWith('');
-      //$title.replaceWith(
-      //'<div class="card m-2 d-none card-section">'
-      //+ '<div class="card-body d-flex bg-faded text-muted text-center">'
-      //+ '<h2 class="card-title h6 m-auto" ' + ((id) ? ' id="' + id + '"' : '') + '>'
-      ////+ '<h2 class="card-title h6 m-auto">'
-      //+ $title.html()
-      ////+ '<i class="fa fa-chevron-right fa-2x d-block mt-1" aria-hidden="true"></i>'
-      //+ '</h2>'
-      //+ '</div>'
-      //+ '</div>'
-      //);
+    //var $title = $(this);
+    //var id = $title.attr('id') || encodeURIComponent($title.text());
+    ////$title.replaceWith('');
+    //$title.replaceWith(
+    //'<div class="card m-2 d-none card-section">'
+    //+ '<div class="card-body d-flex bg-faded text-muted text-center">'
+    //+ '<h2 class="card-title h6 m-auto" ' + ((id) ? ' id="' + id + '"' : '') + '>'
+    ////+ '<h2 class="card-title h6 m-auto">'
+    //+ $title.html()
+    ////+ '<i class="fa fa-chevron-right fa-2x d-block mt-1" aria-hidden="true"></i>'
+    //+ '</h2>'
+    //+ '</div>'
+    //+ '</div>'
+    //);
     //});
 
 
@@ -191,8 +185,6 @@
           toggle: false
         });
         $nav.closest('.card').prop('hidden', 'hidden');
-        //$nav.hide();
-        //$nav.prev('h4').hide();
       }
     }
 
@@ -212,7 +204,6 @@
         ttsOptions.hl = ddLang;
         ttsOptions.src = $el.text().replace(/s*\([^()]*\)/, '');
         $.speech(ttsOptions);
-        //$button.delay(1000).removeClass('.active');
       });
     }
 
@@ -244,38 +235,6 @@
         $input.prop('checked', !checked).trigger('change');
       }
     });
-
-
-    /**
-    * Prevent scaled card overflow
-    */
-
-    /*$container.find(':radio').filter('[name="visible-definition"]').on('click', function () {
-      var $input = $(this);
-      var $card = $input.next('.card-flip');//.find('.card').last();
-      if ($input.prop('checked')) {
-        console.log('Card position', $card.offset().top, $card.offset().left, $card.width(), $card.height());
-        console.log('Parent position', $container.offset().top, $container.offset().left, $container.width(), $container.height());
-        if ($card.offset().top < $container.offset().top) {
-          //$card.css({position:'absolute', top: $container.offset().top});
-          $card.css({margin-top: ($container.offset().top - $card.offset().top)});
-        }
-        if ($card.offset().left < $container.offset().left) {
-          //$card.css({position:'absolute', left: $container.offset().left});
-          $card.css({margin-left: ($container.offset().left - $card.offset().left)});
-        }
-        if ($card.offset().top + $card.height() > $container.offset().top + $container.height()) {
-          //$card.css({position:'absolute', top: $container.offset().top + $container.height() - $card.height()});
-          $card.css({margin-bottom: (($card.offset().top + $card.height()) - ($container.offset().top + $container.height()))});
-        }
-        if ($card.offset().left + $card.width() > $container.offset().left + $container.width()) {
-          //$card.css({position:'absolute', left: $container.offset().left + $container.width() - $card.width()});
-          $card.css({margin-right: (($card.offset().left + $card.width()) - ($container.offset().left + $container.width()))});
-        }
-      } else {
-        $card.css({margin: 0});
-      }
-    });*/
 
 
 

@@ -5,27 +5,26 @@ layout: default
 {% assign t = site.data.locales[lang] %}
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <article class="post">
+  <div class="row">
+    <div class="col">
+      <article class="post">
 
-                <header class="post-header" hidden>
-                    <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
-                </header>
+        <header class="post-header" hidden>
+          <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
+        </header>
 
-                <div class="post-content">
-                    {{ content }}
-                </div>
-
-                <footer class="post-footer">
-                  {% include tags.html %}
-                </div>
-
-            </article>
+        <div class="post-content">
+          {{ content }}
         </div>
-    </div>
-</div>
 
+        <footer class="post-footer">
+          {% include tags.html %}
+        </div>
+
+      </article>
+    </div>
+  </div>
+</div>
 
 <script type="application/ld+json">
 {% include structured-data/blog-posting.html %}

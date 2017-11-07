@@ -14,47 +14,26 @@
 
 {% if include.face != 'back' %}
 
-    {% comment %}
-    {% assign card-classes = card-classes | push: 'filter-target' %}
+{% if post.weight > 0 %}
+{% assign card-classes = 'bg-warning text-white' | split: ' ' | concat: card-classes %}
+{% endif %}
 
-    {% if page.card.new and daysSince <= page.card.new %}
-      {% assign card-classes = card-classes | push: 'new' %}
-    {% endif %}
+{% if page.card.image != false %}
+{% assign src = post.image.default.path | default: post.image.default | default: post.image.path | default: post.image %}
+{% endif %}
 
-    {% if categories and categories.size > page.categories.size %}
-        {% for category in categories %}
-            {% assign class = 'category-' | append: category %}
-            {% assign card-classes = card-classes | push: class %}
-        {% endfor %}
-    {% else %}
-        {% assign card-classes = card-classes | push: 'category-other' %}
-    {% endif %}
-
-    {% if post.weight > 0 %}
-        {% assign card-classes = 'featured bg-warning text-white' | split: ' ' | concat: card-classes %}
-    {% endif %}
-    {% endcomment %}
-
-    {% if post.weight > 0 %}
-        {% assign card-classes = 'bg-warning text-white' | split: ' ' | concat: card-classes %}
-    {% endif %}
-
-    {% if page.card.image != false %}
-        {% assign src = post.image.default.path | default: post.image.default | default: post.image.path | default: post.image %}
-    {% endif %}
-
-    {% if src and include.face != 'back' %}
-        {% assign card-img-classes = 'img-fluid lazyload' | split: ' ' %}
-        {% if page.card.image_position == 'top' or page.card.image_position == 'bottom' %}
-            {% capture class %}card-img-{{ page.card.image_position }}{% endcapture %}
-            {% assign card-img-classes = card-img-classes | push: class %}
-        {% else %}
-            {% assign card-img-classes = card-img-classes | push: 'card-img' %}
-        {% endif %}
-        {% if include.img-class %}
-        {% assign card-img-classes = include.img-class | split: ' ' | concat: card-img-classes %}
-        {% endif %}
-    {% endif %}
+{% if src and include.face != 'back' %}
+{% assign card-img-classes = 'img-fluid lazyload' | split: ' ' %}
+{% if page.card.image_position == 'top' or page.card.image_position == 'bottom' %}
+{% capture class %}card-img-{{ page.card.image_position }}{% endcapture %}
+{% assign card-img-classes = card-img-classes | push: class %}
+{% else %}
+{% assign card-img-classes = card-img-classes | push: 'card-img' %}
+{% endif %}
+{% if include.img-class %}
+{% assign card-img-classes = include.img-class | split: ' ' | concat: card-img-classes %}
+{% endif %}
+{% endif %}
 
 {% endif %}
 
@@ -73,24 +52,24 @@
 {% assign card-body-classes = include.body-class | split: ' ' | concat: card-body-classes %}
 {% endif %}
 {% if src and include.face != 'back' %}
-    {% if page.card.image_position == 'overlay' %}
-        {% assign card-body-classes = card-body-classes | push: 'card-img-overlay' %}
-    {% else %}
-        {% assign card-body-classes = card-body-classes | push: 'card-body' %}
-    {% endif %}
+{% if page.card.image_position == 'overlay' %}
+{% assign card-body-classes = card-body-classes | push: 'card-img-overlay' %}
 {% else %}
-    {% assign card-body-classes = card-body-classes | push: 'card-body' %}
+{% assign card-body-classes = card-body-classes | push: 'card-body' %}
+{% endif %}
+{% else %}
+{% assign card-body-classes = card-body-classes | push: 'card-body' %}
 {% endif %}
 
 {% if include.face == 'front' %}
-   {% assign card-body-classes = 'justify-content-center align-items-center' | split: ' ' | concat: card-body-classes %}
+{% assign card-body-classes = 'justify-content-center align-items-center' | split: ' ' | concat: card-body-classes %}
 {% else %}
-  {% if page.card.text_align %}
-      {% assign card-body-classes = 'justify-content-' | append: page.card.text_align | split: ' ' | concat: card-body-classes %}
-  {% endif %}
-  {% if page.card.vertical_align %}
-      {% assign card-body-classes = 'h-100 align-items-' | append: page.card.vertical_align | split: ' ' | concat: card-body-classes %}
-  {% endif %}
+{% if page.card.text_align %}
+{% assign card-body-classes = 'justify-content-' | append: page.card.text_align | split: ' ' | concat: card-body-classes %}
+{% endif %}
+{% if page.card.vertical_align %}
+{% assign card-body-classes = 'h-100 align-items-' | append: page.card.vertical_align | split: ' ' | concat: card-body-classes %}
+{% endif %}
 {% endif %}
 
 {% assign card-title-classes = 'card-title' | split: ' ' %}
@@ -101,111 +80,85 @@
 {% assign title = post.title | split: ':' | last | strip %}
 {% assign subtitle = post.subtitle %}
 {% if title == subtitle %}
-    {% assign subtitle = nil %}
+{% assign subtitle = nil %}
 {% endif %}
 
 {% if page.card.read_more_type == 'button' %}
-    {% assign read-more-classes = 'btn btn-primary' | split: ' ' %}
+{% assign read-more-classes = 'btn btn-primary' | split: ' ' %}
 {% elsif page.card.read_more_type == 'link' %}
-    {% assign read-more-classes = 'card-link' | split: ' ' %}
+{% assign read-more-classes = 'card-link' | split: ' ' %}
 {% endif %}
 
 
 
 <div class="{{ card-classes | uniq | compact | join: ' ' }}" >
 
-    {% comment %}
+  {% if src and include.face != 'back' %}
+  <div class="ratio-container unknown-ratio-container">
+    <img class="{{ card-img-classes | uniq | compact | join: ' ' }}" data-src="{{ src }}" alt="{{ post.title }}" width="{{ post.image.default.width | default: post.image.width }}" height="{{ post.image.default.height | default: post.image.height }}" />
+  </div>
+  {% endif %}
+
+  <div class="{{ card-body-classes | uniq | compact | join: ' ' }}">
+
+    {% if title and include.face != 'back' %}
+    <h4 class="{{ card-title-classes | uniq | compact | join: ' ' }}">
+      {% if page.card.title_link %}
+      <a class="card-link" href="{{ post.url | relative_url }}">{{ title | escape }}</a>
+      {% else %}
+      {{ title | escape }}
+      {% endif %}
+    </h4>
+    {% endif %}
+
+    {% if subtitle and include.face != 'front' %}
+    <h6 class="card-subtitle mb-2 text-muted">{{ subtitle | escape }}</h6>
+    {% endif %}
+
+    {% if post.excerpt and include.face != 'front' %}
+    <p class="card-text">{{ post.excerpt | escape }}</p>
+    {% endif %}
+
+    {% if page.card.categories and categories and include.face != 'front' or page.card.tags and tags and include.face != 'front' %}
+    <div>
+      {% if page.card.categories and categories and include.face != 'front' %}<span class="pull-left m-1 hidden-sm visible-xs">{% include tags.html array=categories item-class="badge badge-primary" %}</span>{% endif %}
+      {% if page.card.tags and tags and include.face != 'front' %}<span class="pull-left m-1 hidden-sm visible-xs">{% include tags.html array=tags item-class="badge badge-secondary" %}</span>{% endif %}
+    </div>
+    {% endif %}
+
+    {% if read-more-classes and page.card.read_more_container != 'footer' and include.face != 'front' %}
+    <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }}">{{ page.card.read_more | default: t.read_more | escape }}</a>
+    {% endif %}
+
+  </div>
+
+
+  {% if page.card.date or page.card.categories or page.card.tags or page.card.read_more_container == 'footer' or include.face == 'front' or include.face == 'front' %}
+  <div class="card-footer d-flex justify-content-between align-items-center">
+
+    {% if include.face == 'back' %}
+    <button type="button" class="btn btn-secondary mb-0 flipcard-toggler" aria-label="{{ t.close }}">
+      <span class="fa fa-times fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ t.close }}"></span>
+    </button>
+    {% endif %}
+
     {% if include.face == 'front' %}
-    <div class="card-header d-flex justify-content-between align-items-center">
-
-
-      {% if include.face == 'front' %}
-      <button type="button" class="close px-1" aria-label="{{ t.info }}">
-        <span class="fa fa-info-circle" aria-hidden="true"></span>
-      </button>
-      {% endif %}
-      {% if include.face == 'back' %}
-      <button type="button" class="flipcard-toggler btn btn-secondary mb-0" aria-label="{{ t.close }}">
-        <span aria-hidden="true">&times;</span>
-      </button>
-      {% endif %}
-
-      {% if include.face == 'front' %}
-      <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="flipcard-toggler btn btn-primary mb-0" aria-label="{{ t.info }}">
-        <span class="fa fa-info-circle" aria-hidden="true"></span>
-      </label>
-      {% endif %}
-
-    </div>
-    {% endif %}
-    {% endcomment %}
-
-    {% if src and include.face != 'back' %}
-    <div class="ratio-container unknown-ratio-container">
-      <img class="{{ card-img-classes | uniq | compact | join: ' ' }}" data-src="{{ src }}" alt="{{ post.title }}" width="{{ post.image.default.width | default: post.image.width }}" height="{{ post.image.default.height | default: post.image.height }}" />
-    </div>
+    <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="btn btn-secondary mb-0 flipcard-toggler" aria-label="{{ t.info }}">
+      <span class="fa fa-question fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ t.info }}"></span>
+    </label>
     {% endif %}
 
-    <div class="{{ card-body-classes | uniq | compact | join: ' ' }}">
+    {% if page.card.date and include.face != 'front' %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
+    {% if page.card.new and daysSince <= page.card.new and include.face != 'back' %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
 
-        {% if title and include.face != 'back' %}
-        <h4 class="{{ card-title-classes | uniq | compact | join: ' ' }}">
-          {% if page.card.title_link %}
-          <a class="card-link" href="{{ post.url | relative_url }}">{{ title | escape }}</a>
-          {% else %}
-          {{ title | escape }}
-          {% endif %}
-        </h4>
-        {% endif %}
-
-        {% if subtitle and include.face != 'front' %}
-        <h6 class="card-subtitle mb-2 text-muted">{{ subtitle | escape }}</h6>
-        {% endif %}
-
-        {% if post.excerpt and include.face != 'front' %}
-        <p class="card-text">{{ post.excerpt | escape }}</p>
-        {% endif %}
-
-        {% if page.card.categories and categories and include.face != 'front' or page.card.tags and tags and include.face != 'front' %}
-        <div>
-          {% if page.card.categories and categories and include.face != 'front' %}<span class="pull-left m-1 hidden-sm visible-xs">{% include tags.html array=categories item-class="badge badge-primary" %}</span>{% endif %}
-          {% if page.card.tags and tags and include.face != 'front' %}<span class="pull-left m-1 hidden-sm visible-xs">{% include tags.html array=tags item-class="badge badge-secondary" %}</span>{% endif %}
-        </div>
-        {% endif %}
-
-        {% if read-more-classes and page.card.read_more_container != 'footer' and include.face != 'front' %}
-        <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }}">{{ page.card.read_more | default: t.read_more | escape }}</a>
-        {% endif %}
-
-    </div>
-
-
-    {% if page.card.date or page.card.categories or page.card.tags or page.card.read_more_container == 'footer' or include.face == 'front' or include.face == 'front' %}
-    <div class="card-footer d-flex justify-content-between align-items-center">
-
-        {% if include.face == 'back' %}
-        <button type="button" class="btn btn-secondary mb-0 flipcard-toggler" aria-label="{{ t.close }}">
-          <span class="fa fa-times fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ t.close }}"></span>
-        </button>
-        {% endif %}
-
-        {% if include.face == 'front' %}
-        <label for="flipcard_toggler_{{ post.url | slugify: 'default' }}" class="btn btn-secondary mb-0 flipcard-toggler" aria-label="{{ t.info }}">
-          <span class="fa fa-question fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ t.info }}"></span>
-        </label>
-        {% endif %}
-
-        {% if page.card.date and include.face != 'front' %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
-        {% if page.card.new and daysSince <= page.card.new and include.face != 'back' %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
-
-        {% if read-more-classes and page.card.read_more_container == 'footer' %}
-        <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }} mb-0" aria-label="{{ page.card.read_more | default: t.read_more }}">
-          <span class="fa fa-chevron-right fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ page.card.read_more | default: t.read_more }}"></span>
-        </a>
-        {% endif %}
-
-    </div>
+    {% if read-more-classes and page.card.read_more_container == 'footer' %}
+    <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }} mb-0" aria-label="{{ page.card.read_more | default: t.read_more }}">
+      <span class="fa fa-chevron-right fa-fw" aria-hidden="true" data-toggle="tooltip" title="{{ page.card.read_more | default: t.read_more }}"></span>
+    </a>
     {% endif %}
-    {% if include.face != 'front' %}{% endif %}
+
+  </div>
+  {% endif %}
+  {% if include.face != 'front' %}{% endif %}
 
 </div>

@@ -6,55 +6,51 @@ layout: default
 
 <div class="container-fluid">
 
-    {% if page.title %}
-    <header class="post-header" hidden>
-        <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
-        {% if page.subtitle %}
-        <h6 class="mb-2 text-muted">{{ post.subtitle | escape }}</h6>
-        {% endif %}
-    </header>
+  {% if page.title %}
+  <header class="post-header" hidden>
+    <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
+    {% if page.subtitle %}
+    <h6 class="mb-2 text-muted">{{ post.subtitle | escape }}</h6>
     {% endif %}
+  </header>
+  {% endif %}
 
-    <div class="row">
-        {{ content }}
-    </div>
+  <div class="row">
+    {{ content }}
+  </div>
 
 
-    {% include related-posts.html %}
+  {% include related-posts.html %}
 
-    {% if posts.size > 0 %}
+  {% if posts.size > 0 %}
 
-    <div class="collapse" id="post_list_options">
+  <div class="collapse" id="post_list_options">
     {% include filter-togglers.html posts=posts %}
+  </div>
+
+  {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
+  <div class="card-columns">
+    {% for post in posts %}
+    {% if post.url and post.title and post.content.size > 100 %}
+
+    <div class="{% include filter-tags.html post=post %}">
+      <input type="radio" id="flipcard_toggler_{{ post.url | slugify: 'default' }}" name="flipcard_toggler" value="{{ post.url }}" class="d-none" data-storage="false" />
+      <div class="card card-flip">
+        {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
+        {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
+      </div>
     </div>
 
-    {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
-    <div class="card-columns">
-        {% for post in posts %}
-        {% if post.url and post.title and post.content.size > 100 %}
-
-        {% comment %}
-        {% include card.html post=post img-class='card-img-faded card-img-grayscale' %}
-        {% endcomment %}
-
-        <div class="{% include filter-tags.html post=post %}">
-          <input type="radio" id="flipcard_toggler_{{ post.url | slugify: 'default' }}" name="flipcard_toggler" value="{{ post.url }}" class="d-none" data-storage="false" />
-          <div class="card card-flip">
-            {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
-            {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
-          </div>
-        </div>
-
-        {% endif %}
-        {% endfor %}
-    </div>
-    <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
-
-    {% else %}
-    <div class="alert alert-info" role="alert">
-        <strong>{{ t.oups }}</strong> {{ t.no_result_info}}
-    </div>
     {% endif %}
+    {% endfor %}
+  </div>
+  <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
+
+  {% else %}
+  <div class="alert alert-info" role="alert">
+    <strong>{{ t.oups }}</strong> {{ t.no_result_info}}
+  </div>
+  {% endif %}
 
 </div>
 

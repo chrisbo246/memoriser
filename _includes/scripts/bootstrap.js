@@ -7,7 +7,7 @@
   * Convert title attributs into tooltips
   */
 
-  //$('[title]').tooltip();
+  $('[title]').tooltip();
 
 
 
@@ -32,8 +32,7 @@
   if (window.localStorage) {
 
     var namespace = encodeURIComponent(window.location.pathname);
-
-
+      
 
     /**
     * Keep alerts closed
@@ -77,7 +76,6 @@
         $(this).collapse('show');
       }
     });
-
 
 
   }

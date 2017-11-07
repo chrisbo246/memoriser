@@ -14,20 +14,20 @@
 {% assign array = 'filter-target' | split: ' ' %}
 
 {% if page.card.new and daysSince <= page.card.new %}
-  {% assign array = 'new' | split: ' ' | concat: array %}
+{% assign array = 'new' | split: ' ' | concat: array %}
 {% endif %}
 
 {% if post.weight > 0 %}
-    {% assign array = 'featured' | split: ' ' | concat: array %}
+{% assign array = 'featured' | split: ' ' | concat: array %}
 {% endif %}
 
 {% if categories and categories.size > page.categories.size %}
-    {% for category in categories %}
-        {% assign class = 'category-' | append: category %}
-        {% assign array = array | push: class %}
-    {% endfor %}
+{% for category in categories %}
+{% assign class = 'category-' | append: category %}
+{% assign array = array | push: class %}
+{% endfor %}
 {% else %}
-    {% assign array = array | push: 'category-other' %}
+{% assign array = array | push: 'category-other' %}
 {% endif %}
 
 {{ array | join: ' ' }}

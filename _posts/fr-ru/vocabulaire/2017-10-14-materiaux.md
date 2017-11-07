@@ -20,11 +20,12 @@ acier
 
 verre
 : стекло
-*__styeklo__*
+*__stieklo__*
 
-béton:
-*__bèton'__*
+béton
+: бетон
+*__bièton'__*
 
 goudron
 : деготь
-*__diogèt'__*
+*__diogat'__*

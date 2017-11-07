@@ -5,95 +5,57 @@ layout: default
 {% assign t = site.data.locales[lang] %}
 
 <div class="container-fluid">
+  <div class="row clearfix">
+    <div class="collapse col col-sm-4 col-lg-3 order-2" id="post_options">
+      <div class="sidebar sticky-top">
 
-    <div class="row clearfix">
-      <div class="collapse col col-sm-4 col-lg-3 order-2" id="post_options">
-          <div class="sidebar sticky-top">
-
-              {% comment %}
-              <!--
-              <ul class="nav nav-pills flex-row">
-
-                {% include related-posts.html type='pages' categories=page.categories %}
-                {% assign category_root_page = posts.first %}
-                {% if category_root_page.title and category_root_page.url != page.url %}
-                <a class="nav-link" href="{{ category_root_page.url | relative_url }}">
-                    <span class="fa fa-arrow-left fa-fw"></span> <span class="text-muted">{{ category_root_page.title }}</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                {% endif %}
-
-                {% include related-posts.html %}
-                {% if posts.size > 0 %}
-                  {% include nav-items.html posts=posts %}
-                <div class="dropdown-divider"></div>
-                {% endif %}
-
-              </ul>
-              -->
-              {% endcomment %}
-
-              <div class="card mb-3">
-                <div class="card-header">{{ t.index }}</div>
-                <div class="card-body">
-                  <ul id="index" class="nav flex-row nav-pills">
-                  </ul>
-                </div>
-              </div>
-
-              <ul id="related-posts" class="nav flex-column nav-pills mb-3">
-              {% include nav-items-related-posts.html %}
-              </ul>
-
-              {% include asides.html %}
-
-              <div class="btn-toolbar mt-3" role="toolbar" aria-label="">
-                {% if page.layout == 'post' or page.layout == 'definition-lists' %}
-                <a class="btn btn-outline-secondary mr-2" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
-                  <span class="fa fa-pencil-square-o" aria-hidden="true"></span> {{ t.edit_on_github }}
-                </a>
-                {% endif %}
-              </div>
-
+        <div class="card mb-3">
+          <div class="card-header">{{ t.index }}</div>
+          <div class="card-body">
+            <ul id="index" class="nav flex-row nav-pills">
+            </ul>
           </div>
-      </div>
-        <div class="col order-1">
-
-            <article class="post">
-
-                <div id="memorized-tip" class="alert alert-info alert-dismissible mb-3 clearfix animated bounceInDown" role="alert" hidden>
-                    <button type="button" class="close" data-dismiss="alert" aria-label="{{ t.close }}">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    <i class="fa fa-info-circle fa-3x mr-3 pull-left" aria-hidden="false" data-toggle="tooltip" title="{{ t.tip }}"></i>{{ t.memorized_tip }}
-                </div>
-
-                <header class="post-header" hidden>
-                    <h1 class="post-title display-4 mb-4">{{ page.title | escape }}</h1>
-                </header>
-
-                <div class="post-content definition-list spinner spinner-fullscreen spinner-bg fa fa-spinner" {% if page.definition-lang %}data-definition-lang="{{ page.definition-lang }}"{% endif %}>
-                    {{ content }}
-                </div>
-
-                {% comment %}
-                <div class="btn-toolbar mt-3" role="toolbar" aria-label="">
-                  {% if page.comments != false and site.disqus.shortname and jekyll.environment == "production" %}
-                  <a class="btn btn-outline-secondary mr-2" data-toggle="collapse" href="#disqus_thread" aria-expanded="false" aria-controls="{{ t.comments }}">
-                    <i class="fa fa-comments" aria-hidden="true"></i> {{ t.comments }}
-                  </a>
-                  {% endif %}
-                </div>
-                {% endcomment %}
-
-                {% if page.comments != false and site.disqus.shortname %}
-                  {% include disqus_comments.html %}
-                {% endif %}
-
-            </article>
-
         </div>
+
+        <ul id="related-posts" class="nav flex-column nav-pills mb-3">
+          {% include nav-items-related-posts.html %}
+        </ul>
+
+        {% include asides.html %}
+
+        <div class="btn-toolbar mt-3" role="toolbar" aria-label="">
+          {% if page.layout == 'post' or page.layout == 'definition-lists' %}
+          <a class="btn btn-outline-secondary mr-2" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
+            <span class="fa fa-pencil-square-o" aria-hidden="true"></span> {{ t.edit_on_github }}
+          </a>
+          {% endif %}
+        </div>
+
+      </div>
     </div>
+    <div class="col order-1">
+      <article class="post">
+
+        <div id="memorized-tip" class="alert alert-info alert-dismissible mb-3 clearfix animated bounceInDown" role="alert" hidden>
+          <button type="button" class="close" data-dismiss="alert" aria-label="{{ t.close }}">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <i class="fa fa-info-circle fa-3x mr-3 pull-left" aria-hidden="false" data-toggle="tooltip" title="{{ t.tip }}"></i>{{ t.memorized_tip }}
+        </div>
+        <header class="post-header" hidden>
+          <h1 class="post-title display-4 mb-4">{{ page.title | escape }}</h1>
+        </header>
+        <div class="post-content definition-list spinner spinner-fullscreen spinner-bg fa fa-spinner" {% if page.definition-lang %}data-definition-lang="{{ page.definition-lang }}"{% endif %}>
+          {{ content }}
+        </div>
+
+        {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+        {% endif %}
+
+      </article>
+    </div>
+  </div>
 </div>
 
 <script type="application/ld+json">

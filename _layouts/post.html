@@ -5,27 +5,25 @@ layout: default
 {% assign t = site.data.locales[lang] %}
 
 <div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <article class="post">
+  <div class="row">
+    <div class="col">
+      <article class="post">
 
-                <header class="post-header">
-                    <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
-                    <p class="post-meta text-muted" hidden><time>{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span><span>{{ page.author }}</span></span>{% endif %}</p>
-                </header>
+        <header class="post-header">
+          <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
+          <p class="post-meta text-muted" hidden><time>{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span><span>{{ page.author }}</span></span>{% endif %}</p>
+        </header>
 
-                <div class="post-content">
-                    {{ content }}
-                </div>
-
-                {% if site.disqus.shortname %}
-                {% include disqus_comments.html %}
-                {% endif %}
-            </article>
+        <div class="post-content">
+          {{ content }}
         </div>
-    </div>
-</div>
 
+        {% include disqus_comments.html %}
+
+      </article>
+    </div>
+  </div>
+</div>
 
 <script type="application/ld+json">
 {% include structured-data/blog-posting.html %}

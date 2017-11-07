@@ -4,20 +4,20 @@
   {% assign pages_url = site.pages | map: 'url' %}
   {% assign crumbs = page.url | split: '/' %}
   {% for crumb in crumbs offset:1 %}
-      {% unless forloop.last %}
+  {% unless forloop.last %}
 
-        {% assign url_parts = '' | split: ' ' %}
-        {% for crumb in crumbs offset:1 limit:forloop.index %}
-        {% assign url_parts = url_parts | push: crumb %}
-        {% endfor %}
-        {% assign url = url_parts | join: '/' | prepend: '/' | append: '.html' %}
+  {% assign url_parts = '' | split: ' ' %}
+  {% for crumb in crumbs offset:1 limit:forloop.index %}
+  {% assign url_parts = url_parts | push: crumb %}
+  {% endfor %}
+  {% assign url = url_parts | join: '/' | prepend: '/' | append: '.html' %}
 
-        {% if pages_url contains url %}
-        <a class="breadcrumb-item" href="{{ url | relative_url }}">{{ crumb | capitalize }}</a>
-        {% endif %}
+  {% if pages_url contains url %}
+  <a class="breadcrumb-item" href="{{ url | relative_url }}">{{ crumb | capitalize }}</a>
+  {% endif %}
 
-      {% else %}
-        <span class="breadcrumb-item active">{{ page.title | escape }}</span>
-      {% endunless %}
+  {% else %}
+  <span class="breadcrumb-item active">{{ page.title | escape }}</span>
+  {% endunless %}
   {% endfor %}
 </nav>

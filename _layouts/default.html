@@ -6,29 +6,26 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include head.html %}
+<body>
 
-  {% include head.html %}
+  {% include adsense.html %}
 
-  <body>
+  <div class="fixed-ad-beside">
 
-    {% include adsense.html %}
+    {% include header.html %}
 
-    <div class="fixed-ad-beside">
+    <main id="top" class="page-content py-3">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
 
-      {% include header.html %}
+    {% include footer.html %}
 
-      <main id="top" class="page-content py-3">
-        <div class="wrapper">
-          {{ content }}
-        </div>
-      </main>
+  </div>
 
-      {% include footer.html %}
+  {% include scripts.html %}
 
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
-
+</body>
 </html>

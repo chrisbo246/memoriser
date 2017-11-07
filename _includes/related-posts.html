@@ -1,15 +1,15 @@
 
 {% if include.categories %}
-    {% assign categories = include.categories %}
+{% assign categories = include.categories %}
 {% else %}
-    {% assign categories = '' | split: ' ' | push: page.categories %}
+{% assign categories = '' | split: ' ' | push: page.categories %}
 {% endif %}
 {% assign categories = categories | compact | uniq %}
 
 {% if include.tags %}
-    {% assign tags = include.tags %}
+{% assign tags = include.tags %}
 {% else %}
-    {% assign tags = '' | split: ' ' | push: page.tags %}
+{% assign tags = '' | split: ' ' | push: page.tags %}
 {% endif %}
 {% assign tags = tags | compact | uniq %}
 
@@ -20,36 +20,32 @@
 
 {% if site[type] and site[type].size > 0 %}
 
-    {% for post in site[type] limit: limit %}
+{% for post in site[type] limit: limit %}
 
-        {% assign match_categories = true %}
-        {% if categories.size > 0 %}
-            {% for category in categories %}
-                {% unless post.categories contains category or post.category == category %}
-                {% assign match_categories = false %}
-                {% break %}
-                {% endunless %}
-            {% endfor %}
-        {% comment %}{% elsif post.categories.size > 0 or post.category %}
-            {% assign match_categories = false %}{% endcomment %}
-        {% endif %}
+{% assign match_categories = true %}
+{% if categories.size > 0 %}
+{% for category in categories %}
+{% unless post.categories contains category or post.category == category %}
+{% assign match_categories = false %}
+{% break %}
+{% endunless %}
+{% endfor %}
+{% endif %}
 
-        {% assign match_tags = true %}
-        {% if tags.size > 0 %}
-            {% assign match_tags = false %}
-            {% for tag in tags %}
-                {% if post.tags contains tag %}
-                    {% assign match_tags = true %}
-                    {% break %}
-                {% endif %}
-            {% endfor %}
-        {% comment %}{% elsif post.tags.size > 0 or post.tags %}
-            {% assign match_tags = false %}{% endcomment %}
-        {% endif %}
+{% assign match_tags = true %}
+{% if tags.size > 0 %}
+{% assign match_tags = false %}
+{% for tag in tags %}
+{% if post.tags contains tag %}
+{% assign match_tags = true %}
+{% break %}
+{% endif %}
+{% endfor %}
+{% endif %}
 
-        {% if match_categories != false and match_tags != false and post.title %}
-            {% assign posts = posts | push: post %}
-        {% endif %}
+{% if match_categories != false and match_tags != false and post.title %}
+{% assign posts = posts | push: post %}
+{% endif %}
 
-    {% endfor %}
+{% endfor %}
 {% endif %}

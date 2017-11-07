@@ -5,114 +5,49 @@ layout: default
 {% assign t = site.data.locales[lang] %}
 
 <div class="home">
-  <!--
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">{{ page.title | default: site.title }}</h1>
-            <p class="lead">{{ page.excerpt | default: site.description }}</p>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">{{ page.title | default: site.title }}</h1>
+      <p class="lead">{{ page.excerpt | default: site.description }}</p>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+
+    {% assign posts = site.pages | where_exp: 'item', 'item.categories' | sort: 'title' %}
+    {% if posts.size > 0 %}
+    <section class="row">
+      <div class="col">
+        <div class="card-columns">
+          {% for post in posts %}
+          {% if post.url and post.title %}
+
+          <div class="{% include filter-tags.html post=post %}">
+            <input type="radio" id="flipcard_toggler_{{ post.url | slugify: 'default' }}" name="flipcard_toggler" value="{{ post.url }}" class="d-none" data-storage="false" />
+            <div class="card card-flip">
+              {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded" title-class="h2 font-weight-bold" %}
+              {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
+            </div>
+          </div>
+
+          {% endif %}
+          {% endfor %}
         </div>
-    </div>
-  -->
-    <div class="container-fluid">
+        <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
+      </div>
+    </section>
+    {% endif %}
 
-        {% assign posts = site.pages | where_exp: 'item', 'item.categories' | sort: 'title' %}
-        {% if posts.size > 0 %}
-        <section class="row">
-            <div class="col">
-                <div class="card-columns">
-                    {% for post in posts %}
-                    {% if post.url and post.title %}
+    {% if content %}
+    <section class="row">
+      <div class="col">
+        {{ content }}
+      </div>
+    </section>
+    {% endif %}
 
-                    {% comment %}
-                    {% include card.html post=post img-class="card-img-faded" %}
-                    {% endcomment %}
-
-                    <div class="{% include filter-tags.html post=post %}">
-                      <input type="radio" id="flipcard_toggler_{{ post.url | slugify: 'default' }}" name="flipcard_toggler" value="{{ post.url }}" class="d-none" data-storage="false" />
-                      <div class="card card-flip">
-                        {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded" title-class="h2 font-weight-bold" %}
-                        {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
-                      </div>
-                    </div>
-
-                    {% endif %}
-                    {% endfor %}
-                </div>
-                <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
-            </div>
-        </section>
-        {% endif %}
-
-        {% if content %}
-        <section class="row">
-            <div class="col">
-                {{ content }}
-            </div>
-        </section>
-        {% endif %}
-
-        {% comment %}
-        <!--
-        {% assign categories = 'FR EN' | split: ' ' %}
-        {% include related-posts.html categories=categories %}
-        {% if posts.size > 0 %}
-        <section class="row">
-            <div class="col">
-                <div class="-card-deck card-columns">
-                    {% for post in posts %}
-                    {% include card.html post=post %}
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
-        {% endif %}
-
-        <section class="row">
-            <div class="col">
-
-                <h1>Définitions</h1>
-                {% include related-posts.html type="definition_lists" %}
-                {% if posts.size > 0 %}
-                {% assign posts = posts | sort: 'title' %}
-                {% for post in posts offset: 0 limit: 5 %}
-                <div>
-                    <h3>
-                        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                    </h3>
-                </div>
-                {% endfor %}
-                {% endif %}
-
-
-                {% assign posts = site.posts | sort: 'date', 'last' %}
-                {% if posts.size > 0 %}
-                <h1>Derniers articles</h1>
-                <ul class="post-list list-unstyled">
-                    {% for post in posts offset: 0 limit: 5 %}
-                    <li>
-                        {% if page.card.date %}
-                        <span class="post-meta text-muted">{{ post.date | date: "%b %-d, %Y" }}</span>
-                        {% endif %}
-                        <h3>
-                            <a class="post-link" href="{{ post.url | relative_url }}">
-                                {{ post.title | escape }}
-                            </a>
-                        </h3>
-                    </li>
-                    {% endfor %}
-                </ul>
-                {% if posts.size > 0 %}
-                <a href="{{ "posts.html" | relative_url }}">Plus d'articles...</a>
-                {% endif %}
-                <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-                {% endif %}
-
-            </div>
-        </section>
-        -->
-        {% endcomment %}
-
-    </div>
+  </div>
 </div>
 
 <script type="application/ld+json">

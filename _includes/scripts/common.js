@@ -8,11 +8,10 @@
 
   var scrollTopDuration = 1000;
   $('a').filter('[href*="#"]').not('[href="#"]').not('[data-toggle="modal"]').not('[data-toggle="collapse"]').not('[data-toggle="tab"]').click(function (e) {
-    //e.preventDefault();
+
     if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
       var $target = $(this.hash) || $('[name=' + this.hash.slice(1) +']');
-      //var $target = $(this.hash).length ? $(this.hash) : $('[name=' + this.hash.slice(1) +']');
-      //$target = $target.length ? $target : $('[name=' + this.hash.slice(1) +']');
+
       if ($target.length) {
 
         var $parents = $target.parents('.card');
@@ -103,18 +102,18 @@
   * Uncheck checked radio
   */
 
-  /*$('label').filter('[for]').on('mousedown', function(e) {
-    var $label = $(this);
-    var id = $label.attr('for');
-    var $input = $('#' + id).first();
-    if ($input.is(':radio')) {
-      var checked = $input.prop('checked');
-      var name = $input.attr('name');
-      if (checked && name) {
-        $(':radio').filter('[name="' + name + '"][value="none"]').first().prop('checked', true).trigger('change');
-      }
-    }
-  });*/
+  //$('label').filter('[for]').on('mousedown', function(e) {
+  //  var $label = $(this);
+  //  var id = $label.attr('for');
+  //  var $input = $('#' + id).first();
+  //  if ($input.is(':radio')) {
+  //    var checked = $input.prop('checked');
+  //    var name = $input.attr('name');
+  //    if (checked && name) {
+  //      $(':radio').filter('[name="' + name + '"][value="none"]').first().prop('checked', true).trigger('change');
+  //    }
+  //  }
+  //});
 
 
 

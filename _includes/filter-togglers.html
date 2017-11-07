@@ -1,7 +1,6 @@
 <div class="btn-toolbar justify-content-between mb-3" role="toolbar" aria-label="{{ t.filters }}">
 
   <div class="input-group my-1">
-    <!--<div class="input-group-addon"><i class="fa fa-search" aria-hidden="false"></i></div>-->
     <input type="text" class="form-control searchbox" id="searchbox" placeholder="{{ t.search_placeholder }}">
   </div>
 
@@ -36,21 +35,5 @@
       <input type="radio" name="custom-filters" value="all" class="filter-toggler" data-filter="">{{ t.all }}
     </label>
   </div>
-
-  {% comment %}
-  {% assign tags = include.posts | map: "tags" | uniq | compact | sort_natural %}
-  {% if tags %}
-  <br>
-  <div class="btn-group btn-group-sm clearfix" role="group" data-toggle="buttons" aria-label="{{ t.filters }}">
-    {% for filter in tags %}
-    {% unless page.tags contains filter %}
-    <label class="btn btn-outline-secondary">
-      <input type="radio" name="category-filters" class="filter-toggler" data-filter=".tags-{{ filter | default: 'divers' }}">{{ filter | default: "divers" }}
-    </label>
-    {% endunless %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endcomment %}
 
 </div>
