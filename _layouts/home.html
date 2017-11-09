@@ -24,7 +24,7 @@ layout: default
           {% if post.url and post.title %}
 
           <div class="{% include filter-tags.html post=post %}">
-            <input type="radio" id="flipcard_toggler_{{ post.url | slugify: 'default' }}" name="flipcard_toggler" value="{{ post.url }}" class="d-none" data-storage="false" />
+            <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
             <div class="card card-flip">
               {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded" title-class="h2 font-weight-bold" %}
               {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}

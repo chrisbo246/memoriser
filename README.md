@@ -17,6 +17,7 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Smooth scroll.
 - Collapsible sidebar for full width content.
 - Share new definitions with the Disqus comment system.
+- Sounds on events for fun.
 - Cookie consent ready.
 
 ## Responsive

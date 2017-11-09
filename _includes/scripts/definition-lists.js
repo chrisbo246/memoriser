@@ -23,14 +23,23 @@
   var validIds = [];
   var validId = function (string, i) {
 
-    var id = Base64.encode(string.trim() || 'undefined') + ((i > 0) ? '_' + i : '');
-
-    if ($.inArray(id, validIds) !== -1) {
-      return validId(string, i++ || 1);
-    } else {
-      validIds.push(id);
-      return id;
+    if (typeof string !== 'string') {
+      string = '';
     }
+    string = string.trim();
+
+    if (string.length > 0) {
+      var id = Base64.encode(string + ((i) ? '_' + i : ''));
+      if ($.inArray(id, validIds) === -1) {
+        validIds.push(id);
+        return id;
+      } else {
+        ++i;
+        return validId(string, i || 2);
+      }
+    }
+
+    return string;
 
   }
 
@@ -88,21 +97,23 @@
       $dl.find('dt').each(function(i) {
         $dt = $(this);
         $dd = $dt.next('dd');
-        id = validId($dt.html());
+        id = $dt.html();
+        id = validId(id);
 
 
         //var cardStyle = cardStyles[Math.floor(Math.random() * cardStyles.length)];
         var cardStyle = cardStyles[1];
 
         html = html
-        + '<input type="radio" id="flipcard_toggler_' + id + '" name="visible_definition" value="' + id + '" class="d-none" />'
-        + '<div class="card card-flip m-1">'
-        + '<label for="flipcard_toggler_' + id + '" class="m-0" '
-        + (sectionId && i === 0 ? 'id="' + sectionId + '" data-label="' + sectionLabel + '"' : '') + ' '
-        + (sectionId ? ' data-section="' + sectionId + '"' : '') + '>'
+        + '<input type="radio" id="flipcard_position_' + id + '" name="visible_definition" value="' + id + '" class="flipcard-position d-none" />'
+        + '<div class="card card-flip m-1"'
+        + (sectionId && i === 0 ? ' id="' + sectionId + '" data-label="' + sectionLabel + '"' : '')
+        + (sectionId ? ' data-section="' + sectionId + '"' : '')
+        + '>'
+        + '<label for="flipcard_position_' + id + '" class="m-0">'
         + '<div class="card front card-position-absolute bg-dark text-muted">'
         + '<div class="card-body d-flex justify-content-center align-items-center">'
-        + '<h4 class="card-title m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<small class="text-muted">($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>') + '</h4>'
+        + '<h4 class="card-title m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<small>($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>') + '</h4>'
         + '</div>'
         + '</div>'
         + '</label>'
@@ -114,7 +125,7 @@
         + '</div>'
         + '<div class="card-footer bg-transparent border-0 p-0">'
         + '<div class="btn-group -btn-group-lg d-flex" data-toggle="buttons">'
-        + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" autocomplete="off"><i class="fa fa-times fa-lg" aria-hidden="false"></i></label>'
+        + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" class="unmemorized" autocomplete="off"><i class="fa fa-times fa-lg" aria-hidden="false"></i></label>'
         + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
         + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.known_definition }}{% raw %}"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
         + '</div>'
@@ -166,7 +177,7 @@
     if ($nav.length) {
       var navItems = '';
       var $title;
-      var $titles = $('.post-content').find('h2, h4.card-title, label[data-section]').filter('[id]');
+      var $titles = $('.post-content').find('h2, h4.card-title, .card[data-section]').filter('[id]');
       if ($titles.length) {
         $titles.each(function () {
           $title = $(this);

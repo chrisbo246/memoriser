@@ -29,7 +29,7 @@
         }, scrollTopDuration, 'swing', function () {
 
           // Blink target (or section)
-          var $sectionItems = $('label').filter('[data-section="' + $target.attr('id') + '"]');
+          var $sectionItems = $('.card').filter('[data-section="' + $target.attr('id') + '"]');
           if ($sectionItems.length) {
             var $highlighted = $sectionItems;
           } else if ($target.is('h1, h2, h3, h4, a, p')) {

@@ -66,14 +66,14 @@ layout: default
     <div class="col order-1">
       <article class="post">
 
-        {% include alert.html title=t.tip text=t.memorized_tip style="info" id="memorized-tip" dismissible=1 %}
+        {% include alert.html title=t.definition_list_tip_title text=t.definition_list_tip_text style="info" id="memorized-tip" dismissible=1 %}
 
-        {% if page.asides %}
+        {% if page.asides and page.asides.size > 0 %}
         {% assign asides = site.asides | where_exp: "item", "page.asides contains item.path" %}
-        {% for post in asides %}
-        {% assign alert_id = post.path | slugify  %}
-        {% assign alert_content = post.content | markdownify %}
-        {% include alert.html title=post.title content=alert_content style=post.alert.style id=alert_id dismissible=1 %}
+        {% for aside in asides %}
+        {% assign alert_id = aside.path | slugify %}
+        {% assign alert_content = aside.content | markdownify %}
+        {% include alert.html title=aside.title content=alert_content style=aside.alert.style id=alert_id dismissible=1 %}
         {% endfor %}
         {% endif %}
 

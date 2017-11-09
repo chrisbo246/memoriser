@@ -2,7 +2,7 @@
   "name": "memolinguo",
   "homepage": "https://github.com/chrisbo246/memolinguo",
   "authors": [
-    "Chrisbo <chrisbo246@gmail.com>"
+    "Chrisbo246 <chrisbo246@gmail.com>"
   ],
   "description": "",
   "main": "",
@@ -17,10 +17,10 @@
   "dependencies": {
     "jquery": "^3.2.1",
     "bootstrap": "4.0.0-beta",
-    "lazysizes": "4.0.0-rc4",
+    "lazysizes": "^4.0.1",
     "cookieconsent": "^3.0.4",
     "font-awesome": "fontawesome#^4.7.0",
-    "popper.js": "^1.12.5",
+    "popper.js": "^1.12.6",
     "animate.css": "^3.5.2"
   }
 }

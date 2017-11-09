@@ -9,7 +9,7 @@
 
   $('[title]').tooltip({
     delay: {
-      "show": 2000,
+      "show": 3000,
       "hide": 100
     }
   });
