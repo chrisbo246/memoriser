@@ -102,7 +102,7 @@
         + (sectionId ? ' data-section="' + sectionId + '"' : '') + '>'
         + '<div class="card front card-position-absolute bg-dark text-muted">'
         + '<div class="card-body d-flex justify-content-center align-items-center">'
-        + '<h4 class="card-title h6 m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<small class="text-muted">($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>') + '</h4>'
+        + '<h4 class="card-title m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<small class="text-muted">($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>') + '</h4>'
         + '</div>'
         + '</div>'
         + '</label>'
@@ -114,9 +114,9 @@
         + '</div>'
         + '<div class="card-footer bg-transparent border-0 p-0">'
         + '<div class="btn-group -btn-group-lg d-flex" data-toggle="buttons">'
-        + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" autocomplete="off"><i class="fa fa-times fa-lg" aria-hidden="false"></i></label>'
-        + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
-        + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
+        + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" autocomplete="off"><i class="fa fa-times fa-lg" aria-hidden="false"></i></label>'
+        + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i></button>' : '')
+        + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.known_definition }}{% raw %}"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i></label>'
         + '</div>'
         + '</div>'
         + '</div>'

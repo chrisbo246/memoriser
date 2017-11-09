@@ -1,13 +1,11 @@
 ---
-title: "Concernant la prononciation"
+title: "Rappel concernant la prononciation"
 header: "Rappel"
-class: "text-info border-info"
-icon: "fa-info-circle"
+icon: "fa fa-lg fa-info-circle"
+card:
+  class: "text-info border-info"
+alert:
+  style: "info"
+  class: "alert-info"
 ---
-La deuxième ligne représente la prononciation française approximative. Ce n'est pas la transcription standard.
-
-La lettre cyrillique **р** est traduite par **r** mais se prononce en faisant rouler la langue.
-
-La lettre **х** est traduite par **h** pour simplifier mais se prononce un peu comme le chat qui crache.
-
-La lettre **ы** est traduite par **i** pour simplifier mais se prononce un peu comme en faisant l'idiot.
+La deuxième ligne représente la prononciation française approximative. La lettre cyrillique **р** est traduite par **r** mais se prononce en faisant rouler la langue. **х** est représenté par un **h** et se prononce un peu comme le chat qui crache. **ы** se prononce comme un **i** en faisant l'idiot.

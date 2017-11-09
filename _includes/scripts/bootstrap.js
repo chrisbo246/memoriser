@@ -7,7 +7,12 @@
   * Convert title attributs into tooltips
   */
 
-  $('[title]').tooltip();
+  $('[title]').tooltip({
+    delay: {
+      "show": 2000,
+      "hide": 100
+    }
+  });
 
 
 
@@ -42,10 +47,10 @@
 
   var $collapses = $('.collapse').filter('[id]');
   $collapses.on('shown.bs.collapse', function () {
-    $('.btn').filter('[data-target="#' + this.id + '"]').addClass('active');
+    $('.btn').filter('button[data-target="#' + this.id + '"], a[href="#' + this.id + '"]').addClass('active');
   });
   $collapses.on('hidden.bs.collapse', function () {
-    $('.btn').filter('[data-target="#' + this.id + '"]').removeClass('active');
+    $('.btn').filter('button[data-target="#' + this.id + '"], a[href="#' + this.id + '"]').removeClass('active');
   });
 
 
@@ -97,8 +102,13 @@
     });
     $collapses.each(function () {
       var value = JSON.parse(localStorage.getItem(this.id + '_collapse'));
+      var $togglers = $('button[data-target="#' + this.id + '"], a[href="#' + this.id + '"]');
       if (value === true) {
         $(this).collapse('show');
+        $togglers.addClass('active');
+      } else {
+        $(this).collapse('hide');
+        $togglers.removeClass('active');
       }
     });
 

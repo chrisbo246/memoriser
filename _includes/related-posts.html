@@ -14,13 +14,11 @@
 {% assign tags = tags | compact | uniq %}
 
 {% assign type = include.type | default: page.collection_type | default: page.collection | default: 'pages' %}
-{% assign limit = include.limit | default: nil %}
 {% assign posts = '' | split: ' ' %}
 
 
 {% if site[type] and site[type].size > 0 %}
-
-{% for post in site[type] limit: limit %}
+{% for post in site[type] %}
 
 {% assign match_categories = true %}
 {% if categories.size > 0 %}
@@ -43,8 +41,12 @@
 {% endfor %}
 {% endif %}
 
-{% if match_categories != false and match_tags != false and post.title %}
+{% if match_categories != false and match_tags != false and post.path != page.path and post.title %}
 {% assign posts = posts | push: post %}
+{% endif %}
+
+{% if include.limit and posts.size > include.limit %}
+{% break %}
 {% endif %}
 
 {% endfor %}

@@ -1,0 +1,33 @@
+{% if include.style %}
+  {% if include.style == 'success' %}
+    {% assign icon_class = 'fa-smile-o' %}
+  {% elsif include.style == 'danger' %}
+    {% assign icon_class = 'fa-meh-o' %}
+  {% elsif include.style == 'warning' %}
+    {% assign icon_class = 'fa-exclamation-triangle' %}
+  {% elsif include.style == 'info' %}
+    {% assign icon_class = 'fa-info-circle' %}
+  {% else %}
+    {% assign icon_class = false %}
+  {% endif %}
+{% endif %}
+
+<div {% if include.id %} id="{{ include.id }}"{% endif %} class="alert {% if include.style %}alert-{{ include.style }}{% endif %} {% if include.dismissible %}alert-dismissible{% endif %} mb-3 clearfix animated bounceInDown" role="alert" hidden>
+
+  {% if include.dismissible %}
+  <button type="button" class="close" data-dismiss="alert" aria-label="{{ t.close }}">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  {% endif %}
+
+  {% if include.title %}
+  <h5>{% if icon_class %}<span class="fa {{ icon_class }} fa-4x pull-left mr-3" aria-hidden="false"></span>{% endif %}{{ include.title }}</h5>
+  {% endif %}
+
+  {% if include.content %}
+  {{ include.content | strip }}
+  {% elsif include.text %}
+  <p>{{ include.text | strip }}</p>
+  {% endif %}
+
+</div>

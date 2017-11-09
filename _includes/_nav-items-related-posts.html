@@ -3,17 +3,16 @@
 
 {% include related-posts.html %}
 {% if posts.size > 0 %}
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="relatedPostsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<li class="dropdown">
+  <button type="button" class="btn btn-secondary btn-lg btn-block dropdown-toggle mb-3" id="related-posts-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     {{ t.related_posts }}
-  </a>
-  <div class="dropdown-menu" aria-labelledby="relatedPostsDropdown">
+  </button>
+  <div class="dropdown-menu" aria-labelledby="related-posts-dropdown">
     {% assign posts = posts %}
     {% include dropdown-items.html posts=posts limit=15 %}
 
     {% if page.tags.size > 0 or posts.size > 15 %}
     {% if category_root_page.url %}
-
     <div class="dropdown-divider"></div>
     <a class="dropdown-item" href="{{ category_root_page.url | relative_url }}">{{ t.display_all }}</a>
     {% endif %}

@@ -119,6 +119,14 @@ a[href="#top"] {
 
 
 
+// Remove paragraph margin in alerts
+
+.alert p:last-of-type {
+  margin-bottom: 0;
+}
+
+
+
 // Customized scrollbar
 
 @include scrollbars(.5em, $brand-primary, $gray-dark);
