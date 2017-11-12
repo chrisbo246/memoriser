@@ -91,8 +91,6 @@ collections:
   #  output: true
   #tags:
   #  output: true
-  definition_lists:
-    output: true
   asides:
     output: true
 
@@ -106,6 +104,12 @@ defaults:
       author: chrisbo246
       publisher: chrisbo246
       date: 2017-01-01 00:00:00 +0100
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      comments: false
   -
     scope:
       path: "_posts"
@@ -125,48 +129,28 @@ defaults:
   -
     scope:
       path: "_categories"
-      type: categories
+      type: "categories"
     values:
       layout: "category"
       permalink: /categories/:title.html
   -
     scope:
       path: "_tags"
-      type: tags
+      type: "tags"
     values:
       layout: "tag"
       permalink: /tags/:title.html
   -
     scope:
-      path: ""
-      type: "definition_lists"
-    values:
-      layout: "definition-list"
-      permalink: /:categories/:title.html
-      comments: true
-  -
-    scope:
-      path: "_posts/fr"
+      path: "_posts/anglais"
       type: "posts"
     values:
-      layout: "definition-lists"
-      categories: ["francais"]
-      definition-lang: "fr-fr"
-  -
-    scope:
-      path: "_posts/fr-en"
-      type: "posts"
-    values:
-      layout: "definition-lists"
-      categories: ["anglais"]
       definition-lang: "en-us"
   -
     scope:
-      path: "_posts/fr-ru"
+      path: "_posts/russe"
       type: "posts"
     values:
-      layout: "definition-lists"
-      categories: ["russe"]
       definition-lang: "ru-ru"
       asides: ["_asides/2017-10-28-prononciation-russe.md"]
 

@@ -5,26 +5,55 @@ layout: default
 {% assign t = site.data.locales[lang] %}
 
 <div class="container-fluid">
-  <div class="row">
-    <div class="col">
+  <div class="row clearfix">
+    <div class="collapse col col-md-4 col-xl-3 order-2" id="post_options">
+      <div class="sidebar sticky-top">
+
+        <div class="card mb-3">
+          <div class="card-header">{{ t.index }}</div>
+          <div class="card-body">
+            <ul id="index" class="nav flex-column -flex-row nav-pills">
+            </ul>
+          </div>
+        </div>
+
+        {% comment %}
+        {% if page.asides %}
+        {% assign posts = site.asides | where_exp: "item", "page.asides contains item.path" %}
+        {% include accordion.html posts=posts id="asides_accordion" %}
+        {% endif %}
+        {% endcomment %}
+
+        {% if page.layout == 'post' or page.layout == 'definition-lists' %}
+        <a class="btn btn-outline-secondary btn-sm btn-block mb-3" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
+          {{ t.edit_on_github }}
+        </a>
+        {% endif %}
+
+      </div>
+    </div>
+    <div class="col order-1">
       <article class="post">
 
-        <header class="post-header">
-          <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
-          <p class="post-meta text-muted" hidden><time>{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span><span>{{ page.author }}</span></span>{% endif %}</p>
-        </header>
+        {% include alert.html title=t.definition_list_tip_title text=t.definition_list_tip_text style="info" id="memorized-tip" dismissible=1 %}
 
-        <div class="post-content">
+        {% if page.asides and page.asides.size > 0 %}
+        {% assign asides = site.asides | where_exp: "item", "page.asides contains item.path" %}
+        {% for aside in asides %}
+        {% assign alert_id = aside.path | slugify %}
+        {% assign alert_content = aside.content | markdownify %}
+        {% include alert.html title=aside.title content=alert_content style=aside.alert.style id=alert_id dismissible=1 %}
+        {% endfor %}
+        {% endif %}
+
+        <header class="post-header" hidden>
+          <h1 class="post-title display-4 mb-4">{{ page.title | escape }}</h1>
+        </header>
+        <div class="post-content" {% if page.definition-lang %}data-definition-lang="{{ page.definition-lang }}"{% endif %}>
           {{ content }}
         </div>
 
-        {% if site.disqus.shortname %}
-        <div id="comments" class="collapse show">
-        {% include disqus_comments.html %}
-        </div>
-        {% endif %}
-
-      </article>
+      </article>      
     </div>
   </div>
 </div>

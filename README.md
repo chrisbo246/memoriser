@@ -1,40 +1,57 @@
-# MEMOLINGUO
+# MEMO-RISER
 
 Easy to write / learn vocabulary lists powered by Jekyll.
 
-[Website](https://chrisbo246.github.io/memolinguo/)
-
-![MEMOLINGUO](screenshot.jpg)
+[![Preview](screenshot.png)](https://chrisbo246.github.io/memolinguo/)
 
 ## Features
 
+#### Learning
+
+- Convert boring definition lists into fun flipcards.
+- Mark memorized definitions (local storage).
+- Listen to translations (Text To Speech API ready).
+- Sleek and responsive design for readability.
+- Full width content (collapsible sidebar).
+
+#### Editing & collaboration
+
 - Quick & easy definition list edition thanks to the markdown syntax.
-- Convert boring definition lists to easy-to-read flexible cards.
-- Mark memorized definitions (with persistence).
-- Listen to translations (Text To Speech API).
+- Direct link to Github markdown editor.
+- Disqus comment system.
+
+#### Navigation
+
 - Filter posts by category, featured and new.
 - Index generation from anchors.
+- Breadcrumbs.
+- Related posts.
+- Fast loading.
+
+#### Style & fun
+
+- Page slide transition effect.
 - Smooth scroll.
-- Collapsible sidebar for full width content.
-- Share new definitions with the Disqus comment system.
-- Sounds on events for fun.
-- Cookie consent ready.
+- Sounds on events.
+- Font-awesome icons.
 
-## Responsive
-
-- Bootstrap 4.
-- Responsive ad container.
-
-## SEO
+#### SEO
 
 - Lazy load images.
 - Minified HTML and CSS.
 - Critical CSS.
 - Seo-tag plugin.
 
-## Under the hood
+#### Various
 
+- Bootstrap 4.
+- Github pages compilation compliant.
+- Bower package manager integration.
 - Translation ready.
-- Font-awesome icons.
-- Bower ready.
-- Github pages compliant.
+- Responsive ad container.
+- Cookie consent ready.
+
+
+## Known issues and bug reports
+
+[It's this way!](https://github.com/chrisbo246/memolinguo/issues)

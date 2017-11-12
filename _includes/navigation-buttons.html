@@ -1,0 +1,35 @@
+<div class="btn-group ml-2 -btn-group-vertical -btn-group-lg -w-100 -mb-3" role="group" aria-label="">
+
+  {% assign categories = '' | split: ' ' %}
+  {% assign tags = '' | split: ' ' %}
+  {% for category in page.categories %}
+  {% assign categories = categories | push: category %}
+  {% include related-posts.html type='pages' categories=categories tags=tags limit=1 %}
+  {% if posts.size > 0 %}
+  {% assign root_url = posts.first.url | default: '/' %}
+  {% endif %}
+  {% endfor %}
+  <a class="btn btn-secondary -d-flex -justify-content-center -align-items-center w-50" href="{{ root_url | relative_url }}" title="{{ t.return }}">
+    <i class="fa fa-chevron-left fa-fw fa-lg -fa-3x -d-block" aria-hidden="true"></i>
+    <small hidden>{{ t.return }}</small>
+  </a>
+
+  {% include related-posts.html limit=15 %}
+  {% if posts.size > 0 %}
+  <div class="btn-group -btn-group-lg w-50" role="group">
+    <button type="button" class="btn btn-secondary -d-flex -justify-content-center -align-items-center -dropdown-toggle rounded-right w-100" id="related-posts-dropdown" data-toggle="dropdown" title="{{ t.continue }}" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-chevron-right fa-fw fa-lg -fa-3x -d-block" aria-hidden="true"></i>
+      <small hidden>{{ t.continue }}</small>
+    </button>
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="related-posts-dropdown">
+      {% include dropdown-items.html posts=posts %}
+    </div>
+  </div>
+  {% else %}
+    <a class="btn btn-secondary -d-flex -justify-content-center -align-items-center w-50" href="{{ root_url | relative_url }}" title="{{ t.continue }}">
+      <i class="fa fa-chevron-right fa-fw fa-lg -fa-3x -d-block" aria-hidden="true"></i>
+      <small hidden>{{ t.continue }}</small>
+    </a>
+  {% endif %}
+
+</div>

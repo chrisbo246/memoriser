@@ -26,6 +26,10 @@ Vous devez au préalable disposer d'un compte [Github](https://github.com/) (gra
 Les articles sont au format  [markdown](https://guides.github.com/features/mastering-markdown/), un langage permettant de simplifier au maximum la rédaction d'articles. Mais ne paniquez pas, il suffit de vous inspirer l'exemple suivant.
 
 ```markdown
+---
+title: "Titre de l'article"
+---
+
 ## Titre de la section
 
 terme
@@ -53,10 +57,6 @@ en français
 : traduction
 *__prononciation__ Autres détails.*
 
-
-
 ```
 
-**N'oubliez pas de laisser une ligne vide après les titres et entre chaque définitions!**
-
-Pour information, sachez que chaque fichier doit contenir un entête délimité par trois tirets et contenant divers paramètres tel que le titre de la page, la catégorie, etc... Vous pouvez également le modifier mais ne l'effacez surtout pas!
+N'oubliez pas de laisser une ligne vide après les titres et entre chaque définitions. N'effacez surtout pas l'entête (délimité par trois tirets) et contenant divers paramètres tel que le titre de la page, la catégorie, etc...

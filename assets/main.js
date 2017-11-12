@@ -7,6 +7,7 @@
 {% include scripts/base64.js %}
 {% include scripts/definition-lists.js %}
 {% include scripts/filter.js %}
+{% include scripts/index.js %}
 {% include scripts/common.js %}
 {% include scripts/sound.js %}
 {% include scripts/bootstrap.js %}
