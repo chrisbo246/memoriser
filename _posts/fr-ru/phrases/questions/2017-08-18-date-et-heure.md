@@ -1,5 +1,5 @@
 ---
-title: "Questions en russe: Demander l'heure en russe"
+title: "Phrases russe: Demander l'heure en russe"
 description: "Phrases permettant de demander l'heure et la date du jour en russe."
 excerpt: "Phrases permettant de demander l'heure et la date du jour en russe."
 image:

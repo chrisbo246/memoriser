@@ -25,7 +25,7 @@ boutique
 *__boutik__*
 
 
-## Commerces de proximité
+## Commerces de bouche
 
 boucherie
 : скотобойня
@@ -39,6 +39,25 @@ pâtisserie
 : пекарня
 *__pietarnia__*
 
+café
+: кафе
+*__café__*
+
+bar
+: бар
+*__bar__*
+
+bistro
+: бистро
+*__bistro__*
+
+restaurant
+: ресторан
+*__ristoran'__*
+
+
+## Commerces de proximité
+
 bijouterie
 : ювелирные изделия
 *__youvielirnè izdiélia__*
@@ -46,10 +65,6 @@ bijouterie
 bijouterie
 : бижутерия
 *__bijoutiria__*
-
-bistro
-: бистро
-*__bistro__*
 
 
 ## Services de proximité
@@ -71,13 +86,13 @@ hôtel
 *__gastinitsa__*
 
 
-## Services publics
+## Services de sécurité
 
 police
 : полиция
 *__politsèa__*
 
-casèrne de pompiers
+caserne de pompiers
 : пожарное депо
 *__pajarniè depo__*
 
@@ -95,6 +110,10 @@ tribunal
 hôpital
 : больница
 *__balnitsa__*
+
+maison de fous (asile psychiatrique)
+: дурдом
+*__durdom__*
 
 cabinet médical
 : медицинский кабинет
@@ -126,13 +145,6 @@ université
 
 ## Loisirs
 
-bibliothèque
-: библиотека
-*__biblètiéka__*
-
-
-## Sortie
-
 park
 : парк
 *__park__*
@@ -141,21 +153,13 @@ cinéma
 : кино
 *__kino__*
 
+bibliothèque
+: библиотека
+*__biblètiéka__*
+
 théâtre
 : театр
 *__tieatr'__*
-
-café
-: кафе
-*__café__*
-
-bar
-: бар
-*__bar__*
-
-restaurant
-: ресторан
-*__ristoran'__*
 
 musée
 : музей
@@ -179,10 +183,3 @@ aéroport
 aérodrome
 : аэродром
 *__aèrodrom'__*
-
-
-## Argot
-
-asile psychiatrique
-: дурдом
-*__durdóm__*

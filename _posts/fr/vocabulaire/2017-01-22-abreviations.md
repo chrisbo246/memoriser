@@ -39,27 +39,27 @@ RDV
 
 AM
 : ante meridiem
-*Avant midi sur la montre.*
+*__anté méridième__ Avant midi sur la montre.*
 
 PM
 : post meridiem
-*Après midi sur la montre.*
+*__post méridième__ Après midi sur la montre.*
 
 e.g.
 : exempli gratia
-*Par exemple.*
+*__exempli gratcia__ Par exemple.*
 
 i.e.
 : id est
-*C'est-à-dire.*
+*__ide este__ C'est-à-dire.*
 
 P.S.
 : post-scriptum
-*Notes de fin.*
+*__post-scriptum__ Notes de fin.*
 
 R.I.P.
 : requiescat in pace
-*Repose en paix.*
+*__récuièscat'ine paché__ Repose en paix.*
 
 
 ## Abréviations d'origine anglaise

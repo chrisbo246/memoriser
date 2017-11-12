@@ -1,5 +1,5 @@
 ---
-title: "Phrases en russe: Exclamations et onomatopées"
+title: "Expressions russe: Exclamations et onomatopées"
 description: "Liste de vocabulaire russe recensant les exclamations les plus courantes."
 excerpt: "Liste de vocabulaire russe recensant les exclamations les plus courantes."
 image:
@@ -7,7 +7,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-categories: ["phrases"]
+categories: ["expressions"]
 tags: [
   expression, exclamation
 ]
@@ -90,6 +90,6 @@ A l'aide!
 
 ## Divers
 
-allô
-: алло
-*__allo__*
+Allô!
+: Алло!
+*__Allo!__*

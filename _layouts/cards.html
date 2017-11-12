@@ -4,54 +4,69 @@ layout: default
 {% assign lang = page.lang | default: site.lang | default: "en" %}
 {% assign t = site.data.locales[lang] %}
 
+{% include related-posts.html %}
+
 <div class="container-fluid">
+    <div class="row clearfix">
+      <div class="collapse col col-md-4 col-lg-3 col-xl-2 -col-md-5 -col-lg-4 order-2" id="post_options">
+        <div class="sidebar sticky-top">
 
-  {% if page.title %}
-  <header class="post-header" hidden>
-    <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
-    {% if page.subtitle %}
-    <h6 class="mb-2 text-muted">{{ post.subtitle | escape }}</h6>
-    {% endif %}
-  </header>
-  {% endif %}
+          {% if posts.size > 0 %}
+          {% include filter-togglers.html posts=posts direction="vertical" %}
+          {% endif %}
 
-  <div class="row">
-    {{ content }}
-  </div>
+        </div>
+      </div>
+      <div class="col order-1">
+        <article class="post">
+
+          {% if page.title %}
+          <header class="post-header" hidden>
+            <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
+            {% if page.subtitle %}
+            <h6 class="mb-2 text-muted">{{ post.subtitle | escape }}</h6>
+            {% endif %}
+          </header>
+          {% endif %}
+
+          {{ content }}
 
 
-  {% include related-posts.html %}
+          {% if posts.size > 0 %}
 
-  {% if posts.size > 0 %}
+          {% comment %}
+          <div class="collapse" id="post_list_options">
+            {% include filter-togglers.html posts=posts %}
+          </div>
+          {% endcomment %}
 
-  <div class="collapse" id="post_list_options">
-    {% include filter-togglers.html posts=posts %}
-  </div>
+          {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
+          <div class="card-columns">
+            {% for post in posts %}
+            {% if post.url and post.title and post.content.size > 100 %}
 
-  {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
-  <div class="card-columns">
-    {% for post in posts %}
-    {% if post.url and post.title and post.content.size > 100 %}
+            <div class="{% include filter-tags.html post=post %}">
+              <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
+              <div class="card card-flip">
+                {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
+                {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
+              </div>
+            </div>
 
-    <div class="{% include filter-tags.html post=post %}">
-      <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
-      <div class="card card-flip">
-        {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
-        {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
+            {% endif %}
+            {% endfor %}
+          </div>
+          <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
+
+          {% else %}
+          <div class="alert alert-info" role="alert">
+            <strong>{{ t.oups }}</strong> {{ t.no_result_info}}
+          </div>
+          {% endif %}
+
       </div>
     </div>
-
-    {% endif %}
-    {% endfor %}
   </div>
-  <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
-
-  {% else %}
-  <div class="alert alert-info" role="alert">
-    <strong>{{ t.oups }}</strong> {{ t.no_result_info}}
-  </div>
-  {% endif %}
-
 </div>
 
 <script type="application/ld+json">

@@ -215,6 +215,7 @@
         ttsOptions.hl = ddLang;
         ttsOptions.src = $el.text().replace(/s*\([^()]*\)/, '');
         $.speech(ttsOptions);
+        $button.button('toggle');
       });
     }
 

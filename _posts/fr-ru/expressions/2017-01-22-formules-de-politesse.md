@@ -1,5 +1,5 @@
 ---
-title: "Phrases en russe: Formules de politesse"
+title: "Expressions russe: Formules de politesse"
 description: "Liste de vocabulaire russe courant relatif aux formules de politesse."
 excerpt: "Liste de vocabulaire russe courant relatif aux formules de politesse."
 image:
@@ -7,7 +7,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-categories: ["phrases"]
+categories: ["expressions"]
 tags: [
   expression, politesse
 ]
@@ -17,25 +17,41 @@ date: 2017-04-01 00:39:00 +0100
 
 ## Bonjour
 
-Bonjour.
+Bonjour. (formel)
 : Здравствуйте.
-*__Zdrastvouytyé.__ Bonjour ou bonsoir formel. Littéralement soyez en bonne santé.*
+*__Zdrastvouytyé.__ Pour une personne qu'on vouvoie ou pour plusieurs personnes. Lit. soyez en bonne santé.*
+
+Bonsoir. (formel)
+: Здравствуйте.
+*__Zdrastvouytyé.__ Pour une personne qu'on vouvoie ou pour plusieurs personnes. Lit. soyez en bonne santé.*
+
+Bonjour! (bonne matinée)
+: Доброе утро!
+*__Dobré outra!__*
+
+Bonjour! (bon jour)
+: Добрый день!
+*__Dobri dién'! Pour une personne croisée par hazard.__*
+
+Bonsoir! (bon soir)
+: Добрый вечер!
+*__Dobry viétchèr!__*
+
+Bonjour!
+: здравствуй
+*__zdrastvouy__ Pour une personne qu'on tutoie. Lit. bonne santé*
+
+Salutations!
+: Приветствую!
+*__Priviètsvouyou!__*
 
 Salut!
 : Привет!
 *__Privièt!__*
 
-Bonne matinée!
-: Доброе утро!
-*__Dobré outra!__*
-
-Bonne journée!
-: Добрый день!
-*__Dobri dién'!__*
-
-Bonne soirée!
-: Добрый вечер!
-*__Dobry viétchèr!__*
+Salut toi! [fam.]
+: Здарова!
+*__Zdarova!__*
 
 
 ## Au revoir
@@ -141,6 +157,10 @@ De rien.
 : Пожалуйста.
 *__Pajalsta.__*
 
+Excusez-moi s'il vous plaît!
+: Извините, пожалуйста!
+*__Izvinitié pajalsta!__*
+
 
 ## Bonne ...
 
@@ -155,10 +175,6 @@ Ni duvet ni plume! (Bonne chance!) / Au diable!
 
 ## S'excuser
 
-Excusez-moi.
-: Извините.
-*__Izvinitié.__*
-
 Pardon.
 : Помилование.
 *__Pomilovenié.__*
@@ -166,3 +182,15 @@ Pardon.
 Désolé.
 : Простите.
 *__Prastitié.__*
+
+Excusez-moi.
+: Извините.
+*__Izvinitié.__*
+
+Excusez-moi, je suis en retard.
+: Извините, я опоздал.
+*__Izvinitié, ya pasdal.__*
+
+Excusez-moi, je débute en russe.
+: Извините, я начинаю на русском.
+*__Izvinitié, ya natchina na rouskom.__*

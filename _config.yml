@@ -114,6 +114,7 @@ defaults:
       author: chrisbo246
       publisher: chrisbo246
       comments: true
+      permalink: /:categories/:title.html
       #image:
         #path: "assets/images/posts/english-dictionary.jpg"
         #twitter: "assets/images/posts/english-dictionary.jpg"
@@ -149,7 +150,6 @@ defaults:
       type: "posts"
     values:
       layout: "definition-lists"
-      permalink: /:categories/:title.html
       categories: ["francais"]
       definition-lang: "fr-fr"
   -
@@ -158,7 +158,6 @@ defaults:
       type: "posts"
     values:
       layout: "definition-lists"
-      permalink: /:categories/:title.html
       categories: ["anglais"]
       definition-lang: "en-us"
   -
@@ -167,7 +166,6 @@ defaults:
       type: "posts"
     values:
       layout: "definition-lists"
-      permalink: /:categories/:title.html
       categories: ["russe"]
       definition-lang: "ru-ru"
       asides: ["_asides/2017-10-28-prononciation-russe.md"]

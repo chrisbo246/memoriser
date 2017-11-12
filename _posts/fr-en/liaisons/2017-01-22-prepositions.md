@@ -58,6 +58,9 @@ quelque peu
 à cause de
 : because of
 
+indépendamment de
+: regardless of
+
 parfait, parfaitement
 : flawless, flawlessly
 
@@ -66,7 +69,7 @@ parfait, parfaitement
 ## Début de phrase
 
 tout d'abord
-: formost
+: foremost
 
 avant toute chose
 : first of all
@@ -76,9 +79,6 @@ a première vue
 
 au premier abord
 : at first
-
-indépendamment de
-: regardless of
 
 au fait
 : by the way
@@ -101,5 +101,5 @@ en ce qui concerne
 il était une fois
 : once upon a time
 
-J'ai presque, J'ai failli ...
+J'ai failli ...
 : I almost ...

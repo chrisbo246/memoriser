@@ -1,12 +1,12 @@
-<div class="btn-toolbar justify-content-between mb-3" role="toolbar" aria-label="{{ t.filters }}">
+<div class="{% if include.direction == 'vertical' %}{% else %}btn-toolbar justify-content-between{% endif %} mb-3" role="toolbar" aria-label="{{ t.filters }}">
 
-  <div class="input-group my-1">
+  <div class="input-group {% if include.direction == 'vertical' %}mb-3{% else %}ml-3{% endif %}">
     <input type="text" class="form-control searchbox" id="searchbox" placeholder="{{ t.search_placeholder }}">
   </div>
 
   {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
   {% if categories %}
-  <div class="btn-group my-1" role="group" aria-label="{{ t.category_filters }}" data-toggle="buttons">
+  <div class="{% if include.direction == 'vertical' %}d-block btn-group-vertical mb-3{% else %}btn-group ml-3{% endif %}" role="group" aria-label="{{ t.category_filters }}" data-toggle="buttons">
     {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
     {% for filter in categories %}
     {% unless page.categories contains filter %}
@@ -24,7 +24,7 @@
   </div>
   {% endif %}
 
-  <div class="btn-group my-1" role="group" aria-label="{{ t.advanced_filters }}" data-toggle="buttons">
+  <div class="{% if include.direction == 'vertical' %}d-block btn-group-vertical -mb-3{% else %}btn-group -ml-3{% endif %}" role="group" aria-label="{{ t.advanced_filters }}" data-toggle="buttons">
     <label class="btn btn-outline-secondary active">
       <input type="radio" name="custom-filters" value="featured" class="filter-toggler" data-filter=".featured" checked>{{ t.featured }}
     </label>

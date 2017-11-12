@@ -16,7 +16,7 @@ date: 2017-03-28 20:51:00 +0100
 
 ## Famille
 
-parrain / marraine
+parrain, marraine
 : godparent
 
 parrain
@@ -43,7 +43,7 @@ ainé
 cadet
 : cadet
 
-personnes âgées
+personne âgée
 : elderly people
 
 
@@ -131,7 +131,7 @@ somnambule
 
 paresseux
 : a couch potato
-*Qui passe tout son temps devant la télé.*
+*Qui passe son temps devant la télé.*
 
 
 ## Personnages

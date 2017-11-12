@@ -14,9 +14,6 @@
 
 {% if include.face != 'back' %}
 
-{% if post.weight > 0 %}
-{% assign card-classes = 'bg-warning text-white' | split: ' ' | concat: card-classes %}
-{% endif %}
 
 {% if page.card.image != false %}
 {% assign src = post.image.default.path | default: post.image.default | default: post.image.path | default: post.image %}
@@ -39,6 +36,10 @@
 
 {% if include.face %}
 {% assign card-classes = include.face | split: ' ' | concat: card-classes %}
+{% endif %}
+
+{% if post.weight > 0 %}
+{% assign card-classes = 'bg-primary border-primary text-white' | split: ' ' | concat: card-classes %}
 {% endif %}
 
 {% if include.class %}
@@ -88,8 +89,6 @@
 {% elsif page.card.read_more_type == 'link' %}
 {% assign read-more-classes = 'card-link' | split: ' ' %}
 {% endif %}
-
-
 
 <div class="{{ card-classes | uniq | compact | join: ' ' }}" >
 

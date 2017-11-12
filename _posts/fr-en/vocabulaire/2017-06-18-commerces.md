@@ -14,12 +14,6 @@ tags: [
 date: 2017-01-01 00:00:00 +0100
 ---
 
-## Général
-
-alentours
-: surroundings
-
-
 ## Commerces de proximité
 
 centre commercial
@@ -39,9 +33,6 @@ droguerie
 
 bureau de prêteur sur gage
 : pawnshop
-
-maison de prostitution, maison close
-: brothel, whorehouse
 
 
 ## Lieux publiques
@@ -68,3 +59,9 @@ atelier
 monde inférieur
 : netherworld
 *L'enfer.*
+
+maison de prostitution, maison close
+: brothel, whorehouse
+
+maison de fous
+: madhouse

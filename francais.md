@@ -16,12 +16,12 @@ image:
   height: 360
 collection_type: "posts"
 tags: []
-categories: [francais]
+categories: ["francais"]
 comments: false
 nav:
   id: "secondary-nav"
   label: "Français"
-  position: 2
+  position: 1
   icon:
 card:
   image: true

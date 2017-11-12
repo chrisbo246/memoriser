@@ -14,16 +14,18 @@
     {% endif %}
 
     <div class="form-inline">
-      {% if page.layout == 'definition-lists' %}
+      {% if page.layout == 'definition-lists' or page.layout == 'cards' %}
       <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#post_options" aria-controls="post_options" aria-expanded="false" aria-label="{{ t.toggle_options }}">
         <span class="fa fa-bars fa-lg fa-fw" title="{{ t.toggle_options }}"></span>
       </button>
       {% endif %}
+      {% comment %}
       {% if page.layout == 'cards' %}
       <button type="button" class="btn btn-outline-secondary mr-2" data-toggle="collapse" data-target="#post_list_options" aria-controls="post_list_options" aria-expanded="false" aria-label="{{ t.toggle_filters }}">
         <span class="fa fa-filter fa-lg fa-fw" title="{{ t.toggle_filters }}"></span>
       </button>
       {% endif %}
+      {% endcomment %}
       {% if page.comments != false and site.disqus.shortname %}
       <button type="button" class="btn btn-outline-secondary mr-2 active" data-toggle="collapse" data-target="#comments" aria-controls="{{ t.comments }}" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
         <span class="fa fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>

@@ -1,5 +1,5 @@
 ---
-title: "Questions en russe: Questions courantes"
+title: "Phrases russe: Questions courantes"
 description: "Liste de questions courantes en russe."
 excerpt: "Liste de questions courantes en russe."
 image:
@@ -78,6 +78,10 @@ Quelle, Laquelle ...?
 : которая …?
 *__katoraya …?__*
 
+Il y a à manger?
+: Есть есть?
+*__Yest' yest'?__*
+
 
 ## Météo
 
@@ -125,7 +129,6 @@ Très bien, merci, et vous ?
 
 
 ## Divers
-
 
 Qu'as-tu … ?
 : что ты … ?

@@ -45,8 +45,8 @@ pis aller
 : Choisi faute de mieux.
 
 jubilé
-: - Cinquantième année de règne.
-  - Anniversaire important du mariage (noces d'argent, noces d'or).
+: - 50<sup>ème</sup> année de règne.
+  - Noces d'argent, d'or.
 
 
 ## Mouvements, orientations
@@ -75,11 +75,19 @@ nonobstant
 ## Situation
 
 acmé
-: Apogée, évolution ultime.
+: Sommet de l'évolution.
 *Sommet en Grec.*
 
+Iliade
+: Début
+*Première partie du récit d'Homère.*
+
+Odyssée
+: Fin
+*Dernière partie du récit d'Homère.*
+
 imbroglio
-: Situation confuse, complexe.
+: Situation complexe.
 
 omerta
 : Loi du silence
@@ -90,7 +98,8 @@ omerta
 ## Emploi, travail
 
 népotisme
-: Piston, favoritisme à l'égard des proches.
+: Piston.
+*Favoritisme à l'égard des proches.*
 
 prosélytisme
 : Recruter des adeptes, tenter d'imposer ses idées.
@@ -116,7 +125,7 @@ onanisme
 : Masturbation.
 
 miasme
-: Vapeur malsaine, gaz putride.
+: Gaz putride.
 
 
 ## Révolte
@@ -128,10 +137,10 @@ jacquerie
 : Révolte paysanne.
 
 katiba
-: Bataillon, compagnie.
+: Bataillon militaire.
 
 pogrome
-: Émeute sanglante dirigée contre une minorité ethnique ou religieuse.
+: Émeute sanglante dirigée contre une minorité.
 
 eugénisme
 : Sélection raciale.

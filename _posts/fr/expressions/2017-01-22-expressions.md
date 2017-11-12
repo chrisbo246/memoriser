@@ -34,6 +34,7 @@ c'est la Bérézina
 
 à huis clos
 : Interdit au public.
+*Huis comme huisserie. Lit. porte close.*
 
 entrer en lice
 : S'engager en compétition.

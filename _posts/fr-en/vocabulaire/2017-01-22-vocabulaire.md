@@ -89,3 +89,6 @@ connaissance
 
 savoir-faire
 : know-how
+
+alentours
+: surroundings

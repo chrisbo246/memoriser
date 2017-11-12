@@ -2,6 +2,23 @@
 (function ($, window, document) {
   'use strict';
 
+
+
+  /**
+  * Page leave transition with local URLs
+  */
+
+  $('a').filter('[href^="/"]').on('click', function () {
+    $('body').addClass('fadeOutLeft');
+    var href = $(this).attr('href');
+    window.setTimeout(function () {
+      window.location = href;
+    }, 1000);
+    return false;
+  });
+
+
+
   /**
   * Smooth scroll with anchors
   */

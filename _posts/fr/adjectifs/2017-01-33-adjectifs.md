@@ -9,7 +9,7 @@ image:
   height: 360
 categories: ["adjectifs"]
 tags: []
-date: 2017-04-01 17:22:00 +0100
+date: 2017-04-01 00:00:00 +0100
 ---
 
 ## Adjectifs
@@ -19,7 +19,8 @@ anthropique
 *Ex: un paysage anthorpique.*
 
 endémique
-: Qui sévit en permanence, espèce propres à un territoire.
+: - Qui sévit en permanence.
+  - Espèce propres à un territoire.
 
 extatique
 : Qui provoque l'extase.
@@ -30,7 +31,8 @@ onirique
 *Ex: un récit onirique.*
 
 trivial
-: Vulgaire, évident.
+: - Vulgaire.
+  - Evident.
 
 idoine
 : Idéale.
@@ -43,15 +45,6 @@ holistique
 prométhéen(ne)
 : Idéaliste.
 *Foi dans la condition humaine (ex: une vision prométhéenne).*
-
-
-## Apparence
-
-bigarré
-: Varié.
-
-chamarré
-: Coloré, couvert de décorations.
 
 
 ## Période

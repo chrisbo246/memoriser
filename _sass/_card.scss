@@ -31,12 +31,13 @@
   transition: transform 300ms;
   transition-timing-function: linear;
   transform-style: preserve-3d;
-  tranform: rotateY(0deg);
+  transform: rotateY(0deg);
 
   .card {
     backface-visibility: hidden;
     -webkit-font-smoothing: subpixel-antialiased;
     margin: 0;
+    height: 100%;
   }
 
   .card-position-absolute {

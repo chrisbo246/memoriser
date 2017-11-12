@@ -1,5 +1,5 @@
 ---
-title: "Vocabulaire russe: Adjectifs"
+title: "Adjectifs russe: Adjectifs"
 description: "Liste de vocabulaire russe courant."
 excerpt: "Liste de vocabulaire russe courant."
 image:
@@ -13,17 +13,6 @@ tags: [
 ]
 date: 2017-10-02 00:00:00 +0100
 ---
-
-## Taille
-
-petit
-: маленький
-*__malinki__*
-
-grand
-: большой
-*__balchoy__*
-
 
 ## Quantité
 
@@ -43,13 +32,6 @@ bon
 *__haracho__*
 
 
-## Apparence
-
-beau, joli
-: красивый
-*__krasivy__*
-
-
 ## Situation
 
 dangereux
@@ -59,3 +41,21 @@ dangereux
 difficile
 : трудно
 *__troudna__*
+
+
+## Position
+
+ouvert
+: открыто
+*__atkraito__*
+
+fermé
+: закрыто
+*__zakraita__*
+
+
+## Température
+
+… tiède
+: … тёплая
+*__… tioplaya__*

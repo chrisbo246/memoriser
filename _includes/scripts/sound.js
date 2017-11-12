@@ -7,8 +7,8 @@
     sounds: [
       {
         playerId: 'button-click-sound',
-        togglerSelector: '.btn',
-        togglerEvent: 'click',
+        togglerSelector: '.btn, button',
+        togglerEvent: 'mousedown',
         filePath: '{% endraw %}{{ 'assets/sounds/108336__qat__click-01-fast.wav' | relative_url }}{% raw %}'
       },
       {
@@ -21,7 +21,6 @@
         playerId: 'flipcard-flip-sound',
         togglerSelector: 'input.flipcard-position',
         togglerEvent: 'change',
-        //filePath: '{% endraw %}{{ 'assets/sounds/84322__splashdust__flipcard.wav' | relative_url }}{% raw %}'
         filePath: '{% endraw %}{{ 'assets/sounds/240777__f4ngy__dealing-card.wav' | relative_url }}{% raw %}'
       },
       {

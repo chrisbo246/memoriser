@@ -14,14 +14,6 @@ tags: [
 date: 2017-01-01 00:00:00 +0100
 ---
 
-allons-y
-: пойдем
-*__paydiom__*
-
-allons plus loin
-: пойдем дальше
-*__paydiom dalchniè__*
-
 voici, nous voici
 : вот
 *__vot'__*

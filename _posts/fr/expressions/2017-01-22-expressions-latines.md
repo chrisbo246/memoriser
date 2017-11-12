@@ -14,6 +14,7 @@ date: 2017-03-22 17:13:00 +0100
 
 de facto
 : De fait.
+*__dé facto__*
 
 dixit *[nom]*
 : D'après les dires de ...
@@ -32,9 +33,11 @@ in extenso
 
 in fine
 : À la fin, en dernier, finalement, en conclusion.
+*__ine finé__*
 
 in situ
 : Sur place.
+*__ine situ__*
 
 in vivo
 : Dans le vif.
@@ -60,3 +63,6 @@ sine die
 
 stricto sensu
 : Au sens strict.
+
+verbatim
+: Mot pour mot.

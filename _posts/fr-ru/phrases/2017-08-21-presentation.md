@@ -1,5 +1,5 @@
 ---
-title: "Phrases en russe: Se présenter"
+title: "Phrases russe: Se présenter"
 description: "Liste de phrases permettant de se présenter en russe."
 excerpt: "Liste de phrases permettant de se présenter en russe."
 image:
@@ -27,6 +27,10 @@ Je suis française
 J'habite en France.
 : Живу в Франции.
 *__Jouyvou oa frantsii.__*
+
+Je suis de France.
+: Я из Франции.
+*__Ya iz Frantsi.__*
 
 Je m'appelle ...
 : Меня зовут ...

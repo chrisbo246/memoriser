@@ -14,31 +14,15 @@ tags: [
 date: 2017-08-22 00:00:00 +0100
 ---
 
-
-## Argent
-
-Argent
-: деньги
-*__Dengui__*
-
-fric
-: бабки
-*__babki__*
-
-le blé
-: капуста
-*__kapousta__*
-
-
 ## Présentation
 
 prénom
 : имя
-*__imya__*
+*__imia__*
 
 nom de famille
 : фамилия
-*__familya__*
+*__familiya__*
 
 
 ## Sortir

@@ -85,22 +85,17 @@ body {
     font-size: 16px;
   }
 }
-@include media-breakpoint-up(xl) {
-  html {
-    font-size: 16px;
-  }
-}
 
 
 
 // Card columns
 
-@include media-breakpoint-up(xs) {
+@include media-breakpoint-up(md) {
   .card-columns {
     column-count: 1;
   }
 }
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(lg) {
   .card-columns {
     column-count: 2;
   }
@@ -115,7 +110,7 @@ body {
 
 // Hide content when the collapsible sidebar is open on narrow screens
 
-@include media-breakpoint-down(xs) {
+@include media-breakpoint-down(sm) {
   .col.collapse.show + .col {
     display: none;
   }

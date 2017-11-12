@@ -7,10 +7,17 @@
   * Convert title attributs into tooltips
   */
 
-  $('[title]').tooltip({
-    delay: {
-      "show": 3000,
-      "hide": 100
+  var $tooltips = $('[title]');
+  $tooltips.filter(':not(.btn)').tooltip({
+    'trigger': 'hover focus',
+    'delay': {
+      'show': 3000
+    }
+  });
+  $tooltips.filter('.btn').tooltip({
+    'trigger': 'hover',
+    'delay': {
+      'show': 3000
     }
   });
 
@@ -21,22 +28,12 @@
   */
 
   $('.flipcard-toggler').on('click', function() {
-    $(this).tooltip('hide');
     var $input = $(this).parents('.card-flip').prev('input');
     if ($input) {
       var checked = $input.prop('checked');
       $input.prop('checked', !checked).trigger('change');
+      $(this).tooltip('update');
     }
-  });
-
-
-
-  /**
-  * Hide tooltip while card flip
-  */
-
-  $('.card-flip').prev('input').on('change', function () {
-    $(this).next('.card-flip').find('[title]').tooltip('hide');
   });
 
 

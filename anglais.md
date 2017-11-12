@@ -19,7 +19,7 @@ image:
   height: 360
 collection_type: "posts"
 tags: []
-categories: [anglais]
+categories: ["anglais"]
 comments: false
 nav:
   id: "secondary-nav"

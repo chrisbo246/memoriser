@@ -1,5 +1,5 @@
 ---
-title: "Vocabulaire russe: Comportement"
+title: "Adjectifs russe: Comportement"
 description: "Liste d'adjectifs russe relatif au qualités et défauts."
 excerpt: "Liste d'adjectifs russe relatif au qualités et défauts."
 image:
@@ -63,3 +63,10 @@ talentueux
 poli
 : вежливый
 *__viéjlivi__*
+
+
+## Défauts
+
+fainéant
+: ленивый
+*__lenivi__*

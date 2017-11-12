@@ -1,5 +1,5 @@
 ---
-title: "Questions en russe: Demander son chemin en russe"
+title: "Phrases russe: Demander son chemin en russe"
 description: "Questions permettant de demander son chemin en russe."
 excerpt: "Questions permettant de demander son chemin en russe."
 image:
