@@ -9,7 +9,11 @@ if (window.localStorage) {
     var namespace = $progress.attr('data-id');
     var key = 'progress';
     var value = JSON.parse(localStorage.getItem(namespace + ':' + key));
-    $progress.find('.progress-bar').attr('aria-valuenow', (value || 0).toFixed()).css('width', (value || 0) + '%');
+    $progress
+      .find('.progress-bar')
+      .css('width', (value || 0) + '%')
+      //.html((value || 0).toFixed() + '%')
+      .attr('aria-valuenow', (value || 0).toFixed());
   });
 }
 

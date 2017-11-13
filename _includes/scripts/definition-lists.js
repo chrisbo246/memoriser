@@ -208,7 +208,12 @@
         var namespace = $container.attr('data-id');
         var key = 'progress';
         var value = ($inputs.filter(':checked').length / $inputs.length * 100) || 0;
-        $('.progress-bar').attr('aria-valuenow', value.toFixed()).css('width', value + '%');
+        var $progress = $container.find('.progress');
+        $progress
+          .find('.progress-bar')
+          .css('width', value + '%')
+          .html(value.toFixed() + '%')
+          .attr('aria-valuenow', value.toFixed());
         value = JSON.stringify(value);
         localStorage.setItem(namespace + ':' + key, value);
       }
