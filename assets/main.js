@@ -6,6 +6,7 @@
 
 {% include scripts/base64.js %}
 {% include scripts/definition-lists.js %}
+{% include scripts/cards.js %}
 {% include scripts/filter.js %}
 {% include scripts/index.js %}
 {% include scripts/common.js %}

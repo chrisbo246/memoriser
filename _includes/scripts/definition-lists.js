@@ -1,5 +1,4 @@
 {% raw %}
-
 (function ($, window, document) {
   'use strict';
 
@@ -192,7 +191,7 @@
 
 
     /**
-    * Toggle memorized card style
+    * Toggle memorized card style and store progression
     */
 
     $container.on('change', 'input[name^="memorized_definition_"]', function(e) {
@@ -202,6 +201,17 @@
       var checked = $input.is('[value="1"]:checked');
       $card.toggleClass('bg-dark text-muted', !checked);
       $card.toggleClass('bg-success text-white', checked);
+      // Memorize progression
+      if (window.localStorage) {
+        var $inputs = $('input[name^="memorized_definition_"][value="1"]');
+        //var namespace = encodeURIComponent(window.location.pathname);
+        var namespace = $container.attr('data-id');
+        var key = 'progress';
+        var value = ($inputs.filter(':checked').length / $inputs.length * 100) || 0;
+        $('.progress-bar').attr('aria-valuenow', value.toFixed()).css('width', value + '%');
+        value = JSON.stringify(value);
+        localStorage.setItem(namespace + ':' + key, value);
+      }
     });
 
 

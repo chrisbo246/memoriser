@@ -33,5 +33,6 @@ card:
   #title_link: true
   read_more_type: "button"
   read_more_container: "footer"
+  progress: true
 published: false
 ---
