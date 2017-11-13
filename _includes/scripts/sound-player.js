@@ -6,34 +6,34 @@
     playerClass: 'sound-player',
     sounds: [
       {
-        playerId: 'button-click-sound',
+        playerId: 'click-sound',
         togglerSelector: '.btn, button',
         togglerEvent: 'mousedown',
-        filePath: '{% endraw %}{{ 'assets/sounds/108336__qat__click-01-fast.wav' | relative_url }}{% raw %}'
+        filePath: '{% endraw %}{{ 'assets/sounds/click.wav' | relative_url }}{% raw %}'
       },
       {
-        playerId: 'nav-link-click-sound',
+        playerId: 'select-sound',
         togglerSelector: '.nav-link',
         togglerEvent: 'click',
-        filePath: '{% endraw %}{{ 'assets/sounds/171697__nenadsimic__menu-selection-click.wav' | relative_url }}{% raw %}'
+        filePath: '{% endraw %}{{ 'assets/sounds/select.wav' | relative_url }}{% raw %}'
       },
       {
-        playerId: 'flipcard-flip-sound',
+        playerId: 'flip-sound',
         togglerSelector: 'input.flipcard-position',
         togglerEvent: 'change',
-        filePath: '{% endraw %}{{ 'assets/sounds/240777__f4ngy__dealing-card.wav' | relative_url }}{% raw %}'
+        filePath: '{% endraw %}{{ 'assets/sounds/flip.wav' | relative_url }}{% raw %}'
       },
       {
-        playerId: 'success-sound',
+        playerId: 'won-sound',
         togglerSelector: 'input.memorized',
         togglerEvent: 'change',
-        filePath: '{% endraw %}{{ 'assets/sounds/253177__suntemple__retro-accomplished-sfx.wav' | relative_url }}{% raw %}'
+        filePath: '{% endraw %}{{ 'assets/sounds/won.wav' | relative_url }}{% raw %}'
       },
       {
         playerId: 'failed-sound',
         togglerSelector: 'input.unmemorized',
         togglerEvent: 'change',
-        filePath: '{% endraw %}{{ 'assets/sounds/15446__pitx__15399-fragmento.wav' | relative_url }}{% raw %}'
+        filePath: '{% endraw %}{{ 'assets/sounds/failed.wav' | relative_url }}{% raw %}'
       },
     ]
   };
@@ -45,7 +45,7 @@
       $('#' + sound.playerId).trigger('play');
     });
   });
-  $('body').find('script, link').first().before(html);
+  $('body').find('script[src=""], link').first().before(html);
 
 })(jQuery);
 {% endraw %}

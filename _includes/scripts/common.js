@@ -9,7 +9,7 @@
   */
 
   $('a').filter('[href^="/"]').on('click', function () {
-    $('body').addClass('fadeOutLeft');
+    $('.fadeInRight').addClass('fadeOutLeft');
     var href = $(this).attr('href');
     window.setTimeout(function () {
       window.location = href;

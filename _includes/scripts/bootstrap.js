@@ -53,6 +53,20 @@
 
 
   /**
+  * Hide toggler if target is missing
+  */
+
+  $('a[href*="#"], button[data-toggle]').each(function () {
+    var $el = $(this);
+    var target = $el.attr('href') || $el.attr('data-target');
+    if (!$(target)) {
+      $el.hide();
+    }
+  });
+
+
+
+  /**
   * Store / restore with local storage
   */
 

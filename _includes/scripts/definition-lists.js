@@ -135,13 +135,15 @@
 
       });
 
-      //html = '<div class="d-flex flex-row flex-wrap align-items-stretch align-self-stretch justify-content-between">' + html + '</div>';
-
+      html = html + '<input type="radio" id="flipcard_toggler_none" name="visible_definition" value="none" class="d-none" checked />';
       $dl.replaceWith(html);
+
+
+      //html = '<div class="d-flex flex-row flex-wrap align-items-stretch align-self-stretch justify-content-between">' + html + '</div>';
 
     });
 
-    $container.append('<input type="radio" id="flipcard_toggler_none" name="visible_definition" value="none" class="d-none" checked />');
+
 
 
 

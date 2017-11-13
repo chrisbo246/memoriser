@@ -7,7 +7,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {% include head.html %}
-<body class="animated fadeInRight">
+<body>
 
   {% include adsense.html %}
 
@@ -15,14 +15,14 @@ layout: compress
 
     {% include header.html %}
 
-    <main id="top" class="page-content py-3">
+    <main id="top" class="page-content animated fadeInRight py-3">
       <div class="wrapper">
         {{ content }}
       </div>
     </main>
 
     {% include comments.html %}
-    
+
     {% include footer.html %}
 
   </div>

@@ -332,8 +332,6 @@ orteil
 talon
 : -
 
-(https://fr.wikiversity.org/wiki/Russe/Vocabulaire/Le*corps*d'un*humain)
-
 
 ## Squelette
 

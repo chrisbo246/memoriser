@@ -1,9 +1,9 @@
 <div class="container-fluid">
-  <nav class="navbar navbar-light bg-light fixed-top justify-content-between">
+  <nav class="navbar navbar-light bg-light fixed-top justify-content-between animated fadeInRight">
 
     {% if page.layout == 'home' %}
     <a class="navbar-brand" href="{{ "/" | relative_url}}">
-      {{ site.title | slice: 0, 4 | escape }}<span class="fa fa-arrow-up text-success -fa-bolt -text-warning -align-middle"></span>{{ site.title | slice: 5, 5 | escape }}
+      {{ site.title | slice: 0, 4 | escape }}<span class="fa fa-arrow-up text-success -fa-bolt -text-warning -align-middle -animated -bounceIn"></span>{{ site.title | slice: 5, 5 | escape }}
     </a>
     {% endif %}
 
