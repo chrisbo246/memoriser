@@ -79,8 +79,9 @@
 {% endif %}
 
 {% assign title = post.title | split: ':' | last | strip %}
-{% assign subtitle = post.subtitle %}
-{% if title == subtitle %}
+{% assign subtitle = post.title | split: ':' | first | strip %}
+{% assign subtitle = post.subtitle | default: subtitle %}
+{% if subtitle == title %}
 {% assign subtitle = nil %}
 {% endif %}
 
@@ -100,6 +101,10 @@
 
   <div class="{{ card-body-classes | uniq | compact | join: ' ' }}">
 
+    {% if subtitle and include.face != 'back' %}
+    <h6 class="card-subtitle">{{ subtitle | escape }}</h6>
+    {% endif %}
+
     {% if title and include.face != 'back' %}
     <h4 class="{{ card-title-classes | uniq | compact | join: ' ' }}">
       {% if page.card.title_link %}
@@ -108,10 +113,6 @@
       {{ title | escape }}
       {% endif %}
     </h4>
-    {% endif %}
-
-    {% if subtitle and include.face != 'front' %}
-    <h6 class="card-subtitle mb-2 text-muted">{{ subtitle | escape }}</h6>
     {% endif %}
 
     {% if post.excerpt and include.face != 'front' %}
