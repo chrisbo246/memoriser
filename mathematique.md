@@ -7,7 +7,7 @@ description: ""
 excerpt: ""
 keywords: []
 image:
-  path: "assets/images/posts/math.png"
+  path: "assets/images/pages/math.png"
   type: "ImageObject"
   width: 640
   height: 360

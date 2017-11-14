@@ -4,7 +4,7 @@ title: "Vocabulaire anglais: Exclamations"
 description: "Liste de vocabulaire anglais regroupant quelques exclamations et onomatopées courantes."
 excerpt: "Liste de vocabulaire anglais regroupant quelques exclamations et onomatopées courantes."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/onomatopoeia.jpg
   type: "ImageObject"
   width: 640
   height: 360

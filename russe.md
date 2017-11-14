@@ -13,7 +13,7 @@ keywords: [
 "французские слова", "списки французских слов"
 ]
 image:
-  path: "assets/images/posts/fr-ru.png"
+  path: "assets/images/pages/fr-ru.png"
   type: "ImageObject"
   width: 640
   height: 360

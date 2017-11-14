@@ -4,7 +4,7 @@ title: "Vocabulaire anglais: Corps humain"
 description: "Liste de vocabulaire anglais courant relatif au corps humain."
 excerpt: "Liste de vocabulaire anglais courant relatif au corps humain."
 image:
-  path: assets/images/posts/body.jpg
+  path: assets/images/posts/eye.jpg
   type: "ImageObject"
   width: 640
   height: 360

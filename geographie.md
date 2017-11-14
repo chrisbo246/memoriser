@@ -7,7 +7,7 @@ description: ""
 excerpt: ""
 keywords: []
 image:
-  path: "assets/images/posts/world-map.png"
+  path: "assets/images/pages/world-map.png"
   type: "ImageObject"
   width: 640
   height: 360

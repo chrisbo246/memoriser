@@ -1,6 +1,6 @@
 ---
 layout: definition-lists
-title: "Vocabulaire russe: Temps"
+title: "Vocabulaire russe: Date et heure"
 description: "Liste de vocabulaire russe permettant de dire l'heure et une date."
 excerpt: "Liste de vocabulaire russe permettant de dire l'heure et une date."
 image:

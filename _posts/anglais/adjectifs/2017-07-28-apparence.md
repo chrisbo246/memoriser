@@ -4,7 +4,7 @@ title: "Vocabulaire anglais: Apparence"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/metal.jpg
   type: "ImageObject"
   width: 640
   height: 360

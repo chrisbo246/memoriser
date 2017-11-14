@@ -4,7 +4,7 @@ title: "Phrases russe: Questions courantes"
 description: "Liste de questions courantes en russe."
 excerpt: "Liste de questions courantes en russe."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/discussion.jpg
   type: "ImageObject"
   width: 640
   height: 360

@@ -13,7 +13,7 @@ keywords: [
 "french vocabulary", "french vocabulary list", "french vocabulary lists"
 ]
 image:
-  path: "assets/images/posts/fr-en.png"
+  path: "assets/images/pages/fr-en.png"
   type: "ImageObject"
   width: 640
   height: 360

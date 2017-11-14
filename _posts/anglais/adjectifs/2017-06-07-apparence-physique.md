@@ -4,7 +4,7 @@ title: "Vocabulaire anglais: Apparence physique"
 description: "Liste de vocabulaire anglais courant relatif à l'apparence physique d'une personne."
 excerpt: "Liste de vocabulaire anglais courant relatif à l'apparence physique d'une personne."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/man.jpg
   type: "ImageObject"
   width: 640
   height: 360
@@ -151,4 +151,4 @@ queue de cheval
 : ponytail
 
 mèche de cheveux
-: gathered hank of hair 
+: gathered hank of hair

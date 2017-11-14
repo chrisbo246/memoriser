@@ -4,7 +4,7 @@ title: "Vocabulaire anglais: Sensation"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/hands.jpg
+  path: assets/images/posts/sensation.jpg
   type: "ImageObject"
   width: 640
   height: 360

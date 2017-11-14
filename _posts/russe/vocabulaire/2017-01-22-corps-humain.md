@@ -4,7 +4,7 @@ title: "Vocabulaire russe: Corps humain"
 description: "Liste de vocabulaire russe courant relatif au corps humain."
 excerpt: "Liste de vocabulaire russe courant relatif au corps humain."
 image:
-  path: assets/images/posts/body.jpg
+  path: assets/images/posts/eye.jpg
   type: "ImageObject"
   width: 640
   height: 360

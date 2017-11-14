@@ -10,7 +10,7 @@ keywords: [
 "liste de mots", "listes de mots", "vocabulaire soutenu", "vocabulaire difficile", "vocabulaire rare"
 ]
 image:
-  path: "assets/images/posts/fr.png"
+  path: "assets/images/pages/fr.png"
   type: "ImageObject"
   width: 640
   height: 360

@@ -7,7 +7,7 @@ description: ""
 excerpt: ""
 keywords: []
 image:
-  path: "assets/images/posts/historic-fresco.png"
+  path: "assets/images/pages/historic-fresco.png"
   type: "ImageObject"
   width: 640
   height: 360

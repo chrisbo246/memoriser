@@ -195,12 +195,14 @@
     */
 
     $container.on('change', 'input[name^="memorized_definition_"]', function(e) {
+
       var $input = $(this);
       var $parent = $input.parents('.card-flip').first();
       var $card = $parent.find('.card').first();
       var checked = $input.is('[value="1"]:checked');
       $card.toggleClass('bg-dark text-muted', !checked);
       $card.toggleClass('bg-success text-white', checked);
+
       // Memorize progression
       if (window.localStorage) {
         var $inputs = $('input[name^="memorized_definition_"][value="1"]');
@@ -217,6 +219,7 @@
         value = JSON.stringify(value);
         localStorage.setItem(namespace + ':' + key, value);
       }
+      
     });
 
 

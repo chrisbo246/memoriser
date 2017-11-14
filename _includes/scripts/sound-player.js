@@ -6,31 +6,31 @@
     playerClass: 'sound-player',
     sounds: [
       {
-        playerId: 'click-sound',
+        playerId: 'click-sound-player',
         togglerSelector: '.btn, button',
         togglerEvent: 'mousedown',
         filePath: '{% endraw %}{{ 'assets/sounds/click.wav' | relative_url }}{% raw %}'
       },
       {
-        playerId: 'select-sound',
+        playerId: 'select-sound-player',
         togglerSelector: '.nav-link',
         togglerEvent: 'click',
         filePath: '{% endraw %}{{ 'assets/sounds/select.wav' | relative_url }}{% raw %}'
       },
       {
-        playerId: 'flip-sound',
+        playerId: 'flip-sound-player',
         togglerSelector: 'input.flipcard-position',
         togglerEvent: 'change',
         filePath: '{% endraw %}{{ 'assets/sounds/flip.wav' | relative_url }}{% raw %}'
       },
       {
-        playerId: 'won-sound',
+        playerId: 'won-sound-player',
         togglerSelector: 'input.memorized',
         togglerEvent: 'change',
         filePath: '{% endraw %}{{ 'assets/sounds/won.wav' | relative_url }}{% raw %}'
       },
       {
-        playerId: 'failed-sound',
+        playerId: 'failed-sound-player',
         togglerSelector: 'input.unmemorized',
         togglerEvent: 'change',
         filePath: '{% endraw %}{{ 'assets/sounds/failed.wav' | relative_url }}{% raw %}'
@@ -45,7 +45,8 @@
       $('#' + sound.playerId).trigger('play');
     });
   });
-  $('body').find('script[src=""], link').first().before(html);
+  //$('body').find('script[src], link').first().before(html);
+  $('body').find('div, section, footer').last().after(html);
 
 })(jQuery);
 {% endraw %}
