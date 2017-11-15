@@ -1,10 +1,10 @@
 ---
 layout: definition-lists
-title: "Phrases russe: Demander l'heure en russe"
+title: "Phrases russe: Demander l'heure"
 description: "Phrases permettant de demander l'heure et la date du jour en russe."
 excerpt: "Phrases permettant de demander l'heure et la date du jour en russe."
 image:
-  path: assets/images/posts/clock.jpg
+  path: assets/images/posts/check-time.jpg
   type: "ImageObject"
   width: 640
   height: 360

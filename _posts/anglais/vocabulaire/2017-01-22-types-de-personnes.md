@@ -29,15 +29,6 @@ marraine
 
 ## Selon l’âge
 
-jeune femme
-: gal
-
-jeune homme
-: youngster
-
-gamin
-: kid
-
 ainé
 : elder
 
@@ -46,6 +37,24 @@ cadet
 
 personne âgée
 : elderly people
+
+
+## Homme selon l'âge
+
+gamin
+: kid
+
+jeune homme
+: youngster
+
+
+## Femme selon l'âge
+
+gamine
+: lassie
+
+jeune femme
+: gal
 
 
 ## Selon la proximité
@@ -66,37 +75,10 @@ gars
 : guy
 
 
-## Statut
+## Statut social
 
 célibataire
 : bachelor
-
-
-## Vagabonds
-
-clochard
-: bum
-*Bon à rien.*
-
-sans domicile
-: hobo
-
-vagabond
-: tramp
-*Clochard.*
-
-vagabond
-: wanderer
-*Personne errant sans but.*
-
-clochard
-: vagrant
-
-mendiant
-: beggar
-
-pèlerin
-: pilgrim
 
 
 ## Expressions
@@ -133,6 +115,33 @@ somnambule
 paresseux
 : a couch potato
 *Qui passe son temps devant la télé.*
+
+
+## Vagabonds
+
+clochard
+: bum
+*Bon à rien.*
+
+sans domicile
+: hobo
+
+vagabond
+: tramp
+*Clochard.*
+
+vagabond
+: wanderer
+*Personne errant sans but.*
+
+clochard
+: vagrant
+
+mendiant
+: beggar
+
+pèlerin
+: pilgrim
 
 
 ## Personnages

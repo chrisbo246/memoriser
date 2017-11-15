@@ -204,13 +204,14 @@
       $card.toggleClass('bg-success text-white', checked);
 
       // Memorize progression
+      var $progress = $container.find('.progress');
       if (window.localStorage) {
         var $inputs = $('input[name^="memorized_definition_"][value="1"]');
         //var namespace = encodeURIComponent(window.location.pathname);
         var namespace = $container.attr('data-id');
         var key = 'progress';
         var value = ($inputs.filter(':checked').length / $inputs.length * 100) || 0;
-        var $progress = $container.find('.progress');
+
         $progress
           .find('.progress-bar')
           .css('width', value + '%')
@@ -218,8 +219,10 @@
           .attr('aria-valuenow', value.toFixed());
         value = JSON.stringify(value);
         localStorage.setItem(namespace + ':' + key, value);
+      } else {
+        $progress.hide();
       }
-      
+
     });
 
 

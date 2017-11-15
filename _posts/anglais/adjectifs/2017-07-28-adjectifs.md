@@ -1,6 +1,6 @@
 ---
 layout: definition-lists
-title: "Vocabulaire anglais: Adjectifs"
+title: "Adjectifs anglais: Adjectifs"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
@@ -15,8 +15,19 @@ tags: [
 date: 2017-07-28 20:51:00 +0100
 ---
 
+## Valeur
+
+bon marché
+: bargain
+
+bon rapport qualité-prix
+: good value
+
+de valeur
+: valuable
+
+
+## Divers
+
 bien nommé
 : aptly named
-
-... de rechange
-: Spare ...

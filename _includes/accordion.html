@@ -3,21 +3,21 @@
 <div id="{{ include.id | default: 'accordion' }}" role="tablist">
 
   {% for post in include.posts %}
-  <div class="card mb-3 {{ post.card.class }}">
-    {% if post.header %}
+  {% if post.title %}
+  <div class="card mb-3 {{ post.card.class | default: include.card_class }}">
     <div class="card-header" role="tab" id="aside_header_{{ forloop.index }}" data-toggle="collapse" data-target="#aside_collapse_{{ forloop.index }}" {% if forloop.index == 0 %}aria-expanded="true"{% endif %} aria-controls="aside_collapse_{{ forloop.index }}">
       <h5 class="mb-0">
-        {% if post.icon %}<span class="{{ post.icon }}"></span> {% endif %}
+        {% if post.icon or include.icon_class %}<span class="{{ post.icon.class | default: include.icon_class }} mr-2"></span> {% endif %}
         {{ post.title }}
       </h5>
     </div>
-    {% endif %}
     <div id="aside_collapse_{{ forloop.index }}" class="collapse {% if forloop.index == 0 %}show{% endif %}" role="tabpanel" aria-labelledby="aside_header_{{ forloop.index }}" data-parent="#{{ include.id | default: 'accordion' }}">
       <div class="card-body">
-        <p class="card-text">{{ post.content | strip }}</p>
+        <p class="card-text">{{ post.content | strip_newlines }}</p>
       </div>
     </div>
   </div>
+  {% endif %}
   {% endfor %}
 
 </div>

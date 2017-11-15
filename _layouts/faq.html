@@ -1,0 +1,8 @@
+---
+layout: post
+---
+
+{{ content }}
+
+{% assign posts = site.helps | where_exp: 'item', 'item.lang == page.lang' %}
+{% include accordion.html id="faq" posts=posts icon_class="fa fa-question-circle fa-lg " %}

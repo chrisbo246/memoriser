@@ -35,13 +35,13 @@ Masculin
 
 Féminin
 : Remplacer la dernière lettre du nom.
-  - А &gt; Ы
-  - Я &gt; И
+  - А > Ы
+  - Я > И
 
 Neutre
 : Remplacer la dernière lettre du nom.
-  - О &gt; А
-  - Е &gt; Я
+  - О > А
+  - Е > Я
 
 
 ## Tableau récapitulatif
@@ -219,11 +219,11 @@ Neutre
 </tbody>
 <tfoot>
 <ol>
-<li>Caractère majuscule en police Cyrillique (les minuscules sont quasiment identiques). Les voyelles sont en vert, les consonnes en bleu.</li>
-<li>Si la lettre est située à la fin d'un mot, cela défini le genre:
-<strong>M</strong>asculin, <strong>F</strong>éminin, masculin ou féminin <strong>M/F</strong>, <strong>N</strong>eutre.</li>
-<li>Si la lettre est située à la fin d'un mot (ou avant la voyelle finale), ajouter la lettre indiquée:
-<strong>X</strong> remplacer, <strong>+X</strong> ajouter aprés, +<strong>X.</strong> supprimer l'éventuelle voyelle et ajouter aprés.</li>
+<li>Caractère majuscule en Cyrillique. Les voyelles sont en vert, les consonnes en bleu.</li>
+<li>Située à la fin d'un nom, cette lettre défini le genre:
+<strong>M</strong>asculin, <strong>F</strong>éminin, <strong>N</strong>eutre, masculin ou féminin <strong>M/F</strong> (voir dictionnaire).</li>
+<li>Si la lettre est située à la fin d'un mot (éventuellement suivi d'une voyelle), ajouter la lettre indiquée pour former le pluriel:
+<strong>X</strong> remplacer, <strong>+X</strong> ajouter après, +<strong>X.</strong> supprimer l'éventuelle voyelle et ajouter après.</li>
 </ol>
 </tfoot>
 </table>

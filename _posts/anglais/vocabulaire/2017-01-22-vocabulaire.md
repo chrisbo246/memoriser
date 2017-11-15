@@ -1,17 +1,15 @@
 ---
 layout: definition-lists
-title: "Vocabulaire anglais: Divers"
-description: "Liste de vocabulaire anglais courant difficiles à mémoriser."
-excerpt: "Liste de vocabulaire anglais courant difficiles à mémoriser."
+title: "Vocabulaire anglais: Vocabulaire en vrac"
+description: "Du vocabulaire anglais courant en attente de classement."
+excerpt: "Du vocabulaire anglais courant en attente de classement."
 image:
   path: assets/images/posts/english-dictionary.jpg
   type: "ImageObject"
   width: 640
   height: 360
 categories: ["anglais", "vocabulaire"]
-tags: [
-
-]
+tags: []
 date: 2017-01-01 00:00:00 +0100
 ---
 
@@ -68,6 +66,18 @@ une chape
 *Ex: Une chape de béton.*
 
 
+## Argot
+
+signature
+: John Hancock
+
+
+## Comportement
+
+crise de la quarantaine
+: midlife crisis
+
+
 ## Divers
 
 gage
@@ -93,3 +103,15 @@ savoir-faire
 
 alentours
 : surroundings
+
+gros mots
+: swearwords
+
+une belle histoire
+: a feel good story
+
+connaissance de soi
+: self-awareness
+
+durée de vie
+: lifespan

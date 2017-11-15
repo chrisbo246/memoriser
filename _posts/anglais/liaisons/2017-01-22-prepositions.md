@@ -67,7 +67,7 @@ parfait, parfaitement
 
 
 
-## Début de phrase
+## Pour commencer
 
 tout d'abord
 : foremost
@@ -81,20 +81,26 @@ a première vue
 au premier abord
 : at first
 
+
+## En conclusion
+
+en bref
+: at a glance
+
+l'un dans l'autre
+: all in all
+
+
+## Début de phrase
+
 au fait
 : by the way
 
 toutes blagues mises à part
 : all jokes aside
 
-l'un dans l'autre
-: all in all
-
 encore un autre
 : yet another
-
-en bref
-: at a glance
 
 en ce qui concerne
 : when it comes to

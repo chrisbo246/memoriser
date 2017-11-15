@@ -1,10 +1,10 @@
 ---
 layout: definition-lists
-title: "Adjectifs russe: Comportement"
+title: "Adjectifs russe: Comportements"
 description: "Liste d'adjectifs russe relatif au qualités et défauts."
 excerpt: "Liste d'adjectifs russe relatif au qualités et défauts."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/smiling-woman.jpg
   type: "ImageObject"
   width: 640
   height: 360

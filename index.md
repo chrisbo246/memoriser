@@ -3,12 +3,10 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-title: "Enrichissez votre vocabulaire!"
-description: "Listes de vocabulaire regroupant mots composés et expressions courantes difficile à apprendre autrement que par la pratique."
-excerpt: "MEMO-RISER vous propose des listes de vocabulaire contenant des mots
-composés, expressions et du vocabulaire soutenu relativement courant mais
-difficile à apprendre autrement que par la pratique. De quoi combler rapidement
-vos petites lacunes!"
+lang: fr
+title: "Les fiches de rattrapage pour les pressés!"
+description: "Des fiches de rattrapage thématiques présentées de manière claire et ludique pour combler rapidement vos petites lacunes."
+excerpt: "Cette application vous propose des fiches de rattrapage thématiques présentées de manière claire et ludique. De quoi combler rapidement vos petites lacunes!"
 keywords: ["cours de langue", "liste de vocabulaire", "listes de vocabulaire",
 "vocabulaire français", "vocabulaire français", "cours de français",
 "french vocabulary", "french courses",

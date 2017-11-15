@@ -34,7 +34,7 @@ théocrate
 : L'incarnation de dieu.
 
 
-##
+## Divers
 
 arcane
 : Secret.
@@ -42,9 +42,6 @@ arcane
 
 collusion
 : Entente secrète.
-
-
-##
 
 régalien
 : Relatif au roi, au chef de l'état.

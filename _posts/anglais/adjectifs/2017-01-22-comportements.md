@@ -1,10 +1,10 @@
 ---
 layout: definition-lists
-title: "Vocabulaire anglais: Comportements"
+title: "Adjectifs anglais: Comportements"
 description: "Liste de vocabulaire anglais courant relatif au comportement d'une personne."
 excerpt: "Liste de vocabulaire anglais courant relatif au comportement d'une personne."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/smiling-woman.jpg
   type: "ImageObject"
   width: 640
   height: 360
@@ -115,9 +115,6 @@ pourri jusqu'à la moelle
 
 incontrôlable
 : out of hand
-
-ne jamais se taire
-: go on and on
 
 désobéissant
 : disobedient

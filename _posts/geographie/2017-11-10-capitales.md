@@ -472,12 +472,8 @@ Paraguay
 : Asuncion
 
 Pays-Bas
-: Amsterdam
-*Capitale constitutionnelle.*
-
-Pays-Bas
-: La Haye
-*Capitale politique.*
+: Amsterdam / La Haye
+*Capitale constitutionnelle / politique.*
 
 Pérou
 : Lima

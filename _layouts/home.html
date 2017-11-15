@@ -6,23 +6,27 @@ layout: default
 
 <div class="home">
 
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid bg-primary text-white bm-0">
     <div class="container">
-      <h1 class="display-4">{{ page.title | default: site.title }}</h1>
+      <h1 class="display-3">{{ page.title | default: site.title }}</h1>
       <p class="lead">{{ page.excerpt | default: site.description }}</p>
+      {% assign content = content | strip_newlines %}
+      {% if content.length > 0 %}
+        <hr class="my-4">
+        {{ content }}
+      {% endif %}
     </div>
   </div>
 
-  <div class="container-fluid">
-
-    {% assign posts = site.pages | where_exp: 'item', 'item.categories' | sort: 'title' %}
-    {% if posts.size > 0 %}
-    <section class="row">
+  {% assign posts = site.pages | where_exp: 'item', 'item.categories' | sort: 'title' %}
+  {% if posts.size > 0 %}
+  <section class="container-fluid">
+    <div class="row">
       <div class="col">
-        <div class="card-columns">
+        <h2 class="display-4 text-muted" hidden>{{ t.theme_list }}</h2>
+        <div class="card-columns my-3">
           {% for post in posts %}
           {% if post.url and post.title %}
-
           <div class="{% include filter-tags.html post=post %}">
             <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
             <div class="card card-flip">
@@ -30,24 +34,40 @@ layout: default
               {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
             </div>
           </div>
-
           {% endif %}
           {% endfor %}
         </div>
         <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
       </div>
-    </section>
-    {% endif %}
+    </div>
+  </section>
+  {% endif %}
 
-    {% if content %}
-    <section class="row">
-      <div class="col">
-        {{ content }}
-      </div>
-    </section>
-    {% endif %}
 
+  <div class="jumbotron jumbotron-fluid bg-white text-danger text-right mb-0">
+    <div class="container">
+      <h1 class="display-4"><i class="fa fa-heart fa-3x pull-left" aria-hidden="true"></i>{{ t.contribution_tip_title }}</h1>
+      <p class="lead">{{ t.contribution_tip_text }}</p>
+      <p>
+        <a class="btn btn-danger" href="{{ '/' | append: lang | append: '/faq/' | relative_url }}" role="button">
+          <i class="fa fa-question-circle fa-lg mr-2" aria-hidden="true"></i>{{ t.read_help }}
+        </a>
+      </p>
+    </div>
   </div>
+
+  <div class="jumbotron jumbotron-fluid bg-white text-muted mb-0">
+    <div class="container">
+      <h1 class="display-4"><i class="fa fa-envelope fa-3x pull-right" aria-hidden="true"></i>{{ t.contact_tip_title }}</h1>
+      <p class="lead">{{ t.contact_tip_text }}</p>
+      <p>
+        <a class="btn btn-secondary" href="https://docs.google.com/forms/d/1twlFd6Y3-BNf9l1JTH42yatGEQvXgpmm_wd_2wOLlS0/prefill" role="button">
+          <span class="fa fa-envelope fa-lg mr-2" aria-hidden="true"></span>{{ t.contact_form }}
+        </a>
+      </p>
+    </div>
+  </div>
+
 </div>
 
 <script type="application/ld+json">

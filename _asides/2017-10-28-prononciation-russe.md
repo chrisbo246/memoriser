@@ -1,7 +1,8 @@
 ---
 title: "Rappel concernant la prononciation"
 header: "Rappel"
-icon: "fa fa-lg fa-info-circle"
+icon:
+  class: "fa fa-lg fa-info-circle"
 card:
   class: "text-info border-info"
 alert:

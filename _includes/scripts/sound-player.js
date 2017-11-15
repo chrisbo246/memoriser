@@ -38,15 +38,18 @@
     ]
   };
 
-  var html = '';
+  var $player, html = '';
   $.each(settings.sounds, function (i, sound) {
     html = html + '<audio id="' + sound.playerId + '" class="' + settings.playerClass + '" hidden><source src="' + sound.filePath + '" /></audio>';
     $(settings.container).on(sound.togglerEvent, sound.togglerSelector, function () {
-      $('#' + sound.playerId).trigger('play');
+      var player = $('#' + sound.playerId)[0];
+      player.pause();
+      player.currentTime = 0;
+      player.play();
     });
   });
   //$('body').find('script[src], link').first().before(html);
-  $('body').find('div, section, footer').last().after(html);
+  $('body > *').filter('div, section, footer').last().after(html);
 
 })(jQuery);
 {% endraw %}

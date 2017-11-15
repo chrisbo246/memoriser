@@ -4,7 +4,7 @@ title: "Vocabulaire russe: Date et heure"
 description: "Liste de vocabulaire russe permettant de dire l'heure et une date."
 excerpt: "Liste de vocabulaire russe permettant de dire l'heure et une date."
 image:
-  path: assets/images/posts/watch.jpg
+  path: assets/images/posts/check-time.jpg
   type: "ImageObject"
   width: 640
   height: 360
