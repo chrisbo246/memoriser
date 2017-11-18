@@ -2,7 +2,8 @@
 title: "À vous de jouer!"
 header: "Rappel"
 icon:
-  class: "fa fa-lg fa-info-circle"
+  fa: "fa fa-lg fa-info-circle"
+  oi: "info"
 card:
   class: "text-info border-info"
 alert:

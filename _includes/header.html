@@ -3,7 +3,7 @@
 
     {% if page.layout == 'home' %}
     <a class="navbar-brand" href="{{ "/" | relative_url}}">
-      <span class="h6">{{ site.title | slice: 0, 4 | escape }}</span><span class="fa fa-arrow-up text-success"></span><span class="h4 font-weight-bold">{{ site.title | slice: 5, 5 | escape }}</span>
+      <span class="h6">{{ site.title | slice: 0, 4 | escape }}</span><span class="fa fa-arrow-up text-success"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/arrow-thick-top.svg' | relative_url }}" class="oi oi-lg text-success" alt="arrow-thick-top" hidden>{% endcomment %}<span class="h4 font-weight-bold">{{ site.title | slice: 5, 5 | escape }}</span>
     </a>
     {% endif %}
 
@@ -20,24 +20,24 @@
       {% comment %}
       {% if page.layout == 'cards' %}
       <button type="button" class="btn btn-outline-secondary ml-2" data-toggle="collapse" data-target="#post_list_options" aria-controls="post_list_options" aria-expanded="false" aria-label="{{ t.toggle_filters }}">
-        <span class="fa fa-filter fa-lg fa-fw" title="{{ t.toggle_filters }}"></span>
+        <span class="fa fa-filter fa-lg fa-fw" title="{{ t.toggle_filters }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/funnel.svg' | relative_url }}" class="oi oi-lg" alt="funnel" hidden>{% endcomment %}
       </button>
       {% endif %}
       {% endcomment %}
       {% if page.comments != false and site.disqus.shortname %}
-      <button type="button" class="btn btn-outline-secondary ml-2 active" data-toggle="collapse" data-target="#comments" aria-controls="{{ t.comments }}" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
-        <span class="fa fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>
+      <button type="button" class="btn btn-outline-secondary ml-2 -active" data-toggle="collapse" data-target="#comments" aria-controls="{{ t.comments }}" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
+        <span class="fa fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/comment-square.svg' | relative_url }}" class="oi oi-lg" alt="comment-square" hidden>{% endcomment %}
       </button>
       {% endif %}
       {% if page.layout == 'post' or page.layout == 'definition-lists' or page.layout == 'cards' %}
       <button type="button" class="btn btn-outline-secondary ml-2" data-toggle="collapse" data-target="#post_options" aria-controls="post_options" aria-expanded="false" aria-label="{{ t.toggle_options }}">
-        <span class="fa fa-bars fa-lg fa-fw" title="{{ t.toggle_options }}"></span>
+        <span class="fa fa-bars fa-lg fa-fw" title="{{ t.toggle_options }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/menu.svg' | relative_url }}" class="oi oi-lg" alt="menu" hidden>{% endcomment %}
       </button>
       {% endif %}
       {% comment %}
       {% if page.layout == 'home' %}
       <button class="btn btn-outline-secondary ml-2" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="{{ t.toggle_navigation }}">
-        <span class="fa fa-question -fa-ellipsis-h fa-lg fa-fw" title="{{ t.toggle_navigation }}"></span>
+        <span class="fa fa-question fa-lg fa-fw" title="{{ t.toggle_navigation }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/question.svg' | relative_url }}" class="oi oi-lg" alt="question" hidden>{% endcomment %}
       </button>
       {% endif %}
       {% endcomment %}

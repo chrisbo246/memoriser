@@ -6,7 +6,7 @@ layout: default
 
 <div class="home">
 
-  <div class="jumbotron jumbotron-fluid bg-primary text-white bm-0">
+  <div class="jumbotron jumbotron-fluid bg-transparent mb-0">
     <div class="container">
       <h1 class="display-3">{{ page.title | default: site.title }}</h1>
       <p class="lead">{{ page.excerpt | default: site.description }}</p>
@@ -24,16 +24,16 @@ layout: default
     <div class="row">
       <div class="col">
         <h2 class="display-4 text-muted" hidden>{{ t.theme_list }}</h2>
-        <div class="card-columns my-3">
+        <div class="card-deck -card-columns my-3">
           {% for post in posts %}
           {% if post.url and post.title %}
-          <div class="{% include filter-tags.html post=post %}">
+          <!--<div class="{% include filter-tags.html post=post %}">-->
             <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
-            <div class="card card-flip">
+            <div class="card card-flip col-md-6 {% include filter-tags.html post=post %}">
               {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded" title-class="h2 font-weight-bold" %}
               {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
             </div>
-          </div>
+          <!--</div>-->
           {% endif %}
           {% endfor %}
         </div>
@@ -43,28 +43,38 @@ layout: default
   </section>
   {% endif %}
 
-
-  <div class="jumbotron jumbotron-fluid bg-white text-danger text-right mb-0">
-    <div class="container">
-      <h1 class="display-4"><i class="fa fa-heart fa-3x pull-left" aria-hidden="true"></i>{{ t.contribution_tip_title }}</h1>
-      <p class="lead">{{ t.contribution_tip_text }}</p>
-      <p>
-        <a class="btn btn-danger" href="{{ '/' | append: lang | append: '/faq/' | relative_url }}" role="button">
-          <i class="fa fa-question-circle fa-lg mr-2" aria-hidden="true"></i>{{ t.read_help }}
-        </a>
-      </p>
-    </div>
-  </div>
-
-  <div class="jumbotron jumbotron-fluid bg-white text-muted mb-0">
-    <div class="container">
-      <h1 class="display-4"><i class="fa fa-envelope fa-3x pull-right" aria-hidden="true"></i>{{ t.contact_tip_title }}</h1>
-      <p class="lead">{{ t.contact_tip_text }}</p>
-      <p>
-        <a class="btn btn-secondary" href="https://docs.google.com/forms/d/1twlFd6Y3-BNf9l1JTH42yatGEQvXgpmm_wd_2wOLlS0/prefill" role="button">
-          <span class="fa fa-envelope fa-lg mr-2" aria-hidden="true"></span>{{ t.contact_form }}
-        </a>
-      </p>
+  <div class="container-fluid">
+    <div class="card-deck">
+      <div class="card -jumbotron -jumbotron-fluid -bg-white text-danger -text-right -mb-0">
+        <div class="card-body -container">
+          <h4 class="card-title -display-4">
+            {% comment %}<i class="fa fa-heart fa-3x pull-left" aria-hidden="true"></i>
+            <img src="{{ '/bower_components/open-iconic/svg/heart.svg' | relative_url }}" class="oi oi-3x pull-left" alt="heart" hidden>{% endcomment %}
+            {{ t.help_tip_title }}
+          </h4>
+          <p class="card-text -lead">{{ t.help_tip_text }}</p>
+        </div>
+        <footer class="card-footer bg-transparent border-0">
+          <a class="btn btn-danger" href="{{ '/' | append: lang | append: '/faq/' | relative_url }}" role="button">
+            <i class="fa fa-question-circle fa-lg mr-2" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/question-mark.svg' | relative_url }}" class="oi oi-lg mr-2" alt="question-mark" hidden>{% endcomment %}{{ t.read_help }}
+          </a>
+        </footer>
+      </div>
+      <div class="card -jumbotron -jumbotron-fluid -bg-white text-muted -mb-0">
+        <div class="card-body -container">
+          <h4 class="card-title -display-4">
+            {% comment %}<i class="fa fa-envelope fa-3x pull-right" aria-hidden="true"></i>
+            <img src="{{ '/bower_components/open-iconic/svg/envelope-closed.svg' | relative_url }}" class="oi oi-3x pull-right" alt="envelope-closed" hidden>{% endcomment %}
+            {{ t.contact_tip_title }}
+          </h4>
+          <p class="card-text -lead">{{ t.contact_tip_text }}</p>
+        </div>
+        <footer class="card-footer bg-transparent border-0">
+          <a class="btn btn-secondary" href="https://docs.google.com/forms/d/1twlFd6Y3-BNf9l1JTH42yatGEQvXgpmm_wd_2wOLlS0/prefill" role="button">
+            <span class="fa fa-envelope fa-lg mr-2" aria-hidden="true"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/envelope-closed.svg' | relative_url }}" class="oi oi-lg mr-2" alt="envelope-closed" hidden>{% endcomment %}{{ t.contact_form }}
+          </a>
+        </footer>
+      </div>
     </div>
   </div>
 

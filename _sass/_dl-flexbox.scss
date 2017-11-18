@@ -2,7 +2,7 @@
 .definition-list  {
 
   perspective: 5000px;
-  
+
   .card {
     //min-width: 8rem;
     //min-height: 8rem;
@@ -38,7 +38,9 @@
 
       // Question / Success sign as background
       &:after {
-        content: "\f128";
+        //content:'\e0b0'; // iconic
+        //font-family: 'Icons';
+        content: "\f128"; // font-awesome
         font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
@@ -58,7 +60,8 @@
 
       &.bg-success {
         &:after {
-          content: "\f00c";
+          //content:'\e033'; // iconic
+          content: "\f00c"; // font-awesome
         }
       }
 

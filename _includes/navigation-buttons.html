@@ -1,4 +1,4 @@
-<div class="btn-group ml-2 -btn-group-vertical -btn-group-lg -w-100 -mb-3" role="group" aria-label="">
+<div class="btn-group ml-2" role="group" aria-label="">
 
   {% assign categories = '' | split: ' ' %}
   {% assign tags = '' | split: ' ' %}
@@ -9,16 +9,16 @@
   {% assign root_url = posts.first.url | default: '/' %}
   {% endif %}
   {% endfor %}
-  <a class="btn btn-secondary -d-flex -justify-content-center -align-items-center w-50" href="{{ root_url | relative_url }}" title="{{ t.return }}">
-    <i class="fa fa-chevron-left fa-fw fa-lg -fa-3x -d-block" aria-hidden="true"></i>
+  <a class="btn btn-secondary w-50" href="{{ root_url | relative_url }}" title="{{ t.return }}">
+    <i class="fa fa-chevron-left fa-fw fa-lg" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-left.svg' | relative_url }}" class="oi" alt="chevron-left" hidden>{% endcomment %}
     <small hidden>{{ t.return }}</small>
   </a>
 
   {% include related-posts.html limit=15 %}
   {% if posts.size > 0 %}
-  <div class="btn-group -btn-group-lg w-50" role="group">
-    <button type="button" class="btn btn-secondary -d-flex -justify-content-center -align-items-center -dropdown-toggle rounded-right w-100" id="related-posts-dropdown" data-toggle="dropdown" title="{{ t.continue }}" aria-haspopup="true" aria-expanded="false">
-      <i class="fa fa-chevron-right fa-fw fa-lg -fa-3x -d-block" aria-hidden="true"></i>
+  <div class="btn-group w-50" role="group">
+    <button type="button" class="btn btn-secondary rounded-right w-100" id="related-posts-dropdown" data-toggle="dropdown" title="{{ t.continue }}" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-chevron-right fa-fw fa-lg" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-right.svg' | relative_url }}" class="oi" alt="chevron-right" hidden>{% endcomment %}
       <small hidden>{{ t.continue }}</small>
     </button>
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="related-posts-dropdown">
@@ -26,8 +26,8 @@
     </div>
   </div>
   {% else %}
-    <a class="btn btn-secondary -d-flex -justify-content-center -align-items-center w-50" href="{{ root_url | relative_url }}" title="{{ t.continue }}">
-      <i class="fa fa-chevron-right fa-fw fa-lg -fa-3x -d-block" aria-hidden="true"></i>
+    <a class="btn btn-secondary w-50" href="{{ root_url | relative_url }}" title="{{ t.continue }}">
+      <i class="fa fa-chevron-right fa-fw fa-lg" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-right.svg' | relative_url }}" class="oi" alt="chevron-right" hidden>{% endcomment %}
       <small hidden>{{ t.continue }}</small>
     </a>
   {% endif %}

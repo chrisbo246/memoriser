@@ -47,3 +47,9 @@ films
 feux d'artifice
 : фейерверк
 *__fièrvièrk__*
+
+## Divers
+
+le bordel
+: Бардак
+*__bardak__*

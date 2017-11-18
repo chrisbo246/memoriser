@@ -1,14 +1,19 @@
 {% if include.style %}
   {% if include.style == 'success' %}
-    {% assign icon_class = 'fa-smile-o' %}
+    {% assign fa = 'fa-smile-o' %}
+    {% assign oi = 'thumb-up' %}
   {% elsif include.style == 'danger' %}
-    {% assign icon_class = 'fa-meh-o' %}
+    {% assign fa = 'fa-meh-o' %}
+    {% assign oi = 'warning' %}
   {% elsif include.style == 'warning' %}
-    {% assign icon_class = 'fa-exclamation-triangle' %}
+    {% assign fa = 'fa-exclamation-triangle' %}
+    {% assign oi = 'warning' %}
   {% elsif include.style == 'info' %}
-    {% assign icon_class = 'fa-info-circle' %}
+    {% assign fa = 'fa-info-circle' %}
+    {% assign oi = 'info' %}
   {% else %}
-    {% assign icon_class = false %}
+    {% assign fa = false %}
+    {% assign oi = false %}
   {% endif %}
 {% endif %}
 
@@ -21,7 +26,11 @@
   {% endif %}
 
   {% if include.title %}
-  <h5>{% if icon_class %}<span class="fa {{ icon_class }} fa-4x pull-left mr-3" aria-hidden="false"></span>{% endif %}{{ include.title }}</h5>
+  <h5>
+    {% if fa %}<span class="fa {{ fa }} fa-4x pull-left mr-3" aria-hidden="false"></span>{% endif %}
+    {% if oi %}{% comment %}<img src="{{ '/bower_components/open-iconic/svg/' | append: oi | append: '.svg' | relative_url }}" class="oi oi-4x pull-left mr-3" alt="{{ oi }}">{% endcomment %}{% endif %}
+    {{ include.title }}
+  </h5>
   {% endif %}
 
   {% if include.content %}

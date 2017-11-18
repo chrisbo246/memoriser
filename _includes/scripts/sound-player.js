@@ -3,7 +3,10 @@
 
   var settings = {
     container: 'body',
-    playerClass: 'sound-player',
+    playerAttributes: {
+      class: 'sound-player',
+      preload: 'none' // auto, metadata, none
+    },
     sounds: [
       {
         playerId: 'click-sound-player',
@@ -38,18 +41,33 @@
     ]
   };
 
-  var $player, html = '';
-  $.each(settings.sounds, function (i, sound) {
-    html = html + '<audio id="' + sound.playerId + '" class="' + settings.playerClass + '" hidden><source src="' + sound.filePath + '" /></audio>';
-    $(settings.container).on(sound.togglerEvent, sound.togglerSelector, function () {
-      var player = $('#' + sound.playerId)[0];
-      player.pause();
-      player.currentTime = 0;
-      player.play();
+
+
+  $(function() {
+
+    var playerAttributes = [];
+    $.each(settings.playerAttributes, function (key, value) {
+      playerAttributes.push(key + '="' + value + '"');
     });
+    playerAttributes = playerAttributes.join(' ');
+
+    var $player, player = [], promise = [], html;
+    $.each(settings.sounds, function (i, sound) {
+      html = html + '<audio id="' + sound.playerId + '" ' + playerAttributes + ' hidden><source src="' + sound.filePath + '" /></audio>';
+      $(settings.container).on(sound.togglerEvent, sound.togglerSelector, function () {
+        //player[i] = $('#' + sound.playerId)[0];
+        player[i] = document.getElementById(sound.playerId);
+        if (player[i]) {
+          if (!player[i].paused) {
+            player[i].currentTime = 0;
+          }
+          promise[i] = player[i].play();
+        }
+      });
+    });
+    $('body').prepend(html);
+
   });
-  //$('body').find('script[src], link').first().before(html);
-  $('body > *').filter('div, section, footer').last().after(html);
 
 })(jQuery);
 {% endraw %}

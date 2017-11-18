@@ -1,7 +1,9 @@
-{% if site.disqus.shortname %}
+{% if page.comments != false and site.disqus.shortname %}
 <div class="container-fluid">
-  <div id="comments" class="collapse show">
-    {% include disqus_comments.html %}
+  <div id="comments" class="collapse">
+    <div id="disqus_thread">
+      <p class="text-muted">{{ t.comments_loading }}</p>
+    </div>
   </div>
 </div>
 {% endif %}

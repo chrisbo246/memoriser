@@ -4,9 +4,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 lang: fr
-title: "Les fiches de rattrapage pour les pressés!"
-description: "Des fiches de rattrapage thématiques présentées de manière claire et ludique pour combler rapidement vos petites lacunes."
-excerpt: "Cette application vous propose des fiches de rattrapage thématiques présentées de manière claire et ludique. De quoi combler rapidement vos petites lacunes!"
+title: "Fiches de rattrapage rapide"
+description: "Des fiches de rattrapage thématiques mettant l'accent sur la simplicité pour combler rapidement vos petites lacunes."
+excerpt: "Des fiches thématiques réalisées à la main par de vrais cancres et mettant l'accent sur la simplicité. De quoi combler rapidement vos petites lacunes!"
 keywords: ["cours de langue", "liste de vocabulaire", "listes de vocabulaire",
 "vocabulaire français", "vocabulaire français", "cours de français",
 "french vocabulary", "french courses",

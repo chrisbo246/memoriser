@@ -24,7 +24,7 @@
   </div>
   {% endif %}
 
-  <div class="{% if include.direction == 'vertical' %}d-block btn-group-vertical -mb-3{% else %}btn-group -ml-3{% endif %}" role="group" aria-label="{{ t.advanced_filters }}" data-toggle="buttons">
+  <div class="{% if include.direction == 'vertical' %}d-block btn-group-vertical{% else %}btn-group{% endif %}" role="group" aria-label="{{ t.advanced_filters }}" data-toggle="buttons">
     <label class="btn btn-outline-secondary active">
       <input type="radio" name="custom-filters" value="featured" class="filter-toggler" data-filter=".featured" checked>{{ t.featured }}
     </label>

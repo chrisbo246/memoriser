@@ -7,7 +7,14 @@
   <div class="card mb-3 {{ post.card.class | default: include.card_class }}">
     <div class="card-header" role="tab" id="aside_header_{{ forloop.index }}" data-toggle="collapse" data-target="#aside_collapse_{{ forloop.index }}" {% if forloop.index == 0 %}aria-expanded="true"{% endif %} aria-controls="aside_collapse_{{ forloop.index }}">
       <h5 class="mb-0">
-        {% if post.icon or include.icon_class %}<span class="{{ post.icon.class | default: include.icon_class }} mr-2"></span> {% endif %}
+        {% if post.icon or include.icon_fa %}
+        {% assign icon = include.icon_fa | default: post.icon.fa %}
+        <span class="{{ icon }} mr-2"></span>
+        {% endif %}
+        {% if post.icon or include.icon_oi %}
+        {% assign icon = include.icon_oi | default: post.icon.oi %}
+        {% comment %}<img src="{{ '/bower_components/open-iconic/svg/' | append: icon | append: '.svg' | relative_url }}" class="oi oi-lg mr-2" alt="{{ icon }}" hidden>{% endcomment %}
+        {% endif %}
         {{ post.title }}
       </h5>
     </div>

@@ -2,11 +2,8 @@
 (function ($, window, document) {
   'use strict';
 
-  var $togglers = $('.filter-toggler');
-  var $targets = $('.filter-target');
-  var $searchboxes = $('.searchbox');
-
-
+  var $togglers, $targets, $searchboxes;
+  
 
   /**
   * Hide unchecked items
@@ -50,35 +47,47 @@
 
 
 
-  /**
-  * Filter elements only when options are visible
-  */
+  $(function() {
 
-  if ($togglers.length) {
-    var $collapses = $togglers.parents('.collapse');
-    $collapses.on('show.bs.collapse', function () {
-      filter();
-      $togglers.change(function () {
+
+    $togglers = $('.filter-toggler');
+    $targets = $('.filter-target');
+    $searchboxes = $('.searchbox');
+
+
+
+    /**
+    * Filter elements only when options are visible
+    */
+
+    if ($togglers.length) {
+      var $collapses = $togglers.parents('.collapse');
+      $collapses.on('show.bs.collapse', function () {
+        filter();
+        $togglers.change(function () {
+          filter(true);
+        });
+      });
+      $collapses.on('hide.bs.collapse', function () {
+        filter(false);
+        $togglers.stop('change');
+      });
+    }
+
+
+
+    /**
+    * Searchbox filter
+    */
+
+    if ($searchboxes.length && $targets.length) {
+      $searchboxes.on('input', function () {
         filter(true);
       });
-    });
-    $collapses.on('hide.bs.collapse', function () {
-      filter(false);
-      $togglers.stop('change');
-    });
-  }
+    }
 
-  
 
-  /**
-  * Searchbox filter
-  */
-
-  if ($searchboxes.length && $targets.length) {
-    $searchboxes.on('input', function () {
-      filter(true);
-    });
-  }
+  });
 
 
 })(window.jQuery, window, document);

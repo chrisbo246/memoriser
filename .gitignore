@@ -23,8 +23,10 @@ bower_components/cookieconsent/*
 bower_components/font-awesome/*
 bower_components/jquery/*
 bower_components/lazysizes/*
+bower_components/open-iconic/*
 bower_components/popper.js/*
 bower_components/prefixfree/*
+bower_components/svg-injector/*
 bower_components/tether/*
 
 # Except used files (parent directories must not be exclude)
@@ -36,6 +38,9 @@ bower_components/tether/*
 !bower_components/font-awesome/scss
 !bower_components/jquery/dist
 !bower_components/lazysizes/*.js
+!bower_components/open-iconic/font
+!bower_components/open-iconic/svg
 !bower_components/popper.js/dist
 !bower_components/prefixfree/*.js
+!bower_components/svg-injector/dist
 !bower_components/tether/dist

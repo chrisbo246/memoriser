@@ -9,10 +9,16 @@ layout: default
     <div class="collapse col col-md-4 col-xl-3 order-2" id="post_options">
       <div class="sidebar sticky-top">
 
+        {% if page.layout == 'definition-lists' %}
+        <div class="progress mb-3" title="{{ t.progress }}">
+          <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">O%</div>
+        </div>
+        {% endif %}
+
         <div class="card mb-3">
           <div class="card-header">{{ t.index }}</div>
           <div class="card-body">
-            <ul id="index" class="nav flex-column -flex-row nav-pills">
+            <ul id="index" class="nav flex-column nav-pills">
             </ul>
           </div>
         </div>
@@ -53,7 +59,7 @@ layout: default
           {{ content }}
         </div>
 
-      </article>      
+      </article>
     </div>
   </div>
 </div>

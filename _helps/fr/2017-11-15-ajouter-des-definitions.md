@@ -1,6 +1,8 @@
 ---
-title: "Comment ajouter de nouvelles définitions?"
+title: "Puis-je ajouter de nouvelles définitions?"
 ---
+
+Un petit coup de pouce est toujours le bienvenue!
 
 La méthode qui demande le moins de travail consiste à éditer directement l'article via l'éditeur en ligne (voir "Comment modifier un article?").
 

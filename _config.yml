@@ -45,8 +45,9 @@ sass:
   load_paths:
     - _sass
     - bower_components/bootstrap/scss
-    - bower_components/font-awesome/scss
     - bower_components/cookieconsent/build
+    - bower_components/font-awesome/scss
+    - bower_components/open-iconic/font/css
 
 
 # ------------------------------------------------------------------------------
@@ -108,6 +109,11 @@ defaults:
       date: 2017-01-01 00:00:00 +0100
   -
     scope:
+      path: "assets/images"
+    values:
+      image: true
+  -
+    scope:
       path: ""
       type: "pages"
     values:
@@ -121,6 +127,7 @@ defaults:
       publisher: chrisbo246
       comments: true
       permalink: /:categories/:title.html
+      #permalink: /:categories/:short_year:month:day-:title.html
       #image:
         #path: "assets/images/posts/english-dictionary.jpg"
         #twitter: "assets/images/posts/english-dictionary.jpg"
