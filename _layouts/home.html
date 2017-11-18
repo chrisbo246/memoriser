@@ -24,16 +24,14 @@ layout: default
     <div class="row">
       <div class="col">
         <h2 class="display-4 text-muted" hidden>{{ t.theme_list }}</h2>
-        <div class="card-deck -card-columns my-3">
+        <div class="-card-deck card-columns -my-3">
           {% for post in posts %}
           {% if post.url and post.title %}
-          <!--<div class="{% include filter-tags.html post=post %}">-->
-            <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
-            <div class="card card-flip col-md-6 {% include filter-tags.html post=post %}">
-              {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded" title-class="h2 font-weight-bold" %}
-              {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
-            </div>
-          <!--</div>-->
+          <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
+          <div class="card card-flip {% include filter-tags.html post=post %}">
+            {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded" title-class="h2 font-weight-bold" %}
+            {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
+          </div>
           {% endif %}
           {% endfor %}
         </div>

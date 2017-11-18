@@ -1,16 +1,4 @@
-{% comment %}
-{% if page.comments != false and site.disqus.shortname %}
-<script>
-var disqus_config = function () {
-  this.page.url = '{{ page.url | absolute_url }}';
-  this.page.identifier = '{{ page.url | absolute_url }}';
-};
-</script>
-<script async src="{{ 'https://' | append: site.disqus.shortname | append: '.disqus.com/embed.js' }}" data-timestamp="{{ site.time }}" ></script>
-{% endif %}
-{% endcomment %}
 
-{% if page.layout == 'home' or page.layout == 'cards' %}{% endif %}
 <script async src="{{ '/bower_components/lazysizes/lazysizes.min.js' | relative_url }}"></script>
 
 <script src="{{ '/bower_components/jquery/dist/jquery.min.js' | relative_url }}"></script>

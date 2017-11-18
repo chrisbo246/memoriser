@@ -25,7 +25,7 @@
       {% endif %}
       {% endcomment %}
       {% if page.comments != false and site.disqus.shortname %}
-      <button type="button" class="btn btn-outline-secondary ml-2 -active" data-toggle="collapse" data-target="#comments" aria-controls="{{ t.comments }}" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
+      <button type="button" class="btn btn-outline-secondary ml-2" data-toggle="collapse" data-target="#comments" aria-controls="#comments" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
         <span class="fa fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/comment-square.svg' | relative_url }}" class="oi oi-lg" alt="comment-square" hidden>{% endcomment %}
       </button>
       {% endif %}

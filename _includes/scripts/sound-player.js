@@ -51,17 +51,25 @@
     });
     playerAttributes = playerAttributes.join(' ');
 
-    var $player, player = [], promise = [], html;
+    var $player, player = [], promise = [], html = '';
     $.each(settings.sounds, function (i, sound) {
       html = html + '<audio id="' + sound.playerId + '" ' + playerAttributes + ' hidden><source src="' + sound.filePath + '" /></audio>';
       $(settings.container).on(sound.togglerEvent, sound.togglerSelector, function () {
         //player[i] = $('#' + sound.playerId)[0];
         player[i] = document.getElementById(sound.playerId);
         if (player[i]) {
-          if (!player[i].paused) {
+          if (player[i].readyState > 2 && player[i].currentTime > 0 && !player[i].paused && !player[i].ended) {
             player[i].currentTime = 0;
+          } else {
+            player[i].pause();
+            promise[i] = player[i].play();
+            promise[i].then(_ => {
+
+            })
+            .catch(error => {
+
+            });
           }
-          promise[i] = player[i].play();
         }
       });
     });
