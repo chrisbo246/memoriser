@@ -29,6 +29,10 @@ Cool!
 : Круто!
 *__Krouta!__*
 
+Cool! [fam.]
+: Крутяк!
+*__Kroutiak!__*
+
 Exellent!
 : Отлично!
 *__Atlitchna!__*
@@ -38,15 +42,23 @@ C'est le pied!
 *__Kakoy kayf!__*
 
 
-## Surprise
+## Etonnement
 
 Ô mon dieu!
 : Боже мой!
 *__Bojé moy!__*
 
-Boouh!
-: ка-ка!
-*__Ka-ka__ Pour faire peur.*
+Ouah!
+: Ого!
+*__Ogo!_*
+
+Ouah!
+: Ничего себе!
+*__Nitchivo cibié!__*
+
+Wow!
+: Вау!
+*__Vaou!__*
 
 
 ## Entrain
@@ -65,6 +77,17 @@ Allons-y!
 Allons-y (en voiture)!
 : Поехали!
 *__Paièhli!__*
+
+
+## Compliment
+
+La classe!
+: Классно!
+*__Klassna!__*
+
+La classe [fam.]!
+: Чётко!
+*__Tchiotka!__*
 
 
 ## Apaisement
@@ -94,3 +117,7 @@ A l'aide!
 Allô!
 : Алло!
 *__Allo!__*
+
+Boouh!
+: ка-ка!
+*__Ka-ka__ Pour faire peur.*

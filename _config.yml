@@ -18,7 +18,7 @@ email: chrisbo246@gmail.com
 description: >
   Listes de vocabulaire Français, Anglais et Russe regroupant mots composés et
   expressions courantes difficile à apprendre autrement que par la pratique.
-baseurl: "/memolinguo" # the subpath of your site, e.g. /blog
+baseurl: "/memo-riser" # the subpath of your site, e.g. /blog
 url: "https://chrisbo246.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrisbo246
 github_username:  chrisbo246
@@ -92,7 +92,7 @@ collections:
   #  output: true
   #tags:
   #  output: true
-  asides:
+  alerts:
     output: true
   helps:
     output: true
@@ -161,7 +161,7 @@ defaults:
       type: "posts"
     values:
       definition-lang: "ru-ru"
-      asides: ["_asides/2017-10-28-prononciation-russe.md"]
+      alerts: ["_alerts/2017-10-28-prononciation-russe.md"]
 
 
 
@@ -173,12 +173,12 @@ defaults:
 lang: fr
 google_analytics: "UA-93687641-1"
 disqus:
-  shortname: memolinguo
+  shortname: memo-riser
 
 # https://github.com/jekyll/github-metadata
-repository: chrisbo246/memolinguo
+repository: chrisbo246/memo-riser
 github:
-  url: https://chrisbo246.github.io/memolinguo/
+  url: https://chrisbo246.github.io/memo-riser/
 
 # https://github.com/jekyll/jekyll-seo-tag
 date: 2017-01-01 00:00:00 +0100
@@ -192,20 +192,20 @@ author: chrisbo246
 #  twitter: chrisbo2462
 logo: assets/images/logos/android-chrome-512x512.png
 twitter:
-  username: memolinguo
+  username:
 facebook:
   app_id:
   publisher:
   admins:
 social:
-  name: "MEMOLINGUO"
+  name: "MEMO-RISER"
   links:
-    - https://github.com/memolinguo
-    #- https://twitter.com/memolinguo
-    #- https://www.facebook.com/memo.linguo
-    #- https://www.linkedin.com/in/memolinguo
-    #- https://plus.google.com/+memolinguo
-    #- https://keybase.io/memolinguo
+    - https://github.com/memo-riser
+    #- https://twitter.com/memo-riser
+    #- https://www.facebook.com/memo.riser
+    #- https://www.linkedin.com/in/memo-riser
+    #- https://plus.google.com/+memo-riser
+    #- https://keybase.io/memo-riser
 
 # jekyll-compress-html
 compress_html:
@@ -223,7 +223,7 @@ compress_html:
 array: []
 headers:
   api-user-agent: mediawiki-loader/1.0
-  origin: https://chrisbo246.github.io/memolinguo
+  origin: https://chrisbo246.github.io/memo-riser
 
 yandex_translate:
   key: 'trnsl.1.1.20170126T174835Z.60d9a0f54ac44aef.fc3b4dab14cf7c81caf5fe57769a769ab427a872'

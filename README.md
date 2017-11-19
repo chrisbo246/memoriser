@@ -2,11 +2,11 @@
 
 Easy to write / learn vocabulary lists powered by Jekyll.
 
-[![Preview](screenshot.png)](https://chrisbo246.github.io/memolinguo/)
+[![Preview](screenshot.png)](https://chrisbo246.github.io/memo-riser/)
 
 ## Features
 
-#### Learning
+#### Learning facilities
 
 - Convert boring definition lists into fun flipcards.
 - Mark memorized definitions (local storage).
@@ -14,6 +14,8 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Sleek and responsive design for readability.
 - Full width content (collapsible sidebar).
 - Progress bar.
+- Seamless page transition (load time optimisation).
+- Touch screen friendly.
 
 #### Editing & collaboration
 
@@ -27,7 +29,6 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Index generation from anchors.
 - Breadcrumbs.
 - Related posts.
-- Fast loading.
 
 #### Style & fun
 
@@ -55,4 +56,4 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 
 ## Known issues and bug reports
 
-[It's this way!](https://github.com/chrisbo246/memolinguo/issues)
+[It's this way!](https://github.com/chrisbo246/memo-riser/issues)

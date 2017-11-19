@@ -23,13 +23,6 @@ layout: default
           </div>
         </div>
 
-        {% comment %}
-        {% if page.asides %}
-        {% assign posts = site.asides | where_exp: "item", "page.asides contains item.path" %}
-        {% include accordion.html posts=posts id="asides_accordion" %}
-        {% endif %}
-        {% endcomment %}
-
         {% if page.layout == 'post' or page.layout == 'definition-lists' %}
         <a class="btn btn-outline-secondary btn-sm btn-block mb-3" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
           {{ t.edit_on_github }}
@@ -43,12 +36,12 @@ layout: default
 
         {% include alert.html title=t.definition_list_tip_title text=t.definition_list_tip_text style="info" id="memorized-tip" dismissible=1 %}
 
-        {% if page.asides and page.asides.size > 0 %}
-        {% assign asides = site.asides | where_exp: "item", "page.asides contains item.path" %}
-        {% for aside in asides %}
-        {% assign alert_id = aside.path | slugify %}
-        {% assign alert_content = aside.content | markdownify %}
-        {% include alert.html title=aside.title content=alert_content style=aside.alert.style id=alert_id dismissible=1 %}
+        {% if page.alerts and page.alerts.size > 0 %}
+        {% assign alerts = site.alerts | where_exp: "item", "page.alerts contains item.path" %}
+        {% for alert in alerts %}
+        {% assign alert_id = alert.path | slugify %}
+        {% assign alert_content = alert.content | markdownify %}
+        {% include alert.html title=alert.title content=alert_content style=alert.alert.style id=alert_id dismissible=1 %}
         {% endfor %}
         {% endif %}
 

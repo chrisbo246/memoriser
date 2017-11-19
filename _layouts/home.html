@@ -24,7 +24,7 @@ layout: default
     <div class="row">
       <div class="col">
         <h2 class="display-4 text-muted" hidden>{{ t.theme_list }}</h2>
-        <div class="-card-deck card-columns -my-3">
+        <div class="-card-deck card-columns">
           {% for post in posts %}
           {% if post.url and post.title %}
           <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
@@ -43,7 +43,7 @@ layout: default
 
   <div class="container-fluid">
     <div class="card-deck">
-      <div class="card -jumbotron -jumbotron-fluid -bg-white text-danger -text-right -mb-0">
+      <div class="card -jumbotron -jumbotron-fluid -bg-white text-danger -text-right mb-2">
         <div class="card-body -container">
           <h4 class="card-title -display-4">
             {% comment %}<i class="fa fa-heart fa-3x pull-left" aria-hidden="true"></i>
@@ -58,7 +58,7 @@ layout: default
           </a>
         </footer>
       </div>
-      <div class="card -jumbotron -jumbotron-fluid -bg-white text-muted -mb-0">
+      <div class="card -jumbotron -jumbotron-fluid -bg-white text-muted mb-2">
         <div class="card-body -container">
           <h4 class="card-title -display-4">
             {% comment %}<i class="fa fa-envelope fa-3x pull-right" aria-hidden="true"></i>

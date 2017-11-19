@@ -44,6 +44,37 @@ Neutre
   - Е > Я
 
 
+## Les cas
+
+Les cas représentent en fait les différentes parties d'une phrase. Pour les reconnaître, vous devez vous poser les questions suivantes.
+
+Nominatif
+: Qui?
+*Le sujet.*
+
+Accusatif
+: Quoi?
+*Le COD.*
+
+Génitif
+: À qui?
+*Le propriétaire.*
+
+Datif
+: Pour qui?
+*La personne visée par l'action.*
+
+Instrumental
+: Avec quoi?
+*L'objet utilisé.*
+
+Locatif (ou prépositionnel)
+: Où?
+*L'endroit. Toujours précédé de la préposition в ou на.*
+
+Les mots d'origine étrangère (Française) sont généralement invariables.
+
+
 ## Tableau récapitulatif
 
 <table style="width: 300px;"><colgroup> <col /> <col style="width: 33%;" span="2" /></colgroup>

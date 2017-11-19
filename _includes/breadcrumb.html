@@ -1,6 +1,6 @@
 
 <nav class="{{ include.class | default: 'breadcrumb' }}">
-  <a class="breadcrumb-item" href="{{ '/' | relative_url }}">{{ t.home }}</a>
+
   {% assign pages_url = site.pages | map: 'url' %}
   {% assign crumbs = page.url | split: '/' %}
   {% for crumb in crumbs offset:1 %}
@@ -11,6 +11,10 @@
   {% assign url_parts = url_parts | push: crumb %}
   {% endfor %}
   {% assign url = url_parts | join: '/' | prepend: '/' | append: '.html' %}
+
+  {% unless include.home == false %}
+  <a class="breadcrumb-item" href="{{ '/' | relative_url }}" hidden>{{ t.home }}</a>
+  {% endunless %}
 
   {% if pages_url contains url %}
   <a class="breadcrumb-item" href="{{ url | relative_url }}">{{ crumb | capitalize }}</a>

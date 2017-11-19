@@ -63,12 +63,12 @@
           } else {
             player[i].pause();
             promise[i] = player[i].play();
-            promise[i].then(_ => {
-
-            })
-            .catch(error => {
-
-            });
+            if (promise[i]) {
+              promise[i].then(_ => {
+              })
+              .catch(error => {
+              });
+            }
           }
         }
       });
