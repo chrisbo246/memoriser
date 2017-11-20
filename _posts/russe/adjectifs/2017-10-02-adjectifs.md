@@ -8,23 +8,36 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-category: adjectifs
-tags: [
-
-]
+categories: ["russe", "adjectifs"]
+tags: []
 date: 2017-10-02 00:00:00 +0100
 ---
 
-## Quantité
+## Beau
 
-un peu
-: немного
-*__niemnoga__*
+beau, joli
+: Красиво
+*__Krassiva__*
 
-beaucoup
-: многие
-*__monoguié__*
+belle, jolie (objet)
+: красивая
+*__krassivaya__*
 
+magnifique
+: прекрасно
+*__prikrassna__*
+
+réussi
+: удачная
+*__oudatchnaya__*
+
+Magnifique
+: Замечательная
+*__Zamitchatilnaya__*
+
+Belle (objet)
+: прекрасная
+*__prikarassnaya__*
 
 ## Goût
 
@@ -44,6 +57,17 @@ difficile
 *__troudna__*
 
 
+## Quantité
+
+un peu
+: немного
+*__niemnoga__*
+
+beaucoup
+: многие
+*__monoguié__*
+
+
 ## Position
 
 ouvert
@@ -53,10 +77,3 @@ ouvert
 fermé
 : закрыто
 *__zakraita__*
-
-
-## Température
-
-… tiède
-: … тёплая
-*__… tioplaya__*

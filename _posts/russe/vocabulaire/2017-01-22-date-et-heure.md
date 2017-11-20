@@ -357,7 +357,7 @@ seconde
 Pour donner une heure exacte : Le nombre (один, два, три etc.) au nominatif suivi de час/часа/часов
 Si c’est 1 h, on utilise час: один час (ровно). adin tchass
 Si c’est 2 h, 3 h, 4 h, on utilise часа: два часа (ровно). dva tchassa
-Si c’est 5 h, ..., 12 h, on utilise часов: пять часов (ровно). piat tchassov
+Si c’est 5 h, …, 12 h, on utilise часов: пять часов (ровно). piat tchassov
 Noter aussi qu'on peut avoir ровно au début de l'expression: пять часов ровно (quatre heures "pile"), ou ровно пять часов ("pile" cinq heures).
 
 nombre час/часа/часов nombre минута/минуты/минут

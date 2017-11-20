@@ -25,10 +25,12 @@
       {% assign root_url = posts.first.url | default: '/' %}
       {% endif %}
       {% endfor %}
+      {% if root_url %}
       <a role="button" class="btn btn-outline-secondary btn-lg -w-50" href="{{ root_url | relative_url }}" title="{{ t.return }}">
         <i class="fa fa-chevron-left fa-lg fa-fw" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-left.svg' | relative_url }}" class="oi" alt="chevron-left" hidden>{% endcomment %}
         <small hidden>{{ t.return }}</small>
       </a>
+      {% endif %}
       {% endif %}
 
     </div>
@@ -55,11 +57,13 @@
           {% include dropdown-items.html posts=posts %}
         </div>
       </div>
+      {% comment %}
       {% else %}
       <a role="button" class="btn btn-outline-secondary btn-lg ml-2 -w-50" href="{{ root_url | relative_url }}" title="{{ t.continue }}">
         <i class="fa fa-chevron-right fa-lg fa-fw" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-right.svg' | relative_url }}" class="oi" alt="chevron-right" hidden>{% endcomment %}
         <small hidden>{{ t.continue }}</small>
       </a>
+      {% endcomment %}
       {% endif %}
       {% endif %}
 

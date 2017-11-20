@@ -4,7 +4,7 @@ title: "Pouvez-vous modifier ou ajouter des fonctionnalités?"
 
 Oui avec plaisir, dans la mesure ou ce n'est pas trop complexe et sans garantie de délai. Utilisez simplement le formulaire de contact pour nous faire part de votre idée.
 
-Nous n'avons aucun budget pour cette app. Si vous souhaitez une fonctionnalité nécessitant une librairie payante, nous indiquerons le coût approximatif ci-dessous... dans l'attente d'un généreux donateur.
+Nous n'avons aucun budget pour cette app. Si vous souhaitez une fonctionnalité nécessitant une librairie payante, nous indiquerons le coût approximatif ci-dessous… dans l'attente d'un généreux donateur.
 
 ## Fonctionnalités payantes
 

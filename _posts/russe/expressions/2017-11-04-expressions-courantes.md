@@ -9,8 +9,8 @@ image:
   width: 640
   height: 360
 categories: ["russe", "expressions"]
-tags: [expression]
-date: 2017-01-01 00:00:00 +0100
+tags: ["expression"]
+date: 2017-11-04 00:00:00 +0100
 ---
 
 voici, nous voici
@@ -20,3 +20,7 @@ voici, nous voici
 il y a
 : есть
 *__yest'__*
+
+Je (suis) …
+: Я …
+*__Ya …__*

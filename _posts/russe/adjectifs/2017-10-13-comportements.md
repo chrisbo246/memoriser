@@ -8,11 +8,9 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-category: adjectifs
-tags: [
-
-]
-date: 2017-10-02 00:00:00 +0100
+categories: ["russe", "adjectifs"]
+tags: []
+date: 2017-10-13 00:00:00 +0100
 ---
 
 ## Qualités
@@ -71,3 +69,10 @@ poli
 fainéant
 : ленивый
 *__lenivi__*
+
+
+## État d'esprit
+
+chaud
+: горячий
+*__gariatchi__ Excité.*

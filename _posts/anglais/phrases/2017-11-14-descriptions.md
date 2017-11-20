@@ -13,5 +13,5 @@ tags: []
 date: 2017-11-03 00:00:00 +0100
 ---
 
-Il a une ...aine d'années
-: He's ...-odd
+Il a une …aine d'années
+: He's …-odd

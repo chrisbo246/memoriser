@@ -77,8 +77,8 @@ faire tourner le monde
 
 ## Divers
 
-... à ma façon
-: ... my way around
+… à ma façon
+: … my way around
 
 Vous influencer d'une manière ou d'une autre
 : Sway you one way or the other
@@ -89,8 +89,8 @@ Chacun sait ce qui est le mieux pour lui-même
 Je ne m'attendais pas à cela
 : I didn't expect that
 
-Le manque de ...
-: The running out of ...
+Le manque de …
+: The running out of …
 
 En quelques chiffres
 : in a few figures
@@ -104,5 +104,5 @@ Tout ce qu'il faut
 ne jamais se taire
 : go on and on
 
-... de rechange
-: Spare ...
+… de rechange
+: Spare …

@@ -8,10 +8,8 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-category: adjectifs
-tags: [
-
-]
+categories: ["russe", "adjectifs"]
+tags: []
 date: 2017-11-10 00:00:00 +0100
 ---
 

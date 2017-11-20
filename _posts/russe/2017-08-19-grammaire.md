@@ -9,24 +9,31 @@ image:
   width: 640
   height: 360
 categories: ["russe"]
-tags: [cyrillique, grammaire]
+tags: ["grammaire"]
 weight: 100
-date: 2017-04-01 01:31:00 +0100
+date: 2017-08-19 00:00:00 +0100
 ---
 
 ## Genre
 
-Les noms n'ont pas forcément le même genre en russe qu'en français (ex: un fleur, une chien, etc...). Pour deviner le genre d'un nom, regardez la fin du mot.
+Les noms n'ont pas forcément le même genre en russe qu'en français (ex: un fleur, une chien, etc…). Pour deviner le genre d'un nom, regardez la fin du mot.
 
-- *Neutre* si le nom se termine par *О*, *Е*, *NЕ*, *ЬЕ*, *ОЕ* ou *МЯ*, bref le son "o" ou "iè" ou "mia".
-- *Féminin* si le nom se termine par *А*, *Я* ou *ИЯ*, bref le son "a" (sauf "mia").
-- *Masculin* si le nom se termine par une consonne. Sauf pour homme, jeune-homme, père, grand-père et oncle.
-- *Masculin ou féminin* si le nom se termine par *Ь*. Dans ce cas, seul le dictionnaire peut vous aider.
+Neutre
+: Si le nom se termine par *О*, *Е*, *NЕ*, *ЬЕ*, *ОЕ* ou *МЯ*, bref le son "o" ou "iè" ou "mia".
+
+Féminin
+: Si le nom se termine par *А*, *Я* ou *ИЯ*, bref le son "a" (sauf "mia").
+
+Masculin
+: Si le nom se termine par une consonne. Sauf pour homme, jeune-homme, père, grand-père et oncle.
+
+Masculin ou féminin
+: Si le nom se termine par *Ь*. Dans ce cas, seul le dictionnaire peut vous aider.
 
 
 ## Pluriel
 
-Pour utiliser le pluriel, vous devez tout d'abord connaître le genre du nom (masculin, féminin ou neutre).
+Pour utiliser le pluriel, vous devez tout d'abord connaître le genre du nom.
 
 Masculin
 : Ajouter une lettre à la fin du nom.

@@ -9,7 +9,7 @@ image:
   width: 640
   height: 360
 categories: ["russe", "expressions"]
-tags: [expression, politesse]
+tags: ["expression", "politesse"]
 weight: 1
 date: 2017-04-01 00:39:00 +0100
 ---
@@ -161,7 +161,7 @@ Excusez-moi s'il vous plaît!
 *__Izvinitié pajalsta!__*
 
 
-## Bonne ...
+## Bonne …
 
 Bonne chance!
 : Удачи!

@@ -18,7 +18,7 @@ de facto
 *__dé facto__*
 
 dixit *[nom]*
-: D'après les dires de ...
+: D'après les dires de …
 
 erratum
 : Erreur.

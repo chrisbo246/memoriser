@@ -156,7 +156,7 @@ clinique
 : Observation des manifestations de la maladie en vue de poser un diagnostic (pas de traitement médical).
 
 cognitive (pensées)
-: Etude des capacités (perception, apprentissage, processus attentionnel, mémorisation, raisonnement, etc...).
+: Etude des capacités (perception, apprentissage, processus attentionnel, mémorisation, raisonnement, etc…).
 
 psycho-réflexologie
 : -

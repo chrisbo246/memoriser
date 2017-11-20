@@ -8,11 +8,9 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-categories: ["russe", "questions"]
-tags: [
-
-]
-date: 2017-01-01 00:00:00 +0100
+categories: ["russe", "phrases"]
+tags: ["question"]
+date: 2017-06-18 00:00:00 +0100
 ---
 
 ## Demander un renseignement
@@ -21,9 +19,9 @@ Qu’est ce que c’est?
 : Что это?
 *__Chto eta?__*
 
-Pourriez-vous me dire ...?
-: не подскажите ...?
-*__Nie podskajite ...?__*
+Pourriez-vous me dire …?
+: не подскажите …?
+*__Nie podskajite …?__*
 
 Qu’est-ce qui est écrit là ?
 : Что тут написано?
@@ -71,11 +69,11 @@ Qui a dit ça?
 : Кто это сказал?
 *__kto eta skazal?__*
 
-Quel, Lequel ...?
+Quel, Lequel …?
 : который …?
 *__katori …?__*
 
-Quelle, Laquelle ...?
+Quelle, Laquelle …?
 : которая …?
 *__katoraya …?__*
 
@@ -106,6 +104,29 @@ Pourquoi as-tu/avez-vous fais ça?
 *__Patchimou ti/vi éta sdiélal?__*
 
 
+## Proposer un rendez-vous
+
+Que fais-tu demain soir?
+: что ты делаешь завтра вечером?
+*__Chto ti dielaech zavtra vietchiram?__*
+
+Es-tu libre ce soir?
+: ты свободен сегодня вечером?
+*__Ti svabodin' siévodnia vietchiram?__*
+
+Es-Tu [femme] libre ce soir?
+: ты свободна сегодня вечером?
+*__Ti svabodna siévodnia vietchiram?__*
+
+Je voudrais vous inviter à un rendez-vous (amoureux).
+: Я хотел бы пригласить тебя на свидание.
+*__Ya hatil vi priglassits tibia na svidanié.__*
+
+Je [femme] voudrais vous inviter à un rendez-vous (amoureux).
+: Я хотелa бы пригласить тебя на свидание.
+*__Ya hatila vi priglassits tibia na svidanié..__*
+
+
 ## Retourner la question
 
 Et toi?
@@ -133,4 +154,4 @@ Très bien, merci, et vous ?
 
 Qu'as-tu … ?
 : что ты … ?
-*__Chto ti ...__*
+*__Chto ti …__*

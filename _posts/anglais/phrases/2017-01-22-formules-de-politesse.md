@@ -26,7 +26,7 @@ Cela fait longtemps qu’on ne s’est pas vu.
 : Long time no see.
 
 
-## Souhaiter bonne...
+## Souhaiter bonne…
 
 Santé!
 : Cheers!

@@ -10,7 +10,7 @@ image:
   height: 360
 categories: ["russe", "liaisons"]
 tags: [adverbe, conjonction]
-date: 2017-08-30 20:00:00 +0100
+date: 2017-08-31 00:00:00 +0100
 ---
 
 qui
@@ -39,7 +39,7 @@ quand
 
 où
 : где
-*__gdié__ Où se situe ...*
+*__gdié__ Où se situe …*
 
 où (va)
 : куда

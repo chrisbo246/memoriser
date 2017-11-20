@@ -9,19 +9,19 @@ image:
   width: 640
   height: 360
 categories: ["russe"]
-tags: [cyrillique]
+tags: ["cyrillique"]
 weight: 100
-date: 2017-04-01 01:31:00 +0100
+date: 2017-08-19 00:00:00 +0100
 ---
 
-En russe, chaque son est représenté par une seule lettre (contrairement au français ou **o** peut également s'écrire **au** ou **eau** par exemple). La prononciation peut cependant varier dans certains cas.
+En russe, une lettre égal un son. "an" se prononce "a-n", par exemple. La prononciation d'une lettre peut cependant varier selon sa position dans le mot.
 
-- Lorsque la voyelle située est dans la syllabe accentué.
+- Lorsque la voyelle située est dans la syllabe accentué (accent invisible).
 - Lorsqu'une consonne est suivie par une voyelle "molle".
 - Lorsqu'une consonne est suivie par une consonne "sourde".
 - Lorsque la lettre est placée au début du mot ou à la fin du mot.
 
-Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par apprendre la prononciation courante (deuxième colonne).
+Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par apprendre la prononciation la plus courante (deuxième colonne).
 
 
 

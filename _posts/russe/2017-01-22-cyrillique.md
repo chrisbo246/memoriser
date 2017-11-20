@@ -9,9 +9,9 @@ image:
   width: 640
   height: 360
 categories: ["russe"]
-tags: [cyrillique, alphabet]
+tags: ["alphabet", "cyrillique"]
 weight: 100
-date: 2017-04-01 01:31:00 +0100
+date: 2017-01-22 00:00:00 +0100
 published: false
 ---
 

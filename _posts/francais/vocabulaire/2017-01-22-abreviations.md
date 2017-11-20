@@ -67,7 +67,7 @@ R.I.P.
 
 a.k.a.
 : also known as
-*Egalement connu sous le nom de ..., alias ...*
+*Egalement connu sous le nom de …, alias …*
 
 ASAP
 : as soon as possible

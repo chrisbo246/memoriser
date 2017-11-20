@@ -71,10 +71,10 @@ alors - après - après-demain - aujourd'hui - aussitôt - avant - avant-hier - 
 
 
 ## Adverbes de manière
-ainsi - bien - comme - debout - ensemble - exprès - gratis - mal - mieux - plutôt - vite - et les adverbes en - ment : rapidement - doucement...
+ainsi - bien - comme - debout - ensemble - exprès - gratis - mal - mieux - plutôt - vite - et les adverbes en - ment : rapidement - doucement…
 Adverbes de quantité
 assez - aussi - autant - beaucoup - moins - peu - plus - presque - tout - très
 
 
 ## Adverbes d'affirmation et de négation
-oui - peut-être - ne... pas - ne... plus - ne... rien - ne... jamais - non - si - vraiment
+oui - peut-être - ne… pas - ne… plus - ne… rien - ne… jamais - non - si - vraiment

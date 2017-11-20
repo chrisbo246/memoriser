@@ -9,10 +9,8 @@ image:
   width: 640
   height: 360
 categories: ["russe", "expressions"]
-tags: [
-  expression, exclamation
-]
-date: 2017-01-01 00:00:00 +0100
+tags: ["expression", "exclamation"]
+date: 2017-01-22 00:00:00 +0100
 ---
 
 ## Exclamations positives

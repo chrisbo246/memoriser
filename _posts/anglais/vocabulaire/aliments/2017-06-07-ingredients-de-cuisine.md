@@ -85,5 +85,5 @@ pâte à frire
 
 ## adjectifs
 
-... moulue
-: ground ...
+… moulue
+: ground …
