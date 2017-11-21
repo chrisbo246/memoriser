@@ -14,7 +14,7 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Sleek and responsive design for readability.
 - Full width content (collapsible sidebar).
 - Progress bar.
-- Seamless page transition (load time optimisation).
+- Seamless page transition (load time optimization).
 - Touch screen friendly.
 
 #### Editing & collaboration
@@ -41,8 +41,10 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 
 - Lazy load images.
 - Minified HTML and CSS.
-- Critical CSS.
 - Seo-tag plugin.
+- Structured data templates.
+- Critical CSS generation (gulp task).
+- Images optimization (gulp task).
 
 #### Various
 
@@ -52,6 +54,7 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Translation ready.
 - Responsive ad container.
 - Cookie consent ready.
+- Gulp ready.
 
 
 ## Known issues and bug reports

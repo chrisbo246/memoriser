@@ -107,11 +107,14 @@ alentours
 gros mots
 : swearwords
 
-une belle histoire
-: a feel good story
-
 connaissance de soi
 : self-awareness
 
 durée de vie
 : lifespan
+
+sécheresse
+: drought
+
+essaim
+: swarm

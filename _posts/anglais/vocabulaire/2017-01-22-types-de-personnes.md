@@ -144,13 +144,13 @@ pèlerin
 : pilgrim
 
 
-## Personnages
+## Représentation humaine
 
 bonhomme de neige
 : snowman
 
 épouvantail
-: scarecrow
+: scarecrow, bugbear
 
 
 ## Personnages de literature

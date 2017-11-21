@@ -17,6 +17,9 @@ un travail de Sisyphe
 : Travail pénible qu'il faut sans cesse recommencer.
 *En référence à [Sisyphe](https://fr.wikipedia.org/wiki/Sisyphe), personnage de la mythologie Grecque, condamné par Hadès à pousser un énorme rocher en haut d'une montagne, le rocher redescendant la côte sitôt arrivé au sommet.*
 
+révolution copernicienne
+: Renversement de la représentation du monde.
+
 Franchir le Rubicon
 : Faire un choix irréversible.
 *En référence à Jules César qui franchit la rivière Rubicon et pénétra dans Rome sans déposer les armes.*
@@ -28,6 +31,9 @@ une noria de véhicules
 c'est la Bérézina
 : Défaite catastrophique.
 *En référence à la [bataille de la Bérézina](https://fr.wikipedia.org/wiki/Bataille_de_la_B%C3%A9r%C3%A9zina).*
+
+avoir le don d'ubiquité
+: Pouvoir être à plusieurs endroits en même temps, faire plusieurs choses à la fois.
 
 à titre posthume
 : Après la mort.

@@ -1,0 +1,33 @@
+{
+  "name": "memo-riser",
+  "version": "1.0.0",
+  "description": "Easy to write / learn vocabulary lists powered by Jekyll.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbo246/memolinguo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisbo246/memolinguo/issues"
+  },
+  "homepage": "https://github.com/chrisbo246/memolinguo#readme",
+  "devDependencies": {
+    "critical": "^1.0.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-notify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "minimatch": "^3.0.4"
+  }
+}

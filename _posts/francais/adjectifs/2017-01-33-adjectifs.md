@@ -43,6 +43,9 @@ holistique
 : Globale.
 *Ex: une vision holistique.*
 
+erratique
+: Irrégulier, à une place inhabituel, qui n'a pas d'habitation fixe.
+
 prométhéen(ne)
 : Idéaliste.
 *Foi dans la condition humaine (ex: une vision prométhéenne).*

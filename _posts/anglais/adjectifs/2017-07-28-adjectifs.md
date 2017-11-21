@@ -31,3 +31,6 @@ de valeur
 
 bien nommé
 : aptly named
+
+complètement
+: thoroughly

@@ -147,6 +147,12 @@ eugénisme
 : Sélection raciale.
 
 
+## Loi
+
+forensique
+: Méthode scientifique utilisée pour répondre à une question légale ou judiciaire.
+
+
 ## Divers
 
 moratoire

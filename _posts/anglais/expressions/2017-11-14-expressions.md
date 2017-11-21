@@ -41,6 +41,15 @@ faire grimper au mur
 *Rendre fou.*
 
 
+## Situation
+
+dans le creux de la vague
+: in the trough of the wave
+
+coup dur
+: tough punch
+
+
 ## Divers
 
 gagner haut la main
@@ -55,3 +64,6 @@ né pour ça
 
 passage à l'âge adulte
 : coming-of-age
+
+une belle histoire
+: a feel good story
