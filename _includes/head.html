@@ -23,7 +23,7 @@
   {% endcapture %}
   {% assign criticalcss = criticalcss | strip %}
   {% if criticalcss.size > 0 %}
-  <style type="text/css">{{ criticalcss | scssify }}</style>
+  <style type="text/css">{{ criticalcss }}</style>
   {% endif %}
 
   {% seo %}
