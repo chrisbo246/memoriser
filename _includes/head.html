@@ -24,6 +24,8 @@
   {% assign criticalcss = criticalcss | strip %}
   {% if criticalcss.size > 0 %}
   <style type="text/css">{{ criticalcss }}</style>
+  {% else %}
+  {% include styles.html %}
   {% endif %}
 
   {% seo %}

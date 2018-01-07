@@ -22,14 +22,20 @@ ambivalent
 :  Avoir de l'entrain, de l'inspiration.
 
 
-## Niveau de culture
-
-lacunaire
-: Qui présente des lacunes.
+## Intéligent
 
 omniscient
 : Qui sait tout.
 *Ou paraît tout savoir.*
+
+sagacité
+: perspicacité, capacités de raisonnement
+
+
+## Bête
+
+lacunaire
+: Qui présente des lacunes.
 
 vacuité
 : Inculte.
@@ -54,7 +60,7 @@ omnipotent
 
 exsangue
 : Très affaibli
-*Littéralement vidé de son sang.*
+*Litt. vidé de son sang.*
 
 neurasthénique
 : Déprimé.
@@ -68,3 +74,7 @@ hémiplégique
 
 atavisme
 : Hérédité.
+
+
+
+*[Litt.]: Littéralement

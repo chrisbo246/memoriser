@@ -22,11 +22,11 @@ abat-jour
 
 abonnement
 : абонемент
-*__aboniement'__*
+*__abonièmènt'__*
 
 abonné
 : абонент
-*__abonient'__*
+*__aboniènt'__*
 
 abordage
 : абордаж
@@ -34,7 +34,7 @@ abordage
 
 aborigène
 : абориген
-*__aborigen'__*
+*__aborigèn'__*
 
 abricot
 : абрикос
@@ -42,7 +42,7 @@ abricot
 
 absinthe
 : абсент
-*__absent'__*
+*__absènt'__*
 
 absurde
 : абсурд
@@ -54,11 +54,11 @@ avant-garde
 
 avance
 : аванс
-*__avance__*
+*__avancè__*
 
 avant-scène
 : авансцена
-*__avantsiena__*
+*__avantsièna__*
 
 aventure
 : авантюра
@@ -98,23 +98,23 @@ auteur
 
 autorité
 : авторитет
-*__avtoritiet'__*
+*__avtoritièt'__*
 
 agent
 : агент
-*__agent'__*
+*__agènt'__*
 
 agence
 : агентство
-*__aguentstvo__*
+*__aguèntstvo__*
 
 agrégat
 : агрегат
-*__agriegat'__*
+*__agriègat'__*
 
 agression
 : агрессия
-*__agressia__*
+*__agrèssia__*
 
 agronome
 : агроном
@@ -134,7 +134,7 @@ amiral
 
 adresse
 : адрес
-*__adress'__*
+*__adrèss'__*
 
 adieu
 : адью
@@ -146,7 +146,7 @@ adultère
 
 agiotage
 : ажиотаж
-*__agiotage__*
+*__agiotagè__*
 
 ajour
 : ажур
@@ -162,7 +162,7 @@ azote
 
 aquarelle
 : акварель
-*__acvariel__*
+*__acvarièl__*
 
 aquarium
 : аквариум
@@ -170,7 +170,7 @@ aquarium
 
 accompagnement
 : аккомпанемент
-*__accompaniement'__*
+*__accompanièmènt'__*
 
 acrobate
 : акробат
@@ -178,7 +178,7 @@ acrobate
 
 accessoire
 : аксессуар
-*__aksiessouar__*
+*__aksièssouar__*
 
 acte
 : акт
@@ -202,19 +202,19 @@ action
 
 algèbre
 : алгебра
-*__alguebra__*
+*__alguèbra__*
 
 aliments
 : алименты
-*__alimentè__*
+*__alimèntè__*
 
 allemande
 : аллеманда
-*__alliemanda__*
+*__allièmanda__*
 
 allée
 : аллея
-*__alleia__*
+*__allèia__*
 
 allô
 : алло
@@ -234,7 +234,7 @@ almanach
 
 alternative
 : альтернатива
-*__altiernativa__*
+*__altièrnativa__*
 
 alliance
 : альянс
@@ -246,11 +246,11 @@ alliance
 
 emploi
 : амплуа
-*__amplya__*
+*__amplia__*
 
 amulette
 : амулет
-*__amoulet'__*
+*__amoulèt'__*
 
 analyse
 : анализ
@@ -262,15 +262,15 @@ analogie
 
 engagement
 : ангажемент
-*__angajiement'__*
+*__angajièmènt'__*
 
 anecdote
 : анекдот
-*__aniecdot'__*
+*__aniècdot'__*
 
 enquête
 : анкета
-*__ankieta__*
+*__ankièta__*
 
 annonce
 : анонс
@@ -294,15 +294,15 @@ entracte
 
 entrecôte
 : антрекот
-*__antrekot'__*
+*__antrèkot'__*
 
 entrepreneur
 : антрепренёр
-*__antreprienor__*
+*__antrèpriènor__*
 
 entresol
 : антресоль
-*__antriesol__*
+*__antrièsol__*
 
 entourage
 : антураж
@@ -314,11 +314,11 @@ en face
 
 appartement
 : апартаменты
-*__apartamentè__*
+*__apartamèntè__*
 
 appel
 : апелляция
-*__apielliatsia__*
+*__apièlliatsia__*
 
 -
 : апельсин
@@ -326,7 +326,7 @@ appel
 
 apéritif
 : аперитив
-*__apieritif__*
+*__apièritif__*
 
 applaudir
 : аплодировать
@@ -346,7 +346,7 @@ appareil
 
 applique
 : апплике
-*__applikie__*
+*__applikiè__*
 
 -
 : аранжировка
@@ -354,11 +354,11 @@ applique
 
 argument
 : аргумент
-*__argoument'__*
+*__argoumènt'__*
 
 arrêter
 : арестовать
-*__ariestovat'__*
+*__arièstovat'__*
 
 arc
 : арка
@@ -374,11 +374,11 @@ armée
 
 artère
 : артерия
-*__arteria__*
+*__artèria__*
 
 artillerie
 : артиллерия
-*__artilieria__*
+*__artilièria__*
 
 artiste
 : артист
@@ -386,7 +386,7 @@ artiste
 
 archaïque
 : архаический
-*__arhaïtchieski__*
+*__arhaïtchièski__*
 
 archives
 : архив
@@ -394,11 +394,11 @@ archives
 
 architecture
 : архитектура
-*__architiectoura__*
+*__architièctoura__*
 
 arrière-garde
 : арьергард
-*__ariergart'__*
+*__arièrgart'__*
 
 as
 : ас
@@ -406,7 +406,7 @@ as
 
 ascète
 : аскет
-*__asket'__*
+*__askèt'__*
 
 aspirant
 : аспирант
@@ -418,7 +418,7 @@ assemblée
 
 assistant
 : ассистент
-*__assistent'__*
+*__assistènt'__*
 
 assorti
 : ассорти
@@ -426,7 +426,7 @@ assorti
 
 assortiment
 : ассортимент
-*__assortiment'__*
+*__assortimènt'__*
 
 association
 : ассоциация
@@ -450,7 +450,7 @@ attaque
 
 atelier
 : ателье
-*__atelie__*
+*__atèliè__*
 
 atlas
 : атлас
@@ -458,11 +458,11 @@ atlas
 
 athlète
 : атлет
-*__atlet'__*
+*__atlèt'__*
 
 attaché
 : атташе
-*__attachie__*
+*__attachiè__*
 
 attraction
 : аттракцион
@@ -478,26 +478,26 @@ affiche
 
 aérodrome
 : аэродром
-*__aerodrome__*
+*__aèrodromè__*
 
 aéroplane
 : аэроплан
-*__aeroplane__*
+*__aèroplanè__*
 
 
 ## Б
 
 bagatelle
 : багатель
-*__bagatelle__*
+*__bagatèllè__*
 
 baguette
 : багет
-*__baguette__*
+*__baguèttè__*
 
 base
 : база
-*__base__*
+*__basè__*
 
 bazar
 : базар
@@ -505,7 +505,7 @@ bazar
 
 baïonnette
 : байонет
-*__baïonnette__*
+*__baïonnèttè__*
 
 bal
 : бал
@@ -513,7 +513,7 @@ bal
 
 balance
 : баланс
-*__balance__*
+*__balancè__*
 
 -
 : балдахин
@@ -521,7 +521,7 @@ balance
 
 ballet
 : балет
-*__ballet__*
+*__ballèt__*
 
 balcon
 : балкон
@@ -529,7 +529,7 @@ balcon
 
 ballade
 : баллада
-*__ballade__*
+*__balladè__*
 
 ballon
 : баллон
@@ -541,7 +541,7 @@ bal masqué, mascarade
 
 balustrade
 : балюстрада
-*__balustrade__*
+*__balustradè__*
 
 banal
 : банальный
@@ -549,31 +549,31 @@ banal
 
 bande
 : банда
-*__bande__*
+*__bandè__*
 
 bandage
 : бандаж
-*__bandage__*
+*__bandagè__*
 
 banderole
 : бандероль
-*__banderole__*
+*__bandèrolè__*
 
 banquet
 : банкет
-*__banquet__*
+*__banquèt__*
 
 baraque
 : барак
-*__baraque__*
+*__baraquè__*
 
 bas-relief
 : барельеф
-*__bas-relief__*
+*__bas-rèlièf__*
 
 barge
 : баржа
-*__barge__*
+*__bargè__*
 
 baryton
 : баритон
@@ -581,11 +581,11 @@ baryton
 
 barricade
 : баррикада
-*__barricade__*
+*__barricadè__*
 
 barrière
 : барьер
-*__barrière__*
+*__barrièrè__*
 
 bassin
 : бассейн
@@ -593,7 +593,7 @@ bassin
 
 bataille
 : баталия
-*__bataille__*
+*__bataillè__*
 
 bataillon
 : батальон
@@ -601,11 +601,11 @@ bataillon
 
 batterie
 : батарея
-*__batterie__*
+*__battèriè__*
 
 batiste
 : батист
-*__batiste__*
+*__batistè__*
 
 bâton
 : батон
@@ -613,43 +613,43 @@ bâton
 
 beige
 : бежевый
-*__beige__*
+*__bèigè__*
 
 baiser
 : безе
-*__baiser__*
+*__baisèr__*
 
 bécasse
 : бекас
-*__bécasse__*
+*__bécassè__*
 
 belles lettres
 : беллетристика
-*__belles lettres__*
+*__bèllès lèttrès__*
 
 belvédère
 : бельведер
-*__belvédère__*
+*__bèlvédèrè__*
 
 bel étage
 : бельэтаж
-*__bel étage__*
+*__bèl étagè__*
 
 bénéfice
 : бенефис
-*__bénéfice__*
+*__bénéficè__*
 
 benzine
 : бензин
-*__benzine__*
+*__bènzinè__*
 
 bergamote
 : бергамот
-*__bergamote__*
+*__bèrgamotè__*
 
 béret
 : берет
-*__béret__*
+*__bérèt__*
 
 -
 : беспардонный
@@ -669,11 +669,11 @@ bigoudi
 
 bidet
 : биде
-*__bidet__*
+*__bidèt__*
 
 bijouterie
 : бижутерия
-*__bijouterie__*
+*__bijoutèriè__*
 
 bison
 : бизон
@@ -681,7 +681,7 @@ bison
 
 billet
 : билет
-*__billet__*
+*__billèt__*
 
 billion
 : биллион
@@ -693,19 +693,19 @@ billard
 
 binocle
 : бинокль
-*__binocle__*
+*__binoclè__*
 
 biographie
 : биография
-*__biographie__*
+*__biographiè__*
 
 biologie
 : биология
-*__biologie__*
+*__biologiè__*
 
 bourse
 : биржа
-*__bourse__*
+*__boursè__*
 
 bis
 : бис
@@ -717,7 +717,7 @@ biscuit
 
 bissectrice
 : биссектриса
-*__bissectrice__*
+*__bissèctricè__*
 
 bistro
 : бистро
@@ -725,7 +725,7 @@ bistro
 
 bitume
 : битум
-*__bitume__*
+*__bitumè__*
 
 blanc
 : бланк
@@ -737,7 +737,7 @@ bloc
 
 bloc-notes
 : блокнот
-*__bloc-notes__*
+*__bloc-notès__*
 
 blondin
 : блондин
@@ -745,7 +745,7 @@ blondin
 
 blouse
 : блуза
-*__blouse__*
+*__blousè__*
 
 blouson
 : блузон
@@ -753,7 +753,7 @@ blouson
 
 bohème
 : богема
-*__bohème__*
+*__bohèmè__*
 
 bocal
 : бокал
@@ -765,7 +765,7 @@ boléro
 
 bonbonnière
 : бонбоньерка
-*__bonbonnière__*
+*__bonbonnièrè__*
 
 bon vivant
 : бонвиван
@@ -773,11 +773,11 @@ bon vivant
 
 bordeaux
 : бордовый
-*__bordeaux__*
+*__bordèaux__*
 
 bordure
 : бордюр
-*__bordure__*
+*__bordurè__*
 
 bottillon
 : ботильоны
@@ -785,7 +785,7 @@ bottillon
 
 bottine
 : ботинки
-*__bottine__*
+*__bottinè__*
 
 bottes fortes
 : ботфорты
@@ -801,15 +801,15 @@ bras
 
 bravade
 : бравада
-*__bravade__*
+*__bravadè__*
 
 bracelet
 : браслет
-*__bracelet__*
+*__bracèlèt__*
 
 Breguet
 : брегет
-*__Breguet__*
+*__Brèguèt__*
 
 -
 : брезент
@@ -817,11 +817,11 @@ Breguet
 
 brigade
 : бригада
-*__brigade__*
+*__brigadè__*
 
 brise
 : бриз
-*__brise__*
+*__brisè__*
 
 brillant
 : бриллиант
@@ -829,11 +829,11 @@ brillant
 
 broche
 : брошь
-*__broche__*
+*__broch__*
 
 brochure
 : брошюра
-*__brochure__*
+*__brochurè__*
 
 boudoir
 : будуар
@@ -845,19 +845,19 @@ bouclé
 
 bouclette
 : буклет
-*__bouclette__*
+*__bouclèttè__*
 
 boucle
 : букли
-*__boucle__*
+*__bouclè__*
 
 boulevard
 : бульвар
-*__boulevard__*
+*__boulèvard__*
 
 boule de neige
 : бульдонеж
-*__boule de neige__*
+*__boulè dè nèigè__*
 
 bouillon
 : бульон
@@ -865,7 +865,7 @@ bouillon
 
 bourgeois
 : буржуа
-*__bourgeois__*
+*__bourgèois__*
 
 -
 : буржуй
@@ -881,11 +881,11 @@ bouts-rimés
 
 bourrée
 : бурре
-*__bourrée__*
+*__bourréè__*
 
 boutique
 : бутик
-*__boutique__*
+*__boutiquè__*
 
 bouton
 : бутон
@@ -893,23 +893,23 @@ bouton
 
 buffet
 : буфет
-*__buffet__*
+*__buffèt__*
 
 budget
 : бюджет
-*__budget__*
+*__budgèt__*
 
 bureau
 : бюро
-*__bureau__*
+*__burèau__*
 
 bureaucratie
 : бюрократия
-*__bureaucratie__*
+*__burèaucratiè__*
 
 va banque
 : ва-банк
-*__va banque__*
+*__va banquè__*
 
 wagon
 : вагон
@@ -917,23 +917,23 @@ wagon
 
 vase
 : ваза
-*__vase__*
+*__vasè__*
 
 vaseline
 : вазелин
-*__vaseline__*
+*__vasèlinè__*
 
 vacance
 : вакансия
-*__vacance__*
+*__vacancè__*
 
 vaccine
 : вакцина
-*__vaccine__*
+*__vaccinè__*
 
 valet
 : валет
-*__valet__*
+*__valèt__*
 
 validol
 : валидол
@@ -941,19 +941,19 @@ validol
 
 valse
 : вальс
-*__valse__*
+*__valsè__*
 
 vandalisme
 : вандализм
-*__vandalisme__*
+*__vandalismè__*
 
 vanille
 : ваниль
-*__vanille__*
+*__vanillè__*
 
 variante
 : вариант
-*__variante__*
+*__variantè__*
 
 variété
 : варьете
@@ -965,35 +965,35 @@ vassal
 
 végétarien
 : вегетарианский
-*__végétarien__*
+*__végétarièn__*
 
 vecteur
 : вектор
-*__vecteur__*
+*__vèctèur__*
 
 vélocipède
 : велосипед
-*__velocipiet'__*
+*__vèlocipièt'__*
 
 velours
 : велюр
-*__velours__*
+*__vèlours__*
 
 ventiler
 : вентилировать
-*__ventiler__*
+*__vèntilèr__*
 
 vernissage
 : вернисаж
-*__vernissage__*
+*__vèrnissagè__*
 
 vestibule
 : вестибюль
-*__vestibule__*
+*__vèstibulè__*
 
 vétérinaire
 : ветеринар
-*__vétérinaire__*
+*__vétérinairè__*
 
 viaduc
 : виадук
@@ -1005,39 +1005,39 @@ vis-à-vis
 
 visite
 : визит
-*__visite__*
+*__visitè__*
 
 vicomte
 : виконт
-*__vicomte__*
+*__vicomtè__*
 
 vinaigrette
 : винегрет
-*__vinaigrette__*
+*__vinaigrèttè__*
 
 vintage
 : винтаж
-*__vintage__*
+*__vintagè__*
 
 vignette
 : виньетка
-*__vignette__*
+*__vignèttè__*
 
 virage
 : вираж
-*__virage__*
+*__viragè__*
 
 virtuose
 : виртуоз
-*__virtuose__*
+*__virtuosè__*
 
 vitrage
 : витраж
-*__vitrage__*
+*__vitragè__*
 
 vitrine
 : витрина
-*__vitrine__*
+*__vitrinè__*
 
 -
 : вкус
@@ -1049,7 +1049,7 @@ vitrine
 
 vaudeville
 : водевиль
-*__vaudeville__*
+*__vaudèvillè__*
 
 vocal
 : вокал
@@ -1057,7 +1057,7 @@ vocal
 
 vocalisme
 : вокализм
-*__vocalisme__*
+*__vocalismè__*
 
 volant
 : волан
@@ -1065,11 +1065,11 @@ volant
 
 volontaire
 : волонтер
-*__volontaire__*
+*__volontairè__*
 
 voyage
 : вояж
-*__voyage__*
+*__voyagè__*
 
 -
 : впечатление
@@ -1077,18 +1077,18 @@ voyage
 
 voyeurisme
 : вуайеризм
-*__voyeurisme__*
+*__voyèurismè__*
 
 voile
 : вуаль
-*__voile__*
+*__voilè__*
 
 
 ## Г
 
 gabardine
 : габардин
-*__gabardine__*
+*__gabardinè__*
 
 gabarit
 : габарит
@@ -1104,7 +1104,7 @@ gaze
 
 gazette
 : газета
-*__gazette__*
+*__gazèttè__*
 
 gazon
 : газон
@@ -1112,7 +1112,7 @@ gazon
 
 galanterie
 : галантерея
-*__galanterie__*
+*__galantèriè__*
 
 galant
 : галантный
@@ -1120,11 +1120,11 @@ galant
 
 galerie
 : галерея
-*__galerie__*
+*__galèriè__*
 
 galette
 : галета
-*__galette__*
+*__galèttè__*
 
 galimatias
 : галиматья
@@ -1132,7 +1132,7 @@ galimatias
 
 Galliffet
 : галифе
-*__Galliffet__*
+*__Galliffèt__*
 
 hallucination
 : галлюцинация
@@ -1140,7 +1140,7 @@ hallucination
 
 galoche
 : галоши
-*__galoche__*
+*__galochè__*
 
 galon
 : галун
@@ -1148,15 +1148,15 @@ galon
 
 garage
 : гараж
-*__garage__*
+*__garagè__*
 
 garde-marin
 : гардемарин
-*__garde-marin__*
+*__gardè-marin__*
 
 garde-robe
 : гардероб
-*__garde-robe__*
+*__gardè-robè__*
 
 -
 : гардина
@@ -1164,7 +1164,7 @@ garde-robe
 
 harem
 : гарем
-*__harem__*
+*__harèm__*
 
 garnison
 : гарнизон
@@ -1176,19 +1176,19 @@ garnir
 
 garniture
 : гарнитур
-*__garniture__*
+*__garniturè__*
 
 gastronome
 : гастроном
-*__gastronome__*
+*__gastronomè__*
 
 gastronomie
 : гастрономия
-*__gastronomie__*
+*__gastronomiè__*
 
 garde
 : гвардия
-*__garde__*
+*__gardè__*
 
 général
 : генерал
@@ -1200,15 +1200,15 @@ génial
 
 géologie
 : геология
-*__géologie__*
+*__géologiè__*
 
 géométrie
 : геометрия
-*__géométrie__*
+*__géométriè__*
 
 herbier
 : гербарий
-*__herbier__*
+*__hèrbièr__*
 
 héros
 : герой
@@ -1220,47 +1220,47 @@ guide
 
 guillotine
 : гильотина
-*__guillotine__*
+*__guillotinè__*
 
 guipure
 : гипюр
-*__guipure__*
+*__guipurè__*
 
 guitare
 : гитара
-*__guitare__*
+*__guitarè__*
 
 glisseur
 : глиссер
-*__glisseur__*
+*__glissèur__*
 
 glycérine
 : глицерин
-*__glycérine__*
+*__glycérinè__*
 
 globe
 : глобус
-*__globe__*
+*__globè__*
 
 glucose
 : глюкоза
-*__glucose__*
+*__glucosè__*
 
 glace
 : глясе
-*__glace__*
+*__glacè__*
 
 gobelin
 : гобелен
-*__gobelin__*
+*__gobèlin__*
 
 gorgette
 : горжетка
-*__gorgette__*
+*__gorgèttè__*
 
 gravure
 : гравюра
-*__gravure__*
+*__gravurè__*
 
 gradation
 : градация
@@ -1268,7 +1268,7 @@ gradation
 
 grandiose
 : грандиозный
-*__grandiose__*
+*__grandiosè__*
 
 Grand Prix
 : гран-при
@@ -1276,35 +1276,35 @@ Grand Prix
 
 grasseyement
 : грассирование
-*__grasseyement__*
+*__grassèyèmènt__*
 
 grillage
 : грильяж
-*__grillage__*
+*__grillagè__*
 
 grime
 : грим
-*__grime__*
+*__grimè__*
 
 grimace
 : гримаса
-*__grimace__*
+*__grimacè__*
 
 grotte
 : грот
-*__grotte__*
+*__grottè__*
 
 grotesque
 : гротеск
-*__grotesque__*
+*__grotèsquè__*
 
 groupe
 : группа
-*__groupe__*
+*__groupè__*
 
 gouache
 : гуашь
-*__gouache__*
+*__gouach__*
 
 -
 : губернатор
@@ -1312,7 +1312,7 @@ gouache
 
 gouverneur
 : гувернер
-*__gouverneur__*
+*__gouvèrnèur__*
 
 gourmand
 : гурман
@@ -1323,15 +1323,15 @@ gourmand
 
 dame
 : дама
-*__dame__*
+*__damè__*
 
 débat
 : дебаты
-*__diebatè__*
+*__dièbatè__*
 
 débauche
 : дебош
-*__débauche__*
+*__débauchè__*
 
 début
 : дебют
@@ -1343,11 +1343,11 @@ déjà vu
 
 de jour
 : дежурный
-*__de jour__*
+*__dè jour__*
 
 décolleté
 : декольте
-*__décolleté__*
+*__décollèté__*
 
 décor
 : декор
@@ -1359,11 +1359,11 @@ décoration
 
 découpage, découper
 : декупаж, декупюр
-*__découpage, découper__*
+*__découpagè, découpèr__*
 
 délicatesse
 : деликатес
-*__délicatesse__*
+*__délicatèssè__*
 
 délicat
 : деликатный
@@ -1371,23 +1371,23 @@ délicat
 
 delta
 : дельта
-*__delta__*
+*__dèlta__*
 
 démarche
 : демарш
-*__démarche__*
+*__démarchè__*
 
 démocratie
 : демократия
-*__démocratie__*
+*__démocratiè__*
 
 dépêche
 : депеша
-*__dépêche__*
+*__dépêchè__*
 
 от déposer
 : депозит
-*__от déposer__*
+*__от déposèr__*
 
 député
 : депутат
@@ -1395,15 +1395,15 @@ député
 
 descente
 : десант
-*__descente__*
+*__dèscèntè__*
 
 dessert
 : десерт
-*__dessert__*
+*__dèssèrt__*
 
 despote
 : деспот
-*__despote__*
+*__dèspotè__*
 
 déficit
 : дефицит
@@ -1411,7 +1411,7 @@ déficit
 
 diadème
 : диадема
-*__diadème__*
+*__diadèmè__*
 
 divan
 : диван
@@ -1419,47 +1419,47 @@ divan
 
 divertissement
 : дивертисмент
-*__divertissement__*
+*__divèrtissèmènt__*
 
 diète
 : диета
-*__diète__*
+*__diètè__*
 
 dictée
 : диктант
-*__dictée__*
+*__dictéè__*
 
 dictature
 : диктатура
-*__dictature__*
+*__dictaturè__*
 
 dilettante
 : дилетант
-*__dilettante__*
+*__dilèttantè__*
 
 diplôme
 : диплом
-*__diplôme__*
+*__diplômè__*
 
 diplomate
 : дипломат
-*__diplomate__*
+*__diplomatè__*
 
 directeur
 : директор
-*__directeur__*
+*__dirèctèur__*
 
 dirigeable
 : дирижабль
-*__dirigeable__*
+*__dirigèablè__*
 
 diriger + -eur
 : дирижёр
-*__diriger + -eur__*
+*__dirigèr + -èur__*
 
 disque
 : диск
-*__disque__*
+*__disquè__*
 
 discussion
 : дискуссия
@@ -1467,19 +1467,19 @@ discussion
 
 dispute
 : диспут
-*__dispute__*
+*__disputè__*
 
 dissident
 : диссидент
-*__dissident__*
+*__dissidènt__*
 
 dose
 : доза
-*__dose__*
+*__dosè__*
 
 dossier
 : досье
-*__dossier__*
+*__dossièr__*
 
 drap
 : драп
@@ -1487,19 +1487,19 @@ drap
 
 draper
 : драпировка
-*__draper__*
+*__drapèr__*
 
 drainage
 : дренаж
-*__drainage__*
+*__drainagè__*
 
 doubleur
 : дублёр
-*__doubleur__*
+*__doublèur__*
 
 double
 : дубль
-*__double__*
+*__doublè__*
 
 -
 : духи
@@ -1507,15 +1507,15 @@ double
 
 douche
 : душ
-*__douche__*
+*__douchè__*
 
 duel
 : дуэль
-*__duel__*
+*__duèl__*
 
 douzaine
 : дюжина
-*__douzaine__*
+*__douzainè__*
 
 
 ## Ж
@@ -1526,19 +1526,19 @@ jabot
 
 jaquette
 : жакет
-*__jaquette__*
+*__jaquèttè__*
 
 jalousie
 : жалюзи
-*__jalousie__*
+*__jalousiè__*
 
 gendarme
 : жандарм
-*__gendarme__*
+*__gèndarmè__*
 
 genre
 : жанр
-*__genre__*
+*__gènrè__*
 
 -
 : -
@@ -1550,31 +1550,31 @@ jargon
 
 gélatine
 : желатин
-*__gélatine__*
+*__gélatinè__*
 
 gelée
 : желе
-*__gelée__*
+*__gèléè__*
 
 geste
 : жест
-*__geste__*
+*__gèstè__*
 
 jeton
 : жетон
-*__jeton__*
+*__jèton__*
 
 gicleur
 : жиклер
-*__gicleur__*
+*__giclèur__*
 
 gilet
 : жилет
-*__gilet__*
+*__gilèt__*
 
 jongleur
 : жонглер
-*__jongleur__*
+*__jonglèur__*
 
 jouir
 : жуир
@@ -1586,7 +1586,7 @@ journal
 
 julienne
 : жюльен
-*__julienne__*
+*__juliènnè__*
 
 
 ## З
@@ -1597,7 +1597,7 @@ julienne
 
 zèbre
 : зебра
-*__zèbre__*
+*__zèbrè__*
 
 -
 : зефир
@@ -1613,7 +1613,7 @@ zigzag
 
 zone
 : зона
-*__zone__*
+*__zonè__*
 
 
 ## И
@@ -1624,19 +1624,19 @@ idéal
 
 identique
 : идентичный
-*__identique__*
+*__idèntiquè__*
 
 idiome
 : идиома
-*__idiome__*
+*__idiomè__*
 
 hiéroglyphe
 : иероглиф
-*__hiéroglyphe__*
+*__hiéroglyphè__*
 
 isoler
 : изолировать
-*__isoler__*
+*__isolèr__*
 
 -
 : изысканный
@@ -1648,7 +1648,7 @@ illusion
 
 illustrer
 : иллюстрировать
-*__illustrer__*
+*__illustrèr__*
 
 -
 : имажинизм
@@ -1660,19 +1660,19 @@ imitation
 
 imiter
 : имитировать
-*__imiter__*
+*__imitèr__*
 
 empire
 : империя
-*__empire__*
+*__èmpirè__*
 
 importer
 : импортировать
-*__importer__*
+*__importèr__*
 
 impressionnisme
 : импрессионизм
-*__impressionnisme__*
+*__imprèssionnismè__*
 
 improvisation
 : импровизация
@@ -1688,27 +1688,27 @@ invalide
 
 inversion
 : инверсия
-*__inversion__*
+*__invèrsion__*
 
 industrie
 : индустрия
-*__industrie__*
+*__industriè__*
 
 inerte
 : инертный
-*__inerte__*
+*__inèrtè__*
 
 injecteur
 : инжектор
-*__injecteur__*
+*__injèctèur__*
 
 ingénieur
 : инженер
-*__ingénieur__*
+*__ingénièur__*
 
 ingénue
 : инженю
-*__ingénue__*
+*__ingénuè__*
 
 initial
 : инициалы
@@ -1716,11 +1716,11 @@ initial
 
 initiative
 : инициатива
-*__initiative__*
+*__initiativè__*
 
 incriminer
 : инкриминировать
-*__incriminer__*
+*__incriminèr__*
 
 incrustation
 : инкрустация
@@ -1732,7 +1732,7 @@ insinuation
 
 inspection
 : инспекция
-*__inspection__*
+*__inspèction__*
 
 institut
 : институт
@@ -1740,27 +1740,27 @@ institut
 
 instrument
 : инструмент
-*__instrument__*
+*__instrumènt__*
 
 intégrale
 : интеграл
-*__intégrale__*
+*__intégralè__*
 
 intellect
 : интеллект
-*__intellect__*
+*__intèllèct__*
 
 intellectuel
 : интеллектуальный
-*__intellectuel__*
+*__intèllèctuèl__*
 
 intensif
 : интенсивный
-*__intensif__*
+*__intènsif__*
 
 intervention
 : интервенция
-*__intervention__*
+*__intèrvèntion__*
 
 intérêt
 : интерес
@@ -1768,23 +1768,23 @@ intérêt
 
 internat
 : интернат
-*__internat__*
+*__intèrnat__*
 
 internationale
 : интернациональный
-*__internationale__*
+*__intèrnationalè__*
 
 interprétation
 : интерпретация
-*__interprétation__*
+*__intèrprétation__*
 
 intérieur
 : интерьер
-*__intérieur__*
+*__intérièur__*
 
 intime
 : интимный
-*__intime__*
+*__intimè__*
 
 intonation
 : интонация
@@ -1792,7 +1792,7 @@ intonation
 
 intrigue
 : интрига
-*__intrigue__*
+*__intriguè__*
 
 introduction
 : интродукция
@@ -1800,7 +1800,7 @@ introduction
 
 infantile
 : инфантильный
-*__infantile__*
+*__infantilè__*
 
 inflation
 : инфляция
@@ -1812,7 +1812,7 @@ information
 
 incident
 : инцидент
-*__incident__*
+*__incidènt__*
 
 iris
 : ирис
@@ -1820,34 +1820,34 @@ iris
 
 ironie
 : ирония
-*__ironie__*
+*__ironiè__*
 
 hystérie
 : истерия
-*__hystérie__*
+*__hystériè__*
 
 histoire
 : история
-*__histoire__*
+*__histoirè__*
 
 
 ## К
 
 cabine
 : кабина
-*__cabine__*
+*__cabinè__*
 
 cabinet
 : кабинет
-*__cabinet__*
+*__cabinèt__*
 
 cabriolet
 : кабриолет
-*__cabriolet__*
+*__cabriolèt__*
 
 cavalier
 : кавалер
-*__cavalier__*
+*__cavalièr__*
 
 cavalier-garde
 : кавалергард
@@ -1855,75 +1855,75 @@ cavalier-garde
 
 cavalcade
 : кавалькада
-*__cavalcade__*
+*__cavalcadè__*
 
 cadet
 : кадет
-*__cadet__*
+*__cadèt__*
 
 cadre
 : кадр
-*__cadre__*
+*__cadrè__*
 
 quadrille
 : кадриль
-*__quadrille__*
+*__quadrillè__*
 
 casemate
 : каземат
-*__casemate__*
+*__casèmatè__*
 
 cacophonie
 : какофония
-*__cacophonie__*
+*__cacophoniè__*
 
 calembour
 : каламбур
-*__calembour__*
+*__calèmbour__*
 
 kaléidoscope
 : калейдоскоп
-*__kaléidoscope__*
+*__kaléidoscopè__*
 
 calibre
 : калибр
-*__calibre__*
+*__calibrè__*
 
 calorie
 : калория
-*__calorie__*
+*__caloriè__*
 
 galoche
 : калоши
-*__galoche__*
+*__galochè__*
 
 calque
 : калька
-*__calque__*
+*__calquè__*
 
 caleçon
 : кальсоны
-*__calesonè__*
+*__calèsonè__*
 
 camériste
 : камеристка
-*__camériste__*
+*__caméristè__*
 
 camée
 : камея
-*__camée__*
+*__caméè__*
 
 camisole
 : камзол
-*__camisole__*
+*__camisolè__*
 
 campagne
 : кампания
-*__campagne__*
+*__campagnè__*
 
 camouflage
 : камуфляж
-*__camouflage__*
+*__camouflagè__*
 
 canalisation
 : канализация
@@ -1931,7 +1931,7 @@ canalisation
 
 canaille
 : каналья
-*__canaille__*
+*__canaillè__*
 
 canapé
 : канапе
@@ -1943,15 +1943,15 @@ canapé
 
 canevas
 : канва
-*__canevas__*
+*__canèvas__*
 
 candélabre
 : канделябр
-*__candélabre__*
+*__candélabrè__*
 
 cannetille
 : канитель
-*__cannetille__*
+*__cannètillè__*
 
 cancan
 : канкан
@@ -1959,15 +1959,15 @@ cancan
 
 cannibale
 : каннибал
-*__cannibale__*
+*__cannibalè__*
 
 canonnade
 : канонада
-*__canonnade__*
+*__canonnadè__*
 
 canotier
 : канотье
-*__canotier__*
+*__canotièr__*
 
 canoë
 : каноэ
@@ -1979,7 +1979,7 @@ caporal
 
 caprice
 : каприз
-*__caprice__*
+*__capricè__*
 
 capuchon
 : капюшон
@@ -1987,11 +1987,11 @@ capuchon
 
 caramel
 : карамель
-*__caramel__*
+*__caramèl__*
 
 quarantaine
 : карантин
-*__quarantaine__*
+*__quarantainè__*
 
 carbonnade
 : карбонад
@@ -1999,7 +1999,7 @@ carbonnade
 
 carburateur
 : карбюратор
-*__carburateur__*
+*__carburatèur__*
 
 cardinal
 : кардинальный
@@ -2007,11 +2007,11 @@ cardinal
 
 cardiogramme
 : кардиограмма
-*__cardiogramme__*
+*__cardiogrammè__*
 
 carré
 : каре
-*__carré__*
+*__carrè́__*
 
 carnaval
 : карнавал
@@ -2019,19 +2019,19 @@ carnaval
 
 carte blanche
 : карт-бланш
-*__carte blanche__*
+*__cartè blanchè__*
 
 cartouche
 : картуз
-*__cartouche__*
+*__cartouchè__*
 
 carrière
 : карьер (карьера)
-*__carrière__*
+*__carrièrè__*
 
 casque
 : каска
-*__casque__*
+*__casquè__*
 
 cascade
 : каскад
@@ -2039,15 +2039,15 @@ cascade
 
 cascadeur
 : каскадер
-*__cascadeur__*
+*__cascadèur__*
 
 caste
 : каста
-*__caste__*
+*__castè__*
 
 casse-tête
 : кастет
-*__casse-tête__*
+*__cassè-têtè__*
 
 -
 : кастрюля
@@ -2055,23 +2055,23 @@ casse-tête
 
 catacombe
 : катакомба
-*__catacombe__*
+*__catacombè__*
 
 catapulte
 : катапульта
-*__catapulte__*
+*__catapultè__*
 
 catastrophe
 : катастрофа
-*__catastrophe__*
+*__catastrophè__*
 
 catafalque
 : катафалк
-*__catafalque__*
+*__catafalquè__*
 
 catégorie
 : категория
-*__catégorie__*
+*__catégoriè__*
 
 caoutchouc
 : каучук
@@ -2083,15 +2083,15 @@ café
 
 cache-nez
 : кашне
-*__cache-nes__*
+*__cachè-nès__*
 
 cache-pot
 : кашпо
-*__cache-pot__*
+*__cachè-pot__*
 
 quintessence
 : квинтэссенция
-*__quintessence__*
+*__quintèssèncè__*
 
 -
 : кепка
@@ -2099,35 +2099,35 @@ quintessence
 
 kilogramme
 : килограмм
-*__kilogramme__*
+*__kilogrammè__*
 
 kilomètre
 : километр
-*__kilomètre__*
+*__kilomètrè__*
 
 clarinette
 : кларнет
-*__clarinette__*
+*__clarinèttè__*
 
 classe
 : класс
-*__classe__*
+*__classè__*
 
 classique
 : классик
-*__classique__*
+*__classiquè__*
 
 clerc
 : клерк
-*__clerc__*
+*__clèrc__*
 
 cloche
 : клёш
-*__cloche__*
+*__clochè__*
 
 clinique
 : клиника
-*__clinique__*
+*__cliniquè__*
 
 cliché
 : клише
@@ -2135,7 +2135,7 @@ cliché
 
 cloaque
 : клоака
-*__cloaque__*
+*__cloaquè__*
 
 clown
 : клоун (клоунесса)
@@ -2147,11 +2147,11 @@ clochard
 
 clause
 : кляуза
-*__clause__*
+*__clausè__*
 
 quenelle
 : кнель (кнели)
-*__quenelle__*
+*__knièlʸ__*
 
 coalition
 : коалиция
@@ -2167,11 +2167,11 @@ coq
 
 cocaïne
 : кокаин
-*__cocaïne__*
+*__cocaïnè__*
 
 coquette
 : кокетка (кокотка)
-*__coquette__*
+*__coquèttè__*
 
 cocon
 : кокон
@@ -2179,31 +2179,31 @@ cocon
 
 collage
 : коллаж
-*__collage__*
+*__collagè__*
 
 collection
 : коллекция
-*__collection__*
+*__collèction__*
 
 colonie
 : колония
-*__colonie__*
+*__coloniè__*
 
 colonne
 : колонна
-*__colonne__*
+*__colonnè__*
 
 collier
 : колье
-*__collier__*
+*__collièr__*
 
 commande
 : команда
-*__commande__*
+*__commandè__*
 
 commander
 : командовать
-*__commander__*
+*__commandèr__*
 
 combinaison
 : комбинезон
@@ -2211,11 +2211,11 @@ combinaison
 
 comique
 : комик (комический)
-*__comique__*
+*__comiquè__*
 
 comme il faut
 : комильфо
-*__comme il faut__*
+*__commè il faut__*
 
 comité
 : комитет
@@ -2223,19 +2223,19 @@ comité
 
 commentaire
 : комментарий
-*__commentaire__*
+*__commèntairè__*
 
 commercial
 : коммерческий
-*__commercial__*
+*__commèrcial__*
 
 commis-voyageur
 : коммивояжер
-*__commis-voyageur__*
+*__commis-voyagèur__*
 
 commune
 : коммуна
-*__commune__*
+*__communè__*
 
 communal
 : коммунальный
@@ -2259,11 +2259,11 @@ compagnon
 
 compagnonnage
 : компаньонажи
-*__compagnonnage__*
+*__compagnonnagè__*
 
 compensation
 : компенсация
-*__compensation__*
+*__compènsation__*
 
 compilation
 : компиляция
@@ -2271,19 +2271,19 @@ compilation
 
 compliment
 : комплимент
-*__compliment__*
+*__complimènt__*
 
 compote
 : компот
-*__compote__*
+*__compotè__*
 
 compresse
 : компресс
-*__compresse__*
+*__comprèssè__*
 
 compromettre
 : компрометировать
-*__compromettre__*
+*__compromèttrè__*
 
 compromis
 : компромисс
@@ -2295,23 +2295,23 @@ confort
 
 conversion
 : конверсия
-*__conversion__*
+*__convèrsion__*
 
 couvert
 : конверт
-*__couvert__*
+*__couvèrt__*
 
 conducteur
 : кондуктор
-*__conducteur__*
+*__conductèur__*
 
 concret
 : конкретный
-*__concret__*
+*__concrèt__*
 
 concurrent
 : конкурент
-*__concurrent__*
+*__concurrènt__*
 
 concours
 : конкурс
@@ -2319,11 +2319,11 @@ concours
 
 conservateur
 : консерватор
-*__conservateur__*
+*__consèrvatèur__*
 
 conserve
 : консервы
-*__conservè__*
+*__consèrvè__*
 
 consolidation
 : консолидация
@@ -2331,7 +2331,7 @@ consolidation
 
 console
 : консоль
-*__console__*
+*__consolè__*
 
 conspiration
 : конспирация
@@ -2343,31 +2343,31 @@ consultation
 
 contexte
 : контекст
-*__contexte__*
+*__contèxtè__*
 
 contre-marque
 : контрамарка
-*__contre-marque__*
+*__contrè-marquè__*
 
 contraste
 : контраст
-*__contraste__*
+*__contrastè__*
 
 contrôle
 : контроль
-*__contrôle__*
+*__contrôlè__*
 
 conférencier
 : конферансье
-*__conférencier__*
+*__conférèncièr__*
 
 conférence
 : конференция
-*__conférence__*
+*__conférèncè__*
 
 confiture
 : конфитюр
-*__confiture__*
+*__confiturè__*
 
 conflit
 : конфликт
@@ -2379,15 +2379,15 @@ confus
 
 concentration
 : концепция
-*__concentration__*
+*__concèntration__*
 
 conception
 : концепция
-*__conception__*
+*__concèption__*
 
 concert
 : концерт
-*__concert__*
+*__concèrt__*
 
 cognac
 : коньяк
@@ -2395,7 +2395,7 @@ cognac
 
 coopératif
 : кооператив
-*__coopieratif__*
+*__coopièratif__*
 
 coordination
 : координация
@@ -2403,11 +2403,11 @@ coordination
 
 copier
 : копировать
-*__copier__*
+*__copièr__*
 
 corvette
 : корвет
-*__corvette__*
+*__corvèttè__*
 
 cordon
 : кордон
@@ -2415,7 +2415,7 @@ cordon
 
 cornet
 : корнет
-*__cornet__*
+*__cornèt__*
 
 cornichon
 : корнишон
@@ -2423,55 +2423,55 @@ cornichon
 
 correct
 : корректный
-*__correct__*
+*__corrèct__*
 
 corsage
 : корсаж
-*__corsage__*
+*__corsagè__*
 
 corset
 : корсет
-*__corset__*
+*__corsèt__*
 
 cortège
 : кортеж
-*__cortège__*
+*__cortègè__*
 
 cosmétique
 : косметика
-*__cosmétique__*
+*__cosmétiquè__*
 
 cosmopolite
 : космополит
-*__cosmopolite__*
+*__cosmopolitè__*
 
 costume
 : костюм
-*__costume__*
+*__costumè__*
 
 côtelette
 : котлета
-*__côtelette__*
+*__côtèlèttè__*
 
 cauchemar
 : кошмар
-*__cauchemar__*
+*__cauchèmar__*
 
 crème
 : крем
-*__crème__*
+*__crèmè__*
 
 crème brûlée
 : крем-брюле
-*__crème brûlée__*
+*__crèmè brûléè__*
 
 crêpe
 : креп
-*__crêpe__*
+*__crêpè__*
 
 crêpe de Chine
 : крепдешин
-*__crêpe de Chine__*
+*__crêpè dè Chinè__*
 
 croissant
 : круассан
@@ -2479,7 +2479,7 @@ croissant
 
 croupier
 : крупье
-*__croupier__*
+*__croupièr__*
 
 cruchon
 : крюшон
@@ -2487,11 +2487,11 @@ cruchon
 
 xylophone
 : ксилофон
-*__xylophone__*
+*__xylophonè__*
 
 couvert
 : куверт
-*__couvert__*
+*__couvèrt__*
 
 cousin
 : кузен
@@ -2507,23 +2507,23 @@ couloir
 
 culte
 : культ
-*__culte__*
+*__cultè__*
 
 coupage
 : купаж
-*__coupage__*
+*__coupagè__*
 
 coupe
 : купе
-*__coupe__*
+*__coupè__*
 
 couper
 : купировать
-*__couper__*
+*__coupèr__*
 
 couplet
 : куплет
-*__couplet__*
+*__couplèt__*
 
 -
 : -
@@ -2531,7 +2531,7 @@ couplet
 
 coupole
 : купол
-*__coupole__*
+*__coupolè__*
 
 coupon
 : купон
@@ -2539,11 +2539,11 @@ coupon
 
 coupure
 : купюра
-*__coupure__*
+*__coupurè__*
 
 courage
 : кураж
-*__courage__*
+*__couragè__*
 
 courant
 : куранты
@@ -2551,7 +2551,7 @@ courant
 
 courtisane
 : куртизанка
-*__courtisane__*
+*__courtisanè__*
 
 courtois
 : куртуазность
@@ -2559,26 +2559,26 @@ courtois
 
 curieux
 : курьёз
-*__curieux__*
+*__curièux__*
 
 courrier
 : курьер
-*__courrier__*
+*__courrièr__*
 
 couchette
 : кушетка
-*__couchette__*
+*__couchèttè__*
 
 cuvette
 : кювет (кювета)
-*__cuvette__*
+*__cuvèttè__*
 
 
 ## Л
 
 lave
 : лава
-*__lave__*
+*__lavè__*
 
 laquais
 : лакей
@@ -2586,19 +2586,19 @@ laquais
 
 lampe
 : лампа
-*__lampe__*
+*__lampè__*
 
 languette
 : лангет
-*__languette__*
+*__languèttè__*
 
 lancette
 : ланцет
-*__lancette__*
+*__lancèttè__*
 
 lapidaire
 : лапидарный
-*__lapidaire__*
+*__lapidairè__*
 
 lauréat
 : лауреат
@@ -2610,7 +2610,7 @@ lauréat
 
 légende
 : легенда
-*__légende__*
+*__légèndè__*
 
 -
 : лейтенант
@@ -2618,11 +2618,11 @@ légende
 
 lexique
 : лексика
-*__lexique__*
+*__lèxiquè__*
 
 liane
 : лиана
-*__liane__*
+*__lianè__*
 
 libéral
 : либерал
@@ -2630,19 +2630,19 @@ libéral
 
 livre
 : ливр
-*__livre__*
+*__livrè__*
 
 livrée
 : ливрея
-*__livrée__*
+*__livréè__*
 
 ligue
 : лига
-*__ligue__*
+*__liguè__*
 
 liqueur
 : ликёр
-*__liqueur__*
+*__liquèur__*
 
 lilas
 : лиловый
@@ -2650,31 +2650,31 @@ lilas
 
 limite
 : лимит
-*__limite__*
+*__limitè__*
 
 limousine
 : лимузин
-*__limousine__*
+*__limousinè__*
 
 linguiste
 : лингвист
-*__linguiste__*
+*__linguistè__*
 
 lyrique
 : лирика
-*__lyrique__*
+*__lyriquè__*
 
 loge
 : ложа
-*__loge__*
+*__logè__*
 
 locomotive
 : локомотив
-*__locomotive__*
+*__locomotivè__*
 
 longe
 : лонжа
-*__longe__*
+*__longè__*
 
 lotion
 : лосьон
@@ -2682,7 +2682,7 @@ lotion
 
 loterie
 : лотерея
-*__loterie__*
+*__lotèriè__*
 
 loto
 : лото
@@ -2694,18 +2694,18 @@ loyal
 
 loupe
 : лупа
-*__loupe__*
+*__loupè__*
 
 lustre
 : люстра
-*__lustre__*
+*__lustrè__*
 
 
 ## М
 
 mausolée
 : мавзолей
-*__mausolée__*
+*__mausoléè__*
 
 -
 : магазин
@@ -2717,7 +2717,7 @@ madrigal
 
 majordome
 : мажордом
-*__majordome__*
+*__majordomè__*
 
 -
 : майка
@@ -2725,7 +2725,7 @@ majordome
 
 mayonnaise
 : майонез
-*__mayonnaise__*
+*__mayonnaisè__*
 
 -
 : майор
@@ -2733,15 +2733,15 @@ mayonnaise
 
 maquette
 : макет
-*__maquette__*
+*__maquèttè__*
 
 maquillage
 : макияж
-*__maquillage__*
+*__maquillagè__*
 
 macramé
 : макраме
-*__macramé__*
+*__macramè́__*
 
 -
 : макулатура
@@ -2749,11 +2749,11 @@ macramé
 
 mandarine
 : мандарин (полит.)
-*__mandarine__*
+*__mandarinè__*
 
 mandarine
 : мандарин (фрукт)
-*__mandarine__*
+*__mandarinè__*
 
 mandat
 : мандат
@@ -2761,27 +2761,27 @@ mandat
 
 manoeuvre
 : манёвр
-*__manoeuvre__*
+*__manoèuvrè__*
 
 manège
 : манеж
-*__manège__*
+*__manègè__*
 
 mannequin
 : манекен
-*__mannequin__*
+*__mannèquin__*
 
 manière
 : манера
-*__manière__*
+*__manièrè__*
 
 manchette
 : манжета
-*__manchette__*
+*__manchèttè__*
 
 manucure
 : маникюр
-*__manucure__*
+*__manucurè__*
 
 manipulation
 : манипуляция
@@ -2789,31 +2789,31 @@ manipulation
 
 manifeste
 : манифест
-*__manifeste__*
+*__manifèstè__*
 
 manquer
 : манкировать
-*__manquer__*
+*__manquèr__*
 
 mansarde
 : мансарда
-*__mansarde__*
+*__mansardè__*
 
 manteau
 : манто
-*__manteau__*
+*__mantèau__*
 
 marasme
 : маразм
-*__marasme__*
+*__marasmè__*
 
 margarine
 : маргарин
-*__margarine__*
+*__margarinè__*
 
 marguerite
 : маргаритка
-*__marguerite__*
+*__marguèritè__*
 
 marinade
 : маринад
@@ -2821,7 +2821,7 @@ marinade
 
 marionnette
 : марионетка
-*__marionnette__*
+*__marionnèttè__*
 
 marli
 : марля
@@ -2829,7 +2829,7 @@ marli
 
 maraudeur
 : мародёр
-*__maraudeur__*
+*__maraudèur__*
 
 martin
 : мартен
@@ -2837,15 +2837,15 @@ martin
 
 marche
 : марш
-*__marche__*
+*__marchè__*
 
 marschroute
 : маршрут
-*__marschroute__*
+*__marschroutè__*
 
 masque
 : маска
-*__masque__*
+*__masquè__*
 
 mascarade
 : маскарад
@@ -2857,11 +2857,11 @@ maçon
 
 masse
 : масса
-*__masse__*
+*__massè__*
 
 massage
 : массаж
-*__massage__*
+*__massagè__*
 
 massif
 : массив
@@ -2869,7 +2869,7 @@ massif
 
 mastodonte
 : мастодонт
-*__mastodonte__*
+*__mastodontè__*
 
 mat
 : мат
@@ -2881,15 +2881,15 @@ mat
 
 machine
 : машина
-*__machine__*
+*__machinè__*
 
 meuble
 : мебель
-*__meuble__*
+*__mèublè__*
 
 médaille
 : медаль
-*__médaille__*
+*__médaillè__*
 
 médaillon
 : медальон
@@ -2897,15 +2897,15 @@ médaillon
 
 mélange
 : меланж
-*__mélange__*
+*__mélangè__*
 
 mélodie
 : мелодия
-*__mélodie__*
+*__mélodiè__*
 
 mélomane
 : меломан
-*__mélomane__*
+*__mélomanè__*
 
 mémorial
 : мемориал
@@ -2913,47 +2913,47 @@ mémorial
 
 mémoires
 : мемуары
-*__memoirè__*
+*__mèmoirè__*
 
 mentalité
 : менталитет
-*__mentalité__*
+*__mèntalité__*
 
 menuet
 : менуэт
-*__menuet__*
+*__mènuèt__*
 
 menu
 : меню
-*__menu__*
+*__mènu__*
 
 méridien
 : меридиан
-*__méridien__*
+*__méridièn__*
 
 mercantile
 : меркантильный
-*__mercantile__*
+*__mèrcantilè__*
 
 merci
 : мерси
-*__merci__*
+*__mèrci__*
 
 métamorphose
 : метаморфоза
-*__métamorphose__*
+*__métamorphosè__*
 
 métathèse
 : метатеза
-*__métathèse__*
+*__métathèsè__*
 
 métaphore
 : метафора
-*__métaphore__*
+*__métaphorè__*
 
 météore
 : метеор
-*__météore__*
+*__météorè__*
 
 métis
 : метис
@@ -2961,15 +2961,15 @@ métis
 
 méthode
 : метод
-*__mietot'__*
+*__miètot'__*
 
 mètre
 : метр
-*__mietr__*
+*__miètr__*
 
 maître d'hôtel
 : метрдотель
-*__maître d'hôtel__*
+*__maîtrè d'hôtèl__*
 
 métro
 : метро
@@ -2985,15 +2985,15 @@ migration
 
 migraine
 : мигрень
-*__migraine__*
+*__migrainè__*
 
 mise en scène
 : мизансцена
-*__mise en scène__*
+*__misè èn scènè__*
 
 microbe
 : микроб
-*__microbe__*
+*__microbè__*
 
 milliard
 : миллиард
@@ -3001,7 +3001,7 @@ milliard
 
 milligramme
 : миллиграмм
-*__milligramme__*
+*__milligrammè__*
 
 million
 : миллион
@@ -3009,7 +3009,7 @@ million
 
 minaret
 : минарет
-*__minaret__*
+*__minarèt__*
 
 minéral
 : минерал
@@ -3017,27 +3017,27 @@ minéral
 
 minette
 : минет
-*__minette__*
+*__minèttè__*
 
 miniature
 : миниатюра
-*__miniature__*
+*__miniaturè__*
 
 ministre
 : министр
-*__ministre__*
+*__ministrè__*
 
 minute
 : минута
-*__minute__*
+*__minutè__*
 
 mirage
 : мираж
-*__mirage__*
+*__miragè__*
 
 mobile
 : мобильный
-*__mobile__*
+*__mobilè__*
 
 mauvais ton
 : моветон
@@ -3045,43 +3045,43 @@ mauvais ton
 
 mode
 : мода
-*__mode__*
+*__modè__*
 
 modèle
 : модель
-*__modèle__*
+*__modèlè__*
 
 moderne
 : модерн
-*__moderne__*
+*__modèrnè__*
 
 molécule
 : молекула
-*__molécule__*
+*__moléculè__*
 
 mollusque
 : моллюск
-*__mollusque__*
+*__mollusquè__*
 
 monocle
 : монокль
-*__monocle__*
+*__monoclè__*
 
 monologue
 : монолог
-*__monologue__*
+*__monologuè__*
 
 montpensier
 : монпансье
-*__montpensier__*
+*__montpènsièr__*
 
 montage
 : монтаж
-*__montage__*
+*__montagè__*
 
 monument
 : монумент
-*__monument__*
+*__monumènt__*
 
 moral
 : мораль
@@ -3089,23 +3089,23 @@ moral
 
 morphème
 : морфема
-*__morphème__*
+*__morphèmè__*
 
 motocycle
 : мотоцикл
-*__motocycle__*
+*__motocyclè__*
 
 moiré
 : муар
-*__moiré__*
+*__moirè́__*
 
 musée
 : музей
-*__musée__*
+*__muséè__*
 
 moulinet
 : мулине
-*__moulinet__*
+*__moulinèt__*
 
 multiplication
 : мультипликация
@@ -3113,7 +3113,7 @@ multiplication
 
 moulage
 : муляж
-*__moulage__*
+*__moulagè__*
 
 -
 : мундир
@@ -3121,11 +3121,11 @@ moulage
 
 mousseline
 : муслин
-*__mousseline__*
+*__moussèlinè__*
 
 mousse
 : мусс
-*__mousse__*
+*__moussè__*
 
 mouton
 : мутон
@@ -3133,19 +3133,19 @@ mouton
 
 mousquet
 : мушкет
-*__mousquet__*
+*__mousquèt__*
 
 mousquetaire
 : мушкетёры
-*__mouchkitierè__*
+*__mouchkitièrè__*
 
 maire
 : мэр
-*__maire__*
+*__mairè__*
 
 maître
 : мэтр
-*__maître__*
+*__maîtrè__*
 
 
 ## Н
@@ -3156,19 +3156,19 @@ naïf
 
 narcose
 : наркоз
-*__narcose__*
+*__narcosè__*
 
 narcotique
 : наркотик
-*__narcotique__*
+*__narcotiquè__*
 
 nature morte
 : натюрморт
-*__nature morte__*
+*__naturè mortè__*
 
 naphtaline
 : нафталин
-*__naphtaline__*
+*__naphtalinè__*
 
 national
 : национальный
@@ -3176,7 +3176,7 @@ national
 
 névralgie
 : невралгия
-*__névralgie__*
+*__névralgiè__*
 
 négatif
 : негатив
@@ -3188,35 +3188,35 @@ négligé
 
 nègre
 : негр
-*__nègre__*
+*__nègrè__*
 
 nécrologe
 : некролог
-*__nécrologe__*
+*__nécrologè__*
 
 nécessaire
 : несессер
-*__nécessaire__*
+*__nécèssairè__*
 
 niveler
 : нивелировать
-*__niveler__*
+*__nivèlèr__*
 
 nicotine
 : никотин
-*__nicotine__*
+*__nicotinè__*
 
 niche
 : ниша
-*__niche__*
+*__nichè__*
 
 nocturne
 : ноктюрн
-*__nocturne__*
+*__nocturnè__*
 
 nomenclature
 : номенклатура
-*__nomenclature__*
+*__nomènclaturè__*
 
 numéro
 : номер
@@ -3228,15 +3228,15 @@ nominal
 
 norme
 : норма
-*__norme__*
+*__normè__*
 
 note
 : нота
-*__note__*
+*__notè__*
 
 nouveau riche
 : нувориш
-*__nouveau riche__*
+*__nouvèau richè__*
 
 nougat
 : нуга
@@ -3248,14 +3248,14 @@ nu
 
 nuance
 : нюанс
-*__nuance__*
+*__nuancè__*
 
 
 ## О
 
 obélisque
 : обелиск
-*__obélisque__*
+*__obélisquè__*
 
 obscurant
 : обскурант
@@ -3267,7 +3267,7 @@ obstruction
 
 ovale
 : овал
-*__ovale__*
+*__ovalè__*
 
 ovation
 : овация
@@ -3275,11 +3275,11 @@ ovation
 
 eau de Cologne
 : одеколон
-*__eau de Cologne__*
+*__èau dè Colognè__*
 
 odieux
 : одиозный
-*__odieux__*
+*__odièux__*
 
 occupation
 : оккупация
@@ -3287,11 +3287,11 @@ occupation
 
 olive
 : олива
-*__olive__*
+*__olivè__*
 
 oligarchie
 : олигархия
-*__oligarchie__*
+*__oligarchiè__*
 
 homard
 : омар
@@ -3299,11 +3299,11 @@ homard
 
 omelette
 : омлет
-*__omelette__*
+*__omèlèttè__*
 
 opale
 : опал
-*__opale__*
+*__opalè__*
 
 opposition
 : оппозиция
@@ -3311,15 +3311,15 @@ opposition
 
 opportuniste
 : оппортунист
-*__opportuniste__*
+*__opportunistè__*
 
 optique
 : оптика
-*__optique__*
+*__optiquè__*
 
 optimiste
 : оптимист
-*__optimiste__*
+*__optimistè__*
 
 orang-outan
 : орангутанг
@@ -3327,11 +3327,11 @@ orang-outan
 
 orange
 : оранжевый
-*__orange__*
+*__orangè__*
 
 orangerie
 : оранжерея
-*__orangerie__*
+*__orangèriè__*
 
 organisation
 : организация
@@ -3339,15 +3339,15 @@ organisation
 
 organisme
 : организм
-*__organisme__*
+*__organismè__*
 
 ordre
 : ордер
-*__ordre__*
+*__ordrè__*
 
 ordinaire
 : ординарный
-*__ordinaire__*
+*__ordinairè__*
 
 -
 : ориентир
@@ -3355,11 +3355,11 @@ ordinaire
 
 orchestre
 : оркестр
-*__orchestre__*
+*__orchèstrè__*
 
 ornement
 : орнамент
-*__ornement__*
+*__ornèmènt__*
 
 orthodoxal
 : ортодоксальный
@@ -3367,23 +3367,23 @@ orthodoxal
 
 orthographie
 : орфография
-*__orthographie__*
+*__orthographiè__*
 
 orthoépie
 : орфоэпия
-*__orthoépie__*
+*__orthoépiè__*
 
 hôtel
 : отель
-*__hôtel__*
+*__hôtèl__*
 
 officiel
 : офицер
-*__officiel__*
+*__officièl__*
 
 officiel
 : официальный
-*__officiel__*
+*__officièl__*
 
 officiant
 : официант
@@ -3402,11 +3402,11 @@ paon
 
 page
 : паж
-*__page__*
+*__pagè__*
 
 paquet
 : пакет
-*__paquet__*
+*__paquèt__*
 
 paillé
 : палевый
@@ -3418,19 +3418,19 @@ palissade
 
 palette
 : палитра
-*__palette__*
+*__palèttè__*
 
 palmier
 : пальма
-*__palmier__*
+*__palmièr__*
 
 paletot
 : пальто
-*__paletot__*
+*__palètot__*
 
 pamphlet
 : памфлет
-*__pamphlet__*
+*__pamphlèt__*
 
 panama
 : панама
@@ -3438,11 +3438,11 @@ panama
 
 panneau
 : панель
-*__panneau__*
+*__pannèau__*
 
 panique
 : паника
-*__panique__*
+*__paniquè__*
 
 pané
 : панировать
@@ -3450,7 +3450,7 @@ pané
 
 panneau
 : панно
-*__panneau__*
+*__pannèau__*
 
 panorama
 : панорама
@@ -3458,11 +3458,11 @@ panorama
 
 pension
 : пансион
-*__pension__*
+*__pènsion__*
 
 pensionnat
 : пансионат
-*__pensionnat__*
+*__pènsionnat__*
 
 pantalon
 : панталоны
@@ -3470,7 +3470,7 @@ pantalon
 
 pantomime
 : пантомима
-*__pantomime__*
+*__pantomimè__*
 
 -
 : панцирь
@@ -3478,11 +3478,11 @@ pantomime
 
 papier mâché
 : папье-маше
-*__papier mâché__*
+*__papièr mâché__*
 
 paragraphe
 : параграф
-*__paragraphe__*
+*__paragraphè__*
 
 parade
 : парад
@@ -3490,19 +3490,19 @@ parade
 
 paradoxe
 : парадокс
-*__paradoxe__*
+*__paradoxè__*
 
 parasite
 : паразит
-*__parasite__*
+*__parasitè__*
 
 paralyser
 : парализовать
-*__paralyser__*
+*__paralysèr__*
 
 parachute
 : парашют
-*__parachute__*
+*__parachutè__*
 
 pari
 : пари
@@ -3510,7 +3510,7 @@ pari
 
 perruque
 : парик
-*__perruque__*
+*__pèrruquè__*
 
 parc
 : парк
@@ -3518,23 +3518,23 @@ parc
 
 parquet
 : паркет
-*__parquet__*
+*__parquèt__*
 
 parlement
 : парламент
-*__parlement__*
+*__parlèmènt__*
 
 parodie
 : пародия
-*__parodie__*
+*__parodiè__*
 
 parole
 : пароль
-*__parole__*
+*__parolè__*
 
 parterre
 : партер
-*__parterre__*
+*__partèrrè__*
 
 partisan
 : партизан
@@ -3542,15 +3542,15 @@ partisan
 
 partie
 : партия
-*__partie__*
+*__partiè__*
 
 partenaire
 : партнёр
-*__partenaire__*
+*__partènairè__*
 
 parfumerie
 : парфюмерия
-*__parfumerie__*
+*__parfumèriè__*
 
 pas
 : пас
@@ -3558,23 +3558,23 @@ pas
 
 passer
 : пасовать
-*__passer__*
+*__passèr__*
 
 passe-partout
 : паспарту
-*__passe-partout__*
+*__passè-partout__*
 
 passeport
 : паспорт
-*__passeport__*
+*__passèport__*
 
 passage
 : пассаж
-*__passage__*
+*__passagè__*
 
 passager
 : пассажир
-*__passager__*
+*__passagèr__*
 
 passion
 : пассия
@@ -3582,19 +3582,19 @@ passion
 
 pastel
 : пастель (пастельный)
-*__pastel__*
+*__pastèl__*
 
 pasteurisation
 : пастеризация
-*__pasteurisation__*
+*__pastèurisation__*
 
 pastiche
 : пастиш
-*__pastiche__*
+*__pastichè__*
 
 patience
 : пасьянс
-*__patience__*
+*__patièncè__*
 
 pat
 : пат
@@ -3602,15 +3602,15 @@ pat
 
 pâte
 : пат (кондит.)
-*__pâte__*
+*__pâtè__*
 
 pathétique
 : патетика
-*__pathétique__*
+*__pathétiquè__*
 
 patriote
 : патриот
-*__patriote__*
+*__patriotè__*
 
 patron
 : патрон
@@ -3618,15 +3618,15 @@ patron
 
 patronage
 : патронаж
-*__patronage__*
+*__patronagè__*
 
 patrouille
 : патруль
-*__patrouille__*
+*__patrouillè__*
 
 pause
 : пауза
-*__pause__*
+*__pausè__*
 
 pathos
 : пафос
@@ -3634,11 +3634,11 @@ pathos
 
 patient
 : пациент
-*__patient__*
+*__patiènt__*
 
 pacifisme
 : пацифизм
-*__pacifisme__*
+*__pacifismè__*
 
 pâté
 : паштет
@@ -3646,11 +3646,11 @@ pâté
 
 pédagogue
 : педагог
-*__pédagogue__*
+*__pédagoguè__*
 
 pédale
 : педаль
-*__pédale__*
+*__pédalè__*
 
 pédant
 : педант
@@ -3658,11 +3658,11 @@ pédant
 
 paysage
 : пейзаж
-*__paysage__*
+*__paysagè__*
 
 pèlerine
 : пелерина
-*__pèlerine__*
+*__pèlèrinè__*
 
 pélican
 : пеликан
@@ -3670,19 +3670,19 @@ pélican
 
 pensionnaire
 : пенсионер
-*__pensionnaire__*
+*__pènsionnairè__*
 
 pension
 : пенсия
-*__pension__*
+*__pènsion__*
 
 pince-nez
 : пенсне
-*__pince-nes__*
+*__pincè-nès__*
 
 peignoir
 : пеньюар
-*__peignoir__*
+*__pèignoir__*
 
 -
 : переворот
@@ -3690,7 +3690,7 @@ peignoir
 
 périmètre
 : периметр
-*__périmètre__*
+*__périmètrè__*
 
 période
 : период
@@ -3698,31 +3698,31 @@ période
 
 périphérie
 : периферия
-*__périphérie__*
+*__périphériè__*
 
 périphrase
 : перифраз(а)
-*__périphrase__*
+*__périphrasè__*
 
 perle
 : перл
-*__perle__*
+*__pèrlè__*
 
 perron
 : перрон
-*__perron__*
+*__pèrron__*
 
 personne
 : персона
-*__personne__*
+*__pèrsonnè__*
 
 personnage
 : персонаж
-*__personnach__*
+*__pèrsonnach__*
 
 pessimiste
 : пессимист
-*__pessimiste__*
+*__pèssimistè__*
 
 -
 : пианино
@@ -3730,7 +3730,7 @@ pessimiste
 
 pigeon
 : пижон
-*__pigeon__*
+*__pigèon__*
 
 pic
 : пик
@@ -3742,19 +3742,19 @@ piquant
 
 pique
 : пике
-*__pique__*
+*__piquè__*
 
 piquet
 : пикет
-*__piquet__*
+*__piquèt__*
 
 pique - nique
 : пикник
-*__pique - nique__*
+*__piquè - niquè__*
 
 pilote
 : пилот
-*__pilote__*
+*__pilotè__*
 
 pilotage
 : пилотаж
@@ -3762,19 +3762,19 @@ pilotage
 
 pincette
 : пинцет
-*__pincette__*
+*__pincèttè__*
 
 pionnier
 : пионер
-*__pionnier__*
+*__pionnièr__*
 
 pipette
 : пипетка
-*__pipette__*
+*__pipèttè__*
 
 pirate
 : пират
-*__pirate__*
+*__piratè__*
 
 pissoir
 : писсуар
@@ -3782,7 +3782,7 @@ pissoir
 
 pistolet
 : пистолет
-*__pistolet__*
+*__pistolèt__*
 
 piston
 : пистон
@@ -3802,27 +3802,27 @@ plagiat
 
 planeur
 : планер
-*__planeur__*
+*__planèur__*
 
 planète
 : планета
-*__planète__*
+*__planètè__*
 
 planchette
 : планшет
-*__planchette__*
+*__planchèttè__*
 
 plastique
 : пластика
-*__plastique__*
+*__plastiquè__*
 
 platine
 : платина
-*__platine__*
+*__platinè__*
 
 plate-forme
 : платформа
-*__plate-forme__*
+*__platè-formè__*
 
 plafond
 : плафон
@@ -3830,15 +3830,15 @@ plafond
 
 place d’armes
 : плацдарм
-*__place d’armes__*
+*__placè d’armès__*
 
 plein air
 : пленэр
-*__plein air__*
+*__plèin air__*
 
 plombières
 : пломбир
-*__plombières__*
+*__plombièrès__*
 
 plumage
 : плюмаж
@@ -3846,11 +3846,11 @@ plumage
 
 peluche
 : плюш
-*__peluche__*
+*__pèluchè__*
 
 plage
 : пляж
-*__plage__*
+*__plagè__*
 
 échauffé
 : подшофе
@@ -3858,7 +3858,7 @@ plage
 
 pose
 : поза
-*__pose__*
+*__posè__*
 
 position
 : позиция
@@ -3874,19 +3874,19 @@ protégé
 
 polémique
 : полемика
-*__polémique__*
+*__polémiquè__*
 
 polyglotte
 : полиглот
-*__polyglotte__*
+*__polyglottè__*
 
 polygraphie
 : полиграфия
-*__polygraphie__*
+*__polygraphiè__*
 
 polyclinique
 : поликлиника
-*__polyclinique__*
+*__polycliniquè__*
 
 polir
 : полировать
@@ -3894,39 +3894,39 @@ polir
 
 politique
 : политика
-*__politique__*
+*__politiquè__*
 
 polonaise
 : полонез
-*__polonaise__*
+*__polonaisè__*
 
 pommade
 : помада
-*__pommade__*
+*__pommadè__*
 
 pomme d’or
 : помидор
-*__pomme d’or__*
+*__pommè d’or__*
 
 pompe
 : помпа (насос)
-*__pompe__*
+*__pompè__*
 
 pompe
 : помпа (пышность)
-*__pompe__*
+*__pompè__*
 
 pompeux
 : помпезность (помпезный)
-*__pompeux__*
+*__pompèux__*
 
 popeline
 : поплин
-*__popeline__*
+*__popèlinè__*
 
 populaire
 : популярный
-*__populaire__*
+*__populairè__*
 
 pot-pourri
 : попурри
@@ -3942,7 +3942,7 @@ port
 
 porte-monnaie
 : портмоне
-*__porte-monnaie__*
+*__portè-monnaiè__*
 
 portrait
 : портрет
@@ -3950,39 +3950,39 @@ portrait
 
 porte-cigares
 : портсигар
-*__porte-cigares__*
+*__portè-cigarès__*
 
 porte-épée
 : портупея
-*__porte-épée__*
+*__portè-épéè__*
 
 portefeuille
 : портфель
-*__portefeuille__*
+*__portèfèuillè__*
 
 portefeuille
 : портфель
-*__portefeuille__*
+*__portèfèuillè__*
 
 porte-chaise
 : портшез
-*__porte-chaise__*
+*__portè-chaisè__*
 
 portier
 : портье
-*__portier__*
+*__portièr__*
 
 portière
 : портьера
-*__portière__*
+*__portièrè__*
 
 poste
 : пост, почта
-*__poste__*
+*__postè__*
 
 potentiel
 : потенциальный
-*__potentiel__*
+*__potèntièl__*
 
 postillon
 : почтальон
@@ -3990,19 +3990,19 @@ postillon
 
 poésie
 : поэзия
-*__poésie__*
+*__poésiè__*
 
 poème
 : поэма
-*__poème__*
+*__poèmè__*
 
 poète
 : поэт
-*__poète__*
+*__poètè__*
 
 poétesse
 : поэтесса
-*__poétesse__*
+*__poétèssè__*
 
 -
 : предрассудок
@@ -4010,43 +4010,43 @@ poétesse
 
 présent
 : презент
-*__présent__*
+*__présènt__*
 
 président
 : президент
-*__président__*
+*__présidènt__*
 
 première
 : премьера
-*__première__*
+*__prèmièrè__*
 
 presse
 : пресс
-*__presse__*
+*__prèssè__*
 
 presse
 : пресса
-*__presse__*
+*__prèssè__*
 
 presse-papiers
 : пресс-папье
-*__presse-papiers__*
+*__prèssè-papièrs__*
 
 prestige
 : престиж
-*__prestige__*
+*__prèstigè__*
 
 prétendant
 : претендент
-*__prétendant__*
+*__prétèndant__*
 
 préférence
 : преферанс
-*__préférence__*
+*__préférèncè__*
 
 préfixe
 : префикс
-*__préfixe__*
+*__préfixè__*
 
 pris
 : приз
@@ -4054,23 +4054,23 @@ pris
 
 prisme
 : призма
-*__prisme__*
+*__prismè__*
 
 prince
 : принц
-*__prince__*
+*__princè__*
 
 principe
 : принцип
-*__principe__*
+*__principè__*
 
 prieur
 : приор
-*__prieur__*
+*__prièur__*
 
 (sauce) provençale
 : провансаль
-*__(sauce) provençale__*
+*__(saucè) provènçalè__*
 
 provision
 : провизия
@@ -4078,7 +4078,7 @@ provision
 
 province
 : провинция
-*__province__*
+*__provincè__*
 
 provocation
 : провокация
@@ -4086,7 +4086,7 @@ provocation
 
 programme
 : программа
-*__programme__*
+*__programmè__*
 
 production
 : продукция
@@ -4094,7 +4094,7 @@ production
 
 prose
 : проза
-*__prose__*
+*__prosè__*
 
 proclamation
 : прокламация
@@ -4102,7 +4102,7 @@ proclamation
 
 procureur
 : прокурор
-*__procureur__*
+*__procurèur__*
 
 prolétariat
 : пролетариат
@@ -4118,31 +4118,31 @@ protégé
 
 protester
 : протестовать
-*__protester__*
+*__protèstèr__*
 
 protocole
 : протокол
-*__protocole__*
+*__protocolè__*
 
 profession
 : профессия
-*__profession__*
+*__profèssion__*
 
 profiterole
 : профитроль
-*__profiterole__*
+*__profitèrolè__*
 
 pseudonyme
 : псевдоним
-*__pseudonyme__*
+*__psèudonymè__*
 
 psychologie
 : психология
-*__psychologie__*
+*__psychologiè__*
 
 pointillisme
 : пуантилизм
-*__pointillisme__*
+*__pointillismè__*
 
 point
 : пуанты
@@ -4154,7 +4154,7 @@ public
 
 poudre
 : пудра
-*__poudre__*
+*__poudrè__*
 
 pouls
 : пульс
@@ -4162,31 +4162,31 @@ pouls
 
 ponceau
 : пунцовый
-*__ponceau__*
+*__poncèau__*
 
 puriste
 : пурист
-*__puriste__*
+*__puristè__*
 
 piédestal
 : пьедестал
-*__piédestal__*
+*__piédèstal__*
 
 Pierrot
 : Пьеро
-*__Pierrot__*
+*__Pièrrot__*
 
 pièce
 : пьеса
-*__pièce__*
+*__piècè__*
 
 pupitre
 : пюпитр
-*__pupitre__*
+*__pupitrè__*
 
 purée
 : пюре
-*__purée__*
+*__puréè__*
 
 
 ## Р
@@ -4201,11 +4201,11 @@ ragoût
 
 raquette
 : ракетка
-*__raquette__*
+*__raquèttè__*
 
 rendez-vous
 : рандеву
-*__rendez-vous__*
+*__rèndèz-vous__*
 
 -
 : ранжир
@@ -4213,11 +4213,11 @@ rendez-vous
 
 rentier
 : рантье
-*__rentier__*
+*__rèntièr__*
 
 rapière
 : рапира
-*__rapière__*
+*__rapièrè__*
 
 rapport
 : рапорт
@@ -4225,7 +4225,7 @@ rapport
 
 race
 : раса
-*__race__*
+*__racè__*
 
 raffinade
 : рафинад
@@ -4237,11 +4237,11 @@ raffiné
 
 revanche
 : реванш
-*__revanche__*
+*__rèvanchè__*
 
 révérence
 : реверанс
-*__révérence__*
+*__révérèncè__*
 
 -
 : ревизия
@@ -4249,15 +4249,15 @@ révérence
 
 revolver
 : револьвер
-*__revolver__*
+*__rèvolvèr__*
 
 revue
 : ревю
-*__revue__*
+*__rèvuè__*
 
 règlement
 : регламент
-*__règlement__*
+*__règlèmènt__*
 
 radis
 : редиска
@@ -4265,15 +4265,15 @@ radis
 
 redoute
 : редут
-*__redoute__*
+*__rèdoutè__*
 
 régime
 : режим
-*__régime__*
+*__régimè__*
 
 régisseur
 : режиссёр
-*__régisseur__*
+*__régissèur__*
 
 réséda
 : резеда
@@ -4281,19 +4281,19 @@ réséda
 
 réserve
 : резерв
-*__réserve__*
+*__résèrvè__*
 
 réservoir
 : резервуар
-*__réservoir__*
+*__résèrvoir__*
 
 résident
 : резидент
-*__résident__*
+*__résidènt__*
 
 résine
 : резина
-*__résine__*
+*__résinè__*
 
 raison
 : резон (резонный)
@@ -4301,11 +4301,11 @@ raison
 
 résonance
 : резонанс
-*__résonance__*
+*__résonancè__*
 
 raisonneur
 : резонёр
-*__raisonneur__*
+*__raisonnèur__*
 
 résultat
 : результат
@@ -4321,15 +4321,15 @@ réquisit
 
 réclame
 : реклама
-*__réclame__*
+*__réclamè__*
 
 recommandation
 : рекомендация
-*__recommandation__*
+*__rècommandation__*
 
 record
 : рекорд
-*__recort'__*
+*__rècort'__*
 
 -
 : рекрут
@@ -4337,15 +4337,15 @@ record
 
 relais
 : реле
-*__relais__*
+*__rèlais__*
 
 religion
 : религия
-*__religion__*
+*__rèligion__*
 
 relief
 : рельеф
-*__relief__*
+*__rèlièf__*
 
 -
 : рельс
@@ -4353,59 +4353,59 @@ relief
 
 remonte
 : ремонт
-*__remonte__*
+*__rèmontè__*
 
 renégat
 : ренегат
-*__renégat__*
+*__rènégat__*
 
 renaissance
 : ренессанс
-*__renaissance__*
+*__rènaissancè__*
 
 renommée
 : реноме
-*__renommée__*
+*__rènomméè__*
 
 rente
 : рента
-*__rente__*
+*__rèntè__*
 
 répertoire
 : репертуар
-*__répertoire__*
+*__répèrtoirè__*
 
 reportage
 : репортаж
-*__reportage__*
+*__rèportagè__*
 
 ressort
 : рессора
-*__ressort__*
+*__rèssort__*
 
 restaurant
 : ресторан
-*__restaurant__*
+*__rèstaurant__*
 
 ressource
 : ресурс
-*__ressource__*
+*__rèssourcè__*
 
 retirer
 : ретироваться
-*__retirer__*
+*__rètirèr__*
 
 retorte
 : реторта
-*__retorte__*
+*__rètortè__*
 
 réforme
 : реформа
-*__réforme__*
+*__réformè__*
 
 refrain
 : рефрен
-*__refrain__*
+*__rèfrain__*
 
 -
 : рецепт
@@ -4413,39 +4413,39 @@ refrain
 
 riviera
 : ривьера
-*__riviera__*
+*__rivièra__*
 
 ridicule
 : ридикюль
-*__ridicule__*
+*__ridiculè__*
 
 ricochet
 : рикошет
-*__ricochet__*
+*__ricochèt__*
 
 risque
 : риск
-*__risque__*
+*__risquè__*
 
 rythme
 : ритм
-*__rythme__*
+*__rythmè__*
 
 rose
 : роза, розовый (не вино)
-*__rose__*
+*__rosè__*
 
 rosette
 : розетка
-*__rosette__*
+*__rosèttè__*
 
 rocaille
 : рокайль
-*__rocaille__*
+*__rocaillè__*
 
 roquer
 : рокироваться
-*__roquer__*
+*__roquèr__*
 
 Rococo
 : рококо
@@ -4453,11 +4453,11 @@ Rococo
 
 roquefort
 : рокфор
-*__roquefort__*
+*__roquèfort__*
 
 rôle
 : роль
-*__rôle__*
+*__rôlè__*
 
 roman
 : роман
@@ -4465,11 +4465,11 @@ roman
 
 romance
 : романс
-*__romance__*
+*__romancè__*
 
 rhombe
 : ромб
-*__rhombe__*
+*__rhombè__*
 
 royal
 : рояль
@@ -4485,11 +4485,11 @@ roulé
 
 roulette
 : рулетка
-*__roulette__*
+*__roulèttè__*
 
 rouler
 : руль
-*__rouler__*
+*__roulèr__*
 
 -
 : румб
@@ -4497,11 +4497,11 @@ rouler
 
 routine
 : рутина
-*__routine__*
+*__routinè__*
 
 ruche
 : рюш
-*__ruche__*
+*__ruchè__*
 
 
 ## С
@@ -4512,23 +4512,23 @@ sabot
 
 sabotage
 : саботаж
-*__sabotage__*
+*__sabotagè__*
 
 sadisme
 : садизм
-*__sadisme__*
+*__sadismè__*
 
 sac de voyage
 : саквояж
-*__sac de voyage__*
+*__sac dè voyagè__*
 
 saxophone
 : саксофон
-*__saxophone__*
+*__saxophonè__*
 
 salade
 : салат
-*__salade__*
+*__saladè__*
 
 salon
 : салон
@@ -4544,11 +4544,11 @@ sanatorium
 
 sandalette
 : сандалеты
-*__sandaletè__*
+*__sandalètè__*
 
 sanitaire
 : санитар
-*__sanitaire__*
+*__sanitairè__*
 
 sans-culotte
 : санкюлоты
@@ -4556,11 +4556,11 @@ sans-culotte
 
 centimètre
 : сантиметр
-*__centimètre__*
+*__cèntimètrè__*
 
 sapeur
 : сапёр
-*__sapeur__*
+*__sapèur__*
 
 saphir
 : сапфир
@@ -4568,11 +4568,11 @@ saphir
 
 serge
 : саржа
-*__serge__*
+*__sèrgè__*
 
 sarcasme
 : сарказм
-*__sarcasme__*
+*__sarcasmè__*
 
 satin
 : сатин
@@ -4580,23 +4580,23 @@ satin
 
 satire
 : сатира
-*__satire__*
+*__satirè__*
 
 sachet
 : саше
-*__sachet__*
+*__sachèt__*
 
 suite
 : свита
-*__suite__*
+*__suitè__*
 
 séance
 : сеанс
-*__séance__*
+*__séancè__*
 
 sedan
 : седан
-*__sedan__*
+*__sèdan__*
 
 saison
 : сезон
@@ -4604,39 +4604,39 @@ saison
 
 sécateur
 : секатор
-*__sécateur__*
+*__sécatèur__*
 
 secret
 : секрет
-*__secret__*
+*__sècrèt__*
 
 secrétaire
 : секретер
-*__secrétaire__*
+*__sècrétairè__*
 
 sexe
 : секс
-*__sexe__*
+*__sèxè__*
 
 secte
 : секта
-*__secte__*
+*__sèctè__*
 
 sémaphore
 : семафор
-*__sémaphore__*
+*__sémaphorè__*
 
 semestre
 : семестр
-*__semestre__*
+*__sèmèstrè__*
 
 seigneur
 : сеньор
-*__seigneur__*
+*__sèignèur__*
 
 service
 : сервиз
-*__service__*
+*__sèrvicè__*
 
 -
 : сервировка
@@ -4644,31 +4644,31 @@ service
 
 sérénade
 : серенада
-*__sérénade__*
+*__sérénadè__*
 
 sergent
 : сержант
-*__sergent__*
+*__sèrgènt__*
 
 série
 : серия
-*__série__*
+*__sériè__*
 
 sérieux
 : серьёзный
-*__sérieux__*
+*__sérièux__*
 
 sybarite
 : сибарит
-*__sybarite__*
+*__sybaritè__*
 
 cigare
 : сигара
-*__cigare__*
+*__cigarè__*
 
 cigarette
 : сигарета
-*__cigarette__*
+*__cigarèttè__*
 
 signal
 : сигнал
@@ -4676,31 +4676,31 @@ signal
 
 cidre
 : сидр
-*__cidre__*
+*__cidrè__*
 
 silhouette
 : силуэт
-*__silhouette__*
+*__silhouèttè__*
 
 symétrie
 : симметрия
-*__symétrie__*
+*__symétriè__*
 
 sympathique
 : симпатичный
-*__sympathique__*
+*__sympathiquè__*
 
 sympathie
 : симпатия
-*__sympathie__*
+*__sympathiè__*
 
 simuler
 : симулировать
-*__simuler__*
+*__simulèr__*
 
 symphonie
 : симфония
-*__symphonie__*
+*__symphoniè__*
 
 syndicat
 : синдикат
@@ -4712,19 +4712,19 @@ synode
 
 synonyme
 : синоним
-*__synonyme__*
+*__synonymè__*
 
 synthèse
 : синтез
-*__synthèse__*
+*__synthèsè__*
 
 synthétique
 : синтетический
-*__synthétique__*
+*__synthétiquè__*
 
 sirène
 : сирена
-*__sirène__*
+*__sirènè__*
 
 sirop
 : сироп
@@ -4732,7 +4732,7 @@ sirop
 
 système
 : система
-*__système__*
+*__systèmè__*
 
 citro
 : ситро
@@ -4748,7 +4748,7 @@ siphon
 
 scandale
 : скандал
-*__scandale__*
+*__scandalè__*
 
 -
 : сквер
@@ -4756,7 +4756,7 @@ scandale
 
 squelette
 : скелет
-*__squelette__*
+*__squèlèttè__*
 
 -
 : склонность
@@ -4764,11 +4764,11 @@ squelette
 
 sculpture
 : скульптура
-*__sculpture__*
+*__sculpturè__*
 
 semaine
 : смена
-*__semaine__*
+*__sèmainè__*
 
 soldat
 : солдат
@@ -4776,11 +4776,11 @@ soldat
 
 sorte
 : сорт
-*__sorte__*
+*__sortè__*
 
 saucisse
 : сосиска
-*__saucisse__*
+*__saucissè__*
 
 sauté
 : соте
@@ -4788,11 +4788,11 @@ sauté
 
 sauce
 : соус
-*__sauce__*
+*__saucè__*
 
 sporadique
 : спорадический
-*__sporadique__*
+*__sporadiquè__*
 
 sport
 : спорт
@@ -4800,27 +4800,27 @@ sport
 
 stage
 : стаж
-*__stage__*
+*__stagè__*
 
 stéarine
 : стеарин
-*__stéarine__*
+*__stéarinè__*
 
 style
 : стиль
-*__style__*
+*__stylè__*
 
 souvenir
 : сувенир
-*__souvenir__*
+*__souvènir__*
 
 soupe
 : суп
-*__soupe__*
+*__soupè__*
 
 souteneur
 : сутенёр
-*__souteneur__*
+*__soutènèur__*
 
 soufflé
 : суфле
@@ -4828,19 +4828,19 @@ soufflé
 
 souffleur
 : суфлёр
-*__souffleur__*
+*__soufflèur__*
 
 sujet
 : сюжет
-*__sujet__*
+*__sujèt__*
 
 suite
 : сюита
-*__suite__*
+*__suitè__*
 
 surprise
 : сюрприз
-*__surprise__*
+*__surprisè__*
 
 surtout
 : сюртук
@@ -4855,15 +4855,15 @@ tаbас
 
 tabatière
 : табакерка
-*__tabatière__*
+*__tabatièrè__*
 
 tablette
 : таблетка
-*__tablette__*
+*__tablèttè__*
 
 tabouret
 : табурет
-*__tabouret__*
+*__tabourèt__*
 
 tact
 : такт
@@ -4871,11 +4871,11 @@ tact
 
 tactique
 : тактика
-*__tactique__*
+*__tactiquè__*
 
 talent
 : талант
-*__talent__*
+*__talènt__*
 
 talisman
 : талисман
@@ -4883,7 +4883,7 @@ talisman
 
 taille
 : талия
-*__taille__*
+*__taillè__*
 
 talon
 : талон
@@ -4899,7 +4899,7 @@ tambourin
 
 templiers
 : тамплиеры
-*__tamplierè__*
+*__tamplièrè__*
 
 tam-tam
 : тамтам
@@ -4907,7 +4907,7 @@ tam-tam
 
 tangage
 : тангаж
-*__tangage__*
+*__tangagè__*
 
 tanin
 : танин
@@ -4915,7 +4915,7 @@ tanin
 
 tapeur
 : тапёр
-*__tapeur__*
+*__tapèur__*
 
 tapir
 : тапир
@@ -4923,43 +4923,43 @@ tapir
 
 tartelette
 : тарталетка
-*__tartelette__*
+*__tartèlèttè__*
 
 tasser
 : тасовать
-*__tasser__*
+*__tassèr__*
 
 tatouage
 : татуаж, татуировка
-*__tatouage__*
+*__tatouagè__*
 
 théâtre
 : театр
-*__théâtre__*
+*__théâtrè__*
 
 textile
 : текстиль
-*__textile__*
+*__tèxtilè__*
 
 tenez
 : теннис
-*__tenes__*
+*__tènès__*
 
 tente
 : тент
-*__tente__*
+*__tèntè__*
 
 théorème
 : теорема
-*__théorème__*
+*__théorèmè__*
 
 terrasse
 : терраса
-*__terrasse__*
+*__tèrrassè__*
 
 tête-à-tête
 : тет-а-тет
-*__tête-à-tête__*
+*__têtè-à-têtè__*
 
 tir
 : тир
@@ -4967,23 +4967,23 @@ tir
 
 tirade
 : тирада
-*__tirade__*
+*__tiradè__*
 
 tirage
 : тираж
-*__tirage__*
+*__tiragè__*
 
 tiret
 : тире
-*__tiret__*
+*__tirèt__*
 
 tome
 : том
-*__tome__*
+*__tomè__*
 
 tomate
 : томат
-*__tomate__*
+*__tomatè__*
 
 ton
 : тон
@@ -4991,15 +4991,15 @@ ton
 
 topaze
 : топаз
-*__topaze__*
+*__topazè__*
 
 torchère
 : торшер
-*__torchère__*
+*__torchèrè__*
 
 totalisateur
 : тотализатор
-*__totalisateur__*
+*__totalisatèur__*
 
 total
 : тотальный
@@ -5007,7 +5007,7 @@ total
 
 tragédie
 : трагедия
-*__tragédie__*
+*__tragédiè__*
 
 tradition
 : традиция
@@ -5015,7 +5015,7 @@ tradition
 
 tracteur
 : трактор
-*__tracteur__*
+*__tractèur__*
 
 tramway
 : трамвай
@@ -5023,11 +5023,11 @@ tramway
 
 tremplin
 : трамплин
-*__tremplin__*
+*__trèmplin__*
 
 trancher
 : транжирить
-*__trancher__*
+*__tranchèr__*
 
 transit
 : транзит
@@ -5035,7 +5035,7 @@ transit
 
 transe
 : транс
-*__transe__*
+*__transè__*
 
 transport
 : транспорт
@@ -5043,19 +5043,19 @@ transport
 
 tranche
 : транш
-*__tranche__*
+*__tranchè__*
 
 tranchée
 : траншея
-*__tranchée__*
+*__tranchéè__*
 
 trille
 : трель
-*__trille__*
+*__trillè__*
 
 treillage
 : трельяж
-*__treillage__*
+*__trèillagè__*
 
 trépanation
 : трепанация
@@ -5063,15 +5063,15 @@ trépanation
 
 traiter
 : третировать
-*__traiter__*
+*__traitèr__*
 
 trèfle
 : треф
-*__trèfle__*
+*__trèflè__*
 
 tribune
 : трибуна
-*__tribune__*
+*__tribunè__*
 
 trivial
 : тривиальный
@@ -5079,7 +5079,7 @@ trivial
 
 trieur
 : триер
-*__trieur__*
+*__trièur__*
 
 tricot
 : трико
@@ -5087,7 +5087,7 @@ tricot
 
 tricotage
 : трикотаж
-*__tricotage__*
+*__tricotagè__*
 
 trillion
 : триллион
@@ -5095,7 +5095,7 @@ trillion
 
 trilogie
 : трилогия
-*__trilogie__*
+*__trilogiè__*
 
 touchant
 : трогательный
@@ -5103,15 +5103,15 @@ touchant
 
 toucher
 : трогать (волновать)
-*__toucher__*
+*__touchèr__*
 
 trône
 : трон
-*__trône__*
+*__trônè__*
 
 trousse
 : трос
-*__trousse__*
+*__troussè__*
 
 trottoir
 : тротуар
@@ -5119,11 +5119,11 @@ trottoir
 
 trophée
 : трофей
-*__trophée__*
+*__trophéè__*
 
 troupe
 : труппа
-*__troupe__*
+*__troupè__*
 
 truc
 : трюк
@@ -5131,11 +5131,11 @@ truc
 
 truffe
 : трюфель
-*__truffe__*
+*__truffè__*
 
 toilette
 : туалет
-*__toilette__*
+*__toilèttè__*
 
 toujours
 : тужурка
@@ -5147,7 +5147,7 @@ toujours
 
 tunnel
 : туннель
-*__tunnel__*
+*__tunnèl__*
 
 tour
 : тур
@@ -5155,19 +5155,19 @@ tour
 
 tourisme
 : туризм
-*__tourisme__*
+*__tourismè__*
 
 touriste
 : турист
-*__touriste__*
+*__touristè__*
 
 tournée
 : турне
-*__tournée__*
+*__tournéè__*
 
 tourniquet
 : турникет
-*__tourniquet__*
+*__tourniquèt__*
 
 tournoi
 : турнир
@@ -5175,7 +5175,7 @@ tournoi
 
 tournure
 : турнюр
-*__tournure__*
+*__tournurè__*
 
 touché
 : туше
@@ -5183,15 +5183,15 @@ touché
 
 touche
 : тушь
-*__touche__*
+*__touch__*
 
 tube
 : тюбик
-*__tube__*
+*__tubè__*
 
 tulle
 : тюль
-*__tulle__*
+*__tullè__*
 
 tulipan
 : тюльпан
@@ -5206,15 +5206,15 @@ turban
 
 ouverture
 : увертюра
-*__ouverture__*
+*__ouvèrturè__*
 
 unitaire
 : унитарный
-*__unitaire__*
+*__unitairè__*
 
 urne
 : урна
-*__urne__*
+*__urnè__*
 
 utilisation
 : утилизация
@@ -5222,14 +5222,14 @@ utilisation
 
 outrer
 : утрировать
-*__outrer__*
+*__outrèr__*
 
 
 ## Ф
 
 fabrique
 : фабрика
-*__fabrique__*
+*__fabriquè__*
 
 faculté
 : факультет
@@ -5241,15 +5241,15 @@ falsification
 
 familier
 : фамильярный
-*__familier__*
+*__familièr__*
 
 fantaisie
 : фантазия
-*__fantaisie__*
+*__fantaisiè__*
 
 fantôme
 : фантом
-*__fantôme__*
+*__fantômè__*
 
 Fantômas
 : Фантомас
@@ -5257,15 +5257,15 @@ Fantômas
 
 phare
 : фара
-*__phare__*
+*__pharè__*
 
 farce
 : фарс
-*__farce__*
+*__farcè__*
 
 farce
 : фарш
-*__farce__*
+*__farcè__*
 
 façade
 : фасад
@@ -5281,15 +5281,15 @@ fat
 
 fatalisme
 : фатализм
-*__fatalisme__*
+*__fatalismè__*
 
 faune
 : фауна
-*__faune__*
+*__faunè__*
 
 faïence
 : фаянс
-*__faïence__*
+*__faïèncè__*
 
 fédération
 : федерация
@@ -5297,15 +5297,15 @@ fédération
 
 féerie
 : феерия
-*__féerie__*
+*__féèriè__*
 
 feuilleton
 : фельетон
-*__feuilleton__*
+*__fèuillèton__*
 
 phénomène
 : феномен
-*__phénomène__*
+*__phénomènè__*
 
 féodal
 : феодал
@@ -5313,43 +5313,43 @@ féodal
 
 ferme
 : ферма
-*__ferme__*
+*__fèrmè__*
 
 ferment
 : фермент
-*__ferment__*
+*__fèrmènt__*
 
 festival
 : фестиваль
-*__festival__*
+*__fèstival__*
 
 feston
 : фестон
-*__feston__*
+*__fèston__*
 
 fétiche
 : фетиш
-*__fétiche__*
+*__fétichè__*
 
 feutre
 : фетр
-*__feutre__*
+*__fèutrè__*
 
 fée
 : фея
-*__fée__*
+*__féè__*
 
 filet
 : филе
-*__filet__*
+*__filèt__*
 
 filigrane
 : филигрань
-*__filigrane__*
+*__filigranè__*
 
 finale
 : финал
-*__finale__*
+*__finalè__*
 
 finances
 : финансы
@@ -5357,11 +5357,11 @@ finances
 
 pistache
 : фисташка
-*__pistache__*
+*__pistachè__*
 
 fiche
 : фишка
-*__fiche__*
+*__fichè__*
 
 flacon
 : флакон
@@ -5373,15 +5373,15 @@ flanc
 
 flanelle
 : фланель
-*__flanelle__*
+*__flanèllè__*
 
 flâner
 : фланировать
-*__flâner__*
+*__flânèr__*
 
 flegmatique
 : флегматичный
-*__flegmatique__*
+*__flègmatiquè__*
 
 -
 : флёр
@@ -5389,7 +5389,7 @@ flegmatique
 
 fleur d'orange
 : флёрдоранж
-*__fleur d'orange__*
+*__flèur d'orangè__*
 
 flirt
 : флирт
@@ -5397,11 +5397,11 @@ flirt
 
 flotte
 : флот
-*__flotte__*
+*__flottè__*
 
 foyer
 : фойе
-*__foyer__*
+*__foyèr__*
 
 fond
 : фон
@@ -5413,27 +5413,27 @@ fonds
 
 fondue
 : фондю
-*__fondue__*
+*__fonduè__*
 
 fontaine
 : фонтан
-*__fontaine__*
+*__fontainè__*
 
 forçage
 : форсаж
-*__forçage__*
+*__forçagè__*
 
 forcer
 : форсировать
-*__forcer__*
+*__forcèr__*
 
 force
 : форсить
-*__force__*
+*__forcè__*
 
 force majeure
 : форс-мажор
-*__force majeure__*
+*__forcè majèurè__*
 
 fort
 : форт
@@ -5441,15 +5441,15 @@ fort
 
 photographie
 : фотография
-*__photographie__*
+*__photographiè__*
 
 fragment
 : фрагмент
-*__fragment__*
+*__fragmènt__*
 
 phrase
 : фраза
-*__phrase__*
+*__phrasè__*
 
 frac
 : фрак
@@ -5457,23 +5457,23 @@ frac
 
 frivole
 : фривольный
-*__frivole__*
+*__frivolè__*
 
 fricadelle
 : фрикаделька
-*__fricadelle__*
+*__fricadèllè__*
 
 fricassée
 : фрикасе
-*__fricassée__*
+*__fricasséè__*
 
 friture
 : фритюр
-*__friture__*
+*__friturè__*
 
 fronde
 : фронда
-*__fronde__*
+*__frondè__*
 
 front
 : фронт
@@ -5485,11 +5485,11 @@ fronton
 
 foie gras
 : фуа-гра
-*__foie gras__*
+*__foiè gras__*
 
 fougère
 : фужер
-*__fougère__*
+*__fougèrè__*
 
 fumigation
 : фумигатор (фумигация)
@@ -5497,27 +5497,27 @@ fumigation
 
 funiculaire
 : фуникулер
-*__funiculaire__*
+*__funiculairè__*
 
 fourrage
 : фураж
-*__fourrage__*
+*__fourragè__*
 
 fourrage
 : фуражка
-*__fourrage__*
+*__fourragè__*
 
 fourniture
 : фурнитура
-*__fourniture__*
+*__fourniturè__*
 
 fourchette
 : фуршет
-*__fourchette__*
+*__fourchèttè__*
 
 fuselage
 : фюзеляж
-*__fuselage__*
+*__fusèlagè__*
 
 
 ## Ш
@@ -5532,11 +5532,11 @@ chaland
 
 chalet
 : шале
-*__chalet__*
+*__chalèt__*
 
 Champagne
 : шампанское
-*__Champagne__*
+*__Champagnè__*
 
 champignon
 : шампиньон
@@ -5544,7 +5544,7 @@ champignon
 
 chance
 : шанс
-*__chance__*
+*__chancè__*
 
 chanson
 : шансон
@@ -5552,23 +5552,23 @@ chanson
 
 chansonnette
 : шансонетка
-*__chansonnette__*
+*__chansonnèttè__*
 
 chansonnier
 : шансонье
-*__chansonnier__*
+*__chansonnièr__*
 
 chantage
 : шантаж
-*__chantage__*
+*__chantagè__*
 
 chapiteau
 : шапито
-*__chapiteau__*
+*__chapitèau__*
 
 chapeau claque
 : шапокляк
-*__chapeau claque__*
+*__chapèau claquè__*
 
 char à bancs
 : шарабан
@@ -5576,11 +5576,11 @@ char à bancs
 
 charade
 : шарада
-*__charade__*
+*__charadè__*
 
 charge
 : шарж
-*__charge__*
+*__chargè__*
 
 charlatan
 : шарлатан
@@ -5588,11 +5588,11 @@ charlatan
 
 charlotte
 : шарлотка
-*__charlotte__*
+*__charlottè__*
 
 charme
 : шарм
-*__charme__*
+*__charmè__*
 
 charmant
 : шарманка
@@ -5600,15 +5600,15 @@ charmant
 
 charnière
 : шарнир
-*__charnière__*
+*__charnièrè__*
 
 cher ami
 : шаромыжник
-*__cher ami__*
+*__chèr ami__*
 
 éсhаrре
 : шарф
-*__éсhаrре__*
+*__è́сhаrре__*
 
 châssis
 : шасси
@@ -5620,27 +5620,27 @@ châtain
 
 chevalier
 : шевалье
-*__chevalier__*
+*__chèvalièr__*
 
 chevelure
 : шевелюра
-*__chevelure__*
+*__chèvèlurè__*
 
 chevreau
 : шевро
-*__chevreau__*
+*__chèvrèau__*
 
 chef d’œuvre
 : шедевр
-*__chef d’œuvre__*
+*__chèf d’œuvrè__*
 
 chaise longue
 : шезлонг
-*__chaise longue__*
+*__chaisè longuè__*
 
 chef
 : шеф
-*__chef__*
+*__chèf__*
 
 chic
 : шик
@@ -5652,7 +5652,7 @@ chicard
 
 chenille
 : шинель
-*__chenille__*
+*__chènillè__*
 
 chignon
 : шиньон
@@ -5664,19 +5664,19 @@ chiffon
 
 chiffonnière
 : шифоньер
-*__chiffonnière__*
+*__chiffonnièrè__*
 
 chiffre
 : шифр
-*__chiffre__*
+*__chiffrè__*
 
 chapeau
 : шляпа
-*__chapeau__*
+*__chapèau__*
 
 chauvinisme
 : шовинизм
-*__chauvinisme__*
+*__chauvinismè__*
 
 choc
 : шок
@@ -5684,18 +5684,18 @@ choc
 
 chaussée
 : шоссе
-*__chaussée__*
+*__chausséè__*
 
 chauffeur
 : шофер
-*__chauffeur__*
+*__chauffèur__*
 
 
 ## Э
 
 équipage
 : экипаж
-*__équipage__*
+*__équipagè__*
 
 -
 : экипировка
@@ -5711,7 +5711,7 @@ chauffeur
 
 extase
 : экстаз
-*__extase__*
+*__èxtasè__*
 
 élégant
 : элегантный
@@ -5719,7 +5719,7 @@ extase
 
 électrification
 : электрификация
-*__électrification__*
+*__élèctrification__*
 
 émail
 : эмаль
@@ -5727,23 +5727,23 @@ extase
 
 épatage
 : эпатаж
-*__épatage__*
+*__épatagè__*
 
 épaulettes
 : эполеты
-*__épaulietè__*
+*__épauliètè__*
 
 épopée
 : эпопея
-*__épopée__*
+*__épopéè__*
 
 époque
 : эпоха
-*__époque__*
+*__époquè__*
 
 ermitage
 : Эрмитаж
-*__ermitage__*
+*__èrmitagè__*
 
 еsсаdrе
 : эскадра
@@ -5755,39 +5755,39 @@ ermitage
 
 escalier
 : эскалатор
-*__escalier__*
+*__èscalièr__*
 
 esquisse
 : эскиз
-*__esquisse__*
+*__èsquissè__*
 
 esquimau
 : эскимо
-*__esquimau__*
+*__èsquimau__*
 
 escorte
 : эскорт
-*__escorte__*
+*__èscortè__*
 
 essai
 : эссе
-*__essai__*
+*__èssai__*
 
 estampe
 : эстамп
-*__estampe__*
+*__èstampè__*
 
 étage
 : этаж
-*__étage__*
+*__étagè__*
 
 étiquette
 : этикет
-*__étiquette__*
+*__étiquèttè__*
 
 étiquette
 : этикетка
-*__étiquette__*
+*__étiquèttè__*
 
 échafaud
 : эшафот
@@ -5795,7 +5795,7 @@ estampe
 
 échelon
 : эшелон
-*__échelon__*
+*__échèlon__*
 
 
 ## Ю

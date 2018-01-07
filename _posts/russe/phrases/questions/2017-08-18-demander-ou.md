@@ -30,29 +30,29 @@ Où se trouve …?
 
 Où sont les toilettes?
 : Где туалет?
-*__Gdié toualette?__*
+*__Gdié toualèttè?__*
 
 Où puis-je me laver les mains?
 : Где можно здесь помыть руки?
-*__Gdié mojna zdies' pamit' rouki?__*
+*__Gdié mojna zdièssʸ pamîtʸ rouki?__*
 
 
 ## Direction
 
 Dans quelle direction se trouve …?
 : В каком направлении находится …?
-*__V kakom' napravliny nahoditcia …?__*
+*__V'kakom' napravliny nahoditcia …?__*
 
 
 ## Distance
 
 Est-ce près?
 : Это близки?
-*__Eto blizki?__*
+*__èta blizki?__*
 
 Est-ce loin?
 : Это далеки?
-*__Eto dalioki?__*
+*__èta dalioki?__*
 
 
 ## Provenance
@@ -63,4 +63,4 @@ D'où …?
 
 D'où êtes-vous venu?
 : откуда вы пришёл?
-*__Atkouda vi prichol?__*
+*__Atkouda vî prichiol?__*

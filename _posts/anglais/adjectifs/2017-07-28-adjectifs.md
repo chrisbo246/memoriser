@@ -27,10 +27,44 @@ de valeur
 : valuable
 
 
+## Voie
+
+rauque
+: hoarse
+
+grave
+: deep
+
+aiguë
+: acute
+
+stridente
+: shrill
+
+
+## Situation
+
+être originaire de
+: belong
+
+
 ## Divers
 
 bien nommé
 : aptly named
 
+prévu pour
+: slated for
+
 complètement
 : thoroughly
+
+un ... raté
+: a spoiled ...
+*Ex: a spoiled painter.*
+
+savoir-faire
+: know-how
+
+connaissance de soi
+: self-awareness

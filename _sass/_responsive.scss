@@ -26,34 +26,36 @@ $grid-gutter-width-base: 30px !default;
 $grid-gutter-width: $grid-gutter-width-base !default;
 
 // Variables
-$fixed-top-navbar-height: 3.25rem;
-$fixed-bottom-navbar-height: 0rem;
-
+//$body-padding-top: 3.25rem;
+$body-padding-top: 4rem;
+$body-padding-bottom: 4rem;
+$sticky-margin-top: 1rem;
+$sticky-margin-bottom: 1rem;
 
 
 // Fixed navbar fixes
 .navbar.fixed-top {
   .navbar-collapse.show & {
-    $fixed-top-navbar-height: 6rem;
+    $body-padding-top: 6rem;
   }
 }
 .navbar.fixed-bottom {
   .navbar-collapse.show & {
-    $fixed-bottom-navbar-height: 0rem;
+    $body-padding-bottom: 0rem;
   }
 }
 
 body {
-  padding-top: $fixed-top-navbar-height;
-  padding-bottom: $fixed-bottom-navbar-height;
+  padding-top: $body-padding-top;
+  padding-bottom: $body-padding-bottom;
 }
 .sticky-top {
-  top: $fixed-top-navbar-height;
-  //top: $fixed-top-navbar-height + ceil($grid-gutter-width / 2); // Unit issue
+  top: $body-padding-top + $sticky-margin-top;
+  //top: $body-padding-top + ceil($grid-gutter-width / 2); // Unit issue
 }
 .sticky-bottom {
-  bottom: $fixed-bottom-navbar-height;
-  //bottom: $fixed-bottom-navbar-height + floor($grid-gutter-width / 2); // Unit issue
+  bottom: $body-padding-bottom + $sticky-margin-bottom;
+  //bottom: $body-padding-bottom + floor($grid-gutter-width / 2); // Unit issue
 }
 
 
@@ -89,30 +91,59 @@ body {
 
 
 // Card columns
-
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(sm) {
   .card-columns {
     column-count: 1;
+  }
+}
+@include media-breakpoint-up(md) {
+  .card-columns {
+    column-count: 2;
+    .col.collapse.show ~ .col & {
+      column-count: 1;
+    }
   }
 }
 @include media-breakpoint-up(lg) {
   .card-columns {
     column-count: 2;
+    .col.collapse.show ~ .col & {
+      column-count: 1;
+    }
   }
 }
 @include media-breakpoint-up(xl) {
   .card-columns {
     column-count: 3;
+    .col.collapse.show ~ .col & {
+      column-count: 2;
+    }
+  }
+}
+@media all and (min-width:1920px) {
+  .card-columns {
+    column-count: 4;
+    .col.collapse.show ~ .col & {
+      column-count: 3;
+    }
   }
 }
 
 
-
 // Hide content when the collapsible sidebar is open on narrow screens
 
-@include media-breakpoint-down(sm) {
-  .col.collapse.show + .col {
+@include media-breakpoint-down(xs) {
+  .col.collapse.show ~ .col {
     display: none;
+  }
+}
+
+
+// Make floating videos full-width on small screens
+@include media-breakpoint-down(lg) {
+  iframe.float-xl-right {
+    width: 100%;
+    max-height: 30vh;
   }
 }
 
@@ -158,4 +189,11 @@ body {
   .media-breakpoint:before {
     content: "xl";
   }
+}
+
+
+// Scroll to top
+
+.navbar.fixed-bottom ~ a[href="#top"].fixed-bottom {
+  margin-bottom: $body-padding-bottom + $sticky-margin-bottom !important;
 }

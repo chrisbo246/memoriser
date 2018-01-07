@@ -25,35 +25,19 @@ sans se ruiner
 :	without breaking the bank
 
 
-## Ressenti
-
-ne supporte pas
-: can't stand
-
-être en colère contre …
-: be mad at …
-
-se sentir comme à la maison
-: feel home
-
-faire grimper au mur
-: drive (someone) up the wall
-*Rendre fou.*
-
-
-## Situation
-
-dans le creux de la vague
-: in the trough of the wave
-
-coup dur
-: tough punch
-
-
-## Divers
+## Gagner
 
 gagner haut la main
 : win hands down
+
+mettre dans le mille
+: hit the bull's-eye
+
+remporter le titre
+: win the title
+
+
+## Divers
 
 faire le gros du boulot
 : do the bulk of the work
@@ -67,3 +51,12 @@ passage à l'âge adulte
 
 une belle histoire
 : a feel good story
+
+diriger le monde
+: rule the world
+
+être tenu
+: be held
+
+fait un doigt d'honneur
+: showing a middle finger

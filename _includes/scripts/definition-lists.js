@@ -114,7 +114,11 @@
           + '<label for="flipcard_position_' + id + '" class="m-0">'
           + '<div class="card front card-position-absolute bg-dark text-muted">'
           + '<div class="card-body d-flex justify-content-center align-items-center">'
-          + '<h4 class="card-title m-0">' + $dt.html().replace(/\(([^()]*)\)/g, '<small>($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>') + '</h4>'
+          + '<h4 class="card-title m-0">'
+          + $dt.html()
+            .replace(/\(([^()]*)\)/g, '<small>($1)</small>')
+            .replace(/\[([^\[\]]*)\]/g, '<sup -class="text-info">$1</sup>')
+          + '</h4>'
           + '</div>'
           + '</div>'
           + '</label>'
@@ -122,10 +126,22 @@
           + '<div class="card-body pb-0">'
           + '<p class="card-text">'
           + $dd.html()
+            //.replace(/\[(m)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-male" title="$2">$1</abbr></sup>')
+            //.replace(/\[(f)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-female" title="$2">$1</abbr></sup>')
+            //.replace(/\[(n)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-neutral" title="$2">$1</abbr></sup>')
+            //.replace(/\[(pl)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-plural" title="$2">$1</abbr></sup>')
+            //.replace(/\[(!)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-warning" title="$2"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></abbr></sup>')
+            .replace(/\[\!\]/g, '<sup><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></sup>')
+            //.replace(/\[(i)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-info" title="$2"><i class="fa fa-info-circle" aria-hidden="true"></i></abbr></sup>')
+            //.replace(/(\“[^\“\”]*\”)/g, '<span class="text-pronunciation">$1</span>')
+            //.replace(/\`([^\`]*)\`/g, '<span class="text-literatim">$1</span>')
+            //.replace(/\{([^\{\}]*)\}/g, '<span class="text-literatim">$1</span>')
+            //.replace(/\(([^()]*)\)/g, '<small>($1)</small>')
+            .replace(/\[([^\[\]]*)\]/g, '<sup>$1</sup>')
           + '</p>'
           + '</div>'
           + '<div class="card-footer bg-transparent border-0 p-0">'
-          + '<div class="btn-group d-flex" data-toggle="buttons">'
+          + '<div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">'
           + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" class="unmemorized" autocomplete="off"><i class="fa fa-times fa-lg" aria-hidden="false"></i>{% endraw %}{% comment %}<img src="{{ '/bower_components/open-iconic/svg/x.svg' | relative_url }}" class="oi oi-sm" alt="x">{% endcomment %}{% raw %}</label>'
           + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i>{% endraw %}{% comment %}<img src="{{ '/bower_components/open-iconic/svg/audio.svg' | relative_url }}" class="oi oi-sm" alt="audio">{% endcomment %}{% raw %}</button>' : '')
           + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.known_definition }}{% raw %}"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off"><i class="fa fa-check fa-lg" aria-hidden="false"></i>{% endraw %}{% comment %}<img src="{{ '/bower_components/open-iconic/svg/check.svg' | relative_url }}" class="oi oi-sm" alt="check">{% endcomment %}{% raw %}</label>'
@@ -133,6 +149,8 @@
           + '</div>'
           + '</div>'
           + '</div>';
+          //console.log('dt', $dt.html().replace(/\(([^()]*)\)/g, '<small>($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>'));
+          //console.log('dd', $dd.html().replace(/\(([^()]*)\)/g, '<small>($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>'));
 
         });
 

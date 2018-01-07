@@ -21,7 +21,7 @@ chaud
 
 … tiède
 : … тёплая
-*__… tioplaya__*
+*__… tioplaïa__*
 
 
 
@@ -33,7 +33,7 @@ chaud
 
 bon
 : тепло
-*__tieplo__*
+*__tièplo__*
 
 frais
 : прохладно
@@ -48,7 +48,7 @@ froid
 
 ensoleillé
 : солнечный
-*__solnietchni__*
+*__solniètchnî__*
 
 nuageux
 : облачно
@@ -56,8 +56,8 @@ nuageux
 
 brumeux
 : туманный
-*__toumanni__*
+*__toumannî__*
 
 venteux
 : ветренный
-*__vietrienni__*
+*__viètriènnî__*

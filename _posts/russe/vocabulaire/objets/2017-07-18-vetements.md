@@ -17,18 +17,18 @@ date: 2017-07-18 00:00:00 +0100
 
 vêtements
 : одежда
-*__adiejda__*
+*__adièjda__*
 
 sous-vêtements
 : нижнее белье
-*__nijnie bilyo__*
+*__nijniè bilyo__*
 
 
 ## Couvre-chef
 
 chapeau
 : шляпа
-*__shlyapa__*
+*__chliapa__*
 
 béret
 : берет
@@ -37,13 +37,16 @@ béret
 
 ## Haut
 
+manteaux
+: пальто
+
 veste
 : куртка
 *__kourtka__*
 
 chemise
 : рубашка
-*__roubashka__*
+*__roubachka__*
 
 T-shirt
 : футболка
@@ -66,7 +69,7 @@ pantalon
 
 robe
 : платье
-*__platye__*
+*__platiè__*
 
 jupe
 : юбка
@@ -77,15 +80,15 @@ jupe
 
 chaussettes
 : носки
-*__nosky__*
+*__noski__*
 
 chaussures
 : обувь
-*__obouv__*
+*__oboufʸ__*
 
 porte jarretelle
 : Подвязки
-*__padvyazki__*
+*__padviazki__*
 
 
 ## Chaussures
@@ -96,11 +99,11 @@ chaussons
 
 bottes
 : боты
-*__botè__*
+*__botî__*
 
 bottillon
 : ботильоны
-*__botilionè__*
+*__botilionî__*
 
 bottine
 : ботинки

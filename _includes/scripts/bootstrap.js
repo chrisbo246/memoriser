@@ -9,7 +9,7 @@
     */
 
     var $tooltips = $('[title]');
-    $tooltips.filter(':not(.btn)').tooltip({
+    $tooltips.filter(':not(.btn), :not(attr)').tooltip({
       'trigger': 'hover focus',
       'delay': {
         'show': 3000

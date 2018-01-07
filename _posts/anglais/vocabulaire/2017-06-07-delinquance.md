@@ -82,6 +82,9 @@ arnaque
 vol:
 : theft
 
+vol à l'étalage
+: shoplifting
+
 mauvais coups
 : mischief
 
@@ -99,6 +102,9 @@ voyou
 
 voleur
 : thief
+
+voleur à l'étalage
+: shoplifter
 
 cambrioleur
 : burglar

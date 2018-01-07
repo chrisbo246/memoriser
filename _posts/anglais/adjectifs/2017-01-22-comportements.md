@@ -51,6 +51,9 @@ délicat
 économe
 : thrifty
 
+bonne volonté
+: good will
+
 
 ## Mauvais caractère
 
@@ -131,7 +134,7 @@ avisé
 judicieux
 : wise
 
-a la limite du génie
+à la limite du génie
 : borderline genius
 
 économe
@@ -140,7 +143,7 @@ a la limite du génie
 délicat
 : dainty
 
-gai, guilleret
+guilleret
 : perky
 
 méfiant
@@ -149,6 +152,15 @@ méfiant
 vif
 : keen
 
+rapide
+: swift
+
+agile
+: nimble
+
+exalté
+: elated
+
 gourmand
 : greedy
 
@@ -156,7 +168,10 @@ gourmand
 ## Comportement négatif
 
 maladroit
-: clumsy, awkward
+: awkward
+
+gauche (maladroit)
+: clumsy
 
 bizarre
 : weird
@@ -166,6 +181,9 @@ insensé
 
 féroce
 : fierce
+
+ne jamais se taire
+: go on and on
 
 
 ## Etat d'esprit
@@ -200,8 +218,8 @@ bien s'entendre avec
 humanité
 : mankind
 
-rapide
-: swift
+gâté
+: spoiled
 
-agile
-: nimble
+crise de la quarantaine
+: midlife crisis

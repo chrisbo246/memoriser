@@ -5,7 +5,7 @@ layout: compress
 {% assign t = site.data.locales[lang] %}
 
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ lang }}">
 {% include head.html %}
 <body>
 
@@ -29,7 +29,9 @@ layout: compress
 
   </div>
 
-{% include styles.html %}
+  {% if criticalcss.size > 0 %}
+  {% include styles.html %}
+  {% endif %}
 
 </body>
 </html>

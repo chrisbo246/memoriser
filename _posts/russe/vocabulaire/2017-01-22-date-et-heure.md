@@ -19,7 +19,7 @@ date: 2017-11-03 00:00:00 +0100
 
 temps
 : время
-*__vryemya__*
+*__vrièmia__*
 
 
 ## Périodes
@@ -30,11 +30,11 @@ jours
 
 semaine
 : Неделя
-*__niediélia__*
+*__nièdiélia__*
 
 mois
 : месяц
-*__mésyats__*
+*__mésiats__*
 
 an, année
 : год
@@ -69,7 +69,7 @@ nuit
 
 matin
 : утро
-*__óutro__*
+*__outro__*
 
 jour
 : день
@@ -93,7 +93,7 @@ Notons aussi les expressions полдень / poldien "Il est midi", et полн
 
 lundi
 : понедельник
-*__paniediélnik__*
+*__panièdiélnik__*
 
 mardi
 : вторник
@@ -101,7 +101,7 @@ mardi
 
 mercredi
 : среда
-*__sriedá__*
+*__srièdá__*
 
 jeudi
 : четверг
@@ -117,7 +117,7 @@ samedi
 
 dimanche
 : воскресенье
-*__vaskriesiénie__*
+*__vaskrièsiéniè__*
 
 
 ## Mois
@@ -128,7 +128,7 @@ janvier
 
 février
 : февраль
-*__fevral__*
+*__fèvral__*
 
 mars
 : март
@@ -136,7 +136,7 @@ mars
 
 avril
 : апрель
-*__aprel__*
+*__aprèl__*
 
 mai
 : май
@@ -156,7 +156,7 @@ août
 
 septembre
 : сентябрь
-*__sentiabr__*
+*__sèntiabr__*
 
 octobre
 : октябрь
@@ -168,22 +168,22 @@ novembre
 
 décembre
 : декабрь
-*__dekabr__*
+*__dèkabr__*
 
 
 ## Saisons
 
 printemps
 : весна
-*__viesna__*
+*__vièsna__*
 
 été
 : лето
-*__lieto__*
+*__lièto__*
 
 automne
 : осень
-*__osien__*
+*__osièn__*
 
 hiver
 : зима
@@ -194,7 +194,7 @@ hiver
 
 hier
 : вчера
-*__vtchiera__*
+*__vtchièra__*
 
 aujourd'hui
 : сегодня
@@ -202,11 +202,11 @@ aujourd'hui
 
 ce soir
 : сегодня вечером
-*__siévodnia vietchiram__*
+*__siévodnia viètchiram__*
 
 maintenant
 : в настоящее время
-*__v nastayaschè vriemia__  Littéralement à l'instant présent.*
+*__v nastaïaschè vrièmia__  Littéralement à l'instant présent.*
 
 demain
 : завтра
@@ -214,43 +214,43 @@ demain
 
 puis
 : затем
-*__zatyem__*
+*__zatièm'__*
 
 plus tard
 : позже
-*__pozjye__*
+*__pozjè__*
 
 ce soir
 : сегодня вечером
-*__syegodnya vyechyerom__*
+*__siègodnia viètchiram'__*
 
 pour le moment
 : прямо сейчас
-*__pryamo syeychas__*
+*__priamo sitchas'__*
 
 hier soir
 : вчера вечером
-*__vchyera vyechyerom__*
+*__vchièra viètchiram__*
 
 ce matin
 : сегодня утром
-*__syegodnya outrom__*
+*__ciègodnia outrom'__*
 
 la semaine prochaine
 : на следующей неделе
-*__na sliedouyschè nidiele__*
+*__na slièdouyschi nidièlè__*
 
 déjà
 : уже
-*__oujye__*
+*__oujiè__*
 
 récemment
 : недавно
-*__nyedavno__*
+*__nièdavno__*
 
 dernièrement
 : за последнее время
-*__za poslyednyeye vryemya__*
+*__za paslidniè vrièmia__*
 
 bientôt
 : скоро
@@ -258,26 +258,26 @@ bientôt
 
 immédiatement
 : немедленно
-*__nyemyedlyenno__*
+*__nimièdlinna__*
 
 toujours
 : по-прежнему
-*__po-pryejnyemou__*
+*__pa-prièjnimou__*
 
 encore
 : еще
-*__yeschie__*
+*__yèschiè__*
 
 il y a …
 : тому назад …
-*__tomou nazat …__*
+*__tomou nazat' …__*
 
 
 ## Adverbes de fréquence
 
 toujours
 : всегда
-*__vsyegda__*
+*__vssiègda__*
 
 fréquemment
 : часто
@@ -285,7 +285,7 @@ fréquemment
 
 habituellement
 : обычно
-*__obichno__*
+*__obîchno__*
 
 parfois
 : иногда
@@ -297,11 +297,11 @@ de temps en temps
 
 peu souvent
 : редко
-*__ryedko__*
+*__rièdko__*
 
 rarement
 : редко
-*__ryedko__*
+*__rièdko__*
 
 jamais
 : никогда
@@ -324,11 +324,11 @@ un [nombre]
 
 certains
 : некоторые
-*__niekotorie__*
+*__nièkatorè__*
 
 peu
 : несколько
-*__nieskolko__*
+*__nièskolka__*
 
 
 
@@ -352,12 +352,12 @@ minute
 
 seconde
 : секунда
-*__siekounda__*
+*__sièkounda__*
 
 Pour donner une heure exacte : Le nombre (один, два, три etc.) au nominatif suivi de час/часа/часов
 Si c’est 1 h, on utilise час: один час (ровно). adin tchass
 Si c’est 2 h, 3 h, 4 h, on utilise часа: два часа (ровно). dva tchassa
-Si c’est 5 h, …, 12 h, on utilise часов: пять часов (ровно). piat tchassov
+Si c’est 5 h, …, 12 h, on utilise часов: пять часов (ровно). piat tchassof
 Noter aussi qu'on peut avoir ровно au début de l'expression: пять часов ровно (quatre heures "pile"), ou ровно пять часов ("pile" cinq heures).
 
 nombre час/часа/часов nombre минута/минуты/минут

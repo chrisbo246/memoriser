@@ -39,7 +39,7 @@ dos
 
 poitrine (thorax)
 : грудная клетка
-*__grudnaya kletka__*
+*__groudnaïa kliètka__*
 
 ventre
 : живо́т
@@ -51,25 +51,25 @@ nombril
 
 hanches
 : бедра
-*__bedra__*
+*__bèdra__*
 
 
 ## Visage
 
 front
 : лоб
-*__lob__*
+*__lop__*
 
 tempe(s)
 : -
 
 joue
 : щека
-*__chieka__*
+*__chièka__*
 
 joues
 : щеки
-*__chieki__*
+*__chièki__*
 
 oreille
 : ухо
@@ -92,7 +92,7 @@ mentons
 
 narine(s)
 : ноздря, ноздри
-*__nozdrya, nozdri__*
+*__nozdria, nozdri__*
 
 nez
 : нос
@@ -126,11 +126,11 @@ lèvre
 
 lèvres
 : губы
-*__goubi__*
+*__goubî__*
 
 langue
 : язык
-*__yazik__*
+*__yazîk__*
 
 dent
 : зуб
@@ -138,7 +138,7 @@ dent
 
 dents
 : зубы
-*__zouby__*
+*__zoubî__*
 
 
 ## Poils
@@ -149,11 +149,11 @@ cheveu, poil
 
 cheveux, poils
 : волосы
-*__vôlasy__*
+*__vôlasî__*
 
 sourcil
 : бровь
-*__brof__*
+*__brofʸ__*
 
 sourcils
 : брови
@@ -174,14 +174,14 @@ barbe
 
 moustache
 : усы
-*__ousy__*
+*__oussî__*
 
 
 ## Cou
 
 cou
 : шея
-*__chéya__*
+*__chèïa__*
 
 nuque
 : -
@@ -234,15 +234,15 @@ mains
 
 doigt, orteil
 : палец
-*__paliets__*
+*__palièts__*
 
 doigts/orteils
 : пальцы
-*__paltsi__*
+*__paltsî__*
 
 pouce
 : палец
-*__paliets__*
+*__palièts__*
 
 index
 : -
@@ -287,15 +287,15 @@ cuisse
 
 cuisses
 : бедра
-*__beldra__*
+*__bèldra__*
 
 genou
 : колено
-*__kaliena__*
+*__kalièna__*
 
 genoux
 : Колени
-*__kalieni__*
+*__kalièni__*
 
 mollet
 : -
@@ -325,7 +325,7 @@ les orteils
 
 orteil
 : палец ноги
-*__palyetz nogi__*
+*__palièts nogi__*
 
 talon
 : -
@@ -359,15 +359,15 @@ bassin
 
 organe
 : орган
-*__organne__*
+*__organnè__*
 
 cerveau
 : мозг
-*__mozg__*
+*__mozk__*
 
 cœur
 : сердце
-*__sierdtsè__*
+*__sièrdtsè__*
 
 foie
 : -
@@ -380,14 +380,14 @@ intestin
 
 estomac
 : желудок
-*__jeloudok__*
+*__jèloudok__*
 
 veine(s)
 : -
 
 artère
 : артерия
-*__arteria__*
+*__artèria__*
 
 artère(s)
 : -
@@ -454,7 +454,7 @@ cheveux crépus
 
 chauve
 : плешивый
-*__pliéchivy__*
+*__pliéchivî__*
 
 tresse
 : косичка
@@ -469,7 +469,7 @@ tresses
 
 poitrine (seins)
 : грудь
-*__groud'__*
+*__groutʸ__*
 
 nichons
 : Сиськи
@@ -481,7 +481,7 @@ nichon
 
 téton(s), Mamelon(s)
 : шпилька
-*__shpilka__*
+*__chpilka__*
 
 cul
 : попа
@@ -493,7 +493,7 @@ gros cul
 
 fesses
 : ягодицы
-*__ilgaditsa__*
+*__ilgaditsî__*
 
 fessier
 : задница
@@ -505,11 +505,11 @@ pénis
 
 bitte
 : хуй
-*__rouil__*
+*__rouï__*
 
-couilles (oeufs)
-: Яйца
-*__yaytsa__*
+oeufs (couilles)
+: яйца
+*__yaïtsa__*
 
 vagin
 : влагалище
@@ -569,7 +569,7 @@ suçon
 
 coup du soleil
 : Солнечный ожог
-*__solnetchni ojog__*
+*__solnètchnî ojok__*
 
 
 ## Sécrétions corporelles

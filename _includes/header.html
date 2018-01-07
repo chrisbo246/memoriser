@@ -15,6 +15,7 @@
         <i class="fa fa-home fa-lg fa-fw" aria-hidden="true"></i>
       </a>
 
+      {% comment %}{% endcomment %}
       {% if page.layout == 'post' or page.layout == 'definition-lists' %}
       {% assign categories = '' | split: ' ' %}
       {% assign tags = '' | split: ' ' %}
@@ -33,6 +34,7 @@
       {% endif %}
       {% endif %}
 
+
     </div>
 
     {% include breadcrumb.html class='navbar-text p-0 d-none d-sm-block' home=false %}
@@ -45,6 +47,7 @@
       </button>
       {% endif %}
 
+      {% comment %}{% endcomment %}
       {% if page.layout == 'post' or page.layout == 'definition-lists' %}
       {% include related-posts.html limit=15 %}
       {% if posts.size > 0 %}
@@ -57,15 +60,16 @@
           {% include dropdown-items.html posts=posts %}
         </div>
       </div>
+      {% endif %}
+      {% endif %}
+
+
       {% comment %}
-      {% else %}
       <a role="button" class="btn btn-outline-secondary btn-lg ml-2 -w-50" href="{{ root_url | relative_url }}" title="{{ t.continue }}">
         <i class="fa fa-chevron-right fa-lg fa-fw" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-right.svg' | relative_url }}" class="oi" alt="chevron-right" hidden>{% endcomment %}
         <small hidden>{{ t.continue }}</small>
       </a>
       {% endcomment %}
-      {% endif %}
-      {% endif %}
 
       {% if page.layout == 'post' or page.layout == 'definition-lists' or page.layout == 'cards' %}
       <button type="button" class="btn btn-outline-secondary btn-lg ml-2" data-toggle="collapse" data-target="#post_options" aria-controls="post_options" aria-expanded="false" aria-label="{{ t.toggle_options }}">

@@ -51,6 +51,12 @@ foutre dans la merde
 profiter du soleil
 : soaking up the sun
 
+se faire bronzer
+: tan
+
+prendre un bain de soleil
+: sunbathing
+
 profiter de l'instant présent
 : sipping time
 

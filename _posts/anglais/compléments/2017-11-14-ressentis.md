@@ -13,10 +13,15 @@ tags: []
 date: 2017-03-28 20:51:00 +0100
 ---
 
-## Situation
+ne supporte pas
+: can't stand
 
-un état d'esprit
-: a mind set
+être en colère contre …
+: be mad at …
 
-un acte de foi
-: a leap of faith
+se sentir comme à la maison
+: feel home
+
+faire grimper au mur
+: drive (someone) up the wall
+*Rendre fou.*

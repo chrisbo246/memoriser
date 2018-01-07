@@ -22,11 +22,11 @@ bébé, jeune enfant
 
 enfant
 : дитя
-*__ditya__*
+*__ditia__*
 
 enfants
 : Дети
-*__dieti__*
+*__dièti__*
 
 adolescent
 : юноша
@@ -41,14 +41,14 @@ homme
 
 hommes
 : мужчины
-*__mouchini__*
+*__mouchinî__*
 
 
 ## Femme
 
 jeune fille
 : девочка
-*__dievotchka__*
+*__dièvotchka__*
 
 jeune femme, demoiselle
 : девушка
@@ -56,11 +56,11 @@ jeune femme, demoiselle
 
 femme (mariée)
 : женщина
-*__jiènschina__*
+*__jièn'schina__*
 
 femmes (mariées)
 : Женщины
-*__jienschini__*
+*__jièn'schinî__*
 
 femme âgée
 : Бабушка
@@ -91,7 +91,7 @@ amie
 
 amis
 : друзья
-*__drouzia__*
+*__droussia__*
 
 racaille
 : гопник
@@ -107,7 +107,7 @@ alcolo
 
 pédé
 : голубой
-*__golouboy__*
+*__golouboï__*
 
 femme négligée
 : БаБа

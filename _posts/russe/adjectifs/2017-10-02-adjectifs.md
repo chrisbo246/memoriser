@@ -21,7 +21,7 @@ beau, joli
 
 belle, jolie (objet)
 : красивая
-*__krassivaya__*
+*__krassivaïa__*
 
 magnifique
 : прекрасно
@@ -29,15 +29,16 @@ magnifique
 
 réussi
 : удачная
-*__oudatchnaya__*
+*__oudatchnaïa__*
 
 Magnifique
 : Замечательная
-*__Zamitchatilnaya__*
+*__Zamitchatilnaïa__*
 
 Belle (objet)
 : прекрасная
-*__prikarassnaya__*
+*__prikarassnaïa__*
+
 
 ## Goût
 
@@ -48,32 +49,40 @@ bon
 
 ## Situation
 
-dangereux
-: опасно
-*__apasna__*
+facile
+: легко
+*__lihko__*
 
 difficile
 : трудно
 *__troudna__*
+
+difficile
+: сложно
+*__slojna__*
+
+dangereux
+: опасно
+*__apasna__*
 
 
 ## Quantité
 
 un peu
 : немного
-*__niemnoga__*
+*__nièmnoga__*
 
 beaucoup
 : многие
-*__monoguié__*
+*__mnoguié__*
 
 
 ## Position
 
 ouvert
 : открыто
-*__atkraito__*
+*__atkrîta__*
 
 fermé
 : закрыто
-*__zakraita__*
+*__zakrîta__*

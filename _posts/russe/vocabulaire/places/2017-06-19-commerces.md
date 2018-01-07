@@ -25,22 +25,22 @@ boutique
 
 marché
 : рынок
-*__rinak__*
+*__rînak__*
 
 
 ## Commerces de bouche
 
 boucherie
 : скотобойня
-*__skotaboynia__*
+*__skotaboïnia__*
 
 épicerie
 : продуктовый
-*__pradouktovi__*
+*__pradouktovî__*
 
 pâtisserie
 : пекарня
-*__pietarnia__*
+*__piètarnia__*
 
 café
 : кафе
@@ -63,7 +63,7 @@ restaurant
 
 bijouterie
 : ювелирные изделия
-*__youvielirnè izdiélia__*
+*__youvièlirnè izdiélia__*
 
 bijouterie
 : бижутерия
@@ -82,7 +82,7 @@ garage automobile
 
 salon de coiffure
 : парикмахерская
-*__parikmahierskaya__*
+*__parikmahièrskaïa__*
 
 hôtel
 : гостиница
@@ -97,11 +97,11 @@ police
 
 caserne de pompiers
 : пожарное депо
-*__pajarniè depo__*
+*__pajarniè dèpo__*
 
 caserne militaire
 : казармы
-*__kazarmé__*
+*__kazarmî__*
 
 tribunal
 : суд
@@ -116,19 +116,19 @@ hôpital
 
 maison de fous (asile psychiatrique)
 : дурдом
-*__durdom__*
+*__dourdom'__*
 
 cabinet médical
 : медицинский кабинет
-*__méditsinsky kabiniet__*
+*__méditsinski kabinièt__*
 
 cabinet dentaire
 : стоматологическая клиника
-*__stomatologuicheskaya klinika__*
+*__stomatologuichèskaïa klinika__*
 
 pharmacie
 : аптека
-*__aptieka__*
+*__aptièka__*
 
 
 ## Ecoles
@@ -139,11 +139,11 @@ pharmacie
 
 lycée
 : высшая школа
-*__visshaya chkola__*
+*__vîchaïa chkola__*
 
 université
 : университет
-*__ouniversitiet'__*
+*__ounivèrsitièt'__*
 
 
 ## Loisirs
@@ -162,15 +162,15 @@ bibliothèque
 
 théâtre
 : театр
-*__tieatr'__*
+*__tièatr'__*
 
 musée
 : музей
-*__mousy__*
+*__mouzï__*
 
 à une soirée
 : на вечеринку
-*__na vietchirinkou__*
+*__na viètchirin'kou__*
 
 
 ## Terminaux de transports en commun

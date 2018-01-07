@@ -23,7 +23,7 @@ table
 
 table basse
 : журнальный столик
-*__journalni stolik__*
+*__journalnî stolik__*
 
 chaise
 : стул
@@ -51,7 +51,7 @@ lit
 
 meubles
 : мебель
-*__mibiel__*
+*__mibièl__*
 
 armoire
 : шкаф
@@ -82,11 +82,11 @@ téléviseur
 
 lave-linge
 : стиральная машина
-*__stiralnaya machina__*
+*__stiralnaïa machina__*
 
 lave-vaisselle
 : посудомоечная машина
-*__passoudamoïtchnaya machina__*
+*__passoudamoïtchnaïa machina__*
 
 plaque chauffante
 : плита
@@ -94,11 +94,11 @@ plaque chauffante
 
 four
 : печь
-*__pyech__*
+*__pièch__*
 
 friteuse
 : Фритюрница
-*__friturnitsa__*
+*__fritiournitsa__*
 
 frigo, frigidaire, réfrigérateur
 : холодильник
@@ -132,11 +132,11 @@ appareil
 
 téléphone
 : телефон
-*__telephone__*
+*__tèlèphon'__*
 
 smartphone
 : смартфон
-*__smartphone__*
+*__smartphon'__*
 
 appareil photo
 : фотоаппарат
@@ -151,34 +151,34 @@ casque (audio)
 
 savon
 : мыло
-*__milo__*
+*__mîlo__*
 
 shampooing
 : шампунь
-*__shampoon__*
+*__cham'pounʸ__*
 
 brosse à dents
 : зубная щетка
-*__zoobnaya shtyetka__*
+*__zoubnaïa chtiètka__*
 
 dentifrice
 : зубная паста
-*__zoobnaya pasta__*
+*__zoubnaïa pasta__*
 
 serviette
 : полотенце
-*__polotientzye__*
+*__polotièntsiè__*
 
 miroir
 : зеркало
-*__zierkala__*
+*__zièrkala__*
 
 
 ## Literie
 
 couverture
 : ковер
-*__kovier'__*
+*__kovièr'__*
 
 
 ## Bureau
@@ -189,15 +189,15 @@ stylo
 
 crayon
 : карандаш
-*__karandash__*
+*__karandach__*
 
 encre
 : чернила
-*__chyernila__*
+*__chièrnila__*
 
 papier
 : бумага
-*__boomaga__*
+*__boumaga__*
 
 bloc-notes
 : блокнот
@@ -237,11 +237,11 @@ carte
 
 journal
 : газета
-*__gazieta__*
+*__gazièta__*
 
 ciseaux
 : ножницы
-*__nojnitzi__*
+*__nojnitzî__*
 
 
 ## Divers
@@ -256,7 +256,7 @@ valise
 
 les objets
 : объекты
-*__obiekti__*
+*__obièktî__*
 
 fourche
 : вилка
@@ -264,7 +264,7 @@ fourche
 
 image
 : изображение
-*__izobrajyeniye__*
+*__izobrajiniè__*
 
 tableau
 : картина
@@ -280,11 +280,11 @@ affiche
 
 balançoire
 : качели
-*__kacheli__*
+*__kachèli__*
 
 poussette
 : коляска
-*__kalyaska__*
+*__kaliaska__*
 
 poubelle
 : мусорка

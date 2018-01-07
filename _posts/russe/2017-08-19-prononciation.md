@@ -56,10 +56,10 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 <tr>
 <td style="background: #ddff00;">Я</td>
 <td>i</td>
-<td>ia´</td>
+<td>ïa´</td>
 <td> </td>
-<td>y…</td>
-<td>…ia</td>
+<td>ï…</td>
+<td>…ïa</td>
 <td> </td>
 <td> </td>
 <td style="background: #ff88ff;">Mouillure</td>
@@ -80,10 +80,10 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 <tr>
 <td style="background: #ddff00;">Е</td>
 <td>i</td>
-<td>iè´</td>
+<td>ïè´</td>
 <td> </td>
-<td>y…</td>
-<td>…ié</td>
+<td>ï…</td>
+<td>…ïé</td>
 <td> </td>
 <td> </td>
 <td style="background: #ff88ff;">Mouillure</td>
@@ -91,11 +91,11 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 </tr>
 <tr>
 <td style="background: #ddff00;">Ы</td>
-<td>ui</td>
+<td>î</td>
 <td> </td>
 <td> </td>
 <td> </td>
-<td>…è</td>
+<td> </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -127,7 +127,7 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 </tr>
 <tr>
 <td style="background: #ddff00;">Ё</td>
-<td>io</td>
+<td>ïo</td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -151,7 +151,7 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 </tr>
 <tr>
 <td style="background: #ddff00;">Ю</td>
-<td>iou</td>
+<td>ïou</td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -175,7 +175,7 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 </tr>
 <tr>
 <td style="background: #00ddff;">Й</td>
-<td>y</td>
+<td>ï</td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -259,7 +259,7 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 </tr>
 <tr>
 <td style="background: #00ddff;">Г</td>
-<td>gu'</td>
+<td>g(u)</td>
 <td> </td>
 <td>k_</td>
 <td> </td>

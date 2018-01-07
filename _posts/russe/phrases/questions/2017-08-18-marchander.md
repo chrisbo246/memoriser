@@ -21,7 +21,7 @@ Combien (ça coûte) ?
 
 Combien ça coûte?
 : Сколько это стоит?
-*__Skolka eta stoyt'?__*
+*__Skolka èta stoyt'?__*
 
 Combien coûte …?
 : сколько стоит …?
@@ -32,18 +32,18 @@ Combien coûte …?
 
 Pouvez-vous baisser le prix?
 : -
-*__Vi pojete dechevet?__*
+*__Vi pojètè dèchèvèt?__*
 
 
 ## Se renseigner sur le produit
 
 C'est frais?
 : Это Свежее?
-*__Eta svejee?__*
+*__èta svèjèè?__*
 
 
 ## Payer
 
 Pourriez-vous me faire de la monnaie sur ce billet s’il vous plaît?
 : разменяйте, пожалуйста, эту купюру?
-*__razmieniaytié pojalsta étou kupiourou?__*
+*__razmièniaytié pojalsta étou koupiourou?__*

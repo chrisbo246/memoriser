@@ -51,11 +51,11 @@ d'où (vient)
 
 quel
 : какой
-*__kakoy__*
+*__kakoï__*
 
 quelle
 : какая
-*__kakaya__*
+*__kakaïa__*
 
 quel [neutre]
 : какое
@@ -71,12 +71,12 @@ pourquoi
 
 dans quel but
 : зачем
-*__zatchiem__*
+*__zatchièm__*
 
 lequel
 : который
-*__katori__*
+*__katorî__*
 
 laquelle
 : которая
-*__katoraya__*
+*__katoraïa__*

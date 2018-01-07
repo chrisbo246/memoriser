@@ -48,7 +48,7 @@ saladier
 casserole
 : pan
 
-poêle à frire
+poêle (à frire)
 : frying pan
 
 cocotte-minute

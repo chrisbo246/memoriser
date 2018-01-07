@@ -19,8 +19,16 @@ voici, nous voici
 
 il y a
 : есть
-*__yest'__*
+*__yèst'__*
 
 Je (suis) …
 : Я …
 *__Ya …__*
+
+Je ne pouvais pas
+: Я не мог
+*__Ya nié mok__*
+
+J'ai
+: У меня есть
+*__Ou minia yèst'__*

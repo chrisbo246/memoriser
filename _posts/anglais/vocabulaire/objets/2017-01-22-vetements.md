@@ -134,7 +134,7 @@ short
 
 ## Robes
 
-robe se soirée, robe longue
+robe longue, robe de soirée
 : gown
 
 robe
@@ -247,3 +247,6 @@ salopette de travail
 
 garde-robe
 : wardrobe
+
+robe de bébé
+: baby gown

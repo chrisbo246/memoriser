@@ -19,22 +19,22 @@ oui
 
 bien sûr
 : конечно
-*__kanietchna__*
+*__kaniètchna__*
 
 C'est vrai
 : Правда
 *__Pravda__*
 
-Je comprends.
-: Я понимаю.
-*__Ya ponimay.__*
+Je comprends
+: Я понимаю
+*__Ya panimay.__*
 
-Je sais.
-: я знаю.
+Je sais
+: я знаю
 *__Ya znaiou__*
 
-je peu.
-: я умею.
+je peu
+: я умею
 *__ya oumièiou__*
 
 C'est clair!
@@ -47,8 +47,16 @@ C'est clair!
 
 Avec plaisir!
 : C удовольствием!
-*__Soudavolstviem!__*
+*__Soudavolstvièm!__*
 
 Comme c’est intéressant!
 : Как интересно!
-*__Kak intieresna!__*
+*__Kak intièrèsna!__*
+
+Je suis d'accord
+: Я согласен
+*__Ya saglasièn'__*
+
+Je f. suis d'accord
+: Я согласна
+*__Ya saglasna__*

@@ -29,19 +29,19 @@ Bien, merci.
 
 Je vais très bien.
 : У меня всё хорошо.
-*__Ou minia vsio horocho.__*
+*__Ou minia vcio horocho.__*
 
 Tout va parfaitement!
 : Всё отлично!
-*__Vsio atlitchna!__*
+*__Vcio atlitchna!__*
 
 Tout va bien.
 : Всё хорошо.
-*__Vsio horocho.__*
+*__Vcio horocho.__*
 
 Tout est OK.
 : Всё ок.
-*__Vsio ok.__*
+*__Vcio ok.__*
 
 
 ## Ça va

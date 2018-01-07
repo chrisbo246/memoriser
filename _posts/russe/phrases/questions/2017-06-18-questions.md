@@ -17,19 +17,19 @@ date: 2017-06-18 00:00:00 +0100
 
 Qu’est ce que c’est?
 : Что это?
-*__Chto eta?__*
+*__Chto èta?__*
 
 Pourriez-vous me dire …?
 : не подскажите …?
-*__Nie podskajite …?__*
+*__Niè podskajitè …?__*
 
 Qu’est-ce qui est écrit là ?
 : Что тут написано?
-*__Shto tout' napisana?__*
+*__Chto tout' napisana?__*
 
 Est ce que vous comprenez l'anglais?
 : Вы понимаете по-английски?
-*__Vi panimiétié pa anglisky?__*
+*__Vî panimiétié pa angliski?__*
 
 
 ## Politesse
@@ -40,57 +40,57 @@ Puis-je?
 
 Êtes-vous satisfait?
 : Довольны ли Вы?
-*__Davolny li vi?__*
+*__Davolnî li vî?__*
 
 Qui est le dernier (de la queue)?
 : Kто Последний?
-*__Kto pasliedni?__*
+*__Kto paslièdni?__*
 
 Faut-il retirer ses chaussures?
 : Снимать обувь?
-*__Snimat obouv?__*
+*__Snimatʸ oboufʸ?__*
 
 Est-ce qu’il faut enlever ses chaussures?
 : Снимать обувь надо?
-*__Snimat obouv nado?__*
+*__Snimatʸ oboufʸ nado?__*
 
 
 ## Se renseigner sur la situation
 
 Qui est là?
 : Кто здесь?
-*__kto zdies__*
+*__kto zdièssʸ__*
 
 Qu'est ce qu'il s'est passé?
 : что случилось?
-*__chto soutchilas__*
+*__chto soutchilassʸ__*
 
 Qui a dit ça?
 : Кто это сказал?
-*__kto eta skazal?__*
+*__kto èta skazal?__*
 
 Quel, Lequel …?
 : который …?
-*__katori …?__*
+*__katorî …?__*
 
 Quelle, Laquelle …?
 : которая …?
-*__katoraya …?__*
+*__katoraïa …?__*
 
 Il y a à manger?
 : Есть есть?
-*__Yest' yest'?__*
+*__Yèstʸ yèstʸ?__*
 
 
 ## Météo
 
 Quel temps fait-il aujourd'hui?
 : какая погода сегодня?
-*__Kakaya pagoda sievodnia?__*
+*__Kakaïa pagoda sièvodnia?__*
 
 Quand le printemps reviendra-t'il?
 : Когда придет  весна?
-*__kogda pridyot vesna?__*
+*__kogda pridyot vèsna?__*
 
 
 ## Pourquoi
@@ -101,41 +101,41 @@ Pourquoi …?
 
 Pourquoi as-tu/avez-vous fais ça?
 : почему ты/вы это сделал?
-*__Patchimou ti/vi éta sdiélal?__*
+*__Patchimou tî/vî èta sdiélal?__*
 
 
 ## Proposer un rendez-vous
 
 Que fais-tu demain soir?
 : что ты делаешь завтра вечером?
-*__Chto ti dielaech zavtra vietchiram?__*
+*__Chto tî dièlaèch zavtra viètchiram?__*
 
 Es-tu libre ce soir?
 : ты свободен сегодня вечером?
-*__Ti svabodin' siévodnia vietchiram?__*
+*__Tî svabodin' siévodnia viètchiram?__*
 
-Es-Tu [femme] libre ce soir?
+Es-Tu[f] libre ce soir?
 : ты свободна сегодня вечером?
-*__Ti svabodna siévodnia vietchiram?__*
+*__Tî svabodna siévodnia viètchiram?__*
 
 Je voudrais vous inviter à un rendez-vous (amoureux).
 : Я хотел бы пригласить тебя на свидание.
-*__Ya hatil vi priglassits tibia na svidanié.__*
+*__Ya hatil bî priglassitʸ tibia na svidanié.__*
 
-Je [femme] voudrais vous inviter à un rendez-vous (amoureux).
+Je[f] voudrais vous inviter à un rendez-vous (amoureux).
 : Я хотелa бы пригласить тебя на свидание.
-*__Ya hatila vi priglassits tibia na svidanié..__*
+*__Ya hatila bî priglassitʸ tibia na svidanié..__*
 
 
 ## Retourner la question
 
 Et toi?
 : А ты?
-*__A ti?__*
+*__A tî?__*
 
 Et vous?
 : А вы?
-*__A vi?__*
+*__A vî?__*
 
 Et toi?
 : А твои?
@@ -154,4 +154,8 @@ Très bien, merci, et vous ?
 
 Qu'as-tu … ?
 : что ты … ?
-*__Chto ti …__*
+*__Chto tî …__*
+
+
+
+*[[f]]: Féminin

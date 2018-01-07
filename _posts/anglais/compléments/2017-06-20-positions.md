@@ -45,6 +45,15 @@ a portée de main
 plus loin, en cours de route
 : down the road
 
+here
+: ici
+
+là-bas
+: there
+
+là-bas, là-haut (éloigné)
+: yonder
+
 
 ## Etat
 
@@ -56,3 +65,12 @@ coincé
 
 Devancer / dépasser
 : Get ahead
+
+
+## Divers
+
+alentours
+: surroundings
+
+hors des sentiers battus
+: off the slab

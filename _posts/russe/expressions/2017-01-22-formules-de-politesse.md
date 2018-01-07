@@ -18,11 +18,11 @@ date: 2017-04-01 00:39:00 +0100
 
 Bonjour. (formel)
 : Здравствуйте.
-*__Zdrastvouytyé.__ Pour une personne qu'on vouvoie ou pour plusieurs personnes. Lit. soyez en bonne santé.*
+*__Zdrastvouïtié.__ Pour une personne qu'on vouvoie ou pour plusieurs personnes. Litt. soyez en bonne santé.*
 
 Bonsoir. (formel)
 : Здравствуйте.
-*__Zdrastvouytyé.__ Pour une personne qu'on vouvoie ou pour plusieurs personnes. Lit. soyez en bonne santé.*
+*__Zdrastvouïtié.__ Pour une personne qu'on vouvoie ou pour plusieurs personnes. Litt. soyez en bonne santé.*
 
 Bonjour! (bonne matinée)
 : Доброе утро!
@@ -30,19 +30,19 @@ Bonjour! (bonne matinée)
 
 Bonjour! (bon jour)
 : Добрый день!
-*__Dobri dién'! Pour une personne croisée par hazard.__*
+*__Dobrî diénʸ! Pour unè pèrsonnè croiséè par hazard.__*
 
 Bonsoir! (bon soir)
 : Добрый вечер!
-*__Dobry viétchèr!__*
+*__Dobrî viétchèr!__*
 
 Bonjour!
 : здравствуй
-*__zdrastvouy__ Pour une personne qu'on tutoie. Lit. bonne santé*
+*__zdrastvouï__ Pour une personne qu'on tutoie. Litt. bonne santé*
 
 Salutations!
 : Приветствую!
-*__Priviètsvouyou!__*
+*__Priviètsvouïou!__*
 
 Salut!
 : Привет!
@@ -77,7 +77,7 @@ A demain
 
 A plus, à plus tard, à la prochaine
 : До встречи!
-*__Do vstrechi!__*
+*__Do vstrèchi!__*
 
 A dieu!
 : До свидания!
@@ -85,11 +85,11 @@ A dieu!
 
 adieu
 : адью
-*__adiou__*
+*__atiou__*
 
 Bonne nuit!
 : Спокойной ночи!
-*__Spakoyné notchi!__*
+*__Spakoïni notchi!__*
 
 
 ## Remercier
@@ -108,11 +108,11 @@ Merci, de même!
 
 Très bien merci!
 : Очень хорошо, спасибо!
-*__Otchen horosho, spaciba!__*
+*__Otchin' horocho, spaciba!__*
 
 Vous êtes très aimable!
 : вы очень любезны!
-*__Vi otchien lioubiezni!__*
+*__Vî otchin' lioubièznî!__*
 
 
 ## Enchanté
@@ -127,11 +127,11 @@ Très sympa (de vous rencontrer)!
 
 Ravi de vous rencontrer! (Très agréable!)
 : Очень приятно!
-*__Otchien' priatna!__*
+*__Otchin' priatna!__*
 
 Ravi de vous rencontrer!
 : Рад с вами познакомиться!
-*__Rat s vami paznakomitsa__*
+*__Rat' s vami paznakomitsa__*
 
 Ravie de vous rencontrer!
 : Рада с вами познакомиться!
@@ -150,7 +150,7 @@ S’il vous plait.
 
 Je vous en prie.
 : Не за Что.
-*__Nie za chto.__*
+*__Niè za chto.__*
 
 De rien.
 : Пожалуйста.
@@ -167,6 +167,22 @@ Bonne chance!
 : Удачи!
 *__Oudatchi!__*
 
+Bonne fête!
+: С наступающим!
+*__S'nastoupaiouchim!__  Litt. À l'avance.*
+
+Bon anniversaire!
+: С днем рождения!
+*__S'diém' rajdiénia!__*
+
+Bonne année!
+: С новым годом!
+*__S'novîm' godam!__*
+
+Joyeuses fêtes!
+: С праздником!
+*__S'prazdnikom!__*
+
 Ni duvet ni plume! (Bonne chance!) / Au diable!
 : Ни пуха ни пера! / К чёрту!
 *__Ni pouha ni pira! / K'tchiortou!__*
@@ -176,7 +192,7 @@ Ni duvet ni plume! (Bonne chance!) / Au diable!
 
 Pardon.
 : Помилование.
-*__Pomilovenié.__*
+*__Pomilovènié.__*
 
 Désolé.
 : Простите.
@@ -193,3 +209,7 @@ Excusez-moi, je suis en retard.
 Excusez-moi, je débute en russe.
 : Извините, я начинаю на русском.
 *__Izvinitié, ya natchina na rouskom.__*
+
+
+
+*[Litt.]: Littéralement

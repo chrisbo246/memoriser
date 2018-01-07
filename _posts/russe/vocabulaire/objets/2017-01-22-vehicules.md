@@ -23,15 +23,15 @@ vélo
 
 vélocipède
 : велосипед
-*__vilocipiet'__*
+*__vilocipièt'__*
 
 moto
 : мотоцикл
-*__motatsikel'__*
+*__motatsikèl'__*
 
 voiture
 : машина
-*__mashina__*
+*__machina__*
 
 automobile
 : автомобиль
@@ -46,11 +46,11 @@ taxi
 
 autobus
 : автобус
-*__avtobus__*
+*__avtobouss__*
 
 tramway
 : трамвай
-*__tramvail__*
+*__tram'vaï__*
 
 metro
 : метро
@@ -58,7 +58,7 @@ metro
 
 train
 : поезд
-*__poyezd__*
+*__poïèzd__*
 
 
 ## Transport aérien
@@ -69,11 +69,11 @@ avion
 
 aéroplane
 : аэроплан
-*__aeroplane__*
+*__aèroplanè__*
 
 helicopter
 : вертолет
-*__viertaliot__*
+*__vièrtaliot__*
 
 
 ## Transport naval

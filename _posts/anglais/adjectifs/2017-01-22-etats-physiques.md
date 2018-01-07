@@ -39,6 +39,9 @@ sain et sauf
 gâté, gâché
 : spoiled
 
+intact
+: unspoiled
+
 périmé
 : out-of-date
 

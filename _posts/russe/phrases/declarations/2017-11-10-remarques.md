@@ -17,37 +17,37 @@ date: 2017-11-10 00:00:00 +0100
 
 C'est bon!
 : Это хорошо!
-*__Eta horocho!__*
+*__èta horocho!__*
 
 C'est particulier.
 : Это особый.
-*__Eta osobi.__*
+*__èta ossobî.__*
 
 
 ## Négocier
 
 C’est très bon marché!
 : Это очень дешево!
-*__Eta otchen diochevo!__*
+*__èta otchin' diochèvo!__*
 
 C'est un peu cher!
 : Это дороговато!
-*__Eto dorogovato!__*
+*__èta dorogovato!__*
 
 C’est trop cher!
 : Это слишком дорого!
-*__Eta slichkom doraga!__*
+*__èta slichkom doraga!__*
 
 
 ## Situation
 
 C'est dangereux.
 : Это опасно.
-*__Eta rapasna__*
+*__èta rapasna__*
 
 C'est dangereux ici.
 : Это опасно здесь.
-*__Eta rapasna zdies__*
+*__èta rapasna zdièssʸ__*
 
 
 ## Politesse
@@ -62,41 +62,41 @@ Je suis contente de te voir. [f.]
 
 Voici mon ami John.
 : Это мой друг, Джон.
-*__Eta moi droug, Dzhon.__*
+*__èta moï drouk, Djon'.__*
 
 
 ## Constatation
 
 Je trouve ça difficile.
 : Затрудняюсь.
-*__Zatroudniaious'.__*
+*__Zatroudniaïoussʸ.__*
 
 Je suis perdu.
 : я потерялся.
-*__Ya patierialsia.__*
+*__Ya patièrialsia.__*
 
 
 ## Je ne parle pas russe
 
 Je ne comprends pas.
 : Не понимаю.
-*__Nié ponimaye.__*
+*__Nié panimaïou.__*
 
 Je parle un peu russe.
 : Я немного говорю по-русски.
-*__Ya nimnoga gavaryou pa-rousski.__*
+*__Ya nimnoga gavariou pa-rousski.__*
 
 Je ne parle pas russe.
 : Я не говорю по-русски.
-*__Ya nié gvoryu pa-rousski.__*
+*__Ya nié gvoriou pa-rousski.__*
 
 Excusez-moi, je commence à apprendre la langue russe.
 : Извините, я только начинаю изучать русский язык.
-*__Izvinitié, ya tolka natchina izoutchat' rouski yazik.__*
+*__Izvinitié, ya tolka natchina izoutchatʸ rousski yazîk.__*
 
 J’étudie la langue russe
 : Я изучаю русский язык
-*__Ya izoutchayou rousskiï yazyk__*
+*__Ya izoutchaïou rousski yazîk__*
 
 
 
@@ -104,11 +104,11 @@ J’étudie la langue russe
 
 J’ai faim! (Je vais manger!)
 : Я буду есть!
-*__Ya boudou yests!__*
+*__Ya boudou yèstʸ!__*
 
 J’ai soif! (Je vais boire!)
 : Я буду пить!
-*__Ya boudou pits!__*
+*__Ya boudou pitʸ!__*
 
 Je ne fais que regarder.
 : Я толко смотрю.
@@ -123,11 +123,15 @@ J'appellerai.
 
 Et j'appellerai pour organiser la rencontre.
 : И я позвоню, чтобы договориться о встрече.
-*__I ya pazvaniou tchobi dagavaritsia a vstritchié.__*
+*__I ya pazvaniou tchobî dagavaritsia a vstritchié.__*
 
 
 ## Divers
 
 Nous sommes à Moscou.
 : Мы в Москве.
-*__Mi v'maskviè.__*
+*__Mî v'maskviè.__*
+
+Vous avez laissé tomber quelque chose!
+: вы что-то уронили!
+*__Vî chto-ta ouranili!__*

@@ -41,7 +41,14 @@ avoir le don d'ubiquité
 
 à huis clos
 : Interdit au public.
-*Huis comme huisserie. Lit. porte close.*
+*Huis comme huisserie. Litt. porte close.*
 
 entrer en lice
 : S'engager en compétition.
+
+Construire/bâtir un château en Espagne
+: Projet irréalisable.
+
+
+
+*[Litt.]: Littéralement

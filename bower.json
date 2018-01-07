@@ -16,11 +16,11 @@
   ],
   "dependencies": {
     "jquery": "^3.2.1",
-    "bootstrap": "4.0.0-beta",
+    "bootstrap": "4.0.0-beta.3",
     "lazysizes": "^4.0.1",
     "cookieconsent": "^3.0.4",
     "font-awesome": "fontawesome#^4.7.0",
-    "popper.js": "^1.12.6",
+    "popper.js": "^1.12.9",
     "animate.css": "^3.5.2",
     "open-iconic": "^1.1.1",
     "svg-injector": "^1.1.3"

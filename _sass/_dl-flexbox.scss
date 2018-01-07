@@ -8,7 +8,6 @@
     //min-height: 8rem;
     min-width: 12rem;
     min-height: 12rem;
-    font-size: 150%;
   }
 
   .card-body {
@@ -35,6 +34,10 @@
     }
 
     .card.front {
+
+      .card-title small {
+        display: block;
+      }
 
       // Question / Success sign as background
       &:after {
@@ -71,25 +74,29 @@
 
       .card-text {
 
+        font-size: 150%;
+
+        strong {
+          //font-size: 200%;
+          display: block;
+        }
+
         em {
           display: block;
-          //font-size: $small-font-size;
-          font-size: 1rem;
-          color: $text-muted;
-          font-weight: lighter;
-          strong {
-            color: $text-muted;
-          }
         }
 
         & > em > strong {
-          display: block;
+          //display: block;
           &:before {
             //content: "\201C";
           }
           &:after {
             //content: "\201D";
           }
+        }
+
+        abbr {
+          //font-size: 1rem;
         }
 
       }
@@ -118,6 +125,45 @@
     width: 12rem;
     word-wrap: break-word;
     word-break: break-word;
+  }
+
+
+  abbr {
+    sup & {
+      color: theme-color('info');
+      text-decoration-color: theme-color('info');
+      text-decoration: none;
+    }
+  }
+
+  .text-pronunciation {
+    //display: block;
+    color: theme-color('primary');
+  }
+
+  .text-literatim {
+    //display: block;
+    color: theme-color('secondary');
+  }
+
+  .text-male {
+    color: color('blue');
+    text-decoration-color: color('blue');
+  }
+
+  .text-female {
+    color: color('pink');
+    text-decoration-color: color('pink');
+  }
+
+  .text-neutral {
+    color: color('indigo');
+    text-decoration-color: color('indigo');
+  }
+
+  .text-plural {
+    color: color('orange');
+    text-decoration-color: color('orange');
   }
 
 

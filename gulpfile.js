@@ -14,10 +14,9 @@ notify = require('gulp-notify'),
 critical = require('critical').stream,
 del = require('del');
 
-
 gulp.task('critical', function () {
     return gulp.src('_site/*.html')
-        .pipe(critical({base: '_site/', dest: '../_includes/styles/critical.min.css', css: ['_site/assets/main.css'], inline: false, minify: true}))
+        .pipe(critical({base: './', dest: '_includes/styles/critical.min.css', css: ['_site/assets/main.css', 'bower_components/animate.css/animate.min.css', 'bower_components/cookieconsent/build/cookieconsent.min.css'], inline: false, minify: true, ignore: ['font-face']}))
         .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
         .pipe(gulp.dest('_site'));
 });

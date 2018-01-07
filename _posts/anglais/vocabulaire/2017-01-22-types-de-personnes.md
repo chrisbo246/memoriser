@@ -113,8 +113,11 @@ somnambule
 : sleepwalker
 
 paresseux
-: a couch potato
+: couch potato
 *Qui passe son temps devant la télé.*
+
+fouteur de merde
+: shit-fucker
 
 
 ## Vagabonds
@@ -153,7 +156,13 @@ bonhomme de neige
 : scarecrow, bugbear
 
 
-## Personnages de literature
+## Personnages de fiction
+
+loup-garou
+: werewolf
+
+croque-mitaine
+: bogeyman, bugaboo
 
 le petit chaperon rouge
 : little red riding hood

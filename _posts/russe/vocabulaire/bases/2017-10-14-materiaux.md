@@ -19,7 +19,7 @@ acier
 
 verre
 : стекло
-*__stieklo__*
+*__stièklo__*
 
 béton
 : бетон

@@ -31,6 +31,9 @@ dépasser
 : leapfrog
 *Les un après les autres.*
 
+faire demi-tour
+: turn around
+
 
 ## Arriver
 

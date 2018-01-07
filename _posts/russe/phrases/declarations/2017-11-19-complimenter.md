@@ -29,51 +29,55 @@ Magnifique
 
 Très réussi
 : Очень удачная
-*__Otchin' oudatchnaya__*
+*__Otchin' oudatchnaïa__*
 
 Quelle jolie photographie
 : какая красивая фотография
-*__kakaya krassivaya phatagrafia__*
+*__kakaïa krassivaïa phatagrafia__*
 
 Magnifique photographie
 : Замечательная фотография
-*__Zamitchatilnaya phatagrafia__*
+*__Zamitchatilnaïa phatagrafia__*
 
 Belle photo
 : прекрасная фотография
-*__prikarassnaya patagrafia__*
+*__prikarassnaïa patagrafia__*
 
 
 ## Nourriture
 
 C'est bon!
 : Это хорошо!
-*__Eta horocho!__*
+*__èta horocho!__*
 
 
 ## Paysage
 
 Belle vue
 : красивый вид
-*__krassivi vit'__*
+*__krassivî vit'__*
 
 
 ## Personne
 
 Quel joli prénom!
 : Какое красивое имя!
-*__Kakoie krassivae imia!__*
+*__Kakoiè krassivaè imia!__*
 
 
 ## Femme
 
+Tu me plais
+: Ты мне понравилась.
+*__Tî mnié panravilassʸ__*
+
 Tu es très belle
 : ты очень красивая
-*__ti otchin' krassivaya__*
+*__tî otchin' krassivaïa__*
 
 Tu as un sourire radieux
 : У тебя лучезарная улыбка
-*__Ou tibia loutchizarnaya oulibka__*
+*__Ou tibia loutchizarnaïa oulîbka__*
 
 Tu es très bien habillé
 : Тебе очень идёт платье

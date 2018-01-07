@@ -34,23 +34,40 @@ J'ai … ans.
 
 Je suis français
 : Я Француз
-*__Ya Frantsuz__*
+*__Ya Fran'tsouss__*
 
 Je suis française
 : Я француженка
-*__Ya frantsoujienka__*
+*__Ya fran'tsoujiènka__*
 
 Je suis de France.
 : Я из Франции.
-*__Ya iz Frantsi.__*
+*__Ya iss Fran'tsi.__*
 
 
 ## Lieu d'habitation
 
 J'habite à …
 : Я живу в …
-*__Ya jivy v …__*
+*__Ya jivou v'…__*
 
 J'habite en France.
 : Живу в Франции.
-*__Jouyvou oa frantsii.__*
+*__Jivou v'fran'tsi.__*
+
+
+## Situation
+
+J'ai un petit ami
+: У меня есть молодой человек
+*__Ou minia yèstʸ maladoï tchilavièk__*
+
+Je suis mariée
+: я замужем
+*__Ya zamoujim__*
+
+
+## Divers
+
+Je ne fume pas
+: Я не курящие

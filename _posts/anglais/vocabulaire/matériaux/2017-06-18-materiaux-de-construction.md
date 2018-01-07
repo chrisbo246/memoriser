@@ -61,6 +61,12 @@ parpaing
 
 ## Panneaux de bois
 
+planche
+: plank
+
+parquet
+: wood flooring
+
 contre-plaqué
 : plywood
 
@@ -72,9 +78,6 @@ plaque rigide
 
 plaque d'aggloméré
 : chipboard, beaverboard
-
-parquet
-: wood flooring
 
 
 ## Carton

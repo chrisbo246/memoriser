@@ -32,6 +32,9 @@ Santé!
 : Cheers!
 *Pour porter un toast.*
 
+Bon appétit!
+: Enjoy your meal!
+
 Bonne journée.
 : Good day.
 

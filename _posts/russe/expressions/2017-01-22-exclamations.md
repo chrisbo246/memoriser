@@ -19,10 +19,6 @@ Sympa!
 : Приятно!
 *__Priatna!__ Agréablement.*
 
-C'est bien!
-: Хорошо!
-*__Horosho!__*
-
 Cool!
 : Круто!
 *__Krouta!__*
@@ -37,14 +33,14 @@ Exellent!
 
 C'est le pied!
 : Какой кайф!
-*__Kakoy kayf!__*
+*__Kakoï kaïf!__*
 
 
 ## Etonnement
 
 Ô mon dieu!
 : Боже мой!
-*__Bojé moy!__*
+*__Bojé moï!__*
 
 Ouah!
 : Ого!
@@ -63,7 +59,7 @@ Wow!
 
 Vas-y!
 : Давай!
-*__Davay!__*
+*__Davaï!__*
 
 
 ## Confirmation
@@ -75,6 +71,17 @@ Allons-y!
 Allons-y (en voiture)!
 : Поехали!
 *__Paièhli!__*
+
+
+## Félicitation
+
+Bien!
+: Хорошо!
+*__Horocho!__*
+
+Très bien!
+: Очень хорошо!
+*__Otchin' haracho!__*
 
 
 ## Compliment
@@ -119,3 +126,7 @@ Allô!
 Boouh!
 : ка-ка!
 *__Ka-ka__ Pour faire peur.*
+
+Voilà!
+: Там!
+*__Tam!__*

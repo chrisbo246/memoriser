@@ -26,7 +26,7 @@ github_username:  chrisbo246
 # Build settings
 markdown: kramdown
 theme: minima
-#theme: jekyll-theme-cayman
+#remote_theme: mmistakes/minimal-mistakes
 
 # https://pages.github.com/versions/
 plugins:
@@ -64,23 +64,51 @@ sass:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - gulpfile.js
+  - package.json
+  - package-lock.json
   - README.md
   - screenshot.jpg
+  - screenshot.png
   - bower.json
   - node_modules
-  - bower_components/*.md
-  - bower_components/*.html
+  - bower_components/**/*.md
+  - bower_components/**/*.htm
+  - bower_components/**/*.html
+  - bower_components/**/*.lock
+  - bower_components/**/.*
+  - bower_components/**/bower.json
+  - bower_components/**/package.json
+  - bower_components/**/package-lock.json
+  - bower_components/**/gulpfile.js
+  - bower_components/**/Gemfile
   - bower_components/**/docs
+  - bower_components/**/examples
+  - bower_components/**/src
+  - bower_components/**/source
+  - bower_components/**/less
+  - bower_components/**/external
 
-# Copy previously excluded files to the destination directory when running jekyll build
+# Copy (jekyll defaults and previously) excluded files to the destination directory when running jekyll build
 include:
   - .htaccess
   - bower_components
+  #- bower_components/**/build
+  #- bower_components/**/dist
+  #- bower_components/**/scss
+  #- bower_components/**/fonts
 
-# Do not delete this manually moved files from the destination directory when running jekyll build
+# Do not delete/copy this (static) files from/to the destination directory each time you're running jekyll build (improve build time)
 keep_files:
-#  -
+  - assets/images
+  - assets/sounds
 
+# Get build time details.
+# bundle exec jekyll serve --profile
+# Improve build time building only changed files
+# bundle exec jekyll serve --incremental
+# Build only the last changed posts (for large sites)
+# bundle exec jekyll serve --watch --limit_posts 10
 
 
 # ------------------------------------------------------------------------------

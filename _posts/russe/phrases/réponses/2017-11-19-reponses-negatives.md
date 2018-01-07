@@ -23,15 +23,15 @@ non
 
 faux, mensonge
 : ложь
-*__loch__*
+*__lochʸ__*
 
 Je ne sais pas.
 : я не знаю.
-*__Ya niè znayou.__*
+*__Ya niè znaïou.__*
 
 Je ne comprends pas.
 : Не понимаю.
-*__Nié ponimaye.__*
+*__Nié panimaïou.__*
 
 Je n'en ai aucune idée.
 : Понятия не имею.
@@ -43,12 +43,20 @@ Je ne sais pas, Je ne suis pas au courant.
 
 Je ne peux pas.
 : Не могу.
-*__niè maguou.__*
+*__Niè maguou.__*
 
 Je ne peux pas du tout vous aider.
 : Ничем не могу помочь.
-*__Nitchièm niè maguou pamotch'.__*
+*__Nitchièm niè maguou pamotchʸ.__*
 
 Difficile de répondre.
 : Затрудняюсь ответить.
-*__Zatroudniayous atviétit'.__*
+*__Zatroudniaïoussʸ atviétitʸ.__*
+
+Je ne suis pas d'accord
+: Я не согласен
+*__Ya niè saglasièn'__*
+
+Je f. ne suis pas d'accord
+: Я не согласна
+*__Ya niè saglasna__*

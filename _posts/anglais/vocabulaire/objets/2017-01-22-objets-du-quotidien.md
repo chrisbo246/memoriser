@@ -44,6 +44,9 @@ douche
 
 ## Meubles
 
+meubles
+: furniture
+
 comptoir
 : countertop
 

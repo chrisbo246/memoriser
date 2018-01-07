@@ -78,7 +78,7 @@ filière
 : spinneret
 
 foret
-: drill
+: drill bit
 
 fraise
 : mill
@@ -93,7 +93,7 @@ taraud
 : tap
 
 queue de cochon, extracteur d'écrou
-: EZ out, damaged screw and bolt extractor      
+: EZ out, damaged screw and bolt extractor
 
 meule
 : grinding wheel

@@ -24,11 +24,11 @@ Quand …?
 
 Quelle heure est-il?
 : Который час?
-*__Katori tchass?__*
+*__Katorî tchass?__*
 
 Qu'elle heure est-il maintenant?
 : сколько сейчас времени?
-*__Skolka sitchas vriemini?__*
+*__Skolka sitchas vrièmini?__*
 
 
 ## Demander la date

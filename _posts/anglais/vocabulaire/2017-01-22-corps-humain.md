@@ -87,7 +87,7 @@ iris
 : iris
 
 
-## bouche
+## Bouche
 
 lèvre(s)
 : lip(s)
@@ -182,6 +182,9 @@ phalange
 paume (de la main)
 : palm (of the hand)
 
+Poings
+: fists
+
 ongle
 : fingernail
 
@@ -235,6 +238,9 @@ pénis
 
 queue, bitte
 : dick
+
+bijoux de famille
+: family jewels
 
 vagin
 : vagina
@@ -326,8 +332,11 @@ la chaire de poule
 ride(s)
 : wrinkle(s)
 
+des poches sous les yeux
+: bags under the eyes
+
 bouton
-: -
+: pimple
 
 vergeture(s)
 : stretch mark(s)
@@ -361,3 +370,9 @@ un suçon
 
 coup du soleil
 : sunburn
+
+cramp
+: crampe
+
+courbatures
+: aches

@@ -55,5 +55,11 @@ fourrer, enfoncer
 : shove
 *Ex: Fourrer ton doigt dans ton nez.*
 
+montrer du doigt
+: point at ...
+
 coup de tête
 : head-butt
+
+faire un doigt d'honneur
+: showing my middle finger

@@ -29,11 +29,11 @@ citron
 
 orange
 : апельсин
-*__apelsin'__*
+*__apèlsin'__*
 
 oranges
 : апельсины
-*__apyelsini__*
+*__apièlsinî__*
 
 poire
 : груша
@@ -41,7 +41,7 @@ poire
 
 poires
 : груши
-*__groushi__*
+*__grouchi__*
 
 pomme
 : яблоко
@@ -49,7 +49,7 @@ pomme
 
 pêches
 : персики
-*__piersiky__*
+*__pièrsiky__*
 
 raisin
 : виноград
@@ -72,7 +72,7 @@ tomate
 
 tomates
 : помидоры
-*__pomidori__*
+*__pomidorî__*
 
 courgettes
 : кабачки
@@ -80,15 +80,15 @@ courgettes
 
 concombre
 : огурец
-*__ogouriets__*
+*__ogourièts__*
 
 poivrons
 : перцы
-*__pyertzi__*
+*__pièrtzî__*
 
 citrouille
 : тыква
-*__tikva__*
+*__tîkva__*
 
 haricots
 : бобы
@@ -96,7 +96,7 @@ haricots
 
 carotte
 : морковь
-*__markof__*
+*__markofʸ__*
 
 maïs
 : кукуруза

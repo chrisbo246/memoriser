@@ -37,7 +37,7 @@ derrière (sans mouvement)
 
 devant
 : перед
-*__piriet'__*
+*__pirièt'__*
 
 à côté de
 : рядом с
@@ -57,7 +57,7 @@ après
 
 entre
 : между
-*__miechdou__*
+*__mièchdou__*
 
 en face
 : напротив
@@ -167,7 +167,7 @@ grâce à
 
 malgré
 : вопреки
-*__voprieki__*
+*__voprièki__*
 
 à cause de (empêchement)
 : из-за
@@ -209,15 +209,15 @@ avec
 
 sans
 : без
-*__biess__*
+*__bièss__*
 
 à travers (du plein)
 : сквозь
-*__skvoss__*
+*__skvossʸ__*
 
 à travers (du vide)
 : через
-*__tchiriz__*
+*__tchirièss__*
 
 sauf
 : кроме

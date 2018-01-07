@@ -28,15 +28,15 @@ grand
 
 gros
 : толстый
-*__tolsti__*
+*__tolstî__*
 
 grosse
 : толстая
-*__tolstaya__*
+*__tolstaïa__*
 
 
 ## Apparence
 
 beau, joli
 : красивый
-*__krasivy__*
+*__krasivî__*

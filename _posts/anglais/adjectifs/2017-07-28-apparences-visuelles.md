@@ -36,6 +36,9 @@ tern
 lisse
 : smooth
 
+épuré
+: sleek
+
 
 ## Visibilité
 

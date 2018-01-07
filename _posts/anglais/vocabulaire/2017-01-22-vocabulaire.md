@@ -25,22 +25,6 @@ bras de fer
 : arm wrestling
 
 
-## Situation
-
-revers
-: setback
-*Échec.*
-
-retombée
-: spin-off
-
-Étape importante
-: milestone
-
-la pierre angulaire
-: the cornerstone
-
-
 ## Faire la lessive
 
 séchage à l'air libre
@@ -72,10 +56,13 @@ signature
 : John Hancock
 
 
-## Comportement
+## Groupe
 
-crise de la quarantaine
-: midlife crisis
+groupe
+: band
+
+essaim
+: swarm
 
 
 ## Divers
@@ -92,29 +79,21 @@ préoccupation
 séquence vidéo
 : footage
 
-préoccupation
-: concern
-
 connaissance
 : knowledge
-
-savoir-faire
-: know-how
-
-alentours
-: surroundings
 
 gros mots
 : swearwords
 
-connaissance de soi
-: self-awareness
-
 durée de vie
 : lifespan
 
-sécheresse
-: drought
+traînée
+: streak
 
-essaim
-: swarm
+mise en garde
+: caution
+
+feuille de vigne
+: fig leaf
+*Pour cacher le sex.*

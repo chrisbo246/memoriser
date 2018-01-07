@@ -32,7 +32,7 @@ Françe
 
 continent
 : континент
-*__continient'__*
+*__continiènt'__*
 
 pays
 : страна
@@ -40,7 +40,7 @@ pays
 
 région
 : область
-*__oblasts__*
+*__oblastʸ__*
 
 ville
 : город
@@ -48,7 +48,7 @@ ville
 
 village
 : деревня
-*__diérievnia__*
+*__diérivnia__*
 
 
 ## Types de voies
@@ -59,7 +59,7 @@ rue
 
 avenue
 : проспект
-*__praspiekt'__*
+*__praspièkt'__*
 
 boulevard
 : бульвар
@@ -70,7 +70,7 @@ boulevard
 
 place
 : площадь
-*__plochid'__*
+*__plachitʸ__*
 
 parc
 : парк
@@ -78,16 +78,16 @@ parc
 
 air de jeux
 : Детская площадка
-*__dietskaya plaschiadka__*
+*__diètskaïa plaschiadka__*
 
 centre
 : центре
-*__tsentr'__*
+*__tsèntr'__*
 
 centre-ville
 : центре города
-*__tsentr' goroda__*
+*__tsèntr' goroda__*
 
 centre historique
 : центр Исторического
-*__tsentr' istoricheskova__*
+*__tsèntr' istorichèskova__*

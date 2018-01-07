@@ -56,20 +56,8 @@ voir jusqu'où cela te mène
 comme par magie
 : as if by magic
 
-cas particulier
-: particular case
-
-le cas échéant
-: optionally
-
-cas de figure
-: case
-
 
 ## Expressions idiomatiques
-
-hors des sentiers battus
-: off the slab
 
 faire tourner le monde
 : make the world go round
@@ -97,12 +85,6 @@ En quelques chiffres
 
 Tout ce qu'il faut
 : Whatever it takes
-
-être originaire de
-: belong
-
-ne jamais se taire
-: go on and on
 
 … de rechange
 : Spare …

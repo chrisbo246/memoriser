@@ -19,7 +19,7 @@ et, mais
 
 pourvu que
 : абы
-*__abi__*
+*__abî__*
 
 maintenant que, depuis
 : благо
@@ -39,7 +39,7 @@ où
 
 si, à condition que
 : если
-*__yesli__*
+*__yèsli__*
 
 et, mais
 : же
@@ -63,7 +63,7 @@ c’est pourquoi
 
 pour que, c'est pourquoi
 : следовательно
-*__sliédavatielna__*
+*__sliédavatièlna__*
 
 comme si
 : точно
@@ -75,7 +75,7 @@ quoique
 
 que
 : чем
-*__tchiem'__ Pour comparer.*
+*__tchièm'__ Pour comparer.*
 
 que
 : что
@@ -83,7 +83,7 @@ que
 
 afin que, pour que, sans quoi
 : чтобы
-*__chtobè__*
+*__chtobî__*
 
 
 
@@ -103,7 +103,7 @@ Tandis que, alors que, quand
 
 Pourvu que
 : лишь бы
-*__lich bè__*
+*__lich bî__*
 
 parce que
 : потому что
@@ -111,7 +111,7 @@ parce que
 
 Pourvu que
 : только бы
-*__tolka bi__*
+*__tolka bî__*
 
 
 ## Divers

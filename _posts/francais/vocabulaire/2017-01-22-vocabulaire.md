@@ -128,6 +128,9 @@ onanisme
 miasme
 : Gaz putride.
 
+rythme circadien
+: Biorythme journalier.
+
 
 ## Révolte
 
@@ -157,3 +160,6 @@ forensique
 
 moratoire
 : Délai légal accordé pour circonstances exceptionnelles.
+
+opprobre
+: Honte, déshonneur.

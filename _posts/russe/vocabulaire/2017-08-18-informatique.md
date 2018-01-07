@@ -23,11 +23,11 @@ PC
 
 ordinateur portable
 : портативный компьютер
-*__portativnè compioutèr'__*
+*__portativnî compioutèr'__*
 
 ICQ
 : аська
-*__ás'ka__*
+*__asska__*
 
 
 ## Menus de sites webs
@@ -38,7 +38,7 @@ recherche
 
 trouver
 : найти
-*__nayti__*
+*__naïti__*
 
 vidéo
 : видео
@@ -46,11 +46,11 @@ vidéo
 
 image
 : картинка
-*__cartineka__*
+*__cartinèka__*
 
 images
 : картинки
-*__cartineki__*
+*__cartinèki__*
 
 actualités
 : новости
@@ -62,11 +62,11 @@ carte
 
 cartes
 : карты
-*__kartè__*
+*__kartî__*
 
 marché
 : маркет
-*__market'__*
+*__markèt'__*
 
 traducteur
 : переводчик
@@ -74,4 +74,4 @@ traducteur
 
 plus
 : ещё
-*__yischio__*
+*__ïschio__*

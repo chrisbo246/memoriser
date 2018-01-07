@@ -9,7 +9,7 @@ image:
   width: 640
   height: 360
 categories: ["anglais", "vocabulaire"]
-tags: ["objet", "bureau"]
+tags: ["objet", "bureau", "outil"]
 date: 2017-01-01 00:00:00 +0100
 ---
 
@@ -35,6 +35,9 @@ gabarit
 
 
 ## Accessoires de bureau
+
+fournitures de bureau
+: office supplies
 
 agrafeuse
 : stapler

@@ -33,22 +33,22 @@ maman
 
 mamie
 : бабуля
-*__baboulya__*
+*__baboulïa__*
 
 tata
 : тетушка
-*__tietouchka__*
+*__tiètouchka__*
 
 
 ## Hommes
 
 gamin
 : мальчишка
-*__maltchishka__*
+*__maltchichka__*
 
 jeune homme
 : молодой человек
-*__moladoi tchielaviek__*
+*__moladoï tchièlavièk__*
 
 monsieur
 : сэр
@@ -59,15 +59,11 @@ monsieur
 
 gamine, ma petite
 : детка
-*__dietka__*
+*__diètka__*
 
 mademoiselle
-: мисс
-*__miss__*
-
-madame
-: Миссис
-*__missis__*
+: девушка
+*__diévouchka__*
 
 
 ## Argot

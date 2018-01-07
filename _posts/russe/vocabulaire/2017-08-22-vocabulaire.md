@@ -23,30 +23,51 @@ prénom
 
 nom de famille
 : фамилия
-*__familiya__*
+*__familia__*
 
 
 ## Sortir
 
 dance
 : танец
-*__taniets__*
+*__tanièts__*
 
 chanson
 : Песня
 *__pisnia__*
 
-soirée (avec alcool)
-: Пьянка
-*__pyanka__*
-
 films
 : фильмы
-*__filmi__*
+*__filmî__*
 
 feux d'artifice
 : фейерверк
 *__fièrvièrk__*
+
+
+## Fête
+
+soirée (avec alcool)
+: Пьянка
+*__pianka__*
+
+anniversaire
+: день рождения
+*__diènʸ rajdiénia__ Litt. Jour de naissance.*
+
+Noël (nativité)
+: Рождество
+*__Rajdistvo__*
+
+Noël (naissance du Christ)
+: Рождество христово
+*__Rajdistvo__*
+
+nouvel an
+: новый год
+*__novî got'__*
+
+
 
 
 ## Divers
@@ -54,3 +75,7 @@ feux d'artifice
 le bordel
 : Бардак
 *__bardak__*
+
+
+
+*[Litt.]: Littéralement
