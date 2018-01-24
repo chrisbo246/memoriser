@@ -15,63 +15,58 @@ date: 2017-01-01 00:00:00 +0100
 
 le net
 : инет
-*__inét'__*
-
-PC
-: комп
-*__komp__*
-
-ordinateur portable
-: портативный компьютер
-*__portativnî compioutèr'__*
+*/inétᵉ/*
 
 ICQ
 : аська
-*__asska__*
+*/asska/*
 
 
 ## Menus de sites webs
 
 recherche
 : поиск
-*__poysk__*
+*/poysk/*
 
 trouver
 : найти
-*__naïti__*
+*/naïti/*
 
 vidéo
 : видео
-*__vidio__*
+*/vidio/*
 
 image
-: картинка
-*__cartinèka__*
+: f.
+  : картинка
+  */cartinèka/*
 
-images
-: картинки
-*__cartinèki__*
+  pl.
+  : картинки
+  */cartinèki/ "images"*
 
-actualités
-: новости
-*__novasti__*
+actualité
+: pl.
+  : новости
+  */novasti/ "actualités"*
 
 carte
-: карта
-*____*
+: f.
+  : карта
+  *//*
 
-cartes
-: карты
-*__kartî__*
+  pl.
+  : карты
+  */kartî/ "cartes"*
 
 marché
 : маркет
-*__markèt'__*
+*/markètᵉ/*
 
 traducteur
 : переводчик
-*__pirivotchik__*
+*/pirivotchik/*
 
 plus
 : ещё
-*__ïschio__*
+*/ïschio/*

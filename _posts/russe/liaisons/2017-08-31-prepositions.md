@@ -17,219 +17,219 @@ date: 2017-08-31 00:00:00 +0100
 
 dans (sans mouvement)
 : в
-*__f__*
+*/f/*
 
 chez (sans mouvement)
 : у
-*__ou__*
+*/ou/*
 
 sur (sans mouvement)
 : на
-*__na__*
+*/na/*
 
 sous (sans mouvement)
 : под
-*__pot'__*
+*/potᵉ/*
 
 derrière (sans mouvement)
 : за
-*__za__*
+*/za/*
 
 devant
 : перед
-*__pirièt'__*
+*/piriètᵉ/*
 
 à côté de
 : рядом с
-*__riadom's__*
+*/riadomᵉ s/*
 
 aux alentours
 : около
-*__okala__*
+*/okala/*
 
 au dessus de
 : над
-*__nat'__*
+*/natᵉ/*
 
 après
 : по
-*__po__*
+*/po/*
 
 entre
 : между
-*__mièchdou__*
+*/mièjdou/*
 
 en face
 : напротив
-*__naprotif__*
+*/naprotif/*
 
 le long de
 : мимо
-*__mima__*
+*/mima/*
 
 autour
 : вокруг
-*__vakrouk__*
+*/vakrouk/*
 
 au milieu de
 : среди
-*__sridi__*
+*/sridi/*
 
 
 ## En mouvement
 
 sur (avec mouvement)
 : на
-*__na__*
+*/na/*
 
 sous (avec mouvement)
 : под
-*__pot'__*
+*/patᵉ/*
 
 dans (avec mouvement)
 : в
-*__f__*
+*/f/*
 
 vers, chez (avec mouvement)
 : к
-*__k__*
+*/k/*
 
 derrière (avec mouvement)
 : за
-*__za__*
+*/za/*
 
 
 ## Provenance
 
 du haut de, de (provenance)
 : c
-*__ss__*
+*/ss/*
 
 de (d'où)
 : из
-*__iss__*
+*/iss/*
 
 de chez
 : от
-*__ot__*
+*/otᵉ/*
 
 
 ## Distance
 
 jusqu’à (lieu, temps )
 : до
-*__do__*
+*/do/*
 
 
 ## Temps
 
 sous, à l’époque de, en présence de
 : под
-*__pot'__*
+*/patᵉ/*
 
 à (semaine: date)
 : на
-*__na__*
+*/na/*
 
 à, en (mois, année :date)
 : в
-*__f__*
+*/f/*
 
 en (délai)
 : за
-*__za__*
+*/za/*
 
 pour (délai)
 : на
-*__na__*
+*/na/*
 
 à, en (jour: date)
 : в
-*__f__*
+*/f/*
 
 jusqu’à (temps inclus), ou sens distributif
 : по
-*__po__*
+*/po/*
 
 
 ## Approximation
 
 d'environ (approximation)
 : c
-*__ss__*
+*/ss/*
 
 
 ## Grace
 
 grâce à
 : благодаря
-*__blagadaria__*
+*/blagadaria/*
 
 malgré
 : вопреки
-*__voprièki__*
+*/voprièki/*
 
 à cause de (empêchement)
 : из-за
-*__izza__*
+*/izza/*
 
 à cause de (motivation)
 : из
-*__iss__*
+*/iss/*
 
 à cause de (reflexe)
 : от
-*__ot__*
+*/otᵉ/*
 
 
 ## Pour / contre
 
 pour, en échange de (contraire de против)
 : за
-*__za__*
+*/za/*
 
 pour (attribution)
 : для
-*__dlia__*
+*/dlia/*
 
 pour (l'amour de)
 : ради
-*__radi__*
+*/radi/*
 
 contre (contraire de за)
 : против
-*__protif__*
+*/protif/*
 
 
 ## Divers
 
 avec
 : c
-*__ss__*
+*/ss/*
 
 sans
 : без
-*__bièss__*
+*/bièss/*
 
 à travers (du plein)
 : сквозь
-*__skvossʸ__*
+*/skvossʸ/*
 
 à travers (du vide)
 : через
-*__tchirièss__*
+*/tchirièss/*
 
 sauf
 : кроме
-*__kromiè__*
+*/kromiè/*
 
 au sujet de
 : o
-*__o__*
+*/o/*
 
 sur, selon , par, distributif
 : по
-*__po__*
+*/po/*
 
 
 http://russe.inalco.chez.com/L0GRAM/GRAM_LO/prepositions.htm

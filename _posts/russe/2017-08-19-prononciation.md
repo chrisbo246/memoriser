@@ -448,7 +448,7 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 
 3. *X´* Prononciation lorsque la syllabe contenant cette lettre possède un [accent tonique](http://russie.fr/les-accents-russes-autrement) (invisible, vous apprendrez à positionner par la pratique).
 
-4. *X_* Prononciation lorsque la lettre est suivie d'une consonne sourde (*ШCKTПФ*) ou *Ь*. Les consonnes sonores deviennent sourdes lorsqu'elles sont suivies pas d'autres consonnes sourdes.</p>
+4. *X_* Prononciation lorsque la lettre est suivie d'une consonne sourde (*ШCKTПФ*) ou *Ь* (fin du mot uniquement). Les consonnes sonores deviennent sourdes lorsqu'elles sont suivies pas d'autres consonnes sourdes.</p>
 
 5. *X…* Prononciation lorsque la lettre est placée au début du mot.
 

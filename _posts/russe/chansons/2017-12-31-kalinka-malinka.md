@@ -5,12 +5,13 @@ title: "Калинка Малинка (Kalinka Malinka)"
 description: "Célèbre chant russe écrit et composé en 1860 par Ivan Petrovitch Larionov."
 excerpt: "Célèbre chant russe écrit et composé en 1860 par Ivan Petrovitch Larionov."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/micro.jpg
   type: "ImageObject"
   width: 640
   height: 360
 categories: ["russe", "chansons"]
 tags: []
+weight: 100
 date: 2017-12-31 00:00:00 +010
 published: true
 ---
@@ -29,10 +30,10 @@ published: true
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
-## Chœur (x3)
+###### Chœur (x3)
 
-Калинка, калинка, калинка моя!
-: Kalin'ka, kalin'ka, kalin'ka maïa!
+Эх, Калинка, калинка, калинка моя!
+: Eh, Kalin'ka, kalin'ka, kalin'ka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
 В саду ягода малинка, малинка моя!
@@ -43,7 +44,7 @@ published: true
 ## Couplet 1
 
 Ах, под сосною, под зелёною,
-: Ah, pot' sasnoïou, pot' zilionaïou,
+: Ah, potᵉ sasnoïou, potᵉ zilionaïou,
 *Sous le sapin, sous la verdure,*
 
 Спать положите вы меня!
@@ -69,10 +70,10 @@ published: true
 : v'sadou yagada malin'ka, malin'ka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
-## Chœur (x3)
+###### Chœur (x3)
 
-Калинка, калинка, калинка моя!
-: Kalin'ka, kalin'ka, kalin'ka maïa!
+Эх, Калинка, калинка, калинка моя!
+: Eh, Kalin'ka, kalin'ka, kalin'ka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
 В саду ягода малинка, малинка моя!
@@ -110,10 +111,10 @@ published: true
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
-## Chœur (x3)
+###### Chœur (x3)
 
-Калинка, калинка, калинка моя!
-: Kalin'ka, kalin'ka, kalin'ka maïa!
+Эх, Калинка, калинка, калинка моя!
+: Eh, Kalin'ka, kalin'ka, kalin'ka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
 В саду ягода малинка, малинка моя!
@@ -151,10 +152,10 @@ published: true
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
-## Chœur (x3)
+###### Chœur (x3)
 
-Калинка, калинка, калинка моя!
-: Kalin'ka, kalin'ka, kalin'ka maïa!
+Эх, Калинка, калинка, калинка моя!
+: Eh, Kalin'ka, kalin'ka, kalin'ka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
 В саду ягода малинка, малинка моя!

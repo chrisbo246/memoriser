@@ -15,6 +15,11 @@ date: 2017-04-01 00:00:00 +0100
 
 ## Attitude positive
 
+magnanime
+: Qui sait pardonner.
+
+sagace
+: Perspicace.
 
 
 ## Attitude négative
@@ -35,50 +40,26 @@ dogmatique
 outrecuidant
 : Qui se croit supérieur.
 
+omniscient
+: Qui paraît tout savoir.
+
 pédant
 : Qui fait étalage de son savoir.
 
 pudibond
-: Coincé, excès de retenu.
+: Coincé.
+*Excès de retenu.*
 
 putassier
 : Vulgaire, racoleur.
 *En référence aux prostituées.*
 
 servile
-: Comportement de subalterne.
+: Comportement de larbin.
 
 
-## Qualité
+## Etat d'esprit
 
-affabilité
-: Courtoisie.
-*Qui accueille chaleureusement.*
-
-alacrité
-: Gaieté entraînante.
-
-aménité
-: Politesse, charme.
-
-probité
-: Respect des règles.
-
-magnanime
-: Qui sait pardonner.
-
-mansuétude
-: Indulgence.
-
-verve
-: Éloquence.
-
-
-## Défaut
-
-égotisme
-: Narcissisme.
-
-hubris
-: Orgueil démesuré.
-*Appelant la vengeance des dieux dans la mythologie Grec.*
+dichotomique
+: Partagé.
+*"coupé en deux"*

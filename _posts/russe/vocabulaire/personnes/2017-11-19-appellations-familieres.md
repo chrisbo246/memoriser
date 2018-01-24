@@ -18,56 +18,56 @@ date: 2017-10-31 00:38:00 +0100
 
 papa
 : Папа
-*__papa__*
+*/papa/*
 
 grand-père
 : дед
-*__dièt'__*
+*/diètᵉ/*
 
 
 ## Femmes de la famille
 
 maman
 : мама
-*__mama__*
+*/mama/*
 
 mamie
 : бабуля
-*__baboulïa__*
+*/baboulïa/*
 
 tata
 : тетушка
-*__tiètouchka__*
+*/tiètouchka/*
 
 
 ## Hommes
 
 gamin
 : мальчишка
-*__maltchichka__*
+*/maltchichka/*
 
 jeune homme
 : молодой человек
-*__moladoï tchièlavièk__*
+*/moladoï tchièlavièk/*
 
 monsieur
 : сэр
-*__sèr__*
+*/sèrᵉ/*
 
 
 ## Femmes
 
 gamine, ma petite
 : детка
-*__diètka__*
+*/diètka/*
 
 mademoiselle
 : девушка
-*__diévouchka__*
+*/diévouchka/*
 
 
 ## Argot
 
 mon frère
 : братан
-*__bratan'__*
+*/bratanᵉ/*

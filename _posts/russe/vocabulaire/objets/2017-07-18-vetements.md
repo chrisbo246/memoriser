@@ -17,22 +17,22 @@ date: 2017-07-18 00:00:00 +0100
 
 vêtements
 : одежда
-*__adièjda__*
+*/adièjda/*
 
 sous-vêtements
 : нижнее белье
-*__nijniè bilyo__*
+*/nijniè bilyo/*
 
 
 ## Couvre-chef
 
 chapeau
 : шляпа
-*__chliapa__*
+*/chliapa/*
 
 béret
 : берет
-*__birièt'__*
+*/biriètᵉ/*
 
 
 ## Haut
@@ -42,94 +42,97 @@ manteaux
 
 veste
 : куртка
-*__kourtka__*
+*/kourtka/*
 
 chemise
 : рубашка
-*__roubachka__*
+*/roubachka/*
 
 T-shirt
 : футболка
-*__foudbolka__*
+*/foudbolka/*
 
 blouse
 : блуза
-*__blousa__*
+*/blousa/*
 
 blouson
 : блузон
-*__blouson'__*
+*/blouzonᵉ/*
 
 
 ## Bas
 
 pantalon
 : брюки
-*__briouky__*
+*/briouky/*
 
 robe
 : платье
-*__platiè__*
+*/platiè/*
 
 jupe
 : юбка
-*__ioupka__*
+*/ioupka/*
 
 
 ## Sous-vêtements
 
-chaussettes
-: носки
-*__noski__*
+chaussette
+: pl.
+  : носки
+  */noski/ "chaussette"*
 
 chaussures
 : обувь
-*__oboufʸ__*
+*/oboufʸ/*
 
 porte jarretelle
 : Подвязки
-*__padviazki__*
+*/padviaski/*
 
 
 ## Chaussures
 
-chaussons
-: тапочки
-*__tapatchki__*
+chausson
+: pl.
+  : тапочки
+  */tapatchki/ "chaussons"*
 
-bottes
-: боты
-*__botî__*
+botte
+: pl.
+  : боты
+  */botî/*
 
 bottillon
 : ботильоны
-*__botilionî__*
+*/botilionî/*
 
 bottine
 : ботинки
-*__botinki__*
+*/botinki/*
 
 
 ## Accessoires
 
 lunettes
 : очки
-*__atchki__*
+*/atchki/*
 
 portefeuille
 : бумажник
-*__boumajnik__*
+*/boumajnik/*
 
 parapluie
 : зонтик
-*__zontik__*
+*/zontik/*
 
 parapluie
 : зонт
-*__zont'__*
+*/zonᵉtᵉ/*
 
 ## Divers
 
 couche
 : пальто
-*__palto__*
+*/palto/*

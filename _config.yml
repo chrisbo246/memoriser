@@ -249,8 +249,9 @@ compress_html:
 # ------------------------------------------------------------------------------
 
 array: []
+theme_color: '#ffffff'
 headers:
-  api-user-agent: mediawiki-loader/1.0
+  api-user-agent: memo-riser/1.0
   origin: https://chrisbo246.github.io/memo-riser
 
 yandex_translate:

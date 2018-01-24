@@ -21,6 +21,9 @@ bigarré
 chamarré
 : Coloré, couvert de décorations.
 
+prolixe
+: Chargé.
+
 
 ## Apparence physique
 

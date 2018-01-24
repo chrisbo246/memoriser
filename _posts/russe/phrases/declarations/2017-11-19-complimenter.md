@@ -17,87 +17,91 @@ date: 2017-11-19 00:00:00 +0100
 
 C'est beau!
 : Красиво!
-*__Krassiva!__*
+*/Krassiva!/ "Beau!"*
 
 C'est très beau
-: очень красиво
-*__otchin' krassiva__*
+: Очень красиво
+*/Otchinʸ krassiva/ "Très beau"*
 
 Magnifique
 : прекрасно
-*__prikrassna__*
+*/prikrassna/*
 
 Très réussi
 : Очень удачная
-*__Otchin' oudatchnaïa__*
+*/Otchinʸ oudatchnaïa/*
 
 Quelle jolie photographie
 : какая красивая фотография
-*__kakaïa krassivaïa phatagrafia__*
+*/kakaïa krassivaïa phatagrafia/*
 
 Magnifique photographie
 : Замечательная фотография
-*__Zamitchatilnaïa phatagrafia__*
+*/Zamitchatilnaïa phatagrafia/*
 
 Belle photo
 : прекрасная фотография
-*__prikarassnaïa patagrafia__*
+*/prikarassnaïa patagrafia/*
 
 
 ## Nourriture
 
 C'est bon!
 : Это хорошо!
-*__èta horocho!__*
+*/èta horocho!/*
 
 
 ## Paysage
 
 Belle vue
 : красивый вид
-*__krassivî vit'__*
+*/Kracivî vitᵉ/*
 
 
 ## Personne
 
 Quel joli prénom!
 : Какое красивое имя!
-*__Kakoiè krassivaè imia!__*
+*/Kakoiè krassivaè imia!/*
 
 
 ## Femme
 
 Tu me plais
 : Ты мне понравилась.
-*__Tî mnié panravilassʸ__*
+*/Tî mnié panravilassʸ/*
 
 Tu es très belle
 : ты очень красивая
-*__tî otchin' krassivaïa__*
+*/Tî otchinʸ krassivaïa/*
 
 Tu as un sourire radieux
 : У тебя лучезарная улыбка
-*__Ou tibia loutchizarnaïa oulîbka__*
+*/Ou tibia loutchizarnaïa oulîpka/*
 
 Tu es très bien habillé
 : Тебе очень идёт платье
-*__Tibié otchin' idiot' platié__*
+*/Tibiè otchinʸ platié/*
 
 (Cette robe) te va à ravir
 : Тебе очень идёт (платье)
-*__Tibié otchin' idiot' (platié)__*
+*/tibiè otchinʸ (platié)/*
 
 
 ## Homme
 
 La classe!
 : Классно!
-*__Klassna!__*
+*/Klassna!/*
 
-La classe [fam.]!
+La classe! fam.
 : Чётко!
-*__Tchiotka!__*
+*/Tchiotka!/*
 
 Tu es très bien
 : Тебе очень идёт
-*__Tibié otchin' idiot'__*
+*/Tibiè otchinʸ idiotᵉ/*
+
+
+
+*[fam.]: Familier

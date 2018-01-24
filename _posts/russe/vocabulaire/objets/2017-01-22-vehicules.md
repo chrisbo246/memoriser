@@ -19,72 +19,72 @@ date: 2017-01-01 00:00:00 +0100
 
 vélo
 : велик
-*__viélik__*
+*/viélik/*
 
 vélocipède
 : велосипед
-*__vilocipièt'__*
+*/vilocipiètᵉ/*
 
 moto
 : мотоцикл
-*__motatsikèl'__*
+*/motatsikèlᵉ/*
 
 voiture
 : машина
-*__machina__*
+*/machina/*
 
 automobile
 : автомобиль
-*__avtomobil__*
+*/aftomobilʸ/*
 
 
 ## Transports en commun et payant
 
 taxi
 : такси
-*__taksi__*
+*/taksi/*
 
 autobus
 : автобус
-*__avtobouss__*
+*/aftobouss/*
 
 tramway
 : трамвай
-*__tram'vaï__*
+*/tramᵉvaï/*
 
 metro
 : метро
-*__miétro__*
+*/miétro/*
 
 train
 : поезд
-*__poïèzd__*
+*/poïstᵉ/*
 
 
 ## Transport aérien
 
 avion
-: самолет
-*__somaliot__*
+: самолёт
+*/somaliotᵉ/*
 
 aéroplane
 : аэроплан
-*__aèroplanè__*
+*/aèroplanè/*
 
 helicopter
 : вертолет
-*__vièrtaliot__*
+*/vièrtaliёtᵉ/*
 
 
 ## Transport naval
 
 bateau
 : лодка
-*__lodka__*
+*/lotka/*
 
 
 ## Divers
 
 wagon
 : вагон
-*__vagon'__*
+*/vagonᵉ/*

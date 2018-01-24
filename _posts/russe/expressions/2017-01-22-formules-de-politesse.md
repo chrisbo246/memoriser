@@ -16,200 +16,212 @@ date: 2017-04-01 00:39:00 +0100
 
 ## Bonjour
 
-Bonjour. (formel)
+Bonjour. (formel) pl.
 : Здравствуйте.
-*__Zdrastvouïtié.__ Pour une personne qu'on vouvoie ou pour plusieurs personnes. Litt. soyez en bonne santé.*
+*/Ztrastvouïtiè/ Vouvoiement ou pour plusieurs personnes.*
 
-Bonsoir. (formel)
+Bonsoir. (formel) pl.
 : Здравствуйте.
-*__Zdrastvouïtié.__ Pour une personne qu'on vouvoie ou pour plusieurs personnes. Litt. soyez en bonne santé.*
+*/Ztrastvouïtiè/ Vouvoiement ou pour plusieurs personnes.*
 
-Bonjour! (bonne matinée)
+Bonjour! (le matin)
 : Доброе утро!
-*__Dobré outra!__*
-
-Bonjour! (bon jour)
-: Добрый день!
-*__Dobrî diénʸ! Pour unè pèrsonnè croiséè par hazard.__*
-
-Bonsoir! (bon soir)
-: Добрый вечер!
-*__Dobrî viétchèr!__*
+*/Dobré outra!/ "Bonne matinée!"*
 
 Bonjour!
-: здравствуй
-*__zdrastvouï__ Pour une personne qu'on tutoie. Litt. bonne santé*
+: Добрый день!
+*/Dobrî diénʸ!/ "Bon jour!" Pour unè pèrsonnè croiséè par hazard.*
+
+Bonsoir!
+: Добрый вечер!
+*/Dobrî viétchèr!/ "Bonne soirée!"*
+
+Bonjour! fam.
+: здравствуй!
+*/Ztrastvouï!/*
 
 Salutations!
 : Приветствую!
-*__Priviètsvouïou!__*
+*/Priviètsvouïou!/*
 
 Salut!
 : Привет!
-*__Privièt!__*
+*/Priviètᵉ!/*
 
-Salut toi! [fam.]
+Salut toi! fam.
 : Здарова!
-*__Zdarova!__*
+*/Zdarova!/*
 
 
 ## Au revoir
 
 Salut!
 : пока!
-*__Paka!__*
+*/Paka!/*
 
 Au revoir!
 : до свидания!
-*__Da svidania!__*
+*/Da svidania!/ "À réunion!"*
+
+À demain!
+: До завтра!
+*/Da zaftra!/ "À demain!"*
 
 A bientôt!
 : До скоро!
-*__Da skora!__*
+*/Da skora!/ "À bientôt!"*
 
-A plus tard!
+A très vite!
 : до скорого!
-*__Do skorova!__*
+*/Da skorava!/ "À vite!"*
 
-A demain
-: До завтра!
-*__Do zavtra!__*
-
-A plus, à plus tard, à la prochaine
+À la prochaine!
 : До встречи!
-*__Do vstrèchi!__*
+*/Da fstritchi!/ "À rencontre!"*
 
-A dieu!
-: До свидания!
-*__Da svidania!__*
+Adieu!
+: Прощай!
+*/Prachaï!/*
 
-adieu
-: адью
-*__atiou__*
-
-Bonne nuit!
-: Спокойной ночи!
-*__Spakoïni notchi!__*
+Adieux pl.
+: Прощайте!
+*/Prachaïtiè!/ "Pardonner!"*
 
 
 ## Remercier
 
 Merci!
 : Спасибо!
-*__Spaciba!__*
+*/Spaciba!/ "Merci!"*
 
-Grand merci!
+Merci beaucoup!
 : Спасибо большое!
-*__Spasiba balchoy!__*
+*/Spaciba balchoïè!/ "Merci grand!"*
 
 Merci, de même!
 : Спасибо, взаимно!
-*__Spacibo, vzaïmna!__*
+*/Spacibo, vzaïmna!/ "Merci, réciproquement!"*
 
 Très bien merci!
 : Очень хорошо, спасибо!
-*__Otchin' horocho, spaciba!__*
+*/Otchinʸ horocho, spaciba!/ "Très bien, merci!"*
 
 Vous êtes très aimable!
-: вы очень любезны!
-*__Vî otchin' lioubièznî!__*
+: Вы очень любезны!
+*/Vî otchinʸ lioubièznî!/ "Vous três aimable!"*
 
 
 ## Enchanté
 
 Enchanté(e)!
 : Взаимно!
-*__Vzaïmna!__*
-
-Très sympa (de vous rencontrer)!
-: Очень приятно!
-*__Otchin' priatna!__*
-
-Ravi de vous rencontrer! (Très agréable!)
-: Очень приятно!
-*__Otchin' priatna!__*
+*/Vzaïmna!/*
 
 Ravi de vous rencontrer!
-: Рад с вами познакомиться!
-*__Rat' s vami paznakomitsa__*
+: Очень приятно!
+*/Otchinʸ priatna!/ "Très agréablement!"*
 
-Ravie de vous rencontrer!
-: Рада с вами познакомиться!
-*__Rada s vami paznakomitsa__*
+Ravi de vous rencontrer!
+: m.
+  : Рад с вами познакомиться!
+  */Ratᵉ s'vami paznakomitcia!/ "Content de toi faire connaissance!"*
+
+  f.
+  : Рада с вами познакомиться!
+  */Rada s'vami paznakomitcia!/ "Contente de toi faire connaissance!"*
 
 Ravi de vous rencontrer!
 : Приятно познакомиться!
-*__Priatna paznakomitsa!__*
+*/Priatna paznakomitcia!/ "Sympa faire connaissance!"*
 
 
 ## Formule de politesse
 
 S’il vous plait.
 : Пожалуйста.
-*__Pajalsta.__*
-
-Je vous en prie.
-: Не за Что.
-*__Niè za chto.__*
+*/Pajalsta./*
 
 De rien.
 : Пожалуйста.
-*__Pajalsta.__*
+*/Pajalsta./*
 
-Excusez-moi s'il vous plaît!
+Pas de quoi.
+: Не за Что.
+*/Niè za chto./ "Pas de quoi."*
+
+Excusez-moi, s'il vous plaît!
 : Извините, пожалуйста!
-*__Izvinitié pajalsta!__*
+*/Izvinitié, pajalsta!/*
 
 
 ## Bonne …
 
+Bonne journée!
+: Хорошего дня!
+*/Ahochièva dnia!/ "Bonne journée!"*
+
+Bonne nuit!
+: Спокойной ночи!
+*/Spakoïni notchi!/ "Paisible nuit!"*
+
 Bonne chance!
 : Удачи!
-*__Oudatchi!__*
-
-Bonne fête!
-: С наступающим!
-*__S'nastoupaiouchim!__  Litt. À l'avance.*
+*/Oudatchi!/*
 
 Bon anniversaire!
 : С днем рождения!
-*__S'diém' rajdiénia!__*
+*/S'diémᵉ rajdiénia!/ "Au jour naissance!"*
 
 Bonne année!
 : С новым годом!
-*__S'novîm' godam!__*
+*/S'novîmᵉ godamᵉ!/ "À nouvelle année!"*
 
-Joyeuses fêtes!
+Bonne fêtes!
 : С праздником!
-*__S'prazdnikom!__*
+*/S'prazdnikomᵉ!/ "À fête!"*
 
-Ni duvet ni plume! (Bonne chance!) / Au diable!
-: Ни пуха ни пера! / К чёрту!
-*__Ni pouha ni pira! / K'tchiortou!__*
+Ni duvet ni plume!
+: Ни пуха ни пера!
+*/Ni pouha ni pira!/ "Ni duvet ni plume!" Pour souhaiter bonne chance.*
+
+À l'avance, …!
+: С наступающим, …!
+*/S'nastoupaiouchimᵉ, …!/ "À l'avance, …!"*
+
+Portez-vous bien!
+: Счастливо!
+*/Chasliva!/ "Heureux!"*
 
 
 ## S'excuser
 
-Pardon.
-: Помилование.
-*__Pomilovènié.__*
+Excusez-moi.
+: Извините.
+*/Izvinitié./*
 
 Désolé.
 : Простите.
-*__Prastitié.__*
+*/Prastitié./*
 
-Excusez-moi.
-: Извините.
-*__Izvinitié.__*
+Pardon.
+: Помилование.
+*/Pamilovènié./*
+
+Pardon.
+: Пардон
+*/Pardonᵉ/*
 
 Excusez-moi, je suis en retard.
 : Извините, я опоздал.
-*__Izvinitié, ya pasdal.__*
+*/Izvinitié, ya pasdal./ "Excusez-moi, je suis en retard."*
 
 Excusez-moi, je débute en russe.
 : Извините, я начинаю на русском.
-*__Izvinitié, ya natchina na rouskom.__*
+*/Izvinitié, ya natchina na rouskomᵉ./ "Excusez-moi, je débute en russe."*
 
 
 
-*[Litt.]: Littéralement
+*[m.]: Mascumin
+*[f.]: Féminin
+*[pl.]: Pluriel ou vouvoiement
+*[fam.]: Familier

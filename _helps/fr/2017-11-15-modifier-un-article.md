@@ -21,23 +21,35 @@ Phrase ou expression.
 : Brève definition.
 
 terme
-: - Première définition.
-  - Deuxième définition.
-
-terme
 : Brève définition.
 *Détails ou exemple.*
 
-mot féminin [f.]
+féminin f.
+: Brève définition.
+
+pluriel pl.
 : Brève définition.
 
 en français
 : traduction
-*__prononciation__*
+*/prononciation/ "littéralement" Détails ou exemple.*
 
-en français
-: traduction
-*__prononciation__ Autres détails.*
+terme avec déclinaisons
+: s.
+  : terme au singulier
+  *Détails.*
+
+  pl.
+  : terme au pluriel
+  *Détails*
+
+terme
+: - Première définition.
+  - Deuxième définition.
+
+*[m.]: Masculin
+*[f.]: féminin
+*[pl.]: Pluriel
 
 ```
 

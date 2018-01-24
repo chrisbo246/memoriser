@@ -16,25 +16,8 @@ weight: 1
 dateModified: 2017-01-01 00:00:00 +0100
 ---
 
-## Qualités
-
-efficience
-: Efficacité.
-
-
-## Reproche
-
-dogmatisme
-: Rejette catégoriquement le doute et la critique.
-
-vacuité
-: Sans valeur.
-
 
 ## Noms
-
-agapes
-: Festin entre amis.
 
 conjecture
 : Hypothèse.
@@ -48,22 +31,6 @@ pis aller
 jubilé
 : - 50<sup>ème</sup> année de règne.
   - Noces d'argent, d'or.
-
-
-## Mouvements, orientations
-
-célérité
-: Rapidité.
-
-diaspora
-: Dispersion d'un peuple à travers le monde.
-
-résurgence
-: Réapparition.
-
-tropisme
-: Orientation induite par un élément extérieur.
-*Ex: le tropisme d'une plante en direction du soleil.*
 
 
 ## Prépositions
@@ -95,65 +62,27 @@ omerta
 *En référence à la mafia sicilienne.*
 
 
-
 ## Emploi, travail
-
-népotisme
-: Piston.
-*Favoritisme à l'égard des proches.*
-
-prosélytisme
-: Recruter des adeptes, tenter d'imposer ses idées.
 
 mercato
 : Période des transferts de joueurs de foot.
 *En référence au marché en italien.*
 
 
-## Médecine, symptômes, maladies
-
-catharsis
-: Thérapie.
-*Provoquer un choc émotionnel chez le patient pour trouver la cause du problème.*
-
-hémiplégie
-: Paralysie d'un seul côté.
-
-épistaxis
-: Saignement de nez.
-
-onanisme
-: Masturbation.
-
-miasme
-: Gaz putride.
-
-rythme circadien
-: Biorythme journalier.
-
-
 ## Révolte
-
-génocide
-: Actes visant à détruire un groupe.
-
-jacquerie
-: Révolte paysanne.
 
 katiba
 : Bataillon militaire.
 
-pogrome
-: Émeute sanglante dirigée contre une minorité.
 
-eugénisme
-: Sélection raciale.
+## Orientation
 
+tropisme
+: Orientation induite par un élément extérieur.
+*Ex: le tropisme d'une plante en direction du soleil.*
 
-## Loi
-
-forensique
-: Méthode scientifique utilisée pour répondre à une question légale ou judiciaire.
+résurgence
+: Réapparition.
 
 
 ## Divers
@@ -163,3 +92,6 @@ moratoire
 
 opprobre
 : Honte, déshonneur.
+
+atavisme
+: Hérédité.

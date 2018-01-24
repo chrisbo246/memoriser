@@ -15,68 +15,71 @@ date: 2017-08-31 00:00:00 +0100
 
 qui
 : кто
-*__kto__*
+*/kto/*
 
 quoi
 : что
-*__chto__*
+*/chto/*
 
 combien
 : сколько
-*__skolka__*
+*/skolka/*
 
 à qui
 : чья
-*__tchia__*
+*/tchia/*
 
 comment
 : как
-*__kak__*
+*/kak/*
 
 quand
 : когда
-*__kagda__*
+*/kagda/*
 
 où
 : где
-*__gdié__ Où se situe …*
+*/gdiè/ Où se situe …*
 
 où (va)
 : куда
-*__kouda__*
+*/kouda/*
 
 d'où (vient)
 : откуда
-*__atkouda__*
+*/atkouda/*
 
 quel
 : какой
-*__kakoï__*
+*/kakoï/*
 
 quelle
 : какая
-*__kakaïa__*
+*/kakaïa/*
 
-quel [neutre]
+quel n.
 : какое
-*__kakoié__*
+*/kakoié/*
 
 quels
 : какие
-*__kakié__*
+*/kakié/*
 
 pourquoi
 : почему
-*__patchimou__*
+*/patchimou/*
 
 dans quel but
 : зачем
-*__zatchièm__*
+*/zatchièmᵉ/*
 
 lequel
 : который
-*__katorî__*
+*/katorî/*
 
 laquelle
 : которая
-*__katoraïa__*
+*/katoraïa/*
+
+
+*[n.]: Neutre

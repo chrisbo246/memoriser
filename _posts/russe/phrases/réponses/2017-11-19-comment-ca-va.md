@@ -17,42 +17,42 @@ date: 2017-08-22 00:00:00 +0100
 
 Excellent!
 : Отлично!
-*__Atlitchna!__*
+*/Atlitchna!/*
 
 Bien.
 : Хорошо.
-*__Horocho.__*
+*/Horocho./*
 
 Bien, merci.
 : Спасибо, хорошо.
-*__Spasiba, horocho.__*
+*/Spasiba, horocho./*
 
 Je vais très bien.
 : У меня всё хорошо.
-*__Ou minia vcio horocho.__*
+*/Ou minia fcio horocho./*
 
 Tout va parfaitement!
 : Всё отлично!
-*__Vcio atlitchna!__*
+*/Fcio atlitchna!/*
 
 Tout va bien.
 : Всё хорошо.
-*__Vcio horocho.__*
+*/Fcio horocho./*
 
 Tout est OK.
 : Всё ок.
-*__Vcio ok.__*
+*/Fcio ok./*
 
 
 ## Ça va
 
 Normal.
 : нормально.
-*__Normalna.__*
+*/Normalna./*
 
 
 ## Ça ne va pas très bien
 
 Ça va doucement.
 : По тихонечку.
-*__pa tihonitchkou.__*
+*/pa tihonitchkou./*

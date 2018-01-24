@@ -31,6 +31,7 @@ $fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
 @import "mixins/scrollbar";
 @import "mixins/fixed-ad";
 @import "lazysizes";
+//@import "browser-update";
 @import "utilities/spinner";
 
 
@@ -121,18 +122,15 @@ img.oi {
 
 .post-content {
 
-  h2 {
+  h2, h3, h4, h5, h6 {
     color: $gray-lightest;
   }
 
   em {
-    font-size: $small-font-size;
-    //font-size: 1rem;
+    font-size: $font-size-sm; //$small-font-size;
     color: $text-muted;
+    //font-style: normal;
     font-weight: lighter;
-    strong {
-      color: $text-muted;
-    }
   }
 
   dd {
@@ -174,6 +172,19 @@ a[href="#top"] {
 
 
 
+//
+
+.btn-switch {
+  //&.active {
+  //  @extend .btn-primary;
+  //}
+  &:not(.active) {
+    @extend .btn-light;
+  }
+}
+
+
+
 // Customized scrollbar
 
 @include scrollbars(.5em, $brand-primary, $gray-dark);
@@ -211,6 +222,19 @@ $fixed-ad-gutter-width: 10px;
 //@include fixed-ad-left(300px, 250px, $fixed-ad-gutter-width); // Rectangular ads (recommended)
 //@include fixed-ad-left(336px, 280px, $fixed-ad-gutter-width); // Rectangular ads (recommended)
 
+
+.buorg {
+  //@extend .alert;
+  //@extend .alert-warning;
+  //border-top: 1px solid theme-color-level('primary', -9) !important;
+  //border-bottom: 1px solid theme-color-level('primary', -9) !important;
+  //background-color: theme-color-level('primary', -10) !important;
+  color: $white !important;
+  background-color: theme-color('primary') !important;
+  border: none !important;
+  border-radius: 0;
+  font: inherit !important;
+}
 
 
 // Fade-in effect on page load

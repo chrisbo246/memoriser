@@ -15,137 +15,145 @@ date: 2017-01-01 00:00:00 +0100
 
 ## Fruits
 
-fraises
+fraise
 : клубника
-*__kloubnika__*
+*/kloubnika/*
 
 banane
 : банан
-*__banan'__*
+*/bananᵉ/*
 
 citron
 : лимон
-*__limon'__*
+*/limonᵉ/*
 
 orange
-: апельсин
-*__apèlsin'__*
+: m.
+  : апельсин
+  */apilcinᵉ/*
 
-oranges
-: апельсины
-*__apièlsinî__*
+  pl.
+  : апельсины
+  */apilsinî/ "oranges"*
 
 poire
-: груша
-*__groucha__*
+: f.
+  : груша
+  */groucha/*
 
-poires
-: груши
-*__grouchi__*
+  pl.
+  : груши
+  */grouchi/ "poires"*
 
 pomme
 : яблоко
-*__yabloka__*
+*/yabloka/*
 
 pêches
-: персики
-*__pièrsiky__*
+: pl.
+  : персики
+  */pièrsiki/ "pêches"*
 
 raisin
 : виноград
-*__vinograt'__*
+*/vinogratᵉ/*
 
 ananas
 : ананас
-*__ananas__*
+*/ananas/*
 
 
 ## Légumes
 
 pommes de terre
 : картофель
-*__kartofil'__*
+*/kartofilʸ/*
 
 tomate
-: помидор
-*__pomidor__*
+: m.
+  : помидор
+  */pomidor/*
 
-tomates
-: помидоры
-*__pomidorî__*
+  pl.
+  : помидоры
+  */pomidorî/ "tomates"*
 
-courgettes
-: кабачки
-*__kabatchki__*
+courgette
+: pl.
+  : кабачки
+  */kabatchki/ "courgettes"*
 
 concombre
 : огурец
-*__ogourièts__*
+*/ogourièts/*
 
-poivrons
-: перцы
-*__pièrtzî__*
+poivron
+: pl.
+  : перцы
+  */pièrtzî/ "poivrons"*
 
 citrouille
 : тыква
-*__tîkva__*
+*/tîkva/*
 
-haricots
-: бобы
-*__babi__*
+haricot
+: pl.
+  : бобы
+  */babi/ "haricots"*
 
 carotte
 : морковь
-*__markofʸ__*
+*/markofʸ/*
 
 maïs
 : кукуруза
-*__koukourouza__*
+*/koukourouza/*
 
 laitue
 : салат-латук
-*__salat-latouk__*
+*/salat-latouk/*
 
 
 ## Condiments
 
 ail
 : чеснок
-*__tchisnok__*
+*/tchisnok/*
 
-oignons
+oignon
 : лук
-*__louk__*
+*/louk/*
 
-olives
-: оливки
-*__alivky__*
+olive
+: pl.
+  : оливки
+  */alifki/ "olives"*
 
 
 ## Champignons
 
 champignon
 : гриб
-*__grip__*
+*/grip/*
 
 
 ## Fruits secs
 
 graines de tournesol
 : семечки
-*simitchki*
+*/simitchki/*
 
 arachide
 : арахис
-*__arahis__*
+*/arahis/*
 
-amandes
+amande
 : миндаль
-*__mindal__*
+*/mindalʸ/*
 
 
 ## Facile!
 
 abricot
 : абрикос
-*__abricos__*
+*/abricos/*

@@ -1,0 +1,37 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 500" width="500" height="500" aria-labelledby="title desc">
+  <title id="title">Filters SVG</title>
+  <defs>
+
+    <filter id="custom-grayscale" filterUnits="objectBoundingBox" olor-interpolation-filters="sRGB" x="0" y="0" height="100%" width="100%">
+      <feComponentTransfer>
+        <feFuncR type="discrete" tableValues="0 .5 1 1"/>
+        <feFuncG type="discrete" tableValues="0 .5 1"/>
+        <feFuncB type="discrete" tableValues="0 .5"/>
+      </feComponentTransfer>
+      <feColorMatrix type="saturate" values="0"/>
+      <feMorphology operator="dilate" in="SourceGraphic" radius="2"/>
+    </filter>
+
+    <filter id="custom-grayscale-2" filterUnits="objectBoundingBox" olor-interpolation-filters="sRGB" x="0" y="0" height="100%" width="100%">
+     <feColorMatrix type="saturate" result="saturado" values="0.00"/>
+     <feMorphology operator="dilate" in="SourceGraphic" radius="3"/>
+     <feComponentTransfer>
+       <feFuncR type="linear" slope="1.5" intercept="-(0.5 * 1.5) + 0.5"/>
+       <feFuncG type="linear" slope="1.5" intercept="-(0.5 * 1.5) + 0.5"/>
+       <feFuncB type="linear" slope="1.5" intercept="-(0.5 * 1.5) + 0.5"/>
+     </feComponentTransfer>
+     <feComponentTransfer>
+       <feFuncR type="gamma" exponent="5" />
+       <feFuncG type="gamma" exponent="5" />
+       <feFuncB type="gamma" exponent="5" />
+     </feComponentTransfer>
+     <feComponentTransfer result="lsd">
+       <feFuncR type="discrete" tableValues="0 .5 1 1"/>
+       <feFuncG type="discrete" tableValues="0 .5 1"/>
+       <feFuncB type="discrete" tableValues="0 .5"/>
+     </feComponentTransfer>
+    </filter>
+
+   </defs>
+</svg>

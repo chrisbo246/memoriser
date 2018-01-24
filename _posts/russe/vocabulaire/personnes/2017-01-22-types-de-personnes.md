@@ -18,97 +18,113 @@ date: 2017-10-31 00:38:00 +0100
 
 bébé, jeune enfant
 : ребёнок
-*__ribionak__*
+*/ribionak/*
 
 enfant
-: дитя
-*__ditia__*
+: f.
+  : дитя
+  */ditia/*
 
-enfants
-: Дети
-*__dièti__*
+  pl.
+  : Дети
+  */dièti/ "enfants"*
 
 adolescent
 : юноша
-*__younocha__*
+*/younocha/*
 
 
 ## Homme
 
 homme
-: мужчина
-*__mouchina__*
+: m.
+  : мужчина
+  */mouchina/*
 
-hommes
-: мужчины
-*__mouchinî__*
+  pl.
+  : мужчины
+  */mouchinî/ "hommes"*
 
 
 ## Femme
 
 jeune fille
 : девочка
-*__dièvotchka__*
+*/dièvotchka/*
 
 jeune femme, demoiselle
 : девушка
-*__diévouchka__*
+*/diévouchka/*
 
 femme (mariée)
-: женщина
-*__jièn'schina__*
+: f.
+  : женщина
+  */jiènᵉschina/*
 
-femmes (mariées)
-: Женщины
-*__jièn'schinî__*
-
-femme âgée
-: Бабушка
-*__babouchka__*
+  pl.
+  : Женщины
+  */jiènᵉschinî/ "femmes"*
 
 femme âgée
-: БаБа
-*__baba__*
+: f.
+  : Бабушка
+  */babouchka/*
+
+  fam.
+  : БаБа
+  */baba/*
 
 
 ## Type
 
 personne
-: люд
-*__liout'__*
+: m.
+  : люд
+  */lioutᵉ/*
 
-personnes
-: люди
-*__lioudi__*
+  pl.
+  : люди
+  */lioudi/ "personnes"*
 
 ami
-: друг
-*__drouk__*
+: m.
+  : друг
+  */drouk/*
 
-amie
-: подруга
-*__padrouga__*
+  f.
+  : подруга
+  */padrouga/ "amie"*
 
-amis
-: друзья
-*__droussia__*
+  m. pl.
+  : друзья
+  */drouzia/ "amis"*
 
-racaille
+racaille fam.
 : гопник
-*__gopnik__*
+*/gopnik/*
 
-coureur de jupons
+coureur de jupons fam.
 : бабник
-*__babnik__*
+*/babnik/*
 
 alcolo
 : алкаш
-*__аlkach__*
+*/аlkach/*
 
-pédé
+pédé fam.
 : голубой
-*__golouboï__*
+*/golouboï/*
 
-femme négligée
+femme négligée fam.
 : БаБа
-*__baba__*
+*/baba/*
+
+pigeon fam.
+: пижон
+*/pijonᵉ/ Personne qui attache trop d'importance à son apparence.*
+
+
+*[m.]: Masculin
+*[f.]: Féminin
+*[pl.]: Pluriel
+*[fam.]: Familier

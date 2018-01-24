@@ -17,26 +17,42 @@ date: 2017-11-10 00:00:00 +0100
 
 petit
 : маленький
-*__malinki__*
+*/malinki/*
 
 grand
 : большой
-*__balchoy__*
+*/balchoï/*
 
 
 ## Corpulence
 
 gros
 : толстый
-*__tolstî__*
+*/tolstî/*
 
 grosse
 : толстая
-*__tolstaïa__*
+*/tolstaïa/*
+
+svelte
+: стройный
+*/stroïnî/*
+
+mince
+: тонкий
+*/tonᵉki/*
+
+maigre
+: опираться
+*/apiratcia/*
 
 
 ## Apparence
 
 beau, joli
 : красивый
-*__krasivî__*
+*/krasivî/*
+
+laid, moche
+: уродливый
+*/ourodlivî/*

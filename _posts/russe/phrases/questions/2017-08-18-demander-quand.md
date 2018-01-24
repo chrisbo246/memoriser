@@ -17,22 +17,22 @@ date: 2017-08-18 00:00:00 +0100
 
 Quand …?
 : Когда …?
-*__Kagda …__*
+*/Kagda …/*
 
 
 ## Demander l'heure
 
 Quelle heure est-il?
 : Который час?
-*__Katorî tchass?__*
+*/Katorî tchass?/*
 
 Qu'elle heure est-il maintenant?
 : сколько сейчас времени?
-*__Skolka sitchas vrièmini?__*
+*/Skolka sitchas vrièmini?/*
 
 
 ## Demander la date
 
 Quelle est la date d'aujourd'hui?
 : Какое сегодня число?
-*__Kakoyé sivodnia tchislo?__*
+*/Kakoyé civodnia tchislo?/*

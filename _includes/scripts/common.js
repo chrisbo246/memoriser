@@ -53,7 +53,7 @@
               var $highlighted = $target;
             }
 
-            if ($highlighted) {
+            if ($highlighted.length) {
               var duration = 300;
               var repeat = 2;
               var interval = setInterval(function () {
@@ -82,6 +82,10 @@
     var scrollTopOffset;
     var scrollTopButtonFadeDuration = 300;
     var $links = $('a').filter('[href="#top"]');
+    var $navbar = $links.closest('.navbar').parent('div');
+    if ($navbar.length) {
+      $links = $navbar;
+    }
     if ($links.length) {
       $links.fadeOut();         
       $(window).on('scroll', function() {
@@ -99,6 +103,11 @@
       });
     }
 
+
+
+    /**
+    * Inject SVG icons
+    */
 
     if (typeof SVGInjector !== 'undefined') {
       var injectorOptions = {

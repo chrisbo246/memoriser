@@ -17,33 +17,37 @@ date: 2017-08-18 00:00:00 +0100
 
 Combien (ça coûte) ?
 : Сколько?
-*__Skolka?__*
+*/Skolka?/*
 
 Combien ça coûte?
 : Сколько это стоит?
-*__Skolka èta stoyt'?__*
+*/Skolka èta stoïtᵉ?/*
 
 Combien coûte …?
 : сколько стоит …?
-*__Skolka stoyt' …?__*
+*/Skolka stoïtᵉ …?/*
+
+Combien coûte le trajet?
+: Сколько стоит поездка?
+*/Skolka stoït païèzda?/ "Combien vaut voyage?"*
 
 
 ## Marchander
 
 Pouvez-vous baisser le prix?
 : -
-*__Vi pojètè dèchèvèt?__*
+*/Vi pojètè dèchèvèt?/*
 
 
 ## Se renseigner sur le produit
 
 C'est frais?
 : Это Свежее?
-*__èta svèjèè?__*
+*/èta svèjèè?/*
 
 
 ## Payer
 
 Pourriez-vous me faire de la monnaie sur ce billet s’il vous plaît?
 : разменяйте, пожалуйста, эту купюру?
-*__razmièniaytié pojalsta étou koupiourou?__*
+*/razmièniaytié pojalsta étou koupiourou?/*

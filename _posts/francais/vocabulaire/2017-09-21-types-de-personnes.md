@@ -27,4 +27,7 @@ parangon
 *Ex: un parangon de vertu.*
 
 thaumaturge
-: Faiseur de miracle.
+: faiseur de miracle
+
+lycanthrope
+: loup-garou

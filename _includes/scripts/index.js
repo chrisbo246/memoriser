@@ -7,15 +7,22 @@
     var $nav = $('#index');
     if ($nav.length) {
 
+      var titleLevel, label, $title;
       var navItems = '';
-      var $title;
-      var $titles = $('.post-content').find('h2, h4.card-title, .card[data-section]').filter('[id]');
+      //var $titles = $('.post-content').find('h2, h3, h4.card-title, .card[data-section]').filter('[id]');
+      var $titles = $('.post-content').find('h2, h3, h4.card-title').filter('[id]');
 
       if ($titles.length > 1) {
         $titles.each(function () {
           $title = $(this);
+          titleLevel = parseInt($title.prop('tagName').replace(/[^0-9]+/g, ''));
+          titleLevel = titleLevel - 2 || 0;
+          label = ($title.attr('data-label') || $title.html());
           navItems = navItems + '<li class="nav-item">'
-          + '<a class="nav-link" href="#' + $title.attr('id') + '">' + ($title.attr('data-label') || $title.html()) + '</a>'
+          + '<a class="nav-link" href="#' + $title.attr('id') + '">'
+          + label
+          //+ '<span class="h' + (titleLevel + 5) + ' pl-' + (titleLevel) + '">' + label + '</span>'
+          + '</a>'
           + '</li>';
         });
         $nav.append(navItems);

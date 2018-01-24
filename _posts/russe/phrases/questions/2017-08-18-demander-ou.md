@@ -18,49 +18,77 @@ date: 2017-08-18 00:00:00 +0100
 
 Où? (direction)
 : Куда?
-*__Kouda?__*
+*/Kouda?/*
 
 Où est …?
 : Где …?
-*__Gdiè …?__*
+*/Gdiè …?/*
 
 Où se trouve …?
 : Где находится …?
-*__Gdié nahodisia …?__*
+*/Gdié nahodicia …?/*
+
+Où êtes-vous situé?
+: Где вы находитесь?
+*/Gdiè vî nahoditièssʸ?/ "Où vous situé?"*
+
+Où faut-il venir vous chercher?
+: откуда вас забрать?
+*/Atkouda vass zabratʸ/ "D’où vous aller-chercher?"*
 
 Où sont les toilettes?
 : Где туалет?
-*__Gdié toualèttè?__*
+*/Gdiè toualèttè?/*
 
 Où puis-je me laver les mains?
 : Где можно здесь помыть руки?
-*__Gdié mojna zdièssʸ pamîtʸ rouki?__*
+*/Gdiè mojna zdièssʸ pamîtʸ rouki?/*
 
 
 ## Direction
 
 Dans quelle direction se trouve …?
 : В каком направлении находится …?
-*__V'kakom' napravliny nahoditcia …?__*
+*/V'kakomᵉ napravliny nahoditcia …?/*
+
+Où devez-vous aller?
+: где вам нужно поехать?
+*/Gdiè vam noujna païèhatʸ?/ "Où vous devez aller?"*
+
+Où vas-tu?
+: s.
+  : Куда ты пойдешь?
+  */Kouda tî païdichʸ?/ "Où toi aller?"*
+
+  pl.
+  : Куда вы пойдете?
+  */Kouda vî païdichiè?/ "Où vous aller?"*
 
 
 ## Distance
 
 Est-ce près?
 : Это близки?
-*__èta blizki?__*
+*/èta bliski?/*
 
 Est-ce loin?
-: Это далеки?
-*__èta dalioki?__*
+: Это далёки?
+*/èta dalioki?/*
 
 
 ## Provenance
 
 D'où …?
 : откуда …?
-*__Atkouda …?__*
+*/Atkouda …?/*
 
 D'où êtes-vous venu?
 : откуда вы пришёл?
-*__Atkouda vî prichiol?__*
+*/Atkouda vî prichiol?/*
+
+
+
+*[m.]: Masculin
+*[f.]: Féminin
+*[s.]: Singulier
+*[pl.]: Pluriel

@@ -17,116 +17,124 @@ date: 2017-01-22 00:00:00 +0100
 
 Sympa!
 : Приятно!
-*__Priatna!__ Agréablement.*
+*/Priatna!/*
 
 Cool!
 : Круто!
-*__Krouta!__*
+*/Krouta!/*
 
-Cool! [fam.]
+Cool! fam.
 : Крутяк!
-*__Kroutiak!__*
+*/Kroutiak!/*
 
 Exellent!
 : Отлично!
-*__Atlitchna!__*
+*/Atlitchna!/*
 
-C'est le pied!
+Quel pied!
 : Какой кайф!
-*__Kakoï kaïf!__*
+*/Kakoï kaïf!/*
 
 
 ## Etonnement
 
 Ô mon dieu!
 : Боже мой!
-*__Bojé moï!__*
+*/Bojé moï!/*
 
 Ouah!
 : Ого!
-*__Ogo!_*
+*/Ova!/*
 
 Ouah!
 : Ничего себе!
-*__Nitchivo cibié!__*
+*/Nitchivo cibié!/*
 
 Wow!
 : Вау!
-*__Vaou!__*
+*/Vaou!/*
 
 
 ## Entrain
 
 Vas-y!
 : Давай!
-*__Davaï!__*
+*/Davaï!/*
 
 
 ## Confirmation
 
 Allons-y!
 : Пошли!
-*__Pachli!__*
+*/Pachli!/*
 
 Allons-y (en voiture)!
 : Поехали!
-*__Paièhli!__*
+*/Paièhli!/*
 
 
 ## Félicitation
 
 Bien!
 : Хорошо!
-*__Horocho!__*
+*/Horocho!/*
 
 Très bien!
 : Очень хорошо!
-*__Otchin' haracho!__*
+*/Otchinʸ haracho!/*
 
 
 ## Compliment
 
 La classe!
 : Классно!
-*__Klassna!__*
+*/Klassna!/*
 
-La classe [fam.]!
+La classe fam.!
 : Чётко!
-*__Tchiotka!__*
+*/Tchiotka!/*
 
 
 ## Apaisement
 
 Je plaisante!
 : Просто шучу!
-*__Prosta choutchou!__*
+*/Prosta choutchou!/ "Simplement plaisanter!"*
 
 Pas de bol!
 : Ни хуя!
-*__Ni houya!__ Litéralement pas de bite.*
+*/Ni houya!/ "Pas bite!"*
 
 
 ## Attirer l'attention
 
 Attention!
 : осторожно!
-*__Astarojna!__*
+*/Astarojna!/*
 
 A l'aide!
 : Помогите!
-*__Pomaguitiè!__*
+*/Pomaguitiè!/*
 
 
 ## Divers
 
 Allô!
 : Алло!
-*__Allo!__*
+*/Allo!/*
 
 Boouh!
 : ка-ка!
-*__Ka-ka__ Pour faire peur.*
+*/Ka-ka/ Pour faire peur.*
 
 Voilà!
 : Там!
-*__Tam!__*
+*/Tamᵉ!/*
+
+C'est tout!
+: Всё!
+*/Fcio!/ "tout"*
+
+
+
+*[fam.]: Familier

@@ -8,7 +8,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-categories: ["francais", "vocabulaire"]
+categories: ["francais", "adjectifs"]
 tags: [personne]
 date: 2017-03-22 17:18:00 +0100
 ---
@@ -18,18 +18,17 @@ date: 2017-03-22 17:18:00 +0100
 ambivalent
 : Tiraillé entre deux choix.
 
-être en verve
+prométhéen
+: Idéaliste.
+*Foi dans la condition humaine.*
+
+## Comportement
+
+trivial
+: Vulgaire.
+
+en verve
 :  Avoir de l'entrain, de l'inspiration.
-
-
-## Intéligent
-
-omniscient
-: Qui sait tout.
-*Ou paraît tout savoir.*
-
-sagacité
-: perspicacité, capacités de raisonnement
 
 
 ## Bête
@@ -55,25 +54,25 @@ nanti
 omnipotent
 : Dont l'autorité est absolue.
 
+omniscient
+: Qui sait tout sur tout.*
+
 
 ## Etat physique
 
+catatonique
+: schizophrène
+
 exsangue
 : Très affaibli
-*Litt. vidé de son sang.*
-
-neurasthénique
-: Déprimé.
-*Fatigue physique et morale extrême.*
+*"vidé de son sang"*
 
 hémiplégique
 : Paralysé d'un seul côté.
 
-
-## Divers
-
-atavisme
-: Hérédité.
+neurasthénique
+: Déprimé.
+*Fatigue physique et morale extrême.*
 
 
 

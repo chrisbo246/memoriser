@@ -43,8 +43,5 @@ arcane
 collusion
 : Entente secrète.
 
-régalien
-: Relatif au roi, au chef de l'état.
-
 obédience
 : Appartenance à un groupement politique.

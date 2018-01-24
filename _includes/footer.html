@@ -1,54 +1,25 @@
 
 <div class="container-fluid">
 
-  {% comment %}
-  {% if page.layout == 'post' or page.layout == 'definition-lists' %}
-  <nav class="navbar navbar-light bg-light fixed-bottom d-flex flex-row justify-content-between w-100 animated fadeInRight">
+  <nav class="navbar fixed-bottom d-flex flex-row justify-content-between w-100 animated fadeInUp">
 
-    <div class="btn-toolbar" role="toolbar" aria-label="">
+    {% if page.comments != false and site.disqus.shortname %}
+    <button type="button" class="btn btn-outline-secondary -btn-lg mr-auto" data-toggle="collapse" data-target="#comments" aria-controls="#comments" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
+      <span class="fa fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/comment-square.svg' | relative_url }}" class="oi oi-lg" alt="comment-square" hidden>{% endcomment %}
+    </button>
+    {% endif %}
 
-      {% assign categories = '' | split: ' ' %}
-      {% assign tags = '' | split: ' ' %}
-      {% for category in page.categories %}
-      {% assign categories = categories | push: category %}
-      {% include related-posts.html type='pages' categories=categories tags=tags limit=1 %}
-      {% if posts.size > 0 %}
-      {% assign root_url = posts.first.url | default: '/' %}
-      {% endif %}
-      {% endfor %}
-      {% if root_url %}
-      <a role="button" class="btn btn-outline-secondary btn-lg -w-50" href="{{ root_url | relative_url }}" title="{{ t.return }}">
-        <i class="fa fa-chevron-left fa-lg fa-fw" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-left.svg' | relative_url }}" class="oi" alt="chevron-left" hidden>{% endcomment %}
-        <small hidden>{{ t.return }}</small>
-      </a>
-      {% endif %}
+    {% if page.layout == 'post' or page.layout == 'definition-lists' %}
+    <a class="btn btn-outline-secondary -btn-sm -btn-block -mb-3" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
+      {{ t.edit_on_github }}
+    </a>
+    {% endif %}
 
-    </div>
-
-    <div class="btn-toolbar" role="toolbar" aria-label="">
-
-      {% include related-posts.html limit=15 %}
-      {% if posts.size > 0 %}
-      <div class="btn-group dropup ml-2" role="group">
-        <button type="button" class="btn btn-outline-secondary btn-lg rounded-right -dropdown-toggle w-100" id="related-posts-dropdown" data-toggle="dropdown" title="{{ t.continue }}" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-chevron-right fa-lg fa-fw" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-right.svg' | relative_url }}" class="oi" alt="chevron-right" hidden>{% endcomment %}
-          <small hidden>{{ t.continue }}</small>
-        </button>
-        <div class="dropdown-menu -dropdown-menu-right" aria-labelledby="related-posts-dropdown">
-          {% include dropdown-items.html posts=posts %}
-        </div>
-      </div>
-      {% endif %}
-
-    </div>
+    <a href="#top" class="btn btn-outline-secondary -fixed-bottom -m-3 ml-auto" role="button" title="{{ t.scroll_to_top }}">
+      <i class="fa fa-level-up fa-lg fa-fw iconic iconic-chevron-top iconic-md" aria-hidden="true"></i>
+      {% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-top.svg' | relative_url }}" class="oi oi-md" alt="chevron-top" hidden>{% endcomment %}
+    </a>
 
   </nav>
-  {% endif %}
-  {% endcomment %}
-
-  <a href="#top" class="btn btn-outline-secondary fixed-bottom m-3" role="button" title="{{ t.scroll_to_top }}">
-    <i class="fa fa-level-up fa-lg fa-fw iconic iconic-chevron-top iconic-md" aria-hidden="true"></i>
-    {% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-top.svg' | relative_url }}" class="oi oi-md" alt="chevron-top" hidden>{% endcomment %}
-  </a>
 
 </div>

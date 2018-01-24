@@ -17,11 +17,11 @@ date: 2017-10-02 00:00:00 +0100
 
 chaud
 : горячий
-*__gariatchi__*
+*/gariatchi/*
 
 … tiède
 : … тёплая
-*__… tioplaïa__*
+*/… tioplaïa/*
 
 
 
@@ -29,35 +29,35 @@ chaud
 
 chaud
 : жарко
-*__jarka__*
+*/jarka/*
 
 bon
 : тепло
-*__tièplo__*
+*/tièplo/*
 
 frais
 : прохладно
-*__prahladna__*
+*/prahladna/*
 
 froid
 : холодно
-*__holadna__*
+*/holadna/*
 
 
 ## Temps
 
 ensoleillé
 : солнечный
-*__solniètchnî__*
+*/solniètchnî/*
 
 nuageux
 : облачно
-*__oblatchna__*
+*/oblatchna/*
 
 brumeux
 : туманный
-*__toumannî__*
+*/toumannî/*
 
 venteux
 : ветренный
-*__viètriènnî__*
+*/viètriènnî/*

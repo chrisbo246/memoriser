@@ -17,62 +17,62 @@ date: 2017-10-13 00:00:00 +0100
 
 travailleur
 : трудолюбивый
-*__troudolioubivî__*
+*/troudolioubivî/*
 
 énergique
 : энергичный
-*__ènèrguitchnî__*
+*/ènèrguitchnî/*
 
 honnête
 : честный
-*__tchièsnî__*
+*/tchièsnî/*
 
 aimable
 : добрый
-*__dobrî__*
+*/dobrî/*
 
 joyeux
-: веселый
-*__viciolî__*
+: весёлый
+*/viciolî/*
 
 généreux
 : щедрый
-*__chièdrî__*
+*/chièdrî/*
 
 sociable
 : общительный
-*__abchitièlnî__*
+*/abchitièlnî/*
 
 courageux
 : смелый
-*__smièlî__*
+*/smièlî/*
 
 intelligent
 : умный
-*__oumnî__*
+*/oumnî/*
 
 talentueux
 : талантливый
-*__talantlivî__*
+*/talanᵉtlivî/*
 
 éduqué
 : воспитанный
-*__vaspitanî__*
+*/vaspitanî/*
 
 poli
 : вежливый
-*__viéjlivî__*
+*/viéjlivî/*
 
 
 ## Défauts
 
 fainéant
 : ленивый
-*__lènivî__*
+*/lènivî/*
 
 
 ## État d'esprit
 
 chaud
 : горячий
-*__gariatchi__ Excité.*
+*/gariatchi/ Excité.*

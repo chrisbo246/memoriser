@@ -1,4 +1,3 @@
-
 .definition-list  {
 
   perspective: 5000px;
@@ -12,19 +11,17 @@
 
   .card-body {
     max-width: 25.9rem;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 
   .card-body {
-    word-wrap: break-word;
-    word-break: break-word;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
   }
-
-
 
   .card-flip {
 
@@ -35,16 +32,20 @@
 
     .card.front {
 
+      .card-title {
+        //white-space: nowrap;
+      }
+
       .card-title small {
         display: block;
       }
 
       // Question / Success sign as background
-      &:after {
+      &:before {
         //content:'\e0b0'; // iconic
         //font-family: 'Icons';
         content: "\f128"; // font-awesome
-        font-family: FontAwesome;
+        /*font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
         text-decoration: inherit;
@@ -57,12 +58,12 @@
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center;*/
         opacity: .05;
       }
 
       &.bg-success {
-        &:after {
+        &:before {
           //content:'\e033'; // iconic
           content: "\f00c"; // font-awesome
         }
@@ -75,28 +76,16 @@
       .card-text {
 
         font-size: 150%;
-
-        strong {
-          //font-size: 200%;
-          display: block;
-        }
+        line-height: 1.2;
 
         em {
           display: block;
+          margin-left: .5rem;
+          margin-top: .5rem;
         }
 
-        & > em > strong {
-          //display: block;
-          &:before {
-            //content: "\201C";
-          }
-          &:after {
-            //content: "\201D";
-          }
-        }
-
-        abbr {
-          //font-size: 1rem;
+        ul, ol {
+          padding-left: 0;
         }
 
       }
@@ -128,43 +117,122 @@
   }
 
 
-  abbr {
+  /*abbr {
     sup & {
       color: theme-color('info');
       text-decoration-color: theme-color('info');
       text-decoration: none;
     }
+  }*/
+
+
+  abbr[class*="text-"] {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    top: -0.5em;
+    //cursor: inherit !important;
+    border-bottom: none !important;
+    text-decoration: none !important;
   }
 
+
   .text-pronunciation {
-    //display: block;
-    color: theme-color('primary');
+    //color: theme-color('primary');
+    font-weight: 800;
+  }
+  .text-pronunciation:before {
+    //content: "/";
+    //content: "Prononciation";
+    content: "Pron.";
+  }
+  .text-pronunciation:after {
+    //content: "/";
+    //content: "\201d"; // ”
   }
 
   .text-literatim {
-    //display: block;
-    color: theme-color('secondary');
+    //color: theme-color('secondary');
+    font-weight: 100;
+  }
+  .text-literatim:before {
+    //content: "\201c"; // “
+    //content: "Litt\e9ralement";
+    content: "Litt.";
+  }
+  .text-literatim:after {
+    //content: "\201d"; // ”
   }
 
+  .text-pronunciation,
+  .text-literatim {
+    color: $text-muted;
+    display: block;
+    line-height: 1rem;
+    font-style: italic;
+    //font-weight: bold;
+  }
+  .text-pronunciation:before,
+  .text-pronunciation:after,
+  .text-literatim:before,
+  .text-literatim:after {
+    //color: $gray-400;
+    display: inline-block;
+    font-weight: 100;
+    //min-width: .75rem;
+    min-width: 2rem;
+    margin-right: .25rem;
+    display: none;
+  }
+  .text-pronunciation:before,
+  .text-literatim:before {
+    text-align: left;
+  }
+  .text-pronunciation:after,
+  .text-literatim:after {
+    text-align: right;
+  }
+
+
+  .nav-link:not(.active) abbr[class*="text-"] {
+    color: $text-muted !important;
+  }
+
+  .text-m,
   .text-male {
     color: color('blue');
     text-decoration-color: color('blue');
   }
-
+  .text-f,
   .text-female {
     color: color('pink');
     text-decoration-color: color('pink');
   }
-
+  .text-n,
   .text-neutral {
-    color: color('indigo');
-    text-decoration-color: color('indigo');
+    color: color('gray');
+    text-decoration-color: color('gray');
   }
-
+  .text-pl,
   .text-plural {
+    color: color('yellow');
+    text-decoration-color: color('yellow');
+  }
+  .text-abr,
+  .text-fam,
+  .text-abbreviation,
+  .text-familiar {
     color: color('orange');
     text-decoration-color: color('orange');
   }
+  .text-vul,
+  .text-slang {
+    color: color('red');
+    text-decoration-color: color('red');
+  }
+
+
 
 
 }

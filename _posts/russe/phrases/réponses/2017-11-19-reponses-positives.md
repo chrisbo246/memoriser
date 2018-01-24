@@ -15,48 +15,54 @@ date: 2017-08-22 00:00:00 +0100
 
 oui
 : да
-*__da__*
+*/da/*
 
 bien sûr
 : конечно
-*__kaniètchna__*
+*/kaniètchna/*
 
 C'est vrai
 : Правда
-*__Pravda__*
+*/Pravda/*
 
 Je comprends
 : Я понимаю
-*__Ya panimay.__*
+*/Ya panimay./*
 
 Je sais
 : я знаю
-*__Ya znaiou__*
+*/Ya znaiou/*
 
 je peu
 : я умею
-*__ya oumièiou__*
+*/ya oumièiou/*
 
 C'est clair!
 : Ясно!
-*__Yasna!__*
+*/Yasna!/*
 
 Ça roule!
 : Катит!
-*__Katit'!__*
+*/Katitᵉ!/*
 
 Avec plaisir!
 : C удовольствием!
-*__Soudavolstvièm!__*
+*/Soudavolstvièmᵉ!/*
 
 Comme c’est intéressant!
 : Как интересно!
-*__Kak intièrèsna!__*
+*/Kak intièrèsna!/*
 
 Je suis d'accord
-: Я согласен
-*__Ya saglasièn'__*
+: m.
+  : Я согласен
+  */Ya saglasiènᵉ/ "Je m. d'accord"*
 
-Je f. suis d'accord
-: Я согласна
-*__Ya saglasna__*
+  f.
+  : Я согласна
+  */Ya saglasna/ "Je f. d'accord"*
+
+
+
+*[m.]: Masculin
+*[f.]: Féminin

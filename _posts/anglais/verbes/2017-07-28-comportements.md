@@ -8,7 +8,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-  categories: ["anglais", "verbes"]
+categories: ["anglais", "verbes"]
 tags: ["personne", "comportement"]
 date: 2017-07-28 20:51:00 +0100
 ---

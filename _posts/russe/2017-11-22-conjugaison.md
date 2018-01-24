@@ -92,7 +92,8 @@ Il y a seulement 3 temps, le présent, futur, et passé.
 Au passé, les verbes s’accordent en genre et en nombre.
 
 masculin
-: л ou -* (л si le radical se termine par une voyelle, et sans désinence si le radical se termine par une consonne.)
+: л (si le radical se termine par une voyelle)
+  - (si le radical se termine par une consonne)
 
 féminin
 : ла

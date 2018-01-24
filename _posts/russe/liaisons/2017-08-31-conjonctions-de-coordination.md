@@ -15,75 +15,75 @@ date: 2017-08-31 00:00:00 +0100
 
 et, mais
 : а
-*__a__*
+*/a/*
 
 pourvu que
 : абы
-*__abî__*
+*/abî/*
 
 maintenant que, depuis
 : благо
-*__blaga__*
+*/blaga/*
 
 comme si
 : будто
-*__boutta__*
+*/boutta/*
 
 cependant, néanmoins
-: все-таки
-*__vsiotaki__*
+: всё-таки
+*/fcio-taki/*
 
 où
 : где
-*__gdié__*
+*/gdiè/*
 
 si, à condition que
 : если
-*__yèsli__*
+*/yèsli/*
 
 et, mais
 : же
-*__jè__*
+*/jè/*
 
 comment, quel, qu’est-ce que, quoi, comme
 : как
-*__kak__*
+*/kak/*
 
 ni
 : ни
-*__ni__*
+*/ni/*
 
 mais
 : но
-*__no__*
+*/no/*
 
 c’est pourquoi
 : оттого
-*__attavo__*
+*/attavo/*
 
 pour que, c'est pourquoi
 : следовательно
-*__sliédavatièlna__*
+*/sliédavatièlna/*
 
 comme si
 : точно
-*__totchna__*
+*/totchna/*
 
 quoique
 : хотя
-*__hatia__*
+*/hatia/*
 
 que
 : чем
-*__tchièm'__ Pour comparer.*
+*/tchièmᵉ/ Pour comparer.*
 
 que
 : что
-*__chto__*
+*/chto/*
 
 afin que, pour que, sans quoi
 : чтобы
-*__chtobî__*
+*/chtobî/*
 
 
 
@@ -91,35 +91,35 @@ afin que, pour que, sans quoi
 
 Ainsi que
 : а также
-*__a takjè__*
+*/a takjè/*
 
 Pour que
 : благодаря чему
-*__blagadaria tchimou__*
+*/blagadaria tchimou/*
 
 Tandis que, alors que, quand
 : в то время как
-*__f'to vrimia kak__*
+*/f'to vrimia kak/*
 
 Pourvu que
 : лишь бы
-*__lich bî__*
+*/lichʸ bî/*
 
 parce que
 : потому что
-*__patamou chto__*
+*/patamou chto/*
 
 Pourvu que
 : только бы
-*__tolka bî__*
+*/tolka bî/*
 
 
 ## Divers
 
 et
 : и
-*__i__ Pour énumérer.*
+*/i/ Pour énumérer.*
 
 et
 : а
-*__а__ Pour comparer.*
+*/а/ Pour comparer.*

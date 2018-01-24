@@ -19,69 +19,69 @@ date: 2017-11-03 00:00:00 +0100
 
 temps
 : время
-*__vrièmia__*
+*/vrièmia/*
 
 
 ## Périodes
 
 jours
 : день
-*__dién'__*
+*/diénʸ/*
 
 semaine
 : Неделя
-*__nièdiélia__*
+*/nièdiélia/*
 
 mois
 : месяц
-*__mésiats__*
+*/miciats/*
 
 an, année
 : год
-*__got__*
+*/gotᵉ/*
 
 siècle
 : века
-*__viéka__*
+*/viéka/*
 
 ère
 : эпоха
-*__éporha__*
+*/éporha/*
 
 
 ## Moment de la journée
 
 matin
 : утра
-*__outra__*
+*/outra/*
 
 jour
 : дня
-*__dnia__*
+*/dnia/*
 
 soir
 : вечера
-*__vichira__*
+*/vichira/*
 
 nuit
 : ночи
-*__nochi__*
+*/nochi/*
 
 matin
 : утро
-*__outro__*
+*/outro/*
 
 jour
 : день
-*__dién__*
+*/diènʸ/*
 
 après midi
 : после обеда
-*__pósliе abiéda__*
+*/pósliе abiéda/*
 
 soir
 : вечер
-*__viétchièr__*
+*/viétchièrᵉ/*
 
 
 
@@ -93,242 +93,242 @@ Notons aussi les expressions полдень / poldien "Il est midi", et полн
 
 lundi
 : понедельник
-*__panièdiélnik__*
+*/panidièlnik/*
 
 mardi
 : вторник
-*__ftórnik__*
+*/ftornik/*
 
 mercredi
 : среда
-*__srièdá__*
+*/srièda/*
 
 jeudi
 : четверг
-*__tchitviérk__*
+*/tchitvièrk/*
 
 vendredi
 : пятница
-*__piátnitsa__*
+*/piatnitsa/*
 
 samedi
 : суббота
-*__soubóta__*
+*/soubota/*
 
 dimanche
 : воскресенье
-*__vaskrièsiéniè__*
+*/vaskrissiniè/*
 
 
 ## Mois
 
 janvier
 : январь
-*__ïanvar__*
+*/ïanvarʸ/*
 
 février
 : февраль
-*__fèvral__*
+*/fèvralʸ/*
 
 mars
 : март
-*__mart__*
+*/martᵉ/*
 
 avril
 : апрель
-*__aprèl__*
+*/aprèlʸ/*
 
 mai
 : май
-*__maï__*
+*/maï/*
 
 juin
 : июнь
-*__iïoun__*
+*/iïounʸ/*
 
 juillet
 : июль
-*__iïoul__*
+*/iïoul/*
 
 août
 : август
-*__avgoust__*
+*/avgoustᵉ/*
 
 septembre
 : сентябрь
-*__sèntiabr__*
+*/sèntiabrʸ/*
 
 octobre
 : октябрь
-*__oktiabr__*
+*/oktiabr/*
 
 novembre
 : ноябрь
-*__noïabr__*
+*/noïabrʸ/*
 
 décembre
 : декабрь
-*__dèkabr__*
+*/dèkabrʸ/*
 
 
 ## Saisons
 
 printemps
 : весна
-*__vièsna__*
+*/vièsna/*
 
 été
 : лето
-*__lièto__*
+*/lièto/*
 
 automne
 : осень
-*__osièn__*
+*/osiènʸ/*
 
 hiver
 : зима
-*__zima__*
+*/zima/*
 
 
 ## Adverbes de temps
 
 hier
 : вчера
-*__vtchièra__*
+*/vtchièra/*
 
 aujourd'hui
 : сегодня
-*__siévodnia__*
+*/civodnia/*
 
 ce soir
 : сегодня вечером
-*__siévodnia viètchiram__*
+*/civodnia viètchiramᵉ/*
 
 maintenant
 : в настоящее время
-*__v nastaïaschè vrièmia__  Littéralement à l'instant présent.*
+*/v nastaïaschè vrièmia/  "au présent temps"*
 
 demain
 : завтра
-*__zavtra__*
+*/zaftra/*
 
 puis
 : затем
-*__zatièm'__*
+*/zatièmᵉ/*
 
 plus tard
 : позже
-*__pozjè__*
+*/pozjè/*
 
 ce soir
 : сегодня вечером
-*__siègodnia viètchiram'__*
+*/ciègodnia viètchiramᵉ/*
 
 pour le moment
 : прямо сейчас
-*__priamo sitchas'__*
+*/priamo cièïtchacᵉ/*
 
 hier soir
 : вчера вечером
-*__vchièra viètchiram__*
+*/vchièra viètchiramᵉ/*
 
 ce matin
 : сегодня утром
-*__ciègodnia outrom'__*
+*/ciègodnia ytramᵉ/*
 
 la semaine prochaine
 : на следующей неделе
-*__na slièdouyschi nidièlè__*
+*/na slièdouyschi nidièlè/*
 
 déjà
 : уже
-*__oujiè__*
+*/oujiè/*
 
 récemment
 : недавно
-*__nièdavno__*
+*/nièdavno/*
 
 dernièrement
 : за последнее время
-*__za paslidniè vrièmia__*
+*/za paslidniè vrièmia/*
 
 bientôt
 : скоро
-*__skoro__*
+*/skoro/*
 
 immédiatement
 : немедленно
-*__nimièdlinna__*
+*/nimièdlinna/*
 
 toujours
 : по-прежнему
-*__pa-prièjnimou__*
+*/pa-prièjnimou/*
 
 encore
 : еще
-*__yèschiè__*
+*/yèschiè/*
 
 il y a …
 : тому назад …
-*__tomou nazat' …__*
+*/tomou nazatᵉ …/*
 
 
 ## Adverbes de fréquence
 
 toujours
 : всегда
-*__vssiègda__*
+*/fsigda/*
 
 fréquemment
 : часто
-*__chasto__*
+*/tchasta/*
 
 habituellement
 : обычно
-*__obîchno__*
+*/abîchna/*
 
 parfois
 : иногда
-*__inogda__*
+*/inagda/*
 
 de temps en temps
 : иногда
-*__inogda__*
+*/inagda/*
 
 peu souvent
 : редко
-*__rièdko__*
+*/rièdka/*
 
 rarement
 : редко
-*__rièdko__*
+*/rièdka/*
 
 jamais
 : никогда
-*__nikogda__*
+*/nikagda/*
 
 
 ## Articles
 
 le
 : -
-*__-__*
+*/-/*
 
 un, une
 : -
-*__-__*
+*/-/*
 
-un [nombre]
+un (nombre)
 : один
-*__odin'__*
+*/adinᵉ/*
 
 certains
 : некоторые
-*__nièkatorè__*
+*/nièkatorè/*
 
 peu
 : несколько
-*__nièskolka__*
+*/nièskolka/*
 
 
 
@@ -336,23 +336,23 @@ peu
 
 l'heure pile
 : ровно
-*__rovna__*
+*/rovna/*
 
 heure
 : час
-*__tchass__*
+*/tchass/*
 
 minute
 : минут
-*__minout__*
+*/minoutᵉ/*
 
 minute
 : минута
-*__minouta__*
+*/minouta/*
 
 seconde
 : секунда
-*__sièkounda__*
+*/sièkounda/*
 
 Pour donner une heure exacte : Le nombre (один, два, три etc.) au nominatif suivi de час/часа/часов
 Si c’est 1 h, on utilise час: один час (ровно). adin tchass

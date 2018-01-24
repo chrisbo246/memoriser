@@ -8,7 +8,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-categories: [expressions]
+categories: ["francais", "expressions"]
 tags: ["expressions françaises"]
 date: 2017-03-22 17:13:00 +0100
 ---

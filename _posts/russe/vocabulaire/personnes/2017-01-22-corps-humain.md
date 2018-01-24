@@ -11,104 +11,109 @@ image:
 categories: ["russe", "vocabulaire"]
 tags: ["personne", "corps", "membre", "organe", "os"]
 date: 2017-11-04 00:00:00 +0100
+# aₑ aᵉ aᵧ aʸ
 ---
 ## Les parties du corps
 
 corps
 : тело
-*__tièla__*
+*/tièla/*
 
 tête
 : голова
-*__golova__*
+*/golova/*
 
 visage
 : лицо
-*__litso__*
+*/litso/*
 
 membre
 : конечность
-*__kaniétchnist'__*
+*/konitchnastʸ/*
 
 tronc
 : -
 
 dos
 : спина
-*__spina__*
+*/spina/*
 
 poitrine (thorax)
 : грудная клетка
-*__groudnaïa kliètka__*
+*/groudnaïa kliètka/*
 
 ventre
-: живо́т
-*__givot'__*
+: живот
+*/jivotᵉ/*
 
 nombril
 : пуп
-*__poup__*
+*/poup/*
 
 hanches
 : бедра
-*__bèdra__*
+*/bèdra/*
 
 
 ## Visage
 
 front
 : лоб
-*__lop__*
+*/lop/*
 
 tempe(s)
 : -
 
 joue
-: щека
-*__chièka__*
+: f.
+  : щека
+  */chièka/*
 
-joues
-: щеки
-*__chièki__*
+  pl.
+  : щеки
+  */chièki/ "joues"*
 
 oreille
-: ухо
-*__ouha__*
+: f.
+  : ухо
+  */ouha/*
 
-oreilles
-: уши
-*__ouchi__*
+  pl.
+  : уши
+  */ouchi/ "oreilles"*
 
 lobe d’oreille
 : -
 
 menton
 : подбородок
-*__padbarodak__*
+*/padbarodak/*
 
-mentons
-: Подбородки
-*__padbarodki__*
+narine
+: f.
+  : ноздря
+  */nozdria/*
 
-narine(s)
-: ноздря, ноздри
-*__nozdria, nozdri__*
+  pl.
+  : ноздри
+  */nozdri/ "narines"*
 
 nez
 : нос
-*__noss__*
+*/noss/*
 
 œil
-: глаз
-*__glass__*
+: m.
+  : глаз
+  */glass/*
 
-yeux
-: глаза
-*__glaza__*
+  pl.
+  : глаза
+  */glaza/ "yeux"*
 
 paupière
 : веки
-*__viéki__*
+*/viéki/*
 
 pupille
 : -
@@ -118,46 +123,50 @@ iris
 
 bouche
 : рот
-*__rôt'__*
+*/rôtᵉ/*
 
 lèvre
-: губа
-*__gouba__*
+: f.
+  : губа
+  */gouba/*
 
-lèvres
-: губы
-*__goubî__*
+  pl.
+  : губы
+  */goubî/ "lèvres"*
 
 langue
 : язык
-*__yazîk__*
+*/yazîk/*
 
 dent
-: зуб
-*__zoup'__*
+: m.
+  : зуб
+  */zoupᵉ/*
 
-dents
-: зубы
-*__zoubî__*
+  pl.
+  : зубы
+  */zoubî/ "dents"*
 
 
 ## Poils
 
 cheveu, poil
-: волос
-*__vôlas__*
+: m.
+  : волос
+  */vôlas/*
 
-cheveux, poils
-: волосы
-*__vôlasî__*
+  pl.
+  : волосы
+  */vôlasî/ "cheveux, poils"*
 
 sourcil
-: бровь
-*__brofʸ__*
+: m.
+  : бровь
+  */brofʸ/*
 
-sourcils
-: брови
-*__brovi__*
+  pl.
+  : брови
+  */brovi/ "sourcils"*
 
 Arcade sourcilière
 : -
@@ -170,25 +179,25 @@ barbiche, Bouc
 
 barbe
 : борода
-*__borada__*
+*/borada/*
 
 moustache
 : усы
-*__oussî__*
+*/oussî/*
 
 
 ## Cou
 
 cou
 : шея
-*__chèïa__*
+*/chèïa/*
 
 nuque
 : -
 
 gorge
 : горло
-*__gorlo__*
+*/gorlo/*
 
 pomme d’Adam
 : -
@@ -198,22 +207,23 @@ pomme d’Adam
 
 bras
 : рука
-*__rouka__*
+*/rouka/*
 
 épaule
-: плечо
-*__plitcho__*
+: m.
+  : плечо
+  */plitcho/*
 
-épaules
-: плечи
-*__pliétchi__*
+  pl.
+  : плечи
+  */pliétchi/ "épaules"*
 
 aisselle
 : -
 
 coude
 : локоть
-*__lokats__*
+*/lokatʸ/*
 
 avant-bras
 : -
@@ -225,24 +235,26 @@ poignet
 ## Main
 
 main
-: рука́
-*__rouka__*
+: f.
+  : рука
+  */rouka/*
 
-mains
-: руки
-*__rouki__*
+  pl.
+  : руки
+  */rouki/ "mains"*
 
 doigt, orteil
-: палец
-*__palièts__*
+: m.
+  : палец
+  */palièts/*
 
-doigts/orteils
-: пальцы
-*__paltsî__*
+  pl.
+  : пальцы
+  */paltsî/ "doigts, orteils"*
 
 pouce
 : палец
-*__palièts__*
+*/palièts/*
 
 index
 : -
@@ -263,39 +275,43 @@ phalange
 : -
 
 ongle
-: ноготь
-*__nogat'__*
+: m.
+  : ноготь
+  */nogatʸ/*
 
-ongles
-: ногти
-*__nogti__*
+  pl.
+  : ногти
+  */nokti/ "ongles"*
 
 
 ## Jambe
 
 jambe
-: нога
-*__naga__*
+: f.
+  : нога
+  */naga/*
 
-jambes
-: ноги
-*__nogui__*
+  pl.
+  : ноги
+  */nogui/ "jambes"*
 
 cuisse
-: бедро
-*__bildro__*
+: m.
+  : бедро
+  */bildro/*
 
-cuisses
-: бедра
-*__bèldra__*
+  pl.
+  : бедра
+  */bèldra/ "cuisses"*
 
 genou
-: колено
-*__kalièna__*
+: m.
+  : колено
+  */kalièna/*
 
-genoux
-: Колени
-*__kalièni__*
+  pl.
+  : Колени
+  */kalièni/ "genoux"*
 
 mollet
 : -
@@ -304,12 +320,13 @@ mollet
 ## Pied
 
 pied
-: Пятка
-*__piatka__*
+: f.
+  : Пятка
+  */piatka/*
 
-pieds
-: Пятки
-*__piatki__*
+  pl.
+  : Пятки
+  */piatki/ "pieds"*
 
 cheville
 : -
@@ -325,7 +342,7 @@ les orteils
 
 orteil
 : палец ноги
-*__palièts nogi__*
+*/palièts nogi/*
 
 talon
 : -
@@ -345,7 +362,7 @@ omoplate
 côte(s)
 : -
 
-phalange:
+phalange
 : -
 
 colonne vertébrale
@@ -359,15 +376,15 @@ bassin
 
 organe
 : орган
-*__organnè__*
+*/organnè/*
 
 cerveau
 : мозг
-*__mozk__*
+*/mosk/*
 
 cœur
 : сердце
-*__sièrdtsè__*
+*/sièrdtsè/*
 
 foie
 : -
@@ -380,32 +397,32 @@ intestin
 
 estomac
 : желудок
-*__jèloudok__*
+*/jèloudok/*
 
 veine(s)
 : -
 
 artère
 : артерия
-*__artèria__*
+*/artèria/*
 
 artère(s)
 : -
 
 muscle
 : мускул
-*__mouskoul__*
+*/mouskoul/*
 
 peau
 : кожа
-*__koja__*
+*/koja/*
 
 
 ## Styles de cheveux
 
 coiffure
 : Причёска
-*__pritchioska__*
+*/pritchioska/*
 
 noir
 : -
@@ -454,70 +471,71 @@ cheveux crépus
 
 chauve
 : плешивый
-*__pliéchivî__*
+*/pliéchivî/*
 
 tresse
-: косичка
-*__kassitchka__*
+: f.
+  : косичка
+  */kassitchka/*
 
-tresses
-: Косички
-*__kassitchki__*
+  pl.
+  : Косички
+  */kassitchki/ "tresses"*
 
 
 ## Parties honteuses
 
 poitrine (seins)
 : грудь
-*__groutʸ__*
+*/groutʸ/*
 
-nichons
+nichons vulg.
 : Сиськи
-*__siski__*
+*/siski/*
 
-nichon
+nichon vulg.
 : болван
-*__bolvan'__*
+*/bolvanᵉ/*
 
 téton(s), Mamelon(s)
 : шпилька
-*__chpilka__*
+*/chpilka/*
 
-cul
+cul vulg.
 : попа
-*__popa__*
+*/popa/*
 
-gros cul
+gros cul vulg.
 : жопа
-*__jopa__*
+*/jopa/*
 
 fesses
 : ягодицы
-*__ilgaditsî__*
+*/ilgaditsî/*
 
 fessier
 : задница
-*__zadnitsa__*
+*/zadnitsa/*
 
 pénis
 : пенис
-*__pégnis__*
+*/pénïs/*
 
-bitte
+bitte vulg.
 : хуй
-*__rouï__*
+*/rouï/*
 
 oeufs (couilles)
 : яйца
-*__yaïtsa__*
+*/yaïtsa/*
 
 vagin
 : влагалище
-*__vlagalischè__*
+*/vlagalischè/*
 
-chatte
+chatte vulg.
 : пизда
-*__pisda__*
+*/pisda/*
 
 
 ## Imperfections
@@ -569,14 +587,14 @@ suçon
 
 coup du soleil
 : Солнечный ожог
-*__solnètchnî ojok__*
+*/solnitchnî ajok/*
 
 
 ## Sécrétions corporelles
 
 merde
 : говно
-*__gavno__*
+*/gavno/*
 
 crotte
 : -
@@ -598,3 +616,9 @@ morve
 
 crotte d'œil
 : -
+
+
+*[m.]: Masculin
+*[f.]: Féminin
+*[pl.]: Pluriel
+*[vulg.]: Vulgaire

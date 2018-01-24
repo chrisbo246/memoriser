@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <nav class="navbar navbar-light bg-light fixed-top d-flex flex-row justify-content-between w-100 animated fadeInRight">
+  <nav class="navbar navbar-light -bg-light fixed-top d-flex flex-row justify-content-between w-100 animated fadeInRight">
 
     {% comment %}
     {% if page.layout == 'home' %}
@@ -41,11 +41,13 @@
 
     <div class="btn-toolbar" role="toolbar" aria-label="">
 
+      {% comment %}
       {% if page.comments != false and site.disqus.shortname %}
       <button type="button" class="btn btn-outline-secondary btn-lg ml-2" data-toggle="collapse" data-target="#comments" aria-controls="#comments" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
         <span class="fa fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/comment-square.svg' | relative_url }}" class="oi oi-lg" alt="comment-square" hidden>{% endcomment %}
       </button>
       {% endif %}
+      {% endcomment %}
 
       {% comment %}{% endcomment %}
       {% if page.layout == 'post' or page.layout == 'definition-lists' %}

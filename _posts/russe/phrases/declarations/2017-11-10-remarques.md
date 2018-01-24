@@ -17,86 +17,87 @@ date: 2017-11-10 00:00:00 +0100
 
 C'est bon!
 : Это хорошо!
-*__èta horocho!__*
+*/èta horocho!/ "C’est bon!"*
 
 C'est particulier.
 : Это особый.
-*__èta ossobî.__*
+*/èta ossobî./ "C’est spécial."*
 
 
 ## Négocier
 
 C’est très bon marché!
-: Это очень дешево!
-*__èta otchin' diochèvo!__*
+: Это очень дёшево!
+*/èta otchinʸ diochèvo!/ "C’est très bon-marché!"*
 
 C'est un peu cher!
 : Это дороговато!
-*__èta dorogovato!__*
+*/èta dorogovato!/ "C’est un-peu-cher!"*
 
 C’est trop cher!
 : Это слишком дорого!
-*__èta slichkom doraga!__*
+*/èta slichkomᵉ doraga!/ "C’est trop cher!"*
 
 
 ## Situation
 
 C'est dangereux.
 : Это опасно.
-*__èta rapasna__*
+*/èta rapasna/ "C’est dangereux."*
 
 C'est dangereux ici.
 : Это опасно здесь.
-*__èta rapasna zdièssʸ__*
+*/èta rapasna zdièssʸ/ "C'est dangereux ici."*
 
 
 ## Politesse
 
 Je suis content de te voir.
-: Рад встрече! Спасибо, взаимно.
-*__Rat' vstritché.__*
+: m.
+  : Рад встрече!
+  */Ratᵉ fstritchiè./ "Content rencontrer."*
 
-Je suis contente de te voir. [f.]
-: Рада встрече! Спасибо, взаимно.
-*__Rada vstritché.__*
+  f.
+  : Рада встрече!
+  */Rada fstritchiè./ "Contente rencontrer."*
 
 Voici mon ami John.
 : Это мой друг, Джон.
-*__èta moï drouk, Djon'.__*
+*/èta moï drouk, Djonᵉ./ "C'est mon ami, John."*
 
 
 ## Constatation
 
 Je trouve ça difficile.
 : Затрудняюсь.
-*__Zatroudniaïoussʸ.__*
+*/Zatroudniaïoussʸ./ ""*
 
 Je suis perdu.
 : я потерялся.
-*__Ya patièrialsia.__*
+*/Ya patièrialcia./*
 
 
 ## Je ne parle pas russe
 
 Je ne comprends pas.
 : Не понимаю.
-*__Nié panimaïou.__*
+*/Nié panimaïou./*
 
 Je parle un peu russe.
 : Я немного говорю по-русски.
-*__Ya nimnoga gavariou pa-rousski.__*
+*/Ya nimnoga gavariou pa-rousski./*
 
 Je ne parle pas russe.
 : Я не говорю по-русски.
-*__Ya nié gvoriou pa-rousski.__*
+*/Ya nié gvoriou pa-rousski./*
 
 Excusez-moi, je commence à apprendre la langue russe.
 : Извините, я только начинаю изучать русский язык.
-*__Izvinitié, ya tolka natchina izoutchatʸ rousski yazîk.__*
+*/Izvinitié, ya tolka natchina izoutchatʸ rousski yazîk./*
 
 J’étudie la langue russe
 : Я изучаю русский язык
-*__Ya izoutchaïou rousski yazîk__*
+*/Ya izoutchaïou rousski yazîk/*
 
 
 
@@ -104,34 +105,39 @@ J’étudie la langue russe
 
 J’ai faim! (Je vais manger!)
 : Я буду есть!
-*__Ya boudou yèstʸ!__*
+*/Ya boudou yèstʸ!/*
 
 J’ai soif! (Je vais boire!)
 : Я буду пить!
-*__Ya boudou pitʸ!__*
+*/Ya boudou pitʸ!/*
 
 Je ne fais que regarder.
 : Я толко смотрю.
-*__Ya tolko smotriou__*
+*/Ya tolko smotriou/*
 
 
 ## Téléphoner
 
 J'appellerai.
 : я позвоню.
-*__Ya pazvaniou.__*
+*/Ya pazvaniou./*
 
 Et j'appellerai pour organiser la rencontre.
 : И я позвоню, чтобы договориться о встрече.
-*__I ya pazvaniou tchobî dagavaritsia a vstritchié.__*
+*/I ya pazvaniou tchobî dagavaritcia a fstritchiè./*
 
 
 ## Divers
 
 Nous sommes à Moscou.
 : Мы в Москве.
-*__Mî v'maskviè.__*
+*/Mî v'maskviè./*
 
 Vous avez laissé tomber quelque chose!
 : вы что-то уронили!
-*__Vî chto-ta ouranili!__*
+*/Vî chto-ta ouranili!/*
+
+
+
+*[m.]: Mascumin
+*[f.]: Féminin

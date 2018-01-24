@@ -15,16 +15,16 @@ date: 2017-10-14 00:00:00 +0100
 
 acier
 : сталь
-*__stal__*
+*/stalʸ/*
 
 verre
 : стекло
-*__stièklo__*
+*/stièklo/*
 
 béton
 : бетон
-*__bièton'__*
+*/biètonᵉ/*
 
 goudron
 : деготь
-*__diogat'__*
+*/digotʸ/*

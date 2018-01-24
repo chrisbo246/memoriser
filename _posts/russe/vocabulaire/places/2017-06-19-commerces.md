@@ -17,172 +17,179 @@ date: 2017-11-04 00:00:00 +0100
 
 magasin, supermarché
 : магазин
-*__magazin'__*
+*/magazinᵉ/*
 
 boutique
 : бутик
-*__boutik__*
+*/boutik/*
 
 marché
 : рынок
-*__rînak__*
+*/rînak/*
 
 
 ## Commerces de bouche
 
 boucherie
 : скотобойня
-*__skotaboïnia__*
+*/skotaboïnia/*
 
 épicerie
 : продуктовый
-*__pradouktovî__*
+*/pradouktovî/*
 
 pâtisserie
 : пекарня
-*__piètarnia__*
+*/piètarnia/*
 
 café
 : кафе
-*__cafè__*
+*/cafè/*
 
 bar
 : бар
-*__bar__*
+*/bar/*
 
 bistro
 : бистро
-*__bistro__*
+*/bistro/*
 
 restaurant
 : ресторан
-*__ristoran'__*
+*/ristoranᵉ/*
 
 
 ## Commerces de proximité
 
 bijouterie
 : ювелирные изделия
-*__youvièlirnè izdiélia__*
+*/youvièlirnè izdiélia/*
 
 bijouterie
 : бижутерия
-*__bijoutiria__*
+*/bijoutiria/*
 
 
 ## Services de proximité
 
 banque
 : банк
-*__bannk__*
+*/bannk/*
 
 garage automobile
 : автосалоном
-*__avtasalonam__*
+*/avtosalanomᵉ/*
 
 salon de coiffure
 : парикмахерская
-*__parikmahièrskaïa__*
+*/parikmahièrskaïa/*
 
 hôtel
 : гостиница
-*__gastinitsa__*
+*/gastinitsa/*
 
 
 ## Services de sécurité
 
 police
 : полиция
-*__politsèa__*
+*/politsèa/*
 
 caserne de pompiers
 : пожарное депо
-*__pajarniè dèpo__*
+*/pajarniè dèpo/*
 
 caserne militaire
 : казармы
-*__kazarmî__*
+*/kazarmî/*
 
 tribunal
 : суд
-*__sout__*
+*/soutᵉ/*
 
 
 ## Services de santé
 
 hôpital
 : больница
-*__balnitsa__*
+*/balnitsa/*
 
 maison de fous (asile psychiatrique)
 : дурдом
-*__dourdom'__*
+*/dourdomᵉ/*
 
 cabinet médical
 : медицинский кабинет
-*__méditsinski kabinièt__*
+*/méditsinski kabiniètᵉ/*
 
 cabinet dentaire
 : стоматологическая клиника
-*__stomatologuichèskaïa klinika__*
+*/stomatologuichèskaïa klinika/*
 
 pharmacie
 : аптека
-*__aptièka__*
+*/aptièka/*
 
 
 ## Ecoles
 
 école
 : школа
-*__chkola__*
+*/chkola/*
 
 lycée
 : высшая школа
-*__vîchaïa chkola__*
+*/vîchaïa chkola/*
 
 université
 : университет
-*__ounivèrsitièt'__*
+*/ounivèrsitiètᵉ/*
 
 
 ## Loisirs
 
 park
 : парк
-*__park__*
+*/park/*
 
 cinéma
 : кино
-*__kino__*
+*/kino/*
 
 bibliothèque
 : библиотека
-*__biblètiéka__*
+*/biblètiéka/*
 
 théâtre
 : театр
-*__tièatr'__*
+*/tièatrᵉ/*
 
 musée
 : музей
-*__mouzï__*
+*/mouzï/*
 
 à une soirée
 : на вечеринку
-*__na viètchirin'kou__*
+*/na viètchirinᵉkou/*
 
 
 ## Terminaux de transports en commun
 
 gare ferroviaire
 : вокзал
-*__bakzal__*
+*/bakzal/*
 
 aéroport
 : аэропорт
-*__aèraport__*
+*/aèraportᵉ/*
 
 aérodrome
 : аэродром
-*__aèrodrom'__*
+*/aèrodromᵉ/*
+
+
+## Constructions urbaines
+
+pont
+: мост
+*/mostᵉ/*

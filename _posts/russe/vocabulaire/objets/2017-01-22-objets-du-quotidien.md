@@ -15,292 +15,313 @@ tags: [
 date: 2017-01-01 00:00:00 +0100
 ---
 
+
+## Composants de la maison
+
+toit
+: крыша
+*/krîcha/*
+
+cheminée
+: камин
+*/kaminᵉ/*
+
+porte
+: дверь
+*/dvièrʸ/*
+
+fenêtre
+: окно
+*/akno/*
+
+balcon
+: балкон
+*/balconᵉ/*
+
+escalier
+: лестница
+*/lièstnitsa/*
+
+marches d'escalier
+: Ступеньки
+*/stoupinki/*
+
+balustrade
+: балюстрада
+*/balioustrada/*
+
+barrière
+: барьер
+*/barièrᵉ/*
+
+plafond
+: потолок
+*/potolok/*
+
+mur
+: стена
+*/stina/*
+
+sol
+: пол
+*/poll/*
+
+ascenseur
+: лифт
+*/liftᵉ/*
+
+
 ## Mobilier
 
 table
 : стол
-*__stol__*
+*/stol/*
 
 table basse
 : журнальный столик
-*__journalnî stolik__*
+*/journalnî stolik/*
 
 chaise
-: стул
-*__stoul__*
+: m.
+  : стул
+  */stoul/*
 
-chaises
-: стулья
-*__stoulia__*
+  pl.
+  : стулья
+  */stoulia/ "chaises"*
 
 canapé
 : диван
-*__divan'__*
+*/divanᵉ/*
 
 fauteuil
 : кресла
-*__krièsla__*
+*/krièsla/*
 
 bureau
 : стол
-*__stol__*
+*/stol/*
 
 lit
 : кровать
-*__kravat'__*
+*/kravatʸ/*
 
 meubles
 : мебель
-*__mibièl__*
+*/mibièlʸ/*
 
 armoire
 : шкаф
-*__chkaf__*
+*/chkaf/*
 
 commode
 : комод
-*__comot'__*
+*/kamotᵉ/*
+
+
+## Mobilier d'extérieur
+
+parasol
+: зонт
+*/zonᵉtᵉ/*
+
+balançoire
+: качели
+*/kachèli/*
+
+
+## Bacs
 
 évier, lavabo
 : раковина
-*__rakavina__*
+*/rakavina/*
 
 baignoire
 : ванна
-*__vanna__*
+*/vanna/*
 
 bidet
 : биде
-*__bidiè__*
+*/bidiè/*
 
 
 ## Electroménager
 
 téléviseur
 : телевизор
-*__tilivizar__*
+*/tilivizar/*
 
 lave-linge
 : стиральная машина
-*__stiralnaïa machina__*
+*/stiralnaïa machina/*
 
 lave-vaisselle
 : посудомоечная машина
-*__passoudamoïtchnaïa machina__*
+*/passoudamoïtchnaïa machina/*
+
+cuisinière
+: плита
+*/plita/*
 
 plaque chauffante
 : плита
-*__plita__*
+*/plita/*
+
+gazinière
+: газовая плита
+*/gazavaïa plita/ "à-gaz cuisinière"*
 
 four
 : печь
-*__pièch__*
+*/piètchʸ/*
+
+four micro-onde
+: микроволновая печь
+*/mikravalnavaïa piètchʸ/*
+
+micro-ondes
+: микроволновка
+*/mikravalnofka/*
 
 friteuse
 : Фритюрница
-*__fritiournitsa__*
+*/fritiournitsa/*
 
 frigo, frigidaire, réfrigérateur
 : холодильник
-*__haladilnik__*
+*/haladilnik/*
 
 climatisation
 : климат-контроль
-*climat' control'*
+*/climatᵉ controlʸ/*
 
 
 ## Objets électriques
 
 lampe
 : лампа
-*__lampa__*
+*/lampa/*
 
 lampadaire
 : торшер
-*__tarchèr'__*
+*/tarchèrᵉ/*
 
 lustre
 : люстра
-*__Lioustra__*
+*/lioustra/*
+
+abat-jour
+: абажур
+*/abajour/*
 
 
 ## Electronique
 
 appareil
 : аппарат
-*__apparat'__*
+*/apparatᵉ/*
 
 téléphone
 : телефон
-*__tèlèphon'__*
+*/tièlifonᵉ/*
 
 smartphone
 : смартфон
-*__smartphon'__*
+*/smarfonᵉ/*
 
 appareil photo
 : фотоаппарат
-*__fotoapparat__*
+*/fotoapparatᵉ/*
 
 casque (audio)
 : наушники
-*__naouchniki__*
+*/naouchniki/*
+
+PC
+: комп
+*/komp/*
+
+ordinateur portable
+: портативный компьютер
+*/portativnî compioutèrᵉ/*
 
 
 ## Accessoires de toilette
 
-savon
-: мыло
-*__mîlo__*
-
-shampooing
-: шампунь
-*__cham'pounʸ__*
+miroir
+: зеркало
+*/zièrkala/*
 
 brosse à dents
 : зубная щетка
-*__zoubnaïa chtiètka__*
-
-dentifrice
-: зубная паста
-*__zoubnaïa pasta__*
+*/zoubnaïa chtiètka/*
 
 serviette
 : полотенце
-*__polotièntsiè__*
+*/polatièntsi/ Pour le bain.*
 
-miroir
-: зеркало
-*__zièrkala__*
+torchon
+: полотенце
+*/polatièntsi/ Pour s'essuyer les mains.*
+
+
+
+## Produits de toilette
+
+dentifrice
+: зубная паста
+*/zoubnaïa pasta/*
+
+savon
+: мыло
+*/mîlo/*
+
+shampooing
+: шампунь
+*/chamᵉpounʸ/*
 
 
 ## Literie
 
 couverture
 : ковер
-*__kovièr'__*
-
-
-## Bureau
-
-stylo
-: ручка
-*__routchka__*
-
-crayon
-: карандаш
-*__karandach__*
-
-encre
-: чернила
-*__chièrnila__*
-
-papier
-: бумага
-*__boumaga__*
-
-bloc-notes
-: блокнот
-*__blocnot'__*
-
-livre
-: Книга
-*__kniga__*
-
-dictionnaire
-: словарь
-*__slovar__*
-
-album
-: альбом
-*__albom'__*
-
-almanach
-: альманах
-*__almanah__*
-
-brochure
-: брошюра
-*__brochioura__*
-
-cahier
-: блокнот
-*__bloknot__*
-
-lettre
-: письмо
-*__pismo__*
-
-carte
-: карта
-*__karta__*
-
-journal
-: газета
-*__gazièta__*
-
-ciseaux
-: ножницы
-*__nojnitzî__*
+*/kovièrᵉ/*
 
 
 ## Divers
 
 tapis
 : Ковёр
-*__kavior__*
-
-valise
-: чемодан
-*__chiémadan'__*
-
-les objets
-: объекты
-*__obièktî__*
-
-fourche
-: вилка
-*__vilka__*
-
-image
-: изображение
-*__izobrajiniè__*
-
-tableau
-: картина
-*__kartina__*
-
-photographie
-: фотография
-*__fatagrafia__*
-
-affiche
-: афиша
-*__aficha__*
-
-balançoire
-: качели
-*__kachèli__*
-
-poussette
-: коляска
-*__kaliaska__*
+*/kavior/*
 
 poubelle
 : мусорка
-*__moussarka__*
+*/moussarka/*
+
+valise
+: чемодан
+*/tchimadanᵉ/*
+
+les objets
+: объекты
+*/obièktî/*
+
+fourche
+: вилка
+*/vilka/*
+
+poussette
+: коляска
+*/kaliaska/*
 
 poignée
 : ручка
-*routchka*
+*/routchka/*
 
-parasol
-: зонт
-*__zont'__*
+croix
+: крест
+*/krièstᵉ/*
 
-
-## Facile!
-
-abat-jour
-: абажур
-*__abajour__*
+monument
+: Памятник
+*/pametnik/*

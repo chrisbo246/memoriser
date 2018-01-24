@@ -23,8 +23,8 @@ Afghanistan
 : Kaboul
 
 Afrique du Sud
-: Bloemfontein / Le Cap / Pretoria
-*Capitale judiciaire / législative / administrative.*
+: Bloemfontein, Le Cap, Pretoria
+*Capitale judiciaire, législative, administrative.*
 
 Albanie
 : Tirana
@@ -97,8 +97,8 @@ Birmanie
 : Naypyidaw
 
 Bolivie
-: La Paz / Sucre
-*Gouvernement et ambassades / capitale constitutionnelle.*
+: La Paz, Sucre
+*Gouvernement et ambassades, capitale constitutionnelle.*
 
 Bosnie-Herzégovine
 : Sarajevo
@@ -296,8 +296,8 @@ Islande
 : Reykjavik
 
 Israël
-: Jérusalem / Tel Aviv-Jaffa
-*Décision condamnée par la Résolution 478 / Embassades.*
+: Jérusalem, Tel Aviv-Jaffa
+*Décision condamnée par la Résolution 478, Embassades.*
 
 Italie
 : Rome
@@ -364,8 +364,8 @@ Madagascar
 : Antananarivo
 
 Malaisie
-: Kuala Lumpur / Putrajaya
-* Capitale officielle / administrative.*
+: Kuala Lumpur, Putrajaya
+* Capitale officielle, administrative.*
 
 Malawi
 : Lilongwe
@@ -472,8 +472,8 @@ Paraguay
 : Asuncion
 
 Pays-Bas
-: Amsterdam / La Haye
-*Capitale constitutionnelle / politique.*
+: Amsterdam, La Haye
+*Capitale constitutionnelle, politique.*
 
 Pérou
 : Lima

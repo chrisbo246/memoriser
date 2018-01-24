@@ -18,87 +18,87 @@ date: 2017-11-22 00:00:00 +0100
 
 régulièrement
 : регулярно
-*____*
+*/riègouliarna/*
 
 d'habitude
 : обычно
-*__abîtchna__*
+*/abîtchna/*
 
 toujours
 : всегда
-*____*
+*/fcigda/*
 
 parfois
 : иногда
-*____*
+*/inagda/*
 
 souvent
 : часто
-*____*
+*/schasta/*
 
 rarement
 : редко
-*____*
+*/riètka/*
 
 jamais
 : никогда не
-*____*
+*/nikagda niè/*
 
 plusieur fois
 : много раз
-*____*
+*/monoga rass/*
 
 chaque fois
 : каждый раз
-*__kajdî rass__*
+*/kajdî rass/*
 
 chaque jours
 : каждый день
-*__kajdî dièn'__*
+*/kajdî diènʸ/*
 
 le lundi
 : по понедельникам
-*____*
+*/pa panidièlnikamᵉ/*
 
 plus tôt
 : раньше
-*____*
+*/ranᵉchè/*
 
 
 ## Date précise (verbe perfectif)
 
 aujourd'hui
 : сегодня
-*____*
+*/civodnia/*
 
 hier
 : вчера
-*____*
+*/vtchira/*
 
 demain
 : завтра
-*____*
+*/zaftra/*
 
 le matin
 : утром
-*____*
+*/outramᵉ/*
 
 dans la journée
 : днём
-*__dniom'__*
+*/dniomᵉ/*
 
 le soir
 : вечером
-*____*
+*/viètchiramᵉ/*
 
 la nuit
 : ночью
-*____*
+*/notchiou/*
 
 une fois
 : один раз
-*____*
+*/adinᵉ rass/*
 
 ce dimanche
 : в это воскресенье
-*____*
+*/v'èta voskriciniè/*

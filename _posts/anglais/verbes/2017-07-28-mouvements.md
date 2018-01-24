@@ -8,7 +8,7 @@ image:
   type: "ImageObject"
   width: 640
   height: 360
-  categories: ["anglais", "verbes"]
+categories: ["anglais", "verbes"]
 tags: ["mouvement"]
 date: 2017-03-28 20:51:00 +0100
 ---
@@ -56,7 +56,7 @@ fourrer, enfoncer
 *Ex: Fourrer ton doigt dans ton nez.*
 
 montrer du doigt
-: point at ...
+: point at …
 
 coup de tête
 : head-butt

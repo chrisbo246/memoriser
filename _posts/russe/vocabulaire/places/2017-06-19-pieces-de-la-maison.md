@@ -1,6 +1,6 @@
 ---
 layout: definition-lists
-title: "Vocabulaire russe: Maison"
+title: "Vocabulaire russe: Les pièces de la maison"
 description: "Les pièces, composants et dépendances de la maison en russe."
 excerpt: "Les pièces, composants et dépendances de la maison en russe."
 image:
@@ -9,7 +9,7 @@ image:
   width: 640
   height: 360
 categories: ["russe", "vocabulaire"]
-tags: [maison, pièce]
+tags: [place, maison, pièce]
 date: 2017-11-04 00:00:00 +0100
 ---
 
@@ -17,184 +17,118 @@ date: 2017-11-04 00:00:00 +0100
 
 maison
 : дом
-*__dom__*
+*/domᵉ/*
 
 maison de campagne
 : дача
-*__datcha__*
+*/datcha/*
 
 appartement
 : квартира
-*__kvartira__*
+*/kvartira/*
 
 bureau
 : офис
-*__ofis__*
+*/ofis/*
 
 atelier
 : ателье
-*__atiliè__*
+*/atiliè/*
 
 baraque
 : барак
-*__barak__*
+*/barak/*
 
 
 ## Pieces de la maison
 
 hall d'entrée
 : прихожая
-*__prihojaïa__*
+*/prihojaïa/*
 
 étage
 : этаж
-*__ètach__*
+*/ètach/*
 
 couloir
 : коридор
-*__coridor__*
+*/coridorᵉ/*
 
 pièce
 : комната
-*__comnata__*
+*/comnata/*
 
 salle à manger
 : столовая
-*__stalovaïa__*
+*/stalovaïa/*
 
 salon
 : зал
-*__zal__*
+*/zal/*
 
-séjour [Litt. invité]
+séjour
 : гостинач
-*__gastinnaïa__*
+*/gastinaïa/ "pour-invités"*
 
 chambre (à coucher)
 : спальня
-*__spalnia__*
+*/spalnia/ "pour-dormir"*
 
 chambre d'enfant
 : детская
-*__diètskaïa__*
+*/diètskaïa/*
 
 cuisine
 : кухня
-*__kouhnia__*
+*/kouhnia/*
 
 salle de bain
 : ванная комната
-*__vannaïa komnata__*
+*/vannaïa komnata/*
 
 salle d'eau
 : душевая комната
-*__douchièvaïa komnata__*
+*/douchièvaïa komnata/ "pour-douche pièce"*
 
 toilettes, WC
 : туалет
-*__toualièt'__*
+*/toualiètᵉ/*
 
 toilettes (plus poliment)
 : сортир
-*__sartir__*
+*/sartirᵉ/*
 
 balcon
 : балкон
-*__balcon'__*
+*/balconᵉ/*
 
 garage
 : гараж
-*__garach__*
+*/garachᵉ/*
 
 
 ## Extérieur
 
 terrasse
 : терраса
-*__tièrrassa__*
+*/tièrrassa/*
 
 jardin
 : сад
-*__sat__*
+*/satᵉ/*
 
 allée
 : аллея
-*__allèia__*
+*/allèïa/*
 
 cour
 : двор
-*__dvor__*
+*/dvorᵉ/*
 
 piscine
 : бассейн
-*__bassin'__*
+*/bassinᵉ/*
 
 bassin
 : бассейн
-*__bassin'__*
-
-
-## Constructions urbaines
-
-pont
-: мост
-*__most__*
-
-
-## Composants de la maison
-
-toit
-: крыша
-*__krîcha__*
-
-cheminée
-: Камин
-*__kamin'__*
-
-porte
-: дверь
-*__dvièr__*
-
-fenêtre
-: окно
-*__akno__*
-
-balcon
-: балкон
-*__balcon'__*
-
-escalier
-: лестница
-*__lièstnitsa__*
-
-marches d'escalier
-: Ступеньки
-*__stoupinki__*
-
-balustrade
-: балюстрада
-*__balioustrada__*
-
-barrière
-: барьер
-*__barièr'__*
-
-plafond
-: потолок
-*__potolok__*
-
-mur
-: стена
-*__stina__*
-
-sol
-: пол
-*__poll__*
-
-ascenseur
-: лифт
-*__lift__*
-
-
-
-*[Litt.]: Littéralement
+*/bassinᵉ/*

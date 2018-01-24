@@ -38,15 +38,15 @@
 {% assign card-classes = include.face | split: ' ' | concat: card-classes %}
 {% endif %}
 
-{% if post.weight > 0 %}
-{% assign card-classes = 'bg-primary border-primary text-white' | split: ' ' | concat: card-classes %}
-{% endif %}
-
 {% if include.class %}
 {% assign card-classes = include.class | split: ' ' | concat: card-classes %}
 {% endif %}
 
-
+{% comment %}
+{% if post.weight > 0 %}
+{% assign card-classes = 'bg-primary border-primary text-white' | split: ' ' | concat: card-classes %}
+{% endif %}
+{% endcomment %}
 
 {% assign card-body-classes = 'd-flex flex-column' | split: ' ' %}
 {% if include.body-class %}
@@ -73,16 +73,16 @@
 {% endif %}
 {% endif %}
 
-{% assign card-title-classes = 'card-title' | split: ' ' %}
-{% if include.title-class %}
-{% assign card-title-classes = include.title-class | split: ' ' | concat: card-title-classes %}
-{% endif %}
-
 {% assign title = post.title | split: ':' | last | strip %}
 {% assign subtitle = post.title | split: ':' | first | strip %}
 {% assign subtitle = post.subtitle | default: subtitle %}
 {% if subtitle == title %}
 {% assign subtitle = nil %}
+{% endif %}
+
+{% assign card-title-classes = 'card-title' | split: ' ' %}
+{% if include.title-class %}
+{% assign card-title-classes = include.title-class | split: ' ' | concat: card-title-classes %}
 {% endif %}
 
 {% if page.card.read_more_type == 'button' %}

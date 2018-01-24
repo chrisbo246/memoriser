@@ -59,8 +59,8 @@ prévu pour
 complètement
 : thoroughly
 
-un ... raté
-: a spoiled ...
+un … raté
+: a spoiled …
 *Ex: a spoiled painter.*
 
 savoir-faire

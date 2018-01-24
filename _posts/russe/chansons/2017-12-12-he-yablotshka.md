@@ -5,7 +5,7 @@ title: "Эх, яблочко (Eh, yablotchka)"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/micro.jpg
   type: "ImageObject"
   width: 640
   height: 360
@@ -26,23 +26,23 @@ published: true
 *Hé, petite pomme,*
 
 Куда ж ты котишься,
-: Kouda j'tî kotichsia,
+: Kouda j'tî kotich'cia,
 *où roules-tu comme ça?*
 
 Ко мне в рот попадёшь,
-: Ka mniè v'rot' popadioch,
+: Ka mniè v'rotᵉ papadioch,
 *Si tu me tombes dans la bouche,*
 
 Не воротишься.
-: Niè varotich'ssia.
+: Niè varotich'cia.
 *tu n'en sortiras pas.*
 
 Ко мне в рот попадёшь,
-: Ka mniè v'rot' popadioch,
+: Ka mniè v'rotᵉ papadioch,
 *Si tu me tombes dans la bouche,*
 
 Не воротишься.
-: Niè varotich'ssia.
+: Niè varotich'cia.
 *tu n'en sortiras pas.*
 
 
@@ -57,7 +57,7 @@ published: true
 *sur le banc là-bas*
 
 Продаёт офицер
-: Pradaïot' afitsièr'
+: Pradaïotᵉ afitssièr'
 *un officier vend*
 
 Стары валенки.
@@ -80,7 +80,7 @@ published: true
 *Si tu m'as acheté quelque chose*
 
 Давай денежку.
-: Davaï diènïjkou.
+: Davaï diènièchkou.
 *tu dois me donner des sous.*
 
 Раз купил товар,
@@ -88,7 +88,7 @@ published: true
 *Si tu m'as acheté quelque chose*
 
 Давай денежку.
-: Davaï diènïjkou.
+: Davaï diènièchkou.
 *tu dois me donner des sous.*
 
 
@@ -130,7 +130,7 @@ published: true
 *sur cette petite assiette.*
 
 Кому водку пить,
-: Kamou vodkou pitʸ,
+: Kamou votkou pitʸ,
 *Certains veulent de la vodka,*
 
 А кому девочек.
@@ -138,7 +138,7 @@ published: true
 *et d'autres des filles.*
 
 Кому водку пить,
-: Kamou vodkou pitʸ,
+: Kamou votkou pitʸ,
 *Certains veulent de la vodka,*
 
 Кому девочек.
@@ -288,7 +288,7 @@ published: true
 *écrase les Koulaks,*
 
 Всё народное.
-: Vcio narodnaïè.
+: Fcio narodnaïè.
 *tout appartient au peuple.*
 
 Прижимай кулаков,
@@ -296,7 +296,7 @@ published: true
 *Écrase les Koulaks,*
 
 Всё народное.
-: Vcio narodnaïè.
+: Fcio narodnaïè.
 *tout appartient au peuple.*
 
 
@@ -307,7 +307,7 @@ published: true
 *Hé, petite pomme,*
 
 Да ты хрустальное,
-: Da tî hrustalnaïè,
+: Da tî rustalnaïè,
 *aussi belle que du cristal,*
 
 А квартира у нас

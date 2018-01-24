@@ -13,15 +13,7 @@ tags: []
 date: 2017-04-01 00:00:00 +0100
 ---
 
-## Adjectifs
-
-anthropique
-: Réalisé (ou provoqué) par l'activité humaine.
-*Ex: un paysage anthorpique.*
-
-endémique
-: - Qui sévit en permanence.
-  - Espèce propres à un territoire.
+## Vision
 
 extatique
 : Qui provoque l'extase.
@@ -31,24 +23,30 @@ onirique
 : Inspiré par un rêve.
 *Ex: un récit onirique.*
 
-trivial
-: - Vulgaire.
-  - Evident.
 
-idoine
-: Idéale.
-*Qui convient parfaitement à la situation.*
+## Vision intélectuelle
+
+prométhéen(ne)
+: Idéaliste.
+*Foi dans la condition humaine (ex: une vision prométhéenne).*
+
+
+## Situation
 
 holistique
 : Globale.
 *Ex: une vision holistique.*
 
-erratique
-: Irrégulier, à une place inhabituel, qui n'a pas d'habitation fixe.
+endémique
+: Qui sévit en permanence.
 
-prométhéen(ne)
-: Idéaliste.
-*Foi dans la condition humaine (ex: une vision prométhéenne).*
+erratique
+: Irrégulier
+*À une place inhabituel, qui n'a pas d'habitation fixe.*
+
+idoine
+: Idéale.
+*Qui convient parfaitement à la situation.*
 
 
 ## Période
@@ -61,3 +59,35 @@ antédiluvien
 
 séculaire
 : Très ancien, multi-centenaire.
+
+
+## Action
+
+prophylactique
+: Préventive.
+*Ex: une mesure prophylactique.*
+
+
+## Méthode
+
+forensique
+: Méthode scientifique utilisée pour répondre à une question légale ou judiciaire.
+
+
+## Réalisation
+
+anthropique
+: Réalisé (ou provoqué) par l'activité humaine.
+*Ex: un paysage anthorpique.*
+
+
+## Origine
+
+endémique
+: Espèce propres à un territoire.
+
+
+## Divers
+
+régalien
+: Relatif au roi, au chef de l'état.

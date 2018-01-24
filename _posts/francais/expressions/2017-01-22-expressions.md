@@ -9,7 +9,7 @@ image:
   width: 640
   height: 360
 categories: ["francais", "expressions"]
-tags: ["expressions françaises"]
+tags: []
 date: 2017-03-22 17:15:00 +0100
 ---
 
@@ -41,13 +41,17 @@ avoir le don d'ubiquité
 
 à huis clos
 : Interdit au public.
-*Huis comme huisserie. Litt. porte close.*
+*"porte close" Huis comme huisserie.*
 
 entrer en lice
 : S'engager en compétition.
 
 Construire/bâtir un château en Espagne
 : Projet irréalisable.
+
+pis que pendre
+: Dire du mal avec exagération.
+*Ex: dire pis que pendre de quelqu'un.*
 
 
 

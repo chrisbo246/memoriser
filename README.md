@@ -13,6 +13,7 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Listen to translations (Text To Speech API ready).
 - Sleek and responsive design for readability.
 - Full width content (collapsible sidebar).
+- Randomize card positions.
 - Progress bar.
 - Seamless page transition (load time optimization).
 - Touch screen friendly.

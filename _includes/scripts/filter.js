@@ -3,7 +3,7 @@
   'use strict';
 
   var $togglers, $targets, $searchboxes;
-  
+
 
   /**
   * Hide unchecked items

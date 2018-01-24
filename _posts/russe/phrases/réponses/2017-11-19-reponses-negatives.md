@@ -15,48 +15,58 @@ date: 2017-08-22 00:00:00 +0100
 
 non
 : нет
-*__nièt__*
+*/niètᵉ/*
 
 … pas
 : не …
-*__niè …__*
+*/niè …/*
 
 faux, mensonge
 : ложь
-*__lochʸ__*
+*/lochʸ/*
 
 Je ne sais pas.
 : я не знаю.
-*__Ya niè znaïou.__*
+*/Ya niè znaïou./*
 
 Je ne comprends pas.
 : Не понимаю.
-*__Nié panimaïou.__*
+*/Nié panimaïou./*
 
 Je n'en ai aucune idée.
 : Понятия не имею.
-*__Paniatiè niè imiéiou.__*
+*/Paniatiè niè imiéiou./*
 
 Je ne sais pas, Je ne suis pas au courant.
 : Я не в курсе.
-*__Ya niè v'courssiè.__*
+*/Ya niè v'courssiè./*
 
 Je ne peux pas.
 : Не могу.
-*__Niè maguou.__*
+*/Niè maguou./*
 
 Je ne peux pas du tout vous aider.
 : Ничем не могу помочь.
-*__Nitchièm niè maguou pamotchʸ.__*
+*/Nitchièmᵉ niè maguou pamotchʸ./*
 
 Difficile de répondre.
 : Затрудняюсь ответить.
-*__Zatroudniaïoussʸ atviétitʸ.__*
+*/Zatroudniaïoussʸ atviétitʸ./*
 
 Je ne suis pas d'accord
 : Я не согласен
-*__Ya niè saglasièn'__*
+*/Ya niè saglasiènᵉ/*
 
 Je f. ne suis pas d'accord
-: Я не согласна
-*__Ya niè saglasna__*
+: m.
+  : Я не согласен
+  */Ya niè saglaciènᵉ/ "Je m. pas d'accord"*
+
+  f.
+  : Я не согласна
+  */Ya niè saglasna/ "Je f. pas d'accord"*
+
+
+
+*[m.]: Masculin
+*[f.]: Féminin

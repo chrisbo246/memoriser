@@ -34,12 +34,6 @@ séchage en machine
 : tumble dry
 
 
-## Informatique
-
-débit
-: throughput
-
-
 ## Couches
 
 couche

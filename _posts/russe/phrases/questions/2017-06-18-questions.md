@@ -17,145 +17,148 @@ date: 2017-06-18 00:00:00 +0100
 
 Qu’est ce que c’est?
 : Что это?
-*__Chto èta?__*
+*/Chto èta?/*
 
 Pourriez-vous me dire …?
 : не подскажите …?
-*__Niè podskajitè …?__*
+*/Niè potskajitè …?/*
 
 Qu’est-ce qui est écrit là ?
 : Что тут написано?
-*__Chto tout' napisana?__*
+*/Chto toutᵉ napisana?/*
 
 Est ce que vous comprenez l'anglais?
 : Вы понимаете по-английски?
-*__Vî panimiétié pa angliski?__*
+*/Vî panimiétié pa angliski?/*
 
 
 ## Politesse
 
 Puis-je?
 : Можно?
-*__Mojna?__*
+*/Mojna?/*
 
 Êtes-vous satisfait?
 : Довольны ли Вы?
-*__Davolnî li vî?__*
+*/Davolnî li vî?/*
 
 Qui est le dernier (de la queue)?
 : Kто Последний?
-*__Kto paslièdni?__*
+*/Kto paslièdni?/*
 
 Faut-il retirer ses chaussures?
 : Снимать обувь?
-*__Snimatʸ oboufʸ?__*
+*/Snimatʸ oboufʸ?/*
 
 Est-ce qu’il faut enlever ses chaussures?
 : Снимать обувь надо?
-*__Snimatʸ oboufʸ nado?__*
+*/Snimatʸ oboufʸ nado?/*
 
 
 ## Se renseigner sur la situation
 
 Qui est là?
 : Кто здесь?
-*__kto zdièssʸ__*
+*/kto zdièssʸ/*
 
 Qu'est ce qu'il s'est passé?
 : что случилось?
-*__chto soutchilassʸ__*
+*/chto soutchilassʸ/*
 
 Qui a dit ça?
 : Кто это сказал?
-*__kto èta skazal?__*
+*/kto èta skazal?/*
 
 Quel, Lequel …?
 : который …?
-*__katorî …?__*
+*/katorî …?/*
 
 Quelle, Laquelle …?
 : которая …?
-*__katoraïa …?__*
+*/katoraïa …?/*
 
 Il y a à manger?
 : Есть есть?
-*__Yèstʸ yèstʸ?__*
+*/Yèstʸ yèstʸ?/*
+
+Y a t'il des embouteillages en ce moment?
+: сейчас есть пробки?
+*/Ciètchass yèstʸ prabki/ "Maintenant il-y-a embouteillages?"*
 
 
 ## Météo
 
 Quel temps fait-il aujourd'hui?
 : какая погода сегодня?
-*__Kakaïa pagoda sièvodnia?__*
+*/Kakaïa pagoda civodnia?/*
 
 Quand le printemps reviendra-t'il?
-: Когда придет  весна?
-*__kogda pridyot vèsna?__*
+: Когда придёт весна?
+*/Kagda pridiotᵉ visna?/*
 
 
 ## Pourquoi
 
 Pourquoi …?
 : почему …?
-*__Patchimou …?__*
+*/Patchimou …?/*
 
 Pourquoi as-tu/avez-vous fais ça?
 : почему ты/вы это сделал?
-*__Patchimou tî/vî èta sdiélal?__*
+*/Patchimou tî/vî èta sdiélal?/*
 
 
 ## Proposer un rendez-vous
 
 Que fais-tu demain soir?
 : что ты делаешь завтра вечером?
-*__Chto tî dièlaèch zavtra viètchiram?__*
+*/Chto tî dièlaèchʸ zaftra viètchiram?/*
 
 Es-tu libre ce soir?
-: ты свободен сегодня вечером?
-*__Tî svabodin' siévodnia viètchiram?__*
+: m.
+  : ты свободен сегодня вечером?
+  */Tî svabodinᵉ civodnia viètchiram?/*
 
-Es-Tu[f] libre ce soir?
-: ты свободна сегодня вечером?
-*__Tî svabodna siévodnia viètchiram?__*
+  f.
+  : ты свободна сегодня вечером?
+  */Tî svabodna civodnia viètchiram?/ "Es-Tu f. libre ce soir?"*
 
 Je voudrais vous inviter à un rendez-vous (amoureux).
-: Я хотел бы пригласить тебя на свидание.
-*__Ya hatil bî priglassitʸ tibia na svidanié.__*
+: m.
+  : Я хотел бы пригласить тебя на свидание.
+  */Ya hatil bî priglassitʸ tibia na svidanié./*
 
-Je[f] voudrais vous inviter à un rendez-vous (amoureux).
-: Я хотелa бы пригласить тебя на свидание.
-*__Ya hatila bî priglassitʸ tibia na svidanié..__*
+  f.
+  : Я хотелa бы пригласить тебя на свидание.
+  */Ya hatila bî priglassitʸ tibia na svidanié./ "Je f. voudrais vous inviter à un rendez-vous (amoureux)."*
 
 
 ## Retourner la question
 
 Et toi?
-: А ты?
-*__A tî?__*
+: s.
+  : А ты?
+  */A tî?/ "Et toi?"*
 
-Et vous?
-: А вы?
-*__A vî?__*
+  pl.
+  : А вы?
+  */A vî?/ "Et vous?"*
 
-Et toi?
+Et les tiennes?
 : А твои?
-*__A tvaï?__*
+*/A tvaï?/*
 
 Et comment vont les affaires?
 : А как твои дела?
-*__A kak tvaï diéla?__*
+*/A kak tvaï diéla?/*
 
-Très bien, merci, et vous ?
-: -
-*__Haracho, spassiba, i vi ?__*
-
-
-## Divers
-
-Qu'as-tu … ?
-: что ты … ?
-*__Chto tî …__*
+Très bien, merci, et vous?
+: Хорошо, спасибо и вы?
+*/Haracho, spassiba, i vi?/*
 
 
 
-*[[f]]: Féminin
+*[m.]: Mascumin
+*[f.]: Féminin
+*[s.]: Singulier
+*[pl.]: Pluriel

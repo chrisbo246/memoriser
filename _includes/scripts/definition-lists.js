@@ -1,4 +1,20 @@
 {% raw %}
+(function($) {
+$.fn.randomize = function (childElem) {
+  return this.each(function () {
+      var $this = $(this);
+      var elems = $this.children(childElem);
+      elems.sort(function() { return (Math.round(Math.random())-0.5); });
+      $this.detach(childElem);
+      for (var i=0; i < elems.length; i++) {
+        $this.append(elems[i]);
+      }
+  });
+}
+})(jQuery);
+
+
+
 (function ($, window, document) {
   'use strict';
 
@@ -50,10 +66,11 @@
     * Convert dl to flexbox cards
     */
 
-    var $dl, $dt, $dd, id;
+    var $dl, $dt, $dd, dtHtml, ddHtml, dtText, id, image;
     var $container = $('.definition-list');
-    var $dls = $container.find('dl');
-    var $titles = $container.find('h2, h3, h4');
+    var $dls = $container.children('dl');
+    var $nestedDls = $container.find('dl dl');
+    var $titles = $container.find('h2, h3');
 
     if ($dls.length) {
       console.time('Definition list generation');
@@ -77,10 +94,37 @@
 
 
       /**
-      * Make normal text full width
+      * Make normal text (not card) into a full width div
       */
       $dls.add($titles).first().prevAll().wrapAll('<div class="w-100"></div>');//'<div class="card w-100"><div class="card-body"></div></div>');
-      $dls.nextUntil('dl, h2, h3, h4').wrapAll('<div class="w-100"></div>');//'<div class="card w-100"><div class="card-body"></div></div>');
+      $dls.nextUntil('dl, h2, h3').wrapAll('<div class="w-100"></div>');//'<div class="card w-100"><div class="card-body"></div></div>');
+      $titles.addClass('h6 mb-0').wrap('<div class="w-100"></div>');
+
+
+      /**
+       * Convert child dls into tabs
+       */
+
+      var tabsHtml, panesHtml;
+      $nestedDls.each(function () {
+        $dl = $(this);
+        tabsHtml = '';
+        panesHtml = '';
+        $dl.find('dt').each(function (i) {
+          $dt = $(this);
+          $dd = $dt.next('dd');
+          dtHtml = $dt.html() || '';
+          ddHtml = $dd.html() || '';
+          dtText = $dt.text() || '';
+          id = validId(dtText + '_pane');
+          tabsHtml = tabsHtml
+            + '<li class="nav-item">'
+            + '<a class="nav-link px-1 py-0 ' + ((i === 0) ? 'active' : '') + '" href="#' + id + '" data-toggle="tab" role="tab" aria-controls="' + id + '" aria-selected="' + ((i === 0) ? 'true' : 'false') + '">' + dtHtml.replace(/(abbr>)\s+(<abbr)/g, '$1$2') + '</a>'
+            + '</li>';
+          panesHtml = panesHtml + '<div id="' + id + '" class="tab-pane fade ' + ((i === 0) ? 'show active' : '') + '" role="tabpanel" aria-labelledby="' + dtText + '"><p class="card-text float-left">' + ddHtml + '</p></div>';
+        });
+        $dl.replaceWith('<ul class="nav -nav-pills -px-1 -py-0 float-right" role="tablist">' + tabsHtml + '</ul><div class="tab-content">' + panesHtml + '</div>');
+      });
 
 
 
@@ -88,24 +132,60 @@
       * Wrap dt+dd's in Bootstrap cards
       */
 
-      $dls.each(function() {
+      $dls.each(function () {
         $dl = $(this);
         var html = '';
-        var $section = $dl.prev('h2, h3, h4').filter('[id]').first();
+        var $section = $dl.prev('h2, h3').filter('[id]').first();
         var sectionId = $section.attr('id');
         var sectionLabel = $section.html();
 
         $dl.find('dt').each(function(i) {
           $dt = $(this);
           $dd = $dt.next('dd');
-          id = $dt.html();
-          id = validId(id);
+          dtHtml = $dt.html() || '';
+          ddHtml = $dd.html() || '';
+          dtText = $dt.text() || '';
+          id = validId(dtText);
 
+          if (dtHtml) {
+            //image = dtHtml.match();
+            //<div class="ratio-container unknown-ratio-container">
+            //  <img class="card-img-classes" src="{{ src | relative_url }}" alt="{{ post.title }}" width="{{ post.image.default.width | default: post.image.width }}" height="{{ post.image.default.height | default: post.image.height }}" />
+            //</div>
+            dtHtml = dtHtml
+              .replace(/\(([^()]{2,})\)/g, '<small>($1)</small>')
+              //.replace(/\[(([a-zA-Z]{1,4})\.?)\]/g, '<sup class="text-$2">$1</sup>')
+              .replace(/<abbr( [^>]+)?>\[?(([\w]{1,4})\.)\]?<\/abbr>/gi, '<abbr$1 class="text-$3">$2</abbr>');
+              //.replace(/\[([^\[\]]*)\]/g, '<sup>$1</sup>')
+          }
+          /**/
+          if (ddHtml) {
+            ddHtml = ddHtml
+              //.replace(/\[(m)(?::([^\[\]\r\n]*))?\]/g, '<sup><abbr class="text-male" title="$2">$1</abbr></sup>')
+              //.replace(/\[(f)(?::([^\[\]\r\n]*))?\]/g, '<sup><abbr class="text-female" title="$2">$1</abbr></sup>')
+              //.replace(/\[(n)(?::([^\[\]\r\n]*))?\]/g, '<sup><abbr class="text-neutral" title="$2">$1</abbr></sup>')
+              //.replace(/\[(pl)(?::([^\[\]\r\n]*))?\]/g, '<sup><abbr class="text-plural" title="$2">$1</abbr></sup>')
+              //.replace(/\[(!)(?::([^\[\]\r\n]*))?\]/g, '<sup><abbr class="text-warning" title="$2"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></abbr></sup>')
+              //.replace(/\[\!\]/g, '<sup><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></sup>')
+              //.replace(/\[(i)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-info" title="$2"><i class="fa fa-info-circle" aria-hidden="true"></i></abbr></sup>')
+              //.replace(/(\“[^\“\”\r\n]*\”)/g, '<span class="text-pronunciation">$1</span>')
+              //.replace(/(\\[^\\\r\n]*\\)/g, '<span class="text-pronunciation">$1</span>')
+              .replace(/(?!< *)\/([^/<>\r\n]*)\//g, '<span class="text-pronunciation">$1</span>')
+              .replace(/\“([^<>\r\n\“\”\r\n]*)\”/g, '<span class="text-literatim">$1</span>')
+              //.replace(/\((litt\.|littéralement|litteralement|literaly)[ ]+([^\(\)\r\n]*)\)/gi, '<span class="text-literatim">$2</span>')
+              //.replace(/\`([^\`\r\n]*)\`/g, '<span class="text-literatim">$1</span>')
+              //.replace(/\{([^\{\}\r\n]*)\}/g, '<span class="text-literatim">$1</span>')
+              //.replace(/\(([^()\r\n]*)\)/g, '<small>($1)</small>')
+              //.replace(/\[(([a-zA-Z]{1,4})\.?)\]/g, '<sup class="text-$2">$1</sup>')
+              .replace(/<abbr( [^>]+)?>\[?(([\w]{1,4})\.)\]?<\/abbr>/gi, '<abbr$1 class="text-$3">$2</abbr>');
+              //.replace(/\[([^\[\]\r\n]*)\]/g, '<sup>$1</sup>')
+          }
 
           //var cardStyle = cardStyles[Math.floor(Math.random() * cardStyles.length)];
           var cardStyle = cardStyles[1];
 
           html = html
+          + '<div class="flipcard-wrapper">'
           + '<input type="radio" id="flipcard_position_' + id + '" name="visible_definition" value="' + id + '" class="flipcard-position d-none" />'
           + '<div class="card card-flip m-1"'
           + (sectionId && i === 0 ? ' id="' + sectionId + '" data-label="' + sectionLabel + '"' : '')
@@ -114,31 +194,13 @@
           + '<label for="flipcard_position_' + id + '" class="m-0">'
           + '<div class="card front card-position-absolute bg-dark text-muted">'
           + '<div class="card-body d-flex justify-content-center align-items-center">'
-          + '<h4 class="card-title m-0">'
-          + $dt.html()
-            .replace(/\(([^()]*)\)/g, '<small>($1)</small>')
-            .replace(/\[([^\[\]]*)\]/g, '<sup -class="text-info">$1</sup>')
-          + '</h4>'
+          + '<h4 class="card-title m-0 ' + ((dtHtml.length > 80) ? 'h6' : (dtHtml.length > 40) ? 'h5' : '') + '">' + dtHtml + '</h4>'
           + '</div>'
           + '</div>'
           + '</label>'
           + '<div class="card back bg-white text-dark">'
           + '<div class="card-body pb-0">'
-          + '<p class="card-text">'
-          + $dd.html()
-            //.replace(/\[(m)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-male" title="$2">$1</abbr></sup>')
-            //.replace(/\[(f)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-female" title="$2">$1</abbr></sup>')
-            //.replace(/\[(n)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-neutral" title="$2">$1</abbr></sup>')
-            //.replace(/\[(pl)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-plural" title="$2">$1</abbr></sup>')
-            //.replace(/\[(!)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-warning" title="$2"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></abbr></sup>')
-            .replace(/\[\!\]/g, '<sup><i class="fa fa-exclamation-triangle" aria-hidden="true"></i></sup>')
-            //.replace(/\[(i)(?::([^\[\]]*))?\]/g, '<sup><abbr class="text-info" title="$2"><i class="fa fa-info-circle" aria-hidden="true"></i></abbr></sup>')
-            //.replace(/(\“[^\“\”]*\”)/g, '<span class="text-pronunciation">$1</span>')
-            //.replace(/\`([^\`]*)\`/g, '<span class="text-literatim">$1</span>')
-            //.replace(/\{([^\{\}]*)\}/g, '<span class="text-literatim">$1</span>')
-            //.replace(/\(([^()]*)\)/g, '<small>($1)</small>')
-            .replace(/\[([^\[\]]*)\]/g, '<sup>$1</sup>')
-          + '</p>'
+          + (($dd.find('div, p').length) ? ddHtml : ('<p class="card-text">' + ddHtml + '</p>'))
           + '</div>'
           + '<div class="card-footer bg-transparent border-0 p-0">'
           + '<div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">'
@@ -148,15 +210,16 @@
           + '</div>'
           + '</div>'
           + '</div>'
+          + '</div>'
           + '</div>';
           //console.log('dt', $dt.html().replace(/\(([^()]*)\)/g, '<small>($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>'));
           //console.log('dd', $dd.html().replace(/\(([^()]*)\)/g, '<small>($1)</small>').replace(/\[([^\[\]]*)\]/g, '<sup class="text-info">$1</sup>'));
+
 
         });
 
         html = html + '<input type="radio" id="flipcard_toggler_none" name="visible_definition" value="none" class="d-none" checked />';
         $dl.replaceWith(html);
-
 
         //html = '<div class="d-flex flex-row flex-wrap align-items-stretch align-self-stretch justify-content-between">' + html + '</div>';
 
@@ -164,13 +227,19 @@
 
 
 
+      $container.find('.card-title img').each(function () {
+        var $img = $(this);
+        $img.closest('.card-body').removeClass('card-body').addClass('card-img-overlay d-none').before($img);
+        $img.addClass('img-fluid card-img lazyloaded').wrap('<div class="ratio-container unknown-ratio-container"></div>');
+      });
 
 
       /**
       * Wrap title's in Bootstrap cards
       */
-      $titles.remove();
-      //$dls.prev('h2, h3, h4')
+      //$titles.remove();
+
+      //$dls.prev('h2, h3')
       //$titles.each(function () {
       //var $title = $(this);
       //var id = $title.attr('id') || encodeURIComponent($title.text());
@@ -253,8 +322,28 @@
 
       $container.removeClass('spinner spinner-fullscreen spinner-bg fa fa-spinner');
 
+
+
+      /**
+      * Randomly mix cards when user toggle the option
+      */
+
+      $('input[name="randomize"]').on('change', function () {
+        if ($(this).is('[value="1"]:checked')) {
+          $titles.remove();
+          $container.randomize('.flipcard-wrapper');
+          $('#index').closest('.card').prop('hidden', 'hidden');
+        } else {
+          location.reload();
+        }
+      });
+
+
+
       console.timeEnd('Definition list generation');
     }
+
+
 
 
   });

@@ -17,72 +17,72 @@ date: 2017-10-02 00:00:00 +0100
 
 beau, joli
 : Красиво
-*__Krassiva__*
+*/Krassiva/*
 
 belle, jolie (objet)
 : красивая
-*__krassivaïa__*
+*/krassivaïa/*
 
 magnifique
 : прекрасно
-*__prikrassna__*
+*/prikrassna/*
 
 réussi
 : удачная
-*__oudatchnaïa__*
+*/oudatchnaïa/*
 
 Magnifique
 : Замечательная
-*__Zamitchatilnaïa__*
+*/Zamitchatilnaïa/*
 
 Belle (objet)
 : прекрасная
-*__prikarassnaïa__*
+*/prikarassnaïa/*
 
 
 ## Goût
 
 bon
 : хорошо
-*__haracho__*
+*/haracho/*
 
 
 ## Situation
 
 facile
 : легко
-*__lihko__*
+*/lihko/*
 
 difficile
 : трудно
-*__troudna__*
+*/troudna/*
 
 difficile
 : сложно
-*__slojna__*
+*/slojna/*
 
 dangereux
 : опасно
-*__apasna__*
+*/apasna/*
 
 
 ## Quantité
 
 un peu
 : немного
-*__nièmnoga__*
+*/nièmnoga/*
 
 beaucoup
 : многие
-*__mnoguié__*
+*/mnoguié/*
 
 
 ## Position
 
 ouvert
 : открыто
-*__atkrîta__*
+*/atkrîta/*
 
 fermé
 : закрыто
-*__zakrîta__*
+*/zakrîta/*
