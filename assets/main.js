@@ -12,6 +12,8 @@
 {% include scripts/base64.js %}
 
 {% include scripts/definition-lists.js %}
+{% include scripts/index.js %}
+
 {% include scripts/filter.js %}
 {% include scripts/cards.js %}
 
@@ -21,8 +23,6 @@
 {% raw %}
 //lazySizes.init();
 {% endraw %}
-
-{% include scripts/index.js %}
 
 {% include scripts/sound-player.js %}
 {% include scripts/cookieconsent.js %}

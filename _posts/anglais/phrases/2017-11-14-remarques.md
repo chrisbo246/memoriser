@@ -4,7 +4,7 @@ title: "Expressions anglaises: Remarques"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/discussion.jpg
   type: "ImageObject"
   width: 640
   height: 360

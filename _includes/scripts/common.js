@@ -25,9 +25,10 @@
 
     var scrollTopDuration = 1000;
     $('a').filter('[href*="#"]').not('[href="#"]').not('[data-toggle="modal"]').not('[data-toggle="collapse"]').not('[data-toggle="tab"]').click(function (e) {
-
       if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
-        var $target = $(this.hash) || $('[name=' + this.hash.slice(1) +']');
+
+        var id = decodeURIComponent(this.hash);
+        var $target = $(id) || $('[name=' + id.slice(1) +']');
 
         if ($target.length) {
 
@@ -149,25 +150,26 @@
 
     if (window.localStorage) {
 
-      var namespace = encodeURIComponent(window.location.pathname);
+      var defaultNamespace = encodeURIComponent(window.location.pathname) + ':';
 
       /**
       * Store / restore checked definitions
       */
       var $inputs = $(':checkbox, :radio').not('[data-storage="false"]'); //.filter('[id]');
       if ($inputs.length) {
-        var $input, $label, name, id, checked, key, value, type;
+        var $input, $label, name, id, checked, key, value, type, namespace;
         $inputs.each(function () {
           $input = $(this);
           $label = $input.parent('.btn');
           name = $input.attr('name');
           id = $input.attr('id');
+          namespace = ($input.is('[data-global="false"]')) ? defaultNamespace : '';
           type = $input.attr('type');
 
           if (type === 'radio') {
             if (name) {
               key = name;
-              value = JSON.parse(localStorage.getItem(namespace + ':' + key));
+              value = JSON.parse(localStorage.getItem(namespace + key));
               if (value !== null && value === $input.attr('value')) {
                 $input.prop('checked', true).trigger('click');
                 $label.addClass('active');
@@ -176,7 +178,7 @@
           } else if (type === 'checkbox') {
             if (id || name) {
               key = id || name;
-              value = JSON.parse(localStorage.getItem(namespace + ':' + key));
+              value = JSON.parse(localStorage.getItem(namespace + key));
               if (value !== null) {
                 $input.prop('checked', value).trigger('click');
                 $label.addClass('active');
@@ -192,6 +194,7 @@
           name = $input.attr('name');
           value = $input.attr('value');
           id = $input.attr('id');
+          namespace = ($input.is('[data-global="false"]')) ? defaultNamespace : '';
           type = $input.attr('type');
           checked = $input.prop('checked');
 
@@ -199,13 +202,13 @@
             if (name && value) {
               key = name;
               value = JSON.stringify((checked) ? value : null);
-              localStorage.setItem(namespace + ':' + key, value);
+              localStorage.setItem(namespace + key, value);
             }
           } else if (type === 'checkbox') {
             if (id || name) {
               key = id || name;
               value = JSON.stringify(checked);
-              localStorage.setItem(namespace + ':' + key, value);
+              localStorage.setItem(namespace + key, value);
             }
           }
 

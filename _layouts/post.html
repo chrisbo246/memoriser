@@ -18,10 +18,10 @@ layout: default
             {% comment %}<label class="col-sm-6" hidden>{{ t.random }}</label>{% endcomment %}
             <div class="btn-group btn-group-toggle btn-group-sm -col-sm-6 w-100" data-toggle="buttons">
               <label class="btn btn-secondary btn-switch active w-50">
-                <input type="radio" name="randomize" value="0" autocomplete="off" checked>{{ t.order }}
+                <input type="radio" name="randomize" value="0" autocomplete="off" checked data-global="false" />{{ t.ordered }}
               </label>
               <label class="btn btn-primary btn-switch w-50">
-                <input type="radio" name="randomize" value="1" autocomplete="off">{{ t.mix }}
+                <input type="radio" name="randomize" value="1" autocomplete="off" data-global="false" />{{ t.mixed }}
               </label>
             </div>
           </div>

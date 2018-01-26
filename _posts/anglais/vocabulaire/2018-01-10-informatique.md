@@ -4,7 +4,7 @@ title: "Vocabulaire anglais: Informatique"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/keyboard.jpg
   type: "ImageObject"
   width: 640
   height: 360

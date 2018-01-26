@@ -4,18 +4,18 @@
   <nav class="navbar fixed-bottom d-flex flex-row justify-content-between w-100 animated fadeInUp">
 
     {% if page.comments != false and site.disqus.shortname %}
-    <button type="button" class="btn btn-outline-secondary -btn-lg mr-auto" data-toggle="collapse" data-target="#comments" aria-controls="#comments" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
+    <button type="button" class="btn btn-outline-secondary mr-auto" data-toggle="collapse" data-target="#comments" aria-controls="#comments" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
       <span class="fa fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/comment-square.svg' | relative_url }}" class="oi oi-lg" alt="comment-square" hidden>{% endcomment %}
     </button>
     {% endif %}
 
     {% if page.layout == 'post' or page.layout == 'definition-lists' %}
-    <a class="btn btn-outline-secondary -btn-sm -btn-block -mb-3" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
+    <a class="btn btn-outline-secondary" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
       {{ t.edit_on_github }}
     </a>
     {% endif %}
 
-    <a href="#top" class="btn btn-outline-secondary -fixed-bottom -m-3 ml-auto" role="button" title="{{ t.scroll_to_top }}">
+    <a href="#top" class="btn btn-outline-secondary ml-auto" role="button" title="{{ t.scroll_to_top }}">
       <i class="fa fa-level-up fa-lg fa-fw iconic iconic-chevron-top iconic-md" aria-hidden="true"></i>
       {% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-top.svg' | relative_url }}" class="oi oi-md" alt="chevron-top" hidden>{% endcomment %}
     </a>

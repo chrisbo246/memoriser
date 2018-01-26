@@ -5,7 +5,7 @@ title: "Tableaux célèbres"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/historic-fresco.jpg
+  path: assets/images/posts/art.jpg
   type: "ImageObject"
   width: 640
   height: 360

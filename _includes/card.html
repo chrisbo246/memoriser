@@ -42,12 +42,6 @@
 {% assign card-classes = include.class | split: ' ' | concat: card-classes %}
 {% endif %}
 
-{% comment %}
-{% if post.weight > 0 %}
-{% assign card-classes = 'bg-primary border-primary text-white' | split: ' ' | concat: card-classes %}
-{% endif %}
-{% endcomment %}
-
 {% assign card-body-classes = 'd-flex flex-column' | split: ' ' %}
 {% if include.body-class %}
 {% assign card-body-classes = include.body-class | split: ' ' | concat: card-body-classes %}

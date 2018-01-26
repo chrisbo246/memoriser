@@ -71,14 +71,16 @@
     * Hide toggler if target is missing
     */
 
-    $('a[href*="#"], button[data-toggle]').each(function () {
+    /*
+    $('a[href*="#"], button[data-toggle][data-target*="#"]').each(function () {
       var $el = $(this);
+      console.log('toggler', $el.attr('href'), $el.attr('data-target'), $el);
       var target = $el.attr('href') || $el.attr('data-target');
-      if (!$(target)) {
+      if (!target || !target.match(/^#[0-9a-zA-Z_-]*$/g) || !$(target)) {
         $el.hide();
       }
     });
-
+    */
 
 
     /**
@@ -87,19 +89,20 @@
 
     if (window.localStorage) {
 
-      var namespace = encodeURIComponent(window.location.pathname);
+      var defaultNamespace = encodeURIComponent(window.location.pathname) + ':';
 
 
       /**
       * Keep alerts closed
       */
 
-      var $alert, key, value;
-      var $alerts = $('.alert-dismissible').filter('[id]');
+      var $alert, $collapse, $togglers, key, value, namespace;
+      var $alerts = $('.alert-dismissible').filter('[id]').not('[data-storage="false"]');
       $alerts.each(function () {
         $alert = $(this);
+        namespace = ($alert.is('[data-global="false"]')) ? defaultNamespace : '';
         key = $alert.attr('id');
-        value = JSON.parse(localStorage.getItem(key));
+        value = JSON.parse(localStorage.getItem(namespace + key));
         if (value === 'closed') {
           $alert.attr('hidden', '');
         } else {
@@ -108,10 +111,12 @@
       });
       $alerts.on('closed.bs.alert', function () {
         $alert = $(this);
+        namespace = ($alert.is('[data-global="false"]')) ? defaultNamespace : '';
         key = $alert.attr('id');
         value = JSON.stringify('closed');
-        localStorage.setItem(key, value);
+        localStorage.setItem(namespace + key, value);
       });
+
 
 
 
@@ -119,16 +124,27 @@
       * Restore collapsed elements states
       */
 
-      var $collapses = $('.collapse').filter('[id]');
+      var $collapses = $('.collapse').filter('[id]').not('[data-storage="false"]');
       $collapses.on('hidden.bs.collapse', function () {
-        localStorage.removeItem(this.id + '_collapse', JSON.stringify(false));
+        $collapse = $(this);
+        namespace = ($collapse.is('[data-global="false"]')) ? defaultNamespace : '';
+        key = this.id + '_collapse';
+        value = false;
+        localStorage.removeItem(namespace + key, JSON.stringify(value));
       });
       $collapses.on('shown.bs.collapse', function () {
-        localStorage.setItem(this.id + '_collapse', JSON.stringify(true));
+        $collapse = $(this);
+        namespace = ($collapse.is('[data-global="false"]')) ? defaultNamespace : '';
+        key = this.id + '_collapse';
+        value = true;
+        localStorage.setItem(namespace + key, JSON.stringify(value));
       });
       $collapses.each(function () {
-        var value = JSON.parse(localStorage.getItem(this.id + '_collapse'));
-        var $togglers = $('button[data-target="#' + this.id + '"], a[href="#' + this.id + '"]');
+        $togglers = $('button[data-target="#' + this.id + '"], a[href="#' + this.id + '"]');
+        $collapse = $(this);
+        namespace = ($togglers.is('[data-global="false"]')) ? defaultNamespace : '';
+        key = this.id + '_collapse';
+        value = JSON.parse(localStorage.getItem(namespace + key));
         if (value === true) {
           $(this).collapse('show');
           $togglers.addClass('active');
