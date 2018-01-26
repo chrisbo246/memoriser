@@ -56,7 +56,7 @@
 
             if ($highlighted.length) {
               var duration = 300;
-              var repeat = 2;
+              var repeat = 1;
               var interval = setInterval(function () {
                 $highlighted.fadeToggle(duration);
               }, duration);

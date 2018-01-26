@@ -10,12 +10,6 @@
   }
 
   .card-body {
-    max-width: 25.9rem;
-    word-wrap: break-word;
-    word-break: break-word;
-  }
-
-  .card-body {
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -30,6 +24,12 @@
       transform: rotateY(-180deg) scale(1.25);
     }
 
+    .card-body {
+      max-width: 25.9rem;
+      word-wrap: break-word;
+      word-break: break-word;
+    }
+    
     .card.front {
 
       .card-title {

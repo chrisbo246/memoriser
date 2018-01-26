@@ -17,11 +17,10 @@ date: 2017-11-22 00:00:00 +0100
 ## Les groupes de verbes et la conjugaison
 
 Groupe       | 1er       | 2eme      | 3eme     | 4eme
+-----------------------------------------------------------
 Verbes en    | -ить      | -ать -ять -еть -овать | -нуть | -aть
 Devient      | -у -ю -и -я -a | -ю -е -ю | -y -ë -y | -у -и -y
------------------------------------------------------------
 infinitif    | говорить  | работать  | вернуть  | бежать
------------------------------------------------------------
 я            | говорю    | работаю   | вернy    | бегy
 ты           | говоришь  | работаeшь | вернëшь  | бежишь
 он, она, оно | говорит   | работаeт  | вернëт   | бежит
@@ -55,11 +54,11 @@ Imperfectif
 : - Action en cours (eq. présent).
   - Action qui se répète dans le temps (eq. imparfait).
 
-On peut reconnaître les verbes imperfectif car ils ont souvent:
+On peut reconnaître les verbes imperfectif car ils ont souvent
 - Le préfixe про, на, по, с.
--Le suffixe ва avant le ть finale.
+- Le suffixe ва avant le ть finale.
 - им ou ин au milieu.
--Le suffixe а lorsque le perfectif est en и.
+- Le suffixe а lorsque le perfectif est en и.
 
 
 ## Les temps
@@ -68,17 +67,19 @@ Il y a seulement 3 temps, le présent, futur, et passé.
 
 ### Présent
 
-: Verbe imperfectif
+Verbe imperfectif
 
 
 ### Futur
 
-: - Verbe être au futur + verbe imperfectif
-  - Verbe perfectif conjugué
+- Verbe être au futur + verbe imperfectif
+- Verbe perfectif conjugué
 
 
 ### Conjugaison des verbes au présent
 
+Sujet        | Terminaison
+-------------------------------
 я            | ю ou y
 ты           | e, ë ou и + шь
 он, она, оно | e, ë ou и + т
@@ -92,8 +93,8 @@ Il y a seulement 3 temps, le présent, futur, et passé.
 Au passé, les verbes s’accordent en genre et en nombre.
 
 masculin
-: л (si le radical se termine par une voyelle)
-  - (si le radical se termine par une consonne)
+: - л (si le radical se termine par une voyelle)
+  - - (si le radical se termine par une consonne)
 
 féminin
 : ла

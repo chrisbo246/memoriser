@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Conjugaison russe"
+layout: definition-lists
+title: "Vocabulaire Russe: Adjectifs perfectifs et imperfectifs"
 description: ""
 excerpt: ""
 image:

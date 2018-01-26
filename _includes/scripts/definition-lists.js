@@ -94,6 +94,15 @@ $.fn.randomize = function (childElem) {
 
 
       /**
+      * Make text between dls full width
+      */
+
+      //$dls.add($titles).first().prevAll().wrapAll('<div class="card m-1 w-100"><div class="card-body"></div></div>');
+      $dls.nextUntil('dl, h2, h3').add($dls.add($titles).first().prevAll()).wrapAll('<div class="card card-info m-1"><div class="card-body"></div></div>');
+
+
+
+      /**
        * Convert child dls into tabs
        */
 
@@ -219,15 +228,6 @@ $.fn.randomize = function (childElem) {
 
 
       /**
-      * Make normal text (not card) into a full width div
-      */
-
-      $dls.add($titles).first().prevAll().wrapAll('<div class="w-100"></div>');
-      $dls.nextUntil('dl, h2, h3').wrapAll('<div class="w-100"></div>');
-
-
-
-      /**
        * If there is an image in the dt tag, us it as card image
        */
 
@@ -312,6 +312,7 @@ $.fn.randomize = function (childElem) {
         if ($(this).is('[value="1"]:checked')) {
           $titles.remove();
           $container.find('.card-section').remove();
+          $container.find('.card-info').remove();
           $container.randomize('.flipcard-wrapper');
           $('#index').closest('.card').prop('hidden', 'hidden');
         } else {
