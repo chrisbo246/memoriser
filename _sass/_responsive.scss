@@ -26,9 +26,9 @@ $grid-gutter-width-base: 30px !default;
 $grid-gutter-width: $grid-gutter-width-base !default;
 
 // Variables
-//$body-padding-top: 3.25rem;
-$body-padding-top: 4rem;
-$body-padding-bottom: 4rem;
+//$body-padding-top: $font-size-base * $btn-line-height + ($navbar-padding-y + $btn-padding-y) * 2; // Standard buttons in navbar
+$body-padding-top: $font-size-lg * $btn-line-height-lg + ($navbar-padding-y + $btn-padding-y-lg) * 2; // Large buttons in navbar
+$body-padding-bottom: $font-size-base * $btn-line-height + ($navbar-padding-y + $btn-padding-y) * 2; // Standard buttons in navbar
 $sticky-margin-top: 1rem;
 $sticky-margin-bottom: 1rem;
 

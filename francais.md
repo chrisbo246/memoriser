@@ -2,8 +2,8 @@
 layout: cards
 title: "Listes de vocabulaire français"
 #subtitle: "Cours de rattrapage"
-description: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
-excerpt: "Du vocabulaire soutenu que vous avez probablement déjà entendu en faisant mine de comprendre."
+description: "Du vocabulaire soutenu et expressions que vous avez probablement déjà entendu en faisant mine de comprendre."
+excerpt: "Du vocabulaire soutenu et expressions que vous avez probablement déjà entendu en faisant mine de comprendre."
 keywords: [
 "apprendre le français", "s'améliorer en français",
 "vocabulaire français", "vocabulaire français", "liste de vocabulaire", "listes de vocabulaire",

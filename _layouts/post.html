@@ -8,42 +8,11 @@ layout: default
   <div class="row clearfix">
     <div class="collapse col col-sm-4 col-md-4 col-lg-3 col-xl-2 order-2" id="post_options">
       <div class="sidebar sticky-top">
-
         {% if page.layout == 'definition-lists' %}
-        <div class="progress mb-3" title="{{ t.progress }}">
-          <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">O%</div>
-        </div>
-        <form>
-          <div class="form-group w-100">
-            {% comment %}<label class="col-sm-6" hidden>{{ t.random }}</label>{% endcomment %}
-            <div class="btn-group btn-group-toggle btn-group-sm -col-sm-6 w-100" data-toggle="buttons">
-              <label class="btn btn-secondary btn-switch active w-50">
-                <input type="radio" name="randomize" value="0" autocomplete="off" checked data-global="false" />{{ t.ordered }}
-              </label>
-              <label class="btn btn-primary btn-switch w-50">
-                <input type="radio" name="randomize" value="1" autocomplete="off" data-global="false" />{{ t.mixed }}
-              </label>
-            </div>
-          </div>
-        </form>
+        {% include progress-bar.html %}
+        {% include dl-settings.html %}
         {% endif %}
-
-        <div class="card mb-3">
-          <div class="card-header">{{ t.index }}</div>
-          <div class="card-body">
-            <ul id="index" class="nav flex-column nav-pills">
-            </ul>
-          </div>
-        </div>
-
-        {% comment %}
-        {% if page.layout == 'post' or page.layout == 'definition-lists' %}
-        <a class="btn btn-outline-secondary btn-sm btn-block mb-3" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" target="_blank" role="button">
-          {{ t.edit_on_github }}
-        </a>
-        {% endif %}
-        {% endcomment %}
-
+        {% include index.html %}
       </div>
     </div>
     <div class="col order-1">

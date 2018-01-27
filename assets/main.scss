@@ -7,8 +7,13 @@
 // Bootstrap override
 //$body-bg: #212529;
 //$body-color: #f8f9fa;
+//$primary: #007bff;
 
-@import "bootstrap";
+
+// Best Bootswatch themes: lux, sketchy
+@import "bootswatch/dist/sketchy/variables";
+@import "bootstrap/scss/bootstrap";
+@import "bootswatch/dist/sketchy/bootswatch";
 
 // Create Bootstrap 3 variable from Bootstrap 4
 $brand-primary: $component-active-bg !default;
@@ -17,10 +22,10 @@ $gray-lighter: $gray-600 !default;
 $gray-dark: $gray-900 !default;
 
 $fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
-@import "font-awesome";
+@import "font-awesome/scss/font-awesome";
 
 //$icon-font-path: "{{ '/bower_components/open-iconic/font/fonts/' | relative_url }}";
-//@import "open-iconic-bootstrap";
+//@import "open-iconic/font/css/open-iconic-bootstrap";
 
 //@import "{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url | prepend: '../..' }}";
 //@import "{{ '/bower_components/animate.css/animate.min.css' | relative_url | prepend: '../..' }}";
@@ -31,6 +36,7 @@ $fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
 @import "mixins/scrollbar";
 @import "mixins/fixed-ad";
 @import "lazysizes";
+@import "random";
 //@import "browser-update";
 @import "utilities/spinner";
 
@@ -59,11 +65,16 @@ img.oi {
 
 
 // logo
-
+.navbar-brand {
+  font-size: 3rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
 .navbar-brand .fa {
   display: inline-block;
   margin-top: -50%;
   margin-bottom: -50%;
+  line-height: 1rem;
   //font-size: 2rem;
   transform: rotate(45deg);
 }
@@ -81,8 +92,26 @@ img.oi {
   margin-bottom: -1px;
 }
 
-.navbar-dark .navbar-brand img {
-  filter: invert(100%);
+.navbar-dark {
+  .navbar-brand img {
+    filter: invert(100%);
+  }
+  .navbar-text .breadcrumb-item.active {
+    color: $white;
+    &:before {
+      color: $white;
+    }
+    //@extend .navbar-text;
+  }
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show>.btn-outline-light.dropdown-toggle {
+  @each $color, $value in $theme-colors {
+    .navbar.bg-#{$color} & {
+      color: $value;
+    }
+  }
 }
 
 
@@ -121,6 +150,8 @@ img.oi {
 // Posts
 
 .post-content {
+
+  font-family: sans-serif;
 
   h2, h3, h4, h5, h6 {
     color: $gray-lightest;

@@ -41,13 +41,10 @@ plugins:
 
 sass:
   style: compressed
-#  sass_dir: _sass
   load_paths:
     - _sass
-    - bower_components/bootstrap/scss
-    - bower_components/cookieconsent/build
-    - bower_components/font-awesome/scss
-    - bower_components/open-iconic/font/css
+    - bower_components
+
 
 
 # ------------------------------------------------------------------------------
