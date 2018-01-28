@@ -4,12 +4,10 @@ title: "Les capitales du monde"
 description: ""
 excerpt: ""
 image:
-  default:
-    path: assets/images/posts/world-map.jpg
-    width: 640
-    height: 360
-  facebook: assets/images/posts/world-map.jpg
-  twitter: assets/images/posts/world-map.jpg
+  path: assets/images/posts/paris.png
+  type: "ImageObject"
+  width: 600
+  height: 400
 categories: ["geographie"]
 tags: ["pays", "capital"]
 dateModified: 2017-11-10 00:00:00 +0100

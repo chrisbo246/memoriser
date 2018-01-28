@@ -4,10 +4,10 @@ title: "Russe: Pronoms personnels"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe"]
 tags: pronom"]
 date: 2017-12-27 00:00:00 +0100

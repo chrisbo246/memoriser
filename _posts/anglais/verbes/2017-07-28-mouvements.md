@@ -4,10 +4,10 @@ title: "Verbes anglais: Mouvements"
 description: "Liste de verbes et expressions pour décrire un mouvement en anglais."
 excerpt: "Liste de verbes et expressions pour décrire un mouvement en anglais."
 image:
-  path: assets/images/posts/dancer.jpg
+  path: assets/images/posts/walking.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "verbes"]
 tags: ["mouvement"]
 date: 2017-03-28 20:51:00 +0100

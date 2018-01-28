@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Corps humain"
 description: "Liste de vocabulaire russe courant relatif au corps humain."
 excerpt: "Liste de vocabulaire russe courant relatif au corps humain."
 image:
-  path: assets/images/posts/eye.jpg
+  path: assets/images/posts/eye.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: ["personne", "corps", "membre", "organe", "os"]
 date: 2017-11-04 00:00:00 +0100

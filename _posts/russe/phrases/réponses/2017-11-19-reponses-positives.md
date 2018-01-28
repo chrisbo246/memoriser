@@ -4,10 +4,10 @@ title: "Phrases russe: Réponses positives"
 description: "Liste de vocabulaire russe."
 excerpt: "Liste de vocabulaire russe."
 image:
-  path: assets/images/posts/congratulation.jpg
+  path: assets/images/posts/congratulation.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["réponse"]
 date: 2017-08-22 00:00:00 +0100

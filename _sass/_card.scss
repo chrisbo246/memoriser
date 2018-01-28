@@ -44,7 +44,7 @@
   &.card-img-faded {
     &.lazyloading,
     &.lazyloaded {
-      opacity: .25;
+      opacity: .15;
     }
 
   }
@@ -129,26 +129,50 @@
 
 
 
-.card-columns .card.front {
 
-  .progress {
-    height: 3px;
+
+
+
+.post-list {
+
+  //perspective: 5000px;
+
+  .card {
+    min-width: 25rem;
+    min-height: 14rem;
   }
 
-  &:before {
-    font-size: 16rem;
-    opacity: .25;
-  }
+  .card-flip {
 
-  &.bg-success {
-    &:before {
-      //content:'\e033'; // iconic
-      content: "\f00c"; // font-awesome
+    .card-body {
+      max-width: 30rem;
+      word-wrap: break-word;
+      word-break: break-word;
     }
+
+    .card.front {
+
+      .progress {
+        height: 3px;
+      }
+
+      &:before {
+        font-size: 16rem;
+        opacity: .25;
+      }
+
+      &.bg-success {
+        &:before {
+          //content:'\e033'; // iconic
+          content: "\f00c"; // font-awesome
+        }
+      }
+
+    }
+
   }
 
 }
-
 
 
 

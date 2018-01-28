@@ -5,10 +5,10 @@ title: "Полюшко-поле (Polyushko-pole / Plaine, ma plaine)"
 description: "Chant composé en 1934 par Lev Knipper, paroles de Viktor Goussev."
 excerpt: "Chant composé en 1934 par Lev Knipper, paroles de Viktor Goussev."
 image:
-  path: assets/images/posts/micro.jpg
+  path: assets/images/posts/micro.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "chansons"]
 tags: []
 date: 2017-12-31 00:00:00 +010

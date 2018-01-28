@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Commerces"
 description: "Liste de vocabulaire anglais courant relatif aux commerces et différents lieux publiques."
 excerpt: "Liste de vocabulaire anglais courant relatif aux commerces et différents lieux publiques."
 image:
-  path: assets/images/posts/shops.jpg
+  path: assets/images/posts/shopping-street.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: ["commerce", "service de proximité", "service public"]
 date: 2017-01-01 00:00:00 +0100

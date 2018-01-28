@@ -4,10 +4,10 @@ title: "Vocabulaire français: Politique"
 description: "Liste de vocabulaire français relatif à la politique."
 excerpt: "Liste de vocabulaire français relatif à la politique."
 image:
-  path: assets/images/posts/chancellery.jpg
+  path: assets/images/posts/chancellery.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "vocabulaire"]
 tags: ["politique"]
 date: 2017-01-01 00:00:00 +0100

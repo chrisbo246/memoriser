@@ -4,10 +4,10 @@ title: "Expressions anglaises: Formules de politesse"
 description: "Liste de formules de politesse en anglais."
 excerpt: "Liste de formules de politesse en anglais."
 image:
-  path: assets/images/posts/congratulation.jpg
+  path: assets/images/posts/congratulation.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "phrases"]
 tags: ["politesse"]
 weight: 1

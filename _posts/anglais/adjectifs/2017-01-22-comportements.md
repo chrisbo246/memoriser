@@ -4,10 +4,10 @@ title: "Adjectifs anglais: Comportements"
 description: "Liste de vocabulaire anglais courant relatif au comportement d'une personne."
 excerpt: "Liste de vocabulaire anglais courant relatif au comportement d'une personne."
 image:
-  path: assets/images/posts/smiling-woman.jpg
+  path: assets/images/posts/friends.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "adjectifs"]
 tags: [
 "personne", "comportement"

@@ -4,10 +4,10 @@ title: "Adjectifs anglais: Adjectifs"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/english-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "adjectifs"]
 tags: [
 

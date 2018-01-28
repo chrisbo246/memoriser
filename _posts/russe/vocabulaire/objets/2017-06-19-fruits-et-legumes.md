@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Fruits et légumes"
 description: "Liste de vocabulaire russe courant relatif aux fruits et légumes."
 excerpt: "Liste de vocabulaire russe courant relatif aux fruits et légumes."
 image:
-  path: assets/images/posts/vegetables.jpg
+  path: assets/images/posts/vegetables.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: [objet, alimentation, aliment, fruit, légume]
 date: 2017-01-01 00:00:00 +0100

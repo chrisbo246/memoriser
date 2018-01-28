@@ -1,30 +1,30 @@
-<div class="card -jumbotron -jumbotron-fluid -bg-white text-danger -text-right mb-2">
-  <div class="card-body -container">
-    <h4 class="card-title -display-4">
+<div class="card border-info text-info mb-2">
+  <div class="card-body">
+    <h4 class="card-title">
       {% comment %}<i class="fa fa-heart fa-3x pull-left" aria-hidden="true"></i>
       <img src="{{ '/bower_components/open-iconic/svg/heart.svg' | relative_url }}" class="oi oi-3x pull-left" alt="heart" hidden>{% endcomment %}
       {{ t.help_tip_title }}
     </h4>
-    <p class="card-text -lead">{{ t.help_tip_text }}</p>
+    <p class="card-text">{{ t.help_tip_text }}</p>
   </div>
   <footer class="card-footer bg-transparent border-0">
-    <a class="btn btn-danger" href="{{ '/' | append: lang | append: '/faq/' | relative_url }}" role="button">
+    <a class="btn btn-info" href="{{ '/' | append: lang | append: '/faq/' | relative_url }}" role="button">
       <i class="fa fa-question-circle fa-lg mr-2" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/question-mark.svg' | relative_url }}" class="oi oi-lg mr-2" alt="question-mark" hidden>{% endcomment %}{{ t.read_help }}
     </a>
   </footer>
 </div>
 
-<div class="card -jumbotron -jumbotron-fluid -bg-white text-muted mb-2">
-  <div class="card-body -container">
-    <h4 class="card-title -display-4">
+<div class="card border-info text-info mb-2">
+  <div class="card-body">
+    <h4 class="card-title">
       {% comment %}<i class="fa fa-envelope fa-3x pull-right" aria-hidden="true"></i>
       <img src="{{ '/bower_components/open-iconic/svg/envelope-closed.svg' | relative_url }}" class="oi oi-3x pull-right" alt="envelope-closed" hidden>{% endcomment %}
       {{ t.contact_tip_title }}
     </h4>
-    <p class="card-text -lead">{{ t.contact_tip_text }}</p>
+    <p class="card-text">{{ t.contact_tip_text }}</p>
   </div>
   <footer class="card-footer bg-transparent border-0">
-    <a class="btn btn-secondary" href="https://docs.google.com/forms/d/1twlFd6Y3-BNf9l1JTH42yatGEQvXgpmm_wd_2wOLlS0/prefill" role="button">
+    <a class="btn btn-info" href="https://docs.google.com/forms/d/1twlFd6Y3-BNf9l1JTH42yatGEQvXgpmm_wd_2wOLlS0/prefill" role="button">
       <span class="fa fa-envelope fa-lg mr-2" aria-hidden="true"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/envelope-closed.svg' | relative_url }}" class="oi oi-lg mr-2" alt="envelope-closed" hidden>{% endcomment %}{{ t.contact_form }}
     </a>
   </footer>

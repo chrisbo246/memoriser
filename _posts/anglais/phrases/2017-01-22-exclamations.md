@@ -4,10 +4,10 @@ title: "Expressions anglaises: Exclamations"
 description: "Liste de vocabulaire anglais regroupant quelques exclamations et onomatopées courantes."
 excerpt: "Liste de vocabulaire anglais regroupant quelques exclamations et onomatopées courantes."
 image:
-  path: assets/images/posts/onomatopoeia.jpg
+  path: assets/images/posts/onomatopoeia.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "phrases"]
 tags: ["exclamation", "onomatopée"]
 date: 2017-03-28 20:51:00 +0100

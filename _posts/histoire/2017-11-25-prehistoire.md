@@ -4,10 +4,10 @@ title: "Les grandes dates: La préhistoire"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/t-rex.jpg
+  path: assets/images/posts/dinausor.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["histoire"]
 tags: []
 dateModified: 2017-11-25 00:00:00 +0100

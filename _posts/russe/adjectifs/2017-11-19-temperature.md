@@ -4,10 +4,10 @@ title: "Adjectifs russe: Température"
 description: "Liste de vocabulaire russe relatif à la température et au climat."
 excerpt: "Liste de vocabulaire russe relatif à la température et au climat."
 image:
-  path: assets/images/posts/freeze.jpg
+  path: assets/images/posts/freeze.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "adjectifs"]
 tags: ["température", "climat", "météo"]
 date: 2017-10-02 00:00:00 +0100

@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Véhicules"
 description: "Liste de vocabulaire russe regroupant les différent modes de transport."
 excerpt: "Liste de vocabulaire russe regroupant les différent modes de transport."
 image:
-  path: assets/images/posts/vehicles.jpg
+  path: assets/images/posts/traffic.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: [
   objet, mobilité, véhicule

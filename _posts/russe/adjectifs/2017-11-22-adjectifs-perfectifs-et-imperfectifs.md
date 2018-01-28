@@ -4,10 +4,10 @@ title: "Vocabulaire Russe: Adjectifs perfectifs et imperfectifs"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "adjectifs"]
 tags: ["perfectif", "imperfectif"]
 weight: 100

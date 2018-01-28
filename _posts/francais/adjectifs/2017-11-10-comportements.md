@@ -4,10 +4,10 @@ title: "Adjectifs soutenus: Comportements"
 description: "Liste de vocabulaire français regroupant des adjectifs soutenus relativement courant."
 excerpt: "Liste de vocabulaire français regroupant des adjectifs soutenus relativement courant."
 image:
-  path: assets/images/posts/smiling-woman.jpg
+  path: assets/images/posts/friends.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "adjectifs"]
 tags: ["personne", "comportement"]
 date: 2017-04-01 00:00:00 +0100

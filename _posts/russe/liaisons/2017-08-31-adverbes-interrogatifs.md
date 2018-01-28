@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Adverbes interrogatifs"
 description: "Liste de vocabulaire russe regroupant les principaux adverbes interrogatifs."
 excerpt: "Liste de vocabulaire russe regroupant les principaux adverbes interrogatifs."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "liaisons"]
 tags: [adverbe, conjonction]
 date: 2017-08-31 00:00:00 +0100

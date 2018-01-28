@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Objets du quotidien"
 description: "Liste de vocabulaire russe courant relatif aux objets du quotidien."
 excerpt: "Liste de vocabulaire russe courant relatif aux objets du quotidien."
 image:
-  path: assets/images/posts/living-room.jpg
+  path: assets/images/posts/living-room.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: [
   objet, maison

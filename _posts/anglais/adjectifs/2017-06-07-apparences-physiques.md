@@ -4,10 +4,10 @@ title: "Adjectifs anglais: Apparences physiques"
 description: "Liste de vocabulaire anglais courant relatif à l'apparence physique d'une personne."
 excerpt: "Liste de vocabulaire anglais courant relatif à l'apparence physique d'une personne."
 image:
-  path: assets/images/posts/man.jpg
+  path: assets/images/posts/woman.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "adjectifs"]
 tags: ["personne", "apparence"]
 date: 2017-03-28 20:51:00 +0100

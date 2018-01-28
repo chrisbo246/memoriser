@@ -4,9 +4,9 @@ title: "Vocabulaire anglais: Divisions administratives"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/city.jpg
+  path: assets/images/posts/city.png
   type: "ImageObject"
-  width: 640
+  width: 600
   height: 36
 categories: ["anglais", "vocabulaire"]
 tags: ["place"]

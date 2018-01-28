@@ -4,10 +4,10 @@ title: "Vocabulaire français: Expressions"
 description: "Liste d'expressions françaises courantes et moins courantes."
 excerpt: "Liste d'expressions françaises courantes et moins courantes."
 image:
-  path: assets/images/posts/french-dictionary.jpg
+  path: assets/images/posts/french-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "expressions"]
 tags: []
 date: 2017-03-22 17:15:00 +0100

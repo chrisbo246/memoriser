@@ -4,10 +4,10 @@ title: "Compléments anglais: Expressions"
 description: "Liste d'expressions anglaises courantes."
 excerpt: "Liste d'expressions anglaises courantes."
 image:
-  path: assets/images/posts/expression.jpg
+  path: assets/images/posts/expression.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "expressions"]
 tags: [
 

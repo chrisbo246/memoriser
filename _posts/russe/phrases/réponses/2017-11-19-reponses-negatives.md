@@ -4,10 +4,10 @@ title: "Phrases russe: Réponses négatives"
 description: "Liste de vocabulaire russe."
 excerpt: "Liste de vocabulaire russe."
 image:
-  path: assets/images/posts/negative-answer.jpg
+  path: assets/images/posts/angry-man.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["réponse"]
 date: 2017-08-22 00:00:00 +0100

@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Commerces"
 description: "Liste de vocabulaire russe courant relatif aux commerces."
 excerpt: "Liste de vocabulaire russe courant relatif aux commerces."
 image:
-  path: assets/images/posts/shops.jpg
+  path: assets/images/posts/shopping-street.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: ["place", "construction", "bâtiment"]
 date: 2017-11-04 00:00:00 +0100

@@ -4,10 +4,10 @@ title: "Phrases russe: Se présenter"
 description: "Liste de phrases permettant de se présenter en russe."
 excerpt: "Liste de phrases permettant de se présenter en russe."
 image:
-  path: assets/images/posts/handshake.jpg
+  path: assets/images/posts/handshake.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["déclaration", "présentation"]
 date: 2017-08-21 00:00:00 +0100

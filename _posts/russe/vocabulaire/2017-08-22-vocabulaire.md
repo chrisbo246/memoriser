@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Vocabulaire"
 description: "Liste de vocabulaire russe en vrac."
 excerpt: "Liste de vocabulaire russe en vrac."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: [
 

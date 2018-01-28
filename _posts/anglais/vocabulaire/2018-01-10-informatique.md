@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Informatique"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/keyboard.jpg
+  path: assets/images/posts/keyboard.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: [
 

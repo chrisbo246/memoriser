@@ -4,10 +4,10 @@ title: "Compléments anglais: Positions"
 description: "Liste de vocabulaire anglais courant relatif à la position d'un objet ou d'une personne."
 excerpt: "Liste de vocabulaire anglais courant relatif à la position d'un objet ou d'une personne."
 image:
-  path: assets/images/posts/right-arrow.jpg
+  path: assets/images/posts/point-right.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "compléments"]
 tags: ["position", "distance"]
 date: 2017-03-28 20:51:00 +0100

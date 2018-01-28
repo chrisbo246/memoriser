@@ -4,10 +4,10 @@ title: "Caractères Cyrilliques"
 description: "Apprendre rapidement et facilement l'alphabet russe par la phonétique."
 excerpt: "Apprendre rapidement et facilement l'alphabet  russe par la phonétique."
 image:
-  path: assets/images/posts/letters.jpg
+  path: assets/images/posts/letters.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe"]
 tags: ["alphabet", "cyrillique"]
 weight: 100

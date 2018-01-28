@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Délinquance"
 description: "Liste de vocabulaire anglais courant relatif à la délinquance."
 excerpt: "Liste de vocabulaire anglais courant relatif à la délinquance."
 image:
-  path: assets/images/posts/badass.jpg
+  path: assets/images/posts/badass.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: ["crime", "agression"]
 date: 2017-06-07 00:00:00 +0100

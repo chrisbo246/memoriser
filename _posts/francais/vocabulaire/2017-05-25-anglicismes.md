@@ -4,10 +4,10 @@ title: "Vocabulaire français: Anglicismes"
 description: "Liste de vocabulaire anglais couramment utilisé en France."
 excerpt: "Liste de vocabulaire anglais couramment utilisé en France."
 image:
-  path: assets/images/posts/english-stufs.jpg
+  path: assets/images/posts/english-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "vocabulaire"]
 tags: ["anglicisme"]
 date: 2017-01-01 00:00:00 +0100

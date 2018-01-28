@@ -4,10 +4,10 @@ title: "Adjectifs russe: Comportements"
 description: "Liste d'adjectifs russe relatif au qualités et défauts."
 excerpt: "Liste d'adjectifs russe relatif au qualités et défauts."
 image:
-  path: assets/images/posts/smiling-woman.jpg
+  path: assets/images/posts/friends.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "adjectifs"]
 tags: []
 date: 2017-10-13 00:00:00 +0100

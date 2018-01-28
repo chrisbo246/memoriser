@@ -214,7 +214,7 @@ $.fn.randomize = function (childElem) {
         $title = $(this);
         id = $title.attr('id') || encodeURIComponent($title.text());
         $title.replaceWith(
-          '<div class="card front card-section bg-info text-white -text-muted m-1">'
+          '<div class="card front card-section bg-primary text-white m-1" data-section="' + id + '">'
           + '<div class="card-body d-flex bg-faded text-center">'
           + '<h4 class="card-title m-auto" ' + ((id) ? ' id="' + id + '"' : '') + '>'
           + $title.html()

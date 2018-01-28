@@ -4,10 +4,10 @@ title: "Expressions russe: Exclamations et onomatopées"
 description: "Liste de vocabulaire russe recensant les exclamations les plus courantes."
 excerpt: "Liste de vocabulaire russe recensant les exclamations les plus courantes."
 image:
-  path: assets/images/posts/onomatopoeia.jpg
+  path: assets/images/posts/onomatopoeia.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "expressions"]
 tags: ["expression", "exclamation"]
 date: 2017-01-22 00:00:00 +0100

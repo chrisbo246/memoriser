@@ -4,10 +4,10 @@ title: "Vocabulaire français: Expressions erronées"
 description: "Liste d'expressions souvent mal utilisées ou mal orthographiées."
 excerpt: "Liste d'expressions souvent mal utilisées ou mal orthographiées."
 image:
-  path: assets/images/posts/expression.jpg
+  path: assets/images/posts/french-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "expressions"]
 tags: ["expressions françaises"]
 date: 2017-03-22 17:13:00 +0100

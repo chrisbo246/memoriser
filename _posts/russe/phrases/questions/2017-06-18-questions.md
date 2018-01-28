@@ -4,10 +4,10 @@ title: "Phrases russe: Questions courantes"
 description: "Liste de questions courantes en russe."
 excerpt: "Liste de questions courantes en russe."
 image:
-  path: assets/images/posts/discussion.jpg
+  path: assets/images/posts/talk.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["question"]
 date: 2017-06-18 00:00:00 +0100

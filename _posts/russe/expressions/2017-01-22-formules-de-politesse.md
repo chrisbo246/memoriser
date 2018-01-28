@@ -4,10 +4,10 @@ title: "Expressions russe: Formules de politesse"
 description: "Liste de vocabulaire russe courant relatif aux formules de politesse."
 excerpt: "Liste de vocabulaire russe courant relatif aux formules de politesse."
 image:
-  path: assets/images/posts/handshake.jpg
+  path: assets/images/posts/congratulation.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "expressions"]
 tags: ["expression", "politesse"]
 weight: 1

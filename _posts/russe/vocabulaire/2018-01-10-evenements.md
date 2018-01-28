@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Évènements"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/party.jpg
+  path: assets/images/posts/party.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: ["date","fête"]
 date: 2018-01-10 00:00:00 +0100

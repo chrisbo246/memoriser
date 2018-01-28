@@ -5,10 +5,10 @@ title: "Эх, яблочко (Eh, yablotchka)"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/micro.jpg
+  path: assets/images/posts/micro.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "chansons"]
 tags: []
 date: 2017-12-12 00:00:00 +010

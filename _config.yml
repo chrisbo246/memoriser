@@ -153,13 +153,13 @@ defaults:
       comments: true
       permalink: /:categories/:title.html
       #permalink: /:categories/:short_year:month:day-:title.html
-      #image:
+      image:
         #path: "assets/images/posts/english-dictionary.jpg"
         #twitter: "assets/images/posts/english-dictionary.jpg"
         #facebook: "assets/images/posts/english-dictionary.jpg"
-        #type: "ImageObject"
-        #width: 640
-        #height: 360
+        type: "ImageObject"
+        width: 600
+        height: 400
   -
     scope:
       path: "_categories"

@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Outillage industriel"
 description: "Liste de vocabulaire anglais courant relatif à l'industrie."
 excerpt: "Liste de vocabulaire anglais courant relatif à l'industrie."
 image:
-  path: assets/images/posts/drills.jpg
+  path: assets/images/posts/carbide-mills.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: [
 "objet", "bricolage", "outil", "mécanique"

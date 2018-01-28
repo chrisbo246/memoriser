@@ -4,10 +4,10 @@ title: "Conjugaison russe"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe"]
 tags: ["conjugaison"]
 weight: 100

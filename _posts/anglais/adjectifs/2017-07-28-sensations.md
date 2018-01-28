@@ -4,10 +4,10 @@ title: "Adjectifs anglais: Sensations"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/sensation.jpg
+  path: assets/images/posts/smelling.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "adjectifs"]
 tags: ["sensation", "goût", "touché"]
 date: 2017-07-28 00:00:00 +0100

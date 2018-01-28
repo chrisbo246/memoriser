@@ -4,10 +4,10 @@ title: "Phrases russe: Marchander"
 description: "Liste de questions pour se renseigner, commander et payer en russe."
 excerpt: "Liste de questions pour se renseigner, commander et payer en russe."
 image:
-  path: assets/images/posts/patisserie.jpg
+  path: assets/images/posts/money.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["question", "commerce", "acheter", "négocier", "payer"]
 date: 2017-08-18 00:00:00 +0100

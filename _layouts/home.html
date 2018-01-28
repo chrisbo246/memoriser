@@ -12,7 +12,7 @@ layout: default
           {% include info-cards.html %}
         </div>
       </div>
-      <div class="col order-1">
+      <div class="col order-1 p-0">
 
         <div class="jumbotron bg-transparent mb-3" hidden>
           <h1 class="display-3">{{ page.title | default: site.title }}</h1>
@@ -24,23 +24,23 @@ layout: default
           {% endif %}
         </div>
 
-        {% assign posts = site.pages | where_exp: 'item', 'item.categories' | sort: 'title' %}
+        {% assign posts = site.pages | where_exp: 'item', 'item.categories' | sort: 'title' | reverse | sort: 'weight' | reverse %}
         {% if posts.size > 0 %}
         <div class="row">
           <div class="col">
             <h2 class="display-4 text-muted" hidden>{{ t.theme_list }}</h2>
-            <div class="-card-deck card-columns -gap-0">
+            <div class="post-list -card-deck -card-columns d-flex flex-row flex-wrap -justify-content-between">
               {% for post in posts %}
               {% if post.url and post.title %}
               <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
-              <div class="card card-flip {% include filter-tags.html post=post %}">
+              <div class="card card-flip m-1 {% include filter-tags.html post=post %}">
                 {% if post.weight > 0 %}
                 {% assign class = 'bg-primary text-white' %}
                 {% else %}
                 {% assign class = 'bg-dark text-white' %}
                 {% endif %}
-                {% include card.html face="front" post=post class="bg-dark text-white" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
-                {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
+                {% include card.html face="front" post=post class="card-position-absolute" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
+                {% include card.html face="back" post=post class="bg-white text-dark" %}
               </div>
               {% endif %}
               {% endfor %}

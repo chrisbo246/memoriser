@@ -4,12 +4,10 @@ title: "Vocabulaire français: Actions de groupe"
 description: ""
 excerpt: ""
 image:
-  default:
-    path: assets/images/posts/french-dictionary.jpg
-    width: 640
-    height: 360
-  facebook: assets/images/posts/english-dictionary.jpg
-  twitter: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/work-meeting.png
+  type: "ImageObject"
+  width: 600
+  height: 400
 categories: ["francais", "vocabulaire"]
 tags: []
 dateModified: 2018-01-12 00:00:00 +0100

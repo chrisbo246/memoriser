@@ -5,10 +5,10 @@ title: "Tableaux célèbres"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/art.jpg
+  path: assets/images/posts/museum.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["art"]
 tags: []
 date: 2018-01-22 00:00:00 +010

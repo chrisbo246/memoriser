@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Matériaux naturels"
 description: "Liste de vocabulaire anglais courant relatif aux différents matériaux naturels."
 excerpt: "Liste de vocabulaire anglais courant relatif aux différents matériaux naturels."
 image:
-  path: assets/images/posts/soil.jpg
+  path: assets/images/posts/forest-path.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: [
 "matière"

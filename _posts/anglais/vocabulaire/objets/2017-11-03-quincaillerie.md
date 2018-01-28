@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Quicaillerie"
 description: "Liste de vocabulaire anglais courant relatif aux composants mécaniques."
 excerpt: "Liste de vocabulaire anglais courant relatif aux composants mécaniques."
 image:
-  path: assets/images/posts/bolts.jpg
+  path: assets/images/posts/bolts.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: ["objet", "bricolage"]
 date: 2017-11-03 00:00:00 +0100

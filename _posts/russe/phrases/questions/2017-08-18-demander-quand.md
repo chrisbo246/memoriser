@@ -4,10 +4,10 @@ title: "Phrases russe: Demander quand"
 description: "Phrases permettant de demander l'heure et la date du jour en russe."
 excerpt: "Phrases permettant de demander l'heure et la date du jour en russe."
 image:
-  path: assets/images/posts/check-time.jpg
+  path: assets/images/posts/check-time.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["question", "date", "heure"]
 date: 2017-08-18 00:00:00 +0100

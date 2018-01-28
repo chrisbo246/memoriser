@@ -4,10 +4,10 @@ title: "Expressions anglaises: Salutations"
 description: "Liste d'expressions pour saluer et dire au revoir en anglais."
 excerpt: "Liste d'expressions pour saluer et dire au revoir en anglais."
 image:
-  path: assets/images/posts/handshake.jpg
+  path: assets/images/posts/handshake.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "phrases"]
 tags: ["politesse"]
 weight: 1

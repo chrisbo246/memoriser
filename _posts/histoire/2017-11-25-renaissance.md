@@ -4,10 +4,10 @@ title: "Les grandes dates: La renaissance"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/french-revolution.jpg
+  path: assets/images/posts/french-revolution.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["histoire"]
 tags: []
 dateModified: 2017-11-25 00:00:00 +0100

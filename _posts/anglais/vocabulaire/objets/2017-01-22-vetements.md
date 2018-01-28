@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Vêtements"
 description: "Liste de vocabulaire anglais courant aux vêtements."
 excerpt: "Liste de vocabulaire anglais courant relatif aux vêtements."
 image:
-  path: assets/images/posts/clothes.jpg
+  path: assets/images/posts/men-garments.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: [
 "objet", "vêtement"

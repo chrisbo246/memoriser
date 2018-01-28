@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Corps humain"
 description: "Liste de vocabulaire anglais courant relatif au corps humain."
 excerpt: "Liste de vocabulaire anglais courant relatif au corps humain."
 image:
-  path: assets/images/posts/eye.jpg
+  path: assets/images/posts/eye.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: [
 "personne", "membre", "organe", "or"

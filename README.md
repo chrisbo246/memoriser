@@ -37,6 +37,7 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 - Smooth scroll.
 - Sounds on events.
 - Font-awesome icons.
+- Bootwatch theme.
 
 #### SEO
 

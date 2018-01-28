@@ -4,10 +4,10 @@ title: "Prononciation russe"
 description: "Apprendre rapidement et facilement l'alphabet russe par la phonétique."
 excerpt: "Apprendre rapidement et facilement l'alphabet  russe par la phonétique."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe"]
 tags: ["cyrillique"]
 weight: 100

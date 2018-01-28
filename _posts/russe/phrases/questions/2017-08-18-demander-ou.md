@@ -4,10 +4,10 @@ title: "Phrases russe: Demander son chemin en russe"
 description: "Questions permettant de demander son chemin en russe."
 excerpt: "Questions permettant de demander son chemin en russe."
 image:
-  path: assets/images/posts/ask-direction.jpg
+  path: assets/images/posts/ask-direction.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["question", "mobilité"]
 date: 2017-08-18 00:00:00 +0100

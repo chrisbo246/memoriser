@@ -5,10 +5,10 @@ title: "Калинка Малинка (Kalinka Malinka)"
 description: "Célèbre chant russe écrit et composé en 1860 par Ivan Petrovitch Larionov."
 excerpt: "Célèbre chant russe écrit et composé en 1860 par Ivan Petrovitch Larionov."
 image:
-  path: assets/images/posts/micro.jpg
+  path: assets/images/posts/micro.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "chansons"]
 tags: []
 weight: 100

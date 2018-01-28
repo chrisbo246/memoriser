@@ -4,10 +4,10 @@ title: "Vocabulaire français: Expressions latines"
 description: "Liste de vocabulaire français regroupant des expressions latines relativement courantes."
 excerpt: "Liste de vocabulaire français regroupant des expressions latines relativement courantes."
 image:
-  path: assets/images/posts/french-dictionary.jpg
+  path: assets/images/posts/french-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "expressions"]
 tags: [latin", "expressions latines"]
 date: 2017-03-22 17:13:00 +0100

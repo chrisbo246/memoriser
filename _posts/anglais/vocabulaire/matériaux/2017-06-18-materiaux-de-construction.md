@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Matériaux de construction"
 description: "Liste de vocabulaire anglais courant relatif aux matériaux de construction."
 excerpt: "Liste de vocabulaire anglais courant relatif aux matériaux de construction."
 image:
-  path: assets/images/posts/concrete.jpg
+  path: assets/images/posts/interior-design.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: ["matière"]
 date: 2017-03-22 18:08:00 +0100

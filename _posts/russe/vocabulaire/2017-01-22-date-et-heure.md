@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Date et heure"
 description: "Liste de vocabulaire russe permettant de dire l'heure et une date."
 excerpt: "Liste de vocabulaire russe permettant de dire l'heure et une date."
 image:
-  path: assets/images/posts/check-time.jpg
+  path: assets/images/posts/check-time.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: [
   date, heure

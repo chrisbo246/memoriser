@@ -4,9 +4,9 @@ title: "Vocabulaire anglais: Ingrédients de cuisine"
 description: "Liste de vocabulaire anglais courant pour cuisiner."
 excerpt: "Liste de vocabulaire anglais courant pour cuisiner."
 image:
-  path: assets/images/posts/baking.jpg
+  path: assets/images/posts/baking.png
   type: "ImageObject"
-  width: 640
+  width: 600
   height: 36
 categories: ["anglais", "vocabulaire"]
 tags: ["aliment", "cuisine", "ingrédient", "condiment", "épice"]

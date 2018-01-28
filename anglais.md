@@ -15,12 +15,13 @@ keywords: [
 image:
   path: "assets/images/pages/fr-en.png"
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 collection_type: "posts"
 tags: []
 categories: ["anglais"]
 comments: false
+weight: 100
 nav:
   id: "secondary-nav"
   label: "Français-Anglais"

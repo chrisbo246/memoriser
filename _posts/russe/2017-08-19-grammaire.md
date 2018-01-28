@@ -4,10 +4,10 @@ title: "Grammaire russe"
 description: "Apprendre à reconnaître les genres et le pluriel."
 excerpt: "Apprendre à reconnaître les genres et le pluriel."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe"]
 tags: ["grammaire"]
 weight: 100

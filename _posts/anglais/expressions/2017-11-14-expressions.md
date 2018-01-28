@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Expressions"
 description: "Liste d'expressions anglaises en vrac."
 excerpt: "Liste d'expressions anglaises en vrac."
 image:
-  path: assets/images/posts/onomatopoeia.jpg
+  path: assets/images/posts/onomatopoeia.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "expressions"]
 tags: []
 date: 2017-03-28 20:51:00 +0100

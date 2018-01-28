@@ -4,10 +4,10 @@ title: "Verbes anglais: Ressentis"
 description: "Liste de verbes et expressions courantes pour décrire un ressenti en anglais."
 excerpt: "Liste de vocabulaire anglais courant relatif aux sensations."
 image:
-  path: assets/images/posts/thoughtful-woman.jpg
+  path: assets/images/posts/thoughtful-woman.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "verbes"]
 tags: ["personne", "sensation"]
 date: 2017-11-03 00:00:00 +0100

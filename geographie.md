@@ -7,10 +7,10 @@ description: ""
 excerpt: ""
 keywords: []
 image:
-  path: "assets/images/pages/world-map.png"
+  path: "assets/images/pages/map.png"
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 collection_type: "posts"
 tags: []
 categories: ["geographie"]

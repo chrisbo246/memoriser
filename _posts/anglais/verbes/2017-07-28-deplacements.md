@@ -4,10 +4,10 @@ title: "Verbes anglais: Se déplacer"
 description: "Liste de verbes et expressions pour décrire un déplacements en anglais."
 excerpt: "Liste de verbes et expressions pour décrire un déplacements en anglais."
 image:
-  path: assets/images/posts/walking.jpg
+  path: assets/images/posts/walking.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "verbes"]
 tags: ["déplacement"]
 date: 2017-03-28 20:51:00 +0100

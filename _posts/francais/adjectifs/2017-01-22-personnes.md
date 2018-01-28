@@ -4,10 +4,10 @@ title: "Vocabulaire français: Décrire une personne"
 description: "Liste de vocabulaire français regroupant les types, attitudes et autres mots relatifs à une personne."
 excerpt: "Liste de vocabulaire français regroupant les types, attitudes et autres mots relatifs à une personne."
 image:
-  path: assets/images/posts/man.jpg
+  path: assets/images/posts/woman.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "adjectifs"]
 tags: [personne]
 date: 2017-03-22 17:18:00 +0100

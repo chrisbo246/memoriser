@@ -4,12 +4,10 @@ title: "Les grandes dates: L'antiquité"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/jules-cesar.jpg
+  path: assets/images/posts/alesia-battle.png
   type: "ImageObject"
-  width: 640
-  height: 360
-  facebook: assets/images/posts/history.jpg
-  twitter: assets/images/posts/history.jpg
+  width: 600
+  height: 400
 categories: ["histoire"]
 tags: []
 dateModified: 2017-11-25 00:00:00 +0100

@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Situations"
 description: "Liste de verbes et expressions pour décrire une situation en anglais."
 excerpt: "Liste de verbes et expressions pour décrire une situation en anglais."
 image:
-  path: assets/images/posts/soak-up-the-sun.jpg
+  path: assets/images/posts/holiday.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "verbes"]
 tags: ["situation"]
 date: 2017-07-28 20:51:00 +0100

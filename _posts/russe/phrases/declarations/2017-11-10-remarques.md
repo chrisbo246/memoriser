@@ -4,10 +4,10 @@ title: "Phrases russe: Faire une remarque"
 description: "Liste de phrases et expressions russe."
 excerpt: "Liste de phrases et expressions russe."
 image:
-  path: assets/images/posts/talk.jpg
+  path: assets/images/posts/talk.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["déclaration", "remarque", "étonnement"]
 date: 2017-11-10 00:00:00 +0100

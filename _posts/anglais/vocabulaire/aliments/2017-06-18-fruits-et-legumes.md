@@ -4,9 +4,9 @@ title: "Vocabulaire anglais: Fruits et légumes"
 description: "Liste de vocabulaire anglais courant relatif aux fruits et légumes."
 excerpt: "Liste de vocabulaire anglais courant relatif aux fruits et légumes."
 image:
-  path: assets/images/posts/vegetables.jpg
+  path: assets/images/posts/vegetables.png
   type: "ImageObject"
-  width: 640
+  width: 600
   height: 36
 categories: ["anglais", "vocabulaire"]
 tags: ["plante", "fruit", "légume", "alimentation"]

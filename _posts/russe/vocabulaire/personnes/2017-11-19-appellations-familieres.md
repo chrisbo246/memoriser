@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Appellations familières"
 description: "Liste de vocabulaire russe relatif aux différents types d'homme et à la famille."
 excerpt: "Liste de vocabulaire russe relatif aux différents types d'homme et à la famille."
 image:
-  path: assets/images/posts/family.jpg
+  path: assets/images/posts/family.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: ["personne", "famille"]
 weight: 50

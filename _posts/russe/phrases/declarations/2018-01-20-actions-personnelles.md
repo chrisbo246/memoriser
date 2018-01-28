@@ -4,10 +4,10 @@ title: "Phrases russe: Actions personnelles"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/swinging-girl.jpg
+  path: assets/images/posts/man-on-the-phone.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "phrases"]
 tags: ["action"]
 date: 2018-01-20 00:00:00 +0100

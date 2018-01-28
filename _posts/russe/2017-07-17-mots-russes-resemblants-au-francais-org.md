@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Vocabulaire facile"
 description: "Liste de vocabulaire russe similaire au français."
 excerpt: "Liste de vocabulaire russe similaire au français."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: []
 date: 2017-07-17 17:18:00 +010

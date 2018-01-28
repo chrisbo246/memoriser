@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Divisions administratives"
 description: "Liste de vocabulaire russe relatif aux divisions administratives et lieux publiques."
 excerpt: "Liste de vocabulaire russe relatif aux divisions administratives et lieux publiques."
 image:
-  path: assets/images/posts/city.jpg
+  path: assets/images/posts/city.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: ["place", "lieu", "pays", "route"]
 date: 2017-11-04 00:00:00 +0100

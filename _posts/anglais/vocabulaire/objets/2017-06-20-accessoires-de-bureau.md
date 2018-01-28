@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Accessoires de bureau"
 description: "Liste de vocabulaire anglais courant relatif aux accessoires de bureau."
 excerpt: "Liste de vocabulaire anglais courant relatif aux accessoires de bureau."
 image:
-  path: assets/images/posts/calculator.jpg
+  path: assets/images/posts/office-accessories.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: ["objet", "bureau", "outil"]
 date: 2017-01-01 00:00:00 +0100

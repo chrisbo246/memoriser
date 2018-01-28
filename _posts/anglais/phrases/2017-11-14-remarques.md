@@ -4,10 +4,10 @@ title: "Expressions anglaises: Remarques"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/discussion.jpg
+  path: assets/images/posts/discussion.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "phrases"]
 tags: ["demande", "ordre", "conseil"]
 date: 2017-11-03 00:00:00 +0100

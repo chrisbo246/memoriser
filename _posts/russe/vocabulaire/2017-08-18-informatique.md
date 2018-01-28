@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Informatique"
 description: "Liste de vocabulaire russe courant relatif à l'informatique."
 excerpt: "Liste de vocabulaire russe courant relatif à l'informatique."
 image:
-  path: assets/images/posts/keyboard.jpg
+  path: assets/images/posts/keyboard.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: [informatique, internet]
 date: 2017-01-01 00:00:00 +0100

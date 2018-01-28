@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Les pièces de la maison"
 description: "Les pièces, composants et dépendances de la maison en russe."
 excerpt: "Les pièces, composants et dépendances de la maison en russe."
 image:
-  path: assets/images/posts/house.jpg
+  path: assets/images/posts/house.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: [place, maison, pièce]
 date: 2017-11-04 00:00:00 +0100

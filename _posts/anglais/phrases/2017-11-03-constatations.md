@@ -4,10 +4,10 @@ title: "Expressions anglaises: Constatations"
 description: "Liste de vocabulaire anglais courant relatif aux sensations."
 excerpt: "Liste de vocabulaire anglais courant relatif aux sensations."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/english-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "phrases"]
 tags: ["constatation"]
 date: 2017-11-03 00:00:00 +0100

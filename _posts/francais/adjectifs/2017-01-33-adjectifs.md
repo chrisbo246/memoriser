@@ -4,10 +4,10 @@ title: "Vocabulaire français: Adjectifs soutenus"
 description: "Liste de vocabulaire français regroupant des adjectifs soutenus relativement courant."
 excerpt: "Liste de vocabulaire français regroupant des adjectifs soutenus relativement courant."
 image:
-  path: assets/images/posts/french-dictionary.jpg
+  path: assets/images/posts/french-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "adjectifs"]
 tags: []
 date: 2017-04-01 00:00:00 +0100

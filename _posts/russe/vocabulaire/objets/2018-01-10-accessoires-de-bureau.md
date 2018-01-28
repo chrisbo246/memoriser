@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Accessoires de bureau"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/notepad.jpg
+  path: assets/images/posts/office-accessories.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: [
   objet, maison, bureau

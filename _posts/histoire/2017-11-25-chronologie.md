@@ -4,10 +4,10 @@ title: "Chronologie historique"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/historic-fresco.jpg
+  path: assets/images/posts/historic-fresco.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["histoire"]
 tags: []
 dateModified: 2017-11-25 00:00:00 +0100

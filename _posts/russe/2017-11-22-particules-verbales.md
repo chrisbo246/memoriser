@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Particules verbales"
 description: "Liste de prépositions généralement associées aux verbes."
 excerpt: "Liste de prépositions généralement associées aux verbes."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "liaisons"]
 tags: ["particules verbales"]
 date: 2017-11-22 00:00:00 +0100

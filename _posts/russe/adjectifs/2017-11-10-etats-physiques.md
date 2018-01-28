@@ -5,10 +5,10 @@ title: "Adjectifs russe: États physiques"
 description: "Liste de vocabulaire russe courant."
 excerpt: "Liste de vocabulaire russe courant."
 image:
-  path: assets/images/posts/tired-woman.jpg
+  path: assets/images/posts/tired.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "adjectifs"]
 tags: []
 date: 2017-11-10 00:00:00 +0100

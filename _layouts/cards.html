@@ -17,7 +17,7 @@ layout: default
 
       </div>
     </div>
-    <div class="col order-1">
+    <div class="col order-1 p-0">
       <article class="post">
 
         {% if page.title %}
@@ -41,20 +41,20 @@ layout: default
         {% endcomment %}
 
         {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
-        <div class="card-columns">
+        <div class="post-list -card-columns d-flex flex-row flex-wrap -justify-content-between">
           {% for post in posts %}
           {% if post.url and post.title and post.content.size > 100 %}
 
           <div class="{% include filter-tags.html post=post %}">
             <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
-            <div class="card card-flip">
+            <div class="card card-flip m-1">
               {% if post.weight > 0 %}
-              {% assign class = 'bg-primary text-white' %}
+              {% assign class = 'card-position-absolute bg-primary text-white' %}
               {% else %}
-              {% assign class = 'bg-dark text-white' %}
+              {% assign class = 'card-position-absolute' %}
               {% endif %}
               {% include card.html face="front" post=post class=class img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
-              {% include card.html face="back" post=post class="bg-white text-dark card-position-absolute" %}
+              {% include card.html face="back" post=post class="bg-white text-dark" %}
             </div>
           </div>
 

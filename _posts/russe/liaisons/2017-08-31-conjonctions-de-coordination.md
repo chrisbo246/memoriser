@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Conjonctions de coordination"
 description: "Liste de vocabulaire russe regroupant les principales conjonctions de coordination."
 excerpt: "Liste de vocabulaire russe regroupant les principales conjonctions de coordination."
 image:
-  path: assets/images/posts/russian-dictionary.jpg
+  path: assets/images/posts/russian-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "liaisons"]
 tags: []
 date: 2017-08-31 00:00:00 +0100

@@ -4,10 +4,10 @@ title: "Vocabulaire français: Types personnes"
 description: "Liste de vocabulaire français regroupant les types personnes et appellations argotiques."
 excerpt: "Liste de vocabulaire français regroupant les types personnes et appellations argotiques."
 image:
-  path: assets/images/posts/man.jpg
+  path: assets/images/posts/friends.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["francais", "vocabulaire"]
 tags: [personne]
 date: 2017-09-21 17:18:00 +0100

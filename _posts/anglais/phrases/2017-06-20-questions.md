@@ -4,10 +4,10 @@ title: "Expressions anglaises: Questions courantes"
 description: "Liste d'expressions anglaises courantes."
 excerpt: "Liste d'expressions anglaises courantes."
 image:
-  path: assets/images/posts/discussion.jpg
+  path: assets/images/posts/discussion.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "phrases"]
 tags: [
 

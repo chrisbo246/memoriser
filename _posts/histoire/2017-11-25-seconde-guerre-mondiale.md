@@ -4,10 +4,10 @@ title: "Les grandes dates: La 2nd guerre mondiale"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/battle-of-verdun.jpg
+  path: assets/images/posts/battle-of-verdun.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["histoire"]
 tags: []
 dateModified: 2017-11-25 00:00:00 +0100

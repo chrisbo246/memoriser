@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Vocabulaire en vrac"
 description: "Du vocabulaire anglais courant en attente de classement."
 excerpt: "Du vocabulaire anglais courant en attente de classement."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/english-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "vocabulaire"]
 tags: []
 date: 2017-01-01 00:00:00 +0100

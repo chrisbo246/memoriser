@@ -4,10 +4,10 @@ title: "Vocabulaire anglais: Prépositions"
 description: "Liste de vocabulaire anglais courant regroupant des prépositions difficiles à mémoriser."
 excerpt: "Liste de vocabulaire anglais courant regroupant des prépositions difficiles à mémoriser."
 image:
-  path: assets/images/posts/english-dictionary.jpg
+  path: assets/images/posts/english-dictionary.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "liaisons"]
 tags: [
 

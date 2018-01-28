@@ -12,12 +12,13 @@ keywords: [
 image:
   path: "assets/images/pages/fr.png"
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 collection_type: "posts"
 tags: []
 categories: ["francais"]
 comments: false
+weight: 100
 nav:
   id: "secondary-nav"
   label: "Français"

@@ -4,10 +4,10 @@ title: "Compléments anglais: Situations"
 description: "Liste d'expressions anglaises courantes."
 excerpt: "Liste d'expressions anglaises courantes."
 image:
-  path: assets/images/posts/.jpg
+  path: assets/images/posts/holiday.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["anglais", "compléments"]
 tags: []
 date: 2017-12-18 00:00:00 +0100

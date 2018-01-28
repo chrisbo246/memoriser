@@ -4,10 +4,10 @@ title: "Vocabulaire russe: Types de personnes"
 description: "Liste de vocabulaire russe relatif aux différents types d'homme et à la famille."
 excerpt: "Liste de vocabulaire russe relatif aux différents types d'homme et à la famille."
 image:
-  path: assets/images/posts/man.jpg
+  path: assets/images/posts/party.png
   type: "ImageObject"
-  width: 640
-  height: 360
+  width: 600
+  height: 400
 categories: ["russe", "vocabulaire"]
 tags: ["personne"]
 weight: 50
