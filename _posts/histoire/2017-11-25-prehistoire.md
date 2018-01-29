@@ -4,7 +4,7 @@ title: "Les grandes dates: La préhistoire"
 description: ""
 excerpt: ""
 image:
-  path: assets/images/posts/dinausor.png
+  path: assets/images/posts/dinosaur.png
   type: "ImageObject"
   width: 600
   height: 400

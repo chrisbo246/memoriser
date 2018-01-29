@@ -5,7 +5,7 @@ title: "Adjectifs russe: États physiques"
 description: "Liste de vocabulaire russe courant."
 excerpt: "Liste de vocabulaire russe courant."
 image:
-  path: assets/images/posts/tired.png
+  path: assets/images/posts/upset-woman.png
   type: "ImageObject"
   width: 600
   height: 400

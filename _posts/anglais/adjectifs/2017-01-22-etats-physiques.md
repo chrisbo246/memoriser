@@ -4,7 +4,7 @@ title: "Adjectifs anglais: États physiques"
 description: "Liste d'adjectifs anglais pour décrire l'état physique d'un objet ou d'une personne."
 excerpt: "Liste d'adjectifs anglais pour décrire l'état physique d'un objet ou d'une personne."
 image:
-  path: assets/images/posts/tired.png
+  path: assets/images/posts/upset-woman.png
   type: "ImageObject"
   width: 600
   height: 400

@@ -4,7 +4,7 @@ title: "Vocabulaire français: Littérature"
 description: "Liste de vocabulaire français regroupant les principaux termes utilisés en littérature."
 excerpt: "Liste de vocabulaire français regroupant les principaux termes utilisés en littérature."
 image:
-  path: assets/images/posts/book.png
+  path: assets/images/posts/open-book.png
   type: "ImageObject"
   width: 600
   height: 400

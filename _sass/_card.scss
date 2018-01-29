@@ -42,9 +42,12 @@
   }
 
   &.card-img-faded {
+
+    opacity: .15;
+
     &.lazyloading,
     &.lazyloaded {
-      opacity: .15;
+
     }
 
   }

@@ -4,7 +4,7 @@ title: "Adjectifs anglais: Apparences visuelles"
 description: "Liste de vocabulaire anglais courant."
 excerpt: "Liste de vocabulaire anglais courant."
 image:
-  path: assets/images/posts/metal.png
+  path: assets/images/posts/eye.png
   type: "ImageObject"
   width: 600
   height: 400

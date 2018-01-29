@@ -7,7 +7,7 @@ description: ""
 excerpt: ""
 keywords: []
 image:
-  path: "assets/images/pages/map.png"
+  path: "assets/images/pages/flag-map.png"
   type: "ImageObject"
   width: 600
   height: 400

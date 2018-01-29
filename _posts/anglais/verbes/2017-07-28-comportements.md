@@ -4,7 +4,7 @@ title: "Verbes anglais: Comportements"
 description: "Liste de verbes et expressions pour décrire un comportement en anglais."
 excerpt: "Liste de verbes et expressions pour décrire un comportement en anglais."
 image:
-  path: assets/images/posts/english-dictionary.png
+  path: assets/images/posts/friends.png
   type: "ImageObject"
   width: 600
   height: 400
