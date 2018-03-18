@@ -52,11 +52,11 @@ Je suis de France.
 
 J'habite à …
 : Я живу в' …
-*/Ya jivou v'…/ "Je habite à …"*
+*/Ya jîvou v'…/ "Je habite à …"*
 
 J'habite en France.
 : Живу в Франции.
-*/Jivou v'franᵉtsi./ "Je habite en France."*
+*/Jîvou v'franᵉtsi./ "Je habite en France."*
 
 J'habite à … (me trouve)
 : Я нахожусь …
@@ -91,7 +91,7 @@ J'ai un petit ami.
 
   f.
   : У меня есть молодая женщина.
-  */Ou minia yestʸ molagaïa jiènschina./ "Près-de moi il-y-a jeune f. femme."*
+  */Ou minia yestʸ molagaïa jiènschîna./ "Près-de moi il-y-a jeune f. femme."*
 
 
 ## Divers
@@ -102,7 +102,7 @@ J'ai …
 
 Je ne fume pas.
 : Я не курящие.
-*/Ya niè kouriaschiè./ "Je pas fumeur."*
+*/Ya niè kouriaschîè./ "Je pas fumeur."*
 
 
 

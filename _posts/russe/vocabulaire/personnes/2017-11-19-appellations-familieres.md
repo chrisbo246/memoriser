@@ -44,7 +44,7 @@ tata
 
 gamin
 : мальчишка
-*/maltchichka/*
+*/maltchîchka/*
 
 jeune homme
 : молодой человек

@@ -56,6 +56,9 @@ tabouret
 étagère
 : shelf
 
+table de nuit
+: nightstand
+
 
 ## Jouets
 
@@ -85,3 +88,6 @@ affaires (objets)
 
 bordel
 : mess
+
+pelle à poussière
+: dustpan

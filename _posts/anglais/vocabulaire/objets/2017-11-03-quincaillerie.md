@@ -109,5 +109,5 @@ roulement à billes
 
 ## Consommables
 
-frein filet
-: thread lock
+freinfilets
+: threadlocker

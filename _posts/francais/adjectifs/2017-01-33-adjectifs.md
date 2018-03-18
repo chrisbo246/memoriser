@@ -91,3 +91,7 @@ endémique
 
 régalien
 : Relatif au roi, au chef de l'état.
+
+Prétorien
+: Relatif à la garde d'un empereur/dictateur.
+*Ex: La garde prétorienne.* 

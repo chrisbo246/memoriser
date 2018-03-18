@@ -153,11 +153,11 @@ téléviseur
 
 lave-linge
 : стиральная машина
-*/stiralnaïa machina/*
+*/stiralnaïa machîna/*
 
 lave-vaisselle
 : посудомоечная машина
-*/passoudamoïtchnaïa machina/*
+*/passoudamoïtchnaïa machîna/*
 
 cuisinière
 : плита
@@ -251,6 +251,10 @@ ordinateur portable
 miroir
 : зеркало
 */zièrkala/*
+
+savon
+: мыло
+*/mîla/*
 
 brosse à dents
 : зубная щетка

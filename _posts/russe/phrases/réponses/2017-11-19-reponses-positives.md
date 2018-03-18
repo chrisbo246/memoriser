@@ -49,6 +49,10 @@ Avec plaisir!
 : C удовольствием!
 */Soudavolstvièmᵉ!/*
 
+Je vous en prie!
+: Прошу вас!
+*/Prachou vass!/*
+
 Comme c’est intéressant!
 : Как интересно!
 */Kak intièrèsna!/*

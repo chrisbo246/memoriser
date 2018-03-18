@@ -34,33 +34,7 @@ bureau de prêteur sur gage
 : pawnshop
 
 
-## Lieux publiques
+## Commerces de bouche
 
-toilette publiques
-: public loo
-
-boutique de bonbons
-: candy shop
-*Lieu de vente de drogue.*
-
-
-## Entreprises
-
-usine
-: factory, plant
-
-atelier
-: workshop
-
-
-## Divers
-
-monde inférieur
-: netherworld
-*L'enfer.*
-
-maison de prostitution, maison close
-: brothel, whorehouse
-
-maison de fous
-: madhouse
+bar de quartier
+: dive bar

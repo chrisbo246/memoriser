@@ -6,4 +6,4 @@ comment: true
 {{ content }}
 
 {% assign posts = site.helps | where_exp: 'item', 'item.lang == page.lang' %}
-{% include accordion.html id="faq" posts=posts icon_oi="question-mark" icon_fa="fa fa-question-circle fa-lg" %}
+{% include accordion.html id="faq" posts=posts icon_oi="question-mark" icon_fa="fas fa-question-circle fa-lg" %}

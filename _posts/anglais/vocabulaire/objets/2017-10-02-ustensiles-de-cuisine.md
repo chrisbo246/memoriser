@@ -54,6 +54,9 @@ poêle (à frire)
 cocotte-minute
 : pressure cooker
 
+moules à muffins
+: muffin tins
+
 
 ## Ustensiles de cuisine
 

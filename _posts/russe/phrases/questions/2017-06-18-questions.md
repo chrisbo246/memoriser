@@ -21,7 +21,7 @@ Qu’est ce que c’est?
 
 Pourriez-vous me dire …?
 : не подскажите …?
-*/Niè potskajitè …?/*
+*/Niè potskajîtè …?/*
 
 Qu’est-ce qui est écrit là ?
 : Что тут написано?
@@ -57,13 +57,17 @@ Est-ce qu’il faut enlever ses chaussures?
 
 ## Se renseigner sur la situation
 
+Comment ça?
+: Как так?
+*/Kak tak?/*
+
 Qui est là?
 : Кто здесь?
 */kto zdièssʸ/*
 
 Qu'est ce qu'il s'est passé?
 : что случилось?
-*/chto soutchilassʸ/*
+*/chto soutchîlassʸ/*
 
 Qui a dit ça?
 : Кто это сказал?
@@ -86,7 +90,11 @@ Y a t'il des embouteillages en ce moment?
 */Ciètchass yèstʸ prabki/ "Maintenant il-y-a embouteillages?"*
 
 
-## Météo
+## Aujourd'hui
+
+Quelle est la date d'aujourd'hui?
+: Какое сегодня число?
+*/Kakoïè civodnia tchîslo?/ "Quelle aujourd'hui nombre?"*
 
 Quel temps fait-il aujourd'hui?
 : какая погода сегодня?

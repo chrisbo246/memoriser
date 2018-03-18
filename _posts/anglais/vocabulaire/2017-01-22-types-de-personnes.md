@@ -26,6 +26,9 @@ parrain
 marraine
 : godmother
 
+frères et sœurs
+: siblings
+
 
 ## Selon l’âge
 
@@ -107,7 +110,10 @@ as en mécanique
 *Principalement en prépa moteur.*
 
 lève tôt
-: riser
+: early riser
+
+lève-tard
+: late-riser
 
 somnambule
 : sleepwalker
@@ -118,6 +124,9 @@ paresseux
 
 fouteur de merde
 : shit-fucker
+
+gros bonnets
+: big guys
 
 
 ## Vagabonds
@@ -166,6 +175,10 @@ croque-mitaine
 
 le petit chaperon rouge
 : little red riding hood
+
+Béhémoth
+: Behemoth
+*Bête puissante, de grande taille.*
 
 
 ## Personnage de télé

@@ -22,7 +22,7 @@ published: true
 ## Refrain
 
 Полюшко-поле, полюшко, широко поле,
-: Polyushko-pole, polyushko, shiroko pole,
+: Polyushko-pole, polyushko, shîroko pole,
 *Plaine, ma chère plaine, large plaine, ma chère plaine!*
 
 Eдут по полю герои,

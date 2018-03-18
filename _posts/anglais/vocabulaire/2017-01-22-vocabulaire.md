@@ -59,6 +59,12 @@ essaim
 : swarm
 
 
+# Médecine
+
+trisomy 21
+down syndrome
+
+
 ## Divers
 
 gage

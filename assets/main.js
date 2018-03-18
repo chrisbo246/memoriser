@@ -21,7 +21,8 @@
 {% include scripts/bootstrap.js %}
 
 {% raw %}
-//lazySizes.init();
+lazySizes.init();
+$('html').addClass('lazysizes-active');
 {% endraw %}
 
 {% include scripts/sound-player.js %}

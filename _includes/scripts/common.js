@@ -10,6 +10,9 @@
 
     $('a').filter('[href^="/"]').on('click', function () {
       $('.fadeInRight').addClass('fadeOutLeft');
+      $('.fadeInLeft').addClass('fadeOutRight');
+      $('.fadeInUp').addClass('fadeOutDown');
+      $('.fadeInDown').addClass('fadeOutUp');
       var href = $(this).attr('href');
       window.setTimeout(function () {
         window.location = href;

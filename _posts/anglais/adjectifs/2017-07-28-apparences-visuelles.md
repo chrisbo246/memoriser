@@ -44,3 +44,14 @@ lisse
 
 voyant
 : showy
+
+
+## Couleur
+
+cramoisi
+: crimson
+*Rouge tirant vèrs le viollet. Ex: a crimson sky.*
+
+écarlate
+: scarlet
+*Rouge intensse.*

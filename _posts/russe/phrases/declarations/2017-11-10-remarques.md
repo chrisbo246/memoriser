@@ -93,7 +93,7 @@ Je ne parle pas russe.
 
 Excusez-moi, je commence à apprendre la langue russe.
 : Извините, я только начинаю изучать русский язык.
-*/Izvinitié, ya tolka natchina izoutchatʸ rousski yazîk./*
+*/Izvinitié, ya tolka natchîna izoutchatʸ rousski yazîk./*
 
 J’étudie la langue russe
 : Я изучаю русский язык

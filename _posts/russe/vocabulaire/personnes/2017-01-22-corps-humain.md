@@ -44,7 +44,7 @@ poitrine (thorax)
 
 ventre
 : живот
-*/jivotᵉ/*
+*/jîvotᵉ/*
 
 nombril
 : пуп
@@ -80,7 +80,7 @@ oreille
 
   pl.
   : уши
-  */ouchi/ "oreilles"*
+  */ouchî/ "oreilles"*
 
 lobe d’oreille
 : -
@@ -216,7 +216,7 @@ bras
 
   pl.
   : плечи
-  */pliétchi/ "épaules"*
+  */pliétchî/ "épaules"*
 
 aisselle
 : -
@@ -471,7 +471,7 @@ cheveux crépus
 
 chauve
 : плешивый
-*/pliéchivî/*
+*/pliéchîvî/*
 
 tresse
 : f.

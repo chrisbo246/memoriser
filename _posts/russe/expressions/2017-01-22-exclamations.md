@@ -35,6 +35,10 @@ Quel pied!
 : Какой кайф!
 */Kakoï kaïf!/*
 
+LOL
+: ыыы
+*îîî*
+
 
 ## Etonnement
 

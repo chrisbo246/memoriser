@@ -203,6 +203,9 @@ malade de jalousie
 avoir le mal du pays
 : feel homesick
 
+le mal du pays
+: home sick
+
 garder la tête froide
 : keep a cool head
 

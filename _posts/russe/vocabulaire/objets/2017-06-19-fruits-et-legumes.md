@@ -43,7 +43,7 @@ poire
 
   pl.
   : груши
-  */grouchi/ "poires"*
+  */grouchî/ "poires"*
 
 pomme
 : яблоко

@@ -40,11 +40,22 @@ Belle (objet)
 */prikarassnaïa/*
 
 
-## Goût
+## Bien
+
+bien
+: хорошо
+*/haracho/*
 
 bon
 : хорошо
 */haracho/*
+
+
+## Mal
+
+mal (médiocrement)
+: плохо
+*/ploha/*
 
 
 ## Situation
@@ -70,7 +81,7 @@ dangereux
 
 un peu
 : немного
-*/nièmnoga/*
+*/nimnoga/*
 
 beaucoup
 : многие
@@ -86,3 +97,10 @@ ouvert
 fermé
 : закрыто
 */zakrîta/*
+
+
+## Divers
+
+couramment
+: свободно
+*/svabodna/ "librement"*

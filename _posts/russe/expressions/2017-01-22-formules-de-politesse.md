@@ -48,6 +48,10 @@ Salut!
 : Привет!
 */Priviètᵉ!/*
 
+Salut à tous! (bonjour)
+: всем привет
+*/Cièmᵉ priviètᵉ/*
+
 Salut toi! fam.
 : Здарова!
 */Zdarova!/*
@@ -58,6 +62,10 @@ Salut toi! fam.
 Salut!
 : пока!
 */Paka!/*
+
+Salut à tous! (au revoir)
+: всем пока!
+*/Cièmᵉ paka/*
 
 Au revoir!
 : до свидания!
@@ -77,7 +85,7 @@ A très vite!
 
 À la prochaine!
 : До встречи!
-*/Da fstritchi!/ "À rencontre!"*
+*/Da fstritchî!/ "À rencontre!"*
 
 Adieu!
 : Прощай!
@@ -162,11 +170,11 @@ Bonne journée!
 
 Bonne nuit!
 : Спокойной ночи!
-*/Spakoïni notchi!/ "Paisible nuit!"*
+*/Spakoïni notchî!/ "Paisible nuit!"*
 
 Bonne chance!
 : Удачи!
-*/Oudatchi!/*
+*/Oudatchî!/*
 
 Bon anniversaire!
 : С днем рождения!
@@ -186,7 +194,7 @@ Ni duvet ni plume!
 
 À l'avance, …!
 : С наступающим, …!
-*/S'nastoupaiouchimᵉ, …!/ "À l'avance, …!"*
+*/S'nastoupaiouchîmᵉ, …!/ "À l'avance, …!"*
 
 Portez-vous bien!
 : Счастливо!
@@ -217,7 +225,7 @@ Excusez-moi, je suis en retard.
 
 Excusez-moi, je débute en russe.
 : Извините, я начинаю на русском.
-*/Izvinitié, ya natchina na rouskomᵉ./ "Excusez-moi, je débute en russe."*
+*/Izvinitié, ya natchîna na rouskomᵉ./ "Excusez-moi, je débute en russe."*
 
 
 

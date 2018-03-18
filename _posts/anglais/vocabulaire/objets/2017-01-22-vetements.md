@@ -50,9 +50,6 @@ chapeau de militaire
 béret
 : beret
 
-hood
-: capuche
-
 
 ## Haut
 
@@ -64,6 +61,9 @@ chemisier
 
 t-shirt
 : t-shirt
+
+débardeur
+: tank top
 
 chandail, pull-over en laine
 : sweater
@@ -241,6 +241,15 @@ chemise de travail
 
 salopette de travail
 : dungarees
+
+
+Composants d'un vêtement
+
+hood
+: capuche
+
+fermeture éclaire
+: zipper
 
 
 ## Divers

@@ -119,6 +119,16 @@
 
 
 
+      /**
+      * Close alert animation
+      */
+
+      /*$alerts = $('.alert-dismissible');
+      $alerts.on('close.bs.alert', function () {
+        $(this).addClass('zoomOutUp');
+      });*/
+
+
 
       /**
       * Restore collapsed elements states
@@ -139,7 +149,7 @@
         value = true;
         localStorage.setItem(namespace + key, JSON.stringify(value));
       });
-      $collapses.each(function () {
+      $collapses.each(function (index, element) {
         $togglers = $('button[data-target="#' + this.id + '"], a[href="#' + this.id + '"]');
         $collapse = $(this);
         namespace = ($togglers.is('[data-global="false"]')) ? defaultNamespace : '';
@@ -154,9 +164,9 @@
         }
       });
 
-
     }
 
+    $('html').addClass('collapse-active');
 
   });
 

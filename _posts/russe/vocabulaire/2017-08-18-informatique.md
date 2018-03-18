@@ -65,7 +65,7 @@ marché
 
 traducteur
 : переводчик
-*/pirivotchik/*
+*/pirivotchîk/*
 
 plus
 : ещё

@@ -314,6 +314,9 @@ muscle(s)
 peau
 : skin
 
+la chair
+: flesh
+
 utérus
 : womb
 

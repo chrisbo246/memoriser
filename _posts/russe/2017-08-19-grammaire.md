@@ -14,6 +14,12 @@ weight: 100
 date: 2017-08-19 00:00:00 +0100
 ---
 
+- En russe, l'ordre des mots n'a pas d'importance contrairement au français. Vous pouvez les inverser sans que cela ai une influence sur le sens de la phrase.
+
+- La terminaison (désignation/désignance) des **noms**, **pronoms** et **adjectifs** change en fonction du **genre**, **nombre** et **cas**.
+  Ce système remplace les mots de liaison à, de, etc… qui n'existent pas en russe.
+
+
 ## Genre
 
 Les noms n'ont pas forcément le même genre en russe qu'en français (ex: un fleur, une chien, etc…). Pour deviner le genre d'un nom, regardez la fin du mot.
@@ -57,29 +63,51 @@ Les cas représentent en fait les différentes parties d'une phrase. Pour les re
 
 Nominatif
 : Qui?
-*Le sujet.*
+*Le sujet, adjectif, noms en apposition.*
+
+Vocatif
+: Qui? Quoi?
+*on enlève le a final et on adouci par un signe mou.
 
 Accusatif
-: Quoi?
-*Le COD.*
+: De qui? De quoi?
+*L'objet (COD), complément de durée (CDD).*
+*Préposition na sur, za derriere,  pog sous, pereg devant, b dans, pro de.*
 
 Génitif
-: À qui?
-*Le propriétaire.*
+: À qui? À quoi?
+*Le propriétaire (complément du nom).*
+* Sans préposition ou iz de, c de, ot de, go avant, ot depuis, pocle après.*
 
 Datif
-: Pour qui?
-*La personne visée par l'action.*
+: Pour qui? A qui? A quoi?
+*La personne visée par l'action (COI).*
 
 Instrumental
-: Avec quoi?
-*L'objet utilisé.*
+: Avec qui? Avec quoi?
+*L'objet utilisé (complément de moyen).*
 
 Locatif (ou prépositionnel)
 : Où?
-*L'endroit. Toujours précédé de la préposition в ou на.*
+*L'endroit.*
+*Toujours précédé de la préposition в ou на.*
 
 Les mots d'origine étrangère (Française) sont généralement invariables.
+
+Le nominatif = Sujet, adjectif, noms en apposition, Qui? Pas de préposition
+Le vocatif = Qui, Quoi (on enlève le a final et on adouci par un signe mou)
+L'accusatif = L'objet (COD), compl durée CDD, De qui, De quoi? Préposition na sur, za derriere,  pog sous, pereg devant, b dans, pro de.
+Génitif = Complément du nom, de qui, de quoi? Sans préposition ou iz de, c de, ot de, go avant, ot depuis, pocle après.
+Instrumental = par qui, par quoi? Complément de moyen.
+Datif = Objet indirect (COI); A qui, A quoi, ou?
+Locatif (ou prépositionnel)= A quoi? Sur quoi? A qui? Lieu
+
+## Ls nombres
+
+Nombre = adjectif neutre + génitif
+
+Les mois se finissant par ь > я au génitif.
+Les mois se finissant par une consone > а au génitif.
 
 
 ## Tableau récapitulatif

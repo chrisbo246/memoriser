@@ -31,7 +31,7 @@ moto
 
 voiture
 : машина
-*/machina/*
+*/machîna/*
 
 automobile
 : автомобиль

@@ -146,7 +146,7 @@ adultère
 
 agiotage
 : ажиотаж
-*/agiotagè/*
+*/agîotagè/*
 
 ajour
 : ажур

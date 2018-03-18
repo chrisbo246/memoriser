@@ -1,6 +1,7 @@
 <form>
   <div class="form-group w-100">
     {% comment %}<label class="col-sm-6" hidden>{{ t.random }}</label>{% endcomment %}
+    {% comment %}
     <div class="btn-group btn-group-toggle btn-group-sm w-100" data-toggle="buttons">
       <label class="btn btn-secondary btn-switch active w-50">
         <input type="radio" name="randomize" value="0" autocomplete="off" checked data-global="false" />{{ t.ordered }}
@@ -9,5 +10,16 @@
         <input type="radio" name="randomize" value="1" autocomplete="off" data-global="false" />{{ t.mixed }}
       </label>
     </div>
+    {% endcomment %}
+    {{ t.mixed }}
+    <div class="btn-group btn-group-toggle btn-group-sm w-20 float-right" data-toggle="buttons">
+      <label class="btn btn-secondary btn-switch active w-50">
+        <input type="radio" name="randomize" value="0" autocomplete="off" checked data-global="false" />{{ t.switch_off }}
+      </label>
+      <label class="btn btn-primary btn-switch w-50">
+        <input type="radio" name="randomize" value="1" autocomplete="off" data-global="false" />{{ t.switch_on }}
+      </label>
+    </div>
+
   </div>
 </form>

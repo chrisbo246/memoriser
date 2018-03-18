@@ -10,10 +10,13 @@
 //$primary: #007bff;
 
 
-// Best Bootswatch themes: lux, sketchy
-@import "bootswatch/dist/sketchy/variables";
+// Best Bootswatch themes: lux, minty, sketchy
+//@import "bootstrap/scss/functions";
+//@import "bootstrap/scss/variables";
+//@import "bootswatch/dist/cosmo/variables";
 @import "bootstrap/scss/bootstrap";
-@import "bootswatch/dist/sketchy/bootswatch";
+//@import "bootswatch/dist/cosmo/bootswatch";
+
 
 // Create Bootstrap 3 variable from Bootstrap 4
 $brand-primary: $component-active-bg !default;
@@ -21,8 +24,8 @@ $gray-lightest: $gray-300 !default;
 $gray-lighter: $gray-600 !default;
 $gray-dark: $gray-900 !default;
 
-$fa-font-path: "{{ '/bower_components/font-awesome/fonts' | relative_url }}";
-@import "font-awesome/scss/font-awesome";
+//$fa-font-path: "{{ '/bower_components/font-awesome/web-fonts-with-css/webfonts/' | relative_url }}";
+//@import "font-awesome/web-fonts-with-css/scss/fontawesome";
 
 //$icon-font-path: "{{ '/bower_components/open-iconic/font/fonts/' | relative_url }}";
 //@import "open-iconic/font/css/open-iconic-bootstrap";
@@ -55,21 +58,34 @@ img.oi {
 }
 
 
+// Font-awesome SVG Asynchronous Loading
+
+body {
+  display: none;
+}
+
+//.lazysizes-active.collapse-active.fontawesome-i2svg-active body {
+.fontawesome-i2svg-active body {
+  display: inherit;
+}
 
 // Delay animations after page transition effect
 
-.animated:not(.fadeInRight) {
+/*.animated:not(.page-content.fadeInRight):not(.page-content.fadeInLeft):not(.navbar.fadeInUp):not(.navbar.fadeInDown) {
   animation-delay: 1s;
-}
+}*/
 
 
 
 // logo
 .navbar-brand {
-  font-size: 3rem;
+  font-size: 5.5rem;
   line-height: 1rem;
   text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: -1.2rem;
 }
+
 .navbar-brand .fa {
   display: inline-block;
   margin-top: -50%;
@@ -151,7 +167,7 @@ img.oi {
 
 .post-content {
 
-  font-family: sans-serif;
+  //font-family: sans-serif;
 
   h2, h3, h4, h5, h6 {
     color: $gray-lightest;

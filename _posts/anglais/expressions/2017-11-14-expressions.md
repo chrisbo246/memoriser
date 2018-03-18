@@ -58,5 +58,8 @@ diriger le monde
 être tenu
 : be held
 
-fait un doigt d'honneur
-: showing a middle finger
+choisir entre deux …
+: choose out of two …
+
+disponible dès maintenant
+: available as of now

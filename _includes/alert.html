@@ -17,7 +17,7 @@
   {% endif %}
 {% endif %}
 
-<div {% if include.id %} id="{{ include.id }}"{% endif %} class="alert {% if include.style %}alert-{{ include.style }}{% endif %} {% if include.dismissible %}alert-dismissible{% endif %} mb-3 clearfix animated bounceInDown" role="alert" hidden>
+<div {% if include.id %} id="{{ include.id }}"{% endif %} class="alert {% if include.style %}alert-{{ include.style }}{% endif %} {% if include.dismissible %}alert-dismissible{% endif %} mb-3 clearfix fade show -animated -bounceInDown" role="alert" hidden>
 
   {% if include.dismissible %}
   <button type="button" class="close" data-dismiss="alert" title="{{ t.close }}" aria-label="{{ t.close }}">

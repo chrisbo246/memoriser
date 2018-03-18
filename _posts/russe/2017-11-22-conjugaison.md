@@ -14,6 +14,22 @@ weight: 100
 date: 2017-11-22 00:00:00 +0100
 ---
 
+## La grammaire russe
+
+2 conjugaisons
+
+3 temps
+- Passé (progressif et ponctuel)
+- Présent
+- Futur (progressif et ponctuel)
+
+2 aspects
+- Perfectif
+- Imperfectif
+
+Verbes de mouvement
+
+
 ## Les groupes de verbes et la conjugaison
 
 Groupe       | 1er       | 2eme      | 3eme     | 4eme

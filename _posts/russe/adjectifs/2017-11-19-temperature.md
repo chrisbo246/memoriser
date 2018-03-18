@@ -17,7 +17,7 @@ date: 2017-10-02 00:00:00 +0100
 
 chaud
 : горячий
-*/gariatchi/*
+*/gariatchî/*
 
 … tiède
 : … тёплая

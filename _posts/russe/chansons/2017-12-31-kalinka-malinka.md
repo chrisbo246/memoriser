@@ -48,7 +48,7 @@ published: true
 *Sous le sapin, sous la verdure,*
 
 Спать положите вы меня!
-: Spatʸ palajitié vî miènia!
+: Spatʸ palajîtié vî miènia!
 *Je suis allongé pour dormir*
 
 Ай-люли, люли, ай-люли, люли,
@@ -56,7 +56,7 @@ published: true
 *Ah, liouli, liouli, ah liouli, liouli,*
 
 Спать положите вы меня.
-: Spatʸ palajitié vî miènia.
+: Spatʸ palajîtié vî miènia.
 *Je suis allongé pour dormir.*
 
 

@@ -15,6 +15,10 @@ date: 2017-10-13 00:00:00 +0100
 
 ## Qualités
 
+gentil
+: мило
+*/mila/*
+
 travailleur
 : трудолюбивый
 */troudolioubivî/*
@@ -41,7 +45,7 @@ généreux
 
 sociable
 : общительный
-*/abchitièlnî/*
+*/abchîtièlnî/*
 
 courageux
 : смелый
@@ -75,4 +79,4 @@ fainéant
 
 chaud
 : горячий
-*/gariatchi/ Excité.*
+*/gariatchî/ Excité.*

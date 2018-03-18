@@ -115,6 +115,9 @@ Il m'a posé un lapin.
 Je suis au pied du mur.
 : I cornered.
 
+Je dois fléchir
+: I gotta flex
+
 
 ## Météo
 

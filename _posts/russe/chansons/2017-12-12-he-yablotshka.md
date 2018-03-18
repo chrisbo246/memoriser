@@ -284,7 +284,7 @@ published: true
 *du verger,*
 
 Прижимай кулаков,
-: Prijimaï koulakov,
+: Prijîmaï koulakov,
 *écrase les Koulaks,*
 
 Всё народное.
@@ -292,7 +292,7 @@ published: true
 *tout appartient au peuple.*
 
 Прижимай кулаков,
-: Prijimaï koulakov,
+: Prijîmaï koulakov,
 *Écrase les Koulaks,*
 
 Всё народное.

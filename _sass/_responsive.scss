@@ -19,6 +19,7 @@ xl: >= 1200px
 @include media-breakpoint-between(md, xl) { ... }
 */
 
+
 // Bootstrap 3-4
 $grid-gutter-width-base: 30px !default;
 
@@ -26,11 +27,11 @@ $grid-gutter-width-base: 30px !default;
 $grid-gutter-width: $grid-gutter-width-base !default;
 
 // Variables
-//$body-padding-top: $font-size-base * $btn-line-height + ($navbar-padding-y + $btn-padding-y) * 2; // Standard buttons in navbar
-$body-padding-top: $font-size-lg * $btn-line-height-lg + ($navbar-padding-y + $btn-padding-y-lg) * 2; // Large buttons in navbar
-$body-padding-bottom: $font-size-base * $btn-line-height + ($navbar-padding-y + $btn-padding-y) * 2; // Standard buttons in navbar
-$sticky-margin-top: 1rem;
-$sticky-margin-bottom: 1rem;
+//$body-padding-top: $font-size-base * $btn-line-height + ($navbar-padding-y + $btn-padding-y) * 2 !default; // Standard buttons in navbar
+$body-padding-top: $font-size-lg * $btn-line-height-lg + ($navbar-padding-y + $btn-padding-y-lg) * 2 !default; // Large buttons in navbar
+$body-padding-bottom: $font-size-base * $btn-line-height + ($navbar-padding-y + $btn-padding-y) * 2 !default; // Standard buttons in navbar
+$sticky-margin-top: 1rem !default;
+$sticky-margin-bottom: 1rem !default;
 
 
 // Fixed navbar fixes

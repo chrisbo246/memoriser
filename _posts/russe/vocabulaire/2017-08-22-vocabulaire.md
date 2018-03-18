@@ -59,3 +59,7 @@ revanche
 accident
 : авария
 */avaria/*
+
+fait maison
+: сделай сам
+*/sdièlaï samᵉ/ "fait soit-même"*

@@ -35,4 +35,4 @@ Qu'elle heure est-il maintenant?
 
 Quelle est la date d'aujourd'hui?
 : Какое сегодня число?
-*/Kakoyé civodnia tchislo?/*
+*/Kakoyé civodnia tchîslo?/*

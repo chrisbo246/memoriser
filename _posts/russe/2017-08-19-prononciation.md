@@ -444,31 +444,73 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 
 1. Caractère majuscule en police Cyrillique (les minuscules sont quasiment identiques). Les voyelles sont en vert, les consonnes en bleu.
 
-2. *X* Prononciation en général. *~* indique que vous devez "rouler" la prononciation.
+2. **X** Prononciation en général. **~** indique que vous devez "rouler" la prononciation.
 
-3. *X´* Prononciation lorsque la syllabe contenant cette lettre possède un [accent tonique](http://russie.fr/les-accents-russes-autrement) (invisible, vous apprendrez à positionner par la pratique).
+3. **X´** Prononciation lorsque la syllabe contenant cette lettre possède un [accent tonique](http://russie.fr/les-accents-russes-autrement) (invisible, vous apprendrez à positionner par la pratique).
 
-4. *X_* Prononciation lorsque la lettre est suivie d'une consonne sourde (*ШCKTПФ*) ou *Ь* (fin du mot uniquement). Les consonnes sonores deviennent sourdes lorsqu'elles sont suivies pas d'autres consonnes sourdes.</p>
+4. **X_** Prononciation lorsque la lettre est suivie d'une consonne sourde **ШCKTПФ** ou **Ь**. Les consonnes sonores deviennent sourdes lorsqu'elles sont suivies par une consonne sourde.</p>
 
-5. *X…* Prononciation lorsque la lettre est placée au début du mot.
+5. **X…** Prononciation lorsque la lettre est placée au début du mot.
 
-6. *…X* Prononciation lorsque la lettre est placée à la fin du mot.
+6. **…X** Prononciation lorsque la lettre est placée à la fin du mot.
 
-7. Lettre dite *sonore* lorsqu'elle vibre en la prononçant, *sourde* le cas contraire.
+7. Lettre dite **sonore** lorsqu'elle vibre en la prononçant, **sourde** le cas contraire.
 
-9. La prononciation normale est dite *dure*. Elle est *mole* lorsque la lettre produit naturellement un son "y". *dure / mole* signifie que vous devez prononcer la lettre sous sa variante mole lorsqu'elle est suivie d'une mouillure.
+9. La prononciation normale est dite **dure**. Elle est **mole** lorsque la lettre produit naturellement un son "y". **dure / mole** signifie que vous devez prononcer la lettre sous sa variante mole lorsqu'elle est suivie d'une mouillure.
 
-8. La lettre est appelée *mouillure* car elle produit un son "y". La consonne qui précède doit donc être prononcée *mole*.
+8. La lettre est appelée **mouillure** car elle produit un son "ye". La consonne qui précède doit donc être prononcée **mole**.
 
 10. Audio.
 
 
+## Résumé
+
+- Les mots on tous une syllabe accentuée (accent virtuel) qui fait varier la prononciation. Vous apprendrez à la placer par la pratique.
+
+- Chaque lettre se prononce, il n'y a pas de liaisons commen en français (АН = A-N et pas AN).
+
+- Les consonnes sonores **БВГДЖЗ** deviennent sourdes lorsqu'elles sont suivies pas une consonne sourde **ШCKTПФ** ou **Ь**.
+
+- Les consonnes sonores **БВГДЖЗ** deviennent sourdes lorsqu'elles sont placées à la fin d'un mot (éventuelement suivi du signe mou **Ь**).
+
+- La lettre **Р** se prononce comme un R roulé.
+
+- La lettre **Х** se prononce comme un H "craché" (comme le chat en collère).
+
+- La lettre **Ы** se prononce comme un î "grave" (un peu comme en faisant le gogol).
+
+- La lettre **О** se prononce comme un A (entre le A et le O pour êre précis), sauf lorsque qu'elle se trouve dans la syllabe accentuée.
+
+- La lettre "Ь" ne se prononce pas mais produit un son en "ïe" lorsqu'elle est placée à la fin d'un mot.
+
+- La lettre **И** se prononce comme **Ы** quand elle suit **ШЖЧЩ** (ШИ = chî, ЖИ = jî, ЧИ = tchî, ЩИ = schî).
 
 
-Quelques conseils pour la prononciations.
+## Reconnaitre les consonnes sourdes et sonnores
+
+Répétez plusieurs fois la première ligne (puis les autres).
+
+"Be" "Pe"
+"Ve" "Fe"
+"Gue" "Ke"
+"De" "Te"
+"Je" "Che"
+"Ze" "Ce"
+
+Vous remarquez que le premier son est plutôt aspiré alors que le deuxième est plutôt souflé.
+Ces sons correspondent aux consonnes sonnores et leur version sourde.
+
+consonne sonnore > consonne sourde
+Б > П
+В > Ф
+Г > K
+Д > T
+Ж > Ш
+З > C
+
+## Quelques conseils pour la prononciations.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/SLfpp704KI8" frameborder="0" allowfullscreen></iframe></p>
-
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/zayTKG-ZAbs" frameborder="0" allowfullscreen></iframe></p>
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/IPk4SgwT9C8" frameborder="0" allowfullscreen></iframe></p>
