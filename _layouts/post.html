@@ -10,9 +10,11 @@ layout: default
       <div class="sidebar sticky-top">
         {% if page.layout == 'definition-lists' %}
         {% include progress-bar.html %}
-        {% include dl-settings.html %}
         {% endif %}
         {% include index.html %}
+        {% if page.layout == 'definition-lists' %}
+        {% include dl-settings.html %}
+        {% endif %}
       </div>
     </div>
     <div class="col order-1">

@@ -5,7 +5,6 @@
   {% for tag in array %}
   <li class="list-inline-item">
     <span class="{{ include.item-class }}">{{ t.tags[tag] | default: tag | escape }}</span>
-    {% comment %}<a href="{{ tag | slugify | prepend: '/tags.html#' | relative_url }}" class="{{ include.item-class }}">{{ t.tags[tag] | default: tag }}</a>{% endcomment %}
   </li>
   {% endfor %}
 </ul>

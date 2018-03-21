@@ -9,13 +9,15 @@
       //content:'\e0b0'; // iconic
       //font-family: 'Icons';
       //content: "\f128"; // font-awesome
-      font-family: FontAwesome;
+      //font-family: FontAwesome;
+      font-family: 'Font Awesome 5 Free';
       font-style: normal;
       font-weight: normal;
       text-decoration: inherit;
       position: absolute;
       //z-index: 0;
       font-size: 8rem;
+      background-size: 8rem 8rem;
       top: 0;
       left: 0;
       width: 100%;
@@ -23,9 +25,13 @@
       overflow: hidden;
       display: flex;
       justify-content: center;
-      align-items: center;
+      //align-items: center;
       opacity: .05;
     }
+
+    //.progress {
+    //  background-color: rgba(0,0,0,.25);
+    //}
 
   }
 
@@ -65,31 +71,15 @@
   transform-style: preserve-3d;
   transform: rotateY(0deg);
 
-  input[type="radio"]:checked + &,
-  input[type="checkbox"]:checked + & {
-    transform: rotateY(-180deg);
-    //transform: rotateY(-180deg) translateZ(0px);
-    z-index: $zindex-dropdown;
-    .card.front {
-      z-index: -1;
-    }
-    .card.back {
-      z-index: initial;
-    }
-  }
-
   .card {
-
-    //backface-visibility: hidden;
     -webkit-font-smoothing: subpixel-antialiased;
     margin: 0;
     height: 100%;
-
     &.back {
       transform: rotateY(180deg);
       z-index: -1;
+      backface-visibility: hidden;
     }
-
   }
 
   .card-position-absolute {
@@ -101,6 +91,21 @@
       position: absolute;
       bottom: 0px;
       width: 100%;
+    }
+  }
+
+  input[type="radio"]:checked + &,
+  input[type="checkbox"]:checked + & {
+    transform: rotateY(-180deg);
+    //transform: rotateY(-180deg) translateZ(0px);
+    z-index: $zindex-dropdown;
+    .card.front {
+      z-index: -1;
+      backface-visibility: hidden;
+    }
+    .card.back {
+      z-index: inherit;
+      backface-visibility: inherit;
     }
   }
 
@@ -138,7 +143,7 @@
 
 .post-list {
 
-  //perspective: 5000px;
+  perspective: 50000px;
 
   .card {
     min-width: 25rem;
@@ -167,7 +172,8 @@
       &.bg-success {
         &:before {
           //content:'\e033'; // iconic
-          content: "\f00c"; // font-awesome
+          //content: "\f00c"; // font-awesome
+          //content: url(../bower_components/font-awesome/advanced-options/raw-svg/solid/check.svg);
         }
       }
 

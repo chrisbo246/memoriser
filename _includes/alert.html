@@ -25,12 +25,10 @@
   </button>
   {% endif %}
 
+  {% comment %}{% if fa %}<span class="fas {{ fa }} fa-4x float-left d-block h-100 mr-3" aria-hidden="false"></span>{% endif %}{% endcomment %}
+
   {% if include.title %}
-  <h5>
-    {% if fa %}<span class="fa {{ fa }} fa-4x pull-left mr-3" aria-hidden="false"></span>{% endif %}
-    {% if oi %}{% comment %}<img src="{{ '/bower_components/open-iconic/svg/' | append: oi | append: '.svg' | relative_url }}" class="oi oi-4x pull-left mr-3" alt="{{ oi }}">{% endcomment %}{% endif %}
-    {{ include.title }}
-  </h5>
+  <h5>{{ include.title }}</h5>
   {% endif %}
 
   {% if include.content %}

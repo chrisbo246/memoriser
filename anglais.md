@@ -1,7 +1,7 @@
 ---
 layout: cards
 lang: fr
-title: "Listes de vocabulaire français-anglais"
+title: "Fiches d'apprentissage: Anglais"
 #subtitle: "French-english vocabulary"
 description: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."
 excerpt: "Des mots composés et expressions courantes qui s'apprennent généralement par la pratique."

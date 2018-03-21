@@ -23,6 +23,10 @@ Bien.
 : Хорошо.
 */Horocho./*
 
+Ça va.
+: Нормально.
+*/Normalna./ "Normal."*
+
 Bien, merci.
 : Спасибо, хорошо.
 */Spasiba, horocho./*
@@ -44,15 +48,8 @@ Tout est OK.
 */Fcio ok./*
 
 
-## Ça va
-
-Normal.
-: нормально.
-*/Normalna./*
-
-
 ## Ça ne va pas très bien
 
 Ça va doucement.
-: По тихонечку.
-*/pa tihonitchkou./*
+: Потихонечку.
+*/Patihonitchkou./ "Doucement."*

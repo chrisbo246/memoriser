@@ -97,3 +97,6 @@ mise en garde
 feuille de vigne
 : fig leaf
 *Pour cacher le sex.*
+
+immobilier
+: real estate

@@ -184,9 +184,9 @@ $.fn.randomize = function (childElem) {
           + '</div>'
           + '<div class="card-footer bg-transparent border-0 p-0">'
           + '<div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">'
-          + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" class="unmemorized" autocomplete="off" data-global="false" /><i class="fa fa-times fa-lg" aria-hidden="false"></i>{% endraw %}{% comment %}<img src="{{ '/bower_components/open-iconic/svg/x.svg' | relative_url }}" class="oi oi-sm" alt="x">{% endcomment %}{% raw %}</label>'
-          + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}"><i class="fa fa-volume-up fa-lg" aria-hidden="false"></i>{% endraw %}{% comment %}<img src="{{ '/bower_components/open-iconic/svg/audio.svg' | relative_url }}" class="oi oi-sm" alt="audio">{% endcomment %}{% raw %}</button>' : '')
-          + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.known_definition }}{% raw %}"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off" data-global="false" /><i class="fa fa-check fa-lg" aria-hidden="false"></i>{% endraw %}{% comment %}<img src="{{ '/bower_components/open-iconic/svg/check.svg' | relative_url }}" class="oi oi-sm" alt="check">{% endcomment %}{% raw %}</label>'
+          + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" class="unmemorized" autocomplete="off" data-global="false" /><i class="fas fa-times fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</label>'
+          + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}"><i class="fas fa-volume-up fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</button>' : '')
+          + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.known_definition }}{% raw %}"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off" data-global="false" /><i class="fas fa-check fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</label>'
           + '</div>'
           + '</div>'
           + '</div>'
@@ -214,9 +214,9 @@ $.fn.randomize = function (childElem) {
         $title = $(this);
         id = $title.attr('id') || encodeURIComponent($title.text());
         $title.replaceWith(
-          '<div class="card front card-section bg-primary text-white m-1" data-section="' + id + '">'
-          + '<div class="card-body d-flex bg-faded text-center">'
-          + '<h4 class="card-title m-auto" ' + ((id) ? ' id="' + id + '"' : '') + '>'
+          '<div class="card front card-section bg-secondary text-dark m-1" data-section="' + id + '">'
+          + '<div class="card-body d-flex text-center">'
+          + '<h4 class="card-title font-weight-light m-auto" ' + ((id) ? ' id="' + id + '"' : '') + '>'
           + $title.html()
           + '</h4>'
           + '</div>'
@@ -297,7 +297,7 @@ $.fn.randomize = function (childElem) {
 
 
       /**
-      * Phen unhide post content once everything is in place
+      * Then unhide post content once everything is in place
       */
 
       $container.removeClass('spinner spinner-fullscreen spinner-bg fa fa-spinner');

@@ -30,4 +30,13 @@
 {% assign array = array | push: 'category-other' %}
 {% endif %}
 
+{% if tags and tags.size > 0 %}
+{% for tag in tags %}
+{% assign class = 'tag-' | append: tag %}
+{% assign array = array | push: class %}
+{% endfor %}
+{% else %}
+{% assign array = array | push: 'tag-other' %}
+{% endif %}
+
 {{ array | join: ' ' }}

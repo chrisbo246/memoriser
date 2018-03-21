@@ -27,9 +27,6 @@ supérette
 droguerie
 : hardware store
 
-
-## Services de proximité
-
 bureau de prêteur sur gage
 : pawnshop
 
@@ -38,3 +35,9 @@ bureau de prêteur sur gage
 
 bar de quartier
 : dive bar
+
+
+## Divers
+
+maison de prostitution, maison close
+: brothel, whorehouse

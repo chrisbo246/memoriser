@@ -13,7 +13,6 @@
         {% endif %}
         {% if post.icon or include.icon_oi %}
         {% assign icon = include.icon_oi | default: post.icon.oi %}
-        {% comment %}<img src="{{ '/bower_components/open-iconic/svg/' | append: icon | append: '.svg' | relative_url }}" class="oi oi-lg mr-2" alt="{{ icon }}" hidden>{% endcomment %}
         {% endif %}
         {{ post.title }}
       </h5>

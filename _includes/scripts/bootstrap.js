@@ -32,8 +32,9 @@
       var $input = $(this).parents('.card-flip').prev('input');
       if ($input) {
         var checked = $input.prop('checked');
+        //$(this).parents('.card-flip').find('[title], [data-toggle="tooltip"]').tooltip('hide');
+        $tooltips.tooltip('hide');
         $input.prop('checked', !checked).trigger('change');
-        $(this).tooltip('update');
       }
     });
 

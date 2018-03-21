@@ -1,7 +1,7 @@
 ---
 layout: cards
 lang: fr
-title: "Art"
+title: "Fiches d'apprentissage: Art"
 #subtitle: ""
 description: ""
 excerpt: ""

@@ -65,9 +65,11 @@ $buoop = {
 
 
 function $buo_f(){
- var e = document.createElement('script');
- e.src = '//browser-update.org/update.min.js';
- document.body.appendChild(e);
+ var s = document.createElement('script');
+ s.src = '//browser-update.org/update.min.js';
+ s.async = true;
+ s.setAttribute('data-timestamp', +new Date());
+ document.body.appendChild(s);
 };
 try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
 catch(e){window.attachEvent("onload", $buo_f)}

@@ -18,6 +18,9 @@ date: 2018-01-20 00:00:00 +0100
 Je fais pipi
 : я писаю
 
+Je ne fais que regarder.
+: Я только смотрю.
+*/Ya tolka smatriou./*
 
 
 ## Devoir
@@ -35,6 +38,17 @@ Je dois faire pipi
 Je ne pouvais pas …
 : Я не мог …
 */Ya nié mok …/ "je pas pourrais …"*
+
+
+## Téléphoner
+
+J'appellerai.
+: я позвоню.
+*/Ya pazvaniou./*
+
+Et j'appellerai pour organiser la rencontre.
+: И я позвоню, чтобы договориться о встрече.
+*/I ya pazvaniou tchobî dagavaritcia a fstritchiè./*
 
 
 

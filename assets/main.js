@@ -1,11 +1,6 @@
 ---
 ---
 
-{% raw %}
-//window.lazySizesConfig = window.lazySizesConfig || {};
-//window.lazySizesConfig.init = false;
-{% endraw %}
-
 {% assign lang = page.lang | default: site.lang | default: "en" %}
 {% assign t = site.data.locales[lang] %}
 
@@ -27,5 +22,6 @@ $('html').addClass('lazysizes-active');
 
 {% include scripts/sound-player.js %}
 {% include scripts/cookieconsent.js %}
-{% include scripts/browser-update.js %}
 {% include scripts/google-analytics.js %}
+
+{% comment %}{% include scripts/browser-update.js %}{% endcomment %}

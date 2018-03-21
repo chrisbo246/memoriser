@@ -20,16 +20,12 @@ Qu’est ce que c’est?
 */Chto èta?/*
 
 Pourriez-vous me dire …?
-: не подскажите …?
+: Не подскажите …?
 */Niè potskajîtè …?/*
 
 Qu’est-ce qui est écrit là ?
 : Что тут написано?
 */Chto toutᵉ napisana?/*
-
-Est ce que vous comprenez l'anglais?
-: Вы понимаете по-английски?
-*/Vî panimiétié pa angliski?/*
 
 
 ## Politesse
@@ -43,7 +39,7 @@ Puis-je?
 */Davolnî li vî?/*
 
 Qui est le dernier (de la queue)?
-: Kто Последний?
+: Кто Последний?
 */Kto paslièdni?/*
 
 Faut-il retirer ses chaussures?
@@ -66,7 +62,7 @@ Qui est là?
 */kto zdièssʸ/*
 
 Qu'est ce qu'il s'est passé?
-: что случилось?
+: Что случилось?
 */chto soutchîlassʸ/*
 
 Qui a dit ça?
@@ -74,11 +70,11 @@ Qui a dit ça?
 */kto èta skazal?/*
 
 Quel, Lequel …?
-: который …?
+: Который …?
 */katorî …?/*
 
 Quelle, Laquelle …?
-: которая …?
+: Которая …?
 */katoraïa …?/*
 
 Il y a à manger?
@@ -86,18 +82,14 @@ Il y a à manger?
 */Yèstʸ yèstʸ?/*
 
 Y a t'il des embouteillages en ce moment?
-: сейчас есть пробки?
+: Сейчас есть пробки?
 */Ciètchass yèstʸ prabki/ "Maintenant il-y-a embouteillages?"*
 
 
 ## Aujourd'hui
 
-Quelle est la date d'aujourd'hui?
-: Какое сегодня число?
-*/Kakoïè civodnia tchîslo?/ "Quelle aujourd'hui nombre?"*
-
 Quel temps fait-il aujourd'hui?
-: какая погода сегодня?
+: Какая погода сегодня?
 */Kakaïa pagoda civodnia?/*
 
 Quand le printemps reviendra-t'il?
@@ -108,37 +100,12 @@ Quand le printemps reviendra-t'il?
 ## Pourquoi
 
 Pourquoi …?
-: почему …?
+: Почему …?
 */Patchimou …?/*
 
 Pourquoi as-tu/avez-vous fais ça?
-: почему ты/вы это сделал?
+: Почему ты/вы это сделал?
 */Patchimou tî/vî èta sdiélal?/*
-
-
-## Proposer un rendez-vous
-
-Que fais-tu demain soir?
-: что ты делаешь завтра вечером?
-*/Chto tî dièlaèchʸ zaftra viètchiram?/*
-
-Es-tu libre ce soir?
-: m.
-  : ты свободен сегодня вечером?
-  */Tî svabodinᵉ civodnia viètchiram?/*
-
-  f.
-  : ты свободна сегодня вечером?
-  */Tî svabodna civodnia viètchiram?/ "Es-Tu f. libre ce soir?"*
-
-Je voudrais vous inviter à un rendez-vous (amoureux).
-: m.
-  : Я хотел бы пригласить тебя на свидание.
-  */Ya hatil bî priglassitʸ tibia na svidanié./*
-
-  f.
-  : Я хотелa бы пригласить тебя на свидание.
-  */Ya hatila bî priglassitʸ tibia na svidanié./ "Je f. voudrais vous inviter à un rendez-vous (amoureux)."*
 
 
 ## Retourner la question
@@ -166,7 +133,7 @@ Très bien, merci, et vous?
 
 
 
-*[m.]: Mascumin
+*[m.]: Masculin
 *[f.]: Féminin
 *[s.]: Singulier
 *[pl.]: Pluriel

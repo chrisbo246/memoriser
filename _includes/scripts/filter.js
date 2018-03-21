@@ -67,6 +67,13 @@
         $togglers.change(function () {
           filter(true);
         });
+        // Check the hidden "none" radio when user click a checked radio
+        //$togglers.click(function () {
+        //  console.log("click");
+        //  if ($(this).is(':checked')) {
+        //    $toggles.filter('[name=' + $(this).attr('name') + '][value=none]').trigger('click');
+        //  }
+        //});
       });
       $collapses.on('hide.bs.collapse', function () {
         filter(false);
@@ -85,7 +92,6 @@
         filter(true);
       });
     }
-
 
   });
 

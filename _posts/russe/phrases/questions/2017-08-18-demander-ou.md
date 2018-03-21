@@ -1,6 +1,6 @@
 ---
 layout: definition-lists
-title: "Phrases russe: Demander son chemin en russe"
+title: "Phrases russe: Demander son chemin"
 description: "Questions permettant de demander son chemin en russe."
 excerpt: "Questions permettant de demander son chemin en russe."
 image:
@@ -33,7 +33,7 @@ Où êtes-vous situé?
 */Gdiè vî nahoditièssʸ?/ "Où vous situé?"*
 
 Où faut-il venir vous chercher?
-: откуда вас забрать?
+: Откуда вас забрать?
 */Atkouda vass zabratʸ/ "D’où vous aller-chercher?"*
 
 Où sont les toilettes?
@@ -52,7 +52,7 @@ Dans quelle direction se trouve …?
 */V'kakomᵉ napravliny nahoditcia …?/*
 
 Où devez-vous aller?
-: где вам нужно поехать?
+: Где вам нужно поехать?
 */Gdiè vam noujna païèhatʸ?/ "Où vous devez aller?"*
 
 Où vas-tu?
@@ -79,11 +79,11 @@ Est-ce loin?
 ## Provenance
 
 D'où …?
-: откуда …?
+: Откуда …?
 */Atkouda …?/*
 
 D'où êtes-vous venu?
-: откуда вы пришёл?
+: Откуда вы пришёл?
 */Atkouda vî prichiol?/*
 
 

@@ -1,6 +1,6 @@
 ---
 layout: cards
-title: "Listes de vocabulaire français"
+title: "Fiches d'apprentissage: Français"
 #subtitle: "Cours de rattrapage"
 description: "Du vocabulaire soutenu et expressions que vous avez probablement déjà entendu en faisant mine de comprendre."
 excerpt: "Du vocabulaire soutenu et expressions que vous avez probablement déjà entendu en faisant mine de comprendre."

@@ -31,14 +31,7 @@ layout: default
 
         {{ content }}
 
-
         {% if posts.size > 0 %}
-
-        {% comment %}
-        <div class="collapse" id="post_list_options">
-          {% include filter-togglers.html posts=posts %}
-        </div>
-        {% endcomment %}
 
         {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
         <div class="post-list -card-columns d-flex flex-row flex-wrap -justify-content-between">
@@ -51,7 +44,7 @@ layout: default
               {% if post.weight > 0 %}
               {% assign class = 'card-position-absolute bg-primary text-white' %}
               {% else %}
-              {% assign class = 'card-position-absolute' %}
+              {% assign class = 'card-position-absolute bg-white' %}
               {% endif %}
               {% include card.html face="front" post=post class=class img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
               {% include card.html face="back" post=post class="bg-white text-dark" %}

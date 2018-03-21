@@ -1,12 +1,13 @@
 .definition-list  {
 
-  perspective: 5000px;
+  perspective: 50000px;
 
   .card {
     //min-width: 8rem;
     //min-height: 8rem;
     min-width: 12rem;
     min-height: 12rem;
+    overflow: hidden;
   }
 
   .card-body {
@@ -29,7 +30,7 @@
       word-wrap: break-word;
       word-break: break-word;
     }
-    
+
     .card.front {
 
       .card-title {
@@ -44,7 +45,8 @@
       &:before {
         //content:'\e0b0'; // iconic
         //font-family: 'Icons';
-        content: "\f128"; // font-awesome
+        //content: "\f128"; // font-awesome
+        //content: url(../bower_components/font-awesome/advanced-options/raw-svg/solid/question.svg);
         /*font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
@@ -64,7 +66,8 @@
       &.bg-success {
         &:before {
           //content:'\e033'; // iconic
-          content: "\f00c"; // font-awesome
+          //content: "\f00c"; // font-awesome
+          //content: url(../bower_components/font-awesome/advanced-options/raw-svg/solid/check.svg);
         }
       }
 
@@ -114,8 +117,8 @@
     word-wrap: break-word;
     word-break: break-word;
     &.front:before {
-      content: "\f129";
-      //content: "\f054";
+      //content: "\f129";
+      //content: url(../bower_components/font-awesome/advanced-options/raw-svg/solid/info.svg);
     }
   }
 

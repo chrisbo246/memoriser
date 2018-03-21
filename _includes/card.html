@@ -11,6 +11,7 @@
 {% assign daysSince = hoursSince | divided_by: 24 %}
 
 {% assign card-classes = 'card' | split: ' ' %}
+{% assign btn-style = 'btn' %}
 
 {% if include.face != 'back' %}
 
@@ -49,6 +50,7 @@
 {% if src and include.face != 'back' %}
 {% if page.card.image_position == 'overlay' %}
 {% assign card-body-classes = card-body-classes | push: 'card-img-overlay' %}
+{% assign btn-style = 'btn-outline' %}
 {% else %}
 {% assign card-body-classes = card-body-classes | push: 'card-body' %}
 {% endif %}
@@ -79,8 +81,16 @@
 {% assign card-title-classes = include.title-class | split: ' ' | concat: card-title-classes %}
 {% endif %}
 
+{% if card-classes contains 'bg-primary' or card-classes contains 'bg-secondary' or card-classes contains 'bg-success' or card-classes contains 'bg-danger' or card-classes contains 'bg-info' or card-classes contains 'bg-dark' or card-classes contains 'bg-gradient-primary' or card-classes contains 'bg-gradient-secondary' or card-classes contains 'bg-gradient-success' or card-classes contains 'bg-gradient-danger' or card-classes contains 'bg-gradient-info' or card-classes contains 'bg-gradient-dark'%}
+{% assign btn-style = btn-style | append: '-light' %}
+{% assign progress-style = 'bg-white' %}
+{% else %}
+{% assign btn-style = btn-style | append: '-dark' %}
+{% assign progress-style = 'bg-dark' %}
+{% endif %}
+
 {% if page.card.read_more_type == 'button' %}
-{% assign read-more-classes = 'btn btn-secondary' | split: ' ' %}
+{% assign read-more-classes = 'btn' | split: ' ' | push: btn-style %}
 {% elsif page.card.read_more_type == 'link' %}
 {% assign read-more-classes = 'card-link' | split: ' ' %}
 {% endif %}
@@ -137,29 +147,29 @@
     <div class="d-flex justify-content-between align-items-center">
 
       {% if include.face == 'front' %}
-      <label for="flipcard_position_{{ post.url | slugify: 'default' }}" class="btn btn-secondary mb-0" title="{{ t.details }}" aria-label="{{ t.details }}">
-        <span class="fas fa-question fa-fw" aria-hidden="true"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/question-mark.svg' | relative_url }}" class="oi oi-lg" alt="question-mark" hidden>{% endcomment %}
+      <label for="flipcard_position_{{ post.url | slugify: 'default' }}" class="btn {{ btn-style }} mb-0" title="{{ t.details }}" aria-label="{{ t.details }}">
+        <span class="fas fa-info fa-fw" aria-hidden="true"></span>
       </label>
       {% endif %}
       {% if include.face == 'back' %}
-      <button type="button" class="btn btn-secondary mb-0 flipcard-toggler" title="{{ t.close }}" aria-label="{{ t.close }}">
-        <span class="fas fa-times fa-fw" aria-hidden="true"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/x.svg' | relative_url }}" class="oi oi-lg" alt="x" hidden>{% endcomment %}
+      <button type="button" class="btn {{ btn-style }} mb-0 flipcard-toggler" title="{{ t.close }}" aria-label="{{ t.close }}">
+        <span class="fas fa-times fa-fw" aria-hidden="true"></span>
       </button>
       {% endif %}
 
-      {% if page.card.date and include.face != 'front' %}<small class="text-muted pull-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
-      {% if page.card.new and daysSince <= page.card.new and include.face != 'back' %}<small class="text-muted pull-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
+      {% if page.card.date and include.face != 'front' %}<small class="font-weight-light float-right">{{ post.date | date: "%b %-d, %Y" }}</small>{% endif %}
+      {% if page.card.new and daysSince <= page.card.new and include.face != 'back' %}<small class="font-weight-light float-right">Modifié il y a {{ daysSince }} jours</small>{% endif %}
 
       {% if read-more-classes and page.card.read_more_container == 'footer' %}
       <a href="{{ post.url | relative_url }}" class="{{ read-more-classes | uniq | compact | join: ' ' }} mb-0" title="{{ page.card.read_more | default: t.read_more }}" aria-label="{{ page.card.read_more | default: t.read_more }}">
-        <span class="fas fa-chevron-right fa-fw" aria-hidden="true"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-right.svg' | relative_url }}" class="oi oi-lg" alt="chevron-right" hidden>{% endcomment %}
+        <span class="fas fa-chevron-right fa-fw" aria-hidden="true"></span>
       </a>
       {% endif %}
 
     </div>
 
     {% if page.card.progress and post.layout == 'definition-lists' and include.face != 'back' %}
-    <div class="progress bg-dark border-0 mt-2" data-id="{{ post.url | slugify }}" title="{{ t.progress }}">
+    <div class="progress {{ progress-style }} mt-2" data-id="{{ post.url | slugify }}" title="{{ t.progress }}">
       <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
     {% endif %}

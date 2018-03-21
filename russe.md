@@ -1,7 +1,7 @@
 ---
 layout: cards
 lang: fr
-title: "Listes de vocabulaire français-russe"
+title: "Fiches d'apprentissage: Russe"
 #subtitle: "Французско-русский словарный запас"
 description: "Des phrases de base et du vocabulaire classé par thème pour débuter en russe."
 excerpt: "Des phrases de base et du vocabulaire classé par thème pour débuter en russe."

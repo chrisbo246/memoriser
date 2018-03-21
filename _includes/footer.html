@@ -1,22 +1,21 @@
 
 <div class="container-fluid">
-  <nav class="navbar border-0 fixed-bottom d-flex flex-row justify-content-between w-100 animated fadeInUp">
+  <nav class="navbar bg-light -border-0 fixed-bottom d-flex flex-row justify-content-between w-100 animated fadeInUp">
 
     {% if page.comments != false and site.disqus.shortname %}
-    <button type="button" class="btn btn-outline-secondary mr-auto" data-toggle="collapse" data-target="#comments" aria-controls="#comments" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
-      <span class="fas fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/comment-square.svg' | relative_url }}" class="oi oi-lg" alt="comment-square" hidden>{% endcomment %}
+    <button type="button" class="btn btn-outline-secondary btn-lg mr-auto" data-toggle="collapse" data-target="#comments" aria-controls="#comments" aria-expanded="false" aria-label="{{ t.toggle_comments }}">
+      <span class="fas fa-comments fa-lg fa-fw" title="{{ t.toggle_comments }}"></span>
     </button>
     {% endif %}
 
     {% if page.layout == 'post' or page.layout == 'definition-lists' %}
-    <a class="btn btn-outline-secondary" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" title="{{ t.edit_on_github }}" target="_blank" role="button">
+    <a class="btn btn-outline-secondary btn-lg" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" title="{{ t.edit_on_github }}" target="_blank" role="button">
       <i class="fas fa-pencil-alt fa-lg fa-fw" aria-hidden="true"></i>
     </a>
     {% endif %}
 
-    <a href="#top" class="btn btn-outline-secondary ml-auto" role="button" title="{{ t.scroll_to_top }}">
+    <a href="#top" class="btn btn-outline-secondary btn-lg ml-auto" role="button" title="{{ t.scroll_to_top }}">
       <i class="fas fa-chevron-up fa-lg fa-fw iconic iconic-chevron-top iconic-md" aria-hidden="true"></i>
-      {% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-top.svg' | relative_url }}" class="oi oi-md" alt="chevron-top" hidden>{% endcomment %}
     </a>
 
   </nav>

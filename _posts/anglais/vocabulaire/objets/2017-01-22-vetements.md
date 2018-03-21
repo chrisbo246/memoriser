@@ -243,7 +243,7 @@ salopette de travail
 : dungarees
 
 
-Composants d'un vêtement
+## Composants d'un vêtement
 
 hood
 : capuche

@@ -53,8 +53,10 @@ body {
 .sticky-top {
   top: $body-padding-top + $sticky-margin-top;
   //top: $body-padding-top + ceil($grid-gutter-width / 2); // Unit issue
+  //margin-bottom: $body-padding-bottom + $sticky-margin-bottom;
 }
 .sticky-bottom {
+  //margin-top: $body-padding-top + $sticky-margin-top;
   bottom: $body-padding-bottom + $sticky-margin-bottom;
   //bottom: $body-padding-bottom + floor($grid-gutter-width / 2); // Unit issue
 }

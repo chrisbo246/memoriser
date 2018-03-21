@@ -13,33 +13,13 @@ tags: ["réponse"]
 date: 2017-08-22 00:00:00 +0100
 ---
 
-oui
+Oui
 : да
-*/da/*
+*/Da/*
 
-bien sûr
-: конечно
-*/kaniètchna/*
-
-C'est vrai
-: Правда
-*/Pravda/*
-
-Je comprends
-: Я понимаю
-*/Ya panimay./*
-
-Je sais
-: я знаю
-*/Ya znaiou/*
-
-je peu
-: я умею
-*/ya oumièiou/*
-
-C'est clair!
-: Ясно!
-*/Yasna!/*
+Bien sûr!
+: Конечно!
+*/kaniètchna!/*
 
 Ça roule!
 : Катит!
@@ -49,13 +29,13 @@ Avec plaisir!
 : C удовольствием!
 */Soudavolstvièmᵉ!/*
 
-Je vous en prie!
-: Прошу вас!
-*/Prachou vass!/*
+Je peu.
+: Я умею.
+*/Ya oumièiou/*
 
-Comme c’est intéressant!
-: Как интересно!
-*/Kak intièrèsna!/*
+Je comprends.
+: Я понимаю.
+*/Ya panimay./*
 
 Je suis d'accord
 : m.
@@ -65,7 +45,6 @@ Je suis d'accord
   f.
   : Я согласна
   */Ya saglasna/ "Je f. d'accord"*
-
 
 
 *[m.]: Masculin

@@ -50,10 +50,10 @@ Bonjour!
 Salut!
 : Hello!
 
-Salut! [fam.]
+Salut! fam.
 : Hi!
 
-Salut! [fam.]
+Salut! fam.
 : Hey!
 
 
@@ -98,3 +98,7 @@ Veuillez m'excuser.
 Je suis en liberté sous caution
 : I'm on a bail
 *Pour s'échapper d'une soirée ennuyeuse.*
+
+
+
+*[fam.]: Familier

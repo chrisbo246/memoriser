@@ -1,6 +1,6 @@
 ---
 layout: definition-lists
-title: "Phrases en russe: Début de phrase"
+title: "Phrases russe: Début de phrase"
 description: "Liste de phrases et expressions russe courantes."
 excerpt: "Liste de phrases et expressions russe courantes."
 image:
@@ -20,3 +20,7 @@ Voici, nous voici …
 Il y a …
 : Есть …
 */Yèstʸ …/ "il-y-a …"*
+
+Voici mon ami John.
+: Это мой друг, Джон.
+*/èta moï drouk, Djonᵉ./ "C'est mon ami, John."*

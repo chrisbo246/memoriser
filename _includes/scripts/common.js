@@ -33,10 +33,10 @@
         var id = decodeURIComponent(this.hash);
         var $target = $(id) || $('[name=' + id.slice(1) +']');
 
-        if ($target.length) {
+        if ($target && $target.length) {
 
           var $parents = $target.parents('.card');
-          if ($parents.length) {
+          if ($parents && $parents.length) {
             var top = $parents.first().offset().top;
           } else {
             var top = $target.offset().top;
@@ -51,13 +51,13 @@
 
             // Blink target (or section)
             var $sectionItems = $('.card').filter('[data-section="' + $target.attr('id') + '"]');
-            if ($sectionItems.length) {
+            if ($sectionItems && $sectionItems.length) {
               var $highlighted = $sectionItems;
             } else if ($target.is('h1, h2, h3, h4, a, p')) {
               var $highlighted = $target;
             }
 
-            if ($highlighted.length) {
+            if ($highlighted && $highlighted.length) {
               var duration = 300;
               var repeat = 2;
               var interval = setInterval(function () {
@@ -87,10 +87,10 @@
     var scrollTopButtonFadeDuration = 300;
     var $links = $('a').filter('[href="#top"]');
     var $navbar = $links.closest('.navbar').parent('div');
-    if ($navbar.length) {
+    if ($navbar && $navbar.length) {
       $links = $navbar;
     }
-    if ($links.length) {
+    if ($links && $links.length) {
       $links.fadeOut();         
       $(window).on('scroll', function() {
         var scrollHeight = $(document).height();
@@ -159,7 +159,7 @@
       * Store / restore checked definitions
       */
       var $inputs = $(':checkbox, :radio').not('[data-storage="false"]'); //.filter('[id]');
-      if ($inputs.length) {
+      if ($inputs && $inputs.length) {
         var $input, $label, name, id, checked, key, value, type, namespace;
         $inputs.each(function () {
           $input = $(this);

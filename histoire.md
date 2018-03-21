@@ -1,7 +1,7 @@
 ---
 layout: cards
 lang: fr
-title: "Histoire"
+title: "Fiches d'apprentissage: Histoire"
 #subtitle: ""
 description: ""
 excerpt: ""

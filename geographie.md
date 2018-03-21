@@ -1,7 +1,7 @@
 ---
 layout: cards
 lang: fr
-title: "Géographie"
+title: "Fiches d'apprentissage: Géographie"
 #subtitle: ""
 description: ""
 excerpt: ""

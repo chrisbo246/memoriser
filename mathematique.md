@@ -1,7 +1,7 @@
 ---
 layout: cards
 lang: fr
-title: "Mathématique"
+title: "Fiches d'apprentissage: Mathématique"
 #subtitle: ""
 description: ""
 excerpt: ""

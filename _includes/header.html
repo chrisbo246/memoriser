@@ -2,14 +2,6 @@
   <nav class="navbar navbar-dark bg-primary fixed-top d-flex flex-row justify-content-between w-100 animated -fadeInRight fadeInDown">
 
     {% if page.layout == 'home' %}
-    {% comment %}
-    <a class="navbar-brand" href="{{ "/" | relative_url }}">
-      <span class="h6">{{ site.title | slice: 0, 4 | escape }}</span><span class="fas fa-arrow-up text-success"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/arrow-thick-top.svg' | relative_url }}" class="oi oi-lg text-success" alt="arrow-thick-top" hidden>{% endcomment %}<span class="h4 font-weight-bold">{{ site.title | slice: 5, 5 | escape }}</span>
-    </a>
-    <a class="navbar-brand" href="{{ "/" | relative_url }}">
-      <span class="fas fa-arrow-up" title="{{ site.title | escape }}"></span>
-    </a>
-    {% endcomment %}
     <a class="navbar-brand -random-rotate -random-opacity -random-font-size" href="{{ "/" | relative_url }}">
       {% assign string = site.title | strip | escape %}
       {% assign n = string.size - 2 %}
@@ -18,8 +10,6 @@
       {% endfor %}
     </a>
     {% endif %}
-
-
 
     <div class="btn-toolbar" role="toolbar" aria-label="">
 
@@ -41,7 +31,7 @@
       {% endfor %}
       {% if root_url %}
       <a role="button" class="btn btn-outline-light btn-lg" href="{{ root_url | relative_url }}" title="{{ t.return }}">
-        <i class="fas fa-chevron-left fa-lg fa-fw" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-left.svg' | relative_url }}" class="oi" alt="chevron-left" hidden>{% endcomment %}
+        <i class="fas fa-chevron-left fa-lg fa-fw" aria-hidden="true"></i>
         <small hidden>{{ t.return }}</small>
       </a>
       {% endif %}
@@ -58,7 +48,7 @@
       {% if posts.size > 0 %}
       <div class="btn-group ml-2">
         <button type="button" class="btn btn-outline-light btn-lg rounded" id="related-posts-dropdown" data-toggle="dropdown" title="{{ t.continue }}" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-chevron-right fa-lg fa-fw" aria-hidden="true"></i>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/chevron-right.svg' | relative_url }}" class="oi" alt="chevron-right" hidden>{% endcomment %}
+          <i class="fas fa-chevron-right fa-lg fa-fw" aria-hidden="true"></i>
           <small hidden>{{ t.continue }}</small>
         </button>
         <div class="dropdown-menu dropdown-menu-right">
@@ -70,7 +60,7 @@
 
       {% if page.layout == 'home' or page.layout == 'post' or page.layout == 'definition-lists' or page.layout == 'cards' %}
       <button type="button" class="btn btn-outline-light btn-lg ml-2" data-toggle="collapse" data-target="#post_options" aria-controls="post_options" aria-expanded="false" aria-label="{{ t.toggle_options }}">
-        <span class="fas fa-bars fa-lg fa-fw" title="{{ t.toggle_options }}"></span>{% comment %}<img src="{{ '/bower_components/open-iconic/svg/menu.svg' | relative_url }}" class="oi oi-lg" alt="menu" hidden>{% endcomment %}
+        <span class="fas fa-bars fa-lg fa-fw" title="{{ t.toggle_options }}"></span>
       </button>
       {% endif %}
 

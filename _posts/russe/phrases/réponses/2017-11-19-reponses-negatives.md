@@ -13,20 +13,20 @@ tags: ["réponse"]
 date: 2017-08-22 00:00:00 +0100
 ---
 
-non
-: нет
+Non
+: Нет
 */niètᵉ/*
 
 … pas
-: не …
-*/niè …/*
+: Не …
+*/Niè …/*
 
 faux, mensonge
 : ложь
 */lochʸ/*
 
 Je ne sais pas.
-: я не знаю.
+: Я не знаю.
 */Ya niè znaïou./*
 
 Je ne comprends pas.
