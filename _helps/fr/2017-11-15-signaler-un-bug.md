@@ -2,7 +2,7 @@
 title: "Comment signaler un bug technique?"
 ---
 
-Si vous avez un compte Github, le plus pratique est d'utiliser le [système de gestions des bugs](https://github.com/chrisbo246/memo-riser/issues). Sinon, utiliser le formulaire de contact.
+Si vous avez un compte Github, le plus pratique est d'utiliser le [système de gestions des bugs](https://github.com/chrisbo246/memoriser/issues). Sinon, utiliser le formulaire de contact.
 
 Dans tous les cas, pensez à nous décrire comment reproduire le problème et nous indiquer avec quel navigateur.
 

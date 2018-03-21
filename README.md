@@ -1,8 +1,8 @@
-# MEMO-RISER
+# MEMORISER
 
 Easy to write / learn vocabulary lists powered by Jekyll.
 
-[![Preview](screenshot.png)](https://chrisbo246.github.io/memo-riser/)
+[![Preview](screenshot.png)](https://chrisbo246.github.io/memoriser/)
 
 ## Features
 
@@ -61,4 +61,4 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 
 ## Known issues and bug reports
 
-[It's this way!](https://github.com/chrisbo246/memo-riser/issues)
+[It's this way!](https://github.com/chrisbo246/memoriser/issues)

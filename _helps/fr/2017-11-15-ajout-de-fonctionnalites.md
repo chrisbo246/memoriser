@@ -9,7 +9,7 @@ Nous n'avons aucun budget pour cette app. Si vous souhaitez une fonctionnalité 
 ## Fonctionnalités payantes
 
 - Nom de domaine
-  (env. 15€/an [gandi.net](https://shop.gandi.net/fr/domain/suggest?search=memo-riser))
+  (env. 15€/an [gandi.net](https://shop.gandi.net/fr/domain/suggest?search=memoriser))
 
 - Synthèse vocale pour les traductions
   ($0.006/15s [Google speech API](https://cloud.google.com/speech/pricing))

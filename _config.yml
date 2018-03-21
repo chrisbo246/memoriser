@@ -18,7 +18,7 @@ email: chrisbo246@gmail.com
 description: >
   Listes de vocabulaire Français, Anglais et Russe regroupant mots composés et
   expressions courantes difficile à apprendre autrement que par la pratique.
-baseurl: "/memo-riser" # the subpath of your site, e.g. /blog
+baseurl: "/memoriser" # the subpath of your site, e.g. /blog
 url: "https://chrisbo246.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chrisbo246
 github_username:  chrisbo246
@@ -198,12 +198,12 @@ defaults:
 lang: fr
 google_analytics: "UA-93687641-1"
 disqus:
-  shortname: memo-riser
+  shortname: memoriser
 
 # https://github.com/jekyll/github-metadata
-repository: chrisbo246/memo-riser
+repository: chrisbo246/memoriser
 github:
-  url: https://chrisbo246.github.io/memo-riser/
+  url: https://chrisbo246.github.io/memoriser/
 
 # https://github.com/jekyll/jekyll-seo-tag
 date: 2017-01-01 00:00:00 +0100
@@ -223,14 +223,14 @@ facebook:
   publisher:
   admins:
 social:
-  name: "MEMO-RISER"
+  name: "MEMORISER"
   links:
-    - https://github.com/memo-riser
-    #- https://twitter.com/memo-riser
+    - https://github.com/chrisbo246/memoriser
+    #- https://twitter.com/memoriser
     #- https://www.facebook.com/memo.riser
-    #- https://www.linkedin.com/in/memo-riser
-    #- https://plus.google.com/+memo-riser
-    #- https://keybase.io/memo-riser
+    #- https://www.linkedin.com/in/memoriser
+    #- https://plus.google.com/+memoriser
+    #- https://keybase.io/memoriser
 
 # jekyll-compress-html
 compress_html:
@@ -248,8 +248,8 @@ compress_html:
 array: []
 theme_color: '#ffffff'
 headers:
-  api-user-agent: memo-riser/1.0
-  origin: https://chrisbo246.github.io/memo-riser
+  api-user-agent: memoriser/1.0
+  origin: https://chrisbo246.github.io/memoriser
 
 yandex_translate:
   key: 'trnsl.1.1.20170126T174835Z.60d9a0f54ac44aef.fc3b4dab14cf7c81caf5fe57769a769ab427a872'

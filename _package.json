@@ -1,12 +1,12 @@
 {
-  "name": "memo-riser",
+  "name": "memoriser",
   "version": "1.0.0",
   "description": "Easy to write / learn vocabulary lists powered by Jekyll.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/chrisbo246/memo-riser.git",
+  "repository": "git+https://github.com/chrisbo246/memoriser.git",
   "author": "Chrisbo246 <chrisbo246@users.noreply.github.com>",
   "license": "ISC",
   "bugs": {
