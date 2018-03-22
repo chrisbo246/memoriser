@@ -22,22 +22,22 @@ published: true
 ## Refrain
 
 Калинка, калинка, калинка моя!
-: Kalin'ka, kalin'ka, kalin'ka maïa!
+: Kalinᵉka, kalinᵉka, kalinᵉka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
-В саду ягода малинка, малинка моя!
-: v'sadou yagada malin'ka, malin'ka maïa!
+В саду ягода Малинка, Малинка моя!
+: v'sadou yagada Malinᵉka, Malinᵉka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
 ###### Chœur (x3)
 
 Эх, Калинка, калинка, калинка моя!
-: Eh, Kalin'ka, kalin'ka, kalin'ka maïa!
+: Eh, Kalinᵉka, kalinᵉka, kalinᵉka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
-В саду ягода малинка, малинка моя!
-: v'sadou yagada malin'ka, malin'ka maïa!
+В саду ягода Малинка, Малинка моя!
+: v'sadou yagada Malinᵉka, Malinᵉka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
@@ -63,21 +63,21 @@ published: true
 ## Refrain
 
 Калинка, калинка, калинка моя!
-: Kalin'ka, kalin'ka, kalin'ka maïa!
+: Kalinᵉka, kalinᵉka, kalinᵉka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
-В саду ягода малинка, малинка моя!
-: v'sadou yagada malin'ka, malin'ka maïa!
+В саду ягода Малинка, Малинка моя!
+: v'sadou yagada Malinᵉka, Malinᵉka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 ###### Chœur (x3)
 
 Эх, Калинка, калинка, калинка моя!
-: Eh, Kalin'ka, kalin'ka, kalin'ka maïa!
+: Eh, Kalinᵉka, kalinᵉka, kalinᵉka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
-В саду ягода малинка, малинка моя!
-: v'sadou yagada malin'ka, malin'ka maïa!
+В саду ягода Малинка, Малинка моя!
+: v'sadou yagada Malinᵉka, Malinᵉka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
@@ -103,22 +103,22 @@ published: true
 ## Refrain
 
 Калинка, калинка, калинка моя!
-: Kalin'ka, kalin'ka, kalin'ka maïa!
+: Kalinᵉka, kalinᵉka, kalinᵉka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
-В саду ягода малинка, малинка моя!
-: v'sadou yagada malin'ka, malin'ka maïa!
+В саду ягода Малинка, Малинка моя!
+: v'sadou yagada Malinᵉka, Malinᵉka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
 ###### Chœur (x3)
 
 Эх, Калинка, калинка, калинка моя!
-: Eh, Kalin'ka, kalin'ka, kalin'ka maïa!
+: Eh, Kalinᵉka, kalinᵉka, kalinᵉka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
-В саду ягода малинка, малинка моя!
-: v'sadou yagada malin'ka, malin'ka maïa!
+В саду ягода Малинка, Малинка моя!
+: v'sadou yagada Malinᵉka, Malinᵉka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
@@ -144,22 +144,22 @@ published: true
 ## Refrain
 
 Калинка, калинка, калинка моя!
-: Kalin'ka, kalin'ka, kalin'ka maïa!
+: Kalinᵉka, kalinᵉka, kalinᵉka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
-В саду ягода малинка, малинка моя!
-: v'sadou yagada malin'ka, malin'ka maïa!
+В саду ягода Малинка, Малинка моя!
+: v'sadou yagada Malinᵉka, Malinᵉka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 
 ###### Chœur (x3)
 
 Эх, Калинка, калинка, калинка моя!
-: Eh, Kalin'ka, kalin'ka, kalin'ka maïa!
+: Eh, Kalinᵉka, kalinᵉka, kalinᵉka maïa!
 *Petite baie, petite baie, ma petite baie!*
 
-В саду ягода малинка, малинка моя!
-: v'sadou yagada malin'ka, malin'ka maïa!
+В саду ягода Малинка, Малинка моя!
+: v'sadou yagada Malinᵉka, Malinᵉka maïa!
 *Dans le jardin, il y a des petites framboises, ma petite framboise!*
 
 

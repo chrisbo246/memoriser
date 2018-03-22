@@ -121,11 +121,11 @@ $.fn.randomize = function (childElem) {
           id = validId(parentText + '_' + dtText + '_pane');
           tabsHtml = tabsHtml
             + '<li class="nav-item">'
-            + '<a class="nav-link px-1 py-0 ' + ((i === 0) ? 'active' : '') + '" href="#' + id + '" data-toggle="tab" role="tab" aria-controls="' + id + '" aria-selected="' + ((i === 0) ? 'true' : 'false') + '">' + dtHtml.replace(/(abbr>)\s+(<abbr)/g, '$1$2') + '</a>'
+            + '<a class="nav-link ' + ((i === 0) ? 'active' : '') + '" href="#' + id + '" data-toggle="tab" role="tab" aria-controls="' + id + '" aria-selected="' + ((i === 0) ? 'true' : 'false') + '">' + dtHtml.replace(/(abbr>)\s+(<abbr)/g, '$1$2') + '</a>'
             + '</li>';
           panesHtml = panesHtml + '<div id="' + id + '" class="tab-pane fade ' + ((i === 0) ? 'show active' : '') + '" role="tabpanel" aria-labelledby="' + dtText + '"><p class="card-text float-left">' + ddHtml + '</p></div>';
         });
-        $dl.replaceWith('<ul class="nav float-right" role="tablist">' + tabsHtml + '</ul><div class="tab-content">' + panesHtml + '</div>');
+        $dl.replaceWith('<ul class="nav justify-content-end" role="tablist">' + tabsHtml + '</ul><div class="tab-content">' + panesHtml + '</div>');
       });
 
 
@@ -300,7 +300,7 @@ $.fn.randomize = function (childElem) {
       * Then unhide post content once everything is in place
       */
 
-      $container.removeClass('spinner spinner-fullscreen spinner-bg fa fa-spinner');
+      $container.removeClass('spinner spinner-fullscreen spinner-bg fas fa-spinner');
 
 
 

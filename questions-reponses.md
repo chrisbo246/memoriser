@@ -9,5 +9,5 @@ weight: 9000
 nav:
   id: "main-nav"
   label: "Aide"
-  icon: "fa fa-question"
+  icon: "fas fa-question"
 ---

@@ -26,7 +26,7 @@ published: true
 *Hé, petite pomme,*
 
 Куда ж ты котишься,
-: Kouda j'tî kotich'cia,
+: Kouda j'tî kotichcia,
 *où roules-tu comme ça?*
 
 Ко мне в рот попадёшь,
@@ -34,7 +34,7 @@ published: true
 *Si tu me tombes dans la bouche,*
 
 Не воротишься.
-: Niè varotich'cia.
+: Niè varotichcia.
 *tu n'en sortiras pas.*
 
 Ко мне в рот попадёшь,
@@ -42,7 +42,7 @@ published: true
 *Si tu me tombes dans la bouche,*
 
 Не воротишься.
-: Niè varotich'cia.
+: Niè varotichcia.
 *tu n'en sortiras pas.*
 
 
@@ -53,15 +53,15 @@ published: true
 *Hé, petite pomme,*
 
 Да на завалинке
-: Da na zavalin'kiè
+: Da na zavalinᵉkiè
 *sur le banc là-bas*
 
 Продаёт офицер
-: Pradaïotᵉ afitssièr'
+: Pradaïotᵉ afitssièrᵉ
 *un officier vend*
 
 Стары валенки.
-: Starî valièn'ki.
+: Starî valiènᵉki.
 *ses vieilles bottes de feutre.*
 
 
@@ -95,11 +95,11 @@ published: true
 ## Couplet 4
 
 Спекулянт, спекулянт
-: Spikouliant', spikouliant'
+: Spikouliantᵉ, spikouliantᵉ
 *Le spéculateur, le spéculateur*
 
 Спекулирует,
-: Spikoulirouïèt',
+: Spikoulirouïètᵉ,
 *spécule,*
 
 А народная власть
@@ -107,7 +107,7 @@ published: true
 *mais le pouvoir du peuple*
 
 Реквизирует.
-: Rikvizirouïet'.
+: Rikvizirouïetᵉ.
 *lui, réquisitionne.*
 
 А народная власть
@@ -115,7 +115,7 @@ published: true
 *Mais le pouvoir du peuple,*
 
 Реквизирует.
-: Rikvizirouïet'.
+: Rikvizirouïetᵉ.
 *lui, réquisitionne.*
 
 

@@ -39,11 +39,11 @@ adolescent
 homme
 : m.
   : мужчина
-  */mouchîna/*
+  */mouchina/*
 
   pl.
   : мужчины
-  */mouchînî/ "hommes"*
+  */mouchinî/ "hommes"*
 
 
 ## Femme
@@ -59,11 +59,11 @@ jeune femme, demoiselle
 femme (mariée)
 : f.
   : женщина
-  */jiènᵉschîna/*
+  */jiènᵉschina/*
 
   pl.
   : Женщины
-  */jiènᵉschînî/ "femmes"*
+  */jiènᵉschinî/ "femmes"*
 
 femme âgée
 : f.

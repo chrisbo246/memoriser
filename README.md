@@ -61,4 +61,4 @@ Easy to write / learn vocabulary lists powered by Jekyll.
 
 ## Known issues and bug reports
 
-[It's this way!](https://github.com/chrisbo246/memoriser/issues)
+[This way!](https://github.com/chrisbo246/memoriser/issues)

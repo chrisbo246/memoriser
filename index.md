@@ -19,7 +19,7 @@ comments: false
 nav:
   id:
   label: "Accueil"
-  icon: "fa fa-home"
+  icon: "fas fa-home"
 card:
   image: true
   date: false
