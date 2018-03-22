@@ -9,12 +9,12 @@
     {% endif %}
 
     {% if page.layout == 'post' or page.layout == 'definition-lists' %}
-    <a class="btn btn-outline-secondary btn-lg" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" title="{{ t.edit_on_github }}" target="_blank" role="button">
+    <a class="btn btn-outline-secondary btn-lg" href="{{ 'https://github.com/' | append: site.repository | append: '/edit/master/' | append: page.path }}" title="{{ t.edit_on_github }}" target="_blank" role="button" aria-label="{{ t.edit_on_github }}">
       <i class="fas fa-pencil-alt fa-lg fa-fw" aria-hidden="true"></i>
     </a>
     {% endif %}
 
-    <a href="#top" class="btn btn-outline-secondary btn-lg ml-auto" role="button" title="{{ t.scroll_to_top }}">
+    <a href="#top" class="btn btn-outline-secondary btn-lg ml-auto" title="{{ t.scroll_to_top }}" role="button" aria-label="{{ t.scroll_to_top }}">
       <i class="fas fa-chevron-up fa-lg fa-fw iconic iconic-chevron-top iconic-md" aria-hidden="true"></i>
     </a>
 

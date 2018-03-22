@@ -17,7 +17,7 @@
         {{ post.title }}
       </h5>
     </div>
-    <div id="aside_collapse_{{ forloop.index }}" class="collapse {% if forloop.index == 0 %}show{% endif %}" role="tabpanel" aria-labelledby="aside_header_{{ forloop.index }}" data-parent="#{{ include.id | default: 'accordion' }}">
+    <div id="aside_collapse_{{ forloop.index }}" class="collapse {% if forloop.index == 0 %}show{% endif %}" role="tabpanel" aria-label="aside_header_{{ forloop.index }}" data-parent="#{{ include.id | default: 'accordion' }}">
       <div class="card-body">
         <p class="card-text">{{ post.content | strip_newlines }}</p>
       </div>

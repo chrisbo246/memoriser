@@ -185,7 +185,7 @@ $.fn.randomize = function (childElem) {
           + '<div class="card-footer bg-transparent border-0 p-0">'
           + '<div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">'
           + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" class="unmemorized" autocomplete="off" data-global="false" /><i class="fas fa-times fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</label>'
-          + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}"><i class="fas fa-volume-up fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</button>' : '')
+          + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}" aria-label="{% endraw %}{{ t.listen }}{% raw %}"><i class="fas fa-volume-up fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</button>' : '')
           + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.known_definition }}{% raw %}"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off" data-global="false" /><i class="fas fa-check fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</label>'
           + '</div>'
           + '</div>'

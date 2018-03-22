@@ -7,6 +7,7 @@ data-ad-format="{{ site.adsense.format | default: 'auto' }}"></ins>
 
 {% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
 
+{% comment %}
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({});
   (function () {
@@ -19,5 +20,6 @@ data-ad-format="{{ site.adsense.format | default: 'auto' }}"></ins>
     (d.head || d.body).appendChild(s);
   })();
 </script>
+{% endcomment %}
 
 {% endif %}

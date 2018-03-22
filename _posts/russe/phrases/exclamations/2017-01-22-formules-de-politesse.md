@@ -22,15 +22,15 @@ Merci!
 
 Merci beaucoup!
 : Спасибо большое!
-*/Spaciba balchoïè!/ "Merci grand!"*
+*/Spaciba balchoï!/ "Merci grand!"*
 
 Merci, de même!
 : Спасибо, взаимно!
-*/Spacibo, vzaïmna!/ "Merci, réciproquement!"*
+*/Spaciba, vzaïmna!/ "Merci, réciproquement!"*
 
 Très bien merci!
 : Очень хорошо, спасибо!
-*/Otchinʸ horocho, spaciba!/ "Très bien, merci!"*
+*/Otchinʸ haracho, spaciba!/ "Très bien, merci!"*
 
 Vous êtes très aimable!
 : Вы очень любезны!
@@ -45,14 +45,14 @@ S’il vous plait.
 
 Excusez-moi, s'il vous plaît!
 : Извините, пожалуйста!
-*/Izvinitié, pajalsta!/*
+*/Izvinitiè, pajalsta!/*
 
 
 ## Bonne …
 
 Bon anniversaire!
 : С днем рождения!
-*/S'diémᵉ rajdiénia!/ "Au jour naissance!"*
+*/S'dièmᵉ rajdiènia!/ "Au jour naissance!"*
 
 Bonne année!
 : С новым годом!
@@ -68,22 +68,22 @@ Ni duvet ni plume!
 
 À l'avance, …!
 : С наступающим, …!
-*/S'nastoupaiouchîmᵉ, …!/ "À l'avance, …!"*
+*/S'nastoupaiouchimᵉ, …!/ "À l'avance, …!"*
 
 
 ## S'excuser
 
 Excusez-moi.
 : Извините.
-*/Izvinitié./*
+*/Izvinitiè./*
 
 Désolé.
 : Простите.
-*/Prastitié./*
+*/Prastitiè./*
 
 Pardon.
 : Помилование.
-*/Pamilovènié./*
+*/Pamilovaniè./*
 
 Pardon.
 : Пардон

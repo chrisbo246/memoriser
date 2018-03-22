@@ -14,7 +14,7 @@
     <div class="btn-toolbar" role="toolbar" aria-label="">
 
       {% if page.layout != 'home' %}
-      <a role="button" class="btn btn-outline-light btn-lg mr-2" href="{{ '/' | relative_url }}" title="{{ t.home }}">
+      <a class="btn btn-outline-light btn-lg mr-2" href="{{ '/' | relative_url }}" title="{{ t.home }}" role="button" aria-label="{{ t.home }}">
         <i class="fas fa-home fa-lg fa-fw" aria-hidden="true"></i>
       </a>
       {% endif %}
@@ -30,7 +30,7 @@
       {% endif %}
       {% endfor %}
       {% if root_url %}
-      <a role="button" class="btn btn-outline-light btn-lg" href="{{ root_url | relative_url }}" title="{{ t.return }}">
+      <a class="btn btn-outline-light btn-lg" href="{{ root_url | relative_url }}" title="{{ t.return }}" role="button" aria-label="{{ t.return }}">
         <i class="fas fa-chevron-left fa-lg fa-fw" aria-hidden="true"></i>
         <small hidden>{{ t.return }}</small>
       </a>
@@ -39,7 +39,7 @@
 
     </div>
 
-    {% include breadcrumb.html class='navbar-text p-0 d-none d-sm-block' home=false %}
+    {% include breadcrumb.html class='navbar-text p-0 d-none d-md-block' home=false %}
 
     <div class="btn-toolbar" role="toolbar" aria-label="">
 
@@ -47,7 +47,7 @@
       {% include related-posts.html limit=15 %}
       {% if posts.size > 0 %}
       <div class="btn-group ml-2">
-        <button type="button" class="btn btn-outline-light btn-lg rounded" id="related-posts-dropdown" data-toggle="dropdown" title="{{ t.continue }}" aria-haspopup="true" aria-expanded="false">
+        <button type="button" class="btn btn-outline-light btn-lg rounded" id="related-posts-dropdown" data-toggle="dropdown" title="{{ t.continue }}" aria-haspopup="true" aria-expanded="false" aria-label="{{ t.continue }}">
           <i class="fas fa-chevron-right fa-lg fa-fw" aria-hidden="true"></i>
           <small hidden>{{ t.continue }}</small>
         </button>
