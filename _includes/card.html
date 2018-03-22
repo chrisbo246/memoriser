@@ -99,7 +99,7 @@
 
   {% if src and include.face != 'back' %}
   <div class="ratio-container unknown-ratio-container">
-    <img class="{{ card-img-classes | uniq | compact | join: ' ' }}" src="{{ src | relative_url }}" alt="{{ post.title }}" width="{{ post.image.default.width | default: post.image.width }}" height="{{ post.image.default.height | default: post.image.height }}" />
+    <img class="{{ card-img-classes | uniq | compact | join: ' ' }}" src="{{ src | relative_url }}" alt="{{ post.title }}" width="{{ post.image.default.width | default: post.image.width }}" height="{{ post.image.default.height | default: post.image.height }}" data-sizes="auto" data-parent-fit="cover" />
   </div>
   {% endif %}
 

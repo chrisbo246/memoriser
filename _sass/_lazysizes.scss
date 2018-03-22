@@ -64,3 +64,11 @@
 	width: auto;
 	height: auto;
 }
+
+
+// Parent fit extension
+
+img[data-sizes="auto"] {
+	display: block;
+	width: 100%;
+}
