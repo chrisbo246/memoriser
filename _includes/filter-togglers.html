@@ -11,15 +11,15 @@
     {% for filter in categories %}
     {% unless page.categories contains filter %}
     <label class="btn btn-outline-secondary">
-      <input type="radio" name="category-filters" value="{{ filter | default: 'divers' }}" class="filter-toggler" data-filter=".category-{{ filter | default: 'divers' }}" data-global="false" autocomplete="off" />{{ filter | default: "divers" }}
+      <input type="radio" name="cat-filters" value="{{ filter | default: 'divers' }}" class="filter-toggler" data-filter=".cat-{{ filter | default: 'divers' }}" data-global="false" autocomplete="off" />{{ filter | default: "divers" }}
     </label>
     {% endunless %}
     {% endfor %}
     <label class="btn btn-outline-secondary">
-      <input type="radio" name="category-filters" value="other" class="filter-toggler" data-filter=".category-other" data-global="false" autocomplete="off" />{{ t.other }}
+      <input type="radio" name="cat-filters" value="other" class="filter-toggler" data-filter=".cat-other" data-global="false" autocomplete="off" />{{ t.other }}
     </label>
     <label class="btn btn-outline-secondary active">
-      <input type="radio" name="category-filters" value="all" class="filter-toggler" data-filter="" data-global="false" autocomplete="off" checked />{{ t.all }}
+      <input type="radio" name="cat-filters" value="all" class="filter-toggler" data-filter="" data-global="false" autocomplete="off" checked />{{ t.all }}
     </label>
   </div>
   {% endif %}
@@ -38,7 +38,7 @@
 
   {% assign tags = include.posts | map: "tags" | uniq | compact | sort_natural %}
   {% if tags %}
-  <div class="{% if include.direction == 'vertical' %}-d-xl-block -btn-group-vertical -mb-3{% else %}-d-xl-inline-block -btn-group -ml-3{% endif %} btn-group-sm btn-group-toggle d-none" role="group" aria-label="{{ t.category_filters }}" data-toggle="buttons">
+  <div class="btn-group-sm btn-group-toggle d-none" role="group" aria-label="{{ t.category_filters }}" data-toggle="buttons">
     {% for filter in tags %}
     <label class="btn btn-outline-secondary py-0 mb-1">
       <input type="radio" name="tag-filters" value="{{ filter | default: 'divers' }}" class="filter-toggler" data-filter=".tag-{{ filter | default: 'divers' }}" data-global="false" autocomplete="off" />{{ filter | default: "divers" }}

@@ -11,18 +11,8 @@ image:
 categories: ["russe", "vocabulaire"]
 tags: ["nom"]
 date: 2017-08-22 00:00:00 +0100
+published: false
 ---
-
-## Identité
-
-prénom
-: имя
-*/imia/*
-
-nom de famille
-: фамилия
-*/familia/*
-
 
 ## Sortir
 
@@ -45,10 +35,6 @@ feux d'artifice
 le bordel
 : бардак
 */bardak/*
-
-promenade
-: променад
-*/prominatᵉ/*
 
 revanche
 : реванш

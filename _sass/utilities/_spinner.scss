@@ -1,7 +1,6 @@
 /*
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css";
 */
-
 .spinner {
   visibility: hidden;
   perspective: initial;
@@ -21,7 +20,7 @@
   font-size: 40vh;
   width: 40vh;
   height: 40vh;
-  opacity: .2;
+  opacity: 0.2;
   animation: fa-spin 2s infinite linear;
 }
 
@@ -53,10 +52,8 @@
   height: 100vh;
 }
 
-
-
-/* Customizing -------------------------------------------------------------- */
 /*
+// Customizing example
 .spinner.spinner-bg:before,
 .spinner.spinner-bg:after {
   color: #ff0073;

@@ -1,0 +1,58 @@
+
+// Remove paragraph margin in alerts
+
+.alert p:last-of-type {
+  margin-bottom: 0;
+}
+
+
+// Switch w/ Bootstrap
+
+.btn-switch {
+  //&.active {
+  //  @extend .btn-primary;
+  //}
+  &:not(.active) {
+    //@extend .btn-light;
+    @include button-variant($light, $light);
+  }
+}
+
+
+// Bootstrap progress fix
+
+.progress-bar {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+// Navbar fixes
+
+.navbar-brand img {
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+.navbar-dark {
+  .navbar-brand img {
+    filter: invert(100%);
+  }
+  .navbar-text .breadcrumb-item.active {
+    color: $white;
+    &:before {
+      color: $white;
+    }
+  }
+}
+
+.navbar {
+  .btn-outline-light:hover,
+  .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show>.btn-outline-light.dropdown-toggle {
+    @each $color, $value in $theme-colors {
+      .navbar.bg-#{$color} & {
+        color: $value;
+      }
+    }
+  }
+}

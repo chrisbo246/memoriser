@@ -1,5 +1,4 @@
-.definition-list  {
-
+.definition-list {
   perspective: 50000px;
 
   .card {
@@ -19,7 +18,6 @@
   }
 
   .card-flip {
-
     input[type="radio"]:checked ~ &,
     input[type="checkbox"]:checked ~ & {
       transform: rotateY(-180deg) scale(1.25);
@@ -32,7 +30,6 @@
     }
 
     .card.front {
-
       .card-title {
         //white-space: nowrap;
       }
@@ -40,7 +37,6 @@
       .card-title small {
         display: block;
       }
-
       // Question / Success sign as background
       &:before {
         //content:'\e0b0'; // iconic
@@ -72,76 +68,68 @@
           content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' height='8rem' viewBox='0 0 512 512'%3e%3cpath d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z'/%3e%3c/svg%3e");
         }
       }
-
     }
 
     .card.back {
-
       .nav {
         margin-top: -$card-spacer-y;
+
         .nav-link {
           padding: ($spacer * .25);
         }
       }
 
       .card-text {
-
         font-size: 150%;
         line-height: 1.2;
 
         em {
           display: block;
-          margin-left: .5rem;
-          margin-top: .5rem;
+          margin-left: 0.5rem;
+          margin-top: 0.5rem;
         }
 
-        ul, ol {
+        ol,
+        ul {
           padding-left: 0;
         }
-
       }
 
       .btn.active {
         .fa-check {
-          color: theme-color("success");
+          color: $success;
         }
+
         .fa-times {
-          color: theme-color("danger");
+          color: $danger;
         }
       }
 
-      .btn:focus,
-      .btn.focus {
+      .btn.focus,
+      .btn:focus {
         box-shadow: none;
       }
-
     }
-
   }
-
-
 
   .card-section {
     width: 12rem;
     word-wrap: break-word;
     word-break: break-word;
+
     &.front:before {
       //content: "\f129";
       //content: url(../bower_components/font-awesome/advanced-options/raw-svg/solid/info.svg);
       content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' height='8rem' viewBox='0 0 192 512'%3e%3cpath d='M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z'/%3e%3c/svg%3e");
     }
   }
-
-
   /*abbr {
     sup & {
-      color: theme-color('info');
-      text-decoration-color: theme-color('info');
+      color: $info;
+      text-decoration-color: $info;
       text-decoration: none;
     }
   }*/
-
-
   abbr[class*="text-"] {
     font-size: 75%;
     line-height: 0;
@@ -153,63 +141,68 @@
     text-decoration: none !important;
   }
 
-
   .text-pronunciation {
-    //color: theme-color('primary');
+    //color: $primary;
     font-weight: 800;
   }
+
   .text-pronunciation:before {
     //content: "/";
     //content: "Prononciation";
     content: "Pron.";
   }
+
   .text-pronunciation:after {
     //content: "/";
     //content: "\201d"; // ”
   }
 
   .text-literatim {
-    //color: theme-color('secondary');
+    //color: $secondary;
     font-weight: 100;
   }
+
   .text-literatim:before {
     //content: "\201c"; // “
     //content: "Litt\e9ralement";
     content: "Litt.";
   }
+
   .text-literatim:after {
     //content: "\201d"; // ”
   }
 
-  .text-pronunciation,
-  .text-literatim {
+  .text-literatim,
+  .text-pronunciation {
     color: $text-muted;
     display: block;
     line-height: 1rem;
     font-style: italic;
     //font-weight: bold;
   }
-  .text-pronunciation:before,
-  .text-pronunciation:after,
+
+  .text-literatim:after,
   .text-literatim:before,
-  .text-literatim:after {
+  .text-pronunciation:after,
+  .text-pronunciation:before {
     //color: $gray-400;
     display: inline-block;
     font-weight: 100;
     //min-width: .75rem;
     min-width: 2rem;
-    margin-right: .25rem;
+    margin-right: 0.25rem;
     display: none;
   }
-  .text-pronunciation:before,
-  .text-literatim:before {
+
+  .text-literatim:before,
+  .text-pronunciation:before {
     text-align: left;
   }
-  .text-pronunciation:after,
-  .text-literatim:after {
+
+  .text-literatim:after,
+  .text-pronunciation:after {
     text-align: right;
   }
-
 
   .nav-link:not(.active) abbr[class*="text-"] {
     color: $text-muted !important;
@@ -220,35 +213,36 @@
     color: color('blue');
     text-decoration-color: color('blue');
   }
+
   .text-f,
   .text-female {
     color: color('pink');
     text-decoration-color: color('pink');
   }
+
   .text-n,
   .text-neutral {
     color: color('gray');
     text-decoration-color: color('gray');
   }
+
   .text-pl,
   .text-plural {
     color: color('yellow');
     text-decoration-color: color('yellow');
   }
+
+  .text-abbreviation,
   .text-abr,
   .text-fam,
-  .text-abbreviation,
   .text-familiar {
     color: color('orange');
     text-decoration-color: color('orange');
   }
-  .text-vul,
-  .text-slang {
+
+  .text-slang,
+  .text-vul {
     color: color('red');
     text-decoration-color: color('red');
   }
-
-
-
-
 }

@@ -4,12 +4,12 @@ title: "Adjectifs anglais: Ambiances"
 description: "Liste d'adjectifs et expressions pour décrire une situation en anglais."
 excerpt: "Liste d'adjectifs et expressions pour décrire une situation en anglais."
 image:
-  path: assets/images/posts/gloomy-atmosphere.png
+  path: assets/images/posts/angry-man.png
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "adjectifs"]
-tags: ["situation"]
+categories: ["anglais", "vocabulaire"]
+tags: ["adjectif", "situation"]
 date: 2017-07-28 00:00:00 +0100
 ---
 

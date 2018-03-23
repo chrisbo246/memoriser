@@ -9,9 +9,7 @@ image:
   width: 600
   height: 400
 categories: ["langue"]
-tags: [
-
-]
+tags: []
 date: 2018-01-28 00:00:00 +0100
 ---
 

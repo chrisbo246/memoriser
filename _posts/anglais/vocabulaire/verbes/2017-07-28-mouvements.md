@@ -8,8 +8,8 @@ image:
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "verbes"]
-tags: ["mouvement"]
+categories: ["anglais", "vocabulaire"]
+tags: ["verbe", "action", "mouvement"]
 date: 2017-03-28 20:51:00 +0100
 ---
 

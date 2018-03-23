@@ -8,8 +8,8 @@ image:
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "adjectifs"]
-tags: ["sensation", "goût", "touché"]
+categories: ["anglais", "vocabulaire"]
+tags: ["adjectif", "sensation", "goût", "touché"]
 date: 2017-07-28 00:00:00 +0100
 ---
 

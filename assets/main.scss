@@ -5,19 +5,16 @@
 @charset "utf-8";
 
 // Bootstrap override
-//$body-bg: #212529;
-//$body-color: #f8f9fa;
-//$primary: #007bff;
 //$enable-shadows: false;
 //$enable-gradients: false;
 
 // Best Bootswatch themes: lux, minty, sketchy
 //@import "bootstrap/scss/functions";
 //@import "bootstrap/scss/variables";
+//@import "bootstrap/scss/mixins";
 //@import "bootswatch/dist/cosmo/variables";
 @import "bootstrap/scss/bootstrap";
 //@import "bootswatch/dist/cosmo/bootswatch";
-
 
 // Create Bootstrap 3 variable from Bootstrap 4
 $brand-primary: $component-active-bg !default;
@@ -25,38 +22,35 @@ $gray-lightest: $gray-300 !default;
 $gray-lighter: $gray-600 !default;
 $gray-dark: $gray-900 !default;
 
-//$fa-font-path: "{{ '/bower_components/font-awesome/web-fonts-with-css/webfonts/' | relative_url }}";
-//@import "font-awesome/web-fonts-with-css/scss/fontawesome";
-
-//$icon-font-path: "{{ '/bower_components/open-iconic/font/fonts/' | relative_url }}";
-//@import "open-iconic/font/css/open-iconic-bootstrap";
-
-//@import "{{ '/bower_components/cookieconsent/build/cookieconsent.min.css' | relative_url | prepend: '../..' }}";
-//@import "{{ '/bower_components/animate.css/animate.min.css' | relative_url | prepend: '../..' }}";
-
 @import "card";
 @import "dl-flexbox";
-@import "responsive";
 @import "mixins/scrollbar";
 @import "mixins/fixed-ad";
-@import "lazysizes";
-@import "random";
-//@import "browser-update";
-@import "utilities/spinner";
-
+@import "utilities/responsive";
+//@import "utilities/random";
+//@import "utilities/spinner";
+@import "plugins/bootstrap";
+@import "plugins/lazysizes";
+@import "plugins/font-awesome";
+@import "plugins/animate-css";
+//@import "plugins/browser-update";
+//@import "plugins/open-iconic";
 
 
 body {
-  //background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23000000' fill-opacity='0.01'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   //animation-duration: 1s;
 }
 
 
+// SVG background
+
+body {
+  //background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23000000' fill-opacity='0.01'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
 
 .bg-warning,
 .bg-light,
 .bg-white {
-  //&.card.front,
   .card .card-header,
   &.card-header,
   &.card .card-header,
@@ -71,7 +65,6 @@ body {
 .bg-danger,
 .bg-info,
 .bg-dark {
-  //&.card.front,
   &.card-header,
   &.card .card-header,
   &.navbar {
@@ -80,112 +73,26 @@ body {
 }
 
 
-// font-awesome to iconic fix
+// Brand style
 
-img.oi {
-  display: none;
-}
-
-
-// Font-awesome SVG Asynchronous Loading
-
-body {
-  display: none;
-}
-
-//.lazysizes-active.collapse-active.fontawesome-i2svg-active body {
-.fontawesome-i2svg-active body {
-  display: inherit;
-}
-
-// Delay animations after page transition effect
-
-/*.animated:not(.page-content.fadeInRight):not(.page-content.fadeInLeft):not(.navbar.fadeInUp):not(.navbar.fadeInDown) {
-  animation-delay: 1s;
-}*/
-
-
-// logo
 .navbar-brand {
   font-size: 5.5rem;
   line-height: 1rem;
-  //text-transform: uppercase;
   font-weight: 900;
   margin-bottom: -1.2rem;
   span:nth-of-type(4) {
-    color: theme-color("success");
+    color: $success;
     text-transform: uppercase;
     transform: rotate(30deg) translateX(0.5rem) scale(1.2);
   }
+  /*.fas {
+    display: inline-block;
+    margin-top: -50%;
+    margin-bottom: -50%;
+    line-height: 1rem;
+    transform: rotate(45deg);
+  }*/
 }
-
-.navbar-brand .fa {
-  display: inline-block;
-  margin-top: -50%;
-  margin-bottom: -50%;
-  line-height: 1rem;
-  //font-size: 2rem;
-  transform: rotate(45deg);
-}
-
-
-
-// Navbar fixes
-
-.navbar-text {
-  //line-height: 1rem;
-}
-
-.navbar-brand img {
-  margin-top: -1px;
-  margin-bottom: -1px;
-}
-
-.navbar-dark {
-  .navbar-brand img {
-    filter: invert(100%);
-  }
-  .navbar-text .breadcrumb-item.active {
-    color: $white;
-    &:before {
-      color: $white;
-    }
-    //@extend .navbar-text;
-  }
-}
-
-.navbar {
-  .btn-outline-light:hover,
-  .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active, .show>.btn-outline-light.dropdown-toggle {
-    @each $color, $value in $theme-colors {
-      .navbar.bg-#{$color} & {
-        color: $value;
-      }
-    }
-  }
-}
-
-
-// Make content unvisible and show a spinner instead
-/*
-.spinner.spinner-bg:before,
-.spinner.spinner-bg:after {
-  color: theme-color("primary");
-}
-.spinner.spinner-bg:after {
-  content: "LOADING";
-  background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
-  font-size: 15vh;
-  text-shadow: 0 0 5vh;
-  font-weight: 900;
-  animation: 150s scroll infinite linear;
-}
-@keyframes scroll {
-  100%{
-    background-position: 0px 3000px;
-  }
-}
-*/
 
 
 // Sticky sidebar
@@ -197,31 +104,33 @@ body {
 }
 
 
+// Tag filters
+
+.sidebar-widget {
+  max-height: 16rem;
+  overflow: auto;
+}
+
+
 // Posts
 
 .post-content {
-
   //font-family: sans-serif;
 
   & > h2, & > h3, & > h4, & > h5, & > h6 {
     color: $gray-lightest;
   }
-
   em {
-    font-size: $font-size-sm; //$small-font-size;
+    font-size: $font-size-sm;
     color: $text-muted;
-    //font-style: normal;
     font-weight: lighter;
   }
-
   dd {
     em, strong {
       display: block;
     }
   }
-
 }
-
 
 
 // Capitalize tags & categories
@@ -244,53 +153,19 @@ a[href="#top"] {
 }
 
 
-
-// Remove paragraph margin in alerts
-
-.alert p:last-of-type {
-  margin-bottom: 0;
-}
-
-
-
-//
-
-.btn-switch {
-  //&.active {
-  //  @extend .btn-primary;
-  //}
-  &:not(.active) {
-    @extend .btn-light;
-  }
-}
-
-
-
-// Bootstrap progress fix
-
-.progress-bar {
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-
-
-// Customized scrollbar
+// Custome scrollbar
 
 @include scrollbars(.5em, $brand-primary, $gray-dark);
 
 
-
-// Fixed Ad definition
+// Fixed Ad
 
 $fixed-ad-gutter-width: 10px;
-
 @include fixed-ad-left-top(120px, 240px, $fixed-ad-gutter-width);
 @include fixed-ad-left-top(120px, 600px, $fixed-ad-gutter-width);
 @include fixed-ad-left-top(160px, 600px, $fixed-ad-gutter-width);
 @include fixed-ad-left-top(300px, 600px, $fixed-ad-gutter-width); // (recommended)
 @include fixed-ad-left-top(300px, 1050px, $fixed-ad-gutter-width);
-
 @include fixed-ad-bottom(120px, 90px, 0); // Link ads
 @include fixed-ad-bottom(160px, 90px, 0); // Link ads
 @include fixed-ad-bottom(180px, 90px, 0); // Link ads
@@ -304,62 +179,3 @@ $fixed-ad-gutter-width: 10px;
 @include fixed-ad-bottom(728px, 90px, $fixed-ad-gutter-width); // (recommended)
 @include fixed-ad-bottom(970px, 90px, $fixed-ad-gutter-width);
 @include fixed-ad-bottom(970px, 250px, $fixed-ad-gutter-width);
-
-//@include fixed-ad-left(125px, 125px, 0); // Rectangular ads
-//@include fixed-ad-left(180px, 150px, $fixed-ad-gutter-width); // Rectangular ads
-//@include fixed-ad-left(200px, 200px, $fixed-ad-gutter-width); // Rectangular ads
-//@include fixed-ad-left(250px, 250px, $fixed-ad-gutter-width); // Rectangular ads
-//@include fixed-ad-left(300px, 250px, $fixed-ad-gutter-width); // Rectangular ads (recommended)
-//@include fixed-ad-left(336px, 280px, $fixed-ad-gutter-width); // Rectangular ads (recommended)
-
-
-.buorg {
-  //@extend .alert;
-  //@extend .alert-warning;
-  //border-top: 1px solid theme-color-level('primary', -9) !important;
-  //border-bottom: 1px solid theme-color-level('primary', -9) !important;
-  //background-color: theme-color-level('primary', -10) !important;
-  color: $white !important;
-  background-color: theme-color('primary') !important;
-  border: none !important;
-  border-radius: 0;
-  font: inherit !important;
-}
-
-
-
-// Tag filters
-
-.sidebar-widget {
-  max-height: 16rem;
-  overflow: auto;
-}
-
-
-// Fade-in effect on page load
-
-/*
-.alert {
-  animation: fadein 1s ease-in 1s;
-  -vendor-animation-duration: 3s;
-  -vendor-animation-delay: 2s;
-  -vendor-animation-iteration-count: infinite;
-}
-
-@keyframes fadein {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-*/
-
-
-
-// Cookieconsent
-/*
-.cc-window.cc-theme-block {
-box-shadow: 0 0 60px 30px $body-bg;
-.bg-dark & {
-box-shadow: 0 0 60px 30px $black;
-}
-}
-*/

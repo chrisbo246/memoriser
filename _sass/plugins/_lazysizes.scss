@@ -1,0 +1,65 @@
+// Hide images until they are fully loaded
+/* fade image in after load */
+
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+
+.lazyloaded {
+	opacity: 1;
+	transition: opacity 300ms;
+}
+/* fade image in while loading and show a spinner as background image (good for progressive images) */
+/*
+.lazyload {
+	opacity: 0;
+}
+
+.lazyloading {
+	opacity: 1;
+	transition: opacity 300ms;
+	//background: #f7f7f7 url(loader.gif) no-repeat center;
+}
+*/
+// Min image height
+.lazyload,
+.lazyloading {
+	min-height: 200px;
+}
+// Minimizing reflows and avoiding page jumps
+.ratio-container {
+	position: relative;
+	overflow: hidden;
+}
+
+.ratio-container:after {
+	content: '';
+	display: block;
+	height: 0;
+	width: 100%;
+	/* 16:9 = 56.25% = calc(9 / 16 * 100%) */
+	padding-bottom: 56.25%;
+	content: "";
+}
+
+.ratio-container > * {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* unknown ration variation */
+
+.unknown-ratio-container > * {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+// Parent fit extension
+img[data-sizes="auto"] {
+	display: block;
+	width: 100%;
+}

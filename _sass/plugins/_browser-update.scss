@@ -1,0 +1,112 @@
+/*
+.buorg {
+  //@extend .alert;
+  //@extend .alert-warning;
+  //border-top: 1px solid theme-color-level('primary', -9) !important;
+  //border-bottom: 1px solid theme-color-level('primary', -9) !important;
+  //background-color: theme-color-level('primary', -10) !important;
+  color: $white !important;
+  background-color: $primary !important;
+  border: none !important;
+  border-radius: 0;
+  font: inherit !important;
+}
+*/
+
+.buorg {
+  @extend .alert;
+  @extend .alert-warning;
+  border-bottom: 1px solid theme-color-level('warning', -9) !important;
+  background-color: theme-color-level('warning', -10) !important;
+  border-radius: 0;
+  font: inherit;
+}
+
+.buorg div {}
+
+.buorg .buorg-buttons {
+  @extend .btn;
+}
+
+.buorg div a {
+  @extend .btn-primary;
+  background: $primary !important;
+  box-shadow: none !important;
+}
+
+#buorgig {
+  @extend .btn-secondary;
+  background-color: $secondary !important;
+}
+
+/*
+.buorg {
+  position: absolute;
+  position: fixed;
+  z-index: 111111;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  border-bottom: 1px solid theme-color-level('warning', -9);
+  text-align: center;
+  cursor: pointer;
+  background-color: theme-color-level('warning', -10);
+  //font: 18px Calibri,Helvetica,Arial,sans-serif;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  // Custom
+  @extend .alert;
+  @extend .alert-warning;
+  border-radius: 0;
+  font: inherit;
+}
+.buorg div {
+  padding: 9px;
+  line-height: 1.7em;
+}
+.buorg .buorg-buttons {
+  display: block;
+  text-align: center;
+}
+.buorg div a {
+  text-indent: 0;
+  color: #fff;
+  text-decoration: none;
+  //box-shadow: 0 0 2px rgba(0,0,0,0.4);
+  padding: 1px 10px;
+  border-radius: 4px;
+  font-weight: normal;
+  background: $primary;
+  white-space: nowrap;
+  margin: 0 2px;
+  display: inline-block;
+  // Custom
+  @extend .btn;
+  @extend .btn-primary;
+  box-shadow: none;
+}
+#buorgig {
+  background-color: $secondary;
+  position: relative;
+  // Custom
+  @extend .btn-secondary;
+}
+@media only screen and (max-width: 700px){
+  .buorg div {
+    padding: 5px 12px 5px 9px;
+    line-height: 1.3em;
+  }
+}
+@keyframes buorgfly {
+  from {
+    opacity: 0;
+    transform: translateY(-50px)
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px)
+  }
+}
+.buorg {
+  animation: 1s ease-out 0s buorgfly
+}
+*/

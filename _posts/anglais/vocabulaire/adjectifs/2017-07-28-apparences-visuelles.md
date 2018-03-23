@@ -8,8 +8,8 @@ image:
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "adjectifs"]
-tags: ["objet", "apparence"]
+categories: ["anglais", "vocabulaire"]
+tags: ["adjectif", "objet", "apparence"]
 date: 2017-07-28 00:00:00 +0100
 ---
 

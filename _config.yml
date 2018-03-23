@@ -246,7 +246,8 @@ compress_html:
 # ------------------------------------------------------------------------------
 
 array: []
-theme_color: '#ffffff'
+theme_color: '#28a745'
+background_color: '#007bff'
 headers:
   api-user-agent: memoriser/1.0
   origin: https://chrisbo246.github.io/memoriser

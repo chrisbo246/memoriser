@@ -1,0 +1,80 @@
+---
+layout: definition-lists
+title: "Vocabulaire anglais: Expressions"
+description: "Liste d'expressions anglaises en vrac."
+excerpt: "Liste d'expressions anglaises en vrac."
+image:
+  path: assets/images/posts/onomatopoeia.png
+  type: "ImageObject"
+  width: 600
+  height: 400
+categories: ["anglais", "expressions"]
+tags: []
+date: 2017-03-28 20:51:00 +0100
+---
+
+## Argent
+
+en avoir pour son argent
+: get bang for the buck
+
+joindre les deux bouts
+: make ends meet
+
+sans se ruiner
+:	without breaking the bank
+
+
+## Gagner
+
+gagner haut la main
+: win hands down
+
+mettre dans le mille
+: hit the bull's-eye
+
+remporter le titre
+: win the title
+
+
+## Divers
+
+faire le gros du boulot
+: do the bulk of the work
+
+né pour ça
+: born ready
+*déjà prêt à la naissance*
+
+passage à l'âge adulte
+: coming-of-age
+
+une belle histoire
+: a feel good story
+
+diriger le monde
+: rule the world
+
+être tenu
+: be held
+
+choisir entre deux …
+: choose out of two …
+
+disponible dès maintenant
+: available as of now
+
+monter un coup (à quelqu'un)
+: set (someone) up
+
+coups sur coups
+: one after the other
+
+
+## Véhicule
+
+mettre le pied au plancher
+: put the pedal to the metal
+
+faire le plein d'essence
+: fill up the gas tank

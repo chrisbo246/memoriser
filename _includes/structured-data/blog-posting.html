@@ -40,7 +40,8 @@
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "{{ post.url | absolute_url }}"
-    },
+    }{{ comment }},
 
     "articleBody": "{{ post.content | strip_html | xml_escape | normalize_whitepace | strip_newlines | strip }}"
+    {{ endcomment }}
 }

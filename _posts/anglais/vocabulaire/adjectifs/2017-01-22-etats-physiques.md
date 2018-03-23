@@ -8,10 +8,8 @@ image:
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "adjectifs"]
-tags: [
-"personne", "objet", "état"
-]
+categories: ["anglais", "vocabulaire"]
+tags: ["adjectif", "personne", "objet", "état"]
 date: 2017-03-28 20:51:00 +0100
 ---
 

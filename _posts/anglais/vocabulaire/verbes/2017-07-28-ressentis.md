@@ -8,8 +8,8 @@ image:
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "verbes"]
-tags: ["personne", "sensation"]
+categories: ["anglais", "vocabulaire"]
+tags: ["verbe", "personne", "sensation"]
 date: 2017-11-03 00:00:00 +0100
 ---
 

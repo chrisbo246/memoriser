@@ -8,8 +8,8 @@ image:
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "compléments"]
-tags: ["position", "distance"]
+categories: ["anglais", "vocabulaire"]
+tags: ["complément", "position", "distance"]
 date: 2017-03-28 20:51:00 +0100
 ---
 

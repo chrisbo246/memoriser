@@ -1,0 +1,50 @@
+svg.oi {
+  &.oi-lg {
+    width: 1.33333333em;
+    width: 1.33333333em;
+  }
+
+  &.oi-2x {
+    width: 2em;
+    height: 2em;
+  }
+
+  &.oi-3x {
+    width: 3em;
+    height: 3em;
+  }
+
+  &.oi-4x {
+    width: 4em;
+    height: 4em;
+  }
+
+  &.oi-5x {
+    width: 5em;
+    height: 5em;
+  }
+
+  @each $name, $value in $theme-colors {
+    &.text-#{$name},
+    .alert-#{$name} &,
+    .text-#{$name} & {
+      fill: $value;
+      stroke: $value;
+    }
+
+    .btn.btn-outline-#{$name} & .btn.btn-#{$name} & {
+      $r: red($value);
+      $g: green($value);
+      $b: blue($value);
+      $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
+
+      @if ($yiq >= 150) {
+        fill: #111;
+        stroke: #111;
+      } @else {
+        fill: #fff;
+        stroke: #fff;
+      }
+    }
+  }
+}

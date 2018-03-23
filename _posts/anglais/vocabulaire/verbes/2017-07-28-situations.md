@@ -8,8 +8,8 @@ image:
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "verbes"]
-tags: ["situation"]
+categories: ["anglais", "vocabulaire"]
+tags: ["verbe", "action", "situation"]
 date: 2017-07-28 20:51:00 +0100
 ---
 

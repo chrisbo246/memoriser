@@ -23,11 +23,11 @@
 
 {% if categories and categories.size > page.categories.size %}
 {% for category in categories %}
-{% assign class = 'category-' | append: category %}
+{% assign class = 'cat-' | append: category %}
 {% assign array = array | push: class %}
 {% endfor %}
 {% else %}
-{% assign array = array | push: 'category-other' %}
+{% assign array = array | push: 'cat-other' %}
 {% endif %}
 
 {% if tags and tags.size > 0 %}

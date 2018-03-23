@@ -1,6 +1,4 @@
-
 .card {
-
   &.front {
     display: flex;
     z-index: initial;
@@ -11,13 +9,13 @@
       //content: "\f128"; // font-awesome
       //font-family: FontAwesome;
       //font-family: 'Font Awesome 5 Free';
-      font-style: normal;
-      font-weight: normal;
-      text-decoration: inherit;
-      position: absolute;
-      //z-index: 0;
-      font-size: 8rem;
+      //font-style: normal;
+      //font-weight: normal;
+      //text-decoration: inherit;
+      //font-size: 8rem;
       //background-size: 8rem 8rem;
+      //z-index: 0;
+      position: absolute;
       top: 0;
       left: 0;
       width: 100%;
@@ -26,19 +24,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      opacity: .05;
+      opacity: 0.05;
     }
-
-    //.progress {
-    //  background-color: rgba(0,0,0,.25);
-    //}
-
   }
-
 }
 
 .card-img {
-
   min-width: 100%;
   min-height: 100%;
 
@@ -48,22 +39,14 @@
   }
 
   &.card-img-faded {
+    opacity: 0.15;
 
-    opacity: .15;
-
-    &.lazyloading,
-    &.lazyloaded {
-
-    }
-
+    &.lazyloaded,
+    &.lazyloading {}
   }
-
 }
 
-
-
 .card-flip {
-
   background: none;
   border: none;
   transition: transform 300ms;
@@ -75,6 +58,7 @@
     -webkit-font-smoothing: subpixel-antialiased;
     margin: 0;
     height: 100%;
+
     &.back {
       transform: rotateY(180deg);
       z-index: -1;
@@ -87,31 +71,30 @@
     top: 0;
     width: 100%;
     height: 100%;
+
     .card-footer {
       position: absolute;
-      bottom: 0px;
+      bottom: 0;
       width: 100%;
     }
   }
 
   input[type="radio"]:checked + &,
   input[type="checkbox"]:checked + & {
-    transform: rotateY(-180deg);
-    //transform: rotateY(-180deg) translateZ(0px);
+    transform: rotateY(-180deg) translateZ(0px);
     z-index: $zindex-dropdown;
+
     .card.front {
       z-index: -1;
       backface-visibility: hidden;
     }
+
     .card.back {
       z-index: inherit;
       backface-visibility: inherit;
     }
   }
-
 }
-
-
 
 .card-img-overlay ~ .card-header {
   position: absolute;
@@ -122,6 +105,7 @@
   top: 0;
   border-bottom: none;
 }
+
 .card-img-overlay ~ .card-footer {
   position: absolute;
   z-index: 1;
@@ -130,19 +114,9 @@
   background-color: transparent;
   bottom: 0;
   border-top: none;
-  //.btn {
-  //opacity: .5;
-  //}
 }
 
-
-
-
-
-
-
 .post-list {
-
   perspective: 50000px;
 
   .card {
@@ -151,7 +125,6 @@
   }
 
   .card-flip {
-
     .card-body {
       max-width: 30rem;
       word-wrap: break-word;
@@ -159,41 +132,35 @@
     }
 
     .card.front {
-
       .progress {
         height: 3px;
       }
 
       &:before {
         font-size: 16rem;
-        opacity: .25;
+        opacity: 0.25;
       }
 
       &.bg-success {
         &:before {
           //content:'\e033'; // iconic
           //content: "\f00c"; // font-awesome
-          //content: url(../bower_components/font-awesome/advanced-options/raw-svg/solid/check.svg);
           content: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' height='8rem' viewBox='0 0 512 512'%3e%3cpath d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z'/%3e%3c/svg%3e");
         }
       }
-
     }
-
   }
-
 }
-
-
-
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
     @each $size, $length in $spacers {
-      .card-columns, .card-deck {
+      .card-columns,
+      .card-deck {
         &.gap-#{$size} {
           column-gap: $length !important;
           line-height: $length !important;
+
           & > .card {
             margin-bottom: $length !important;
           }

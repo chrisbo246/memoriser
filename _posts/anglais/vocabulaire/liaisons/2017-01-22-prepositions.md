@@ -8,10 +8,8 @@ image:
   type: "ImageObject"
   width: 600
   height: 400
-categories: ["anglais", "liaisons"]
-tags: [
-
-]
+categories: ["anglais", "vocabulaire"]
+tags: ["liaison"]
 date: 2017-01-01 00:00:00 +0100
 ---
 
