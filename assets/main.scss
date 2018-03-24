@@ -9,11 +9,11 @@
 //$enable-gradients: false;
 
 // Best Bootswatch themes: lux, minty, sketchy
-//@import "bootstrap/scss/functions";
-//@import "bootstrap/scss/variables";
-//@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
 //@import "bootswatch/dist/cosmo/variables";
-@import "bootstrap/scss/bootstrap";
+//@import "bootstrap/scss/bootstrap";
 //@import "bootswatch/dist/cosmo/bootswatch";
 
 // Create Bootstrap 3 variable from Bootstrap 4

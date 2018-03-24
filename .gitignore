@@ -40,7 +40,7 @@ bower_components/tether/*
 !bower_components/font-awesome/scss
 #!bower_components/font-awesome/web-fonts-with-css
 !bower_components/font-awesome/svg-with-js
-#!bower_components/font-awesome/advanced-options
+!bower_components/font-awesome/advanced-options
 !bower_components/jquery/dist
 !bower_components/lazysizes/*.js
 !bower_components/open-iconic/font
