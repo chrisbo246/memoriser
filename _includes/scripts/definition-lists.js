@@ -125,7 +125,8 @@ $.fn.randomize = function (childElem) {
             + '</li>';
           panesHtml = panesHtml + '<div id="' + id + '" class="tab-pane fade ' + ((i === 0) ? 'show active' : '') + '" role="tabpanel" aria-labelledby="' + dtText + '"><p class="card-text float-left">' + ddHtml + '</p></div>';
         });
-        $dl.replaceWith('<ul class="nav justify-content-end" role="tablist">' + tabsHtml + '</ul><div class="tab-content">' + panesHtml + '</div>');
+        id = validId(parentText + '_nav');
+        $dl.replaceWith('<ul id="' + validId(parentText + '_nav') + '" class="nav nav-tabs justify-content-end" role="tablist">' + tabsHtml + '</ul><div id="' + validId(parentText + '_content') + '" class="tab-content">' + panesHtml + '</div>');
       });
 
 
@@ -172,7 +173,7 @@ $.fn.randomize = function (childElem) {
           + (sectionId ? ' data-section="' + sectionId + '"' : '')
           + '>'
           + '<label for="flipcard_position_' + id + '" class="m-0">'
-          + '<div class="card front card-position-absolute bg-dark text-muted">'
+          + '<div class="card front card-position-absolute bg-dark text-white-50">'
           + '<div class="card-body d-flex justify-content-center align-items-center">'
           + '<h4 class="card-title m-0 ' + ((dtHtml.length > 80) ? 'h6' : (dtHtml.length > 40) ? 'h5' : '') + '">' + dtHtml + '</h4>'
           + '</div>'
@@ -183,10 +184,10 @@ $.fn.randomize = function (childElem) {
           + (($dd.find('div, p').length) ? ddHtml : ('<p class="card-text">' + ddHtml + '</p>'))
           + '</div>'
           + '<div class="card-footer bg-transparent border-0 p-0">'
-          + '<div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">'
-          + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" class="unmemorized" autocomplete="off" data-global="false" /><i class="fas fa-times fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</label>'
-          + (($.speech && dtLang && ddLang) ? '<button class="btn btn-sm btn-light text-muted w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}" aria-label="{% endraw %}{{ t.listen }}{% raw %}"><i class="fas fa-volume-up fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</button>' : '')
-          + '<label for="memorized_definition_' + id + '" class="btn btn-light text-muted w-100 flipcard-toggler" title="{% endraw %}{{ t.known_definition }}{% raw %}"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off" data-global="false" /><i class="fas fa-check fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</label>'
+          + '<div class="btn-group btn-group-sm btn-group-toggle d-flex" data-toggle="buttons">'
+          + '<label for="unmemorized_definition_' + id + '" class="btn btn-light text-secondary w-100 flipcard-toggler" title="{% endraw %}{{ t.unknown_definition }}{% raw %}"><input type="radio" id="unmemorized_definition_' + id + '" name="memorized_definition_' + id + '" value="0" class="unmemorized" autocomplete="off" data-global="false" /><i class="fas fa-times fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</label>'
+          + (($.speech && dtLang && ddLang) ? '<button class="btn btn-light text-secondary w-100 btn-tts" type="button" title="{% endraw %}{{ t.listen }}{% raw %}" aria-label="{% endraw %}{{ t.listen }}{% raw %}"><i class="fas fa-volume-up fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</button>' : '')
+          + '<label for="memorized_definition_' + id + '" class="btn btn-light text-secondary w-100 flipcard-toggler" title="{% endraw %}{{ t.known_definition }}{% raw %}"><input type="radio" id="memorized_definition_' + id + '" name="memorized_definition_' + id + '" value="1" class="memorized" autocomplete="off" data-global="false" /><i class="fas fa-check fa-lg" aria-hidden="false"></i>{% endraw %}{% raw %}</label>'
           + '</div>'
           + '</div>'
           + '</div>'
@@ -214,7 +215,7 @@ $.fn.randomize = function (childElem) {
         $title = $(this);
         id = $title.attr('id') || encodeURIComponent($title.text());
         $title.replaceWith(
-          '<div class="card front card-section bg-secondary text-dark m-1" data-section="' + id + '">'
+          '<div class="card front card-section bg-light text-secondary m-1" data-section="' + id + '">'
           + '<div class="card-body d-flex text-center">'
           + '<h4 class="card-title font-weight-light m-auto" ' + ((id) ? ' id="' + id + '"' : '') + '>'
           + $title.html()
@@ -269,7 +270,7 @@ $.fn.randomize = function (childElem) {
         var $parent = $input.parents('.card-flip').first();
         var $card = $parent.find('.card').first();
         var checked = $input.is('[value="1"]:checked');
-        $card.toggleClass('bg-dark text-muted', !checked);
+        $card.toggleClass('bg-dark text-white-50', !checked);
         $card.toggleClass('bg-success text-white', checked);
 
         // Memorize progression
@@ -322,7 +323,7 @@ $.fn.randomize = function (childElem) {
 
 
 
-      console.timeEnd('Definition list generation');
+      //console.timeEnd('Definition list generation');
     }
 
 

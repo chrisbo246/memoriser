@@ -64,8 +64,17 @@ essaim
 gage
 : pledge
 
+souhait
+: wish
+
+vœux
+: vows
+
 motif
 : ground
+
+raté
+: misfire
 
 préoccupation
 : concern

@@ -56,3 +56,15 @@ Où est le piège?
 
 Es-tu en train de te moquer de moi?
 : Are you making fun of me?
+
+
+## Divers
+
+où veux-tu en venir? que veux-tu dire par là?
+: what are you driving at?
+
+pourquoi faire?
+: what for?
+
+et alors?
+: what of it?

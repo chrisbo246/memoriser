@@ -9,12 +9,17 @@ layout: default
     <div class="row clearfix">
       <div class="collapse col col-sm-4 col-md-4 col-lg-3 col-xl-2 order-2 pl-0" id="post_options">
         <div class="sidebar sticky-top">
+          {% include related-posts.html %}
+          {% if posts.size > 0 %}
+          {% include filter-togglers.html posts=posts direction="vertical" %}
+          {% endif %}
           {% include info-cards.html %}
         </div>
       </div>
       <div class="col order-1">
 
-        <div class="jumbotron bg-transparent mb-3" hidden>
+        {% comment %}
+        <div class="jumbotron bg-transparent text-center mb-3">
           <h1 class="display-3">{{ page.title | default: site.title }}</h1>
           <p class="lead">{{ page.excerpt | default: site.description }}</p>
           {% assign content = content | strip_newlines %}
@@ -23,28 +28,42 @@ layout: default
             {{ content }}
           {% endif %}
         </div>
+        {% endcomment %}
 
         {% assign posts = site.pages | where_exp: 'item', 'item.categories' | sort: 'title' | reverse | sort: 'weight' | reverse %}
         {% if posts.size > 0 %}
         <div class="row">
           <div class="col">
-            <h2 class="display-4 text-muted" hidden>{{ t.theme_list }}</h2>
-            <div class="post-list -card-deck -card-columns d-flex flex-row flex-wrap -justify-content-between">
+            {% comment %}
+            <p class="text-center"><i class="fas fa-arrow-down fa-10x text-light animated fadeInDownBig"></i></p>
+            <h2 class="display-4 text-secondary" hidden>{{ t.theme_list }}</h2>
+            {% endcomment %}
+
+            {% if site.lunr %}
+            <script>{% include scripts/lunr-store.js posts=posts %}</script>
+            <div id="search-message" class="alert alert-info" role="alert" hidden>{{ t.no_result_info }}</div>
+            <div id="search-results" class="post-list d-flex flex-row flex-wrap">
+            {% else %}
+            <div class="post-list d-flex flex-row flex-wrap justify-content-center">
               {% for post in posts %}
               {% if post.url and post.title %}
-              <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
-              <div class="card card-flip m-1 {% include filter-tags.html post=post %}">
-                {% if post.weight > 0 %}
-                {% assign class = 'bg-primary text-white' %}
-                {% else %}
-                {% assign class = 'bg-dark text-white' %}
-                {% endif %}
-                {% include card.html face="front" post=post class="card-position-absolute" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
-                {% include card.html face="back" post=post class="bg-white text-dark" %}
+              <div class="{% include filter-tags.html post=post %}">
+                <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
+                <div class="card card-flip m-1">
+                  {% if post.weight > 0 %}
+                  {% assign class = 'bg-primary text-white' %}
+                  {% else %}
+                  {% assign class = 'bg-dark text-white' %}
+                  {% endif %}
+                  {% include card.html face="front" post=post class="card-position-absolute" img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
+                  {% include card.html face="back" post=post class="bg-white text-dark" %}
+                </div>
               </div>
               {% endif %}
               {% endfor %}
             </div>
+            {% endif %}
+
             <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
           </div>
         </div>

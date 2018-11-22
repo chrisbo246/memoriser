@@ -13,6 +13,20 @@ tags: ["action"]
 date: 2018-01-20 00:00:00 +0100
 ---
 
+## Je vais (aller)
+
+aller
+: идёт
+*/idiotᵉ/*
+
+Je vais au …
+: Я иду в …
+*/Ya idou v'…/*
+
+Je vais à l'adresse …
+: Я поеду по адресу …
+*/Ya païèdou pa adressou …/ "Je vais-aller(-en-transport) à adresse …"*
+
 ## Faire
 
 Je fais pipi

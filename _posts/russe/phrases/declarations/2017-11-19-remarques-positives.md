@@ -106,5 +106,20 @@ Tu es très bien
 */Tibiè otchinʸ idiotᵉ/*
 
 
+## Divers
+
+C'est une bonne idée.
+: Это хорошая идея.
+*/Èta harochaya idièa./*
+
+Je suis ravi de …
+: m.
+  : Я рад …
+  */Ya ratᵉ/ "Je suis ravi de …"*
+  f.
+  : Я рада …
+  */Ya rada …/ "Je suis ravie de …"*
+
+
 
 *[fam.]: Familier

@@ -48,7 +48,10 @@ saladier
 casserole
 : pan
 
-poêle (à frire)
+casserole
+: saucepan
+
+poêle à frire
 : frying pan
 
 cocotte-minute
@@ -80,3 +83,12 @@ bouchon de bouteille
 
 bouchon
 : plug
+
+planche à découper
+: chopping board
+
+
+## Divers
+
+papier sulfurisé
+: parchment paper

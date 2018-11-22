@@ -31,7 +31,7 @@ apocryphe
 
 coquecigrue
 : Absurdité.
-*Animal imaginaire, mi coq, mi cigogne, mi grue, en référence à Gargantua de Rabelais.*
+*En référence au roman [Gargantua de Rabelais](https://fr.wikipedia.org/wiki/Gargantua). Animal imaginaire, mi coq, mi cigogne, mi grue.*
 
 
 ## Mettre en valeur

@@ -13,6 +13,13 @@ tags: ["déclaration", "présentation"]
 date: 2017-08-21 00:00:00 +0100
 ---
 
+## Je
+
+Je suis …
+: У меня …
+*/Ou minia …/ "Près-de moi …"*
+
+
 ## Nom
 
 Je m'appelle …
@@ -76,6 +83,40 @@ Je (suis) …
 Je suis mariée.
 : я замужем.
 */Ya zamoujimᵉ./ "Je mariée."*
+
+Je suis marié.
+: m.
+  : Я женат.
+  */Ya jiènatᵉ./ "Je m. suis marié."*
+
+  f.
+  : Я замужем.
+   */Ya zamoujièmᵉ./ "Je f. suis mariée."*
+
+Je ne suis pas marié.
+: m.
+  : Я ne женат.
+  */Ya niè jenatᵉ./ "Je m. ne suis pas marié."*
+
+  f.
+  : Я ne замужем.
+  */Ya niè zamoujièmᵉ./ "Je f. ne suis pas mariée."*
+
+Je suis célibataire.
+: m.
+  : Я свободен.
+  */Ya svabodièn./ "Je m. suis libre."*
+
+  f.
+  : Я свободна.
+  */Ya svabodna./ "Je f. suis libre."*
+
+
+## Etat physique
+
+Je suis fatigué
+: я устал
+*/Ya oustal/*
 
 
 ## Posséder

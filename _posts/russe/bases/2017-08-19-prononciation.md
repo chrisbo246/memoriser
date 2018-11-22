@@ -56,9 +56,9 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 <tr>
 <td style="background: #ddff00;">Я</td>
 <td>i</td>
-<td>ïa´</td>
+<td>ïa</td>
 <td> </td>
-<td>ï…</td>
+<td> </td>
 <td>…ïa</td>
 <td> </td>
 <td> </td>
@@ -67,11 +67,11 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 </tr>
 <tr>
 <td style="background: #ddff00;">Э</td>
+<td>i</td>
 <td>è</td>
 <td> </td>
 <td> </td>
-<td> </td>
-<td> </td>
+<td>…è</td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -80,9 +80,9 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 <tr>
 <td style="background: #ddff00;">Е</td>
 <td>i</td>
-<td>ïè´</td>
+<td>ïè</td>
 <td> </td>
-<td>ï…</td>
+<td></td>
 <td>…ïé</td>
 <td> </td>
 <td> </td>
@@ -116,7 +116,7 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 <tr>
 <td style="background: #ddff00;">О</td>
 <td>a</td>
-<td>o´</td>
+<td>o</td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -463,30 +463,23 @@ Mais inutile de vous focaliser sur les difficulté pour le moment. Commencez par
 10. Audio.
 
 
-## Résumé
+## Généralités
 
-- Les mots on tous une syllabe accentuée (accent virtuel) qui fait varier la prononciation. Vous apprendrez à la placer par la pratique.
-
-- Chaque lettre se prononce, il n'y a pas de liaisons commen en français (АН = A-N et pas AN).
-
-- Les consonnes sonores **БВГДЖЗ** deviennent sourdes lorsqu'elles sont suivies pas une consonne sourde **ШCKTПФ** ou **Ь**.
-
-- Les consonnes sonores **БВГДЖЗ** deviennent sourdes lorsqu'elles sont placées à la fin d'un mot (éventuelement suivi du signe mou **Ь**).
-
-- La lettre **Р** se prononce comme un R roulé.
-
-- La lettre **Х** se prononce comme un H "craché" (comme le chat en collère).
-
-- La lettre **Ы** se prononce comme un î "grave" (un peu comme en faisant le gogol).
-
-- La lettre **О** se prononce comme un A (entre le A et le O pour êre précis), sauf lorsque qu'elle se trouve dans la syllabe accentuée.
-
-- La lettre "Ь" ne se prononce pas mais produit un son en "ïe" lorsqu'elle est placée à la fin d'un mot.
-
-- La lettre **И** se prononce comme **Ы** quand elle suit **ШЖЧЩ** (ШИ = chî, ЖИ = jî, ЧИ = tchî, ЩИ = schî).
+- Chaque lettre se prononce indépendamment de la lettre suivante (ex: АН = "A""N" et pas "AN").
 
 
-## Reconnaitre les consonnes sourdes et sonnores
+## L'accent tonique
+
+- Les mots ont tous un accent tonique (virtuel) placé sur l'une des voyelles. Vous apprendrez à le placer par la pratique.
+
+- Les mots contenant la lettre **Ё** sont accentués sur cette lettre.
+
+- Les mots ne contenant qu'une seule voyelle sont de fait accentués sur cette voyelle.
+
+
+## Les consonnes sourdes et sonores
+
+- Les consonnes sonores **БВГДЖЗ** deviennent sourdes lorsqu'elles sont suivies pas une consonne sourde **ШCKTПФ**, par un signe mou **Ь**, ou lorsqu'elles sont placées **à la fin d'un mot**.
 
 Répétez plusieurs fois la première ligne (puis les autres).
 
@@ -497,10 +490,10 @@ Répétez plusieurs fois la première ligne (puis les autres).
 "Je" "Che"
 "Ze" "Ce"
 
-Vous remarquez que le premier son est plutôt aspiré alors que le deuxième est plutôt souflé.
-Ces sons correspondent aux consonnes sonnores et leur version sourde.
+Vous remarquez que le premier son est plutôt aspiré alors que le deuxième est plutôt soufflé.
+Ces sons correspondent aux consonnes sonores et leur version sourde.
 
-consonne sonnore > consonne sourde
+consonne sonore > consonne sourde
 Б > П
 В > Ф
 Г > K
@@ -508,7 +501,41 @@ consonne sonnore > consonne sourde
 Ж > Ш
 З > C
 
-## Quelques conseils pour la prononciations.
+
+## Lettres difficiles à prononcer
+
+- La lettre **Р** se prononce comme un R roulé.
+
+- La lettre **Х** se prononce comme un H "craché" (comme le chat en colère).
+
+- La lettre **Ы** se prononce comme un î "grave" (un peu comme en faisant le gogol).
+
+- La lettre **Ь** ne se prononce pas mais produit un son en "ïe" lorsqu'elle est placée à la fin d'un mot.
+
+
+## Exceptions
+
+- La lettre **О** se prononce "A", sauf lorsque qu'elle se trouve dans la syllabe accentuée.
+
+- Les voyelles **Я**, **Е** et **Э** se prononcent "I", sauf lorsqu'elles sont accentuées ou placées à la fin d'un mot.
+
+- La lettre **И** se prononce "Î" quand elle est précédée de **ШЖЧЩ** (ex: ШИ = chî, ЖИ = jî, ЧИ = tchî, ЩИ = schî).
+
+- **чт** se prononce "cht" (et pas tcht).
+
+- **сч** se prononce "ch" (et pas stch).
+
+- **ё** se prononce "ïo" (o ouvert comme dans botte).
+
+- **Ый** se prononce "îʸ" (Ы suivi d'un léger "y").
+
+
+## Conseils au français
+
+- Baissez l'intonation à la fin de vos phrases, le russe est une langue triste.
+
+
+## Quelques conseils en vidéo.
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/SLfpp704KI8" frameborder="0" allowfullscreen></iframe></p>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/zayTKG-ZAbs" frameborder="0" allowfullscreen></iframe></p>

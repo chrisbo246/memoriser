@@ -86,3 +86,10 @@ Tout ce qu'il faut
 
 … de rechange
 : Spare …
+
+complètement
+: full-stack
+*Entièrement, 100%.*
+
+juste un peu
+: just a tad

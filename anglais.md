@@ -18,8 +18,8 @@ image:
   width: 600
   height: 400
 collection_type: "posts"
-tags: []
-categories: ["anglais"]
+categories: ["langue"]
+tags: ["anglais"]
 comments: false
 weight: 100
 nav:

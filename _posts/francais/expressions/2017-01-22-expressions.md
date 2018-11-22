@@ -17,12 +17,18 @@ un travail de Sisyphe
 : Travail pénible qu'il faut sans cesse recommencer.
 *En référence à [Sisyphe](https://fr.wikipedia.org/wiki/Sisyphe), personnage de la mythologie Grecque, condamné par Hadès à pousser un énorme rocher en haut d'une montagne, le rocher redescendant la côte sitôt arrivé au sommet.*
 
-révolution copernicienne
-: Renversement de la représentation du monde.
+une victoire à la Pyrrhus
+: Victoire obtenue au prix de terribles pertes.
+
+Construire un château en Espagne
+: Faire des projets irréalisables.
 
 Franchir le Rubicon
 : Faire un choix irréversible.
-*En référence à Jules César qui franchit la rivière Rubicon et pénétra dans Rome sans déposer les armes.*
+*En référence à [Jules César qui franchit le fleuve Rubicon](https://fr.wikipedia.org/wiki/Guerre_civile_de_C%C3%A9sar#La_travers%C3%A9e_du_Rubicon) et pénétra dans Rome sans déposer les armes.*
+
+révolution copernicienne
+: Renversement de la représentation du monde.
 
 une noria de véhicules
 : Vas et vient ininterrompu de véhicules de transport.

@@ -123,3 +123,9 @@ Je dois fléchir
 
 Le vent se lève
 : The wind picks up
+
+
+## Comportement
+
+Je rougis
+: I blush my cheeks

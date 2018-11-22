@@ -164,6 +164,6 @@ published: true
 
 
 
-<small class="text-muted float-right">
+<small class="text-secondary float-right">
 [wikipedia.org](https://fr.wikipedia.org/wiki/Kalinka)
 </small>

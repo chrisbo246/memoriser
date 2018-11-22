@@ -43,6 +43,17 @@ C'est dangereux ici.
 */èta rapasna zdièssʸ/ "C'est dangereux ici."*
 
 
+## Présenter
+
+Voici …
+: Вот …
+*/Votᵉ …/*
+
+Voici mon ami John.
+: Это мой друг, Джон.
+*/Èta moï drouk, Djonᵉ./ "C'est mon ami, John."*
+
+
 ## Divers
 
 Vous avez laissé tomber quelque chose!

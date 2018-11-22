@@ -45,6 +45,9 @@ ruban adhésif
 trombone
 : paperclip
 
+élastique
+: rubber band
+
 sceau
 : seal
 

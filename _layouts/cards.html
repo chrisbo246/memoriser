@@ -4,7 +4,8 @@ layout: default
 {% assign lang = page.lang | default: site.lang | default: "en" %}
 {% assign t = site.data.locales[lang] %}
 
-{% include related-posts.html %}
+{% assign array = '' | split: ' ' %}
+{% include related-posts.html categories=page.tags tags=array %}
 
 <div class="container-fluid">
   <div class="row clearfix">
@@ -24,35 +25,43 @@ layout: default
         <header class="post-header" hidden>
           <h1 class="post-title display-4 mb-4">{{ page.title | escape | replace: ':', ':<br>' }}</h1>
           {% if page.subtitle %}
-          <h6 class="mb-2 text-muted">{{ post.subtitle | escape }}</h6>
+          <h6 class="mb-2 text-secondary">{{ post.subtitle | escape }}</h6>
           {% endif %}
         </header>
         {% endif %}
 
         {{ content }}
 
+
+
         {% if posts.size > 0 %}
-
         {% assign posts = posts | sort: 'title' | reverse | sort: 'weight' | reverse %}
-        <div class="post-list -card-columns d-flex flex-row flex-wrap -justify-content-between">
-          {% for post in posts %}
-          {% if post.url and post.title and post.content.size > 100 %}
 
-          <div class="{% include filter-tags.html post=post %}">
-            <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
-            <div class="card card-flip m-1">
-              {% if post.weight > 0 %}
-              {% assign class = 'card-position-absolute bg-primary text-white' %}
-              {% else %}
-              {% assign class = 'card-position-absolute bg-white' %}
-              {% endif %}
-              {% include card.html face="front" post=post class=class img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
-              {% include card.html face="back" post=post class="bg-white text-dark" %}
+          {% if site.lunr %}
+          <script>{% include scripts/lunr-store.js posts=posts %}</script>
+          <div id="search-message" class="alert alert-info" role="alert" hidden>{{ t.no_result_info }}</div>
+          <div id="search-results" class="post-list d-flex flex-row flex-wrap">
+          {% else %}
+          <div class="post-list d-flex flex-row flex-wrap">
+            {% for post in posts %}
+            {% if post.url and post.title and post.content.size > 100 %}
+            <div class="{% include filter-tags.html post=post %}">
+              <input type="radio" id="flipcard_position_{{ post.url | slugify: 'default' }}" name="flipcard_position" value="{{ post.url }}" class="flipcard-position d-none" data-storage="false" />
+              <div class="card card-flip m-1">
+                {% if post.weight > 0 %}
+                {% assign class = 'card-position-absolute bg-primary text-white' %}
+                {% else %}
+                {% assign class = 'card-position-absolute bg-white' %}
+                {% endif %}
+                {% include card.html face="front" post=post class=class img-class="card-img-faded card-img-grayscale" title-class="h2 font-weight-bold" %}
+                {% include card.html face="back" post=post class="bg-white text-dark" %}
+              </div>
             </div>
+            {% endif %}
+            {% endfor %}
           </div>
-
           {% endif %}
-          {% endfor %}
+
         </div>
         <input type="radio" id="flipcard_toggler_none" name="flipcard_toggler" value="none" class="d-none" checked />
 

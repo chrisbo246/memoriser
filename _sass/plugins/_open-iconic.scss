@@ -1,27 +1,27 @@
-svg.oi {
+.oi {
   &.oi-lg {
-    width: 1.33333333em;
+    height: 1.33333333em;
     width: 1.33333333em;
   }
 
   &.oi-2x {
-    width: 2em;
     height: 2em;
+    width: 2em;
   }
 
   &.oi-3x {
-    width: 3em;
     height: 3em;
+    width: 3em;
   }
 
   &.oi-4x {
-    width: 4em;
     height: 4em;
+    width: 4em;
   }
 
   &.oi-5x {
-    width: 5em;
     height: 5em;
+    width: 5em;
   }
 
   @each $name, $value in $theme-colors {
@@ -39,11 +39,11 @@ svg.oi {
       $yiq: (($r * 299) + ($g * 587) + ($b * 114)) / 1000;
 
       @if ($yiq >= 150) {
-        fill: #111;
-        stroke: #111;
+        fill: $black;
+        stroke: $black;
       } @else {
-        fill: #fff;
-        stroke: #fff;
+        fill: $white;
+        stroke: $white;
       }
     }
   }

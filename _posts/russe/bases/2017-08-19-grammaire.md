@@ -56,6 +56,18 @@ Neutre
   - О > А
   - Е > Я
 
+Les mots se finissant par un type dure (généralement masculin) se finissent par ы au pluriel.
+Les mots se finissant par un type mou (généralement féminin) se finissent par и au pluriel.
+Les mots neutres se finissent par а ou я au pluriel.
+Les mots se finissant par жчшщ ou гкх se finissent par и au pluriel.
+
+- consonne …Й, Б, П, В, Ф, Д, Т, З, С, Л, М, Н, Р, Ц + **Ы**
+- …К, Г, Х, Ш, Щ, Ж, Ч, Ь + **И** (éventuellement suivit d'une voyelle qu'on enlèvera).
+- …А > **Ы**
+- …Я > **И**
+- …О > **А**
+- …Е > **Я**
+
 
 ## Les cas
 

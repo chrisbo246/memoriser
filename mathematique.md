@@ -12,8 +12,8 @@ image:
   width: 640
   height: 360
 collection_type: "posts"
-tags: []
-categories: ["mathématique"]
+categories: ["science"]
+tags: ["mathématique"]
 comments: false
 nav:
   id: "secondary-nav"

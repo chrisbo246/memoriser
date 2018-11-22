@@ -18,8 +18,8 @@ image:
   width: 600
   height: 400
 collection_type: "posts"
-tags: []
-categories: ["russe"]
+categories: ["langue"]
+tags: ["russe"]
 comments: false
 weight: 100
 nav:

@@ -1,23 +1,26 @@
 <div class="{% if include.direction == 'vertical' %}{% else %}btn-toolbar justify-content-between{% endif %} mb-3" role="toolbar" aria-label="{{ t.filters }}">
 
   <div class="input-group {% if include.direction == 'vertical' %}mb-3{% else %}ml-3{% endif %}">
-    <input type="text" class="form-control searchbox" id="searchbox" placeholder="{{ t.search_placeholder }}">
+    <input type="text" id="search-input" class="form-control searchbox" placeholder="{{ t.search_placeholder }}">
   </div>
 
-  {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
+  {% assign raw_categories = include.posts | map: "categories" %}
+  {% assign categories = raw_categories | uniq | compact | sort_natural %}
   {% if categories %}
   <div class="{% if include.direction == 'vertical' %}d-block btn-group-vertical mb-3{% else %}btn-group ml-3{% endif %} btn-group-toggle" role="group" aria-label="{{ t.category_filters }}" data-toggle="buttons">
     {% assign categories = include.posts | map: "categories" | uniq | compact | sort_natural %}
     {% for filter in categories %}
-    {% unless page.categories contains filter %}
+    {% unless page.tags contains filter %}
     <label class="btn btn-outline-secondary">
       <input type="radio" name="cat-filters" value="{{ filter | default: 'divers' }}" class="filter-toggler" data-filter=".cat-{{ filter | default: 'divers' }}" data-global="false" autocomplete="off" />{{ filter | default: "divers" }}
     </label>
     {% endunless %}
     {% endfor %}
+    {% if raw_categories contains nil %}{% endif %}
     <label class="btn btn-outline-secondary">
       <input type="radio" name="cat-filters" value="other" class="filter-toggler" data-filter=".cat-other" data-global="false" autocomplete="off" />{{ t.other }}
     </label>
+
     <label class="btn btn-outline-secondary active">
       <input type="radio" name="cat-filters" value="all" class="filter-toggler" data-filter="" data-global="false" autocomplete="off" checked />{{ t.all }}
     </label>

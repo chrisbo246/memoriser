@@ -331,6 +331,6 @@ published: true
 *[кулаков]: Les paysans riches, une classe sociale à éradiquer, selon la logique soviétique. C'est la première chose que Staline a faite à son arrivée au pouvoir en 1923, avec sa réforme agraire qui a entraîné le massacre et la déportation de millions de paysans, et aussi des famines, notamment en Ukraine
 
 
-<small class="text-muted float-right">
+<small class="text-secondary float-right">
 [lyricstranslate.com](http://lyricstranslate.com/fr/ekh-yablochko-эх-яблочко-où-roules-tu-petite-pomme.html)
 </small>

@@ -88,14 +88,20 @@ cheville en bois
 rivet
 : rivet
 
-rondelle
-: washer
-
 clou
 : nail
 
 soudure
 : welding, solder
+
+
+## Rondelles
+
+rondelle
+: washer
+
+joint
+: gasket
 
 
 ## Pièces mécaniques

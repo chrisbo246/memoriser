@@ -12,15 +12,3 @@ categories: ["russe", "phrases"]
 tags: ["expression"]
 date: 2017-11-04 00:00:00 +0100
 ---
-
-Voici, nous voici …
-: Вот …
-*/Votᵉ …/*
-
-Il y a …
-: Есть …
-*/Yèstʸ …/ "il-y-a …"*
-
-Voici mon ami John.
-: Это мой друг, Джон.
-*/èta moï drouk, Djonᵉ./ "C'est mon ami, John."*

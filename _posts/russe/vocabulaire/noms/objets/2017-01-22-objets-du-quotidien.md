@@ -290,6 +290,21 @@ couverture
 */kovièrᵉ/*
 
 
+## Jouet
+
+ballon
+: мяч
+*/miatch/*
+
+balle
+: мячик
+*/miatchik/ "petit-ballon"*
+
+jouet
+: игрушка
+*/igrouchka/*
+
+
 ## Divers
 
 tapis

@@ -27,6 +27,14 @@ Je vous en prie!
 : Прошу вас!
 */Prachou vass!/*
 
+Je comprends.
+: Я понимаю.
+*/Ya panimaï./*
+
+Ravi de vous rencontrer!
+: Очень приятно познакомиться
+*/Otchin priatna paznakomitcia!/	"Très sympa faire-connaissance!"*
+
 
 ## Remerciement
 
@@ -59,3 +67,18 @@ Je sais.
 Comme c’est intéressant!
 : Как интересно!
 */Kak intièrèsna!/*
+
+À tes souhaits! (éternuement)
+: m.
+  : Будь здоров!
+  */Boutʸ sdarof!/ "Sois m. en-bonne-santé!"*
+  f.
+  : Будь здорова!
+  */Boutʸ sdarova!/ "Sois f. en-bonne-santé!"*
+
+
+
+*[m.]: Masculin
+*[f.]: Féminin
+*[s.]: Singulier
+*[pl.]: Pluriel

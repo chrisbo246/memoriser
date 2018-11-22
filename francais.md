@@ -15,8 +15,8 @@ image:
   width: 600
   height: 400
 collection_type: "posts"
-tags: []
-categories: ["francais"]
+categories: ["langue"]
+tags: ["francais"]
 comments: false
 weight: 100
 nav:

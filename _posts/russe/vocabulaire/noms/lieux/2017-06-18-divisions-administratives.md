@@ -46,7 +46,7 @@ ville
 : город
 */goratᵉ/*
 
-village
+village (de campagne)
 : деревня
 */diérivnia/*
 

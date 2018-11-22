@@ -20,7 +20,7 @@ bigot
 
 naïade
 : Baigneuse, femme en maillot de bain.
-*En référence à la nymphe d'eaux douces.*
+*En référence à la [nymphe d'eaux douces](https://fr.wikipedia.org/wiki/Na%C3%AFade_(insecte)).*
 
 parangon
 : Un modèle.

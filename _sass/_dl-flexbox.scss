@@ -72,10 +72,10 @@
 
     .card.back {
       .nav {
-        margin-top: -$card-spacer-y;
+        //margin-top: -$card-spacer-y;
 
         .nav-link {
-          padding: ($spacer * .25);
+          //padding: ($spacer * .25);
         }
       }
 
@@ -96,6 +96,8 @@
       }
 
       .btn.active {
+        //display: none;
+
         .fa-check {
           color: $success;
         }

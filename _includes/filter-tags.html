@@ -21,7 +21,7 @@
 {% assign array = 'featured' | split: ' ' | concat: array %}
 {% endif %}
 
-{% if categories and categories.size > page.categories.size %}
+{% if categories and categories.size > 0 %}
 {% for category in categories %}
 {% assign class = 'cat-' | append: category %}
 {% assign array = array | push: class %}

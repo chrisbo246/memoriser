@@ -17,15 +17,15 @@ date: 2017-11-19 00:00:00 +0100
 
 C'est particulier.
 : Это особый.
-*/èta assobî./ "C’est spécial."*
+*/Èta assobî./ "C’est spécial."*
 
 
 ## Prix
 
 C'est un peu cher!
 : Это дороговато!
-*/èta dorogovato!/ "C’est un-peu-cher!"*
+*/Èta dorogovato!/ "C’est un-peu-cher!"*
 
 C’est trop cher!
 : Это слишком дорого!
-*/èta slichkomᵉ doraga!/ "C’est trop cher!"*
+*/Èta slichkomᵉ doraga!/ "C’est trop cher!"*

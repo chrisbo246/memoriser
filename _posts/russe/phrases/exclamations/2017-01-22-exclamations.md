@@ -27,6 +27,10 @@ Cool! fam.
 : Крутяк!
 */Kroutiak!/*
 
+C'est génial!
+: Это здорово!
+*/Èta zdarova!/*
+
 Excellent!
 : Отлично!
 */Atlitchna!/*
@@ -45,6 +49,10 @@ LOL
 Ô mon dieu!
 : Боже мой!
 */Bojé moï!/*
+
+C'est pas possible!
+: Не может быть!
+*/Niè mojièt bîtʸ!/*
 
 Ouah!
 : Ого!
@@ -75,6 +83,13 @@ Allons-y!
 Allons-y (en voiture)!
 : Поехали!
 */Paièhli!/*
+
+
+## Constatation
+
+C'est très facile!
+: это очень легко!
+*/èta tak liègko!/ "C'est tellement facile!"*
 
 
 ## Félicitation

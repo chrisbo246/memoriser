@@ -13,7 +13,7 @@ keywords: ["cours de langue", "liste de vocabulaire", "listes de vocabulaire",
 "vocabulaire anglais", "cours d'anglais", "vocabulaire français-Anglais",
 "vocabulaire russe", "cours de russe", "vocabulaire français-Russe"
 ]
-image: "assets/images/logos/android-chrome-512x512.png"
+image: "assets/images/favicons/android-chrome-256x256.png"
 weight: 9999
 comments: false
 nav:
@@ -22,7 +22,10 @@ nav:
   icon: "fas fa-home"
 card:
   image: true
+  categories: true
+  tags: true
   date: false
+  new: 30
   image_position: "overlay"
   #image_position: "top"
   #text_align: "center"
@@ -30,4 +33,5 @@ card:
   #title_link: true
   read_more_type: "button"
   read_more_container: "footer"
+  progress: false
 ---

@@ -25,6 +25,10 @@ combien
 : сколько
 */skolka/*
 
+combien de … est nécessaire
+: cколько нужна …
+*/skolka noujna/ "combien nécessaire"*
+
 à qui
 : чья
 */tchia/*

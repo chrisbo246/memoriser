@@ -55,8 +55,14 @@ bonne volonté
 
 ## Mauvais caractère
 
+paresseusement
+: idly
+
 effronté
 : cheeky
+
+impertinent
+: sassy
 
 vilain
 : naughty
@@ -82,9 +88,6 @@ minable
 
 méchant
 : mean
-
-impertinent
-: sassy
 
 impoli
 : rude
@@ -119,9 +122,6 @@ incontrôlable
 
 désobéissant
 : disobedient
-
-paresseusement
-: idly
 
 
 ## Comportement positif

@@ -24,6 +24,8 @@ bower_components/cookieconsent/*
 bower_components/font-awesome/*
 bower_components/jquery/*
 bower_components/lazysizes/*
+bower_components/lunr/*
+bower_components/lunr-languages/*
 bower_components/open-iconic/*
 bower_components/popper.js/*
 bower_components/prefixfree/*
@@ -43,6 +45,8 @@ bower_components/tether/*
 !bower_components/font-awesome/advanced-options
 !bower_components/jquery/dist
 !bower_components/lazysizes/*.js
+!bower_components/lunr/*.js
+!bower_components/lunr-languages/min
 !bower_components/open-iconic/font
 !bower_components/open-iconic/svg
 !bower_components/popper.js/dist

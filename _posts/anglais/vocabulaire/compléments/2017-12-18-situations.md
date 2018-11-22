@@ -67,6 +67,12 @@ une vie à la dure
 : a thug life
 *Une vie de voyou.*
 
+effondrement du destin
+: drop of doom
+
+un coups du destin
+: a stroke of fate
+
 
 ## Agression
 

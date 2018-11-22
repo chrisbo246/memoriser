@@ -22,7 +22,7 @@ clé à chocs
 : impact wrench
 
 clé à cliquet, clé à douilles
-: ratchet
+: ratchet wrench
 
 clé à ergot
 : pin wrench
@@ -37,10 +37,13 @@ clé à œil
 : spanner
 
 clé à pipe
-: box spanner
+: socket wrench
 
-clé Allen, clé hexagonale, clé six pans, clé imbus
-: Allen key, hex key
+douille
+: socket
+
+clé hexagonale, clé Allen, clé six pans, clé imbus
+: hex bit, Allen key
 
 clé anglaise
 : wrench
@@ -48,8 +51,8 @@ clé anglaise
 clé en croix
 : wrench
 
-clé plate, clé à écrou
-: wrench, spanner
+clé plate
+: wrench
 
 
 ## Vissage
@@ -59,6 +62,9 @@ tournevis cruciforme
 
 tournevis
 : screwdriver
+
+Enbout (de vissage)
+: bit
 
 
 ## Scies
@@ -90,6 +96,9 @@ maillet
 marteau
 : hammer
 
+arrache-clou
+: claw hammer
+
 
 ## Outils à manche
 
@@ -110,3 +119,6 @@ tourne-à-gauche
 
 masse à inertie
 :	slide hammer
+
+brosse métallique
+: wire brush

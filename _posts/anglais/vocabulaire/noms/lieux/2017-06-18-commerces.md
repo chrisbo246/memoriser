@@ -41,3 +41,6 @@ bar de quartier
 
 maison de prostitution, maison close
 : brothel, whorehouse
+
+salle de sport
+: sports hall

@@ -258,6 +258,9 @@ barbiche, bouc
 moustache
 : moustache
 
+rouflaquettes
+: sideburns
+
 
 ## Squelette
 

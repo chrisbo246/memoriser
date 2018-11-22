@@ -9,7 +9,7 @@ image:
   width: 600
   height: 400
 categories: ["russe", "phrases"]
-tags: ["réponse"]
+tags: ["réponse", "expression"]
 date: 2017-08-22 00:00:00 +0100
 ---
 
@@ -19,7 +19,15 @@ Oui
 
 Bien sûr!
 : Конечно!
-*/kaniètchna!/*
+*/Kaniètchna!/*
+
+Yes of course!
+: Да конечно!
+*/Da kaniètchna!/*
+
+Ça marche!
+: договорились!
+*/Dagavarilisʸ!/ "Convenu!"*
 
 Ça roule!
 : Катит!
@@ -31,11 +39,11 @@ Avec plaisir!
 
 Je peu.
 : Я умею.
-*/Ya oumièiou/*
+*/Ya oumièïou/*
 
-Je comprends.
-: Я понимаю.
-*/Ya panimay./*
+Exact!
+: точно!
+*/Totchna! "Précisément!"/*
 
 Je suis d'accord
 : m.
@@ -46,6 +54,13 @@ Je suis d'accord
   : Я согласна
   */Ya saglasna/ "Je f. d'accord"*
 
+Oui non peut-être.
+: да нет наверное?!
+*/Da niètᵉ navièrnè?!/ "Oui non probablement?!" Pour dire je ne sais pas trop, probablement.*
+
+
 
 *[m.]: Masculin
 *[f.]: Féminin
+*[s.]: Singulier
+*[pl.]: Pluriel

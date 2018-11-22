@@ -25,19 +25,19 @@ faux, mensonge
 : ложь
 */lochʸ/*
 
-Je ne sais pas.
-: Я не знаю.
-*/Ya niè znaïou./*
-
 Je ne comprends pas.
 : Не понимаю.
 */Nié panimaïou./*
+
+Je ne sais pas.
+: Я не знаю.
+*/Ya niè znaïou./*
 
 Je n'en ai aucune idée.
 : Понятия не имею.
 */Paniatiè niè imiéiou./*
 
-Je ne sais pas, Je ne suis pas au courant.
+Je ne suis pas au courant.
 : Я не в курсе.
 */Ya niè v'courssiè./*
 
@@ -70,3 +70,5 @@ Je f. ne suis pas d'accord
 
 *[m.]: Masculin
 *[f.]: Féminin
+*[s.]: Singulier
+*[pl.]: Pluriel

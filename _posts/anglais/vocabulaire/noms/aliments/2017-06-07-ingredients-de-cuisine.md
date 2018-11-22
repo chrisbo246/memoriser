@@ -76,11 +76,15 @@ cannelle
 
 ## Préparations
 
-pâte (mélange à base de farine)
+pâte
 : dough
+*Boule à base de farine et d'eau.*
 
 pâte à frire
 : batter
+
+grumeaux
+: lumps
 
 
 ## adjectifs

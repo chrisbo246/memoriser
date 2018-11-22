@@ -53,6 +53,10 @@ Est-ce qu’il faut enlever ses chaussures?
 
 ## Se renseigner sur la situation
 
+Prêt?
+: Готовы?
+*/Gatovî?/*
+
 Comment ça?
 : Как так?
 */Kak tak?/*

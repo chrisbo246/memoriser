@@ -12,6 +12,7 @@
   </footer>
 </div>
 
+{% comment %}
 <div class="card border-info text-info mb-2">
   <div class="card-body">
     <h4 class="card-title">{{ t.contact_tip_title }}</h4>
@@ -23,8 +24,9 @@
     </a>
   </footer>
 </div>
+{% endcomment %}
 
-<div class="card text-muted mb-2" hidden>
+<div class="card text-secondary mb-2" hidden>
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
   <ul class="contact-list">
     <li class="p-name">

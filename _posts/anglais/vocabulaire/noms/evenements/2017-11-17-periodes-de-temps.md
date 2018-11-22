@@ -29,3 +29,12 @@ année sabbatique
 
 année bissextile
 : leap year
+
+
+## Pointe
+
+haute saison
+: peak season
+
+heure de pointe
+: peak hour

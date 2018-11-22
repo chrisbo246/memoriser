@@ -12,8 +12,8 @@ image:
   width: 600
   height: 400
 collection_type: "posts"
-tags: []
-categories: ["art"]
+categories: ["culture"]
+tags: ["art"]
 comments: false
 nav:
   id: "secondary-nav"

@@ -14,6 +14,10 @@ weight: 50
 date: 2017-10-31 00:38:00 +0100
 ---
 
+les jeunes gens sont souvent appelés « filles »/« garçons » (« devouchka »/« molodoï tchelovek »)
+« mamie »/« papy » (« babouchka »/« dedouchka ») servent pour aborder les Russes d'âge avancé.
+« femme »/« homme » (« jenchtchina »/« moujtchina ») ne sonne pas de façon très polie en russe
+
 ## Hommes de la famille
 
 papa

@@ -2,30 +2,37 @@
 # yarn lockfile v1
 
 
-animate.css@^3.5.2:
-  version "3.5.2"
-  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.5.2.tgz#91e668dc069a808e5e499514867b97aae0166c36"
+animate.css@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/animate.css/-/animate.css-3.7.0.tgz#5de25d1ee5fba11ba6a1e2c4fa568f512eb7d4da"
+  integrity sha512-u3iMXDJr0cxMdQocIciDiou9Au4L5f9uT+/jCtprw3s1j3HcfCuI+khF+90Ps2KdsEhM2soF7SXB4WUvI3HlXg==
 
-bootstrap@^4.0.0-beta.3:
-  version "4.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-beta.3.tgz#60f0660bc3d121176514b361f6f83201c7ff8874"
+bootstrap@^4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.3.tgz#0eb371af2c8448e8c210411d0cb824a6409a12be"
+  integrity sha512-rDFIzgXcof0jDyjNosjv4Sno77X4KuPeFxG2XZZv1/Kc8DRVGVADdoQyyOVDwPqL36DDmtCQbrpMCqvpPLJQ0w==
 
-cookieconsent@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/cookieconsent/-/cookieconsent-3.0.4.tgz#ef02b3fdbd10de6a9af20f22e287448bfdd48c5d"
+cookieconsent@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/cookieconsent/-/cookieconsent-3.1.0.tgz#2c718b304d0e71a6e0d159cac8adf4205fdca152"
+  integrity sha512-FhkOAzZdIVqg7UfPjymgJBA7ZeEjrMgO8RWh+1Z130K7TlJDNnIORMulvqmt66SPyfrUnFB3SYJ55/7EvEcSEA==
 
 font-awesome@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
+  integrity sha1-j6jPBBGhoxr9B7BtKQK7n8gVoTM=
 
-jquery@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
+jquery@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
 
-lazysizes@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-4.0.1.tgz#428fe9561d7ff5c3b2b2787b78ed54080986420b"
+lazysizes@^4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-4.1.4.tgz#1b2974420252e6eab7a6a1e8c8bdcb177a72a06a"
+  integrity sha512-jVplgeHHoQ6a2RZtxCAKFAnm6QPQmEIKq4JWSTI1XfCBhn+CqDgMKWDJO81f8VtVBdAlHs+BzP2WGzMLUi3oFg==
 
-popper.js@^1.12.9:
-  version "1.12.9"
-  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.12.9.tgz#0dfbc2dff96c451bb332edcfcfaaf566d331d5b3"
+popper.js@^1.14.5:
+  version "1.14.5"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.14.5.tgz#98abcce7c7c34c4ee47fcbc6b3da8af2c0a127bc"
+  integrity sha512-fs4Sd8bZLgEzrk8aS7Em1qh+wcawtE87kRUJQhK6+LndyV1HerX7+LURzAylVaTyWIn5NTB/lyjnWqw/AZ6Yrw==

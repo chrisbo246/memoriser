@@ -39,3 +39,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Be sure to run "bundle update" after each update
 # or "bundle install" if you want to install a new gem.
+
+# Use a local gem theme
+#gem "jekyll-theme-overkill", :path => "~/GitHub/jekyll-theme-overkill"

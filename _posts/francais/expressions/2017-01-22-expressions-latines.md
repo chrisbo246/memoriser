@@ -67,3 +67,6 @@ stricto sensu
 
 verbatim
 : Mot pour mot.
+
+vade-mecum
+: aide-mémoire

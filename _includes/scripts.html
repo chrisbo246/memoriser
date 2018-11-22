@@ -1,7 +1,11 @@
+
 <script src="{{ '/assets/config.js' | relative_url }}"></script>
 
+{% if page.adsense != false and site.adsense.client and site.adsense.slot and jekyll.environment == "production" %}
 <script defer src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script -async="" src="{{ '/bower_components/lazysizes/lazysizes.min.js' | relative_url }}"></script>
+{% endif %}
+
+<script async="" src="{{ '/bower_components/lazysizes/lazysizes.min.js' | relative_url }}"></script>
 
 <script defer src="{{ '/bower_components/font-awesome/svg-with-js/js/fa-solid.min.js' | relative_url }}"></script>
 <script defer src="{{ '/bower_components/font-awesome/svg-with-js/js/fontawesome.min.js' | relative_url }}"></script>
@@ -10,8 +14,17 @@
 <script src="{{ '/bower_components/popper.js/dist/umd/popper.min.js' | relative_url }}"></script>
 <script src="{{ '/bower_components/bootstrap/dist/js/bootstrap.min.js' | relative_url }}"></script>
 
+{% if site.lunr %}
+{% if page.layout == 'home' or page.layout == 'cards' %}
+<script src="{{ '/bower_components/lunr/lunr.js' | relative_url }}"></script>
+<script src="{{ '/bower_components/lunr-languages/min/lunr.stemmer.support.min.js' | relative_url }}"></script>
+<script src="{{ '/bower_components/lunr-languages/min/lunr.' | append: lang | append: '.min.js' | relative_url }}"></script>
+{% endif %}
+{% endif %}
+
 {% if page.layout == 'definition-lists' and jekyll.environment == 'development' %}
 <script src="{{ '/bower_components/voicerss_tts_jquery/jquery.voicerss-tts.min.js' | relative_url }}"></script>
 {% endif %}
 
+{% comment %}<script src="{{ '/assets/data/docs.js' | relative_url }}"></script>{% endcomment %}
 <script src="{{ '/assets/main.js' | relative_url }}"></script>

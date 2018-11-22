@@ -131,4 +131,5 @@ Locatif (Où?)             | о чьём  | о чьём  | о чьей  | о ч�
 *[m.]: Masculin
 *[f.]: Féminin
 *[n.]: Neutre
+*[s.]: Singulier
 *[pl.]: Pluriel

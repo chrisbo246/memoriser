@@ -23,6 +23,7 @@
         }
       });
 
+      /*
       // Filter by text
       $searchboxes.each(function () {
         var text = $(this).val().toLowerCase();
@@ -41,6 +42,7 @@
           });
         }
       });
+      */
 
     }
   };
@@ -88,10 +90,13 @@
     */
 
     if ($searchboxes.length && $targets.length) {
-      $searchboxes.on('input', function () {
+      $searchboxes.on('input', function (e) {
+        console.log('Searchbox', e.type);
+        $targets = $('.filter-target');
         filter(true);
       });
     }
+
 
   });
 

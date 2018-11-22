@@ -9,7 +9,7 @@ image:
   width: 600
   height: 400
 categories: ["anglais", "vocabulaire"]
-tags: ["nom", 
+tags: ["nom",
 "personne"
 ]
 date: 2017-03-28 20:51:00 +0100
@@ -25,6 +25,9 @@ parrain
 
 marraine
 : godmother
+
+filleul
+: godson
 
 frères et sœurs
 : siblings
@@ -122,11 +125,14 @@ paresseux
 : couch potato
 *Qui passe son temps devant la télé.*
 
-fouteur de merde
-: shit-fucker
+Autodidacte
+: self-taught
 
 gros bonnets
 : big guys
+
+(sal) gosse
+: brat
 
 
 ## Etudiant
@@ -170,8 +176,14 @@ pèlerin
 
 ## Voyous
 
+fouteur de merde
+: shit-fucker
+
 voyou
 : thug
+
+escroc
+: crooked man
 
 voleur
 : thief

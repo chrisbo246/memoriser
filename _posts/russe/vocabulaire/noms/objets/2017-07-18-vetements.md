@@ -67,6 +67,10 @@ pantalon
 : брюки
 */briouky/*
 
+jeans
+: джинсы
+*/djinᵉssî/ Toujours au pluriel.*
+
 robe
 : платье
 */platiè/*
@@ -81,15 +85,23 @@ jupe
 chaussette
 : pl.
   : носки
-  */noski/ "chaussette"*
+  */nasski/ "chaussettes"*
 
-chaussures
-: обувь
-*/oboufʸ/*
+soutien-gorge
+: бюстгалтер
+*/bioustgaltièrᵉ/*
+
+culottes caleçon
+: трусы
+*/troussî/ toujours aupluriel*
 
 porte jarretelle
 : Подвязки
 */padviaski/*
+
+collants
+: колготки
+*/kalgotki/*
 
 
 ## Chaussures
@@ -98,6 +110,10 @@ chausson
 : pl.
   : тапочки
   */tapatchki/ "chaussons"*
+
+chaussures
+: обувь
+*/oboufʸ/*
 
 botte
 : pl.
@@ -131,8 +147,13 @@ parapluie
 : зонт
 */zonᵉtᵉ/*
 
+
 ## Divers
 
 couche
 : пальто
 */palto/*
+
+blouse
+: блузка
+*/blousska/*

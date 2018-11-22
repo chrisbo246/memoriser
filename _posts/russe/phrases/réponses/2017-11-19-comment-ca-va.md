@@ -1,6 +1,6 @@
 ---
 layout: definition-lists
-title: "Phrases russe: Comment ça va?"
+title: "Phrases russe: Je vais bien/mal"
 description: "Liste de phrases russe pour répondre lorsqu'on vous demande comment vous allez."
 excerpt: "Liste de phrases russe pour répondre lorsqu'on vous demande comment vous allez."
 image:
@@ -13,7 +13,7 @@ tags: ["réponse", "salutation"]
 date: 2017-08-22 00:00:00 +0100
 ---
 
-## Ça va bien
+## Bien
 
 Excellent!
 : Отлично!
@@ -21,7 +21,7 @@ Excellent!
 
 Bien.
 : Хорошо.
-*/Horocho./*
+*/Haracho./*
 
 Ça va.
 : Нормально.
@@ -29,11 +29,11 @@ Bien.
 
 Bien, merci.
 : Спасибо, хорошо.
-*/Spasiba, horocho./*
+*/Spasiba, haracho./*
 
 Je vais très bien.
 : У меня всё хорошо.
-*/Ou minia fcio horocho./*
+*/Ou minia fcio haracho./*
 
 Tout va parfaitement!
 : Всё отлично!
@@ -41,14 +41,14 @@ Tout va parfaitement!
 
 Tout va bien.
 : Всё хорошо.
-*/Fcio horocho./*
+*/Fcio haracho./*
 
 Tout est OK.
 : Всё ок.
 */Fcio ok./*
 
 
-## Ça ne va pas très bien
+## Mal
 
 Ça va doucement.
 : Потихонечку.

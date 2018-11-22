@@ -18,14 +18,17 @@ email: chrisbo246@gmail.com
 description: >
   Listes de vocabulaire Français, Anglais et Russe regroupant mots composés et
   expressions courantes difficile à apprendre autrement que par la pratique.
+
 baseurl: "/memoriser" # the subpath of your site, e.g. /blog
 url: "https://chrisbo246.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: chrisbo246
 github_username:  chrisbo246
 
 # Build settings
 markdown: kramdown
 theme: minima
+#theme: jekyll-theme-overkill
 #remote_theme: mmistakes/minimal-mistakes
 
 # https://pages.github.com/versions/
@@ -34,7 +37,6 @@ plugins:
   - jekyll-seo-tag
   - wdm
   - jekyll-github-metadata
-  - jekyll-seo-tag
   #- jekyll-mentions # Issue with structured data
   - jekyll-sitemap
 
@@ -90,10 +92,6 @@ exclude:
 include:
   - .htaccess
   - bower_components
-  #- bower_components/**/build
-  #- bower_components/**/dist
-  #- bower_components/**/scss
-  #- bower_components/**/fonts
 
 # Do not delete/copy this (static) files from/to the destination directory each time you're running jekyll build (improve build time)
 keep_files:
@@ -248,6 +246,7 @@ compress_html:
 array: []
 theme_color: '#28a745'
 background_color: '#007bff'
+bootswatch_theme: minty
 headers:
   api-user-agent: memoriser/1.0
   origin: https://chrisbo246.github.io/memoriser

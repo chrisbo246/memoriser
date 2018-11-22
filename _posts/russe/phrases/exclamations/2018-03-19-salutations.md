@@ -49,13 +49,17 @@ Salut!
 : Привет!
 */Priviètᵉ!/*
 
+Salut toi! fam.
+: Здорова!
+*/Zdarova!/*
+
 Salut à tous! (bonjour)
 : всем привет
 */Cièmᵉ priviètᵉ/*
 
-Salut toi! fam.
-: Здорова!
-*/Zdarova!/*
+Salut les amis!
+: Привет друзьям!
+*/Priviètᵉ drouziam!/*
 
 
 ## Enchanté

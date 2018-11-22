@@ -55,6 +55,12 @@ là-bas, là-haut (éloigné)
 : yonder
 
 
+## Direction
+
+de bas en haut
+: bottom up
+
+
 ## Etat
 
 coincé

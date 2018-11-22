@@ -30,6 +30,10 @@ prométhéen(ne)
 : Idéaliste.
 *Foi dans la condition humaine (ex: une vision prométhéenne).*
 
+Kafkaïen(ne)
+: Absurde.
+*En référence à l'oeuvre de [Franz Kafka](https://fr.wikipedia.org/wiki/Franz_Kafka).*
+
 
 ## Situation
 
@@ -94,4 +98,4 @@ régalien
 
 Prétorien
 : Relatif à la garde d'un empereur/dictateur.
-*Ex: La garde prétorienne.* 
+*Ex: La garde prétorienne.*

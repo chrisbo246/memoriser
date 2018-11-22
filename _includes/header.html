@@ -1,10 +1,10 @@
 <div class="container-fluid">
-  <nav class="navbar navbar-dark bg-primary fixed-top d-flex flex-row justify-content-between w-100 animated -fadeInRight fadeInDown">
+  <nav class="navbar navbar-dark bg-primary fixed-top d-flex flex-row justify-content-between w-100 animated fadeInDown">
 
     {% if page.layout == 'home' %}
-    <a class="navbar-brand -random-rotate -random-opacity -random-font-size" href="{{ "/" | relative_url }}">
+    <a class="navbar-brand random-rotate random-opacity random-font-size" href="{{ "/" | relative_url }}">
       {% assign string = site.title | strip | escape %}
-      {% assign n = string.size - 2 %}
+      {% assign n = string.size | minus: 2 %}
       {% for i in (0..n) %}
       <span class="d-inline-block">{{ site.title | slice: i }}</span>
       {% endfor %}
@@ -23,7 +23,7 @@
       {% assign categories = '' | split: ' ' %}
       {% assign tags = '' | split: ' ' %}
       {% for category in page.categories %}
-      {% assign categories = categories | push: category %}
+      {% assign tags = tags | push: category %}
       {% include related-posts.html type='pages' categories=categories tags=tags limit=1 %}
       {% if posts.size > 0 %}
       {% assign root_url = posts.first.url | default: '/' %}
