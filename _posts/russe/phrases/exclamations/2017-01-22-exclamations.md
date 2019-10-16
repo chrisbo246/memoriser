@@ -13,60 +13,6 @@ tags: ["expression", "exclamation"]
 date: 2017-01-22 00:00:00 +0100
 ---
 
-## Exclamations positives
-
-Sympa!
-: Приятно!
-*/Priatna!/*
-
-Cool!
-: Круто!
-*/Krouta!/*
-
-Cool! fam.
-: Крутяк!
-*/Kroutiak!/*
-
-C'est génial!
-: Это здорово!
-*/Èta zdarova!/*
-
-Excellent!
-: Отлично!
-*/Atlitchna!/*
-
-Quel pied!
-: Какой кайф!
-*/Kakoï kaïf!/*
-
-LOL
-: ыыы
-*îîî*
-
-
-## Etonnement
-
-Ô mon dieu!
-: Боже мой!
-*/Bojé moï!/*
-
-C'est pas possible!
-: Не может быть!
-*/Niè mojièt bîtʸ!/*
-
-Ouah!
-: Ого!
-*/Ova!/*
-
-Ouah!
-: Ничего себе!
-*/Nitchivo cibié!/*
-
-Wow!
-: Вау!
-*/Vaou!/*
-
-
 ## Entrain
 
 Vas-y!
@@ -74,55 +20,24 @@ Vas-y!
 */Davaï!/*
 
 
-## Confirmation
-
-Allons-y!
-: Пошли!
-*/Pachli!/*
-
-Allons-y (en voiture)!
-: Поехали!
-*/Paièhli!/*
-
-
-## Constatation
-
-C'est très facile!
-: это очень легко!
-*/èta tak liègko!/ "C'est tellement facile!"*
-
-
-## Félicitation
-
-Bien!
-: Хорошо!
-*/Horocho!/*
-
-Très bien!
-: Очень хорошо!
-*/Otchinʸ haracho!/*
-
-
-## Compliment
-
-La classe!
-: Классно!
-*/Klassna!/*
-
-La classe fam.!
-: Чётко!
-*/Tchiotka!/*
 
 
 ## Apaisement
 
 Je plaisante!
-: Просто шучу!
-*/Prosta choutchou!/ "Simplement plaisanter!"*
+: Я просто шучу!
+*/Ya prosta choutchou!/ "Je simplement plaisanter!"*
+
+
+## Dépit
 
 Pas de bol!
 : Ни хуя!
 */Ni houya!/ "Pas bite!"*
+
+C'est la vie!
+: Сэ ля ви!
+*/cè lia vi!/*
 
 
 ## Attirer l'attention
@@ -136,15 +51,7 @@ A l'aide!
 */Pomaguitiè!/*
 
 
-## Divers
-
-Allô!
-: Алло!
-*/Allo!/*
-
-Boouh!
-: ка-ка!
-*/Ka-ka/ Pour faire peur.*
+## Fin
 
 Voilà!
 : Там!
@@ -154,6 +61,20 @@ C'est tout!
 : Всё!
 */Fcio!/ "tout"*
 
+
+## Divers
+
+Boouh!
+: ка-ка!
+*/Ka-ka/ Pour faire peur.*
+
+Mince!
+: блин
+*/blin'/ "crêpe"*
+
+C'est intergalactique!
+: Это Космос!
+*/Kosmas/ "C'est espace!"*
 
 
 *[fam.]: Familier

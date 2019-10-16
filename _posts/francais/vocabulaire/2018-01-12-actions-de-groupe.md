@@ -38,3 +38,7 @@ prosélytisme
 
 agapes
 : Festin entre amis.
+
+guilde
+: association de professionnels
+*A l'origine de marchands.*

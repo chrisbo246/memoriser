@@ -22,8 +22,12 @@ Bonjour.
   */Ztrastvouïtiè/ Vouvoiement ou pour plusieurs personnes.*
 
   fam.
-  : здравствуй!
+  : Здравствуй!
   */Ztrastvouï!/*
+
+  fam.
+  : Здрасьте!
+  */Zdrasstiè!/*
 
 Bonsoir. (formel)
 : Здравствуйте.
@@ -60,6 +64,10 @@ Salut à tous! (bonjour)
 Salut les amis!
 : Привет друзьям!
 */Priviètᵉ drouziam!/*
+
+Allô!
+: Алло!
+*/Allo!/*
 
 
 ## Enchanté

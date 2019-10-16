@@ -33,6 +33,14 @@ théocratie
 théocrate
 : L'incarnation de dieu.
 
+kleptocrate
+: voleur
+*Homme corrompu qui détourne l'argent du pays.*
+
+poujadiste
+: militant
+*État d'esprit revendicatif limité à une expression étroitement catégorielle. En référence à Pierre Poujade. Ex: un mouvement poujadiste.*
+
 
 ## Divers
 

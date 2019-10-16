@@ -1,0 +1,433 @@
+WEBVTT
+Kind: captions
+Language: ru
+
+STYLE
+::cue {
+  background-image: linear-gradient(to bottom, dimgray, lightgray);
+  color: blue;
+}
+::cue(.translation) {
+  background-color: yellow;
+  color: green;
+  font-size: .5em;
+}
+
+00:00:22.620 --> 00:00:23.700
+Официант!!!
+<c.translation><lang fr>Garçon!!!</lang></c>
+
+00:00:23.800 --> 00:00:25.020
+Я здесь проездом
+<c.translation><lang fr>Je ne fais que passer</lang></c>
+
+00:00:25.060 --> 00:00:27.220
+Из Москвы и сразу в Ниццу
+<c.translation><lang fr>De Moscou et en route pour Nice</lang></c>
+
+00:00:27.600 --> 00:00:31.100
+Заскочить я вдруг решила к вам в культурную столицу
+<c.translation><lang fr>J'ai décidé de passer dans votre capitale culturelle</lang></c>
+
+00:00:31.440 --> 00:00:33.120
+Я с дороги только что
+<c.translation><lang fr>Je viens de quitter la route</lang></c>
+
+00:00:33.760 --> 00:00:35.340
+И я несколько устала
+<c.translation><lang fr>Et je suis un peu fatigué</lang></c>
+
+00:00:35.780 --> 00:00:37.320
+Мне б шампанского бокал
+<c.translation><lang fr>J'aimerais une coupe de champagne</lang></c>
+
+00:00:37.480 --> 00:00:39.100
+А не найдется ли «Кристала»?
+<c.translation><lang fr>Avez-vous un verre de "Crystal"?</lang></c>
+
+00:00:39.240 --> 00:00:40.540
+Что вы, тётя,
+<c.translation><lang fr>Hé vous, ma tante,</lang></c>
+
+00:00:41.020 --> 00:00:42.940
+Мнёте тити?
+<c.translation><lang fr>Vous attachez-vous?</lang></c>
+
+00:00:43.140 --> 00:00:45.000
+Если выпить Вы хотите,
+<c.translation><lang fr>Si vous voulez boire,</lang></c>
+
+00:00:45.080 --> 00:00:47.520
+То берите водки литер
+<c.translation><lang fr>Alors prenez un litre de vodka</lang></c>
+
+00:00:47.780 --> 00:00:49.020
+Это ж Питер, тётя
+<c.translation><lang fr>C'est Petersburg, ma tante</lang></c>
+
+00:00:49.120 --> 00:00:50.780
+Ну шо, берёте?
+<c.translation><lang fr>Allez, vous le prenez?</lang></c>
+
+00:00:51.620 --> 00:00:53.580
+Ну хорошо, несите водку
+<c.translation><lang fr>C'est bon, amène-moi la vodka</lang></c>
+
+00:00:53.740 --> 00:00:55.860
+Только стопку и не больше
+<c.translation><lang fr>Juste un coup et rien de plus</lang></c>
+
+00:00:56.200 --> 00:00:57.580
+Я пила ее однажды
+<c.translation><lang fr>Parce que j'ai essayé une fois</lang></c>
+
+00:00:57.700 --> 00:00:59.440
+Дегустировала в Польше
+<c.translation><lang fr>J'avais goûté en Pologne</lang></c>
+
+00:00:59.860 --> 00:01:01.580
+И скажу вам, не стесняясь,
+<c.translation><lang fr>Et je vais vous dire, sans hésitation,</lang></c>
+
+00:01:01.580 --> 00:01:03.260
+Водка — это не моё
+<c.translation><lang fr>La vodka — c'est pas pour moi</lang></c>
+
+00:01:03.860 --> 00:01:05.800
+На мой вкус резка немного,
+<c.translation><lang fr>A mon goût un peu tranchant,</lang></c>
+
+00:01:06.140 --> 00:01:07.760
+Как шампанское МОЁТ
+<c.translation><lang fr>Comme le champagne МОЁТ</lang></c>
+
+00:01:07.840 --> 00:01:09.520
+Что Вы, тётя,
+<c.translation><lang fr>Hé vous, ma tante,</lang></c>
+
+00:01:09.900 --> 00:01:11.540
+Мнёте тити?
+<c.translation><lang fr>Vous attachez-vous?</lang></c>
+
+00:01:11.760 --> 00:01:13.740
+Если выпить вы хотите,
+<c.translation><lang fr>Si vous voulez boire,</lang></c>
+
+00:01:13.860 --> 00:01:16.220
+То берите водки литер
+<c.translation><lang fr>Alors prenez un litre de vodka</lang></c>
+
+00:01:16.420 --> 00:01:17.880
+Это ж Питер, тётя!
+<c.translation><lang fr>C'est Petersburg, ma tante!</lang></c>
+
+00:01:18.160 --> 00:01:19.800
+Ну шо, берёте?
+<c.translation><lang fr>Allez, vous le prenez?</lang></c>
+
+00:01:20.380 --> 00:01:21.320
+Чисто Питер
+<c.translation><lang fr>Clairement Peter</lang></c>
+
+00:01:21.460 --> 00:01:22.640
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:01:22.700 --> 00:01:24.680
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:01:24.780 --> 00:01:26.880
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:01:28.460 --> 00:01:29.280
+Чисто Питер
+<c.translation><lang fr>Clairement Peter</lang></c>
+
+00:01:29.520 --> 00:01:31.000
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:01:33.080 --> 00:01:34.480
+Чё стесняешься, дядь?
+<c.translation><lang fr>Ce que tu es timide, mon oncle?</lang></c>
+
+00:01:34.620 --> 00:01:35.620
+Заходи!
+<c.translation><lang fr>Entre!</lang></c>
+
+00:01:40.320 --> 00:01:41.220
+Извините!
+<c.translation><lang fr>Excusez-moi!</lang></c>
+
+00:01:42.020 --> 00:01:43.040
+Прошу прощения!
+<c.translation><lang fr>Excuse-toi!</lang></c>
+
+00:01:43.720 --> 00:01:44.500
+Простите!
+<c.translation><lang fr>Désolé!</lang></c>
+
+00:01:44.700 --> 00:01:45.200
+Аха
+<c.translation><lang fr>Ugh-uh</lang></c>
+
+00:01:45.600 --> 00:01:47.900
+Оп! Алё, Алё-на, это я-на!
+<c.translation><lang fr>Oops! Bonjour, Alyona, c'est moi!</lang></c>
+
+00:01:47.980 --> 00:01:49.580
+Чё? Сама ты пьяный!
+<c.translation><lang fr>Quoi? C'est toi qui es saoul!</lang></c>
+
+00:01:49.740 --> 00:01:52.920
+Я сегодня отмечаю день граненого стакана
+<c.translation><lang fr>Aujourd'hui, je célèbre la Journée du verre à facettes !</lang></c>
+
+00:01:53.000 --> 00:01:55.100
+В шумном зале ресторана
+<c.translation><lang fr>Dans une salle bruyante d'un restaurant</lang></c>
+
+00:01:55.240 --> 00:01:57.260
+Перестань, какая пристань?
+<c.translation><lang fr>Allez, quel débarcadère?</lang></c>
+
+00:01:57.440 --> 00:02:00.960
+Тут куда не плюнешь, сука, точно попадешь в артиста
+<c.translation><lang fr>Ici, tu craches partout où tu frappes un artiste, salope !</lang></c>
+
+00:02:01.100 --> 00:02:03.220
+Плесни 300, два по 200
+<c.translation><lang fr>Donnez-moi 300, puis deux sur 200.</lang></c>
+
+00:02:03.380 --> 00:02:05.340
+После — три по 100 по стопкам
+<c.translation><lang fr>Après — trois cents coups</lang></c>
+
+00:02:05.460 --> 00:02:07.280
+Хули все стоят на месте?
+<c.translation><lang fr>Qu'est-ce que tout le monde fout ici?</lang></c>
+
+00:02:07.740 --> 00:02:09.680
+Словно по московским пробкам?
+<c.translation><lang fr>Comme dans les embouteillages de Moscou?</lang></c>
+
+00:02:09.880 --> 00:02:11.480
+Посмотри, какая цаца!
+<c.translation><lang fr>Regarde, quelle nana!</lang></c>
+
+00:02:11.580 --> 00:02:13.600
+Прямо барный аналитик!
+<c.translation><lang fr>Comme un analyste de bar!</lang></c>
+
+00:02:12.860 --> 00:02:17.880
+Оставляю официанту не на чай, а на литер
+<c.translation><lang fr>Je donne un pourboire au serveur</lang></c>
+
+00:02:13.600 --> 00:02:16.800
+Оставляю официанту не на чай,
+<c.translation><lang fr>Pour qu'il puisse se procurer non pas un thé,</lang></c>
+
+00:02:16.820 --> 00:02:17.860
+а на литер
+<c.translation><lang fr>mais un litre</lang></c>
+
+00:02:17.920 --> 00:02:19.420
+Вы куда летите? В Ниццу?
+<c.translation><lang fr>Où est-ce que tu t'envoles? A Nice?</lang></c>
+
+00:02:20.020 --> 00:02:21.880
+Со столицы? Вот те на-ка!
+<c.translation><lang fr>La capitale? Pourquoi, bordel!</lang></c>
+
+00:02:21.880 --> 00:02:24.780
+Так позвольте приземлиться к вам за столик
+<c.translation><lang fr>Alors permettez-moi d'atterrir sur votre table</lang></c>
+
+00:02:25.180 --> 00:02:26.240
+С пересадкой!
+<c.translation><lang fr>C'est un transit!</lang></c>
+
+00:02:27.060 --> 00:02:28.340
+АААААААА!
+<c.translation><lang fr>АААААААА!</lang></c>
+
+00:02:28.380 --> 00:02:29.360
+Не шуми, блять!
+<c.translation><lang fr>Ferme ta gueule, putain!</lang></c>
+
+00:02:29.900 --> 00:02:31.040
+Поддерживаю!
+<c.translation><lang fr>Bien reçu!</lang></c>
+
+00:02:32.500 --> 00:02:34.760
+Зачитал пиздато!
+<c.translation><lang fr>Bien rappé connard!</lang></c>
+
+00:02:34.820 --> 00:02:36.420
+Только было б нехуёво
+<c.translation><lang fr>Mais il vaudrait mieux</lang></c>
+
+00:02:36.620 --> 00:02:37.640
+Вставить бы цитату
+<c.translation><lang fr>Insérer un devis de</lang></c>
+
+00:02:38.100 --> 00:02:39.640
+Кольки Гумилёва
+<c.translation><lang fr>Kolki Gumilev</lang></c>
+
+00:02:39.780 --> 00:02:40.940
+Это Питер, дядя!
+<c.translation><lang fr>C'est Peter, mon oncle!</lang></c>
+
+00:02:41.260 --> 00:02:43.500
+Здесь без акмеистов даже срать не сядем
+<c.translation><lang fr>Ici sans Acmeists, on ne chiera même pas.</lang></c>
+
+00:02:43.820 --> 00:02:45.560
+Рядом в поле чистом,
+<c.translation><lang fr>Proche, dans un champ dégagé,</lang></c>
+
+00:02:45.800 --> 00:02:47.000
+А не то, что выпить
+<c.translation><lang fr>Et encore moins pour boire.</lang></c>
+
+00:02:47.260 --> 00:02:48.460
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:02:49.060 --> 00:02:50.540
+Берега в граните
+<c.translation><lang fr>Les rives du Granit</lang></c>
+
+00:02:50.660 --> 00:02:52.200
+Так что не пизди...
+<c.translation><lang fr>Alors ne me raconte pas de conneries...</lang></c>
+
+00:02:53.040 --> 00:02:53.740
+...ТЕ!
+<c.translation><lang fr>...OUAIS!</lang></c>
+
+00:02:54.300 --> 00:02:56.480
+Как же это охуенно!
+<c.translation><lang fr>C'est trop génial!</lang></c>
+
+00:02:56.480 --> 00:02:58.700
+Накатить с утра водчары!
+<c.translation><lang fr>De boire de la vodka le matin!</lang></c>
+
+00:02:58.900 --> 00:03:00.900
+Будто попадаешь, сука,
+<c.translation><lang fr>Tout comme toi, salope,</lang></c>
+
+00:02:59.220 --> 00:03:02.720
+Будто попадаешь, сука, под волшебные, блять, чары.
+<c.translation><lang fr>C'est comme si tu te faisais prendre dans un putain de sort.</lang></c>
+
+00:03:00.900 --> 00:03:02.660
+Под волшебные, блядь, чары!
+<c.translation><lang fr>Sous la magie de ce putain de sort!</lang></c>
+
+00:03:02.800 --> 00:03:05.120
+<c.translation><lang fr>Вещь в себе, ебать мой хуй,</lang></c>
+
+00:03:03.000 --> 00:03:03.960
+Вещь в себе
+<c.translation><lang fr>C'est une chose en soi</lang></c>
+
+00:03:05.380 --> 00:03:07.040
+Философия, блядь, Канта!
+<c.translation><lang fr>Une philosophie, putain, Kanta!</lang></c>
+
+00:03:07.120 --> 00:03:08.440
+Слышь, ты, дядя!
+<c.translation><lang fr>Hé, toi, mon oncle!</lang></c>
+
+00:03:08.660 --> 00:03:09.720
+Дядя в кепке!
+<c.translation><lang fr>Le mec à la casquette!</lang></c>
+
+00:03:09.920 --> 00:03:11.380
+Позови-ка официанта!
+<c.translation><lang fr>Appelle le serveur!</lang></c>
+
+00:03:11.660 --> 00:03:13.320
+Что Вы, тётя,
+<c.translation><lang fr>Hé vous, ma tante,</lang></c>
+
+00:03:13.520 --> 00:03:15.440
+Мнёте тити?
+<c.translation><lang fr>Vous attachez-vous?</lang></c>
+
+00:03:15.620 --> 00:03:17.980
+Если выпить вы хотите,
+<c.translation><lang fr>Si vous voulez boire,</lang></c>
+
+00:03:18.180 --> 00:03:20.080
+То берите водки литер
+<c.translation><lang fr>Alors prenez un litre de vodka.</lang></c>
+
+00:03:20.080 --> 00:03:21.600
+Это ж Питер, тётя!
+<c.translation><lang fr>C'est Peter, ma tante!</lang></c>
+
+00:03:21.680 --> 00:03:23.400
+Ну шо, берёте?
+<c.translation><lang fr>Allez, vous le prenez?</lang></c>
+
+00:03:23.980 --> 00:03:25.740
+Что Вы, тётя,
+<c.translation><lang fr>Hé vous, ma tante,</lang></c>
+
+00:03:25.940 --> 00:03:27.840
+Мнёте тити?
+<c.translation><lang fr>Vous attachez-vous?</lang></c>
+
+00:03:27.840 --> 00:03:29.920
+Если выпить вы хотите,
+<c.translation><lang fr>Si vous voulez boire,</lang></c>
+
+00:03:30.080 --> 00:03:32.280
+То берите водки литер
+<c.translation><lang fr>Alors prenez un litre de vodka</lang></c>
+
+00:03:32.520 --> 00:03:34.520
+Это ж Питер, тётя!
+<c.translation><lang fr>C'est Peter, ma tante!</lang></c>
+
+00:03:34.680 --> 00:03:36.180
+Ну шо, берете?
+<c.translation><lang fr>Alors, vous le prenez?</lang></c>
+
+00:03:36.600 --> 00:03:37.680
+Чисто Питер
+<c.translation><lang fr>Clairement Peter</lang></c>
+
+00:03:37.680 --> 00:03:38.760
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:03:38.980 --> 00:03:40.820
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:03:41.000 --> 00:03:43.000
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:03:44.600 --> 00:03:45.760
+Чисто Питер
+<c.translation><lang fr>Clairement Peter</lang></c>
+
+00:03:45.760 --> 00:03:46.900
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:03:47.220 --> 00:03:49.100
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>
+
+00:03:49.300 --> 00:03:51.120
+Это чисто Питер
+<c.translation><lang fr>C'est clairement Peter</lang></c>

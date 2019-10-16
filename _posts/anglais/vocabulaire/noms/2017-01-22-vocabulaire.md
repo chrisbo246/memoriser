@@ -34,16 +34,6 @@ séchage en machine
 : tumble dry
 
 
-## Couches
-
-couche
-: layer
-
-une chape
-: screed
-*Ex: Une chape de béton.*
-
-
 ## Argot
 
 signature
@@ -103,3 +93,6 @@ feuille de vigne
 
 immobilier
 : real estate
+
+galet
+: pebble

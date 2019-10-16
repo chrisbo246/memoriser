@@ -15,6 +15,10 @@ date: 2018-01-10 00:00:00 +0100
 
 ## Fête
 
+fête
+: праздник
+*/praznik/*
+
 soirée (avec alcool)
 : Пьянка
 */pianka/*

@@ -102,6 +102,9 @@ veste de costume
 cardigan, gilet en laine
 : cardigan
 
+veste matelassée
+: quilted jacket
+
 gilet (sans manche)
 : vest
 
@@ -248,6 +251,9 @@ hood
 
 fermeture éclaire
 : zipper
+
+semelle
+: footbed
 
 
 ## Divers

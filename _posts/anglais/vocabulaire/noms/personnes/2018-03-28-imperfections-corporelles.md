@@ -66,8 +66,8 @@ un suçon
 coup du soleil
 : sunburn
 
-cramp
-: crampe
+crampe
+: cramp
 
 courbatures
 : aches

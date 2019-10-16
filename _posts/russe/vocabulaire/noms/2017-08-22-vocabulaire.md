@@ -47,3 +47,7 @@ accident
 fait maison
 : сделай сам
 */sdièlaï samᵉ/ "fait soit-même"*
+
+absurdité
+: ерунда
+*/ièrounᵉda/"gérondif"*

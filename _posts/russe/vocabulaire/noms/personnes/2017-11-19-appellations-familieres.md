@@ -21,8 +21,13 @@ les jeunes gens sont souvent appelés « filles »/« garçons » (« devouchka 
 ## Hommes de la famille
 
 papa
-: Папа
-*/papa/*
+: n.
+  : папа
+  */papa/ "papa"*
+
+  fam.
+  : папочка
+  */papotchka/ "mon petit papa"*
 
 grand-père
 : дед
@@ -32,8 +37,13 @@ grand-père
 ## Femmes de la famille
 
 maman
-: мама
-*/mama/*
+: n.
+  : мама
+  */mama/ "maman"*
+
+  fam.
+  : мамочка
+  */mamotchka/ "ma petite maman"*
 
 mamie
 : бабуля

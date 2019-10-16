@@ -96,7 +96,7 @@ Je suis marié.
 Je ne suis pas marié.
 : m.
   : Я ne женат.
-  */Ya niè jenatᵉ./ "Je m. ne suis pas marié."*
+  */Ya niè jiènatᵉ./ "Je m. ne suis pas marié."*
 
   f.
   : Я ne замужем.

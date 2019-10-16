@@ -27,7 +27,16 @@ parangon
 *Ex: un parangon de vertu.*
 
 thaumaturge
-: faiseur de miracle
+: faiseur de miracle.
+
+cacique [fam.]
+: Qui fait parti de l'élite sociale.
+
+profane
+: Novice, qui ne s'y connaît pas.
 
 lycanthrope
 : loup-garou
+
+
+*[fam.]: Familier

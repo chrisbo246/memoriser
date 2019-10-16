@@ -33,3 +33,6 @@ rubicond(e)
 
 poivre et sel
 : Cheveux grisonnants.
+
+visage glabre
+: Sans barbe ni moustache.

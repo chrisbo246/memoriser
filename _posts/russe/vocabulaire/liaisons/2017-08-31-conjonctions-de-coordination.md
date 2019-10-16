@@ -13,9 +13,18 @@ tags: ["liaison"]
 date: 2017-08-31 00:00:00 +0100
 ---
 
-et, mais
+
+et (également)
+: и
+*/i/*
+
+et (au contraire)
 : а
 */a/*
+
+ainsi que
+: а так же
+*/a tak jè/*
 
 pourvu que
 : абы
@@ -78,8 +87,13 @@ que
 */tchièmᵉ/ Pour comparer.*
 
 que
-: что
-*/chto/*
+: m.
+  : что
+  */chto/*
+
+  fam.
+  : чё
+  */tchio/*
 
 afin que, pour que, sans quoi
 : чтобы
@@ -89,37 +103,83 @@ afin que, pour que, sans quoi
 
 ## Locutions conjonctives
 
-Ainsi que
-: а также
-*/a takjè/*
+… voici pourquoi
+: поэтому
+*/paètamou/*
 
-Pour que
-: благодаря чему
-*/blagadaria tchimou/*
-
-Tandis que, alors que, quand
-: в то время как
-*/f'to vrimia kak/*
-
-Pourvu que
-: лишь бы
-*/lichʸ bî/*
-
-parce que
+… parce que
 : потому что
 */patamou chto/*
 
-Pourvu que
+parce que …
+: так как
+*/tak kak/*
+
+ainsi que
+: а также
+*/a takjè/*
+
+pour que
+: благодаря чему
+*/blagadaria tchimou/*
+
+tandis que, alors que, quand
+: в то время как
+*/f'to vrimia kak/*
+
+pourvu que
+: лишь бы
+*/lichʸ bî/*
+
+pourvu que
 : только бы
 */tolka bî/*
 
 
-## Divers
+## Argot
 
-et
-: и
-*/i/ Pour énumérer.*
+rien, pas mal
+: cour.
+  : ничего
+  */nitchivo/*
 
-et
-: а
-*/а/ Pour comparer.*
+  fam.
+  : ничё
+  */nitchio/*
+
+quelque chose
+: m.
+  : что-то
+  */chto ta/*
+
+  fam.
+  : чёт
+  */tchiotᵉ/*
+
+quelque chose
+: cour.
+  : что-нибудь
+  */chto-niboutʸ/*
+
+  fam.
+  : чё-нибудь
+  */tchio-niboutʸ/*
+
+tu (au datif)
+: cour.
+  : тебе
+  */tibiè/*
+
+  fam.
+  : те
+  */tiè/*
+
+
+
+  *[m.]: Masculin
+  *[f.]: Féminin
+  *[s.]: Singulier
+  *[pl.]: Pluriel
+  *[cour.]: Courrant
+  *[fam.]: Familier
+  *[sout.]: Soutenu

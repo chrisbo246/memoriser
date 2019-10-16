@@ -13,9 +13,32 @@ tags: ["nom", "informatique", "internet"]
 date: 2017-01-01 00:00:00 +0100
 ---
 
-le net
-: инет
-*/inétᵉ/*
+ordinateur
+: m.
+  : компьютер
+  */comᵉpioutièrᵉ/*
+
+  fam.
+  : комп
+  */comᵉpᵉ/ "ordi"*
+
+ordinateur portable
+: m.
+  : ноутбук
+  */notbouk/*
+
+  fam.
+  : ноут
+  */notᵉ/ "portable"*
+
+Internet
+: m.
+  интернет
+  */inᵉtièrnetᵉ/*
+
+  fam.
+  : инет
+  */iniètᵉ/ "net"*
 
 ICQ
 : аська
@@ -32,9 +55,27 @@ trouver
 : найти
 */naïti/*
 
+musique
+: m.
+  : музыка
+  */mouzica/*
+
+  fam.
+  : музло
+  */mouzlo/ "zik"*
+
 vidéo
 : видео
 */vidio/*
+
+photographie
+: f.
+  : фотография
+  */fatagrafia/*
+
+  fam.
+  : фотка
+  */fotka/ "photo"*
 
 image
 : f.

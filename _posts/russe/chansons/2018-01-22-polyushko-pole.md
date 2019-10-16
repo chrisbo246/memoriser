@@ -16,7 +16,7 @@ published: true
 ---
 
 
-<iframe class="float-xl-right sticky-top lazyload" width="560" height="315" data-src="https://www.youtube.com/watch?v=KFHE-z_xhQw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<iframe class="float-xl-right sticky-top lazyload" width="560" height="315" data-src="https://www.youtube-nocookie.com/embed/KFHE-z_xhQw?rel=0&showinfo=0&cc_load_policy=1&hl={{ page.lang }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 
 ## Refrain

@@ -68,8 +68,13 @@ plus tôt
 ## Date précise (verbe perfectif)
 
 aujourd'hui
-: сегодня
-*/civodnia/*
+: cour.
+  : сегодня
+  */civodnia/*
+
+  fam.
+  сёдня
+  */siodnia/*
 
 hier
 : вчера

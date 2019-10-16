@@ -16,7 +16,7 @@ date: 2017-12-31 00:00:00 +010
 published: true
 ---
 
-<iframe class="float-xl-right sticky-top lazyload" width="560" height="315" data-src="https://www.youtube-nocookie.com/embed/TbML094nmmQ?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+<iframe class="float-xl-right sticky-top lazyload" width="560" height="315" data-src="https://www.youtube-nocookie.com/embed/TbML094nmmQ?rel=0&showinfo=0&cc_load_policy=1&hl={{ page.lang }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 
 ## Refrain

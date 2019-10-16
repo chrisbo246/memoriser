@@ -137,6 +137,18 @@ dangereux
 */apasna/*
 
 
+## Autorisation
+
+il est interdit
+: m.
+  : нельзя
+  */nilzia/*
+
+  fam.
+  : низя
+  */nizia/*
+
+
 ## Quantité
 
 un peu

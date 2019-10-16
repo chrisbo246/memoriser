@@ -15,24 +15,6 @@ tags: ["nom",
 date: 2017-03-28 20:51:00 +0100
 ---
 
-## Famille
-
-parrain, marraine
-: godparent
-
-parrain
-: godfather
-
-marraine
-: godmother
-
-filleul
-: godson
-
-frères et sœurs
-: siblings
-
-
 ## Selon l’âge
 
 ainé

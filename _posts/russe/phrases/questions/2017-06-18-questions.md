@@ -89,6 +89,10 @@ Y a t'il des embouteillages en ce moment?
 : Сейчас есть пробки?
 */Ciètchass yèstʸ prabki/ "Maintenant il-y-a embouteillages?"*
 
+Est-ce que le Net marche chez toi?
+: У тя работает Инет?
+*/Ou tïarabotaïèt i'nïèt'?/ "Chez toi fonctionne net?"*
+
 
 ## Aujourd'hui
 

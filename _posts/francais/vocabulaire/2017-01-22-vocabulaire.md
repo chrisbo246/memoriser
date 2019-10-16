@@ -93,3 +93,7 @@ opprobre
 
 atavisme
 : Hérédité.
+
+cinécure
+: travail facile
+*Travail facile et bien rémunéré.*

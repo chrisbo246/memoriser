@@ -9,7 +9,7 @@ image:
   width: 600
   height: 400
 categories: ["anglais", "vocabulaire"]
-tags: ["nom", "personne", "corps", "membre", "organe"]
+tags: ["nom", "personne", "corps", "membre"]
 date: 2017-03-28 20:51:00 +0100
 ---
 
@@ -260,63 +260,3 @@ moustache
 
 rouflaquettes
 : sideburns
-
-
-## Squelette
-
-os
-: bone
-
-crane
-: skull
-
-omoplate
-: shoulder blade
-
-côte(s)
-: rib(s)
-
-colonne vertébrale
-: backbone, spine
-
-bassin
-: pelvis
-
-
-## Organes
-
-cerveau
-: brain
-
-cœur
-: heart
-
-foie
-: liver
-
-rein(s)
-: kidney(s)
-
-intestin
-: intestine
-
-moelle
-: marrow
-
-veine(s)
-: vein(s)
-
-artère(s)
-: artery / arteries
-
-muscle(s)
-: muscle(s)
-
-peau
-: skin
-
-la chair
-: flesh
-
-utérus
-: womb

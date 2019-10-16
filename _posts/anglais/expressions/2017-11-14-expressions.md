@@ -466,3 +466,15 @@ attends, tu verras
 
 crois-moi
 : you can take it from
+
+Je ne vais pas citer de noms.
+: I will not name names.
+
+Il a un don.
+: He has a gift.
+
+J'ai hâte de ...
+: I can't wait ...
+
+mettre les gaz
+: open the throttle

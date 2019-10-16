@@ -13,43 +13,101 @@ tags: ["nom", "objet", "mécanique"]
 date: 2017-01-01 00:00:00 +0100
 ---
 
-## Systèmes mécanique
+## Tige
 
-coin
-: wedge
+barre, canne
+: rod
 
-crémaillère
-: pack (and pinion)
+perche, poteau
+: pole
 
-chanfrein
-:	chamfer
+piquet
+: peg
 
-engrenage
-: gear
-
-essieu
-: axle
-
-filetage
-: thread
+tige
+: stem
 
 levier
 : lever
 
+patte, ergot, tenon
+: lug
+
+
+## Tube
+
+tumble
+: pipe
+
+tuyau
+: hose
+
+
+## Roue
+
+roue
+: wheel
+
+essieu
+: axle
+
 moyeu
 : hub
+
+
+## Engrenage
+
+engrenage
+: gear
 
 pignon
 : pinion
 
+crémaillère
+: pack (and pinion)
+
+
+## Plan
+
 plan incliné
 : inclined plane
 
+couche
+: layer
+
+une chape
+: screed
+*Ex: Une chape de béton.*
+
+
+## Forme
+
+chanfrein
+:	chamfer
+
+
+## Noeud
+
+boucle
+: coil
+
+nœud
+: knot
+
+
+## Divers
+
+coin
+: wedge
+
+cale
+: shim
+
+filetage
+: thread
+
 raccord
 : connection
-
-roue
-: wheel
 
 manivelle
 : crank

@@ -21,6 +21,9 @@ magnanime
 sagace
 : Perspicace.
 
+Stoïque, stoïcien
+: Courageux et ferme (relatif au stoïcisme, selon la doctrine de Zénon).
+
 
 ## Attitude négative
 
@@ -57,9 +60,25 @@ putassier
 servile
 : Comportement de larbin.
 
+vindicatif
+: rancunier
+
 
 ## Etat d'esprit
 
 dichotomique
 : Partagé.
 *"coupé en deux"*
+
+capacitif / validiste
+: Discriminant envers les personnes handicapées (relatif au [capacitisme](https://fr.wikipedia.org/wiki/Capacitisme))
+
+eschatologique
+: croyances après mort
+
+
+## Divers
+
+tonitruant
+: bruyant
+"Une voix tonitruante."

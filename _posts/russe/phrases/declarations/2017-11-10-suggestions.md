@@ -23,6 +23,14 @@ Allons-y!
 : Пойдём!
 */Païdiomᵉ!/*
 
+Allons-y!
+: Пошли!
+*/Pachli!/*
+
+Allons-y (en voiture)!
+: Поехали!
+*/Paièhli!/*
+
 Allons plus loin
 : Пойдём дальше
 */Paîdiomᵉ dalchiè/*
@@ -39,6 +47,9 @@ Allons ensemble …
 : давай сходим вместе …
 */Davaï s'hodimᵉ vmistiè …/ "viens allons enssemble …"*
 
+Allons faire quelque chose ce soir
+: Давай чё пить замутим этим вечером
+*Davaï tchio pitʸ zamoutimᵉ ètimᵉ viètchiromᵉ*
 
 
 ## Échange de coordonnées
@@ -80,6 +91,15 @@ Va-t'en!
 Dehors!
 : Снаружи!
 */Snarouji/*
+
+Relax!
+: m.
+  : Сдуть!
+  */sdoutʸ!/ "dégonfle!"*
+
+  f.
+  : Сдуться!
+  */sdouïcia!/ "dégonfle!"*
 
 
 ## Au taxi

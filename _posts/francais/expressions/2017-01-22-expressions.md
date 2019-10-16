@@ -59,6 +59,11 @@ pis que pendre
 : Dire du mal avec exagération.
 *Ex: dire pis que pendre de quelqu'un.*
 
+dans l'expectative
+: en attente de
+
+à l'aune de
+: à la mesure de
 
 
 *[Litt.]: Littéralement

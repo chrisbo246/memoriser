@@ -27,13 +27,14 @@ Je vous en prie!
 : Прошу вас!
 */Prachou vass!/*
 
-Je comprends.
-: Я понимаю.
-*/Ya panimaï./*
-
 Ravi de vous rencontrer!
 : Очень приятно познакомиться
 */Otchin priatna paznakomitcia!/	"Très sympa faire-connaissance!"*
+
+cela ne fait rien
+: cour.
+  : ничего
+  */nitchivo/*
 
 
 ## Remerciement
@@ -47,22 +48,7 @@ C'est si gentil!
 */Èta tak mila!/*
 
 
-## Confirmation
-
-C'est vrai.
-: Правда.
-*/Pravda./*
-
-C'est clair!
-: Ясно!
-*/Yasna!/*
-
-
 ## Divers
-
-Je sais.
-: Я знаю.
-*/Ya znaiou./*
 
 Comme c’est intéressant!
 : Как интересно!

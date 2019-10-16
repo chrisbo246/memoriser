@@ -140,3 +140,10 @@ allitération
 
 assonance
 : Répétition d’un même son (voyelle) dans une phrase.
+
+
+## Divers
+
+didascalie
+: instruction
+*Instruction donnée par un auteur dramatique à un acteur sur la manière d'interpréter son rôle.*

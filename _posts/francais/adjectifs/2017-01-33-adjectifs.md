@@ -23,6 +23,10 @@ onirique
 : Inspiré par un rêve.
 *Ex: un récit onirique.*
 
+holistique
+: globale
+*Ex: une vision holistique.*
+
 
 ## Vision intélectuelle
 
@@ -37,9 +41,9 @@ Kafkaïen(ne)
 
 ## Situation
 
-holistique
-: Globale.
-*Ex: une vision holistique.*
+cocasse
+: amusant
+
 
 endémique
 : Qui sévit en permanence.

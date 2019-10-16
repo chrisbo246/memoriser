@@ -38,6 +38,15 @@ adolescent
 
 homme
 : m.
+: челавек
+*/tchilavièk/*
+
+fam.
+: чел
+*/tchil'/ "gars"*
+
+homme (marié)
+: m.
   : мужчина
   */mouchina/*
 
@@ -52,9 +61,14 @@ jeune fille
 : девочка
 */dièvotchka/*
 
-jeune femme, demoiselle
-: девушка
-*/diévouchka/*
+femme, demoiselle
+: f.
+  : девушка
+  */diévouchka/*
+
+  fam.
+  : тёлка
+  */tiolka/ "meuf"*
 
 femme (mariée)
 : f.
@@ -99,6 +113,14 @@ ami
   : друзья
   */drouzia/ "amis"*
 
+fou
+: дурак
+*/dourak/*
+
+connard
+: Чмо
+*/tchmo/*
+
 racaille fam.
 : гопник
 */gopnik/*
@@ -122,6 +144,11 @@ femme négligée fam.
 pigeon fam.
 : пижон
 */pijonᵉ/ Personne qui attache trop d'importance à son apparence.*
+
+commères
+: Шерочка с машерочкой
+*/Chirotchka c'machiratchoï/ "chère avec ma chère" pour parler de 2 amis qui bavardent en faisant des manières.*
+
 
 
 *[m.]: Masculin

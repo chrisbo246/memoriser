@@ -73,6 +73,10 @@ ASAP
 : as soon as possible
 *Aussi vite que possible.*
 
+IMHO
+: in my humble opinion
+*À mon humble avis.*
+
 KO
 : knock out
 *Frappé à perdre conscience.*
@@ -88,6 +92,31 @@ SOS
 R.I.P.
 : rest in peace
 *Repose en paix.*
+
+w/
+: with
+*Commun mais très informel*
+
+w/o
+: without
+*Commun mais très informel.*
+
+b/c
+: because
+*Très informel.*
+
+c/o
+: for care of
+*à l'attention de …*
+
+I/O
+: input/output
+
+AC
+: alternating current
+
+DC
+:  direct current
 
 
 ## Divers
